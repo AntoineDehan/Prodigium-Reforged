@@ -15,7 +15,7 @@
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 4.5
+	EnderGuardianHealthMultiplier = 2.2
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageMultiplier = 8.0
@@ -26,7 +26,7 @@
 	EnderguardianBlockBreaking = true
 	#Guardian's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Guardian's prevent attacks from far away Range" = 14.0
+	"Guardian's prevent attacks from far away Range" = 21.0
 	#EnderGuardianBlockBreaking radius
 	#Range: 0 ~ 20
 	"EnderGuardianBlockBreaking X" = 15
@@ -67,7 +67,7 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 3.5
+	MonstrosityHealthMultiplier = 1.8
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityDamageMultiplier = 9.5
@@ -78,7 +78,7 @@
 	NetheritemonstrosityBodyBloking = true
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Monstrosity's prevent attacks from far away Range" = 16.0
+	"Monstrosity's prevent attacks from far away Range" = 21.0
 	#Monstrosity's attack Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Monstrosity's attack Hp Damage" = 0.14
@@ -94,7 +94,7 @@
 	EndergolemBlockBreaking = false
 	#Endergolem's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Endergolem's prevent attacks from far away Range" = 14.0
+	"Endergolem's prevent attacks from far away Range" = 18.0
 	#Golem's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
 	GolemHealthMultiplier = 8.0
@@ -111,7 +111,7 @@
 	IgnisDamageMultiplier = 5.0
 	#Ignis's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Ignis's prevent attacks from far away Range" = 16.0
+	"Ignis's prevent attacks from far away Range" = 21.0
 	#Ignis's DamageCap
 	#Range: 0 ~ 1000000
 	IgnisDamageCap = 25
@@ -188,7 +188,7 @@
 	HarbingerDamageMultiplier = 4.5
 	#Harbinger's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"The Harbinger's prevent attacks from far away Range" = 15.0
+	"The Harbinger's prevent attacks from far away Range" = 20.0
 	#Harbinger's DamageCap
 	#Range: 0 ~ 1000000
 	"The Harbinger DamageCap" = 23
@@ -244,7 +244,7 @@
 	LeviathanDamageMultiplier = 1.2
 	#Leviathan's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Leviathan's prevent attacks from far away Range" = 30.0
+	"Leviathan's prevent attacks from far away Range" = 40.0
 	#Leviathan's Bite Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Leviathan's Bite Hp Damage" = 0.2
