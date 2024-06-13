@@ -1,0 +1,43 @@
+
+[General]
+	#Add SimpleOres items to chest loot?
+	AddModLootToChests = true
+	#Enable Simple Ores aesthetic blocks?
+	EnableAestheticsBlocks = true
+
+[Tools]
+	#false disables recipes
+	EnableCopperTools = true
+	#false disables recipes
+	EnableTinTools = false
+	#false disables recipes
+	EnableMythrilTools = true
+	#false disables recipes
+	EnableAdamantiumTools = true
+	#false disables recipes
+	EnableOnyxTools = true
+	#false disables recipes
+	EnableCopperBucket = true
+	#false disables milking cows with copper bucets
+	EnableCopperBucketMilking = true
+	#liquids at temperature C or higher melt copper buckets
+	#Range: -200 ~ 5000
+	CopperBucketMeltTemperature = 1000
+	#Copper is a good heat conductor. Liquids at this temp or higher set you on fire. Leave at 9999 to disable
+	#Range: 300 ~ 9999
+	CopperBucketSetYouOnFireTemperature = 9999
+	#false disables recipes
+	EnableModBows = true
+
+[Armor]
+	#false disables recipes
+	EnableCopperArmor = true
+	#false disables recipes
+	EnableTinArmor = false
+	#false disables recipes
+	EnableMythrilArmor = true
+	#false disables recipes
+	EnableAdamantiumArmor = true
+	#false disables recipes
+	EnableOnyxArmor = true
+

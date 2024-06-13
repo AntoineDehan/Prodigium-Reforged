@@ -1,0 +1,194 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 1, 2023, 8:32:12 PM
+
+#irons_spellbooks:antiquated_compass_locator
+- irons_spellbooks:citadel (from irons_spellbooks-1.19.2-1.1.5.jar)
+
+#environmental:has_healer_pouch
+- #minecraft:mineshaft (from environmental-1.19.2-3.0.0.jar)
+- minecraft:stronghold (from environmental-1.19.2-3.0.0.jar)
+
+#dungeons_arise:explorer_maps/plague_asylum
+- dungeons_arise:plague_asylum (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#betterdeserttemples:applies_mining_fatigue
+- betterdeserttemples:desert_temple (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+
+#dungeons_arise:explorer_maps/shiraz_palace
+- dungeons_arise:shiraz_palace (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#dungeons_arise:explorer_maps/illager_fort
+- dungeons_arise:illager_fort (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#minecraft:cats_spawn_in
+- minecraft:swamp_hut (from Default)
+
+#dungeons_plus:on_snowy_temple_maps
+- dungeons_plus:snowy_temple (from dungeons_plus-1.19.2-1.3.1.jar)
+
+#betterdungeons:better_dungeons
+- betterdungeons:small_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:spider_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:skeleton_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:zombie_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:small_nether_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+
+#quark:soul_bead_target
+- minecraft:fortress (from Quark-3.4-394.jar)
+- betterfortresses:fortress? (from Quark-3.4-394.jar)
+
+#bettermineshafts:better_mineshafts
+- bettermineshafts:mineshaft_acacia (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_dripstone (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_ice (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_jungle (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_lush (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mesa (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mushroom (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_oak (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_overgrown (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_red_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce_snowy (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#dungeons_arise:explorer_maps/mining_system
+- dungeons_arise:mining_system (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#dungeons_arise:explorer_maps/illager_corsair
+- dungeons_arise:illager_corsair (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#minecraft:shipwreck
+- minecraft:shipwreck (from Default)
+- minecraft:shipwreck_beached (from Default)
+
+#betteroceanmonuments:better_ocean_monuments
+- betteroceanmonuments:ocean_monument (from YungsBetterOceanMonuments-1.19.2-Forge-2.1.0.jar)
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument (from Default)
+- betteroceanmonuments:ocean_monument (from YungsBetterOceanMonuments-1.19.2-Forge-2.1.0.jar)
+
+#cataclysm:eye_of_flame_located
+- cataclysm:burning_arena (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#betterstrongholds:better_strongholds
+- betterstrongholds:stronghold (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure (from Default)
+
+#morevillagers:on_mineshaft_explorer_maps
+- #bettermineshafts:better_mineshafts (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert (from Default)
+- minecraft:ruined_portal_jungle (from Default)
+- minecraft:ruined_portal_mountain (from Default)
+- minecraft:ruined_portal_nether (from Default)
+- minecraft:ruined_portal_ocean (from Default)
+- minecraft:ruined_portal (from Default)
+- minecraft:ruined_portal_swamp (from Default)
+
+#minecraft:village
+- minecraft:village_plains (from Default)
+- minecraft:village_desert (from Default)
+- minecraft:village_savanna (from Default)
+- minecraft:village_snowy (from Default)
+- minecraft:village_taiga (from Default)
+
+#dungeons_plus:on_reanimated_ruins_maps
+- dungeons_plus:reanimated_ruins_mossy (from dungeons_plus-1.19.2-1.3.1.jar)
+- dungeons_plus:reanimated_ruins_mesa (from dungeons_plus-1.19.2-1.3.1.jar)
+- dungeons_plus:reanimated_ruins_frozen (from dungeons_plus-1.19.2-1.3.1.jar)
+
+#dungeons_arise:explorer_maps/keep_kayra
+- dungeons_arise:keep_kayra (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#cataclysm:eye_of_mech_located
+- cataclysm:ancient_factory (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#dungeons_arise:explorer_maps/foundry
+- dungeons_arise:foundry (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold (from Default)
+- minecraft:ocean_ruin_warm (from Default)
+
+#betterdeserttemples:better_desert_temples
+- betterdeserttemples:desert_temple (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+
+#cataclysm:eye_of_ruined_located
+- cataclysm:ruined_citadel (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#minecraft:mineshaft
+- minecraft:mineshaft (from Default)
+- minecraft:mineshaft_mesa (from Default)
+- bettermineshafts:mineshaft_acacia (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_ice (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_jungle (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_lush (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mesa (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mushroom (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_oak (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_red_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce_snowy (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_overgrown (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_dripstone (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#cataclysm:eye_of_monstrous_located
+- cataclysm:soul_black_smith (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion (from Default)
+- dungeons_arise:shiraz_palace (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+- dungeons_arise:bandit_towers (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+- dungeons_arise:foundry (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+- dungeons_arise:keep_kayra (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+- dungeons_arise:infested_temple (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+- dungeons_arise:plague_asylum (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#minecraft:cats_spawn_as_black
+- minecraft:swamp_hut (from Default)
+
+#dungeons_arise:explorer_maps/thornborn_towers
+- dungeons_arise:thornborn_towers (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#dungeons_plus:on_leviathan_maps
+- dungeons_plus:leviathan (from dungeons_plus-1.19.2-1.3.1.jar)
+
+#valhelsia_structures:on_spawner_dungeon_explorer_maps
+- valhelsia_structures:spawner_dungeon (from valhelsia_structures-forge-1.19.2-1.0.1.jar)
+
+#dungeons_plus:on_warped_garden_maps
+- dungeons_plus:warped_garden (from dungeons_plus-1.19.2-1.3.1.jar)
+
+#dungeons_arise:explorer_maps/mushroom_mines
+- dungeons_arise:mushroom_mines (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#irons_spellbooks:wayward_compass_locator
+- irons_spellbooks:catacombs (from irons_spellbooks-1.19.2-1.1.5.jar)
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold (from Default)
+- betterstrongholds:stronghold (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+
+#dungeons_arise:explorer_maps/monastery
+- dungeons_arise:monastery (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#dungeons_arise:explorer_maps/bandit_towers
+- dungeons_arise:bandit_towers (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#alexsmobs:spawns_underminers
+- #minecraft:mineshaft (from alexsmobs-1.21.1.jar)
+
+#dungeons_arise:explorer_maps/illager_campsite
+- dungeons_arise:illager_campsite (from DungeonsArise-1.19.2-2.1.56-beta.jar)
+
+#valhelsia_structures:on_castle_explorer_maps
+- valhelsia_structures:castle (from valhelsia_structures-forge-1.19.2-1.0.1.jar)
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin (from Default)
+- #minecraft:shipwreck (from Default)

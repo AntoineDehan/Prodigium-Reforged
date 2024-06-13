@@ -1,0 +1,14 @@
+
+#General Settings
+[Bosses]
+	#List of entities that should regain health whenever a play dies nearby.
+	"boss entities:" = ["minecraft:wither", "minecraft:ender_dragon", "meetyourfight:swampjaw", "conjurer_illager:conjurer", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "minecraft:elder_guardian", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:awful_ghast", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "minecraft:warden", "cataclysm:the_harbinger", "alexsmobs:void_worm", "stalwart_dungeons:shelterer", "cataclysm:ender_guardian", "cataclysm:ender_golem", "irons_spellbooks:dead_king", "meetyourfight:rosalyne"]
+	#Radius to check around player who died for bosses to regain health. Default 16. Value between 0 and 256
+	#Range: 0 ~ 256
+	"radius:" = 24
+
+	[Bosses."Health Percent"]
+		#How much should the boss heal whenever a player dies nearby? Setting this to 1 will make it heal to full, 0.5 will heal it by half its max HP. Value between 0.0 and 1.0
+		#Range: 0.0 ~ 1.0
+		"heal factor:" = 0.1
+

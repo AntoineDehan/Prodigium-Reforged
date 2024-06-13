@@ -1,0 +1,31 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 1, 2023, 8:32:12 PM
+
+#allurement:unusable_on_horse_armor
+- minecraft:aqua_affinity (from allurement-1.19.2-3.1.0.jar)
+- allurement:alleviating (from allurement-1.19.2-3.1.0.jar)
+- allurement:vengeance (from allurement-1.19.2-3.1.0.jar)
+
+#disenchanting:blacklisted_enchantments
+- minecraft:binding_curse (from Disenchanting-forge-1.19-2.2.2.jar)
+- minecraft:vanishing_curse (from Disenchanting-forge-1.19-2.2.2.jar)
+- minecraft:binding_curse (from prodigiumcompat)
+- minecraft:vanishing_curse (from prodigiumcompat)
+- majruszsenchantments:breaking_curse (from prodigiumcompat)
+- majruszsenchantments:corrosion_curse (from prodigiumcompat)
+- majruszsenchantments:fatigue_curse (from prodigiumcompat)
+- majruszsenchantments:incompatibility_curse (from prodigiumcompat)
+- majruszsenchantments:vampirism_curse (from prodigiumcompat)
+- allurement:ascension_curse (from prodigiumcompat)
+- allurement:fleeting_curse (from prodigiumcompat)
+- cursery:curse_blindness (from prodigiumcompat)
+- cursery:curse_weakness (from prodigiumcompat)
+- cursery:curse_switchy (from prodigiumcompat)
+- cursery:curse_illusion (from prodigiumcompat)
+- cursery:curse_laddering (from prodigiumcompat)
+- cursery:curse_breaking (from prodigiumcompat)
+- maenchants:curse_butterfingers (from prodigiumcompat)
+- maenchants:curse_aquaphobia (from prodigiumcompat)
+- maenchants:curse_death (from prodigiumcompat)
+
+#dungeons_plus:warped_axe_applicable
+- soulfired:soul_fire_aspect? (from dungeons_plus-1.19.2-1.3.1.jar)

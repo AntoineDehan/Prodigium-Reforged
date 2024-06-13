@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable"
+  ],
+  "incompatible": [
+    "minecraft:infinity",
+    "minecraft:mending",
+    "allurement:alleviating",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

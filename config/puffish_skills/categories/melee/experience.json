@@ -1,0 +1,60 @@
+{
+	"enabled": true,
+	"experience_per_level": {
+		"type": "values",
+		"data": {
+			"values": [
+				50,
+				70,
+				90,
+				90,
+				120,
+				145,
+				150,
+				150,
+				200,
+				250,
+				300,
+				380,
+				380,
+				380,
+				380,
+				450,
+				450,
+				460,
+				550,
+				550,
+				600,
+				600,
+				700,
+				700,
+				850,
+				850,
+				900,
+				1350
+			]
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"parameters": {
+					"dropped_xp": {
+						"type": "entity_dropped_experience"
+					}
+				},
+				"experience": [
+					{
+						"expression": "dropped_xp / 3.8"
+					}
+				],
+				"anti_farming": {
+					"enabled": true,
+					"limit_per_chunk": 13,
+					"reset_after_seconds": 360
+				}
+			}
+		}
+	]
+}

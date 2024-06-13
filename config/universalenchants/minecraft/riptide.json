@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche"
+  ],
+  "incompatible": [
+    "minecraft:channeling",
+    "minecraft:loyalty",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

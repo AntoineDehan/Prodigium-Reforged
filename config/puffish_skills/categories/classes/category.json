@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"exclusive_root": true,
+	"title": "Classes",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "beacon"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}

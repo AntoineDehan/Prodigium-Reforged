@@ -1,0 +1,53 @@
+{
+  "startingValue" : 2,
+  "minValue" : 0,
+  "maxValue" : 615,
+  "changePerSecond" : 0.00020,
+  "mode" : {
+    "type" : "distance_and_time",
+    "distance" : {
+      "distanceFactor" : 0.0011
+    },
+    "average" : {
+      "radius" : 256
+    }
+  },
+  "groupBonus" : "1 + 0.05 * (areaPlayerCount - 1)",
+  "groupBonusRadius" : 128,
+  "idleMultiplier" : 0.5,
+  "afkMessage" : true,
+  "timeBeforeAfk" : 120,
+  "sleepWarningMessage": false,
+  "multipliers" : {
+    "lunarMultipliers" : [1.1, 1.075, 1.05, 1.0, 0.95, 1.0, 1.05, 1.075],
+    "locationMultipliers" : [
+      {
+        "scale" : 1.5,
+        "dimensions" : ["minecraft:the_end", "minecraft:the_nether", "aether:the_aether"]
+      },
+      {
+        "scale" : 1.025,
+        "dimensions" : ["minecraft:overworld"],
+        "biomes" : ["minecraft:swamp", "minecraft:swamp_hills"]
+      }
+    ]
+  },
+  "mutators" : {
+    "onBlightKilled" : "difficulty",
+    "onHostileKilled" : "difficulty",
+    "onPeacefulKilled" : "difficulty",
+    "onPlayerKilled" : "difficulty + 0.05",
+    "onPlayerDeath" : "difficulty",
+    "onPlayerSleep" : "difficulty",
+    "byEntity" : [
+      {
+        "entities" : ["minecraft:villager"],
+        "onKilled" : "difficulty + 0.05"
+      },
+      {
+        "entities" : ["aether:valkyrie_queen", "aether:sun_spirit", "aether:slider", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith",  "minecraft:wither", "minecraft:ender_dragon", "meetyourfight:swampjaw", "conjurer_illager:conjurer", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "minecraft:elder_guardian", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:awful_ghast", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "minecraft:warden", "cataclysm:the_harbinger", "alexsmobs:void_worm", "stalwart_dungeons:shelterer", "cataclysm:ender_guardian", "cataclysm:ender_golem", "irons_spellbooks:dead_king", "meetyourfight:rosalyne", "cataclysm:the_leviathan"],
+        "onKilled" : "difficulty + 10"
+      }
+    ]
+  }
+}

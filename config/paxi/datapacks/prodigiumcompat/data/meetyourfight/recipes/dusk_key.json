@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" FS",
+		"AS ",
+		"DA "
+	],
+	"key": {
+		"S": { "item": "minecraft:cobbled_deepslate" },
+		"A": { "tag": "forge:gems/amethyst" },
+		"D": { "item": "stalwart_dungeons:chorundum" },
+		"F": { "item": "minecraft:allium" }
+	},
+	"result": { "item": "meetyourfight:dusk_key" }
+}

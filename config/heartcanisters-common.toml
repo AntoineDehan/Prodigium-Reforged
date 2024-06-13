@@ -1,0 +1,29 @@
+
+[common]
+	#Common Config
+	#Sets the canister use limitable.
+	limitUses = false
+	#Only works if limitUses is true. Sets the max uses for canisters.
+	#Range: 1 ~ 10000
+	canisterMaxUses = 50
+	#Sets the health value increment of canisters.
+	#Range: 1.0 ~ 1000.0
+	canisterIncreaseValue = 2.0
+	#Sets the heal value of normal hearts.
+	#Range: 1.0 ~ 1000.0
+	heartHealValue = 1.0
+	#Duration of absorption effect. (20 ticks = 1 second)
+	#Range: 1 ~ 10000
+	goldenHeartTicksDuration = 2400
+	#Drops normal hearts only when not on full hp. Not suggested to change it.
+	#It could ruin its purpose and make it a lot easier to have hearts in inventory.
+	dropNormalOnlyMissingHP = true
+	#Drops golden hearts only when on full hp. Not suggested to change it.
+	dropGoldenOnlyFullyHP = true
+	#Sets the drop chance of normal hearts in percentage.
+	#Range: 1 ~ 100
+	normalDropChance = 10
+	#Sets the drop chance of golden hearts in percentage.
+	#Range: 1 ~ 100
+	goldenDropChance = 5
+

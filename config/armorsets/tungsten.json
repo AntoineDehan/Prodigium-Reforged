@@ -1,0 +1,46 @@
+{
+  "armorSetName": "rogue",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "stalwart_dungeons:tungsten_helmet"
+  },
+  "chest": {
+    "itemKey": "stalwart_dungeons:tungsten_chestplate"
+  },
+  "legs": {
+    "itemKey": "stalwart_dungeons:tungsten_leggings"
+  },
+  "boots": {
+    "itemKey": "stalwart_dungeons:tungsten_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "apotheosis:life_steal",
+      "value": 0.10,
+	  "modifierUUID": "d95f0801-f3ac-406b-9e88-4a0f1ff12086",
+	  "description" : "10% Life Steal"
+	},
+	{
+	  "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+	  "modifierUUID": "765ca026-4cbe-4ac5-a3d2-0cb41f7238b7",
+	  "description" : "+2 Armor"
+	},
+	{
+	  "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.5,
+	  "modifierUUID": "cb9702bc-9cbb-11ed-a286-9f66aaed1dd3",
+	  "description" : "+4.5 Max Health"
+	},
+	{
+	  "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
+	  "modifierUUID": "2aea28ee-9cca-11ed-b47f-0311a1fd8b9f",
+	  "description" : "+0.1 Attack Speed"	
+	}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "armorSetName": "adamantium",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "simpleores:adamantium_helmet"
+  },
+  "chest": {
+    "itemKey": "simpleores:adamantium_chestplate"
+  },
+  "legs": {
+    "itemKey": "simpleores:adamantium_leggings"
+  },
+  "boots": {
+    "itemKey": "simpleores:adamantium_boots"
+  },
+  "fullSetBonuses": [
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor",
+	  "value": 1.5,
+	  "modifierUUID": "dbb04642-b02b-4877-839c-8b5d48286b7c",
+	  "description": "+1.5 Armor"
+    },
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.max_health",
+	  "value": 3,
+	  "modifierUUID": "dbb04642-b02b-4877-839c-8b5d48286b7c",
+	  "description": "+1.5 Max health"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1,
+      "modifierUUID": "cc1be0fd-2554-47ef-9acf-52879933ba4b",
+      "description": "+1 Attack Damage"
+      }
+  ]
+}

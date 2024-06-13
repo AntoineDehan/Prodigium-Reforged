@@ -1,0 +1,31 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://minestrator.com/a/PRODIGIUM%btnaction_splitter_fm%
+  description = -10% on Minestrator servers!
+  label = Rent a server
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:346972
+  x = -103
+  width = 102
+  action = addbutton
+  actionid = 9a32b506-8e75-4f65-a024-d5ffad2ca96d1708436599110
+  y = 0
+  height = 20
+}
+

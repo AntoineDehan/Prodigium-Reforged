@@ -1,0 +1,56 @@
+{
+  "armorSetName": "phoenix",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:phoenix_helmet"
+  },
+  "chest": {
+    "itemKey": "aether:phoenix_chestplate"
+  },
+  "legs": {
+    "itemKey": "aether:phoenix_leggings"
+  },
+  "boots": {
+    "itemKey": "aether:phoenix_boots"
+  },
+  "fullSetBonuses": [
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor",
+	  "value": 1.5,
+	  "modifierUUID": "70027cd2-71f9-4cd0-932f-8c0fa02d8129",
+	  "description": "+1.5 Armor"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor_toughness",
+	  "value": 1.0,
+	  "modifierUUID": "ae70b37e-dcfc-4dc0-b23f-1ecd1986e687",
+	  "description": "+1 Armor Toughness"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.max_health",
+	  "value": 4.0,
+	  "modifierUUID": "378d6211-00aa-493c-9ac2-fe34e5200914",
+	  "description": "+2 Max health"
+    },
+	{
+		"type": "attribute",
+		"name": "puffish_skills:player.healing",
+		"value": 0.05,
+		"modifierUUID": "72b0f8e0-3c72-4f24-877c-40317f1452f7",
+		"description": "+5% Healing Received"
+	},
+	{
+		"type": "effect",
+		"name": "majruszsdifficulty:glass_regeneration",
+		"value": 0.0
+	},
+	{
+		"type": "effect",
+		"name": "irons_spellbooks:guided",
+		"value": 0.0
+	}
+  ]
+}

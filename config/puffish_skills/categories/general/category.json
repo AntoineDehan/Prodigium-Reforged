@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"exclusive_root": true,
+	"title": "General",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "grass_block"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}

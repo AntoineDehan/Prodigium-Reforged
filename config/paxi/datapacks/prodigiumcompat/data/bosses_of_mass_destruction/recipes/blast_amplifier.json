@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "DED",
+    "CHC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "item": "aether_redux:veridium_ingot"
+    },
+    "E": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    "H": {
+      "item": "bosses_of_mass_destruction:obsidian_heart"
+    }
+  },
+  "result": {
+    "item": "bosses_of_mass_destruction:monolith_block"
+  }
+}

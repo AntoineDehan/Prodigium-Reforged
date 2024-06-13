@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "minecraft:prodigium_dungeons:house",
+              "decoration": "target_point"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

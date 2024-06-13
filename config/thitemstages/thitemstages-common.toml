@@ -1,0 +1,7 @@
+
+["General Options"]
+	#List all the stages that you want to have.
+	stages = ["stage_1", "stage_2", "stage_3", "stage_netherite", "stage_nether", "stage_aether", "stage_melee1", "stage_melee2", "stage_melee3", "stage_melee4", "stage_melee5", "stage_ranged1", "stage_ranged2", "stage_ranged3", "stage_mage1"]
+	#Set this value to 'true' whenever you're having issues, this will allow the mod to output everything it tries to do in the log.
+	debugMode = false
+

@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": false,
+	"exclusive_root": true,
+	"title": "Mage",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "irons_spellbooks:electromancer_helmet"
+		}
+	},
+	"background": "textures/block/chiseled_quartz_block_top.png"
+}

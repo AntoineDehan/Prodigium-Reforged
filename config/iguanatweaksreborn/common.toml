@@ -1,0 +1,583 @@
+"Enable Combat" = true
+"Enable Experience" = true
+"Enable Farming" = false
+"Enable Hunger & Health" = false
+"Enable Mining" = false
+"Enable Miscellaneous" = false
+"Enable Movement" = false
+"Enable Sleep & Respawn" = false
+"Enable Stack Sizes" = false
+
+["Stack Sizes"]
+	#Make food, items and blocks less stackable. Items and Blocks are disabled by default. Changing stuff might require a Minecraft restart.
+	"Enable General Stacking" = true
+	#Change stack sizes as you please. Custom Stack Sizes are controlled via json in this feature's folder. Changing stuff might require a Minecraft restart.
+	"Enable Custom Stack Size" = true
+
+	#Make food, items and blocks less stackable. Items and Blocks are disabled by default. Changing stuff might require a Minecraft restart.
+	["Stack Sizes"."General Stacking"]
+		#Food stack sizes will be reduced based off their hunger restored and saturation multiplier. The formula is '(1 - (effective_quality - 1) / Food Quality Divider) * 64' where effective_quality is hunger+saturation restored. E.g. Cooked Porkchops give 8 hunger points and have a 0.8 saturation multiplier so their stack size will be '(1 - (20.8 - 1) / 18.5) * 64' = 24 (Even foods that usually stack up to 16 or that don't stack at all will use the same formula, like Honey or Stews).
+		#This is affected by Food Module's feature 'Hunger Restore Multiplier' & 'Saturation Restore multiplier'
+		"Food Stack Reduction" = true
+		#Used in the 'Food Stack Reduction' formula. Increase this if there are foods that are better than vanilla ones, otherwise they will all stack to 1. Set this to 21.8 if you disable 'Hunger Restore Multiplier'
+		#Range: 0.0 ~ 40.0
+		"Food Quality Divider" = 18.5
+		#All the foods max stack sizes will be multiplied by this value to increase / decrease them (after Food Stack Reduction).
+		#Range: 0.01 ~ 64.0
+		"Food Stack Multiplier" = 0.9
+		#Stews will stack up to this number. It's overridden by 'foodStackReduction' if enabled. Still affected by black/whitelist
+		#Range: 1 ~ 64
+		"Stackable Stews" = 16
+		#Items max stack sizes (excluding blocks) will be multiplied by this value. Foods will be overridden by 'Food Stack Reduction' or 'Food Stack Multiplier' if are active. Setting to 1 will disable this feature.
+		#Range: 0.01 ~ 64.0
+		"Item Stack Multiplier" = 1.0
+		#Blocks max stack sizes will be reduced based off their material.
+		"Block Stack Reduction" = false
+		#All the blocks max stack sizes will be multiplied by this value to increase / decrease them. This is applied after the reduction from 'Block Stack Reduction'.
+		#Range: 0.01 ~ 64.0
+		"Block Stack Multiplier" = 1.0
+		#When true, block stacks are affected by both their material type and the block stack multiplier. If false, block stacks will be affected by the multiplier only.
+		"Block Stack Affected by Material" = true
+
+["Sleep & Respawn"]
+	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired. Energy Boost Items are controlled via json in this feature's folder
+	"Enable Tiredness" = true
+	#Prevents the player from sleeping if has not enough Hunger and gives him effects on wake up. Effects on wake up are controlled via json in this feature's folder
+	"Enable Sleeping Effects" = true
+	#Makes sleeping impossible or possible during day
+	"Enable Sleeping" = true
+
+	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired. Energy Boost Items are controlled via json in this feature's folder
+	["Sleep & Respawn".Tiredness]
+		#Multiply the tiredness gained by this value. Normally you gain tiredness equal to the exhaustion gained. 'Effective Hunger' doesn't affect the exhaustion gained.
+		#Range: 0.0 ~ 128.0
+		"Tiredness gained multiplier" = 1.0
+		#If true the player will not set the spawn point if he/she can't sleep.
+		"Prevent Spawn Point" = false
+		#Tiredness required to be able to sleep.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Tiredness to sleep" = 320.0
+		#Tiredness required to get the Tired effect.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Tiredness for effect" = 400.0
+		#Every this Tiredness above 'Tiredness for effect' will add a new level of Tired.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Tiredness per level" = 20.0
+		#If true the tiredeness bar will be shown.
+		"Show Tiredness Bar" = false
+		#By default if omitted in the json, food items will give 1 second of Energy Boost per effective nourishment (hunger + saturation) of the food. This multiplies the duration of the effect
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Default Energy Boost Duration Multiplier" = 5.0
+
+		["Sleep & Respawn".Tiredness.Vigour]
+			#Duration (in seconds) of the Vigour effect on wake up
+			#Range: > 0
+			Duration = 480
+			#How many seconds per tiredness above 'Tiredness for effect' will be removed from the effect duration on apply?
+			#Range: > 0
+			Penalty = 10
+			#Amplifier (effect level) of Vigour effect on wake up. (Note 0 = Level I, 1 = II, ...)
+			#Range: > 0
+			Amplifier = 1
+
+	#Prevents the player from sleeping if has not enough Hunger and gives him effects on wake up. Effects on wake up are controlled via json in this feature's folder
+	["Sleep & Respawn"."Sleeping Effects"]
+		#How much the hunger bar is depleted when you wake up in the morning. Saturation depleted is based off this value times 2. Setting to 0 will disable this feature.
+		#Range: 0 ~ 20
+		"Hunger Depleted on Wake Up" = 11
+		#If the player's hunger bar is below 'Hunger Depleted on Wake Up' he can't sleep.
+		"No Sleep If Hungry" = true
+
+	#Makes sleeping impossible or possible during day
+	["Sleep & Respawn".Sleeping]
+		#If set to true the player will not be able to sleep.
+		"Disable Sleeping" = false
+		#If set to true the player spawn point will not change when the player cannot sleep. Has no effect if the player can sleep.
+		"Disable Bed Spawn" = false
+		#If set to true the player will be able to sleep during day time. On wake up it will be night time. Note that with 'Tiredness' feature enabled you are still not able to sleep during day unless you're 
+		"Allow Sleeping During Day" = false
+
+[Movement]
+	#Slowdown based off the terrain you're walking on. Custom Terrain Slowdown are controlled via json in this feature's folder
+	"Enable Terrain Slowdown" = true
+	#Prevents the player from placing blocks below him when in mid air.
+	"Enable No Pillaring" = true
+	#Player's slowed down when walking backwards.
+	"Enable Backwards slowdown" = true
+	#Player's slowed down for a brief moment when hit.
+	"Enable Tagging" = true
+	#Armor and Shield slows down the player. Material Weights and Enchantment Weights are controlled via json in this feature's folder
+	"Enable Weighted Equipment" = true
+
+	#Slowdown based off the terrain you're walking on. Custom Terrain Slowdown are controlled via json in this feature's folder
+	[Movement."Terrain Slowdown"]
+		#Slowdown percentage when walking on certain materials. Material names are fixed and cannot be changed. Materials per block list here: https://docs.google.com/spreadsheets/d/1XZ2iTC4nqit_GxvKurRp8NpW3tNaeaZsvfv4EGPoQxw/edit?usp=sharing
+		"Material On Slowdown" = ["amethyst,0.1", "bamboo_sapling,0", "bamboo,0.15", "barrier,0", "buildable_glass,0", "cactus,0", "cake,0", "clay,0.15", "cloth_decoration,0", "decoration,0", "dirt,0.1", "egg,0", "explosive,0", "glass,0", "grass,0.1", "heavy_metal,0", "ice_solid,0.5", "ice,0.35", "leaves,0.15", "metal,0", "moss,0.15", "nether_wood,0", "piston,0", "plant,0", "powder_snow,0", "replaceable_fireproof_plant,0", "replaceable_plant,0", "replaceable_water_plant,0", "sand,0.15", "sculk,0", "shulker_shell,0", "snow,0.1", "sponge,0", "stone,0", "top_snow,0.1", "vegetable,0", "water_plant,0", "web,0", "wood,0", "wool,0.15"]
+		#Slowdown percentage when walking in certain materials. Material names are fixed and cannot be changed. Materials per block list here: https://docs.google.com/spreadsheets/d/1XZ2iTC4nqit_GxvKurRp8NpW3tNaeaZsvfv4EGPoQxw/edit?usp=sharing
+		"Material In Slowdown" = ["amethyst,0.1", "bamboo_sapling,0.1", "bamboo,0", "barrier,0", "buildable_glass,0", "cactus,0", "cake,0", "clay,0", "cloth_decoration,0", "decoration,0", "dirt,0", "egg,0", "explosive,0", "glass,0", "grass,0", "heavy_metal,0", "ice_solid,0", "ice,0", "leaves,0", "metal,0", "moss,0", "nether_wood,0", "piston,0", "plant,0.1", "powder_snow,0", "replaceable_fireproof_plant,0.1", "replaceable_plant,0.1", "replaceable_water_plant,0.1", "sand,0", "sculk,0", "shulker_shell,0", "snow,0", "sponge,0", "stone,0", "top_snow,0.1", "vegetable,0", "water_plant,0.1", "web,0", "wood,0", "wool,0"]
+
+	#Player's slowed down when walking backwards.
+	[Movement."Backwards slowdown"]
+		#How much slower will the player go when walking backwards.
+		#Range: 0.0 ~ 1.0
+		Slowdown = 0.2
+
+	#Player's slowed down for a brief moment when hit.
+	[Movement.Tagging]
+		#Which level of Slowness is applied to the player (level 0 is Slowness I).
+		#Range: 0 ~ 10
+		"Slowness level" = 0
+		#Slowness is applied for damage_taken * this_value ticks.
+		#Range: 0 ~ 100
+		"Duration multiplier" = 7
+
+	#Armor and Shield slows down the player. Material Weights and Enchantment Weights are controlled via json in this feature's folder
+	[Movement."Weighted Equipment"]
+		#Percentage slowdown per point of armor the player is wearing.
+		#Range: 0.0 ~ 1.0
+		"Slowdown per Armor" = 0.01
+		#This value times the Armor Toughness worn by the player is a percentage increase of the Slowdown per Armor.
+		#Total percentage slowdown is '(slowness_per_armor * armor_points) * (1 + (toughness * percentage_per_toughness))'
+		#E.g. with 'Slowness per Armor' set to 0.02 and this set to 0.04 and the player wearing Diamond Armor the slowdown is '(0.02 * 20) * (1 + (8 * 0.04))' = '0.4 * 1.32'= '0.528' = -52.8% Speed applied to the player.
+		#Range: 0.0 ~ 1.0
+		"Percentage Increase per Toughness" = 0.025
+		#Shields will slowdown the player by this percentage.
+		#Range: 0.0 ~ 1.0
+		"Shield Slowdown" = 0.1
+
+[Miscellaneous]
+	#Small changes to villagers to make them less OP
+	"Enable Villagers" = true
+	#Various Nerfs
+	"Enable Nerfs" = true
+	#Various stuff that doesn't fit in any other Feature.
+	"Enable Misc" = true
+	#Various changes to explosions from knockback to shielding.
+	"Enable Explosion Overhaul" = true
+	#Less durable and efficient tools. Tools Durabilities and Efficiencies are controlled via json in this feature's folder. Note that removing entries from the json requires a Minecraft Restart
+	"Enable Tool Stats" = true
+	#Apply potion effects on certain hunger / health / experience level. Debuffs are controlled via json in this feature's folder
+	"Enable DeBuffs" = true
+	#Beacon Range varying based of blocks of the pyramid and better conduit killing mobs. Blocks list and ranges are controlled via json in this feature's folder
+	"Enable Beacon & Conduit" = true
+	#Spawners will no longer spawn mobs infinitely. Echo shards can reactivate a spawner. Monsters spawning from spawners ignore light and spawning is much faster
+	"Enable Spawners" = true
+
+	#Small changes to villagers to make them less OP
+	[Miscellaneous.Villagers]
+		#If true, villagers will be given 1 trading experience as soon as they choose their job to lock the trades.
+		"Lock Trades" = true
+		#If true, villagers will always be transformed into Zombies, no matter the difficulty.
+		"Always Convert Zombie" = true
+		#Define a max percentage discount that villagers can give.
+		#Range: 0.0 ~ 1.0
+		"Max Discount Percentage" = 0.5
+		#If true, villagers will no longer get the discount when cured from Zombies to prevent over discounting.
+		"Prevent Cure Discount" = true
+		#When villagers restock, they update the 'demand'. Demand is a trade modifier that increases the price whenever a trade is done many times, BUT when a trade is not performed, at each restock the 'demand' goes negative, making possible for a trade to never increase it's price due to high negative demand. With this to true, negative demand will be capped at -max_uses of the trade (e.g. Carrot trade from a farmer will have it's minimum demand set to -16).
+		"Clamp Negative Demand" = true
+
+	#Various Nerfs
+	[Miscellaneous.Nerfs]
+		#If true, sheep will no longer drop Wool on death.
+		"No Sheep Death Wool" = true
+		#If true, Iron golems will only drop Iron when killed by the player.
+		"Iron from Golems only when killed by Player" = true
+		#If true, boats will no longer go stupidly fast on ice.
+		"No Ice Boats" = true
+
+	#Various stuff that doesn't fit in any other Feature.
+	[Miscellaneous.Misc]
+		#If true, entities will no longer be set on fire if have Fire Resistance (like bedrock edition)
+		"Prevent fire with resistance" = true
+
+	#Various changes to explosions from knockback to shielding.
+	[Miscellaneous."Explosion Overhaul"]
+		#Vanilla Explosions use a random number that changes the explosion power. With this enabled the ray strength will be as the explosion size.
+		"Disable Explosion Randomness" = true
+		#Somewhere around 1.15 Mojang (for performance issues) removed the poof particles from Explosions. Keep them disabled if you have a low end PC.
+		#These particles aren't shown when explosion power is <= 1
+		"Enable Poof Particles" = true
+		#How much damage will the player take when blocking an explosion with a shield. Putting 0 shields will block all the damage like Vanilla, while putting 1 shields will block no damage.
+		#Range: 0.0 ~ 1.0
+		"Blocking Damage Scaling" = 1.0
+		#While enabled knockback is greatly increased by explosion size
+		"Knockback Scales With Size" = true
+		#Explosions will start from the middle of the entity instead of feets.
+		"Explosions at Half Entity" = true
+		#Explosions affect even entities spawned by the explosions, like TnTs or chests content. BE AWARE that containers content will get destroyed.
+		"Explosion Affect Just Spawned Entities" = false
+		#EXPERIMENTAL! This will make explosion blast blocks away. Blocks that can't land will drop the block as a TNT would have destroyed it.
+		"Enable Flying Blocks" = false
+		#If true, creepers explosions will drop no blocks.
+		"Creeper collateral" = false
+
+	#Less durable and efficient tools. Tools Durabilities and Efficiencies are controlled via json in this feature's folder. Note that removing entries from the json requires a Minecraft Restart
+	[Miscellaneous."Tool Stats"]
+		#If set to true items in the 'no_damage_items' and 'no_efficiency_items' will get a tooltip.
+		"Disabled items tooltip" = true
+
+	#Beacon Range varying based of blocks of the pyramid and better conduit killing mobs. Blocks list and ranges are controlled via json in this feature's folder
+	[Miscellaneous."Beacon & Conduit"]
+
+		[Miscellaneous."Beacon & Conduit".Beacon]
+			#If true, pets will also get the beacon effects
+			"Affect Pets" = true
+			#If true, with the regeneration effect, the Vigour effect is also applied (reduces hunger consumption by 20%).
+			"Vigour with Regeneration" = true
+			#Base range of the beacon
+			#Range: 0.0 ~ 256.0
+			"Base Range" = 10.0
+
+		[Miscellaneous."Beacon & Conduit".Conduit]
+			#Greatly increases the range and damage of the conduit
+			"Better Protection" = true
+			#Distance multiplier (formula is blocks_around / 7 * this_multiplier) from the conduit at which it will deal damage to enemies.
+			#Range: 0.0 ~ 64.0
+			"Protection Distance Multiplier" = 8.0
+			#If a mob is within this radius from the conduit, it will be dealt the maximum amount of damage.
+			#Range: 0.0 ~ 96.0
+			"Protection Max Damage Distance" = 8.0
+
+	#Spawners will no longer spawn mobs infinitely. Echo shards can reactivate a spawner. Monsters spawning from spawners ignore light and spawning is much faster
+	[Miscellaneous.Spawners]
+		#The minimum amount of spawnable mobs (when the spawner is basically in the same position as the world spawn. The amount of spawnable mobs before deactivating is equal to the distance divided by 8 (plus this value). E.g. At 160 blocks from spawn the max spawnable mobs will be 160 / 8 + 25 = 20 + 25 = 55
+		#Range: > 0
+		"Minimum Spawnable Mobs" = 25
+		#This multiplier increases the max mobs spawned.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Spawnable mobs multiplier" = 1.0
+		#If true, the spawner will drop more experience when broken based of distance from spawn. +100% every 1024 blocks from spawn. The multiplier from 'Experience From Blocks' Feature still applies.
+		"Bonus experience the farther from spawn" = true
+		#If true, monsters from spawners will spawn no matter the light level.
+		"Ignore Light" = true
+		#How much faster spawners tick down the spawning delay.
+		#Range: > 0
+		"Spawning speed boost" = 4
+
+[Mining]
+	#Change specific blocks hardness as well as black and whitelist. Custom Hardness are controlled via json in this feature's folder. Requires a Minecraft restart if you remove a block from the list.
+	"Enable Custom Hardness" = false
+	#Change all the blocks hardness. Dimension Hardness and Depth Hardness are controlled via json in this feature's folder
+	"Enable Global Hardness" = true
+	#Various mining changes
+	"Enable Misc" = true
+
+	#Change all the blocks hardness. Dimension Hardness and Depth Hardness are controlled via json in this feature's folder
+	[Mining."Global Hardness"]
+		#Multiplier applied to the hardness of blocks. E.g. with this set to 3.0 blocks will take 3x more time to break.
+		#Range: 0.0 ~ 128.0
+		"Hardness Multiplier" = 2.5
+
+	#Various mining changes
+	[Mining.Misc]
+		#Silverfish blocks will insta-mine like pre-1.17
+		"Insta-Mine Silverfish" = true
+		#Heads will insta-break
+		"Insta-Mine Heads" = true
+
+["Hunger & Health"]
+	#Changes to food nourishment and the speed on how food is eaten or how items are consumed. Custom Food Properties are controlled via json in this feature's folder. Removing entries from the json requires a minecraft restart.
+	"Enable Food & Drinks" = true
+	#Makes Health regen work differently, like in Combat Test snapshots. Can be customized. Also adds Well Fed and Injured effects.
+	"Enable Health Regen" = true
+	#Make the player consume more hunger with different actions
+	"Enable Exhaustion Increase" = true
+
+	#Changes to food nourishment and the speed on how food is eaten or how items are consumed. Custom Food Properties are controlled via json in this feature's folder. Removing entries from the json requires a minecraft restart.
+	["Hunger & Health"."Food & Drinks"]
+		#Food's hunger restored will be multiplied by this value (rounded up). E.g. With this set to 0.5 a Cooked Porkchop would restore 4 hunger instead of 8. Setting to 1 will disable this feature.
+		#Range: 0.0 ~ 20.0
+		"Food Hunger Multiplier" = 0.63
+		#Food's saturation restored will be multiplied by this value. Be aware that saturation is a multiplier and not a flat value, it is used to calculate the effective saturation restored when a player eats, and this calculation includes hunger, so by reducing hunger you automatically reduce saturation too. Setting to 1 will disable this feature.
+		#This requires a Minecraft Restart.
+		#Range: 0.0 ~ 64.0
+		"Food Saturation Multiplier" = 1.0
+		#Makes potion faster to drink, 1 second instead of 1.6.
+		"Faster Potion Consuming" = true
+		#Makes milk faster to drink, 1 second instead of 1.6.
+		"Faster Milk Consuming" = true
+		#Makes the speed for eating food based off the hunger and saturation they provide. At 2 (hunger + saturation) the speed is vanilla, higher / lower (hunger + saturation) will lower / raise the speed.
+		"Eating Speed Based Off Food Restored" = true
+		#Multiplier for the time taken to eat. Only applied if 'Eating Speed Based Off Food Config' is active.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Eating Time Multiplier" = 0.115
+		#The minimum speed a food will take to eat. "Fast Food" items have this value halved. Vanilla time is 32/16
+		#Range: > 0
+		"Eating Time Minimum" = 24
+		#If true, eating/drinking stops when the player's hit.
+		"Stop consuming on hit" = true
+
+	#Makes Health regen work differently, like in Combat Test snapshots. Can be customized. Also adds Well Fed and Injured effects.
+	["Hunger & Health"."Health Regen"]
+		#If true, restart the game and the following config options will be changed to the ones of the combat test snapshot and then set this back to false.
+		"Load Combat Test Config Options" = false
+		#Sets how many ticks between the health regeneration happens (vanilla is 80; Combat Test is 40).
+		#Range: > 0
+		"Health Regen Speed" = 40
+		#Sets how much hunger the player must have to regen health (vanilla is >17; Combat Test is >3).
+		#Range: > 0
+		"Regen when Hunger Above" = 6
+		#Sets how many ticks between starve damage happens (vanilla and Combat Test are 80).
+		#Range: > 0
+		"Starve Speed" = 80
+		#Set how much damage is dealt when starving (vanilla and Combat Test are 1).
+		#Range: > 0
+		"Starve Damage" = 1
+		#Set to true to disable the health regen boost given when max hunger and saturation (false in Vanilla; true for Combat Test).
+		"Disable Saturation Regen Boost" = true
+		#Set to true to consume Hunger only (and not saturation) when regenerating health (false for Vanilla; true for Combat Test).
+		"Consume Hunger Only" = true
+		#Vanilla consumes 1 saturation or hunger whenever Exhaustion reaches 4.0. You can change that value with this config option. NOTE that Minecraft caps this value to 40.
+		#Range: 0.0 ~ 40.0
+		"Max Exhaustion" = 4.0
+		#If 'Consume Hunger Only' is true then this is the chance to consume an hunger whenever the player is healed (vanilla ignores this; Combat Test has this set to 0.5).
+		#Range: 0.0 ~ 1.0
+		"Hunger Consumption Chance" = 0.5
+		#When eating you'll get healed by this percentage of (hunger + saturation) restored.
+		#Range: 0.0 ~ 1.0
+		"Food Heal Multiplier" = 0.0
+
+		["Hunger & Health"."Health Regen".Effects]
+
+			["Hunger & Health"."Health Regen".Effects."Well Fed"]
+				#Set to true to enable Well Fed, a new effect that speeds up health regen and is applied whenever the player eats from less than 4 drumsticks to more than 9 drumstick in less than 15 seconds.
+				Enable = true
+				#Multiplies the base duration of Well Fed by this value. Base duration is 1 second per food effectiveness (hunger + saturation).
+				#Range: 0.0 ~ 128.0
+				"Duration Multiplier" = 1.0
+				#How much does health regen Well Fed increases per level.
+				#Range: 0.0 ~ 1.0
+				Effectiveness = 0.05
+				#Max amplifier of the Well Fed effect (amplifier 0 = I, amplifier 1 = II, ...).
+				#Range: 0 ~ 255
+				"Max Amplifier" = 9
+
+			["Hunger & Health"."Health Regen".Effects.Injured]
+				#Set to true to enable Injured, a new effect that slows down health regen. It's applied when the player takes 3 hits (at least half a heart) in the last 9 seconds (by default). The effect slows down health regen by 20% per level.
+				"Enable Injured" = true
+				#Multiplies the base duration of Injured by this value. Base duration is 1 second per point of damage.
+				#Range: 0.0 ~ 128.0
+				"Duration Multiplier" = 1.0
+				#How much does health regen Injured decreases per level.
+				#Range: 0.0 ~ 10.0
+				Effectiveness = 0.2
+				#How many times the player must be hit in a span of "Injured time to get damaged" second to apply the effect
+				#Range: > 0
+				"Times hit" = 3
+				#Time to get hit "Injured Times hit" times and get the effect
+				#Range: > 0
+				"Time to get damaged" = 9
+				#How much damage will make the damage account for "Injured Times hit"
+				#Range: 0.0 ~ 1024.0
+				"Min Damage" = 1.0
+
+	#Make the player consume more hunger with different actions
+	["Hunger & Health"."Exhaustion Increase"]
+		#When you break a block you'll get exhaustion equal to the block hardness multiplied by this value. Setting this to 0 will default to the vanilla exhaustion (0.005). (It's not affected by the Global Hardness Features)
+		#Range: 0.0 ~ 128.0
+		"Block Break Exhaustion Multiplier" = 0.0
+		#When breaking block you'll get exhaustion every tick during the breaking.
+		#Range: 0.0 ~ 128.0
+		"Exhaustion per tick when breaking a block" = 0.005
+		#Every second the player will get this exhaustion.
+		#Range: 0.0 ~ 128.0
+		"Passive Exhaustion" = 0.005
+		#When affected by the hunger effect ANY action will give you 100% more exhaustion per level.
+		"Effective Hunger" = true
+
+[Farming]
+	#Bone meal is no longer so OP
+	"Enable Nerfed Bone meal" = true
+	#Slower Hoes and more fragile. Hoes Properties are controlled via json in this feature's folder
+	"Enable Hoes Nerfs" = true
+	#Slower breeding, Growing, Egging and Milking
+	"Enable Livestock Slowdown" = true
+	#Slower Plants (non-crops) growing. Plants properties are controlled via json in this feature's folder
+	"Enable Plants Growth" = true
+	#Slower Crops growing based off various factors
+	"Enable Crops Growth" = true
+	#Crops are no longer insta-minable. This applies only to blocks that are instances of net.minecraft.world.level.block.CropBlock.
+	#Break speed is still affected by the Hardness module.
+	"Enable Harder Crops" = true
+
+	#Bone meal is no longer so OP
+	[Farming."Nerfed Bone meal"]
+		#Makes more Bone Meal required for Crops. Valid Values are
+		#NO: No Bone Meal changes
+		#SLIGHT: Makes Bone Meal grow 1-2 crop stages
+		#NERFED: Makes Bone Meal grow only 1 Stage
+		#Allowed Values: NO, SLIGHT, NERFED
+		"Nerfed Bone Meal" = "NERFED"
+		#Makes Bone Meal have a chance to fail to grow crops. 0 to disable, 1 to disable Bone Meal.
+		#Range: 0.0 ~ 1.0
+		"Bone Meal Fail Chance" = 0.0
+
+	#Slower breeding, Growing, Egging and Milking
+	[Farming."Livestock Slowdown"]
+		#Increases the time required for Baby Animals to grow (e.g. at 2.0 Animals will take twice to grow).
+		#1.0 will make Animals grow like normal.
+		#Range: 1.0 ~ 128.0
+		"Childs Growth Multiplier" = 3.0
+		#If true, 'Childs Growth Multiplier' will be applied to villagers too.
+		"Childs Growth Villagers" = true
+		#Increases the time required for Animals to breed again (e.g. at 2.0 Animals will take twice to be able to breed again).
+		#1.0 will make Animals breed like normal.
+		#Range: 1.0 ~ 128.0
+		"Breeding Time Multiplier" = 3.5
+		#Increases the time required for Chickens to lay an egg (e.g. at 2.0 Chickens will take twice the time to lay an egg).
+		#1.0 will make chickens lay eggs like normal.
+		#Range: 1.0 ~ 128.0
+		"Egg Lay Multiplier" = 3.0
+		#Seconds before a cow can be milked again. This applies to Mooshroom stew too.
+		#0 will disable this feature.
+		#Range: > 0
+		"Cow Milk Delay" = 1200
+
+	#Slower Crops growing based off various factors
+	[Farming."Crops Growth"]
+		#Set if crops require wet farmland to grow.
+		#Valid Values:
+		#NO: Crops will not require water to grow
+		#BONEMEAL_ONLY: Crops will grow on dry farmland by only using bonemeal
+		#ANY_CASE: Will make Crops not grow in any case when on dry farmland
+		#Allowed Values: NO, BONE_MEAL_ONLY, ANY_CASE
+		"Crops Require Water" = "ANY_CASE"
+		#Increases the time required for a crop (stems NOT included) to grow (e.g. at 2.0 the crop will take twice to grow).
+		#Setting this to 0 will prevent crops from growing naturally.
+		#1.0 will make crops grow like normal.
+		#Range: 0.0 ~ 128.0
+		"Crops Growth Speed Multiplier" = 2.5
+		#Increases the time required for a crop to grow when it's sky light level is below "Min Sunlight", (e.g. at 2.0 when the crop has a skylight below "Min Sunlight" will take twice to grow).
+		#Setting this to 0 will prevent crops from growing when sky light level is below "Min Sunlight".
+		#1.0 will make crops growth not affected by skylight.
+		#Range: 0.0 ~ 128.0
+		"No Sunlight Growth Multiplier" = 2.0
+		#Increases the time required for a crop to grow when it's night time.
+		#Setting this to 0 will prevent crops from growing when it's night time.
+		#1.0 will make crops growth not affected by night.
+		#Range: 0.0 ~ 128.0
+		"Night Time Growth Multiplier" = 1.0
+		#Minimum Sky Light level required for crops to not be affected by "No Sunlight Growth Multiplier".
+		#Range: 0 ~ 15
+		"Min Sunlight" = 10
+
+	#Crops are no longer insta-minable. This applies only to blocks that are instances of net.minecraft.world.level.block.CropBlock.
+	#Break speed is still affected by the Hardness module.
+	[Farming."Harder Crops"]
+		#How hard to break are plants? For comparison, dirt has an hardness of 0.5
+		#Range: 0.0 ~ 128.0
+		Hardness = 1.0
+		#If the hardness should be applied to mature crops only.
+		"Only fully grown" = true
+
+[Experience]
+	#Decrease / Increase experience dropped mobs spawned by Spawners
+	"Enable Experience From Spawners' Mobs" = true
+	#Change other experience sources
+	"Enable Other Experience" = true
+	#Changes the experience lost on death and xp per level required.
+	"Enable Player Experience" = false
+	#Decrease / Increase experience dropped by blocks broken
+	"Enable Experience From Blocks" = false
+	#Decrease / Increase every experience point dropped in the world
+	"Enable Global Experience" = false
+
+	#Decrease / Increase experience dropped mobs spawned by Spawners
+	[Experience."Experience From Spawners' Mobs"]
+		#Experience dropped from mobs that come from spawners will be multiplied by this multiplier.
+		#Experience dropped by mobs from spawners are still affected by 'Global Experience Multiplier'
+		#Can be set to 0 to disable experience drop from mob that come from spawners.
+		#Range: 0.0 ~ 128.0
+		"Mobs from Spawners Multiplier" = 0.8
+
+	#Change other experience sources
+	[Experience."Other Experience"]
+		#Bottle o' enchanting will drop this more XP. Experience is still affected by 'Global Experience Multiplier'
+		#Can be set to 0 to make Bottle o' enchanting drop no experience
+		#Range: 0 ~ 512
+		"Bottle o' Enchanting Bonus XP" = 18
+		#Set the cap for repairing items in the anvil (vanilla is 40)
+		#Range: > 0
+		"Anvil Repair Cap" = 1024
+		#Removes cost of renaming items in Anvil
+		"Remove rename cost" = true
+		#Makes mending reset the repair cost of an item to 0 when applied to it. No longer repairs items with XP.
+		#If an item has already mending, the enchantment will be removed and repair cost reset.
+		#Applying mending still requires the base repair cost of the item (you can't add Mending if the operation is 'Too Expensive'
+		Unmending = false
+		#If true (and Unmending is enabled), items will have a 'Item has been repaired' tooltip.
+		"Repaired Tooltip" = false
+
+	#Changes the experience lost on death and xp per level required.
+	[Experience."Player Experience"]
+		#The experience required to level up will be linear instead of exponential like vanilla.
+		#The formula used to calculate the xp required for next level is (3 * (current_level + 1))
+		#Obviously incompatible with Allurement's 'Remove level Scaling'
+		"Better Scaling XP to next level" = true
+		#On death, players will drop this percentage of experience instead of max 7 levels. Setting to -1 will disable this.
+		#Due to Minecraft limitations this is incompatible with other mods that change the level scaling (e.g. Allurement's 'Remove level Scaling').
+		#Range: -1.0 ~ 1.0
+		"Dropped Experience on Death" = 0.85
+		#Players will pick up experience faster
+		"Pickup XP Faster" = true
+
+	#Decrease / Increase experience dropped by blocks broken
+	[Experience."Experience From Blocks"]
+		#Experience dropped by blocks (Ores and Spawners) will be multiplied by this multiplier. Experience dropped by blocks are still affected by 'Global Experience Multiplier'
+		#Can be set to 0 to make blocks drop no experience
+		#Range: 0.0 ~ 128.0
+		"Experience from Blocks Multiplier" = 2.2
+
+	#Decrease / Increase every experience point dropped in the world
+	[Experience."Global Experience"]
+		#Experience dropped will be multiplied by this multiplier.
+		#Can be set to 0 to disable experience drop from any source.
+		#Range: 0.0 ~ 128.0
+		"Global Experience Multiplier" = 1.25
+
+[Combat]
+	#Various changes to Shields. Disabled if Shields+ is installed.
+	"Enable Shields" = false
+	#Various changes from weapons damage to armor reduction. Item modifiers are controlled via json in this feature's folder
+	"Enable Stats" = true
+	#Player will deal no knockback if attacking with a non-weapon or spamming.
+	"Enable No Knockback" = false
+
+	#Various changes to Shields. Disabled if Shields+ is installed.
+	[Combat.Shields]
+		#In vanilla when you start blocking with a shield, there's a 0.25 seconds window where you are still not blocking. If true this windup time is removed.
+		"Remove Shield Windup" = true
+		#Shields will only block this amount of damage. Setting to 0 will make shield block like vanilla.
+		#Range: 0.0 ~ 128.0
+		"Shield Damage Blocked" = 5.0
+		#Makes shields always disable for 1.6 seconds like Combat Test snapshots.
+		"Combat Test shield disabling" = true
+
+	#Various changes from weapons damage to armor reduction. Item modifiers are controlled via json in this feature's folder
+	[Combat.Stats]
+		#If true, Swords, Tridents and Axes get -1 damage and Axes get -1 attack reach.
+		"Nerf weapons" = false
+		#Set arrow's damage increase with the Power enchantment (vanilla is 0.5). Set to 0.5 to disable.
+		#Range: 0.0 ~ 10.0
+		"Power Enchantment Damage Increase" = 0.5
+		#If true, Arrows from Bows will no longer randomly crit (basically disables the random bonus damage given when firing a fully charged arrow).
+		"Disable Arrow Crits" = true
+		#If true, Arrows from Crossbows will no longer deal random damage, but a set amount of damage (about 9 at a medium distance, like Bedrock Edition).
+		"Adjust Crossbow Damage" = true
+		#If true, Arrows will no longer trigger the invincibility frames (like Combat Test Snapshots).
+		"Arrows don't trigger invincibility frames" = false
+		#DISABLE: Disables protection enchantment.
+		#NERF: Sets max protection level to 3 instead of 4
+		#NONE: no changes to protection are done
+		#Allowed Values: NONE, NERF, DISABLE
+		"Nerf Protection Enchantment" = "NONE"
+
+	#Player will deal no knockback if attacking with a non-weapon or spamming.
+	[Combat."No Knockback"]
+		#If true the player will deal no knockback when not using an item that doesn't have the attack damage attribute.
+		"No Weapon No Knockback" = true
+		#When the attack cooldown is below this percentage the player will deal no knockback. (Between 0 and 1, where 1 is the attack fully charged)
+		#Range: 0.0 ~ 1.0
+		"Attack Cooldown No Knockback" = 0.925
+

@@ -1,0 +1,123 @@
+{
+  "Dimensions": [
+    "minecraft:overworld"
+  ],
+  "InvasionPriority": "PRIMARY_ONLY",
+  "InvasionTime": "BOTH",
+  "Rarity": 10,
+  "SeverityInfo": [
+    {
+      "ClusterEntitiesList": [
+        {
+          "Chance": 12,
+          "EntityType": "minecraft:lightning_bolt",
+          "MaxCount": 1,
+          "MinCount": 0
+        }
+      ],
+      "ClusterSize": 6,
+      "ForceNoSleep": false,
+      "LightLevel": 15,
+      "MobCapPercentage": 0.6,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:drowned",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 10
+        }
+      ],
+      "SkyRenderer": {
+        "BlueOffset": -0.1,
+        "Brightness": 0.2,
+        "FogRenderer": {
+          "BlueOffset": 0.1,
+          "GreenOffset": 0.1,
+          "RedOffset": 0.1
+        },
+        "GreenOffset": -0.1,
+        "RedOffset": -0.1
+      },
+      "TickDelay": 20
+    },
+    {
+      "ClusterEntitiesList": [
+        {
+          "Chance": 8,
+          "EntityType": "minecraft:lightning_bolt",
+          "MaxCount": 2,
+          "MinCount": 0
+        }
+      ],
+      "ClusterSize": 8,
+      "ForceNoSleep": false,
+      "LightLevel": 15,
+      "MobCapPercentage": 0.8,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:drowned",
+          "MaxCount": 4,
+          "MinCount": 1,
+          "Weight": 10
+        }
+      ],
+      "SkyRenderer": {
+        "BlueOffset": -0.2,
+        "Brightness": 0.1,
+        "FogRenderer": {
+          "BlueOffset": 0.2,
+          "GreenOffset": 0.2,
+          "RedOffset": 0.2
+        },
+        "GreenOffset": -0.2,
+        "RedOffset": -0.2
+      },
+      "TickDelay": 16
+    },
+    {
+      "ClusterEntitiesList": [
+        {
+          "Chance": 4,
+          "EntityType": "minecraft:lightning_bolt",
+          "MaxCount": 3,
+          "MinCount": 0
+        }
+      ],
+      "ClusterSize": 10,
+      "ForceNoSleep": false,
+      "LightLevel": 15,
+      "MobCapPercentage": 1.0,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:drowned",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 10
+        },
+		{
+          "EntityType": "somebosses:ancient_wizard",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "SkyRenderer": {
+        "BlueOffset": -0.3,
+        "Brightness": 0.0,
+        "FogRenderer": {
+          "BlueOffset": 0.3,
+          "GreenOffset": 0.3,
+          "RedOffset": 0.3
+        },
+        "GreenOffset": -0.3,
+        "RedOffset": -0.3
+      },
+      "TickDelay": 12
+    }
+  ],
+  "SpawningSystem": "BIOME_BOOSTED",
+  "Tier": 2,
+  "TimeChangeability": "DEFAULT",
+  "TimeModifier": "DAY_TO_NIGHT",
+  "WeatherType": "THUNDER"
+}

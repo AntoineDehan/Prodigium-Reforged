@@ -1,0 +1,363 @@
+{
+	"fortune+0.1": {
+		"title": "+0.1 Fortune",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mining_speed+3%": {
+		"title": "+3% Mining Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"health+1": {
+		"title": "+1 Heart",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"roll_count+1": {
+		"title": "+1 Max Roll",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "alexsmobs:fleet_footed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:count",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"roll_cooldown-10%": {
+		"title": "-10% Roll Coolown",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glass_bottle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"roll_cooldown-5%": {
+		"title": "-5% Roll Coolown",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glass_bottle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"roll_distance+1": {
+		"title": "+1 Max Roll Distance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "alexsmobs:centipede_leg"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"luck+0.25": {
+		"title": "+0.25 Luck",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"movement_speed+1%": {
+		"title": "+1% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"attack_range+1": {
+		"title": "+1 Attack Range",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:attack_range",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"reach_distance+1": {
+		"title": "+1 Reach Distance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:reach_distance",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"swim_speed+20%": {
+		"title": "+20% Swim Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "alexsmobs:orcas_might"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"swim_speed+10%": {
+		"title": "+10% Swim Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "dolphins_grace"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"stamina+5%": {
+		"title": "+5% Stamina (Lowers Hunger Rate)",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"stamina+10%": {
+		"title": "+10% Stamina (Lowers Hunger Rate)",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"stamina+15%": {
+		"title": "+10% Stamina (Lowers Hunger Rate)",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"experience_gained+2%": {
+		"title": "+2% Experience Gained",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "cofh_core:clarity"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apotheosis:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"experience_gained+5%": {
+		"title": "+5% Experience Gained",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "cofh_core:clarity"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apotheosis:experience_gained",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"experience_gained+15%": {
+		"title": "+15% Experience Gained",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "cofh_core:clarity"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apotheosis:experience_gained",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

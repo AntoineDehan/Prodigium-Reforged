@@ -1,0 +1,3 @@
+gamerule keepInventory true
+gamerule corpseFlySpawn false
+gamerule maggotsAppearance false

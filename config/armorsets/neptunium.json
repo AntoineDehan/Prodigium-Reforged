@@ -1,0 +1,48 @@
+{
+  "armorSetName": "neptunium",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aquaculture:neptunium_helmet"
+  },
+  "chest": {
+    "itemKey": "aquaculture:neptunium_chestplate"
+  },
+  "legs": {
+    "itemKey": "aquaculture:neptunium_leggings"
+  },
+  "boots": {
+    "itemKey": "aquaculture:neptunium_boots"
+  },
+  "fullSetBonuses": [
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor",
+	  "value": 1.5,
+	  "modifierUUID": "28c3cad0-bd53-4b32-b664-60a0329a9b86",
+	  "description": "+1.5 Armor"
+    },
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.movement_speed",
+	  "value": 0.1,
+	  "modifierUUID": "350629e6-07c9-4aa8-9121-6e2f8bd39aec",
+	  "description": "0.1 Movement Speed in water",
+    "interactionDuration": 1200,
+    "conditions": [
+      {
+        "type": "inWater"
+      }
+    ]
+    },
+    {
+      "type": "effect",
+      "name": "farmersdelight:comfort",
+      "value": 0.0,
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ]
+    }
+  ]
+}

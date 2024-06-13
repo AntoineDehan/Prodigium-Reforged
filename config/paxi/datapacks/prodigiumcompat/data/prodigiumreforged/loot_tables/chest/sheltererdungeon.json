@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+	  "type": "minecraft:chest",
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 11,
+          "name": "majruszsdifficulty:golden_bandage",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+		{
+		  "type": "minecraft:item",
+		  "weight": 6,
+		  "name": "minecraft:diamond",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 14,
+		  "name": "stalwart_dungeons:void_crystal",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 3,
+		  "name": "minecraft:netherite_scrap",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 14,
+		  "name": "prodigium:orichalcum_ingot",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 20,
+		  "name": "minecraft:tnt",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+		}
+      ]
+    }
+  ]
+}

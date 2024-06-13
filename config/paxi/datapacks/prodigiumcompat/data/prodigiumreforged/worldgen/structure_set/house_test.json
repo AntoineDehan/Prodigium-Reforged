@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "prodigiumreforged:house_test",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1224566580,
+    "spacing": 23,
+    "separation": 10,
+    "type": "minecraft:random_spread",
+
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:ocean_monuments"
+    }
+  }
+}

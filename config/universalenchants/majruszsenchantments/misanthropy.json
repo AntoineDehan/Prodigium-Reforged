@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:melee_minecraft"
+  ],
+  "incompatible": [
+    "minecraft:bane_of_arthropods",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:sharpness",
+    "minecraft:smite"
+  ]
+}

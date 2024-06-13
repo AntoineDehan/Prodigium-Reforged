@@ -1,0 +1,31 @@
+[
+  {
+    "id": "minecraft:stone_hoe",
+    "cooldown": 20,
+    "damage_on_till": 3
+  },
+  {
+    "id": "minecraft:iron_hoe",
+    "cooldown": 15,
+    "damage_on_till": 3
+  },
+  {
+    "id": "minecraft:golden_hoe",
+    "cooldown": 4
+  },
+  {
+    "id": "minecraft:diamond_hoe",
+    "cooldown": 10,
+    "damage_on_till": 2
+  },
+  {
+    "id": "minecraft:netherite_hoe",
+    "cooldown": 6,
+    "damage_on_till": 2
+  },
+  {
+    "id": "minecraft:vulcanite_hoe",
+    "cooldown": 15,
+    "damage_on_till": 3
+  }
+]

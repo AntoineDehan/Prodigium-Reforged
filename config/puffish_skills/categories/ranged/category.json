@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": false,
+	"exclusive_root": true,
+	"title": "Ranged",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "prodigium:palladium_bow"
+		}
+	},
+	"background": "textures/block/chiseled_quartz_block_top.png"
+}

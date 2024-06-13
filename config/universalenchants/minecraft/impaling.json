@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche",
+    "$minecraft:weapon",
+    "$minecraft:universal_enchants_axe"
+  ],
+  "incompatible": [
+    "minecraft:bane_of_arthropods",
+    "sculked:echoed_bane",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:smite"
+  ]
+}

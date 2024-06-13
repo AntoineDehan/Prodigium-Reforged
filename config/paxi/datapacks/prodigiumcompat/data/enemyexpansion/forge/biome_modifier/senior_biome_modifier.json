@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_generalnotempcave",
+  "spawners": {
+    "type": "enemyexpansion:senior",
+    "weight": 18,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

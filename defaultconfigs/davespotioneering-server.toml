@@ -1,0 +1,27 @@
+
+[general]
+	#Range: > 1
+	gauntlet_cooldown = 600
+	#Cooldown in ticks when switching to potions
+	#Range: 0 ~ 20000
+	potion_switch_cooldown = 20
+	#Cooldown in ticks when throwing potions
+	#Range: 0 ~ 20000
+	potion_throw_cooldown = 20
+	milk = false
+	coat_tools = true
+	spike_food = true
+	coat_anything = false
+	show_spiked_food = true
+	#Allows all items to be coated
+	coat_all = false
+	#Number of uses per coating
+	#Range: > 1
+	coating_uses = 25
+	#Range: 1 ~ 64
+	potion_stack_size = 16
+	#Range: 1 ~ 64
+	splash_potion_stack_size = 4
+	#Range: 1 ~ 64
+	lingering_potion_stack_size = 4
+

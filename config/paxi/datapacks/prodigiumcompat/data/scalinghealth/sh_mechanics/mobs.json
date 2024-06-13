@@ -1,0 +1,92 @@
+{
+  "healthMode" : {
+    "operation" : "MULTIPLY_BASE",
+    "scaling_reduction" : 0.4
+  },
+  "general" : {
+    "passiveMultiplier" : 0.002,
+    "hostileMultiplier" : 0.028,
+    "hostilePotionChance" : 0.05,
+    "peacefulPotionChance" : 0.0025,
+    "damageBoostScale" : 0.07,
+    "maxDamageBoost" : 17,
+    "spawnerModifier" : 0.3,
+    "xpBoost" : 0.02
+  },
+  "effects" :
+  [
+    {
+      "effect" : "minecraft:speed",
+      "level" : 1,
+      "minDifficulty" : 50,
+      "durationInMinutes" : 10.0
+    },
+    {
+      "effect" : "minecraft:speed",
+      "level" : 2,
+      "minDifficulty" : 120,
+      "durationInMinutes" : 10.0
+    },
+    {
+      "effect" : "minecraft:strength",
+      "level" : 1,
+      "minDifficulty" : 80,
+      "durationInMinutes" : 10.0
+    },
+    {
+      "effect" : "minecraft:fire_resistance",
+      "level" : 1,
+      "minDifficulty" : 40,
+      "durationInMinutes" : 10.0
+    },
+    {
+      "effect" : "minecraft:invisibility",
+      "level" : 1,
+      "minDifficulty" : 260,
+      "durationInMinutes" : 3.0
+    },
+    {
+      "effect" : "minecraft:resistance",
+      "level" : 1,
+      "minDifficulty" : 100,
+      "durationInMinutes" : 10.0
+    }
+  ],
+  "blights" : {
+    "blightChance" : 0,
+    "blightXpBoost" : 2,
+    "notifyBlightDeath" : true,
+    "blightDifficultyModifier" : 1.7,
+    "effects" :
+    [
+      {
+        "effect" : "minecraft:speed",
+        "level" : 4,
+        "minDifficulty" : 40,
+        "durationInMinutes" : 5.0
+      },
+      {
+        "effect" : "minecraft:fire_resistance",
+        "level" : 1,
+        "minDifficulty" : 20,
+        "durationInMinutes" : 10.0
+      },
+      {
+        "effect" : "minecraft:strength",
+        "level" : 2,
+        "minDifficulty" : 55,
+        "durationInMinutes" : 5.0
+      },
+      {
+        "effect" : "minecraft:resistance",
+        "level" : 2,
+        "minDifficulty" : 60,
+        "durationInMinutes" : 5.0
+      }
+    ]
+  },
+  "pets" : {
+    "petsRegenDelay" : 30,
+    "petsHealthCrystalGain" : 5
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_mountainous",
+  "spawners": {
+    "type": "enemyexpansion:ram",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

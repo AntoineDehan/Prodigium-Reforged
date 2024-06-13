@@ -1,0 +1,17 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 1, 2023, 8:32:12 PM
+
+#allurement:spread_of_ailments_cannot_inflict
+- minecraft:bad_omen (from allurement-1.19.2-3.1.0.jar)
+- minecraft:hero_of_the_village (from allurement-1.19.2-3.1.0.jar)
+- environmental:serenity? (from allurement-1.19.2-3.1.0.jar)
+
+#artifacts:antidote_vessel_cancellable
+- minecraft:blindness (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:nausea (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:mining_fatigue (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:hunger (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:levitation (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:slowness (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:poison (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:weakness (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:wither (from artifacts-1.19.2-5.0.2.jar)

@@ -1,0 +1,152 @@
+{
+	"-4_-10": {
+		"definition": "fortune+0.1",
+		"x": -64,
+		"y": -320,
+		"root": false
+	},
+	"-4_10": {
+		"definition": "stamina+15%",
+		"x": -64,
+		"y": 320,
+		"root": false
+	},
+	"-3_8": {
+		"definition": "stamina+10%",
+		"x": -96,
+		"y": 256,
+		"root": false
+	},
+	"-2_6": {
+		"definition": "stamina+5%",
+		"x": -64,
+		"y": 192,
+		"root": false
+	},
+	"-1_4": {
+		"definition": "stamina+5%",
+		"x": -32,
+		"y": 128,
+		"root": false
+	},
+	"0_-2": {
+		"definition": "health+1",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"1_-4": {
+		"definition": "experience_gained+2%",
+		"x": 32,
+		"y": -128,
+		"root": false
+	},
+	"1_4": {
+		"definition": "swim_speed+10%",
+		"x": 32,
+		"y": 128,
+		"root": false
+	},
+	"2_-6": {
+		"definition": "experience_gained+2%",
+		"x": 64,
+		"y": -192,
+		"root": false
+	},
+	"2_6": {
+		"definition": "swim_speed+10%",
+		"x": 64,
+		"y": 192,
+		"root": false
+	},
+	"3_-8": {
+		"definition": "experience_gained+5%",
+		"x": 96,
+		"y": -256,
+		"root": false
+	},
+	"3_8": {
+		"definition": "swim_speed+10%",
+		"x": 96,
+		"y": 256,
+		"root": false
+	},
+	"4_-10": {
+		"definition": "experience_gained+15%",
+		"x": 64,
+		"y": -320,
+		"root": false
+	},
+	"4_-1": {
+		"definition": "roll_cooldown-5%",
+		"x": 128,
+		"y": -32,
+		"root": false
+	},
+	"4_1": {
+		"definition": "movement_speed+1%",
+		"x": 128,
+		"y": 32,
+		"root": false
+	},
+	"4_10": {
+		"definition": "swim_speed+20%",
+		"x": 64,
+		"y": 320,
+		"root": false
+	},
+	"6_-2": {
+		"definition": "roll_cooldown-5%",
+		"x": 192,
+		"y": -64,
+		"root": false
+	},
+	"6_2": {
+		"definition": "luck+0.25",
+		"x": 192,
+		"y": 64,
+		"root": false
+	},
+	"8_-3": {
+		"definition": "roll_cooldown-10%",
+		"x": 256,
+		"y": -96,
+		"root": false
+	},
+	"8_3": {
+		"definition": "attack_range+1",
+		"x": 256,
+		"y": 96,
+		"root": false
+	},
+	"10_-4": {
+		"definition": "roll_count+1",
+		"x": 320,
+		"y": -64,
+		"root": false
+	},
+	"10_4": {
+		"definition": "reach_distance+1",
+		"x": 320,
+		"y": 64,
+		"root": false
+	},
+	"ia7vryhtjv59o648": {
+		"definition": "mining_speed+3%",
+		"x": -32,
+		"y": -128,
+		"root": false
+	},
+	"p7ot4oupl6j2d7xo": {
+		"definition": "mining_speed+3%",
+		"x": -64,
+		"y": -192,
+		"root": false
+	},
+	"kpwy5sk2r6k7bli5": {
+		"definition": "mining_speed+3%",
+		"x": -96,
+		"y": -256,
+		"root": false
+	}
+}

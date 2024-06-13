@@ -1,0 +1,44 @@
+{
+  "Restriction Data": {
+    "stage": "stage_melee4",
+    "itemList": [
+	 {
+		 "item": "minecraft:netherite_helmet"
+	 },
+	 {	
+		 "item": "minecraft:netherite_leggings"
+	 },
+	 {
+		 "item": "minecraft:netherite_chestplate"
+	 },
+	 {
+		 "item": "minecraft:netherite_boots"
+	 }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+     
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Melee's skill tree)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

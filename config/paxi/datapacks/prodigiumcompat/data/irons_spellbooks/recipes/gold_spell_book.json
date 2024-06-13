@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "GMM",
+    "CHH",
+    "GCC"
+  ],
+  "key":
+  {
+    "G":
+    {
+      "tag": "forge:ingots/gold"
+    },
+    "M":
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "H":
+    {
+      "item": "irons_spellbooks:hogskin"
+    },
+	"C":
+    {
+      "item": "prodigium:orichalcum_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "irons_spellbooks:gold_spell_book",
+    "count": 1
+  }
+}

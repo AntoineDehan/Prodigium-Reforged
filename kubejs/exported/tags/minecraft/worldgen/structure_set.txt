@@ -1,0 +1,9 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 1, 2023, 8:32:12 PM
+
+#cataclysm:soul_black_smith_avoid
+- cataclysm:burning_arena (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+- minecraft:nether_complexes (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+
+#cataclysm:burning_arena_avoid
+- cataclysm:soul_black_smith (from L_Enders_Cataclysm-0.84-1.19.2.jar)
+- minecraft:nether_complexes (from L_Enders_Cataclysm-0.84-1.19.2.jar)

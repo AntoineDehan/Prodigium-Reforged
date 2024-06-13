@@ -1,0 +1,17 @@
+[
+  {
+    "stat": "hunger",
+    "max": 2.0,
+    "effect": "minecraft:mining_fatigue"
+  },
+  {
+    "stat": "hunger",
+    "max": 4.0,
+    "effect": "minecraft:slowness"
+  },
+  {
+    "stat": "health",
+    "max": 3.0,
+    "effect": "minecraft:slowness"
+  }
+]

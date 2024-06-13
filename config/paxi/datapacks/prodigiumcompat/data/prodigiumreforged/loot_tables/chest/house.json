@@ -1,0 +1,175 @@
+{
+  "pools": [
+    {
+	  "type": "minecraft:chest",
+      "rolls": 9,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:black_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:light_gray_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:white_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:orange_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "doggytalents:training_treat",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "majruszsdifficulty:bandage",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "majruszsdifficulty:golden_bandage",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+		{
+		  "type": "minecraft:item",
+		  "weight": 15,
+		  "name": "cnb:apple_slice"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 12,
+		  "name": "farmersdelight:barbecue_stick"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 14,
+		  "name": "farmersdelight:apple_cider"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 18,
+		  "name": "minecraft:iron_ingot",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 18,
+		  "name": "minecraft:gold_ingot",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 18,
+		  "name": "prodigium:cobalt_ingot",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 17,
+		  "name": "farmersdelight:tomato_seeds"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 17,
+		  "name": "minecraft:wheat_seeds"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 15,
+		  "name": "cnb:apple_slice"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 5,
+		  "name": "majruszsaccessories:idol_of_fertility"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 5,
+		  "name": "majruszsaccessories:secret_ingredient"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 12,
+		  "name": "irons_spellbooks:arcane_essence",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+		}
+      ]
+    }
+  ]
+}

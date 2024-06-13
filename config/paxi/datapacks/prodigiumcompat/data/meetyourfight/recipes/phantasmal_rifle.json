@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"P  ",
+		"GDF",
+		" GG"
+	],
+	"key": {
+		"G": { "tag": "forge:ingots/gold" },
+		"P": { "item": "meetyourfight:phantoplasm" },
+		"D": { "item": "prodigium:orichalcum_ingot" },
+		"F": { "item": "minecraft:flint" }
+	},
+	"result": { "item": "meetyourfight:phantasmal_rifle" },
+	"conditions": [{ "type": "forge:mod_loaded", "modid": "gunswithoutroses" }]
+}

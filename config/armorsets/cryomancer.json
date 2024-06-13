@@ -1,0 +1,37 @@
+{
+  "armorSetName": "mage",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:cryomancer_helmet"
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:cryomancer_chestplate"
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:cryomancer_leggings"
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:cryomancer_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.5,
+      "modifierUUID": "91edb747-4c85-4fa7-9a21-5349c0c9daa8",
+      "description": "+5% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 100,
+      "modifierUUID": "1f554023-72d3-4352-80a6-4c1f0f70fe70",
+      "description": "+100 Max Mana"
+    },
+    {
+      "type": "effect",
+      "name": "cofh_core:cold_resistance",
+      "value": 0.0
+    }
+  ]
+}

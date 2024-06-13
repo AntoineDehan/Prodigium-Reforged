@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_cold/overworld",
+  "spawners": {
+    "type": "enemyexpansion:boar",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

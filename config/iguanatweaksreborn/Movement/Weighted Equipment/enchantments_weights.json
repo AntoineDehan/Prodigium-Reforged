@@ -1,0 +1,11 @@
+[
+  {
+    "id": "minecraft:feather_falling",
+    "percentage_slowness_per_level": -0.1
+  },
+  {
+    "id": "elenaidodge2:lightweight",
+    "percentage_slowness_per_level": -0.05,
+    "flat_slowness": -0.01
+  }
+]

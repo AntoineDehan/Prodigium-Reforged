@@ -1,0 +1,270 @@
+{
+    "size": "large",
+    "color": "#915ea8",
+    "allow_discarding": true,
+    "leash_range": 60,
+    "waves": [{
+            "entities": [{
+                    "entity": "enemyexpansion:slugger"
+                },
+                {
+                    "entity": "enemyexpansion:slugger"
+                },
+                {
+                    "entity": "enemyexpansion:slugger"
+                },
+				{
+                    "entity": "born_in_chaos_v1:zombie_bruiser"
+                },
+                {
+                    "entity": "born_in_chaos_v1:zombie_bruiser"
+                },
+                {
+                    "entity": "born_in_chaos_v1:zombie_bruiser"
+                },
+                {
+                    "entity": "enemyexpansion:slugger"
+                },
+                {
+                    "entity": "enemyexpansion:slugger"
+                }
+            ],
+            "rewards": [{   
+                "type": "loot_table",
+                "loot_table": "prodigiumreforged:gates/defender_tieriii",
+				"rolls": 15,
+				"desc": "Coins rewards"
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                "entity": "enemyexpansion:slugger"
+            },
+            {
+                "entity": "enemyexpansion:slugger"
+            },
+            {
+                "entity": "enemyexpansion:slugger"
+            },
+            {
+                "entity": "enemyexpansion:slugger"
+            },
+            {
+                "entity": "born_in_chaos_v1:bonescaller"
+            },
+            {
+                "entity": "born_in_chaos_v1:bonescaller"
+            },
+            {
+                "entity": "alexsmobs:crimson_mosquito"
+            },
+            {
+                "entity": "alexsmobs:crimson_mosquito"
+            },
+            {
+                "entity": "born_in_chaos_v1:zombie_bruiser"
+            },
+            {
+                "entity": "born_in_chaos_v1:zombie_bruiser"
+            },
+            {
+                "entity": "born_in_chaos_v1:zombie_bruiser"
+            }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "loot_table",
+                "loot_table": "prodigiumreforged:gates/defender_tieriii",
+				"rolls": 20,
+				"desc": "Coins rewards"
+            }],
+            "max_wave_time": 1150,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                "entity": "enemyexpansion:slugger"
+            },
+            {
+                "entity": "enemyexpansion:slugger"
+            },
+            {
+                "entity": "enemyexpansion:slugger"
+            },
+            {
+                "entity": "enemyexpansion:slugger"
+            },
+            {
+                "entity": "born_in_chaos_v1:zombie_bruiser"
+            },
+            {
+                "entity": "born_in_chaos_v1:zombie_bruiser"
+            },
+            {
+                "entity": "born_in_chaos_v1:zombie_bruiser"
+            },
+            {
+                "entity": "born_in_chaos_v1:zombie_bruiser"
+            },
+            {
+                "entity": "alexsmobs:crimson_mosquito"
+            },
+            {
+                "entity": "alexsmobs:crimson_mosquito"
+            },
+            {
+                "entity": "alexsmobs:crimson_mosquito"
+            },
+            {
+                "entity": "alexsmobs:crimson_mosquito"
+            },
+            {
+                "entity": "alexsmobs:warped_mosco"
+            }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 3
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "loot_table",
+                "loot_table": "prodigiumreforged:gates/defender_tieriii",
+				"rolls": 30,
+				"desc": "Coins rewards"
+            }],
+            "max_wave_time": 1150,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "enemyexpansion:slugger"
+                },
+                {
+                    "entity": "enemyexpansion:slugger"
+                },
+                {
+                    "entity": "enemyexpansion:slugger"
+                },
+                {
+                    "entity": "somebosses:frost_magma"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "loot_table",
+                "loot_table": "prodigiumreforged:gates/defender_tieriii",
+				"rolls": 34,
+				"desc": "Coins rewards"
+            }],
+            "max_wave_time": 4350,
+            "setup_time": 250
+        }
+    ],
+    "rewards": [{
+        "type": "stack",
+        "stack": {
+            "item": "kubejs:defender_medal"
+        }
+      },
+        {
+        "type": "stack",
+        "stack": {
+            "item": "kubejs:defender_medal"
+        }
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "kubejs:defender_medal"
+        }
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "kubejs:defender_medal"
+        }
+    },
+    {
+        "type": "command",
+        "command": "/ftbquests change_progress @p complete 01590DC84238B719",
+        "desc": "Quest's progress"
+    }],
+    "completion_xp": 1850,
+	"spawn_range": 12
+
+    
+}

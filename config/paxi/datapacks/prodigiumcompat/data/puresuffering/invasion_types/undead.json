@@ -1,0 +1,271 @@
+{
+  "Dimensions": [
+    "minecraft:overworld"
+  ],
+  "InvasionPriority": "BOTH",
+  "InvasionTime": "NIGHT",
+  "Rarity": 1,
+  "SeverityInfo": [
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.6,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:swampy",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:frostbitten",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:undead_miner",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 24
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.7,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:swampy",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:frostbitten",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:undead_miner",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 20
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.8,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:swampy",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:frostbitten",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:undead_miner",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 16
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.9,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 3,
+          "MinCount": 2,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 3,
+          "MinCount": 2,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:swampy",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:frostbitten",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:undead_miner",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 12
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 1.0,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 7,
+          "MinCount": 3,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 6,
+          "MinCount": 3,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:swampy",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:frostbitten",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "rottencreatures:undead_miner",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "somebosses:mono_eyed_skeleton",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 8
+    }
+  ],
+  "SpawningSystem": "DEFAULT",
+  "Tier": 0,
+  "TimeChangeability": "DEFAULT",
+  "TimeModifier": "NONE",
+  "WeatherType": "DEFAULT"
+}

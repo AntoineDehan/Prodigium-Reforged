@@ -1,0 +1,12 @@
+{
+    "type": "cataclysm:weapon_fusion",
+    "base": {
+        "item": "prodigium:orichalcum_bow"
+    },
+    "addition": {
+        "item": "stalwart_dungeons:void_crystal"
+    },
+    "result": {
+        "item": "prodigium:shroomite_bow"
+    }
+}

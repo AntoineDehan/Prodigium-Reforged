@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:zombie",
+        "minecraft:husk",
+        "enemyexpansion:sprinter",
+        "enemyexpansion:slugger",
+        "enemyexpansion:senior",
+        "enemyexpansion:frigid",
+        "enemyexpansion:equestrian",
+        "rottencreatures:frostbitten",
+        "rottencreatures:dead_beard",
+        "rottencreatures:swampy",
+        "rottencreatures:undead_miner",
+        "earthmobsmod:bouldering_zombie"
+    ]
+  }

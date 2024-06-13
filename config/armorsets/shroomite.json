@@ -1,0 +1,46 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "prodigium:shroomite_helmet"
+  },
+  "chest": {
+    "itemKey": "prodigium:shroomite_chestplate"
+  },
+  "legs": {
+    "itemKey": "prodigium:shroomite_leggings"
+  },
+  "boots": {
+    "itemKey": "prodigium:shroomite_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_skills:player.ranged_damage",
+      "value": 1,
+      "modifierUUID": "5d174520-0977-471c-9127-46c9016af5bc",
+      "description": "+1 Ranged Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.5,
+	  "modifierUUID": "71768dc9-4f3e-4c31-8a4e-8b98e2bd7bf5",
+	  "description" : "+0.5 Armor"
+	  },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.15,
+      "modifierUUID": "355b02b4-d6f8-48d5-8e1c-e63f233490fa",
+      "description": "15% Roll Cooldown Reduction"
+    },
+    {
+      "type": "attribute",
+      "name": "apotheosis:dodge_chance",
+      "value": 0.08,
+      "modifierUUID": "573601d1-265e-444a-876d-8cfd6e459545",
+      "description": "8% Dodge Chance"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "armorSetName": "leather",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:leather_helmet"
+  },
+  "chest": {
+    "itemKey": "minecraft:leather_chestplate"
+  },
+  "legs": {
+    "itemKey": "minecraft:leather_leggings"
+  },
+  "boots": {
+    "itemKey": "minecraft:leather_boots"
+  },
+  "fullSetBonuses": [
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor",
+	  "value": 0.5,
+	  "modifierUUID": "7693b3c7-de09-4594-a3e4-749822da3a91",
+	  "description": "+0.5 Armor"
+    },
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.movement_speed",
+	  "value": 0.1,
+	  "modifierUUID": "8b64aecb-af5a-4147-a0d3-1e4162c86b5b",
+	  "description": "0.1 Movement Speed when Raining",
+    "conditions": [
+      {
+        "type": "inRain"
+      }
+    ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:regeneration",
+      "value": 0.0,
+      "conditions": [
+        {
+          "type": "inRain"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "l2complements:owner_protection",
+    "l2complements:explosion_reject",
+    "l2complements:environment_reject",
+    "l2complements:projectile_reject",
+    "l2complements:invincible",
+    "l2complements:magic_reject"
+  ]
+}

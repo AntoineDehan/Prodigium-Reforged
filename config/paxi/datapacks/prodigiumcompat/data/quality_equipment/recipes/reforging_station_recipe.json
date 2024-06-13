@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "OCO"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "A": {
+      "item": "minecraft:iron_block"
+    },
+    "O": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "quality_equipment:reforging_station",
+    "count": 1
+  }
+}

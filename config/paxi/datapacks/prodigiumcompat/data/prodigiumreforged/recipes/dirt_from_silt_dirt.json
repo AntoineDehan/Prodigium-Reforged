@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "regions_unexplored:silt_dirt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:dirt"
+  }
+}

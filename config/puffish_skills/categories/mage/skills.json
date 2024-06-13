@@ -1,0 +1,1058 @@
+{
+	"1z8nq5xjns5h4cap": {
+		"definition": "root_mana+50",
+		"x": -82,
+		"y": 0,
+		"root": true
+	},
+	"t8k1b4imn8icoox3": {
+		"definition": "health+1",
+		"x": -574,
+		"y": 82,
+		"root": false
+	},
+	"r8qdknec90r0f53t": {
+		"definition": "pumpkin",
+		"x": -410,
+		"y": -82,
+		"root": false
+	},
+	"fzn07f3d43irv1tw": {
+		"definition": "spell_power+2%",
+		"x": -451,
+		"y": 0,
+		"root": false
+	},
+	"4u0o7mfw1wzp0ik6": {
+		"definition": "spell_power+2%",
+		"x": -369,
+		"y": 0,
+		"root": false
+	},
+	"1ire996qg5sp8gz3": {
+		"definition": "mana+24",
+		"x": -410,
+		"y": 41,
+		"root": false
+	},
+	"bbqishijwl14xuxi": {
+		"definition": "spell_power+5%",
+		"x": -943,
+		"y": 82,
+		"root": false
+	},
+	"gm9tsrc90getyz0t": {
+		"definition": "mana+24",
+		"x": -492,
+		"y": 615,
+		"root": false
+	},
+	"2ddw6b18ep02u8nw": {
+		"definition": "mana+24",
+		"x": -451,
+		"y": 656,
+		"root": false
+	},
+	"fv8ah0ujaawwi7vq": {
+		"definition": "mana+24",
+		"x": -369,
+		"y": 656,
+		"root": false
+	},
+	"ojnvhk1m7bcujoyy": {
+		"definition": "mana+24",
+		"x": -328,
+		"y": 615,
+		"root": false
+	},
+	"ht5n4kcxg15v36py": {
+		"definition": "mana+50",
+		"x": -287,
+		"y": 574,
+		"root": false
+	},
+	"jscen9r2j10n3bt2": {
+		"definition": "mana+50",
+		"x": -533,
+		"y": 574,
+		"root": false
+	},
+	"idk07bgvkubhv0eo": {
+		"definition": "mana+24",
+		"x": -492,
+		"y": 410,
+		"root": false
+	},
+	"sg4x77x4xidqei6z": {
+		"definition": "mana+24",
+		"x": -328,
+		"y": 410,
+		"root": false
+	},
+	"wykdckd2xqksakvm": {
+		"definition": "mana+24",
+		"x": -451,
+		"y": 369,
+		"root": false
+	},
+	"qf6mo0ugm8axwtmk": {
+		"definition": "mana+50",
+		"x": -451,
+		"y": 287,
+		"root": false
+	},
+	"lljrelhhqntua6c6": {
+		"definition": "mana+24",
+		"x": -369,
+		"y": 369,
+		"root": false
+	},
+	"grydbzbkqlmccm1g": {
+		"definition": "mana+50",
+		"x": -369,
+		"y": 287,
+		"root": false
+	},
+	"hmhb3bn72kbb9cow": {
+		"definition": "mana+50",
+		"x": -492,
+		"y": 246,
+		"root": false
+	},
+	"cjbeqy8144ivzd1s": {
+		"definition": "mana+50",
+		"x": -328,
+		"y": 246,
+		"root": false
+	},
+	"7imsls28ahceg36b": {
+		"definition": "mana+24",
+		"x": -943,
+		"y": 574,
+		"root": false
+	},
+	"zno13kj5pxwyd6rl": {
+		"definition": "mana+24",
+		"x": -902,
+		"y": 533,
+		"root": false
+	},
+	"3enverh0e1u1inwt": {
+		"definition": "mana+24",
+		"x": -984,
+		"y": 533,
+		"root": false
+	},
+	"wvilx6sg4k0z14gq": {
+		"definition": "mana+24",
+		"x": -943,
+		"y": 451,
+		"root": false
+	},
+	"c15ii4fzwsp2pcqw": {
+		"definition": "mana+24",
+		"x": -779,
+		"y": 697,
+		"root": false
+	},
+	"ypbsy6rezryd442w": {
+		"definition": "mana+24",
+		"x": -779,
+		"y": 943,
+		"root": false
+	},
+	"x7pimt5ogiup6714": {
+		"definition": "healing+1%",
+		"x": -615,
+		"y": 1189,
+		"root": false
+	},
+	"zpxdfa2apb7pqza1": {
+		"definition": "healing+1%",
+		"x": -246,
+		"y": 1189,
+		"root": false
+	},
+	"pl16m9l9tioqltse": {
+		"definition": "crit_chance+5%",
+		"x": -574,
+		"y": 1025,
+		"root": false
+	},
+	"cu66ql465i5zne74": {
+		"definition": "healing+1%",
+		"x": -574,
+		"y": 1148,
+		"root": false
+	},
+	"fotdmw2tesxqbhnd": {
+		"definition": "healing+1%",
+		"x": -287,
+		"y": 1148,
+		"root": false
+	},
+	"kkepdtnc051mj98a": {
+		"definition": "crit_chance+5%",
+		"x": -287,
+		"y": 1025,
+		"root": false
+	},
+	"cwn9t68lcrguflma": {
+		"definition": "crit_chance+5%",
+		"x": -533,
+		"y": 943,
+		"root": false
+	},
+	"f3umghg59rcn4wko": {
+		"definition": "crit_chance+5%",
+		"x": -328,
+		"y": 943,
+		"root": false
+	},
+	"dr6t38m44045sh0g": {
+		"definition": "crit_chance+5%",
+		"x": -492,
+		"y": 902,
+		"root": false
+	},
+	"tvrr8xehyuw7ft46": {
+		"definition": "crit_chance+5%",
+		"x": -369,
+		"y": 902,
+		"root": false
+	},
+	"rfvll55omk7b33w3": {
+		"definition": "healing+5%",
+		"x": -287,
+		"y": 779,
+		"root": false
+	},
+	"8nxodjjdkk0ujihl": {
+		"definition": "mana+24",
+		"x": -1435,
+		"y": 902,
+		"root": false
+	},
+	"abuh9rmzumsb7a92": {
+		"definition": "mana+24",
+		"x": -1394,
+		"y": 861,
+		"root": false
+	},
+	"oevejdy3zts7yzjf": {
+		"definition": "mana+24",
+		"x": -1476,
+		"y": 861,
+		"root": false
+	},
+	"k9reiouqniwurixb": {
+		"definition": "mana+24",
+		"x": -1435,
+		"y": 779,
+		"root": false
+	},
+	"mmbk2ycp63at1xrn": {
+		"definition": "health+1",
+		"x": -1435,
+		"y": 533,
+		"root": false
+	},
+	"j971wh2vvwx2r91e": {
+		"definition": "spell_power+2%",
+		"x": -2173,
+		"y": 410,
+		"root": false
+	},
+	"tumwz0rxtc0sv69b": {
+		"definition": "spell_power+2%",
+		"x": -1845,
+		"y": 410,
+		"root": false
+	},
+	"bghnmxhqir1ed2g5": {
+		"definition": "spell_power+2%",
+		"x": -1845,
+		"y": 820,
+		"root": false
+	},
+	"cqv2poqxde502x97": {
+		"definition": "spell_power+2%",
+		"x": -2173,
+		"y": 820,
+		"root": false
+	},
+	"ynzpdytnrs92s1xb": {
+		"definition": "attack_knockback+5%",
+		"x": -2173,
+		"y": 861,
+		"root": false
+	},
+	"b5u2a86tfoxprlfy": {
+		"definition": "attack_knockback+5%",
+		"x": -1845,
+		"y": 861,
+		"root": false
+	},
+	"pi9r5mkedr8bamrq": {
+		"definition": "mana+24",
+		"x": -1435,
+		"y": 1640,
+		"root": false
+	},
+	"fujx40r8m21o94rc": {
+		"definition": "mana+24",
+		"x": -1517,
+		"y": 1558,
+		"root": false
+	},
+	"2zi3d14igcglgpe1": {
+		"definition": "mana+24",
+		"x": -1353,
+		"y": 1558,
+		"root": false
+	},
+	"e1mjt8sjndao2m76": {
+		"definition": "mana+24",
+		"x": -1435,
+		"y": 1394,
+		"root": false
+	},
+	"5ulzujweejfttjd9": {
+		"definition": "spell_power+2%",
+		"x": -1845,
+		"y": 533,
+		"root": false
+	},
+	"imhw22igfy1s55lc": {
+		"definition": "spell_power+7%",
+		"x": -2091,
+		"y": 615,
+		"root": false
+	},
+	"ylqx1fn4wcmc7i77": {
+		"definition": "spell_power+5%",
+		"x": -2009,
+		"y": 697,
+		"root": false
+	},
+	"phscwk456ugqhekr": {
+		"definition": "spell_power+10%",
+		"x": -2009,
+		"y": 615,
+		"root": false
+	},
+	"46gmcevmtabrxoqr": {
+		"definition": "spell_power+7%",
+		"x": -2009,
+		"y": 533,
+		"root": false
+	},
+	"axop7rv5bnsumuir": {
+		"definition": "spell_power+2%",
+		"x": -1927,
+		"y": 615,
+		"root": false
+	},
+	"1pa67xq17mfz3lol": {
+		"definition": "mana+24",
+		"x": -1845,
+		"y": 615,
+		"root": false
+	},
+	"qtg3jnjlsyy81sl7": {
+		"definition": "crit_damage+5%",
+		"x": -1640,
+		"y": 82,
+		"root": false
+	},
+	"k9orvj1slll4wnpv": {
+		"definition": "crit_damage+5%",
+		"x": -1476,
+		"y": 82,
+		"root": false
+	},
+	"12hf3buci2vbtpjg": {
+		"definition": "spell_power+2%",
+		"x": -1722,
+		"y": 0,
+		"root": false
+	},
+	"0ebcm59v4zz8ghtf": {
+		"definition": "mana+24",
+		"x": -1763,
+		"y": -82,
+		"root": false
+	},
+	"ge3g46b9qu7l4cdk": {
+		"definition": "mana+24",
+		"x": -1763,
+		"y": -246,
+		"root": false
+	},
+	"5xryboa55mxvrww2": {
+		"definition": "spell_power+2%",
+		"x": -1722,
+		"y": -328,
+		"root": false
+	},
+	"iadb5eecpw0l76mf": {
+		"definition": "mana+24",
+		"x": -1681,
+		"y": -369,
+		"root": false
+	},
+	"5lcmpl3d70lfsw19": {
+		"definition": "mana+24",
+		"x": -1435,
+		"y": -369,
+		"root": false
+	},
+	"2dyr8599wu9glv2g": {
+		"definition": "spell_power+2%",
+		"x": -1394,
+		"y": 0,
+		"root": false
+	},
+	"rmmydhwjiyj16o1r": {
+		"definition": "mana+24",
+		"x": -1353,
+		"y": -82,
+		"root": false
+	},
+	"mcwdsbju0nzlvihr": {
+		"definition": "mana+24",
+		"x": -1353,
+		"y": -246,
+		"root": false
+	},
+	"nsrlmegrlsv6kjoa": {
+		"definition": "spell_power+2%",
+		"x": -1394,
+		"y": -328,
+		"root": false
+	},
+	"5hb2h5wry1k36668": {
+		"definition": "mana+24",
+		"x": -1558,
+		"y": 533,
+		"root": false
+	},
+	"gsb2s2hqxgudgalh": {
+		"definition": "spell_power+2%",
+		"x": -1558,
+		"y": 164,
+		"root": false
+	},
+	"mmsnb12akoi8q114": {
+		"definition": "mana+24",
+		"x": -1599,
+		"y": 246,
+		"root": false
+	},
+	"8775dx9d7ao9ixgo": {
+		"definition": "spell_power+2%",
+		"x": -1558,
+		"y": 287,
+		"root": false
+	},
+	"dbdnt2vnfs8e0kpi": {
+		"definition": "mana+24",
+		"x": -1517,
+		"y": 246,
+		"root": false
+	},
+	"vm0mcywgggxr27y9": {
+		"definition": "mana+24",
+		"x": -984,
+		"y": 1804,
+		"root": false
+	},
+	"u0mpvdfxaeedwg5r": {
+		"definition": "mana+24",
+		"x": -984,
+		"y": 1312,
+		"root": false
+	},
+	"7ap1pbboirdpt8rc": {
+		"definition": "mana+24",
+		"x": -902,
+		"y": 1558,
+		"root": false
+	},
+	"p65b1621knk8as70": {
+		"definition": "mana+24",
+		"x": -1189,
+		"y": 1927,
+		"root": false
+	},
+	"ncmvbfh3mggb0jxh": {
+		"definition": "mana+24",
+		"x": -1476,
+		"y": -41,
+		"root": false
+	},
+	"jdznlfhzxyy6y25t": {
+		"definition": "armor_shred+5%",
+		"x": -1640,
+		"y": -41,
+		"root": false
+	},
+	"hc55fqqxuohndcvx": {
+		"definition": "armor_shred+5%",
+		"x": -1640,
+		"y": -287,
+		"root": false
+	},
+	"thgo1ohyrtixux9l": {
+		"definition": "armor_shred+5%",
+		"x": -1476,
+		"y": -287,
+		"root": false
+	},
+	"htqcojvtk4r20s1r": {
+		"definition": "prot_shred+5%",
+		"x": -1599,
+		"y": -246,
+		"root": false
+	},
+	"gmpc4gma6fm1wdhb": {
+		"definition": "prot_shred+5%",
+		"x": -1599,
+		"y": -82,
+		"root": false
+	},
+	"smom9os9xd1dyofe": {
+		"definition": "spell_power+5%",
+		"x": -1517,
+		"y": -82,
+		"root": false
+	},
+	"00tm1cxnsc8rr38f": {
+		"definition": "prot_shred+5%",
+		"x": -1517,
+		"y": -246,
+		"root": false
+	},
+	"qg2g7tx4or6h8hes": {
+		"definition": "spell_power+7%",
+		"x": -1558,
+		"y": -164,
+		"root": false
+	},
+	"4xwjl67kut4wz12f": {
+		"definition": "cast_time_reduction-5%",
+		"x": -1025,
+		"y": 1066,
+		"root": false
+	},
+	"475ui1jmqprlxpt4": {
+		"definition": "cast_time_reduction-5%",
+		"x": -820,
+		"y": 1066,
+		"root": false
+	},
+	"mnq38lajie1nlqn8": {
+		"definition": "cast_time_reduction-5%",
+		"x": -820,
+		"y": 738,
+		"root": false
+	},
+	"tbzqijm910n1dep7": {
+		"definition": "cooldown_reduction-5%",
+		"x": -984,
+		"y": 779,
+		"root": false
+	},
+	"757nx1nvit1cudnz": {
+		"definition": "cooldown_reduction-5%",
+		"x": -984,
+		"y": 1025,
+		"root": false
+	},
+	"34vg1k1zbzxk2ysu": {
+		"definition": "cooldown_reduction-5%",
+		"x": -861,
+		"y": 779,
+		"root": false
+	},
+	"u86y7v4dshaf0g78": {
+		"definition": "cooldown_reduction-5%",
+		"x": -861,
+		"y": 1025,
+		"root": false
+	},
+	"2qssmv090xt9cnwl": {
+		"definition": "cast_time_reduction-5%",
+		"x": -1025,
+		"y": 738,
+		"root": false
+	},
+	"73yiwkpy71a7sjti": {
+		"definition": "crit_chance+5%",
+		"x": -410,
+		"y": 820,
+		"root": false
+	},
+	"xd6tg3qppz8g1osj": {
+		"definition": "summon_damage+2%",
+		"x": -1025,
+		"y": 1722,
+		"root": false
+	},
+	"ud8ilazd7xrad2qe": {
+		"definition": "summon_damage+2%",
+		"x": -943,
+		"y": 1722,
+		"root": false
+	},
+	"cvcm2cx5q3lxnt2j": {
+		"definition": "summon_damage+2%",
+		"x": -902,
+		"y": 1763,
+		"root": false
+	},
+	"97zjkv48wzxha2w2": {
+		"definition": "summon_damage+2%",
+		"x": -902,
+		"y": 1845,
+		"root": false
+	},
+	"ws78g4wgn32lyr62": {
+		"definition": "summon_damage+2%",
+		"x": -943,
+		"y": 1886,
+		"root": false
+	},
+	"vb4dfv3wludr7qmy": {
+		"definition": "summon_damage+2%",
+		"x": -1025,
+		"y": 1886,
+		"root": false
+	},
+	"wen1temg1m3fcb7o": {
+		"definition": "summon_damage+2%",
+		"x": -861,
+		"y": 1804,
+		"root": false
+	},
+	"s84hsdrf63wzj51v": {
+		"definition": "summon_damage+5%",
+		"x": -779,
+		"y": 1804,
+		"root": false
+	},
+	"pgxok7npbhew21vn": {
+		"definition": "poison_spell_power+2%",
+		"x": -1025,
+		"y": 1230,
+		"root": false
+	},
+	"866nyta0vw6g4yd7": {
+		"definition": "poison_spell_power+2%",
+		"x": -1025,
+		"y": 1394,
+		"root": false
+	},
+	"wt5h8adcy3y6qepw": {
+		"definition": "poison_spell_power+2%",
+		"x": -943,
+		"y": 1230,
+		"root": false
+	},
+	"ijf8otvx4nipwjs0": {
+		"definition": "poison_spell_power+2%",
+		"x": -902,
+		"y": 1271,
+		"root": false
+	},
+	"2wm7nd853uc28lag": {
+		"definition": "poison_spell_power+2%",
+		"x": -943,
+		"y": 1394,
+		"root": false
+	},
+	"qus9o82f2f4az3un": {
+		"definition": "poison_spell_power+2%",
+		"x": -902,
+		"y": 1353,
+		"root": false
+	},
+	"1f2hfqsh6azbigvf": {
+		"definition": "poison_spell_power+2%",
+		"x": -861,
+		"y": 1312,
+		"root": false
+	},
+	"e7q24khqk6bf1h8p": {
+		"definition": "poison_spell_power+5%",
+		"x": -779,
+		"y": 1312,
+		"root": false
+	},
+	"supj1t561gg8v5i5": {
+		"definition": "lightning_spell_power+2%",
+		"x": -943,
+		"y": 1476,
+		"root": false
+	},
+	"nomeymt96f2lsh8q": {
+		"definition": "lightning_spell_power+2%",
+		"x": -861,
+		"y": 1476,
+		"root": false
+	},
+	"l7k99gjqz9xfncnc": {
+		"definition": "lightning_spell_power+2%",
+		"x": -820,
+		"y": 1517,
+		"root": false
+	},
+	"g1zpt18s3woolbpk": {
+		"definition": "lightning_spell_power+2%",
+		"x": -779,
+		"y": 1558,
+		"root": false
+	},
+	"xp7dgz0asv87pyst": {
+		"definition": "lightning_spell_power+2%",
+		"x": -820,
+		"y": 1599,
+		"root": false
+	},
+	"l8zbjjsonudlga8u": {
+		"definition": "lightning_spell_power+2%",
+		"x": -861,
+		"y": 1640,
+		"root": false
+	},
+	"5w6gmvwvf2em5d8k": {
+		"definition": "lightning_spell_power+2%",
+		"x": -943,
+		"y": 1640,
+		"root": false
+	},
+	"jvukjel5g35ivqip": {
+		"definition": "lightning_spell_power+5%",
+		"x": -697,
+		"y": 1558,
+		"root": false
+	},
+	"em19lqljy9j6hkf8": {
+		"definition": "ice_spell_power+2%",
+		"x": -1271,
+		"y": 1886,
+		"root": false
+	},
+	"9st9m24gu4y830dm": {
+		"definition": "ice_spell_power+2%",
+		"x": -1107,
+		"y": 1886,
+		"root": false
+	},
+	"d4ksvtecu035acpm": {
+		"definition": "ice_spell_power+2%",
+		"x": -1107,
+		"y": 1968,
+		"root": false
+	},
+	"v4cm3vdfpf14snqt": {
+		"definition": "ice_spell_power+2%",
+		"x": -1271,
+		"y": 1968,
+		"root": false
+	},
+	"dv8fra4yowwcprcf": {
+		"definition": "ice_spell_power+2%",
+		"x": -1230,
+		"y": 2009,
+		"root": false
+	},
+	"ukeqwm1m0ucphvn7": {
+		"definition": "ice_spell_power+2%",
+		"x": -1148,
+		"y": 2009,
+		"root": false
+	},
+	"whukmlgmfb5somu0": {
+		"definition": "ice_spell_power+2%",
+		"x": -1189,
+		"y": 2050,
+		"root": false
+	},
+	"4re9g3sm50weteiu": {
+		"definition": "ice_spell_power+5%",
+		"x": -1189,
+		"y": 2132,
+		"root": false
+	},
+	"fb3zgq4cdc6f798o": {
+		"definition": "holy_spell_power+2%",
+		"x": -1353,
+		"y": 1968,
+		"root": false
+	},
+	"3filj9u2zil23qv9": {
+		"definition": "holy_spell_power+2%",
+		"x": -1517,
+		"y": 1968,
+		"root": false
+	},
+	"r2rjj8uk4bpjrg1m": {
+		"definition": "mana+24",
+		"x": -1435,
+		"y": 2009,
+		"root": false
+	},
+	"g3b92gu70olp28t4": {
+		"definition": "holy_spell_power+2%",
+		"x": -1517,
+		"y": 2050,
+		"root": false
+	},
+	"xzdwonz8daea8rz2": {
+		"definition": "holy_spell_power+2%",
+		"x": -1476,
+		"y": 2091,
+		"root": false
+	},
+	"h5ag1udffrl7m9lt": {
+		"definition": "holy_spell_power+2%",
+		"x": -1435,
+		"y": 2132,
+		"root": false
+	},
+	"9p5zuxfwcjwicg4q": {
+		"definition": "holy_spell_power+2%",
+		"x": -1394,
+		"y": 2091,
+		"root": false
+	},
+	"c0v6u76eyjn2ixg8": {
+		"definition": "holy_spell_power+2%",
+		"x": -1353,
+		"y": 2050,
+		"root": false
+	},
+	"60sa1z8escer8uei": {
+		"definition": "holy_spell_power+5%",
+		"x": -1435,
+		"y": 2214,
+		"root": false
+	},
+	"jonhez2e4kc5cgnu": {
+		"definition": "fire_spell_power+2%",
+		"x": -1845,
+		"y": 1886,
+		"root": false
+	},
+	"robcxfkvdjf40ard": {
+		"definition": "mana+24",
+		"x": -1886,
+		"y": 1804,
+		"root": false
+	},
+	"21fs1nvgathw6e8h": {
+		"definition": "fire_spell_power+2%",
+		"x": -1845,
+		"y": 1722,
+		"root": false
+	},
+	"4q0r8rcxfoa4il06": {
+		"definition": "fire_spell_power+2%",
+		"x": -1927,
+		"y": 1886,
+		"root": false
+	},
+	"enl797uv3d0e2i0j": {
+		"definition": "fire_spell_power+2%",
+		"x": -1927,
+		"y": 1722,
+		"root": false
+	},
+	"pra58ndl1w2xf65e": {
+		"definition": "fire_spell_power+2%",
+		"x": -1968,
+		"y": 1845,
+		"root": false
+	},
+	"5drs87ty8jzbjq0q": {
+		"definition": "fire_spell_power+2%",
+		"x": -1968,
+		"y": 1763,
+		"root": false
+	},
+	"2bcqvw5qvb967hng": {
+		"definition": "fire_spell_power+2%",
+		"x": -2009,
+		"y": 1804,
+		"root": false
+	},
+	"z95yvily733kykzb": {
+		"definition": "fire_spell_power+5%",
+		"x": -2091,
+		"y": 1804,
+		"root": false
+	},
+	"6zru1fomjgx2705g": {
+		"definition": "mana+24",
+		"x": -1968,
+		"y": 1558,
+		"root": false
+	},
+	"vcow0fi1tsnwdtnh": {
+		"definition": "evocation_spell_power+2%",
+		"x": -1927,
+		"y": 1640,
+		"root": false
+	},
+	"ve8ylkxaajwzwpp4": {
+		"definition": "evocation_spell_power+2%",
+		"x": -1927,
+		"y": 1476,
+		"root": false
+	},
+	"8novpsrp0bsv7dwh": {
+		"definition": "evocation_spell_power+2%",
+		"x": -2009,
+		"y": 1476,
+		"root": false
+	},
+	"xpr24gudkg4d9yls": {
+		"definition": "evocation_spell_power+2%",
+		"x": -2009,
+		"y": 1640,
+		"root": false
+	},
+	"zaksnlxnl1z058zs": {
+		"definition": "evocation_spell_power+2%",
+		"x": -2050,
+		"y": 1599,
+		"root": false
+	},
+	"qz2qpz38qlyu53fl": {
+		"definition": "evocation_spell_power+2%",
+		"x": -2050,
+		"y": 1517,
+		"root": false
+	},
+	"juqr3upb0ao0muj6": {
+		"definition": "evocation_spell_power+2%",
+		"x": -2091,
+		"y": 1558,
+		"root": false
+	},
+	"z29568nuleegqwpt": {
+		"definition": "evocation_spell_power+5%",
+		"x": -2173,
+		"y": 1558,
+		"root": false
+	},
+	"mkzvi0533g4mgt97": {
+		"definition": "ender_spell_power+2%",
+		"x": -1599,
+		"y": 1886,
+		"root": false
+	},
+	"3nbvxwdnwec3pltp": {
+		"definition": "ender_spell_power+2%",
+		"x": -1599,
+		"y": 1968,
+		"root": false
+	},
+	"oh8wsfgx81311bnf": {
+		"definition": "mana+24",
+		"x": -1681,
+		"y": 1927,
+		"root": false
+	},
+	"gnsr4qzcudkuslil": {
+		"definition": "ender_spell_power+2%",
+		"x": -1763,
+		"y": 1886,
+		"root": false
+	},
+	"ludrij2m79yxmfhy": {
+		"definition": "ender_spell_power+2%",
+		"x": -1763,
+		"y": 1968,
+		"root": false
+	},
+	"dheivqgga4tdsqny": {
+		"definition": "ender_spell_power+2%",
+		"x": -1722,
+		"y": 2009,
+		"root": false
+	},
+	"gewkc196gr3tq2dy": {
+		"definition": "ender_spell_power+2%",
+		"x": -1640,
+		"y": 2009,
+		"root": false
+	},
+	"eq5tar2mjydq6fyq": {
+		"definition": "ender_spell_power+2%",
+		"x": -1681,
+		"y": 2050,
+		"root": false
+	},
+	"wydbybcxvfwabf65": {
+		"definition": "ender_spell_power+5%",
+		"x": -1681,
+		"y": 2132,
+		"root": false
+	},
+	"hf1jeipyb894istd": {
+		"definition": "blood_spell_power+2%",
+		"x": -1845,
+		"y": 1394,
+		"root": false
+	},
+	"rgirf99rw5w6593m": {
+		"definition": "blood_spell_power+2%",
+		"x": -1845,
+		"y": 1230,
+		"root": false
+	},
+	"iyf407w6ukldxtku": {
+		"definition": "mana+24",
+		"x": -1886,
+		"y": 1312,
+		"root": false
+	},
+	"e206fewpvbu3lr1n": {
+		"definition": "blood_spell_power+2%",
+		"x": -1927,
+		"y": 1394,
+		"root": false
+	},
+	"8n6lrqpjgahgorru": {
+		"definition": "blood_spell_power+2%",
+		"x": -1927,
+		"y": 1230,
+		"root": false
+	},
+	"lve0kcz5sn1i83wp": {
+		"definition": "blood_spell_power+2%",
+		"x": -1968,
+		"y": 1271,
+		"root": false
+	},
+	"uh0jfh6ikf19zrox": {
+		"definition": "blood_spell_power+2%",
+		"x": -1968,
+		"y": 1353,
+		"root": false
+	},
+	"lsme1iskndcsnd5x": {
+		"definition": "blood_spell_power+5%",
+		"x": -2091,
+		"y": 1312,
+		"root": false
+	},
+	"571x8r9xwrjlt0m3": {
+		"definition": "blood_spell_power+2%",
+		"x": -2009,
+		"y": 1312,
+		"root": false
+	}
+}

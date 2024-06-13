@@ -1,0 +1,28 @@
+{
+	id: "6FB5FACBAEDC2740"
+	loot_size: 3
+	order_index: 3
+	rewards: [
+		{
+			count: 10
+			item: {
+				Count: 1b
+				id: "numismaticoverhaul:silver_coin"
+				tag: { }
+			}
+			random_bonus: 30
+			weight: 3.8f
+		}
+		{
+			count: 20
+			item: {
+				Count: 1b
+				id: "numismaticoverhaul:bronze_coin"
+				tag: { }
+			}
+			random_bonus: 79
+			weight: 7.0f
+		}
+	]
+	title: "Coins Reward Common"
+}

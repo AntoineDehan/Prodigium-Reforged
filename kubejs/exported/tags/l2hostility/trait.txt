@@ -1,0 +1,13 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 15, 2024, 2:19:47 PM
+
+#l2hostility:potion_trait
+- l2hostility:weakness (from l2hostility-1.0.5.jar)
+- l2hostility:slowness (from l2hostility-1.0.5.jar)
+- l2hostility:poison (from l2hostility-1.0.5.jar)
+- l2hostility:wither (from l2hostility-1.0.5.jar)
+- l2hostility:levitation (from l2hostility-1.0.5.jar)
+- l2hostility:blindness (from l2hostility-1.0.5.jar)
+- l2hostility:nausea (from l2hostility-1.0.5.jar)
+- l2hostility:soul_burner (from l2hostility-1.0.5.jar)
+- l2hostility:freezing (from l2hostility-1.0.5.jar)
+- l2hostility:cursed (from l2hostility-1.0.5.jar)

@@ -1,0 +1,225 @@
+{
+    "size": "small",
+    "color": "#D3D3D3",
+    "allow_discarding": true,
+    "leash_range": 50,
+    "waves": [{
+            "entities": [{
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:skeleton",
+                "rolls": 3
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:skeleton",
+                "rolls": 6
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "savage_and_ravage:skeleton_villager"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:skeleton",
+                "rolls": 9
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:skeleton",
+                "rolls": 12
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "savage_and_ravage:skeleton_villager"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 1.25
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 6
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.20
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.20
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:skeleton",
+                "rolls": 15
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "minecraft:skeleton",
+        "rolls": 30
+    },
+    {
+        "type": "loot_table",
+        "loot_table": "prodigiumreforged:gates/defender_tieri",
+        "rolls": 34,
+        "desc": "Coins rewards"
+    }],
+    "completion_xp": 250,
+	"spawn_range": 5
+}

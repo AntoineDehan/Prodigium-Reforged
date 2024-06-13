@@ -1,0 +1,44 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:valkyrie_helmet"
+  },
+  "chest": {
+    "itemKey": "aether:valkyrie_chestplate"
+  },
+  "legs": {
+    "itemKey": "aether:valkyrie_leggings"
+  },
+  "boots": {
+    "itemKey": "aether:valkyrie_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_skills:player.ranged_damage",
+      "value": 0.75,
+      "modifierUUID": "844303b1-dbd9-4b20-b077-ccad75118b6c",
+      "description": "+0.75 Ranged damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.10,
+      "modifierUUID": "66a417c0-5d04-4789-ba98-5df0a914dc80",
+      "description": "10% Roll Cooldown Reduction"
+    },
+    {
+      "type": "attribute",
+      "name": "apotheosis:dodge_chance",
+      "value": 0.05,
+      "modifierUUID": "8b93f03d-bce1-458e-8a2f-8e62e452d4e9",
+      "description": "5% Dodge Chance"
+    },
+    {
+      "type": "effect",
+      "name": "cofh_core:panacea",
+      "value": 0.0
+    }
+  ]
+}

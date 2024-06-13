@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N A",
+    " H ",
+    "C N"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "A": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "H": {
+      "item": "cataclysm:monstrous_horn"
+    }
+  },
+  "result": {
+    "item": "bosses_of_mass_destruction:mob_ward"
+  }
+}

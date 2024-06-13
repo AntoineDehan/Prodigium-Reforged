@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "quark:pickarang",
+    "quark:flamerang",
+    "quark:echorang"
+  ],
+  "incompatible": [
+    "minecraft:luck_of_the_sea",
+    "majruszsenchantments:smelter",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:looting",
+    "minecraft:fortune"
+  ]
+}

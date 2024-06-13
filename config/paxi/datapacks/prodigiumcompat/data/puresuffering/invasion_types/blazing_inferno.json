@@ -1,0 +1,235 @@
+{
+  "Dimensions": [
+    "minecraft:the_nether"
+  ],
+  "InvasionPriority": "BOTH",
+  "InvasionTime": "BOTH",
+  "Rarity": 10,
+  "SeverityInfo": [
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.2,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:blaze",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 6
+        },
+        {
+          "EntityType": "stalwart_dungeons:giddy_blaze",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        }
+      ],
+      "TickDelay": 30
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.4,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:blaze",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 6
+        },
+        {
+          "EntityType": "minecraft:magma_cube",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "stalwart_dungeons:reinforced_blaze",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "stalwart_dungeons:giddy_blaze",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        }
+      ],
+      "TickDelay": 25
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.6,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:blaze",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 4,
+          "MinCount": 1,
+          "Weight": 6
+        },
+        {
+          "EntityType": "minecraft:magma_cube",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:wither_skeleton",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:ghast",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "stalwart_dungeons:reinforced_blaze",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "stalwart_dungeons:giddy_blaze",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 2
+        }
+      ],
+      "TickDelay": 20
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.8,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:blaze",
+          "MaxCount": 3,
+          "MinCount": 2,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 6
+        },
+        {
+          "EntityType": "minecraft:magma_cube",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:wither_skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:ghast",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "stalwart_dungeons:giddy_blaze",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "stalwart_dungeons:reinforced_blaze",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        }
+      ],
+      "TickDelay": 15
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 1.0,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:blaze",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 6
+        },
+        {
+          "EntityType": "minecraft:magma_cube",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:wither_skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:ghast",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "stalwart_dungeons:giddy_blaze",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "stalwart_dungeons:reinforced_blaze",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "somebosses:frost_magma",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 2
+        }
+      ],
+      "TickDelay": 10
+    }
+  ],
+  "SpawningSystem": "DEFAULT",
+  "Tier": 1,
+  "TimeChangeability": "DEFAULT",
+  "TimeModifier": "NONE",
+  "WeatherType": "DEFAULT"
+}

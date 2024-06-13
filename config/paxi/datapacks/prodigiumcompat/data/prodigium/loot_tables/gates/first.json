@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "simpleores:mythril_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "simpleores:adamantium_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "majruszsdifficulty:tattered_cloth"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "heartcanisters:heart_canister"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "doggytalents:super_treat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "majruszsdifficulty:bandage"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "majruszsdifficulty:golden_bandage"
+        },
+		{
+		  "type": "minecraft:item",
+		  "weight": 18,
+		  "name": "minecraft:emerald"
+		}
+      ]
+    }
+  ]
+}

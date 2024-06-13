@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "prodigium:palladium_bow",
+    "prodigium:orichalcum_bow",
+    "prodigium:shroomite_bow",
+    "aether:phoenix_bow"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,251 @@
+{
+    "size": "medium",
+    "color": "#71955B",
+    "allow_discarding": true,
+    "leash_range": 50,
+    "waves": [{
+            "entities": [{
+                    "entity": "minecraft:zombie"
+                },
+                {
+                    "entity": "minecraft:zombie"
+                },
+                {
+                    "entity": "minecraft:zombie"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:zombie",
+                "rolls": 5
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:zombie"
+                },
+                {
+                    "entity": "minecraft:zombie"
+                },
+                {
+                    "entity": "minecraft:husk"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:zombie",
+                "rolls": 10
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "rottencreatures:frostbitten"
+                },
+                {
+                    "entity": "rottencreatures:swampy"
+                },
+                {
+                    "entity": "minecraft:husk"
+                },
+				{
+                    "entity": "minecraft:husk"
+                },
+                {
+                    "entity": "minecraft:zombie"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:zombie",
+                "rolls": 15
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "rottencreatures:frostbitten"
+                },
+                {
+                    "entity": "rottencreatures:swampy"
+                },
+                {
+                    "entity": "minecraft:zombie"
+                },
+				{
+                    "entity": "minecraft:husk"
+                },
+                {
+                    "entity": "minecraft:husk"
+                },
+                {
+                    "entity": "minecraft:husk"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:zombie",
+                "rolls": 20
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "rottencreatures:frostbitten"
+                },
+                {
+                    "entity": "rottencreatures:frostbitten"
+                },
+                {
+                    "entity": "rottencreatures:undead_miner"
+                },
+				{
+                    "entity": "rottencreatures:swampy"
+                },
+                {
+                    "entity": "minecraft:husk"
+                },
+                {
+                    "entity": "minecraft:husk"
+                },
+                {
+                    "entity": "minecraft:husk"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 1.25
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 6
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.20
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.20
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:zombie",
+                "rolls": 25
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "minecraft:zombie",
+        "rolls": 60
+    },
+    {
+        "type": "loot_table",
+        "loot_table": "prodigiumreforged:gates/defender_tierii",
+        "rolls": 34,
+        "desc": "Coins rewards"
+    },
+    {
+        "type": "command",
+        "command": "/ftbquests change_progress @p complete 2221A3096897D237",
+        "desc": "Quest's progress"
+    }],
+    "completion_xp": 500,
+	"spawn_range": 7
+}

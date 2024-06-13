@@ -1,0 +1,14 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "multiplier": 0.01,
+    "apply_below_y": 63,
+    "stop_at": -64
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "multiplier": -0.64,
+    "apply_below_y": 4,
+    "stop_at": 3
+  }
+]

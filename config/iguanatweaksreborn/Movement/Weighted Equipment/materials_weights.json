@@ -1,0 +1,26 @@
+[
+  {
+    "id": "leather",
+    "total_weight": 0.04
+  },
+  {
+    "id": "chainmail",
+    "total_weight": 0.1
+  },
+  {
+    "id": "golden",
+    "total_weight": 0.07
+  },
+  {
+    "id": "iron",
+    "total_weight": 0.13
+  },
+  {
+    "id": "diamond",
+    "total_weight": 0.18
+  },
+  {
+    "id": "netherite",
+    "total_weight": 0.25
+  }
+]

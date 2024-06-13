@@ -1,0 +1,18 @@
+[
+  {
+    "tag": "iguanatweaksreborn:equipment/hand/tools/wooden",
+    "value": 1.5
+  },
+  {
+    "tag": "iguanatweaksreborn:equipment/hand/tools/stone",
+    "value": 3.0
+  },
+  {
+    "tag": "iguanatweaksreborn:equipment/hand/tools/iron",
+    "value": 5.5
+  },
+  {
+    "tag": "iguanatweaksreborn:equipment/hand/tools/diamond",
+    "value": 7.5
+  }
+]

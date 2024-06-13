@@ -1,0 +1,51 @@
+{
+  "armorSetName": "tank",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cataclysm:ignitium_helmet"
+  },
+  "chest": {
+    "itemKey": "cataclysm:ignitium_chestplate"
+  },
+  "legs": {
+    "itemKey": "cataclysm:ignitium_leggings"
+  },
+  "boots": {
+    "itemKey": "cataclysm:ignitium_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0
+    },
+	{
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+	  "modifierUUID": "63544859-9637-426c-b2ef-e2776da4c2de",
+	  "description" : "+2 Armor"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor_toughness",
+	  "value": 1.0,
+	  "modifierUUID": "b7006518-e6ab-4614-bc34-df445b831787",
+	  "description": "+1 Armor Toughness"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.attack_knockback",
+	  "value": 1.0,
+	  "modifierUUID": "d8b6825a-9ccb-11ed-8745-efe6e94acba7",
+	  "description": "+1 Attack Knockback"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.max_health",
+	  "value": 6.0,
+	  "modifierUUID": "4a192fd5-ffd4-44c6-832e-62a903b5ea78",
+	  "description": "+6 Max health"
+    }
+  ]
+}

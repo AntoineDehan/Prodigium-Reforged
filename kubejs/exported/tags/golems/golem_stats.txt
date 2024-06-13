@@ -1,0 +1,20 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 1, 2023, 8:32:12 PM
+
+#golems:villager_summonable
+- golems:bookshelf (from extragolems-19.2.6.jar)
+- golems:clay (from extragolems-19.2.6.jar)
+- golems:coal (from extragolems-19.2.6.jar)
+- golems:crafting (from extragolems-19.2.6.jar)
+- golems:glass (from extragolems-19.2.6.jar)
+- golems:glowstone (from extragolems-19.2.6.jar)
+- golems:hay (from extragolems-19.2.6.jar)
+- golems:leaves (from extragolems-19.2.6.jar)
+- golems:log (from extragolems-19.2.6.jar)
+- golems:melon (from extragolems-19.2.6.jar)
+- golems:moss (from extragolems-19.2.6.jar)
+- golems:mushroom (from extragolems-19.2.6.jar)
+- golems:obsidian (from extragolems-19.2.6.jar)
+- golems:quartz (from extragolems-19.2.6.jar)
+- golems:sandstone (from extragolems-19.2.6.jar)
+- golems:terracotta (from extragolems-19.2.6.jar)
+- golems:wool (from extragolems-19.2.6.jar)

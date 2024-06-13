@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "A#A",
+    "BAB",
+    "ABA"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:dragon_scale"
+    },
+	"A": {
+      "item": "kubejs:eternia_crystal"
+    },
+  "B":{
+    "item": "prodigium:orichalcum_ingot"
+  } 
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:old_ones_army_tieriii"
+}

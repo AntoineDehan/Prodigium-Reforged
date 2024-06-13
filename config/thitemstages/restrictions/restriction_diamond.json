@@ -1,0 +1,44 @@
+{
+  "Restriction Data": {
+    "stage": "stage_melee2",
+    "itemList": [
+	 {
+		 "item": "minecraft:diamond_helmet"
+	 },
+	 {	
+		 "item": "minecraft:diamond_leggings"
+	 },
+	 {
+		 "item": "minecraft:diamond_chestplate"
+	 },
+	 {
+		 "item": "minecraft:diamond_boots"
+	 }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+     
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Melee's skill tree)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

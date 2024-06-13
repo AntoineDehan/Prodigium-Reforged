@@ -1,0 +1,37 @@
+{
+  "armorSetName": "mage",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:archevoker_helmet"
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:archevoker_chestplate"
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:archevoker_leggings"
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:archevoker_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.5,
+      "modifierUUID": "5f0e194c-b502-42fc-8107-b514f232f9e1",
+      "description": "+5% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 100,
+      "modifierUUID": "26ac165c-8017-4285-9a2f-99b6222cbfd1",
+      "description": "+100 Max Mana"
+    },
+    {
+      "type": "effect",
+      "name": "cofh_core:magic_resistance",
+      "value": 0.0
+    }
+  ]
+}

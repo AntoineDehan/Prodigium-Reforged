@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECE",
+    "GDG",
+    "EXE"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+	},
+    "X": {
+      "item": "prodigium:palladium_ingot"
+    },
+	"C": {
+      "item": "simpleores:adamantium_ingot"
+    },
+    "E": {
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  },
+  "result": {
+    "item": "recall:item_recall"
+  }
+}

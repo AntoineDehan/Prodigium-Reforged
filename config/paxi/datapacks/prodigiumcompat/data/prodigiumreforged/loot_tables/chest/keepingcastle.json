@@ -1,0 +1,155 @@
+{
+  "pools": [
+    {
+	  "type": "minecraft:chest",
+      "rolls": 9,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:red_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:orange_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:magenta_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:orange_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "majruszsdifficulty:golden_bandage",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        },
+		{
+		  "type": "minecraft:item",
+		  "weight": 3,
+		  "name": "minecraft:diamond",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 14,
+		  "name": "stalwart_dungeons:tungsten_ingot",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 14,
+		  "name": "stalwart_dungeons:blaze_armor_scrap",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 14,
+		  "name": "prodigium:orichalcum_ingot",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 18,
+		  "name": "farmersdelight:smoked_ham"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 17,
+		  "name": "minecraft:nether_wart"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 5,
+		  "name": "minecraft:gold_nugget",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 20,
+		  "name": "endrem:nether_eye"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 7,
+		  "name": "minecraft:blaze_powder"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 12,
+		  "name": "irons_spellbooks:arcane_essence",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+		}
+      ]
+    }
+  ]
+}

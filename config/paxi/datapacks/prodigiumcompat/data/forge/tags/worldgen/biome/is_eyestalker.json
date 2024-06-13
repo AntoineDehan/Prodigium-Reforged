@@ -1,0 +1,8 @@
+{
+    "replace": false,
+"values": [
+"#forge:is_plains",
+"#forge:is_end",
+"minecraft:warped_forest"
+ ]	
+}

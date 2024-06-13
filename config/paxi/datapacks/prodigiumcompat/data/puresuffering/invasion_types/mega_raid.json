@@ -1,0 +1,259 @@
+{
+  "Dimensions": [
+    "minecraft:overworld"
+  ],
+  "InvasionPriority": "BOTH",
+  "InvasionTime": "NIGHT",
+  "Rarity": 3,
+  "SeverityInfo": [
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.2,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:pillager",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 15
+        },
+        {
+          "EntityType": "minecraft:vindicator",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 8
+        },
+        {
+          "EntityType": "minecraft:witch",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 10
+        }
+      ],
+      "TickDelay": 45
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.4,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:pillager",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 15
+        },
+        {
+          "EntityType": "minecraft:vindicator",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 8
+        },
+        {
+          "EntityType": "minecraft:witch",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 10
+        },
+        {
+          "EntityType": "minecraft:ravager",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 3
+        },
+		{
+          "EntityType": "savageandravage:griefer",
+          "Weight": 3,
+          "MinCount": 1,
+          "MaxCount": 1
+        },
+		{
+          "EntityType": "savageandravage:trickster",
+          "Weight": 3,
+          "MinCount": 1,
+          "MaxCount": 1
+        }
+      ],
+      "TickDelay": 36
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.6,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:pillager",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 15
+        },
+        {
+          "EntityType": "minecraft:vindicator",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 8
+        },
+        {
+          "EntityType": "minecraft:witch",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 10
+        },
+        {
+          "EntityType": "minecraft:ravager",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "minecraft:evoker",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 5
+        },
+		{
+          "EntityType": "savageandravage:griefer",
+          "Weight": 3,
+          "MinCount": 1,
+          "MaxCount": 1
+        },
+		{
+          "EntityType": "savageandravage:trickster",
+          "Weight": 3,
+          "MinCount": 1,
+          "MaxCount": 1
+        }
+      ],
+      "TickDelay": 27
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.8,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:pillager",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 15
+        },
+        {
+          "EntityType": "minecraft:vindicator",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 8
+        },
+        {
+          "EntityType": "minecraft:witch",
+          "MaxCount": 4,
+          "MinCount": 1,
+          "Weight": 10
+        },
+        {
+          "EntityType": "minecraft:ravager",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "minecraft:evoker",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+		{
+          "EntityType": "savageandravage:griefer",
+          "Weight": 3,
+          "MinCount": 1,
+          "MaxCount": 2
+        },
+		{
+          "EntityType": "savageandravage:trickster",
+          "Weight": 3,
+          "MinCount": 1,
+          "MaxCount": 2
+        },
+		{
+          "EntityType": "savageandravage:iceologer",
+          "Weight": 3,
+          "MinCount": 1,
+          "MaxCount": 1
+        }
+      ],
+      "TickDelay": 18
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 1.0,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:pillager",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 15
+        },
+        {
+          "EntityType": "minecraft:vindicator",
+          "MaxCount": 4,
+          "MinCount": 1,
+          "Weight": 8
+        },
+        {
+          "EntityType": "minecraft:witch",
+          "MaxCount": 4,
+          "MinCount": 1,
+          "Weight": 10
+        },
+        {
+          "EntityType": "minecraft:ravager",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "minecraft:evoker",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:illusioner",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+		{
+          "EntityType": "savageandravage:griefer",
+          "Weight": 3,
+          "MinCount": 2,
+          "MaxCount": 4
+        },
+		{
+          "EntityType": "savageandravage:trickster",
+          "Weight": 5,
+          "MinCount": 1,
+          "MaxCount": 4
+        },
+		{
+          "EntityType": "savageandravage:iceologer",
+          "Weight": 5,
+          "MinCount": 1,
+          "MaxCount": 3
+        },
+		{
+          "EntityType": "savageandravage:executioner",
+          "Weight": 6,
+          "MinCount": 1,
+          "MaxCount": 2
+        }
+      ],
+      "TickDelay": 9
+    }
+  ],
+  "SpawningSystem": "DEFAULT",
+  "Tier": 1,
+  "TimeChangeability": "DEFAULT",
+  "TimeModifier": "NONE",
+  "WeatherType": "DEFAULT"
+}

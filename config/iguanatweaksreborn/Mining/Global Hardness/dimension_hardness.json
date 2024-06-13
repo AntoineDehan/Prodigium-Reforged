@@ -1,0 +1,10 @@
+[
+  {
+    "dimension": "minecraft:the_nether",
+    "multiplier": 4.0
+  },
+  {
+    "dimension": "minecraft:the_end",
+    "multiplier": 4.0
+  }
+]

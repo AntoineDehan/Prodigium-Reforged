@@ -1,0 +1,312 @@
+{
+    "size": "large",
+    "color": "#976797",
+    "allow_discarding": true,
+    "leash_range": 50,
+    "waves": [{
+            "entities": [{
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+				{
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:shulker",
+                "rolls": 20
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+				{
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:shulker",
+                "rolls": 30
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+				{
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:shulker",
+                "rolls": 40
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+				{
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:shulker",
+                "rolls": 50
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+				{
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "stalwart_dungeons:propulk"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                },
+                {
+                    "entity": "minecraft:shulker"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 1.25
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDiTiON",
+                    "value": 6
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDiTiON",
+                    "value": 0.20
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTiPLY_TOTAL",
+                    "value": 0.20
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:shulker",
+                "rolls": 60
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "minecraft:shulker",
+        "rolls": 120
+    },
+	{
+		"type": "stack",
+		"stack": {
+			"item": "minecraft:nether_star"
+		}
+	},
+    {
+        "type": "loot_table",
+        "loot_table": "prodigiumreforged:gates/defender_tieriii",
+        "rolls": 34,
+        "desc": "Coins rewards"
+    }],
+    "completion_xp": 1250,
+	"spawn_range": 9
+}

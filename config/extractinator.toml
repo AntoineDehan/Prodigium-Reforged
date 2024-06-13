@@ -1,0 +1,12 @@
+extractTicks = 8
+lootMultiplier = 1.0
+extractinatorDurability = -1
+siltVeinSize = 13
+siltVeinsPerChunk = 9
+siltMinHeight = -64
+siltMaxHeight = 24
+slushVeinSize = 13
+slushVeinsPerChunk = 8
+slushMinHeight = 25
+slushMaxHeight = 48
+

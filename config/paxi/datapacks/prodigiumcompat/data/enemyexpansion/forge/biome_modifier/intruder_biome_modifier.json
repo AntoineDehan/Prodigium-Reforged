@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "frozen_river"
+  ],
+  "spawners": {
+    "type": "enemyexpansion:intruder",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

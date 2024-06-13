@@ -1,0 +1,66 @@
+[
+  {
+    "id": "minecraft:wooden_sword",
+    "value": 1.0
+  },
+  {
+    "id": "minecraft:wooden_pickaxe",
+    "value": 1.0
+  },
+  {
+    "id": "minecraft:wooden_axe",
+    "value": 8.0
+  },
+  {
+    "id": "minecraft:wooden_shovel",
+    "value": 1.0
+  },
+  {
+    "id": "minecraft:wooden_hoe",
+    "value": 1.0
+  },
+  {
+    "id": "minecraft:stone_sword",
+    "value": 1.0
+  },
+  {
+    "id": "minecraft:stone_pickaxe",
+    "value": 8.0
+  },
+  {
+    "id": "minecraft:stone_axe",
+    "value": 48.0
+  },
+  {
+    "id": "minecraft:stone_shovel",
+    "value": 48.0
+  },
+  {
+    "id": "minecraft:stone_hoe",
+    "value": 8.0
+  },
+  {
+    "id": "minecraft:iron_sword",
+    "value": 375.0
+  },
+  {
+    "id": "minecraft:iron_pickaxe",
+    "value": 375.0
+  },
+  {
+    "id": "minecraft:iron_axe",
+    "value": 375.0
+  },
+  {
+    "id": "minecraft:iron_shovel",
+    "value": 375.0
+  },
+  {
+    "id": "minecraft:iron_hoe",
+    "value": 375.0
+  },
+  {
+    "id": "minecraft:elytra",
+    "value": 144.0
+  }
+]

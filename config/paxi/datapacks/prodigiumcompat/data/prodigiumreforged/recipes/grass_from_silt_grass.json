@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "regions_unexplored:silt_grass_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:grass_block"
+  }
+}

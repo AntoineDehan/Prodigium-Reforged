@@ -1,0 +1,66 @@
+{
+  "armorSetName": "mage",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:zanite_helmet"
+  },
+  "chest": {
+    "itemKey": "aether:zanite_chestplate"
+  },
+  "legs": {
+    "itemKey": "aether:zanite_leggings"
+  },
+  "boots": {
+    "itemKey": "aether:zanite_boots"
+  },
+  "mainHand": {
+    "itemKey": "aether:zanite_sword"
+  },
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:cooldown_reduction",
+      "value": 0.1,
+      "modifierUUID": "8b0d01ae-09f4-43a6-b16e-0d36324e8713",
+      "description": "10% Cooldown Reduction"
+      },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 50,
+      "modifierUUID": "29c49d74-ebd1-4b1f-a298-d25be936a32a",
+      "description": "+50 Mana"
+      },
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.attack_speed",
+        "value": 0.05,
+        "modifierUUID": "f3b9212c-947c-473d-a5f3-fee272460bec",
+        "description": "+0.05 Attack Speed"
+      }
+  ],
+  "fullSetBonuses": [
+	{
+	  "type": "attribute",
+	  "name": "irons_spellbooks:cooldown_reduction",
+	  "value": 0.25,
+	  "modifierUUID": "d6c47e34-8146-4812-95a7-b39e818525b5",
+	  "description": "25% Cooldown Reduction"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.3,
+      "modifierUUID": "3fc23504-764e-4120-a1fd-d0770d471ef3",
+      "description": "+0.3 Attack Speed"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:cast_time_reduction",
+      "value": 0.1,
+      "modifierUUID": "24ea7caf-f76d-426a-a705-54d7a6608ca2",
+      "description": "10% Cast Time Reduction"
+    }
+  ]
+}

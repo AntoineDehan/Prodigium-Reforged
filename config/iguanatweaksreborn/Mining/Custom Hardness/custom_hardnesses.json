@@ -1,0 +1,66 @@
+[
+  {
+    "id": "minecraft:coal_ore",
+    "hardness": 2.5
+  },
+  {
+    "id": "minecraft:iron_ore",
+    "hardness": 3.0
+  },
+  {
+    "id": "minecraft:gold_ore",
+    "hardness": 3.5
+  },
+  {
+    "id": "minecraft:diamond_ore",
+    "hardness": 4.0
+  },
+  {
+    "id": "minecraft:redstone_ore",
+    "hardness": 3.0
+  },
+  {
+    "id": "minecraft:lapis_ore",
+    "hardness": 3.0
+  },
+  {
+    "id": "minecraft:emerald_ore",
+    "hardness": 4.0
+  },
+  {
+    "id": "minecraft:deepslate_coal_ore",
+    "hardness": 4.5
+  },
+  {
+    "id": "minecraft:deepslate_iron_ore",
+    "hardness": 5.0
+  },
+  {
+    "id": "minecraft:deepslate_gold_ore",
+    "hardness": 5.5
+  },
+  {
+    "id": "minecraft:deepslate_diamond_ore",
+    "hardness": 6.0
+  },
+  {
+    "id": "minecraft:deepslate_redstone_ore",
+    "hardness": 5.0
+  },
+  {
+    "id": "minecraft:deepslate_lapis_ore",
+    "hardness": 5.0
+  },
+  {
+    "id": "minecraft:deepslate_emerald_ore",
+    "hardness": 6.0
+  },
+  {
+    "id": "minecraft:ancient_debris",
+    "hardness": 10.0
+  },
+  {
+    "tag": "iguanatweaksreborn:obsidians",
+    "hardness": 33.0
+  }
+]

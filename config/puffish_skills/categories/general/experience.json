@@ -1,0 +1,32 @@
+{
+	"enabled": true,
+	"experience_per_level": {
+		"type": "values",
+		"data": {
+			"values": [
+				250
+			]
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"conditions": {
+					"bedrock": {
+						"type": "block",
+						"data": {
+							"block": "bedrock"
+						}
+					}
+				},
+				"experience": [
+					{
+						"condition": "bedrock",
+						"expression": "1"
+					}
+				]
+			}
+		}
+	]
+}

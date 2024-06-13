@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+	  "type": "minecraft:chest",
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:lime_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:green_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "quark:orange_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "majruszsdifficulty:golden_bandage",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+		{
+		  "type": "minecraft:item",
+		  "weight": 5,
+		  "name": "minecraft:diamond",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 14,
+		  "name": "stalwart_dungeons:tungsten_ingot",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 14,
+		  "name": "stalwart_dungeons:blaze_armor_scrap"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 14,
+		  "name": "prodigium:orichalcum_ingot",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 18,
+		  "name": "nature_expansion:crimson_fungus_soup"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 12,
+		  "name": "minecraft:ghast_tear"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 5,
+		  "name": "minecraft:gold_nugget",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 20,
+		  "name": "endrem:nether_eye"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 5,
+		  "name": "simpleores:onyx_gem"
+		}
+      ]
+    }
+  ]
+}

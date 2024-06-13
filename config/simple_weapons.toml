@@ -1,0 +1,17 @@
+
+["Weapon Effects (true/false)"]
+	#Enable / disable the scythe effects
+	doScytheEffect = false
+	#Enable / disable the dagger effects
+	doDaggerEffect = true
+	#Enable / disable the katar effects
+	doKatarEffect = true
+	#Enable / disable the scimitar effects
+	doScimitarEffect = true
+	#Enable / disable the crowbill effects
+	doCrowbillEffect = true
+	#Enable / disable the katana effects
+	doKatanaEffect = true
+	#Enable / disable the spear effects
+	doSpearEffect = true
+

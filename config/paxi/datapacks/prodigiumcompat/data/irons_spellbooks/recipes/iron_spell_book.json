@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "CLL",
+    "APP",
+    "CLL"
+  ],
+  "key":
+  {
+    "C":
+    {
+      "item": "minecraft:chain"
+    },
+    "L":
+    {
+      "tag": "forge:leather"
+    },
+    "P":
+    {
+      "item": "minecraft:paper"
+    },
+	"A":
+    {
+      "item": "meetyourfight:phantoplasm"
+    }
+  },
+  "result":
+  {
+    "item": "irons_spellbooks:iron_spell_book",
+    "count": 1
+  }
+}

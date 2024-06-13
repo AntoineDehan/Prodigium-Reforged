@@ -1,0 +1,31 @@
+#Changes how repairing items in an anvil multiple times will affect the cost of subsequent repairs. In vanilla the penalty doubles with every repair. When set to fixed a constant multiplier will instead be added with every repair.
+#Allowed Values: OFF, VANILLA, FIXED
+prior_work_penalty = "FIXED"
+#Renaming any item in an anvil no longer costs any enchantment levels at all. Can be restricted to only name tags.
+#Allowed Values: OFF, ALL_ITEMS, NAME_TAGS_ONLY
+free_renames = "NAME_TAGS_ONLY"
+#The maximum amount of enchantment level allowed to be spent in an anvil. Everything above will be 'Too Expensive!' and will be disallowed.
+#This option isn't that impactful anymore when prior work penalties are disabled; repair costs will basically never reach such a high value anymore.
+#Range: > -2147483648
+max_anvil_repair_cost = 63
+#Always allow renaming and repairing items, even when the cost exceeds the max anvil repair cost. The cost will then be capped just below the max cost. This is already done in vanilla for renaming.
+#This also prevents the prior work penalty from increasing when the item has only been renamed or repaired.
+always_rename_and_repair = true
+#When combining enchanted items in an anvil, prevent an enchantment level higher than the max level value for that enchantment from being lowered to said max value.
+no_anvil_max_level_limit = true
+#Chance the anvil will break into chipped or damaged variant, or break completely after using. Value is set to 0.12 in vanilla.
+#Range: 0.0 ~ 1.0
+anvil_break_chance = 0.10
+#Solely renaming items in an anvil will never cause the anvil to break.
+risk_free_anvil_renaming = true
+#Multiplier to use when "prior_work_penalty" is set to "FIXED". Every subsequent operation will increase by this value in levels.
+#Range: > 1
+prior_work_penalty_multiplier = 3
+#Edit name tags without cost nor anvil, simply by sneak + right-clicking.
+edit_name_tags_no_anvil = true
+#The naming field in anvils and the name tag gui will support formatting codes for setting custom text colors and styles.
+#Check out the Minecraft Wiki for all available formatting codes and their usage: https://minecraft.fandom.com/wiki/Formatting_codes#Usage
+renaming_supports_formatting = true
+#Allow using iron blocks to repair an anvil by one stage. Can be automated using dispensers.
+anvil_repairing = true
+

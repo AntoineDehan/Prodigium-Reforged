@@ -1,0 +1,21 @@
+{
+  "name": "prodigium_dungeons:blossom_arena/start_pool",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+
+      "weight": 1,
+      "element": {
+
+        "location": "prodigium_dungeons:blossom_arena",
+
+        "processors": "minecraft:empty",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

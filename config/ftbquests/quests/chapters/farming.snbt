@@ -1,0 +1,1106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: "04557421BF808B7D"
+	icon: "minecraft:farmland"
+	id: "0DE069ED579AAAA0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6868F944E8377ED9"]
+			id: "03D558CFE06210A0"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7E5C8C48D14E56E7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1DD9B17EB5E001D2"
+					item: "majruszsdifficulty:recall_potion"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "245A717FEA12E65A"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "Don't put your hands on it"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0ED810BEFC86FE35"]
+			description: ["Use it to chop food "]
+			id: "6868F944E8377ED9"
+			rewards: [{
+				auto: "no_toast"
+				id: "68D5DA291A3C00AC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "19E8E2B324FD4B6A"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "Chop chop"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "0ED810BEFC86FE35"
+			rewards: [{
+				auto: "no_toast"
+				id: "6D18F69429F31312"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0DDE825A99BDCEDD"
+				item: {
+					Count: 1b
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Iron  Knife"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "46F065AA99D4011A"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "37AAF4B969D3DFD5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5385B1B09F208702"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "717953A5360FB76A"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "0BD412410F45F28A"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 10
+			}]
+			title: "New friends"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03D558CFE06210A0"]
+			id: "5B3A19F6D6A7DF76"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "11DB4AA96383B6D7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "279A8D07CB3421B9"
+					item: "minecraft:mutton"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 5
+					id: "72BF06E3B05D179F"
+					item: "minecraft:beef"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7F655DA5681EE8D0"
+					item: "minecraft:porkchop"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 5
+					id: "299E2377EFCD9A21"
+					item: "minecraft:brown_mushroom"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5C28E68905673D47"
+					item: "minecraft:red_mushroom"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 10
+					id: "58F0EBDAAC405A44"
+					item: "minecraft:sugar"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0424767CBD8A90BE"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1B1C7BAA6922338D"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Let's get cookin'"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46F065AA99D4011A"]
+			id: "6F0C95D5B080824E"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0B12A386AD712774"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 32
+					id: "77E5370075F6B741"
+					item: "minecraft:bone_meal"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BD5BEF063CDD8FD"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:lead"
+				id: "3613B71300F323F1"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 150
+			}]
+			title: "Don't let them escape"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F0C95D5B080824E"]
+			id: "6488571DB0649AE9"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "154C2AFF8177DA41"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 32
+					id: "5D9FB29512B4EFFA"
+					item: "minecraft:bone_meal"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3506B8152966E6FD"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:hay_block"
+				id: "214EA84FD4F54F20"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 500
+			}]
+			title: "You might need a larger enclosure"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6488571DB0649AE9"]
+			id: "4EAA1E319677D95F"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2364A4E7153E4FCF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "44CB22617287A851"
+					item: "artifacts:eternal_steak"
+					type: "item"
+				}
+				{
+					id: "578F9812E48FDC11"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "01329395B5FDE5E6"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15847E77582AE06F"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:golden_apple"
+				id: "2EAEC4D639E587F3"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 1250
+			}]
+			title: "That's a lot of animals to eat"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "3E9020FDB9AC5F9D"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "29EC46D132F099A2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "48C8DD22AE1DC29F"
+					item: "doggytalents:master_treat"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C66CB933260BA48"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "4ACFDB700FC684E8"
+			rewards: [
+				{
+					id: "595A6ACCF821C7B2"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "44FD86451A2E804B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "368C35B868A2B66A"
+					item: "minecraft:iron_horse_armor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F2B411C3D3435DC"
+				item: "farmersdelight:horse_feed"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "28827CAC96BC3E13"
+			rewards: [{
+				auto: "no_toast"
+				id: "1237D57A898F6E87"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "166A1D849E6632BB"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			id: "0FE737F88D736136"
+			rewards: [{
+				auto: "no_toast"
+				id: "2D1413225C41F3AB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6DC99999E86AF0CC"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FE737F88D736136"]
+			id: "0DEDCFA425A1B6F1"
+			rewards: [{
+				auto: "no_toast"
+				id: "6ADD8E9278DEB659"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "495AF90D3FD208BC"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0FE737F88D736136"]
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "168ACB9EA1F1B96D"
+			rewards: [{
+				auto: "no_toast"
+				id: "5F0BC8279A16BF78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5705E0CE4B210632"
+				item: "farmersdelight:apple_pie"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0FE737F88D736136"]
+			id: "28035C77E019668F"
+			rewards: [{
+				auto: "no_toast"
+				id: "6251608EC6F89376"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "533B7B8558D2EA9E"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28827CAC96BC3E13"]
+			id: "3AA025EE989D9CE3"
+			rewards: [{
+				auto: "no_toast"
+				id: "6888BC0A13AC2644"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "24BA7187983AE0AB"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28827CAC96BC3E13"]
+			id: "192B399D70F00F87"
+			rewards: [{
+				auto: "no_toast"
+				id: "7FCD4A93184AE52E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7B61C9E357052B64"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28827CAC96BC3E13"]
+			id: "02FE4DC04D496931"
+			rewards: [{
+				auto: "no_toast"
+				id: "63AADB35994639AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "258AFF3B805CDC73"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28827CAC96BC3E13"]
+			id: "21CC02EFB65CCD15"
+			rewards: [{
+				auto: "no_toast"
+				id: "3DA92DA7BAE7AADD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1A63902EC138FA12"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B3A19F6D6A7DF76"]
+			id: "4B95736E088752FD"
+			rewards: [{
+				auto: "no_toast"
+				id: "039401EC105E5EF7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4BEFE41571EBEB7B"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B95736E088752FD"]
+			id: "01938F172E34E871"
+			rewards: [{
+				auto: "no_toast"
+				id: "10A955C0D7A219DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "34DD40458DF73959"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B95736E088752FD"]
+			id: "0659DEEA42CCE9D9"
+			rewards: [{
+				auto: "no_toast"
+				id: "40ACDE1D8818199F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2A5CCCFF70D18F41"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B95736E088752FD"]
+			id: "38E3038951AA5877"
+			rewards: [{
+				auto: "no_toast"
+				id: "06045FCA7FDB719C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "64C897813849C931"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B95736E088752FD"]
+			id: "2343CE4A90EC4DF3"
+			rewards: [{
+				auto: "no_toast"
+				id: "7781546A176817A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6D3582269C40F813"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B95736E088752FD"]
+			id: "32CF22FDA93EB1C0"
+			rewards: [{
+				auto: "no_toast"
+				id: "44BCB8D087D37847"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "48050AF44A8966AB"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B95736E088752FD"]
+			id: "101EB8F931A145C4"
+			rewards: [{
+				auto: "no_toast"
+				id: "3C8237254FA5AB82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "470D4AB1D75D56CF"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B3A19F6D6A7DF76"]
+			id: "3669B9A30968F6DE"
+			rewards: [{
+				auto: "no_toast"
+				id: "36306E7E7A5925B1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "0E6E741E7EBA4D76"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			x: 15.625d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5B3A19F6D6A7DF76"]
+			id: "05BCD8FB2523FD42"
+			rewards: [{
+				auto: "no_toast"
+				id: "760D4646CDDFC766"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "4987454B7FE510A8"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: 15.625d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B3A19F6D6A7DF76"]
+			id: "7AE104392DEFE1E8"
+			rewards: [{
+				auto: "no_toast"
+				id: "5165976E0C534953"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "4F18B39BFD2F0593"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			x: 15.625d
+			y: -1.25d
+		}
+		{
+			description: ["Let it turn into a Rich Soil"]
+			id: "146066A5A3F4970B"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "615AFAD150B3EFA5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "6F1B8A275DE33074"
+					item: "farmersdelight:rich_soil"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25732C8E2802C63D"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "128DF08C5B058919"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "Craft an Organic Compost"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "1AC056EF4A727F23"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "3E253F5FD4135584"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1D2B502B271BA72E"
+					item: {
+						Count: 1b
+						id: "quark:seed_pouch"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11F65BB1E1CAF429"
+					table_id: 8049615661713598272L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3C3060303FF1A42C"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "77B4E5822EF37CD4"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "0E9698F753B59942"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					id: "69C4CDDE1AC7710C"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+			]
+			title: "Get every vanilla Minecraft's seed !"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "7E91F780B459FE2E"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "71AD2EEC2C400962"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7D5A47FF50A84EA7"
+					item: {
+						Count: 1b
+						id: "quark:seed_pouch"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37E488D1582B636B"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "7C15C4FD7FA6758C"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					id: "0A45094DDDD29C03"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					id: "55F8BD8AC60D219C"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "648AF571F5FA8359"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "Get every seed from &6Farmer's delight&r"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "2FB8C06D95E19205"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2AFD7B6449D9724B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70AC896FC60824E1"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "3EAE3509887B7AE2"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "04FF1DF70E4CB511"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "0AFD14290DB50072"
+					item: "nature_expansion:sloeberries"
+					type: "item"
+				}
+			]
+			title: "Collect every berries"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "5A6A5CE2F3E3B0C4"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2FEAE4CCDBAA6653"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CF379BF0B275352"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "2DA973579F7EBDB8"
+					item: "fruittrees:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "349B1A2C1F7B5220"
+					item: "fruittrees:mandarin_sapling"
+					type: "item"
+				}
+				{
+					id: "6021F5CB2542330B"
+					item: "fruittrees:lime_sapling"
+					type: "item"
+				}
+				{
+					id: "01CFB5CF2BED20CE"
+					item: "fruittrees:citron_sapling"
+					type: "item"
+				}
+				{
+					id: "56B2C92DEDA06D26"
+					item: "fruittrees:pomelo_sapling"
+					type: "item"
+				}
+				{
+					id: "2F827B8B81B69C97"
+					item: "fruittrees:orange_sapling"
+					type: "item"
+				}
+				{
+					id: "7926CA49C8E2AC9C"
+					item: "fruittrees:lemon_sapling"
+					type: "item"
+				}
+				{
+					id: "734DD68E16E12927"
+					item: "fruittrees:grapefruit_sapling"
+					type: "item"
+				}
+				{
+					id: "4739D531A5511E7B"
+					item: "fruittrees:apple_sapling"
+					type: "item"
+				}
+			]
+			title: "Get every fruit tree saplings"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "7B1012CCBFBAC560"
+			rewards: [{
+				auto: "no_toast"
+				id: "589599A94435EF5D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "63F23D888A7AF74E"
+				item: "atmospheric:passionfruit"
+				type: "item"
+			}]
+			title: "You're gross!"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E445C7BDD573ACF"]
+			description: [
+				"&9Summer&r is the 2nd season of the year for temperate biomes."
+				""
+				"The grass and foliage mellows out to a yellow-ish green tint. Thunderstorms are also more common in &9summer&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "03E76085134E7062"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7C72B50772174922"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C4CDCA073C2A70A"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				days: 30
+				icon: "minecraft:oak_leaves"
+				id: "2E93779417FC46F3"
+				type: "questsadditions:days"
+			}]
+			title: "Prepare the sunscreen!"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03E76085134E7062"]
+			description: [
+				"&6Autumn&r is the 3rd season of the year for temperate biomes."
+				""
+				"The grass transitions to a yellow-ish color, while foliage gets an orange-ish tint, which is most vibrant at its peak."
+				""
+				"Biome temperatures start to fall towards the end of the season leading to &3Winter&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7600028B404F631B"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0D41DE6227D39FDA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06C02FA89B94BA8B"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				days: 60
+				icon: "quark:orange_blossom_leaves"
+				id: "550A79EAA8B002F4"
+				type: "questsadditions:days"
+			}]
+			title: "Falling leaves"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7600028B404F631B"]
+			description: [
+				"&3Winter&r is the 4th season of the year for temperate biomes."
+				""
+				"Biome temperatures drop, allowing snow to start falling in biomes that normally don't receive any."
+				""
+				"Precipitation is also more frequent in &3Winter&r, but thunderstorms cannot occur."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "60E09D52896ED882"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "17A57046A7988F7D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "1B689C77D24DF682"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "742C114E8B19D1CC"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				days: 90
+				icon: "environmental:white_wisteria_leaves"
+				id: "5FB1D84FFF148087"
+				type: "questsadditions:days"
+			}]
+			title: "Best time for a hot chocolate!"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&5Spring&r is the 1st season of the year for temperate biomes."
+				""
+				"The grass and foliage transitions to a blue-ish green color, and biome temperatures start warming up from &3Winter&r towards the end of the season."
+				""
+				"&3Winter&r snows start to melt, and precipitation is also more frequent in &5Spring&r."
+			]
+			id: "6E445C7BDD573ACF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "4357ED2E9A9ABBE4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FC58AAA89D0CF6D"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				days: 2
+				icon: "environmental:cherry_leaves"
+				id: "7ABB2D51AEA24D3D"
+				type: "questsadditions:days"
+			}]
+			title: "A relaxing beginning"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			description: ["Plant the seed and feed it meat."]
+			id: "30C9C8AD84FAC5D7"
+			rewards: [{
+				auto: "no_toast"
+				id: "13305F17E9421F03"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "509A1CDD2C46C0CD"
+				item: "mowziesmobs:foliaath_seed"
+				type: "item"
+			}]
+			title: "Don't get too close"
+			x: 10.0d
+			y: -2.0d
+		}
+	]
+	title: "Farming"
+}

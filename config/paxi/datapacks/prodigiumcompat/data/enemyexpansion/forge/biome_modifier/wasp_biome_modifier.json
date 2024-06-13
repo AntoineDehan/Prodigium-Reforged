@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_forest",
+  "spawners": {
+    "type": "enemyexpansion:wasp",
+    "weight": 35,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,21 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 1, 2023, 8:32:12 PM
+
+#structurize:substitution_absorb_whitelist
+- minecraft:chest (from structurize-1.19.2-1.0.472-BETA.jar)
+- minecraft:sign (from structurize-1.19.2-1.0.472-BETA.jar)
+- minecraft:lectern (from structurize-1.19.2-1.0.472-BETA.jar)
+- domum_ornamentum:materially_retexturable (from structurize-1.19.2-1.0.472-BETA.jar)
+
+#blockui:container_gui
+- minecraft:barrel (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:blast_furnace (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:brewing_stand (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:dispenser (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:dropper (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:ender_chest (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:furnace (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:hopper (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:chest (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:shulker_box (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:smoker (from blockui-1.19-0.0.64-ALPHA.jar)
+- minecraft:trapped_chest (from blockui-1.19-0.0.64-ALPHA.jar)

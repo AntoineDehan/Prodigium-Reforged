@@ -1,0 +1,8 @@
+[
+  {
+    "id": "minecraft:rotten_flesh",
+    "nutrition": 2,
+    "eating_time": 50,
+    "fast_eating": false
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:gravitite_helmet"
+  },
+  "chest": {
+    "itemKey": "aether:gravitite_chestplate"
+  },
+  "legs": {
+    "itemKey": "aether:gravitite_leggings"
+  },
+  "boots": {
+    "itemKey": "aether:gravitite_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_skills:player.ranged_damage",
+      "value": 0.75,
+      "modifierUUID": "0ead1392-e901-47ac-8650-e84c37a063cf",
+      "description": "+0.75 Ranged damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.10,
+      "modifierUUID": "8b6d1a72-c214-457a-95d0-fb8064d75eb6",
+      "description": "10% Roll Cooldown Reduction"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.01,
+      "modifierUUID": "54623100-d90d-45dd-b52f-12f2ebaa6461",
+      "description": "1% Movement Speed"
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:clinging",
+      "value": 0.0
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:fleet_footed",
+      "value": 0.0
+    }
+  ]
+}

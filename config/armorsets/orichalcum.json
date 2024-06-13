@@ -1,0 +1,44 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "prodigium:orichalcum_helmet"
+  },
+  "chest": {
+    "itemKey": "prodigium:orichalcum_chestplate"
+  },
+  "legs": {
+    "itemKey": "prodigium:orichalcum_leggings"
+  },
+  "boots": {
+    "itemKey": "prodigium:orichalcum_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_skills:player.ranged_damage",
+      "value": 0.75,
+      "modifierUUID": "7fab53f7-ba6b-4aa0-8a37-39494621a315",
+      "description": "+0.75 Ranged damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.08,
+      "modifierUUID": "c3a22c2c-dcae-428b-8d33-3abe21ca81fd",
+      "description": "8% Roll Cooldown Reduction"
+    },
+    {
+      "type": "attribute",
+      "name": "apotheosis:dodge_chance",
+      "value": 0.05,
+      "modifierUUID": "73e1ba9c-b236-48e4-a737-710f48cb00ab",
+      "description": "5% Dodge Chance"
+    },
+    {
+      "type": "effect",
+      "name": "environmental:panic",
+      "value": 0.0
+      }
+  ]
+}

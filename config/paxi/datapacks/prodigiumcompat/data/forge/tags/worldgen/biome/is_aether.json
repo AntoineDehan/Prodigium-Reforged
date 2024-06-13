@@ -1,0 +1,15 @@
+{
+"replace": false,
+"values": [
+"aether:skyroot_meadow",
+"aether:skyroot_forest",
+"aether:skyroot_grove",
+"aether:skyroot_woodland",
+"aether_redux:cloudcap_jungle",
+"aether_redux:frosted_forests",
+"aether_redux:gilded_groves",
+"aether_redux:gilded_thicket",
+"aether_redux:highfields",
+"aether_redux:the_blight"
+ ]	
+}

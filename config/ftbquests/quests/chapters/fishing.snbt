@@ -1,0 +1,480 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "04557421BF808B7D"
+	icon: {
+		Count: 1b
+		id: "aquaculture:iron_fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "239997D9B7BCB219"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "671E96E4D7915DDB"
+			rewards: [
+				{
+					id: "6652F6FB53CAD90E"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "52768E0863DFC9BE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "650FA9E7AE39EFEF"
+					item: "aquaculture:iron_hook"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "281471FABFE3EB39"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an iron fishing rod"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0085E63F04B2DFEC"
+			rewards: [
+				{
+					count: 2
+					id: "7F71E3E2979D70FD"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "28E2C58C59ABD7D9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2BBD92D125E98B10"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			title: "Craft a worm farm"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["671E96E4D7915DDB"]
+			id: "7D2ACD70436A077E"
+			rewards: [
+				{
+					count: 5
+					id: "12BBE505C362AA08"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "19DB6A2E8BBD5D42"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "7EE07D1E4F21252A"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "3B95380E77886E1A"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+			]
+			title: "Customize your fishing rod!"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["671E96E4D7915DDB"]
+			id: "1D6262B0FBCCF123"
+			rewards: [
+				{
+					count: 3
+					id: "5C6E3DC96DC1CF34"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "542808408BB86687"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "101300D41D50540E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				icon: "aquaculture:blackfish"
+				id: "401AE69B086678FE"
+				title: "Catch your first fish"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "026B81521A7E490A"
+			rewards: [
+				{
+					count: 3
+					id: "5CE679E483770EC3"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5168E61F3C4B9B1C"
+					item: "aquaculture:note_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "0DD7613F622BDEB4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "272FA49F0D66ABF4"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			title: "Catch your first neptune bounty"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["026B81521A7E490A"]
+			id: "0BE4F01BF47744E9"
+			rewards: [
+				{
+					count: 2
+					id: "0FB5BD5439BD2D24"
+					item: "aquaculture:neptunium_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "55352D8EA0ED236C"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "5F23AA11F3107C3B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0BAD1A884515C65F"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "55F5237B7C5183DF"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75ADBC62B82E47EA"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD3DA099F7E7990"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BB95575B690A478"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a full Neptunium set"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D6262B0FBCCF123"]
+			id: "62179F7D83D3540E"
+			rewards: [{
+				auto: "no_toast"
+				id: "5CC3C543E0F3D8DF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "346508C8F5DDB2EB"
+				item: "aquaculture:fish_fillet_cooked"
+				type: "item"
+			}]
+			title: "Cook some fish fillet"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "365CF41E0C8AF0DC"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "510995C6FFC33C8D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "59773559A946824B"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66FE36787EDB1624"
+				item: "majruszsdifficulty:fishing_treasure_bag"
+				type: "item"
+			}]
+			title: "Obtain an angler treasure bag"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "770E58DD5A3C303D"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "75BEDA0F00D8CA80"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "518D8179A5F889B0"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "452DA49A5F8397DD"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "278540035BDD1173"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "aquaculture:fish_bones"
+				id: "78EEEC12C2D78A0D"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 10
+			}]
+			title: "Fishing with a stick"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["770E58DD5A3C303D"]
+			id: "2F35A84A0DBA5365"
+			rewards: [
+				{
+					id: "267210327AA27C2F"
+					item: "aquaculture:diamond_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "1096CD0E2A71FB68"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "0403B0396B39BA31"
+					item: "aquaculture:treasure_chest"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73C68763EB70955D"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "aquaculture:blackfish"
+				id: "422A3176C3C8995E"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 25
+			}]
+			title: "Real fisherman"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F35A84A0DBA5365"]
+			id: "6FBCB841CE1780BC"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0D43B31A7DE227A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "22E10A0A3FFD0623"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:lure"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F8FAC291446B0CE"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "0BDB659F3B8FA9D3"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D0C27830205E6A8"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "aquaculture:blackfish_bucket"
+				id: "13C4960D932B52CC"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 100
+			}]
+			title: "Angler's best friend"
+			x: 6.5d
+			y: 1.5d
+		}
+	]
+	title: "Fishing"
+}

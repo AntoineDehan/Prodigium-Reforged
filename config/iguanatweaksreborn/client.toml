@@ -1,0 +1,37 @@
+"Enable Client" = true
+
+[Client]
+	#Misc client side changes
+	"Enable Misc" = true
+	#Changes to sounds
+	"Enable Sound" = true
+	#Makes fog less invasive in some contexts
+	"Enable Fog" = true
+	#Changes to light
+	"Enable Light" = true
+
+	#Misc client side changes
+	[Client.Misc]
+		#Pretty self explanatory
+		"Remove potion enchant glint" = true
+
+	#Changes to sounds
+	[Client.Sound]
+		#If true the entity hit will no longer play the hurt sound if blocking with a shield.
+		"Fix shield blocking sound" = true
+
+	#Makes fog less invasive in some contexts
+	[Client.Fog]
+		#If true you'll be able to see better in lava when with the Fire Resistance Effect.
+		"Better visibility in Lava with Fire Resistance Lava" = true
+		#If true Nether Fog is no longer limited to 12 chunks.
+		"Better Nether Fog" = true
+		#Render distance is multiplied by this value in the Nether. Vanilla is 0.5.
+		#Range: 0.0 ~ 1.0
+		"Nether Fog Ratio" = 0.75
+
+	#Changes to light
+	[Client.Light]
+		#If true night vision will no longer flash 10 seconds before expiring, instead will slowly fade out 4 seconds before expiring.
+		"No Night Vision Flashing" = true
+

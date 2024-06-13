@@ -1,0 +1,36 @@
+{
+	id: "4CCB281589DB4639"
+	loot_size: 3
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "numismaticoverhaul:gold_coin"
+				tag: { }
+			}
+			random_bonus: 1
+		}
+		{
+			count: 20
+			item: {
+				Count: 1b
+				id: "numismaticoverhaul:silver_coin"
+				tag: { }
+			}
+			random_bonus: 20
+			weight: 3.0f
+		}
+		{
+			count: 40
+			item: {
+				Count: 1b
+				id: "numismaticoverhaul:bronze_coin"
+				tag: { }
+			}
+			random_bonus: 59
+			weight: 2.0f
+		}
+	]
+	title: "Coins Reward Rare"
+}

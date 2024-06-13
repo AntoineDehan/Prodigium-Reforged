@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "class_selector"
+	group: "52532F5E67425F1C"
+	icon: "somebosses:illegal_beacon"
+	id: "26771DF1297ADA11"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["70754FC9C5A14335"]
+			description: [
+				"You can &4only&r chose &4ONE&r class."
+				""
+				"Press \"I\" to open the Skill Tree menu."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "393854A756CB4A8A"
+			incompatible: [
+				"40893A522D53420E"
+				"7B76A6B37D0F157E"
+			]
+			rewards: [{
+				auto: "invisible"
+				command: "/puffish_skills category unlock @p melee"
+				id: "53DBC88CA83CF42C"
+				type: "command"
+			}]
+			tasks: [{
+				id: "79560A143B018D45"
+				title: "Click me to chose the class"
+				type: "checkmark"
+			}]
+			title: "Chose the Melee class"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70754FC9C5A14335"]
+			description: [
+				"You can &4only&r chose &4ONE&r class."
+				""
+				"Press \"I\" to open the Skill Tree menu."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:diamond_spell_book"
+				tag: {
+					ISB_spellbook: {
+						activeSpellIndex: -1
+						spellSlots: 8
+						spells: [ ]
+					}
+				}
+			}
+			id: "40893A522D53420E"
+			incompatible: [
+				"393854A756CB4A8A"
+				"7B76A6B37D0F157E"
+			]
+			rewards: [{
+				auto: "invisible"
+				command: "/puffish_skills category unlock @p mage"
+				id: "096F4199C62D7612"
+				type: "command"
+			}]
+			tasks: [{
+				id: "68A47B19E05EEFA5"
+				title: "Click me to chose the class"
+				type: "checkmark"
+			}]
+			title: "Chose the Mage class"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70754FC9C5A14335"]
+			description: [
+				"You can &4only&r chose &4ONE&r class."
+				""
+				"Press \"I\" to open the Skill Tree menu."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "prodigium:palladium_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B76A6B37D0F157E"
+			incompatible: [
+				"40893A522D53420E"
+				"393854A756CB4A8A"
+			]
+			rewards: [{
+				auto: "invisible"
+				command: "/puffish_skills category unlock @p ranged"
+				id: "66643A0B7B29B1B8"
+				type: "command"
+			}]
+			tasks: [{
+				id: "148F60169981C29F"
+				title: "Click me to chose the class"
+				type: "checkmark"
+			}]
+			title: "Chose the Ranged class"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Three classes are available in Prodigium Reforged."
+				""
+				"You can only chose one! Try to chose one as soon as possible but do think about it before."
+				""
+				"&aThe class system is in the middle of a rework right now but it will get better soon™!&r"
+			]
+			id: "70754FC9C5A14335"
+			rewards: [
+				{
+					count: 2
+					id: "0403B5E8143E1F32"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					id: "4C33CC28953302AB"
+					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "155E7E790AE369BC"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "460B5F5867B83937"
+				title: "Class System"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+	]
+	title: "Class Selector"
+}

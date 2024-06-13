@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "infernalexp:blindsight_tongue_whip",
+    "infernalexp:kinetic_tongue_whip",
+    "dungeons_plus:warped_axe",
+    "farmersdelight:skillet",
+    "farmersdelight:flint_knife",
+    "farmersdelight:iron_knife",
+    "farmersdelight:diamond_knife",
+    "farmersdelight:netherite_knife",
+    "farmersdelight:golden_knife",
+    "cnb:cactem_spear",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:the_incinerator",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "cataclysm:infernal_forge",
+    "savage_and_ravage:cleaver_of_beheading",
+    "abnormals_delight:silver_knife",
+    "abnormals_delight:necromium_knife",
+    "$minecraft:universal_enchants_axe",
+    "$minecraft:trident"
+  ],
+  "incompatible": [
+    "majruszsenchantments:misanthropy",
+    "sculked:echoed_bane",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:impaling",
+    "minecraft:smite"
+  ]
+}

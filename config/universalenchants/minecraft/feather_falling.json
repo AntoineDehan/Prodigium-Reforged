@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet",
+    "alexsmobs:pigshoes",
+    "$minecraft:universal_enchants_horse_armor"
+  ],
+  "incompatible": [
+    "maenchants:soft_fall",
+    "allurement:shockwave",
+    "majruszsenchantments:magic_protection",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

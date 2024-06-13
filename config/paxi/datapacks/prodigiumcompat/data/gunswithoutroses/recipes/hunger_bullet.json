@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BIB",
+		"FDF",
+		"FNF"
+	],
+	"key": {
+		"B": { "tag": "forge:bones" },
+        "I": { "item": "cataclysm:ignitium_ingot"},
+		"F": { "item": "minecraft:rotten_flesh" },
+		"D": { "tag": "forge:gems/diamond" },
+		"N": { "item": "minecraft:netherite_scrap" }
+	},
+	"result": { "item": "gunswithoutroses:hunger_bullet" }
+}

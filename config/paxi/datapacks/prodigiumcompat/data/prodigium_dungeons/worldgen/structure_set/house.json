@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "prodigium_dungeons:house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1224566580,
+    "spacing": 35,
+    "separation": 15,
+    "type": "minecraft:random_spread",
+
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:ocean_monuments"
+    }
+  }
+}

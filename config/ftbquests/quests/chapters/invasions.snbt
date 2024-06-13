@@ -1,0 +1,683 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "invasions"
+	group: "04557421BF808B7D"
+	icon: {
+		Count: 1b
+		id: "gateways:gate_pearl"
+		tag: {
+			gateway: "gateways:enderman_gate_large"
+		}
+	}
+	id: "54F1757E93DDC8E2"
+	images: [{
+		alpha: 100
+		click: ""
+		color: 16744448
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "gateways:item/gate_pearl_large"
+		rotation: 0.0d
+		width: 10.0d
+		x: 2.0d
+		y: -0.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F2897AB3326FC08"
+			rewards: [
+				{
+					id: "31C569BF5881FABA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03D4167D6416E52E"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "1CD7D54A26396F20"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:slime_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:slime_gate"
+						}
+					}
+					id: "6419CD3A4E52DA5A"
+					title: "Defeat the slime gate"
+					type: "custom"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F2897AB3326FC08"]
+			id: "7757ADD770092575"
+			rewards: [
+				{
+					id: "4510E577E2423887"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "173AB06992DF3A87"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0D7BC5E642654D58"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:zombie_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:zombie_gate"
+						}
+					}
+					id: "2221A3096897D237"
+					title: "Defeat the zombie gate"
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7757ADD770092575"]
+			id: "2E5CC3A82A1DB7B1"
+			rewards: [
+				{
+					id: "0892A6A173425D55"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E358EEEA0300A40"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "5C8DF537F0A85B44"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:spider_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:spider_gate"
+						}
+					}
+					id: "15FAE2025D04EB4B"
+					title: "Defeat the spider gate"
+					type: "custom"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["57F2D28035BED121"]
+			id: "5BA7BDAC880B669E"
+			rewards: [
+				{
+					id: "6E149E7B05E0DD75"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FB063F115DD202F"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "4319E1DBCD818E2C"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:skeleton_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:skeleton_gate"
+						}
+					}
+					id: "42FAC2952857E4D9"
+					title: "Defeat the skeleton gate"
+					type: "custom"
+				}
+			]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E5CC3A82A1DB7B1"]
+			id: "57F2D28035BED121"
+			rewards: [
+				{
+					id: "2721240210CE1130"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "438E88B70FB66CD6"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "6E54037B5D9F2C25"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:creeper_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:creeper_gate"
+						}
+					}
+					id: "4352477304128179"
+					title: "Defeat the creeper gate"
+					type: "custom"
+				}
+			]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide: true
+			id: "60EF13C95069390D"
+			rewards: [
+				{
+					id: "6E020776E2E85019"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79C361797DAA6EE7"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "35D498B036BC0972"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:magma_cube_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:magma_cube_gate"
+						}
+					}
+					id: "420FAC47F88E8E75"
+					title: "Defeat the magma cube gate"
+					type: "custom"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60EF13C95069390D"]
+			hide: true
+			id: "1931CFF40613F568"
+			rewards: [
+				{
+					id: "650A055DD6FC944D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "245498281031A57F"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "75A7CEC6A23BF3F9"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:ghast_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:ghast_gate"
+						}
+					}
+					id: "7AAEBB6CC55AB207"
+					title: "Defeat the ghast gate"
+					type: "custom"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1931CFF40613F568"]
+			hide: true
+			id: "573E20541AAF6444"
+			rewards: [
+				{
+					id: "7F137C44DB440CE2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "393E6F7CAF939E08"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "57051C1EF65509FC"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:blaze_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:blaze_gate"
+						}
+					}
+					id: "6B23D9643008CEF3"
+					title: "Defeat the blaze gate"
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BA7BDAC880B669E"]
+			id: "3E6B30F358A8B6EB"
+			rewards: [
+				{
+					id: "3C0FBB2EC2BA8ECA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03AEEA45ADC28E03"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0706654A46E6E049"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:witch_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:witch_gate"
+						}
+					}
+					id: "20E32B0AFCD72AEA"
+					title: "Defeat the witch gate"
+					type: "custom"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EB21A5EFC2F6EF2"]
+			hide: true
+			id: "1DB059F60A3FDA8F"
+			rewards: [
+				{
+					id: "2E5F00AE169A992A"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16B09A6E9ED971C3"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "7F532EE946729F04"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:enderman_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:enderman_gate"
+						}
+					}
+					id: "033837D596EF804D"
+					title: "Defeat the enderman gate"
+					type: "custom"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DB059F60A3FDA8F"]
+			hide: true
+			id: "088CDC963EB2DC21"
+			rewards: [
+				{
+					id: "75D0EA9BD222C476"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "125587D06160AB32"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "669CA291A49A6A34"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:shulker_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:shulker_gate"
+						}
+					}
+					id: "49E20C0A1D4BB3FA"
+					title: "Defeat the shulker gate"
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "4B1ABE1A8E60831E"
+			rewards: [{
+				count: 5
+				id: "48A8C17266E83621"
+				item: "kubejs:eternia_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:barrel"
+				id: "7B2BFEEE8BC988B0"
+				title: "Unlock the Tavernkeep"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B1ABE1A8E60831E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0E96EE566942D684"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F13DA76F2CFBE2A"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					id: "733A75F7261DB2FA"
+					item: "kubejs:defender_medal"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "61188D3BD0DA2700"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierI"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierII"
+						}
+					}
+					id: "4440E5DD615DD84B"
+					title: "Defeat the gate"
+					type: "custom"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E96EE566942D684"]
+			hide: true
+			hide_dependent_lines: true
+			id: "3F7F2374AD6AE9BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58874F817A46215E"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "40D041E8F67B4171"
+					item: "kubejs:defender_medal"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "2AA36AE41A33EDCC"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierII"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierIII"
+						}
+					}
+					id: "37E7DE37AE6E8D6F"
+					title: "Defeat the gate"
+					type: "custom"
+				}
+			]
+			x: 3.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F7F2374AD6AE9BC"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3ECF0082B62C4AB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CF2E42FC78918C2"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "26A05C560AB9C1EA"
+					item: "kubejs:defender_medal"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "443F4B17C114FE8D"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierIII"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierI"
+						}
+					}
+					id: "01590DC84238B719"
+					title: "Defeat the gate"
+					type: "custom"
+				}
+			]
+			x: 2.0d
+			y: -2.5d
+		}
+	]
+	title: "Gates"
+}

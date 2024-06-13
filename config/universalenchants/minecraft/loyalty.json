@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "dungeons_plus:warped_axe",
+    "cnb:cactem_spear",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche"
+  ],
+  "incompatible": [
+    "minecraft:riptide",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

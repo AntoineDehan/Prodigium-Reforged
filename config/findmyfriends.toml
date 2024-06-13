@@ -1,0 +1,14 @@
+
+#Find My Friends server side settings
+[server]
+	#when true, the name tags will not show for players holding shift (like vanilla)
+	hideSneakingPlayers = true
+	#when true, the distance to a player will be shown above their name (when they're beyond vanilla's normal range)
+	showDistance = true
+	#Name tags will not be shown for players beyond this distance. Use -1 for infinity
+	#Range: -1.0 ~ 1.7976931348623157E308
+	maxDistance = -1.0
+	#Player positions will be synced to clients every x ticks. Higher numbers will cause less lag but reduce accuracy
+	#Range: > 1
+	updateInterval = 20
+

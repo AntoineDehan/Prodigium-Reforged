@@ -1,0 +1,115 @@
+[
+  {
+    "id": "minecraft:sugar_cane",
+    "growth_multiplier": 2.5,
+    "no_sunlight_growth_multiplier": 2.5,
+    "min_sunlight_required": 10,
+    "night_time_growth_multiplier": 1.5
+  },
+  {
+    "id": "minecraft:cactus",
+    "growth_multiplier": 2.5,
+    "no_sunlight_growth_multiplier": 1.5,
+    "min_sunlight_required": 10,
+    "correct_biomes": [
+      {
+        "tag": "forge:is_hot"
+      }
+    ],
+    "wrong_biome_multiplier": 3.0
+  },
+  {
+    "id": "minecraft:cocoa",
+    "growth_multiplier": 3.0,
+    "no_sunlight_growth_multiplier": 2.5,
+    "min_sunlight_required": 10,
+    "night_time_growth_multiplier": 1.5,
+    "correct_biomes": [
+      {
+        "tag": "forge:is_hot"
+      }
+    ],
+    "wrong_biome_multiplier": 3.0
+  },
+  {
+    "id": "minecraft:nether_wart",
+    "growth_multiplier": 3.0,
+    "correct_biomes": [
+      {
+        "tag": "minecraft:is_nether"
+      }
+    ],
+    "wrong_biome_multiplier": 3.0
+  },
+  {
+    "id": "minecraft:chorus_flower",
+    "growth_multiplier": 3.0,
+    "correct_biomes": [
+      {
+        "tag": "minecraft:is_end"
+      }
+    ],
+    "wrong_biome_multiplier": 3.0
+  },
+  {
+    "tag": "minecraft:saplings",
+    "growth_multiplier": 2.5,
+    "no_sunlight_growth_multiplier": 2.5,
+    "min_sunlight_required": 10,
+    "night_time_growth_multiplier": 1.5
+  },
+  {
+    "id": "minecraft:melon_stem",
+    "growth_multiplier": 2.5,
+    "no_sunlight_growth_multiplier": 2.5,
+    "min_sunlight_required": 10,
+    "night_time_growth_multiplier": 1.5
+  },
+  {
+    "id": "minecraft:pumpkin_stem",
+    "growth_multiplier": 2.5,
+    "no_sunlight_growth_multiplier": 2.5,
+    "min_sunlight_required": 10,
+    "night_time_growth_multiplier": 1.5
+  },
+  {
+    "id": "minecraft:sweet_berry_bush",
+    "growth_multiplier": 2.0,
+    "no_sunlight_growth_multiplier": 2.5,
+    "min_sunlight_required": 10,
+    "night_time_growth_multiplier": 1.5,
+    "correct_biomes": [
+      {
+        "tag": "minecraft:is_taiga"
+      }
+    ],
+    "wrong_biome_multiplier": 3.0
+  },
+  {
+    "id": "minecraft:kelp",
+    "growth_multiplier": 2.5,
+    "night_time_growth_multiplier": 1.5,
+    "correct_biomes": [
+      {
+        "tag": "minecraft:is_ocean"
+      },
+      {
+        "tag": "minecraft:is_river"
+      }
+    ],
+    "wrong_biome_multiplier": 2.0
+  },
+  {
+    "id": "minecraft:bamboo",
+    "growth_multiplier": 2.5,
+    "no_sunlight_growth_multiplier": 2.5,
+    "min_sunlight_required": 10,
+    "night_time_growth_multiplier": 1.5,
+    "correct_biomes": [
+      {
+        "tag": "forge:is_hot"
+      }
+    ],
+    "wrong_biome_multiplier": 3.0
+  }
+]

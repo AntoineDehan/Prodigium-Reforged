@@ -1,0 +1,44 @@
+{
+  "armorSetName": "tank",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:diamond_helmet"
+  },
+  "chest": {
+    "itemKey": "minecraft:diamond_chestplate"
+  },
+  "legs": {
+    "itemKey": "minecraft:diamond_leggings"
+  },
+  "boots": {
+    "itemKey": "minecraft:diamond_boots"
+  },
+  "fullSetBonuses": [
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor",
+	  "value": 1.5,
+	  "modifierUUID": "590733d0-eb62-4408-91a6-4cc4c8559bd8",
+	  "description": "+1.5 Armor"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor_toughness",
+	  "value": 1.0,
+	  "modifierUUID": "539c61ae-2922-4836-87af-5796df54f4ad",
+	  "description": "+1 Armor Toughness"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.max_health",
+	  "value": 4.0,
+	  "modifierUUID": "c1caf6f5-00c2-475e-8a70-08a7a9f0b5db",
+	  "description": "+4 Max health"
+    },
+	{
+		"type": "effect",
+		"name": "majruszsdifficulty:glass_regeneration",
+		"value": 0.0
+	  }
+  ]
+}

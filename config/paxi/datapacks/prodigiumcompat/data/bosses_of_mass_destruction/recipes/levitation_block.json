@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "GHG",
+    "CDC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    "D": {
+      "item": "simpleores:onyx_block"
+    },
+    "A": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "H": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    "G": {
+      "item": "aether:ambrosium_shard"
+    }
+  },
+  "result": {
+    "item": "bosses_of_mass_destruction:levitation_block"
+  }
+}

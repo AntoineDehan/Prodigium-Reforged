@@ -1,0 +1,16 @@
+[
+  {
+    "id": "minecraft:slowness",
+    "duration": 400
+  },
+  {
+    "id": "minecraft:weakness",
+    "duration": 300,
+    "amplifier": 1
+  },
+  {
+    "id": "minecraft:mining_fatigue",
+    "duration": 300,
+    "amplifier": 1
+  }
+]

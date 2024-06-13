@@ -1,0 +1,40 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 1, 2023, 8:32:12 PM
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#earthmobsmod:mud
+- earthmobsmod:mud (from EarthMobs-1.19.2-4.4.0.jar)
+- earthmobsmod:mud_flow (from EarthMobs-1.19.2-4.4.0.jar)
+
+#forge:experience
+- cofh_core:experience (from cofh_core-1.19.2-10.2.1.40.jar)
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.71.319.jar)
+- mob_grinding_utils:fluid_xp (from mob_grinding_utils-1.19.2-0.4.50.jar)
+- pneumaticcraft:memory_essence? (from mob_grinding_utils-1.19.2-0.4.50.jar)
+- cofh_core:experience? (from mob_grinding_utils-1.19.2-0.4.50.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+
+#forge:xpjuice
+- mob_grinding_utils:fluid_xp (from mob_grinding_utils-1.19.2-0.4.50.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.4-universal.jar)
+
+#bucketlib:infinity_enchantable
+- minecraft:water (from BucketLib-1.19-1.0.3.2.jar)
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+- decorative_blocks:flowing_thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+
+#forge:honey
+- cofh_core:honey (from cofh_core-1.19.2-10.2.1.40.jar)
+
+#forge:potion
+- cofh_core:potion (from cofh_core-1.19.2-10.2.1.40.jar)

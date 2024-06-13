@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FAF",
+    "ARA",
+    "FAF"
+  ],
+  "key": {
+    "F": {
+      "tag": "irons_spellbooks:ice_focus"
+    },
+    "R": {
+      "item": "irons_spellbooks:blank_rune"
+    },
+	"A": {
+      "item": "rottencreatures:frozen_rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:ice_rune",
+    "count": 1
+  }
+}

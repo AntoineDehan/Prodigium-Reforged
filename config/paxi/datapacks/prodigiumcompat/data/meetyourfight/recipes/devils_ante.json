@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"NIN",
+		"IDI",
+		"NIN"
+	],
+	"key": {
+		"D": { "item": "simpleores:adamantium_ingot" },
+		"I": { "tag": "forge:ingots/gold" },
+		"N": { "item": "prodigium:palladium_ingot" }
+	},
+	"result": { "item": "meetyourfight:devils_ante" }
+}

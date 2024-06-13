@@ -1,0 +1,51 @@
+{
+  "armorSetName": "tank",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "simpleores:onyx_helmet"
+  },
+  "chest": {
+    "itemKey": "simpleores:onyx_chestplate"
+  },
+  "legs": {
+    "itemKey": "simpleores:onyx_leggings"
+  },
+  "boots": {
+    "itemKey": "simpleores:onyx_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0
+    },
+	{
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+	  "modifierUUID": "765ca026-4cbe-4ac5-a3d2-0cb48f7838b7",
+	  "description" : "+2 Armor"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor_toughness",
+	  "value": 1.0,
+	  "modifierUUID": "b06f49fe-df7f-4898-a2bd-fbb1031b060f",
+	  "description": "+1 armor toughness"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.attack_knockback",
+	  "value": 0.5,
+	  "modifierUUID": "c3dc5a62-9ccb-11ed-98e2-1f00722f5e6c",
+	  "description": "+0.5 Attack Knockback"
+	},
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.max_health",
+	  "value": 5.0,
+	  "modifierUUID": "44c01529-34ac-47f2-bc1c-bf417cd8424a",
+	  "description": "+5 Max health"
+    }
+	]
+}

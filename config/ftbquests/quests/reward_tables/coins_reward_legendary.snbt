@@ -1,0 +1,37 @@
+{
+	id: "0730EBF2FA59B9E2"
+	loot_size: 3
+	order_index: 6
+	rewards: [
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "numismaticoverhaul:gold_coin"
+				tag: { }
+			}
+			random_bonus: 2
+			weight: 2.0f
+		}
+		{
+			count: 50
+			item: {
+				Count: 1b
+				id: "numismaticoverhaul:silver_coin"
+				tag: { }
+			}
+			random_bonus: 49
+			weight: 2.0f
+		}
+		{
+			count: 70
+			item: {
+				Count: 1b
+				id: "numismaticoverhaul:bronze_coin"
+				tag: { }
+			}
+			random_bonus: 29
+		}
+	]
+	title: "Coins Reward Legendary"
+}

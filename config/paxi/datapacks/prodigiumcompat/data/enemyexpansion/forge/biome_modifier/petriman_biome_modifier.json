@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_generalcave",
+  "spawners": {
+    "type": "enemyexpansion:petriman",
+    "weight": 35,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

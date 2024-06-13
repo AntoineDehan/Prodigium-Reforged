@@ -1,0 +1,1721 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mid_game"
+	group: "3172DA2E2FE4A37B"
+	icon: "ftbquests:book"
+	id: "049A1A789CCBA808"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: [ ]
+			image: "bettericons:textures/items/tile037.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 25.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 1.0d
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 1.25d
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.3d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: -40.0d
+			width: 1.0d
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 19.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 1.0d
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 18.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.55d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: -20.0d
+			width: 0.55d
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 0.55d
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 25.0d
+			width: 0.5d
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 0.55d
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 25.0d
+			width: 0.5d
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7C742369CC5C8B9E"
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "somebosses:textures/particle/enderflame.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3C652834876CF66B"
+			dev: true
+			height: 1.0d
+			hover: [ ]
+			image: "somebosses:textures/particle/enderflame.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 26.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "64DECE60E0B6FB6D"
+			dev: false
+			height: 0.9d
+			hover: [ ]
+			image: "somebosses:textures/particle/enderflame.png"
+			rotation: 5.0d
+			width: 0.9d
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3FDEF8CE2822DEFB"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "somebosses:textures/particle/enderflame.png"
+			rotation: -10.0d
+			width: 2.0d
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "78E025D30CD1E607"
+			dev: false
+			height: 0.45d
+			hover: [ ]
+			image: "somebosses:textures/particle/enderflame.png"
+			rotation: -5.0d
+			width: 0.45d
+			x: 24.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0BE51A7B2CF00CE8"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "somebosses:textures/particle/enderflame.png"
+			rotation: 10.0d
+			width: 1.0d
+			x: 26.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: -40.0d
+			width: 1.25d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: 40.0d
+			width: 1.0d
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: [ ]
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: 40.0d
+			width: 0.4d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: -40.0d
+			width: 0.5d
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: 40.0d
+			width: 1.5d
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: -40.0d
+			width: 1.5d
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dependency: "7BA1BFC5A99514FA"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aether:block/dungeon/exclamation"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.75d
+			hover: [ ]
+			image: "prodigium_reforged:textures/gui/expert_mode.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 13.0d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14CA102BAD4F6A38"]
+			description: ["Found in the &2Ocean monument&r."]
+			id: "3B3B33E6A70E1CAF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "530AD02D154A1F58"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "5E90E3EA1742547D"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "0E7EC9F8320AF21B"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "31C0DE04C94944C2"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "7DEB0C89DBF184C1"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EA17A0885361A61"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "majruszsdifficulty:elder_guardian_treasure_bag"
+				id: "7E8040F0998CD20A"
+				title: "Kill the &5Elder Guardian&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			id: "78E025D30CD1E607"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "4A351B089ACB26D6"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 3
+					id: "2913551A2D470366"
+					item: "progressivebosses:nether_star_shard"
+					random_bonus: 30
+					type: "item"
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "0A2AF9EEE9AE11AD"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "793A17D0E9EF1C3D"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "716827B140FA0001"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "300434783D0F1505"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "1787DFC6FDBED8FB"
+				title: "Kill the &5Wither&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FDEF8CE2822DEFB"]
+			description: [
+				"To get into the End dimension, you can use one of &6end remastered&r's eye to find the portal. To activate it you will then need at least 12 unique eyes."
+				""
+				"Some eyes are dropped by bosses, some are craftable and some can be found while exploring."
+				"As long as you have 12 different eyes you have enough."
+			]
+			id: "6EB21A5EFC2F6EF2"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "1A5ADAF77FC7C714"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "732706AC81B6F8C5"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					id: "56DD9AB400FF6912"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					command: "/puffish_skills points add @p melee 3"
+					icon: "minecraft:experience_bottle"
+					id: "2E45BC3EED0F79DC"
+					silent: true
+					title: "&5+3 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "7925412E5C5CCB05"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "1A52B2EF32A6D006"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					id: "58FB395259BF0154"
+					item: "heartcanisters:heart_canister"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5655690CE5E7F828"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/sh_difficulty add @p 220"
+					id: "6FF91769476B7760"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "2F5E3A53F186F4F3"
+				title: "Kill the &5Ender Dragon&r and unlock the &9Master Mode&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			id: "42861ECC8C67377F"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7B9BD5A4C2F1D3A3"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "2C0624367D19F3B1"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "4D6ECB9E5C928459"
+					item: "majruszsdifficulty:golden_bandage"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "114EAED80D9E5BC8"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "1A6396831354B5F3"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C22C30E8EA0E749"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6C28758B7F9ABA01"
+				item: "majruszsdifficulty:undead_army_treasure_bag"
+				type: "item"
+			}]
+			title: "Defeat the Undead Army in Expert Mode!"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78E025D30CD1E607"]
+			description: ["Found in the &2Keeping Castle&r. Both bosses are waiting for you..."]
+			id: "0EA710182249A301"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "450AEA99A43E2657"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "48F6A3B7232BD44D"
+					item: "stalwart_dungeons:tungsten_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 6
+					id: "12B22C3B93175109"
+					item: "stalwart_dungeons:blaze_armor_scrap"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_3 true"
+					id: "0D9CD74F2A212D9D"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p stage_mb true"
+					id: "4979AE4D6DF5803E"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"Even though you feel\",\"italic\":\"true\"},{\"text\":\" old spirits rising through the ground\",\"bold\":\"true\"},{\"text\":\", you can now find and mine\"},{\"text\":\" Onyx\",\"bold\":\"true\",\"color\":\"dark_gray\"},{\"text\":\".\"}]"
+					id: "64218CCD3D139652"
+					type: "command"
+				}
+				{
+					id: "50324F097943AE51"
+					item: {
+						Count: 1b
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37870C0B2A497035"
+					item: {
+						Count: 1b
+						id: "stalwart_dungeons:ancient_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/skills set @p skills:stage_3 true"
+					id: "3BDEB4F94B19F275"
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/puffish_skills points add @p melee 4"
+					icon: "minecraft:experience_bottle"
+					id: "3E6FA278F7754624"
+					silent: true
+					title: "&6+4 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 4"
+					icon: "minecraft:experience_bottle"
+					id: "14A7942B12F790B7"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 4"
+					icon: "minecraft:experience_bottle"
+					id: "5DE4A1A0DA2CB084"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					id: "704BF5919FF82AB9"
+					item: "stalwart_dungeons:awful_crystal"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ED82335A17A3AF4"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "stalwart_dungeons:nether_keeper"
+					icon: "stalwart_dungeons:keeping_castle_spawner"
+					id: "7A851329C3F650DB"
+					title: "Kill the &5Nether Keeper&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "stalwart_dungeons:awful_ghast"
+					icon: "stalwart_dungeons:awful_dungeon_spawner"
+					id: "5B443EB49F15C3AB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill the &5Nether Keeper&r and &5The Awful Ghast&r"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78E025D30CD1E607"]
+			hide: true
+			id: "27D8F0F385A37554"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "758AE61415F0F8B4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "22C57E4C3B2A33D3"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "667175D9AFE4F79A"
+					item: "progressivebosses:nether_star_shard"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "5515296F6AA235E4"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "2C91F2E4CF182B42"
+				title: "Kill the &5Wither&r 15 times"
+				type: "kill"
+				value: 15L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14CA102BAD4F6A38"]
+			hide: true
+			id: "28B617BF86C93248"
+			rewards: [{
+				auto: "no_toast"
+				id: "3471E4B4CDE18E39"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1D824B33CF46B9A2"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			title: "You now have unlocked &8netherite&r"
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0EA710182249A301"]
+			description: ["Find it in the nether"]
+			hide: true
+			id: "099477E4F8EED634"
+			rewards: [{
+				auto: "no_toast"
+				id: "747CBED420376EB1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3B4F63376B8890C1"
+				item: "simpleores:onyx_gem"
+				type: "item"
+			}]
+			title: "You now have unlocked &8onyx&r gems"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["476DC0D49480853F"]
+			description: ["Found in his &2Soul Blacksmith&r structure"]
+			id: "0BE51A7B2CF00CE8"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2EB5744E3FB412B3"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "52C3D4C1EE3794F2"
+					item: {
+						Count: 1b
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "741DDBF0EC984314"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "1E5296DEE21B641A"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "1F0975FD64583343"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "4D798D4DDE1A46F6"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_aether true"
+					id: "15235E560DDE8FB8"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"You hear something coming from the sky. Such agony... You now have unlocked the\",\"italic\":\"true\"},{\"text\":\" Aether\",\"bold\":\"true\",\"color\":\"yellow\"},{\"text\":\".\"}]"
+					id: "0FBAD140037E4387"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66A187E731D6DA41"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1b
+					id: "stalwart_dungeons:nether_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "49BFF0417C3C70C2"
+				title: "Kill the &5Netherite Monstrosity&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B3B33E6A70E1CAF"]
+			description: ["Found at the last floor of the &2Burning Arena&r. Use &9burning ashes&r dropped from Ignited Revenant onto the Altar of Fire"]
+			id: "3FDEF8CE2822DEFB"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "3A5C0FDFA6523858"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "0A15B758C25A82B5"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "1E8D07BB33C38443"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "611784CD699C939F"
+					item: {
+						Count: 1b
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "71DD9D3CD70D843D"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "4A75838854CBF4DB"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "31DF5CFFE738851C"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6631511088F0E739"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:bulwark_of_the_flame"
+				id: "469575AC0949000F"
+				title: "Kill &5Ignis&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64DECE60E0B6FB6D"]
+			description: [
+				"Found in the &2Ancient Factory&r deep in the overworld."
+				""
+				"Use a nether star to wake him up"
+			]
+			id: "14CA102BAD4F6A38"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "252666FEC7F347A3"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 2
+					id: "175256B3FB429C90"
+					item: "simpleores:onyx_gem"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "3E1BF8B6042E4849"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "1D9BE46C84D34406"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "76935CB7B4D1C440"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_netherite true"
+					id: "3BBD9B1E1CC9CCF8"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/skills set @p skills:stage_n true"
+					id: "219DCB43441B50F9"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D29AD85571CA036"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:emp"
+				id: "1E8C22D71228D269"
+				title: "Kill the &5Harbinger&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BE51A7B2CF00CE8"]
+			description: [
+				"&nTip :&r"
+				""
+				"In the &eAether&r you can mine &eAmbrosium&r."
+				"&eAmbrosium Shards&r can be used to &7reforge modifiers&r of every items (&7even curios items!&r)."
+			]
+			id: "7C742369CC5C8B9E"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7486758638F0AAE2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "36DF0AB234B5B42F"
+					item: {
+						Count: 1b
+						id: "aether:golden_parachute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "241910D351F224D3"
+					item: "aether:book_of_lore"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "minecraft:glowstone"
+				id: "0DE749290636BCC1"
+				title: "Enter the Aether dimension"
+				type: "dimension"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C742369CC5C8B9E"]
+			description: [
+				"Located in the &2Bronze Dungeon&r."
+				""
+				"&7(the aether bosses are not balanced yet)&r"
+			]
+			id: "3C652834876CF66B"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "71F29CD532D8B11D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "582046DC07F7CDDD"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "1D2B1DADDE5E5512"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "74DEF97A354FB277"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					id: "6907820520B5EDAF"
+					item: {
+						Count: 1b
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/skills set @p skills:stage_a true"
+					id: "5BEE49A9C1A77859"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"You can feel the sky getting stronger, you can now mine \",\"italic\":\"true\"},{\"text\":\"Veridium\",\"bold\":true,\"color\":\"blue\"},{\"text\":\".\"}]\""
+					id: "1785972DD82E9F6F"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0276B5A52DA2B124"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "aether:slider"
+				icon: {
+					Count: 1b
+					id: "majruszsdifficulty:enderium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6B4790D825780CDF"
+				title: "Defeat the &5Slider&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3C652834876CF66B"]
+			description: [
+				"Located in the &2Silver Dungeon&r."
+				""
+				"&7(the aether bosses are not balanced yet)&r"
+			]
+			id: "777E4D10DDDACAD7"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "157CC496056702D4"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "05FE0A849A479995"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "069BCA19639504E0"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "4C15398EA3F63087"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "384F467C2C7BBA37"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: {
+					Count: 1b
+					id: "aether:valkyrie_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "61BB677C2D9111EC"
+				title: "Kill the &5Valkyrie Queen&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AC131C918D30C93"]
+			description: [
+				"Located in the &2Gold Dungeon&r."
+				""
+				"&7(the aether bosses are not balanced yet)&r"
+			]
+			id: "64DECE60E0B6FB6D"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "489887152A567929"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "2EFAB14CC2C3A04E"
+					silent: true
+					title: "&6+2 Skills Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "5AAA359DA2EC04E8"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "26D0F2FD0A97F3C2"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "456215B6CDFAC09B"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "irons_spellbooks:fire_upgrade_orb"
+				id: "13C396BB9CF8F116"
+				title: "Defeat the &5Sun Spirit&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20AFC310D0AC8AB0"]
+			description: ["Found in the &2Blossom Arena&r."]
+			id: "6AC131C918D30C93"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7332A13149BABBC6"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "29BA89F1244DD665"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "3CD10065F9596EA7"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "3CBBE248ACF32FF0"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "112A3B040DB513C1"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "minecraft:spore_blossom"
+				id: "5B7ACDD77C09B465"
+				title: "Kill the &5Void Blossom&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["777E4D10DDDACAD7"]
+			description: [
+				"You can find it in the &2Lich Tower&r."
+				""
+				"You will need to put &9Soul Stars&r into the &9Chiseled Altars&r. "
+			]
+			id: "20AFC310D0AC8AB0"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "540A7795CCA91D18"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "7DE18105F751AC28"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "107C5EDF73E0C70A"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "322447449AAFD5D8"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:mob_ward"
+				id: "43E2430FC6169174"
+				title: "Kill the &5Night Lich&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0EA710182249A301"]
+			description: ["Found in the &2Gauntlet Arena&r."]
+			id: "476DC0D49480853F"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "769B329C24E04696"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "2539BC4ABFAF5688"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "16081E3E1D31A92D"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "25927EDC6F0C437D"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					id: "3301307C66DDC272"
+					item: "irons_spellbooks:blank_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21533FF0C5725142"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "461CA47E0065DD97"
+				title: "Defeat the &5Nether Gauntlet&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			description: [
+				"&cBY PRESSING THE CHECKMARK&r, &4EVERY SKILL YOU HAVE WILL BE RESET&r."
+				""
+				"&4You cannot undo the changes!&r"
+				""
+				""
+				"Do it just in case you want to try a new class!"
+				""
+				"You might get back&e less points than you spent before&r! (the points you get back are calculated if you &ereset your skill tree at the start of the expert mode&r, &6don't&r &ereset late expert mode&r)"
+			]
+			hide: true
+			id: "7BA1BFC5A99514FA"
+			optional: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/puffish_skills category erase @p melee"
+					id: "7A146A88C4BD0615"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "puffish_skills points add @p melee 16"
+					id: "419597C5041D96BD"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills category erase @p mage"
+					id: "5F6C1EBAF8E505B2"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills category erase @p ranged"
+					id: "5B4C0BBC3977E85B"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 16"
+					id: "0C3F58756ECA134C"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 16"
+					id: "4161A2865BF4D51A"
+					type: "command"
+				}
+			]
+			secret: true
+			tasks: [{
+				id: "2F3AE95A28A42C91"
+				title: "&6 /!\\\\ &r Reset your Skill Tree &6 /!\\\\ &r"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+	]
+	title: "Expert Mode"
+}

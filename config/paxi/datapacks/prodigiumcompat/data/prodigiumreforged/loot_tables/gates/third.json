@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "heartcanisters:golden_heart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "doggytalents:training_treat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "simpleores:adamantium_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "prodigium:palladium_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "majruszsdifficulty:golden_bandage"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "majruszsdifficulty:bandage"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "heartcanisters:heart_canister"
+        }
+      ]
+    }
+  ]
+}

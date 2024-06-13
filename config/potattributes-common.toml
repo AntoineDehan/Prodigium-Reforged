@@ -1,0 +1,12 @@
+
+[Potattributes]
+	#Range: 0.0 ~ 1.0
+	initialCriticalAttackChance = 0.25
+	#Range: 0.01 ~ 1.0
+	maxCriticalAttackChance = 0.6
+	#Range: 0.01 ~ 1.0
+	maxCriticalAttackDamageBonus = 0.4
+	#Range: 0.01 ~ 1.0
+	maxDamageReduction = 0.3
+	disableVanillaCriticalAttack = true
+

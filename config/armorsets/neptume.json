@@ -1,0 +1,44 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:neptune_helmet"
+  },
+  "chest": {
+    "itemKey": "aether:neptune_chestplate"
+  },
+  "legs": {
+    "itemKey": "aether:neptune_leggings"
+  },
+  "boots": {
+    "itemKey": "aether:neptune_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_skills:player.ranged_damage",
+      "value": 0.75,
+      "modifierUUID": "7f86f4a3-7f9b-4c2c-9e67-e36d0393af5d",
+      "description": "+0.75 Ranged damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.08,
+      "modifierUUID": "b1df9c3b-fc26-47b9-90fc-468d1c41916d",
+      "description": "8% Roll Cooldown Reduction"
+    },
+    {
+      "type": "attribute",
+      "name": "apotheosis:dodge_chance",
+      "value": 0.05,
+      "modifierUUID": "22cd3cec-4cc6-493a-8901-755c015264cf",
+      "description": "5% Dodge Chance"
+    },
+    {
+      "type": "effect",
+      "name": "atmospheric:persistence",
+      "value": 0.0
+      }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "quark:pickarang",
+    "quark:flamerang",
+    "quark:echorang"
+  ],
+  "incompatible": [
+    "minecraft:piercing",
+    "majruszsenchantments:incompatibility_curse",
+    "majruszsenchantments:fatigue_curse"
+  ]
+}

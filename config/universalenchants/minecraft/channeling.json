@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche"
+  ],
+  "incompatible": [
+    "minecraft:riptide",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

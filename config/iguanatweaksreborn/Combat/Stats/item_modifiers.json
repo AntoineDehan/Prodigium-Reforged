@@ -1,0 +1,98 @@
+[
+  {
+  "id": "prodigium:palladium_bow",
+	"uuid": "5b3a0756-744a-4841-8a61-3ba411215202",
+	"slot": "mainhand",
+	"attribute": "puffish_skills:player.ranged_damage",
+	"amount": 1,
+	"operation": "addition"
+  },
+  {
+    "id": "prodigium:orichalcum_bow",
+    "uuid": "8f53c658-9696-11ed-8ad0-9f3a63aa2fbe",
+    "slot": "mainhand",
+    "attribute": "puffish_skills:player.ranged_damage",
+    "amount": 2,
+    "operation": "addition"
+  },
+  {
+    "id": "prodigium:shroomite_bow",
+    "uuid": "85b53342-9697-11ed-aaae-2f4f1c877e25",
+    "slot": "mainhand",
+    "attribute": "puffish_skills:player.ranged_damage",
+    "amount": 4,
+    "operation": "addition"
+  },
+  {
+    "id": "infernalexp:glowsilk_bow",
+    "uuid": "7f2ad874-9697-11ed-a7ee-c3b96e052f98",
+    "slot": "mainhand",
+    "attribute": "puffish_skills:player.ranged_damage",
+    "amount": 2,
+    "operation": "addition"
+  },
+  {
+    "id": "aquaculture:neptunium_bow",
+    "uuid": "8e84384c-9697-11ed-84b5-3bfb704ac1f8",
+    "slot": "mainhand",
+    "attribute": "puffish_skills:player.ranged_damage",
+    "amount": 3,
+    "operation": "addition"
+  },
+  {
+    "id": "simple_weapons:stone_scythe",
+    "uuid": "25e297e7-3a69-430b-860d-8bf40d216894",
+    "slot": "mainhand",
+    "attribute": "apotheosis:armor_shred",
+    "amount": 0.02,
+    "operation": "addition"
+  },
+  {
+    "id": "simple_weapons:iron_scythe",
+    "uuid": "9031e690-2a29-47d3-83ee-ded9203990df",
+    "slot": "mainhand",
+    "attribute": "apotheosis:armor_shred",
+    "amount": 0.05,
+    "operation": "addition"
+  },
+  {
+    "id": "simple_weapons:diamond_scythe",
+    "uuid": "c6246d8e-57b9-4149-9dee-e8251464586a",
+    "slot": "mainhand",
+    "attribute": "apotheosis:armor_shred",
+    "amount": 0.15,
+    "operation": "addition"
+  },
+  {
+    "id": "simple_weapons:netherite_scythe",
+    "uuid": "49d7ded0-72be-4f6a-9b6e-bf2876942f34",
+    "slot": "mainhand",
+    "attribute": "apotheosis:armor_shred",
+    "amount": 0.25,
+    "operation": "addition"
+  },
+  {
+    "id": "simple_weapons:corinthium_scythe",
+    "uuid": "115e8c08-b0de-48ac-a53d-17c277dd7838",
+    "slot": "mainhand",
+    "attribute": "apotheosis:armor_shred",
+    "amount": 0.10,
+    "operation": "addition"
+  },
+  {
+    "id": "simple_weapons:fiery_scythe",
+    "uuid": "7876557e-a448-48cf-b48e-c2e4591fef72",
+    "slot": "mainhand",
+    "attribute": "apotheosis:armor_shred",
+    "amount": 0.30,
+    "operation": "addition"
+  },
+  {
+    "id": "aether:zanite_sword",
+    "uuid": "7876557e-a448-48cf-b48e-c2e4591fef78",
+    "slot": "mainhand",
+    "attribute": "irons_spellbooks:cooldown_reduction",
+    "amount": 0.2,
+    "operation": "addition"
+  }
+]

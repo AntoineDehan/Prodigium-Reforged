@@ -1,0 +1,34 @@
+[
+  {
+    "id": "minecraft:potion",
+    "value": 16.0
+  },
+  {
+    "id": "minecraft:minecart",
+    "value": 16.0
+  },
+  {
+    "id": "minecraft:chest_minecart",
+    "value": 16.0
+  },
+  {
+    "id": "minecraft:hopper_minecart",
+    "value": 16.0
+  },
+  {
+    "id": "minecraft:furnace_minecart",
+    "value": 16.0
+  },
+  {
+    "id": "minecraft:tnt_minecart",
+    "value": 16.0
+  },
+  {
+    "id": "minecraft:snowball",
+    "value": 64.0
+  },
+  {
+    "id": "minecraft:saddle",
+    "value": 16.0
+  }
+]

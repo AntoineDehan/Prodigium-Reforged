@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "simpleores:onyx_gem"
+    },
+    "1": {
+      "item": "cataclysm:monstrous_horn"
+    },
+    "2": {
+      "item": "simpleores:onyx_gem"
+    },
+    "3": {
+      "item": "minecraft:nether_bricks"
+    },
+    "4": {
+      "item": "stalwart_dungeons:ancient_fire"
+    },
+    "5": {
+      "item": "minecraft:nether_bricks"
+    },
+    "6": {
+      "item": "minecraft:nether_bricks"
+    },
+    "7": {
+      "item": "stalwart_dungeons:golden_hammer"
+    },
+    "8": {
+      "item": "minecraft:nether_bricks"
+    }
+  },
+  "result": {
+    "item": "stalwart_dungeons:nether_hammer",
+    "count": 1
+  }
+}

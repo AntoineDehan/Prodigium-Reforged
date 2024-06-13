@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_lush",
+  "spawners": {
+    "type": "enemyexpansion:zadybug",
+    "weight": 70,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

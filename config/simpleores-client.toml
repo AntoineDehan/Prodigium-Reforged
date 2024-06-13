@@ -1,0 +1,9 @@
+
+[General]
+	#scaled zoom when drawing mythril bow (vanilla=0.165)
+	#Range: 0.0 ~ 1.0
+	MythrilBowZoomFactor = 0.2
+	#scaled zoom when drawing onyx bow (vanilla=0.165)
+	#Range: 0.0 ~ 1.0
+	OnyxBowZoomFactor = 0.3
+

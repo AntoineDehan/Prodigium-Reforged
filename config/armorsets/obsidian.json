@@ -1,0 +1,54 @@
+{
+  "armorSetName": "obsidian",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:obsidian_helmet"
+  },
+  "chest": {
+    "itemKey": "aether:obsidian_chestplate"
+  },
+  "legs": {
+    "itemKey": "aether:obsidian_leggings"
+  },
+  "boots": {
+    "itemKey": "aether:obsidian_boots"
+  },
+  "fullSetBonuses": [
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.armor",
+	  "value": 2.5,
+	  "modifierUUID": "376c701c-a330-4468-85fd-8d6b1f73e1a9",
+	  "description": "+2.5 Armor"
+    },
+	{
+	  "type": "attribute",
+	  "name": "minecraft:generic.max_health",
+	  "value": 10,
+	  "modifierUUID": "f940d080-7b53-4c8f-9131-0064e08b920d",
+	  "description": "+5 Max health"
+    },
+  {
+    "type": "attribute",
+    "name": "minecraft:generic.attack_damage",
+    "value": 1,
+    "modifierUUID": "935a8bc4-ce9d-4d1e-861e-b8e19b6da4a9",
+    "description": "+1 Attack Damage"
+  },
+  {
+    "type": "effect",
+    "name": "minecraft:slowness",
+    "value": 0.0
+  },
+  {
+    "type": "effect",
+    "name": "minecraft:resistance",
+    "value": 0.0
+  },
+  {
+    "type": "effect",
+    "name": "majruszsdifficulty:bleeding_immunity",
+    "value": 0.0
+  }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "armorSetName": "mage",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:wandering_magician_helmet"
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:wandering_magician_chestplate"
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:wandering_magician_leggings"
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:wandering_magician_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.3,
+      "modifierUUID": "af2aff9d-14a4-4f67-8f48-a97f046d11ec",
+      "description": "+3% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 50,
+      "modifierUUID": "295332b8-1d06-4a8f-8151-785dab86d0c5",
+      "description": "+50 Max Mana"
+    }
+  ]
+}
