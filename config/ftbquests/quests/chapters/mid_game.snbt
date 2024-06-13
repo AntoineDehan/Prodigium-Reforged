@@ -543,14 +543,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "minecraft:elder_guardian"
-				icon: "majruszsdifficulty:elder_guardian_treasure_bag"
-				id: "7E8040F0998CD20A"
-				title: "Kill the &5Elder Guardian&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: "majruszsdifficulty:elder_guardian_treasure_bag"
+					id: "7E8040F0998CD20A"
+					title: "Kill the &5Elder Guardian&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "endrem:main/guardian_eye"
+					criterion: ""
+					id: "67BD9E46B33852C9"
+					type: "advancement"
+				}
+			]
 			x: 18.0d
 			y: 0.0d
 		}
@@ -606,14 +614,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "minecraft:wither"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "1787DFC6FDBED8FB"
-				title: "Kill the &5Wither&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "1787DFC6FDBED8FB"
+					title: "Kill the &5Wither&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "endrem:main/wither_eye"
+					criterion: ""
+					id: "3A706A75FBBDCAFE"
+					type: "advancement"
+				}
+			]
 			x: -1.0d
 			y: 0.0d
 		}
@@ -690,14 +706,22 @@
 			]
 			shape: "hexagon"
 			size: 2.5d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				icon: "minecraft:dragon_head"
-				id: "2F5E3A53F186F4F3"
-				title: "Kill the &5Ender Dragon&r and unlock the &9Master Mode&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "2F5E3A53F186F4F3"
+					title: "Kill the &5Ender Dragon&r and unlock the &9Master Mode&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "2E822D980F10CBB8"
+					type: "advancement"
+				}
+			]
 			x: 25.0d
 			y: 0.0d
 		}
@@ -1268,6 +1292,13 @@
 				""
 				"&7(the aether bosses are not balanced yet)&r"
 			]
+			icon: {
+				Count: 1b
+				id: "majruszsdifficulty:enderium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3C652834876CF66B"
 			rewards: [
 				{
@@ -1334,20 +1365,28 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "aether:slider"
-				icon: {
-					Count: 1b
-					id: "majruszsdifficulty:enderium_pickaxe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					entity: "aether:slider"
+					icon: {
+						Count: 1b
+						id: "majruszsdifficulty:enderium_pickaxe"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "6B4790D825780CDF"
+					title: "Defeat the &5Slider&r"
+					type: "kill"
+					value: 1L
 				}
-				id: "6B4790D825780CDF"
-				title: "Defeat the &5Slider&r"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					advancement: "aether:bronze_dungeon"
+					criterion: ""
+					id: "71DC793BF68AE368"
+					type: "advancement"
+				}
+			]
 			x: 7.0d
 			y: -5.0d
 		}
@@ -1401,20 +1440,28 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "aether:valkyrie_queen"
-				icon: {
-					Count: 1b
-					id: "aether:valkyrie_helmet"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					entity: "aether:valkyrie_queen"
+					icon: {
+						Count: 1b
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "61BB677C2D9111EC"
+					title: "Kill the &5Valkyrie Queen&r"
+					type: "kill"
+					value: 1L
 				}
-				id: "61BB677C2D9111EC"
-				title: "Kill the &5Valkyrie Queen&r"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					advancement: "aether:silver_dungeon"
+					criterion: ""
+					id: "5CC843CB4A61C2EC"
+					type: "advancement"
+				}
+			]
 			x: 10.0d
 			y: -5.0d
 		}
@@ -1468,14 +1515,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "aether:sun_spirit"
-				icon: "irons_spellbooks:fire_upgrade_orb"
-				id: "13C396BB9CF8F116"
-				title: "Defeat the &5Sun Spirit&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "aether:sun_spirit"
+					icon: "irons_spellbooks:fire_upgrade_orb"
+					id: "13C396BB9CF8F116"
+					title: "Defeat the &5Sun Spirit&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "aether:gold_dungeon"
+					criterion: ""
+					id: "0292B82B728632BB"
+					type: "advancement"
+				}
+			]
 			x: 19.0d
 			y: -5.0d
 		}
@@ -1525,14 +1580,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "bosses_of_mass_destruction:void_blossom"
-				icon: "minecraft:spore_blossom"
-				id: "5B7ACDD77C09B465"
-				title: "Kill the &5Void Blossom&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					icon: "minecraft:spore_blossom"
+					id: "5B7ACDD77C09B465"
+					title: "Kill the &5Void Blossom&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
+					criterion: ""
+					id: "37C693D169EB44F1"
+					type: "advancement"
+				}
+			]
 			x: 16.0d
 			y: -5.0d
 		}
@@ -1580,14 +1643,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				icon: "bosses_of_mass_destruction:mob_ward"
-				id: "43E2430FC6169174"
-				title: "Kill the &5Night Lich&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:mob_ward"
+					id: "43E2430FC6169174"
+					title: "Kill the &5Night Lich&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+					criterion: ""
+					id: "032E7F1C90512375"
+					type: "advancement"
+				}
+			]
 			x: 13.0d
 			y: -5.0d
 		}
@@ -1643,14 +1714,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "bosses_of_mass_destruction:gauntlet"
-				icon: "bosses_of_mass_destruction:blazing_eye"
-				id: "461CA47E0065DD97"
-				title: "Defeat the &5Nether Gauntlet&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					icon: "bosses_of_mass_destruction:blazing_eye"
+					id: "461CA47E0065DD97"
+					title: "Defeat the &5Nether Gauntlet&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+					criterion: ""
+					id: "44252BB21C9099DD"
+					type: "advancement"
+				}
+			]
 			x: 5.0d
 			y: 0.0d
 		}

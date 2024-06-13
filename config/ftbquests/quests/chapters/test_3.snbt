@@ -396,14 +396,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "meetyourfight:swampjaw"
-				icon: "meetyourfight:fossil_bait"
-				id: "1D39AC7F95C73EA9"
-				title: "Kill the &3Swampjaw&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:swampjaw"
+					icon: "meetyourfight:fossil_bait"
+					id: "1D39AC7F95C73EA9"
+					title: "Kill the &3Swampjaw&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "meetyourfight:main/swampjaw_kill"
+					criterion: ""
+					id: "335DB3B7C6797D70"
+					type: "advancement"
+				}
+			]
 			title: "Kill the &3Swampjaw&r"
 			x: 8.0d
 			y: 2.0d
@@ -557,20 +565,28 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "conjurer_illager:conjurer"
-				icon: {
-					Count: 1b
-					id: "conjurer_illager:conjurer_hat"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					entity: "conjurer_illager:conjurer"
+					icon: {
+						Count: 1b
+						id: "conjurer_illager:conjurer_hat"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "00A12CB227DDE76F"
+					title: "Kill the &3Conjurer&r"
+					type: "kill"
+					value: 1L
 				}
-				id: "00A12CB227DDE76F"
-				title: "Kill the &3Conjurer&r"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					advancement: "conjurer_illager:kill_conjurer"
+					criterion: ""
+					id: "373A8252374ED8C6"
+					type: "advancement"
+				}
+			]
 			x: 8.5d
 			y: -1.0d
 		}
@@ -665,14 +681,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "meetyourfight:bellringer"
-				icon: "meetyourfight:haunted_bell"
-				id: "45F5E8E2FE142040"
-				title: "Kill the &3Bellringer&6"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:bellringer"
+					icon: "meetyourfight:haunted_bell"
+					id: "45F5E8E2FE142040"
+					title: "Kill the &3Bellringer&6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "meetyourfight:main/bellringer_kill"
+					criterion: ""
+					id: "6D33AA28E3194A7B"
+					type: "advancement"
+				}
+			]
 			x: 14.5d
 			y: -1.0d
 		}
@@ -751,14 +775,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "meetyourfight:dame_fortuna"
-				icon: "meetyourfight:devils_ante"
-				id: "2F7F6325F65627FB"
-				title: "Kill the &3Dame Fortuna&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:dame_fortuna"
+					icon: "meetyourfight:devils_ante"
+					id: "2F7F6325F65627FB"
+					title: "Kill the &3Dame Fortuna&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "meetyourfight:main/dame_fortuna_kill"
+					criterion: ""
+					id: "103E8EC740F4DE97"
+					type: "advancement"
+				}
+			]
 			x: 18.5d
 			y: 2.0d
 		}
@@ -1233,14 +1265,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "irons_spellbooks:dead_king"
-				icon: "minecraft:skeleton_skull"
-				id: "650290681E34BC76"
-				title: "Defeat the &3Dead King&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "irons_spellbooks:dead_king"
+					icon: "minecraft:skeleton_skull"
+					id: "650290681E34BC76"
+					title: "Defeat the &3Dead King&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_dead_king"
+					criterion: ""
+					id: "1E69867E84BE4A43"
+					type: "advancement"
+				}
+			]
 			x: 16.5d
 			y: 0.0d
 		}
@@ -1413,20 +1453,28 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "mowziesmobs:umvuthi"
-				icon: {
-					Count: 1b
-					id: "mowziesmobs:umvuthana_mask_misery"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					icon: {
+						Count: 1b
+						id: "mowziesmobs:umvuthana_mask_misery"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "0B529EF55A352EF6"
+					title: "Kill &3Umvuthi the Sunbird&r"
+					type: "kill"
+					value: 1L
 				}
-				id: "0B529EF55A352EF6"
-				title: "Kill &3Umvuthi the Sunbird&r"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					advancement: "mowziesmobs:kill_umvuthi"
+					criterion: ""
+					id: "5CD9B7512FE834BA"
+					type: "advancement"
+				}
+			]
 			x: 12.0d
 			y: -1.0d
 		}
@@ -1454,6 +1502,17 @@
 			}]
 			x: 6.5d
 			y: 4.5d
+		}
+		{
+			id: "4B1C5E4BB0F4DE8E"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "27B66DA42712737E"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 5.5d
 		}
 	]
 	title: "Normal Mode"

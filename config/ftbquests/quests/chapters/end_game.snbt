@@ -390,14 +390,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "meetyourfight:rosalyne"
-				icon: "meetyourfight:dusk_key"
-				id: "59330083685E8CCA"
-				title: "Defeat &4Rosalyne&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:rosalyne"
+					icon: "meetyourfight:dusk_key"
+					id: "59330083685E8CCA"
+					title: "Defeat &4Rosalyne&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "meetyourfight:main/rosalyne_kill"
+					criterion: ""
+					id: "43521B2A73CB8974"
+					type: "advancement"
+				}
+			]
 			x: 14.0d
 			y: 2.0d
 		}
@@ -522,14 +530,22 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "bosses_of_mass_destruction:obsidilith"
-				icon: "artifacts:obsidian_skull"
-				id: "4EF1F3E2E1EA7513"
-				title: "Defeat &4Obsidilith&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: "artifacts:obsidian_skull"
+					id: "4EF1F3E2E1EA7513"
+					title: "Defeat &4Obsidilith&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+					criterion: ""
+					id: "2690BA55A0EF7492"
+					type: "advancement"
+				}
+			]
 			x: 12.0d
 			y: 0.0d
 		}
