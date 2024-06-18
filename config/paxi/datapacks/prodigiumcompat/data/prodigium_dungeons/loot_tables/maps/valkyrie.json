@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "prodigium:house",
+              "destination": "prodigium_dungeons:valkyrie",
               "decoration": "target_point",
               "search_radius": 5000
             }

@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "conjurer_illager:theatre",
+              "destination": "prodigium_dungeons:catacombs",
               "decoration": "target_point",
               "search_radius": 5000
             }
