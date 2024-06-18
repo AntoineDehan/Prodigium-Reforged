@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "prodigium_dungeons:the_theatre",
+      "weight": 80
+    }
+  ],
+  "placement": {
+    "salt": 1224561749,
+    "spacing": 20,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

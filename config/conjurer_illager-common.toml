@@ -16,7 +16,7 @@
 		# Percent chance of generating in an allowed chunk.
 		# Default: 50
 		#Range: 0 ~ 100
-		probability = 80
+		probability = 0
 
 	[Theater.structures]
 

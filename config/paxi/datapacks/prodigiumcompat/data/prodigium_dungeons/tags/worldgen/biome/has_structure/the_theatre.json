@@ -1,0 +1,23 @@
+{
+  "replace": false,
+
+  "values": [
+    "minecraft:dark_forest",
+    "terralith:sakura_grove",
+    "terralith:blooming_valley",
+    "terralith:lavender_forest",
+    "terralith:forested_highlands",
+    "terralith:wintry_forest",
+    "regions_unexplored:eucalyptus_forest",
+    "regions_unexplored:cold_deciduous_forest",
+    "regions_unexplored:blackwood_taiga",
+    "regions_unexplored:boreal_taiga",
+    "regions_unexplored:cold_boreal_taiga",
+    "regions_unexplored:golden_boreal_taiga",
+    "regions_unexplored:pine_taiga",
+    "#forge:is_dense",
+    "#minecraft:is_taiga",
+    "#forge:is_spooky",
+    "#forge:is_mushroom"
+  ]
+}

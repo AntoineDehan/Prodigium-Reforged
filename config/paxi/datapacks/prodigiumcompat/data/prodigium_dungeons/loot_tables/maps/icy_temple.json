@@ -6,11 +6,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:map",
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "minecraft:prodigium_dungeons:house",
-              "decoration": "target_point"
+              "destination": "prodigium_dungeons:icy_temple",
+              "decoration": "target_point",
+              "search_radius": 5000
             }
           ]
         }
