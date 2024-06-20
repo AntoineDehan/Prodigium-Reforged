@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "prodigium_dungeons:obsidilith",
+              "decoration": "target_point",
+              "search_radius": 5000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
