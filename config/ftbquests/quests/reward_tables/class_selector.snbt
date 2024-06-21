@@ -1,0 +1,11 @@
+{
+	id: "4ABAE2759304C75C"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "kubejs:token_melee" }
+		{ item: "kubejs:token_ranged" }
+		{ item: "kubejs:token_mage" }
+	]
+	title: "Class Selector"
+}

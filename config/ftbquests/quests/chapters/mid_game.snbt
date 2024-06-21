@@ -463,20 +463,6 @@
 			y: -3.0d
 		}
 		{
-			alpha: 200
-			click: ""
-			corner: false
-			dependency: "7BA1BFC5A99514FA"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "aether:block/dungeon/exclamation"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: -4.5d
-		}
-		{
 			click: ""
 			corner: false
 			dev: false
@@ -495,7 +481,9 @@
 		{
 			dependencies: ["14CA102BAD4F6A38"]
 			description: ["Found in the &2Ocean monument&r."]
+			icon: "majruszsdifficulty:elder_guardian_treasure_bag"
 			id: "3B3B33E6A70E1CAF"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -555,7 +543,9 @@
 				{
 					advancement: "endrem:main/guardian_eye"
 					criterion: ""
+					disable_toast: true
 					id: "67BD9E46B33852C9"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -564,7 +554,9 @@
 		}
 		{
 			dependencies: ["774BCB593AAFAA33"]
+			icon: "minecraft:wither_skeleton_skull"
 			id: "78E025D30CD1E607"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -626,7 +618,9 @@
 				{
 					advancement: "endrem:main/wither_eye"
 					criterion: ""
+					disable_toast: true
 					id: "3A706A75FBBDCAFE"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -641,7 +635,9 @@
 				"Some eyes are dropped by bosses, some are craftable and some can be found while exploring."
 				"As long as you have 12 different eyes you have enough."
 			]
+			icon: "minecraft:dragon_head"
 			id: "6EB21A5EFC2F6EF2"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -718,7 +714,9 @@
 				{
 					advancement: "minecraft:end/kill_dragon"
 					criterion: ""
+					disable_toast: true
 					id: "2E822D980F10CBB8"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -903,6 +901,7 @@
 					entity: "stalwart_dungeons:awful_ghast"
 					icon: "stalwart_dungeons:awful_dungeon_spawner"
 					id: "5B443EB49F15C3AB"
+					title: "Kill the &5Awful Ghast&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1300,6 +1299,7 @@
 				}
 			}
 			id: "3C652834876CF66B"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1383,7 +1383,9 @@
 				{
 					advancement: "aether:bronze_dungeon"
 					criterion: ""
+					disable_toast: true
 					id: "71DC793BF68AE368"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -1397,7 +1399,15 @@
 				""
 				"&7(the aether bosses are not balanced yet)&r"
 			]
+			icon: {
+				Count: 1b
+				id: "aether:valkyrie_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "777E4D10DDDACAD7"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1458,7 +1468,9 @@
 				{
 					advancement: "aether:silver_dungeon"
 					criterion: ""
+					disable_toast: true
 					id: "5CC843CB4A61C2EC"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -1472,7 +1484,9 @@
 				""
 				"&7(the aether bosses are not balanced yet)&r"
 			]
+			icon: "irons_spellbooks:fire_upgrade_orb"
 			id: "64DECE60E0B6FB6D"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1527,7 +1541,9 @@
 				{
 					advancement: "aether:gold_dungeon"
 					criterion: ""
+					disable_toast: true
 					id: "0292B82B728632BB"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -1537,7 +1553,9 @@
 		{
 			dependencies: ["20AFC310D0AC8AB0"]
 			description: ["Found in the &2Blossom Arena&r."]
+			icon: "minecraft:spore_blossom"
 			id: "6AC131C918D30C93"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1592,7 +1610,9 @@
 				{
 					advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
 					criterion: ""
+					disable_toast: true
 					id: "37C693D169EB44F1"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -1606,7 +1626,9 @@
 				""
 				"You will need to put &9Soul Stars&r into the &9Chiseled Altars&r. "
 			]
+			icon: "bosses_of_mass_destruction:mob_ward"
 			id: "20AFC310D0AC8AB0"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1655,7 +1677,9 @@
 				{
 					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
 					criterion: ""
+					disable_toast: true
 					id: "032E7F1C90512375"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -1665,7 +1689,9 @@
 		{
 			dependencies: ["0EA710182249A301"]
 			description: ["Found in the &2Gauntlet Arena&r."]
+			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "476DC0D49480853F"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1726,74 +1752,14 @@
 				{
 					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
 					criterion: ""
+					disable_toast: true
 					id: "44252BB21C9099DD"
+					secret: true
 					type: "advancement"
 				}
 			]
 			x: 5.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["774BCB593AAFAA33"]
-			description: [
-				"&cBY PRESSING THE CHECKMARK&r, &4EVERY SKILL YOU HAVE WILL BE RESET&r."
-				""
-				"&4You cannot undo the changes!&r"
-				""
-				""
-				"Do it just in case you want to try a new class!"
-				""
-				"You might get back&e less points than you spent before&r! (the points you get back are calculated if you &ereset your skill tree at the start of the expert mode&r, &6don't&r &ereset late expert mode&r)"
-			]
-			hide: true
-			id: "7BA1BFC5A99514FA"
-			optional: true
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/puffish_skills category erase @p melee"
-					id: "7A146A88C4BD0615"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "puffish_skills points add @p melee 16"
-					id: "419597C5041D96BD"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills category erase @p mage"
-					id: "5F6C1EBAF8E505B2"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills category erase @p ranged"
-					id: "5B4C0BBC3977E85B"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p mage 16"
-					id: "0C3F58756ECA134C"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p ranged 16"
-					id: "4161A2865BF4D51A"
-					type: "command"
-				}
-			]
-			secret: true
-			tasks: [{
-				id: "2F3AE95A28A42C91"
-				title: "&6 /!\\\\ &r Reset your Skill Tree &6 /!\\\\ &r"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: -3.5d
 		}
 	]
 	title: "Expert Mode"

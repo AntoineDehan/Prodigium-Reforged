@@ -11,109 +11,109 @@
 		{
 			dependencies: ["70754FC9C5A14335"]
 			description: [
-				"You can &4only&r chose &4ONE&r class."
+				"You've chosen the Melee class."
 				""
-				"Press \"I\" to open the Skill Tree menu."
+				"This class is oriented at close combat and being tanky."
 			]
+			hide: true
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "minecraft:iron_sword"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "393854A756CB4A8A"
 			incompatible: [
 				"40893A522D53420E"
 				"7B76A6B37D0F157E"
 			]
-			rewards: [{
-				auto: "invisible"
-				command: "/puffish_skills category unlock @p melee"
-				id: "53DBC88CA83CF42C"
-				type: "command"
-			}]
+			rewards: [
+				{
+					id: "4ECB18BE2EE646F7"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A3F0CF547CFF6D3"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
 			tasks: [{
-				id: "79560A143B018D45"
-				title: "Click me to chose the class"
-				type: "checkmark"
+				icon: "kubejs:token_melee"
+				id: "0CEBA9F62589E756"
+				title: "Melee class"
+				type: "custom"
 			}]
-			title: "Chose the Melee class"
+			title: "Melee Class"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["70754FC9C5A14335"]
 			description: [
-				"You can &4only&r chose &4ONE&r class."
+				"You've chosen the Mage class."
 				""
-				"Press \"I\" to open the Skill Tree menu."
+				"Your class is oriented damage/utilities, you have a lot of different spells that deals damage but not only. You also have a lot of spells that can be of great help without dealing damage."
 			]
+			hide: true
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "irons_spellbooks:diamond_spell_book"
-				tag: {
-					ISB_spellbook: {
-						activeSpellIndex: -1
-						spellSlots: 8
-						spells: [ ]
-					}
-				}
-			}
 			id: "40893A522D53420E"
 			incompatible: [
 				"393854A756CB4A8A"
 				"7B76A6B37D0F157E"
 			]
-			rewards: [{
-				auto: "invisible"
-				command: "/puffish_skills category unlock @p mage"
-				id: "096F4199C62D7612"
-				type: "command"
-			}]
+			rewards: [
+				{
+					id: "767C2F09C57A89CF"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "121F74EBA97B4428"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
 			tasks: [{
-				id: "68A47B19E05EEFA5"
-				title: "Click me to chose the class"
-				type: "checkmark"
+				icon: "kubejs:token_mage"
+				id: "444A7343CCD4A29A"
+				title: "Mage class"
+				type: "custom"
 			}]
-			title: "Chose the Mage class"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["70754FC9C5A14335"]
 			description: [
-				"You can &4only&r chose &4ONE&r class."
+				"You've chosen the Ranged class."
 				""
-				"Press \"I\" to open the Skill Tree menu."
+				"Your class is heavily oriented damage while having little resistance."
 			]
+			hide: true
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "prodigium:palladium_bow"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "7B76A6B37D0F157E"
 			incompatible: [
 				"40893A522D53420E"
 				"393854A756CB4A8A"
 			]
-			rewards: [{
-				auto: "invisible"
-				command: "/puffish_skills category unlock @p ranged"
-				id: "66643A0B7B29B1B8"
-				type: "command"
-			}]
+			rewards: [
+				{
+					id: "23387A44125ECBBD"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0621E64B31DF5AFF"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
 			tasks: [{
-				id: "148F60169981C29F"
-				title: "Click me to chose the class"
-				type: "checkmark"
+				icon: "kubejs:token_ranged"
+				id: "1606B07C6ECC6BBA"
+				title: "Ranged class"
+				type: "custom"
 			}]
-			title: "Chose the Ranged class"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -122,33 +122,21 @@
 				"Three classes are available in Prodigium Reforged."
 				""
 				"You can only chose one! Try to chose one as soon as possible but do think about it before."
+				"You will be able to switch classs thanks to the &6Tavernkeeper NPC&r."
 				""
 				"&aThe class system is in the middle of a rework right now but it will get better soon™!&r"
 			]
 			id: "70754FC9C5A14335"
-			rewards: [
-				{
-					count: 2
-					id: "0403B5E8143E1F32"
-					item: "majruszsdifficulty:bandage"
-					type: "item"
-				}
-				{
-					id: "4C33CC28953302AB"
-					item: "farmersdelight:bacon_sandwich"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "155E7E790AE369BC"
-					table_id: 8049615661713598272L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36CEF6C8649687ED"
+				table_id: 5384865299080464220L
+				type: "choice"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "460B5F5867B83937"
-				title: "Class System"
+				title: "Select your class"
 				type: "checkmark"
 			}]
 			x: 3.5d

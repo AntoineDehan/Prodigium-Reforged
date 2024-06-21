@@ -92,7 +92,7 @@
 			image: "prodigium_reforged:textures/gui/normal_mode.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 12.5d
+			x: 13.0d
 			y: 2.0d
 		}
 	]
@@ -275,6 +275,7 @@
 			]
 			icon: "meetyourfight:fossil_bait"
 			id: "1A1D4191D9A098E9"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -408,7 +409,9 @@
 				{
 					advancement: "meetyourfight:main/swampjaw_kill"
 					criterion: ""
+					disable_toast: true
 					id: "335DB3B7C6797D70"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -476,14 +479,15 @@
 		{
 			dependencies: ["1A1D4191D9A098E9"]
 			description: [
-				"Found in his &2theatre&r."
+				"Found in &2The Theatre&r."
 				""
 				""
 				"&nTip :&r"
-				"You can search through the &bExplorer's Compass&r the &2Theatre&r structure to find it!"
-				"You can also trade a cartographer that can give you a map leading directly to the nearest &2Theatre&r."
+				"You can search through the &bExplorer's Compass&r &2The Theatre&r structure to find it!"
+				"You can also ask the guide for a map to the closest &2The Theatre&r structure."
 			]
 			id: "458DA39CB1A3AE07"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -583,7 +587,9 @@
 				{
 					advancement: "conjurer_illager:kill_conjurer"
 					criterion: ""
+					disable_toast: true
 					id: "373A8252374ED8C6"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -599,6 +605,7 @@
 				"You can place campfires to give yourself &dregeneration&r!"
 			]
 			id: "7043C7396120945F"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -693,7 +700,9 @@
 				{
 					advancement: "meetyourfight:main/bellringer_kill"
 					criterion: ""
+					disable_toast: true
 					id: "6D33AA28E3194A7B"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -704,6 +713,7 @@
 			dependencies: ["44CABC14818B1DFB"]
 			description: ["Summon it using a &9Devil's Ante&r"]
 			id: "281435B11C0F1243"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -787,7 +797,9 @@
 				{
 					advancement: "meetyourfight:main/dame_fortuna_kill"
 					criterion: ""
+					disable_toast: true
 					id: "103E8EC740F4DE97"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -1170,6 +1182,7 @@
 				"Use the &9Extra Golems Guide&r (rewarded through The Conjurer quest) for more information."
 			]
 			id: "44CABC14818B1DFB"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1277,7 +1290,9 @@
 				{
 					advancement: "irons_spellbooks:irons_spellbooks/spell_book_dead_king"
 					criterion: ""
+					disable_toast: true
 					id: "1E69867E84BE4A43"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -1410,6 +1425,7 @@
 			dependencies: ["458DA39CB1A3AE07"]
 			description: ["Found in his village, the &2Umvathana Grove&r."]
 			id: "0B31131A12E42700"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1471,7 +1487,9 @@
 				{
 					advancement: "mowziesmobs:kill_umvuthi"
 					criterion: ""
+					disable_toast: true
 					id: "5CD9B7512FE834BA"
+					secret: true
 					type: "advancement"
 				}
 			]

@@ -496,7 +496,10 @@
 			y: -5.625d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: [
+				"774BCB593AAFAA33"
+				"7B76A6B37D0F157E"
+			]
 			hide: true
 			id: "64C410A0F79EBB1A"
 			rewards: [{
@@ -538,7 +541,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: [
+				"774BCB593AAFAA33"
+				"7B76A6B37D0F157E"
+			]
 			hide: true
 			id: "515E354F56F5F88A"
 			tasks: [{
@@ -567,7 +573,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: [
+				"774BCB593AAFAA33"
+				"7B76A6B37D0F157E"
+			]
 			hide: true
 			id: "5EECBBF455A3CAC9"
 			rewards: [{

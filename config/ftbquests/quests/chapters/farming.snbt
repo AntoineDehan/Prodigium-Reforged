@@ -997,7 +997,7 @@
 			size: 1.25d
 			tasks: [{
 				days: 60
-				icon: "quark:orange_blossom_leaves"
+				icon: "minecraft:birch_leaves"
 				id: "550A79EAA8B002F4"
 				type: "questsadditions:days"
 			}]

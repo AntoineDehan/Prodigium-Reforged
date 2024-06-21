@@ -341,7 +341,9 @@
 		{
 			dependencies: ["2F2E994C5099612A"]
 			description: ["Craft a &9Dusk Key&r to summon it"]
+			icon: "meetyourfight:dusk_key"
 			id: "69211BF1D6204C54"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -402,7 +404,9 @@
 				{
 					advancement: "meetyourfight:main/rosalyne_kill"
 					criterion: ""
+					disable_toast: true
 					id: "43521B2A73CB8974"
+					secret: true
 					type: "advancement"
 				}
 			]
@@ -473,7 +477,9 @@
 				""
 				"Use an &9Eye of ender&r on the &9Obsidian Altar&r."
 			]
+			icon: "artifacts:obsidian_skull"
 			id: "2F2E994C5099612A"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -542,7 +548,9 @@
 				{
 					advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
 					criterion: ""
+					disable_toast: true
 					id: "2690BA55A0EF7492"
+					secret: true
 					type: "advancement"
 				}
 			]
