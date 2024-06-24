@@ -555,12 +555,19 @@
 			size: 1.25d
 			tasks: [
 				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tieri"
+						}
+					}
 					id: "61188D3BD0DA2700"
 					item: {
 						Count: 1b
 						id: "gateways:gate_pearl"
 						tag: {
-							gateway: "gateways:old_ones_army_tierI"
+							gateway: "gateways:old_ones_army_tieri"
 						}
 					}
 					type: "item"
@@ -570,7 +577,7 @@
 						Count: 1b
 						id: "gateways:gate_pearl"
 						tag: {
-							gateway: "gateways:old_ones_army_tierII"
+							gateway: "gateways:old_ones_army_tieri"
 						}
 					}
 					id: "4440E5DD615DD84B"
@@ -603,12 +610,19 @@
 			size: 1.5d
 			tasks: [
 				{
+					icon: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierii"
+						}
+					}
 					id: "2AA36AE41A33EDCC"
 					item: {
 						Count: 1b
 						id: "gateways:gate_pearl"
 						tag: {
-							gateway: "gateways:old_ones_army_tierII"
+							gateway: "gateways:old_ones_army_tierii"
 						}
 					}
 					type: "item"
@@ -618,7 +632,7 @@
 						Count: 1b
 						id: "gateways:gate_pearl"
 						tag: {
-							gateway: "gateways:old_ones_army_tierIII"
+							gateway: "gateways:old_ones_army_tierii"
 						}
 					}
 					id: "37E7DE37AE6E8D6F"
@@ -657,7 +671,7 @@
 						Count: 1b
 						id: "gateways:gate_pearl"
 						tag: {
-							gateway: "gateways:old_ones_army_tierIII"
+							gateway: "gateways:old_ones_army_tieriii"
 						}
 					}
 					type: "item"
@@ -667,7 +681,7 @@
 						Count: 1b
 						id: "gateways:gate_pearl"
 						tag: {
-							gateway: "gateways:old_ones_army_tierI"
+							gateway: "gateways:old_ones_army_tieriii"
 						}
 					}
 					id: "01590DC84238B719"

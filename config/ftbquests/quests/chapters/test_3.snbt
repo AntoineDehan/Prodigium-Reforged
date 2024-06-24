@@ -1521,17 +1521,6 @@
 			x: 6.5d
 			y: 4.5d
 		}
-		{
-			id: "4B1C5E4BB0F4DE8E"
-			tasks: [{
-				advancement: "minecraft:story/root"
-				criterion: ""
-				id: "27B66DA42712737E"
-				type: "advancement"
-			}]
-			x: 9.0d
-			y: 5.5d
-		}
 	]
 	title: "Normal Mode"
 }
