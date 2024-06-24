@@ -5,7 +5,7 @@
 
 [mobHealth]
 	#Allows you to set the amount of health mobs spawn with (if they're allowed to spawn at all.) I made it really low by default so as to make them less annoying to deal with if you do have to encounter them.
-	"Baby Zombie Health" = 8.0
+	"Baby Zombie Health" = 12.0
 	"Phantom Health" = 6.0
 
 [naturalSpawningDepth]
@@ -67,17 +67,17 @@
 	"Chainmail Wearer Spawning" = 0.01
 	"Iron Wearer Spawning" = 0.005
 	"Gold Wearer Spawning" = 0.001
-	"Diamond Wearer Spawning" = 4.0E-4
+	"Diamond Wearer Spawning" = 0.001
 	"Netherite Wearer Spawning" = 0.001
 
 [miscOptions]
 	"Punching Ram Drops Wool Chance" = 0.0
-	"Wandering Trader becomes Illusioner on-death Chance" = 0.9
+	"Wandering Trader becomes Illusioner on-death Chance" = 0.7
 	"Burning Undead mobs gain Speed III Chance" = 0.2
 	"Mobs Sometimes Spawn With Varying Speed Chance" = 0.5
 	"Skeletons Switch Weapons Mid-Fight Chance" = 0.2
 	"Flies Spawn From Killed Zombies Chance" = 0.05
-	"Pillagers Spawn with Reaver Chance" = 0.16
+	"Pillagers Spawn with Reaver Chance" = 0.05
 
 [effectSpawning]
 	"Chance of Strength effect applied on mob-spawn" = 0.01

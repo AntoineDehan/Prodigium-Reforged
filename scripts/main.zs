@@ -49,6 +49,7 @@ craftingTable.removeByName("heartcanisters:cut_diamond_crafting");
 craftingTable.removeByName("extractinator:extractinator");
 craftingTable.removeByName("sophisticatedbackpacks:stack_upgrade_tier_4");
 craftingTable.removeByName("sophisticatedstorage:stack_upgrade_tier_4");
+craftingTable.removeByName("undead_revamp2:chainedswords");
 
 
 

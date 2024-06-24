@@ -575,6 +575,14 @@
     "result": "default"
   },
   {
+    "mob": ["undead_revamp2:invisiblebidy"],
+    "result": "stage_expert"
+  },
+  {
+    "mob": ["undead_revamp2:invisiblebidy"],
+    "result": "deny"
+  },
+  {
     "mob": ["born_in_chaos_v1:zombie_bruiser"],
     "result": "deny"
   },
