@@ -308,6 +308,12 @@ saves/
 XaeroWaypoints/
 XaeroWorldMap/
 blueprints/
-
 config/spawnbalanceutility/AllMobEntities.rpt
+XaeroWaypoints_BACKUP032021/
 config/sound_physics_remastered/
+config/oculus.properties
+config/reforgium-renderer.properties
+config/xaerominimap_entities.json
+screenshots/
+config/spark/activity.json
+config/spark/config.json

@@ -39,7 +39,7 @@
 	enable = false
 
 [detonation]
-	enable = true
+	enable = false
 
 [combo]
 	enable = true
