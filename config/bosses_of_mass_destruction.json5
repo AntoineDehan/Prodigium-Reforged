@@ -29,9 +29,18 @@
 				"minecraft:zombie",
 				"minecraft:drowned",
 				"minecraft:wither",
-				"minecraft:zombie_villager"
+				"minecraft:zombie_villager",
+				"bygonenether:wither_skeleton_knight",
+				"born_in_chaos_v1:decrepit_skeleton",
+				"born_in_chaos_v1:skeleton_demoman",
+				"born_in_chaos_v1:baby_skeleton",
+				"born_in_chaos_v1:skeleton_thrasher",
+				"born_in_chaos_v1:zombie_clown",
+				"born_in_chaos_v1:barrel_zombie",
+				"born_in_chaos_v1:zombie_fisherman",
+				"born_in_chaos_v1:zombie_bruiser"
 			],
-			"numEntitiesKilledToDropSoulStar": 50
+			"numEntitiesKilledToDropSoulStar": 40
 		}
 	},
 	"obsidilithConfig": {
