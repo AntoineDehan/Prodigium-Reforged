@@ -1068,20 +1068,6 @@
 					value: 1L
 				}
 				{
-					entity: "somebosses:mono_eyed_skeleton"
-					icon: {
-						Count: 1b
-						id: "alexsmobs:skelewag_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "1E75998B90631CA0"
-					title: "Kill a Mono Eyed Skeleton"
-					type: "kill"
-					value: 1L
-				}
-				{
 					entity: "somebosses:frost_magma"
 					icon: {
 						Count: 1b
@@ -1177,6 +1163,32 @@
 			}]
 			title: "Another chest, another surprise"
 			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: ["To get the &6Bad Omen&r effect you will need to burn with a &7Flint and Steel&r a &6Ominous Banner&r."]
+			id: "49C9DD065EE5739F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F310190A3F968C2"
+				table_id: 7449522933339281626L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0E9431B665AA2307"
+				title: "Burn an Ominous Banner to get the Bad Omen effect"
+				type: "advancement"
+			}]
+			x: 4.0d
 			y: 1.0d
 		}
 	]
