@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["DID", " O ", "OMO"],
+  "key": {
+    "D": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "M": {
+      "item": "simpleores:mythril_bricks"
+    },
+    "I": {
+      "item": "meetyourfight:phantoplasm"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:scroll_forge",
+    "count": 1
+  }
+}

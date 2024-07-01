@@ -1,1464 +1,1464 @@
 {
-	"armor+0.5": {
-		"title": "+0.5 Armor",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "iron_chestplate"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:generic.armor",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"melee_damage+2%": {
-		"title": "+2% Melee Damage",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "strength"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.02,
-					"operation": "multiply_base"
-				}
-			}
-		]
-	},
-    "melee_damage+5%": {
-		"title": "+5% Melee Damage",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "strength"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.05,
-					"operation": "multiply_base"
-				}
-			}
-		]
-	},
-    "melee_damage+3%": {
-		"title": "+3% Melee Damage",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "strength"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.03,
-					"operation": "multiply_base"
-				}
-			}
-		]
-	},
-	"overheal": {
-		"title": "Unlocks overheal",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "cofh_core:love"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:overheal",
-					"value": 0.1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"overheal+2%": {
-		"title": "+2% Overheal",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "cofh_core:love"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:overheal",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"resistance+1%": {
-		"title": "+1% Resistance",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "resistance"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.01,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"resistance+5%": {
-		"title": "+5% Resistance",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "resistance"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"health+1": {
-		"title": "+0.5 Heart",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "health_boost"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-    "health+2": {
-		"title": "+2 Hearts",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "health_boost"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-    "health+4": {
-		"title": "+4 Hearts",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "health_boost"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 8,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"root_health+2": {
-		"title": "Chose the Melee class (+2 Hearts)",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "health_boost"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 4,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"healing+5%": {
-		"title": "+5% Healing",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "regeneration"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.healing",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"healing+1%": {
-		"title": "+1% Healing",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "regeneration"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.healing",
-					"value": 0.01,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"crit_damage+5%": {
-		"title": "+5% Crit Damage",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "cofh_core:supercharge"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:crit_damage",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"crit_chance+5%": {
-		"title": "+5% Crit Chance",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "luck"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:crit_chance",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"dodge+2%": {
-		"title": "+2% Dodge chance",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "earthmobsmod:hyper_spark"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:dodge_chance",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"dodge+10%": {
-		"title": "+10% Dodge chance",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "earthmobsmod:hyper_spark"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:dodge_chance",
-					"value": 0.10,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"cold_damage+0.5": {
-		"title": "+0.5 Cold Damage",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "cofh_core:chilled"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:cold_damage",
-					"value": 0.5,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"cold_damage+1": {
-		"title": "+1 Cold Damage",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "cofh_core:chilled"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:cold_damage",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"fire_damage+0.5": {
-		"title": "+0.5 Fire Damage",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "stalwart_dungeons:burning"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:fire_damage",
-					"value": 0.5,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"fire_damage+1": {
-		"title": "+1 Fire Damage",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "stalwart_dungeons:burning"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:fire_damage",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"armor_toughness+0.5": {
-		"title": "+0.5 Armor Toughness",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "irons_spellbooks:fortify"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.armor_toughness",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"attack_knockback+5%": {
-		"title": "+5% Attack Knockback",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "jump_boost"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.attack_knockback",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"knockback_resistance+5%": {
-		"title": "+5% Knockback Resistance",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "alexsmobs:knockback_resistance"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.knockback_resistance",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"adamantium": {
-		"title": "Unlock Adamantium Gear",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "simpleores:adamantium_helmet"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "thitemstages add @s stage_melee1"
-				}
-			}
-		]
-	},
-	"diamond": {
-		"title": "Unlock Diamond Gear",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "diamond_helmet"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "thitemstages add @s stage_melee2"
-				}
-			}
-		]
-	},
-	"onyx": {
-		"title": "Unlock Onyx Gear",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "simpleores:onyx_helmet"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "thitemstages add @s stage_melee3"
-				}
-			}
-		]
-	},
-	"netherite": {
-		"title": "Unlock Netherite Gear",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "netherite_helmet"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "thitemstages add @s stage_melee4"
-				}
-			}
-		]
-	},
-	"ignitium": {
-		"title": "Unlock Ignitium Gear",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "cataclysm:ignitium_helmet"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "thitemstages add @s stage_melee5"
-				}
-			}
-		]
-	},
-	"roll_count+1": {
-		"title": "+1 Max Roll",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "alexsmobs:fleet_footed"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "combatroll:count",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"roll_distance+1": {
-		"title": "+1 Max Roll Distance",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "alexsmobs:centipede_leg"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "combatroll:distance",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"roll_cooldown-10%": {
-		"title": "-10% Roll Coolown",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "glass_bottle"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "combatroll:recharge",
-					"value": 0.10,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"luck+0.25": {
-		"title": "+0.25 Luck",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "luck"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.luck",
-					"value": 0.25,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"movement_speed+1%": {
-		"title": "+1% Movement Speed",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "speed"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.01,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"root_ranged_damage+3%": {
-		"title": "Chose the Ranged class (+3% Ranged Damage)",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "bow"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"ranged_damage+2%": {
-		"title": "+2% Ranged Damage",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "prodigium:palladium_bow"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-    "ranged_damage+3%": {
-		"title": "+3% Ranged Damage",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "prodigium:shroomite_bow"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"ranged_damage+5%": {
-		"title": "+5% Ranged Damage",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "gunswithoutroses:gold_gun"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"armor_shred+5%": {
-		"title": "+5% Armor Shred",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "iron_chestplate"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:armor_shred",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"arrow_velocity+1%": {
-		"title": "+1% Arrow Velocity",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "archers_paradox:blaze_arrow"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:arrow_velocity",
-					"value": 0.01,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"current_hp_damage+5%": {
-		"title": "+5% Current Ennemy Health Damage",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "instant_damage"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:current_hp_damage",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"draw_speed+3%": {
-		"title": "+3% Draw Speed",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "aquaculture:fishing_line"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:draw_speed",
-					"value": 0.03,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"prot_shred+5%": {
-		"title": "+5% Protection Shred",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "apotheosis:sundering"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "apotheosis:prot_shred",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"palladium": {
-		"title": "Unlock Palladium Gear",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "prodigium:palladium_helmet"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "thitemstages add @s stage_ranged1"
-				}
-			}
-		]
-	},
-	"orichalcum": {
-		"title": "Unlock Orichalcum Gear",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "prodigium:orichalcum_helmet"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "thitemstages add @s stage_ranged2"
-				}
-			}
-		]
-	},
-	"shroomite": {
-		"title": "Unlock Shroomite Gear",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "prodigium:shroomite_helmet"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "thitemstages add @s stage_ranged3"
-				}
-			}
-		]
-	},
-	"root_mana+50": {
-		"title": "Chose the Mage class (+50 Mana)",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:mana_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:max_mana",
-					"value": 50,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"mana+50": {
-		"title": "+50 Mana",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:mana_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:max_mana",
-					"value": 50,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"mana+24": {
-		"title": "+25 Mana",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "irons_spellbooks:instant_mana"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:max_mana",
-					"value": 25,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"cast_time_reduction-5%": {
-		"title": "-5% Cast Time",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:cast_time_reduction",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"cooldown_reduction-5%": {
-		"title": "-5% Spell Cooldown",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:cooldown_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"spell_power+2%": {
-		"title": "+3% Spell Power",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:diamond_spell_book"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.03,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"spell_power+5%": {
-		"title": "+6% Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:diamond_spell_book"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.06,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-    "spell_power+7%": {
-		"title": "+8% Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:diamond_spell_book"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.08,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-    "spell_power+10%": {
-		"title": "+12% Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:diamond_spell_book"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.12,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"summon_damage+2%": {
-		"title": "+2% Summoning Damage",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "irons_spellbooks:raise_dead_timer"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:summon_damage",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"summon_damage+5%": {
-		"title": "+5% Summon Damage",
-		"frame": "challenge",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "irons_spellbooks:raise_dead_timer"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:summon_damage",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"poison_spell_power+2%": {
-		"title": "+2% Poison Spell Power",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:poison_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:poison_spell_power",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"poison_spell_power+5%": {
-		"title": "+5% Poison Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:poison_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:poison_spell_power",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"lightning_spell_power+2%": {
-		"title": "+2% Lightning Spell Power",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:lightning_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"lightning_spell_power+5%": {
-		"title": "+5% Lightning Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:lightning_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"ice_spell_power+2%": {
-		"title": "+2% Ice Spell Power",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:ice_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"ice_spell_power+5%": {
-		"title": "+5% Ice Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:ice_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"holy_spell_power+2%": {
-		"title": "+2% Holy Spell Power",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:holy_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"holy_spell_power+5%": {
-		"title": "+5% Holy Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:holy_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"fire_spell_power+2%": {
-		"title": "+2% Fire Spell Power",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:fire_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"fire_spell_power+5%": {
-		"title": "+5% Fire Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:fire_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"evocation_spell_power+2%": {
-		"title": "+2% Evocation Spell Power",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:evocation_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"evocation_spell_power+5%": {
-		"title": "+5% Evocation Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:evocation_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"ender_spell_power+2%": {
-		"title": "+2% Ender Spell Power",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:ender_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"ender_spell_power+5%": {
-		"title": "+5% Ender Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:ender_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"blood_spell_power+2%": {
-		"title": "+2% Blood Spell Power",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:blood_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:blood_spell_power",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"blood_spell_power+5%": {
-		"title": "+5% Blood Spell Power",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:blood_upgrade_orb"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:blood_spell_power",
-					"value": 0.05,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"spell_resist+5": {
-		"title": "+10% Spell Resist",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:cast_time_ring"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "irons_spellbooks:spell_resist",
-					"value": 0.1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"pumpkin": {
-		"title": "Unlock Scarecrow Gear",
-		"frame": "challenge",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "irons_spellbooks:pumpkin_helmet"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"command": "thitemstages add @s stage_mage1"
-				}
-			}
-		]
-	}
+  "armor+0.5": {
+    "title": "+0.5 Armor",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_damage+2%": {
+    "title": "+2% Melee Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "melee_damage+5%": {
+    "title": "+5% Melee Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.melee_damage",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "melee_damage+3%": {
+    "title": "+3% Melee Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "overheal": {
+    "title": "Unlocks overheal",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "cofh_core:love"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:overheal",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "overheal+2%": {
+    "title": "+2% Overheal",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "cofh_core:love"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:overheal",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "resistance+1%": {
+    "title": "+1% Resistance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "resistance"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.resistance",
+          "value": 0.01,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "resistance+5%": {
+    "title": "+5% Resistance",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "resistance"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.resistance",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "health+1": {
+    "title": "+0.5 Heart",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "health+2": {
+    "title": "+2 Hearts",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "health+4": {
+    "title": "+4 Hearts",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "root_health+2": {
+    "title": "Chose the Melee class (+2 Hearts)",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "healing+5%": {
+    "title": "+5% Healing",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.healing",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "healing+1%": {
+    "title": "+1% Healing",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.healing",
+          "value": 0.01,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "crit_damage+5%": {
+    "title": "+5% Crit Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "cofh_core:supercharge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance+5%": {
+    "title": "+5% Crit Chance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:crit_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "dodge+2%": {
+    "title": "+2% Dodge chance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "earthmobsmod:hyper_spark"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:dodge_chance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "dodge+10%": {
+    "title": "+10% Dodge chance",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "earthmobsmod:hyper_spark"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:dodge_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_damage+0.5": {
+    "title": "+0.5 Cold Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "cofh_core:chilled"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:cold_damage",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_damage+1": {
+    "title": "+1 Cold Damage",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "cofh_core:chilled"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:cold_damage",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fire_damage+0.5": {
+    "title": "+0.5 Fire Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "stalwart_dungeons:burning"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:fire_damage",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fire_damage+1": {
+    "title": "+1 Fire Damage",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "stalwart_dungeons:burning"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:fire_damage",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_toughness+0.5": {
+    "title": "+0.5 Armor Toughness",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "irons_spellbooks:fortify"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "attack_knockback+5%": {
+    "title": "+5% Attack Knockback",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "jump_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_knockback",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "knockback_resistance+5%": {
+    "title": "+5% Knockback Resistance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "alexsmobs:knockback_resistance"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "adamantium": {
+    "title": "Unlock Adamantium Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "simpleores:adamantium_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_melee1"
+        }
+      }
+    ]
+  },
+  "diamond": {
+    "title": "Unlock Diamond Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_melee2"
+        }
+      }
+    ]
+  },
+  "onyx": {
+    "title": "Unlock Onyx Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "simpleores:onyx_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_melee3"
+        }
+      }
+    ]
+  },
+  "netherite": {
+    "title": "Unlock Netherite Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "netherite_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_melee4"
+        }
+      }
+    ]
+  },
+  "ignitium": {
+    "title": "Unlock Ignitium Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cataclysm:ignitium_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_melee5"
+        }
+      }
+    ]
+  },
+  "roll_count+1": {
+    "title": "+1 Max Roll",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "alexsmobs:fleet_footed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "combatroll:count",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "roll_distance+1": {
+    "title": "+1 Max Roll Distance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "alexsmobs:centipede_leg"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "combatroll:distance",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "roll_cooldown-10%": {
+    "title": "-10% Roll Coolown",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "glass_bottle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "combatroll:recharge",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "luck+0.25": {
+    "title": "+0.25 Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "movement_speed+1%": {
+    "title": "+1% Movement Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "root_ranged_damage+3%": {
+    "title": "Chose the Ranged class (+3% Ranged Damage)",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.ranged_damage",
+          "value": 0.03,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "ranged_damage+2%": {
+    "title": "+2% Ranged Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "prodigium:palladium_bow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "ranged_damage+3%": {
+    "title": "+3% Ranged Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "prodigium:shroomite_bow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.ranged_damage",
+          "value": 0.03,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "ranged_damage+5%": {
+    "title": "+5% Ranged Damage",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "gunswithoutroses:gold_gun"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.ranged_damage",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "armor_shred+5%": {
+    "title": "+5% Armor Shred",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:armor_shred",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_velocity+1%": {
+    "title": "+1% Arrow Velocity",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "archers_paradox:blaze_arrow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:arrow_velocity",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "current_hp_damage+5%": {
+    "title": "+5% Current Ennemy Health Damage",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_damage"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:current_hp_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed+3%": {
+    "title": "+3% Draw Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "aquaculture:fishing_line"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:draw_speed",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "prot_shred+5%": {
+    "title": "+5% Protection Shred",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "apotheosis:sundering"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apotheosis:prot_shred",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "palladium": {
+    "title": "Unlock Palladium Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "prodigium:palladium_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_ranged1"
+        }
+      }
+    ]
+  },
+  "orichalcum": {
+    "title": "Unlock Orichalcum Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "prodigium:orichalcum_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_ranged2"
+        }
+      }
+    ]
+  },
+  "shroomite": {
+    "title": "Unlock Shroomite Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "prodigium:shroomite_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_ranged3"
+        }
+      }
+    ]
+  },
+  "root_mana+50": {
+    "title": "Chose the Mage class (+50 Mana)",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:mana_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 50,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mana+50": {
+    "title": "+50 Mana",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:mana_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 50,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mana+24": {
+    "title": "+25 Mana",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "irons_spellbooks:instant_mana"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cast_time_reduction-5%": {
+    "title": "-5% Cast Time",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cooldown_reduction-5%": {
+    "title": "-5% Spell Cooldown",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cooldown_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_power+2%": {
+    "title": "+5% Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:diamond_spell_book"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_power+5%": {
+    "title": "+9% Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:diamond_spell_book"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.09,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_power+7%": {
+    "title": "+12% Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:diamond_spell_book"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_power+10%": {
+    "title": "+15% Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:diamond_spell_book"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "summon_damage+2%": {
+    "title": "+3% Summoning Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "irons_spellbooks:raise_dead_timer"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:summon_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "summon_damage+5%": {
+    "title": "+6% Summon Damage",
+    "frame": "challenge",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "irons_spellbooks:raise_dead_timer"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:summon_damage",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "poison_spell_power+2%": {
+    "title": "+3% Poison Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:poison_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:poison_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "poison_spell_power+5%": {
+    "title": "+6% Poison Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:poison_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:poison_spell_power",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "lightning_spell_power+2%": {
+    "title": "+3% Lightning Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:lightning_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "lightning_spell_power+5%": {
+    "title": "+6% Lightning Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:lightning_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ice_spell_power+2%": {
+    "title": "+3% Ice Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:ice_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ice_spell_power+5%": {
+    "title": "+6% Ice Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:ice_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "holy_spell_power+2%": {
+    "title": "+3% Holy Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:holy_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "holy_spell_power+5%": {
+    "title": "+6% Holy Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:holy_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fire_spell_power+2%": {
+    "title": "+3% Fire Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:fire_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fire_spell_power+5%": {
+    "title": "+6% Fire Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:fire_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "evocation_spell_power+2%": {
+    "title": "+3% Evocation Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:evocation_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "evocation_spell_power+5%": {
+    "title": "+6% Evocation Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:evocation_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ender_spell_power+2%": {
+    "title": "+3% Ender Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:ender_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ender_spell_power+5%": {
+    "title": "+6% Ender Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:ender_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blood_spell_power+2%": {
+    "title": "+3% Blood Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:blood_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blood_spell_power+5%": {
+    "title": "+6% Blood Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:blood_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_resist+5": {
+    "title": "+10% Spell Resist",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cast_time_ring"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_resist",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "pumpkin": {
+    "title": "Unlock Scarecrow Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:pumpkin_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_mage1"
+        }
+      }
+    ]
+  }
 }

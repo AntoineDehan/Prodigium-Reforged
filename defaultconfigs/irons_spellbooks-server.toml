@@ -45,7 +45,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Blood-Step]
@@ -56,7 +56,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 5.5
 
 	[Spells.Heartstop]
@@ -67,7 +67,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 130.0
 
 	[Spells.Raise-Dead]
@@ -78,7 +78,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 165.0
 
 	[Spells.Ray-Of-Siphoning]
@@ -89,7 +89,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 17.0
 
 	[Spells.Wither-Skull]
@@ -100,7 +100,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 1.5
 
 	[Spells.Blood-Needles]
@@ -111,7 +111,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Acupuncture]
@@ -122,7 +122,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 22.5
 
 	#Ender Spells
@@ -134,7 +134,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 200.0
 
 	[Spells.Magic-Arrow]
@@ -145,7 +145,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 11.0
 
 	[Spells.Magic-Missile]
@@ -156,7 +156,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 1.5
 
 	[Spells.Teleport]
@@ -167,7 +167,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 3.8
 
 	[Spells.Counterspell]
@@ -178,7 +178,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 17.0
 
 	[Spells.Dragon-Breath]
@@ -189,7 +189,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Starfall]
@@ -200,7 +200,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 18.0
 
 	#Evocation Spells
@@ -212,7 +212,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 17.0
 
 	[Spells.Fang-Strike]
@@ -223,7 +223,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 5.5
 
 	[Spells.Fang-Ward]
@@ -234,7 +234,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 17.0
 
 	[Spells.Firecracker]
@@ -245,7 +245,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 1.5
 
 	[Spells.Invisibility]
@@ -256,7 +256,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 47.5
 
 	[Spells.Lob-Creeper]
@@ -267,7 +267,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 2.5
 
 	[Spells.Shield]
@@ -278,7 +278,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 11.0
 
 	[Spells.Summon-Horse]
@@ -289,7 +289,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 22.5
 
 	[Spells.Summon-Vex]
@@ -300,7 +300,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 165.0
 
 	[Spells.Spectral-Hammer]
@@ -311,7 +311,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	#Fire Spells
@@ -323,7 +323,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 22.5
 
 	[Spells.Burning-Dash]
@@ -334,7 +334,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Fireball]
@@ -345,7 +345,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 27.2
 
 	[Spells.Firebolt]
@@ -356,7 +356,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 1.5
 
 	[Spells.Fire-Breath]
@@ -367,7 +367,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Wall-Of-Fire]
@@ -378,7 +378,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 22.5
 
 	#Holy Spells
@@ -390,7 +390,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 130.0
 
 	[Spells.Cloud-Of-Regeneration]
@@ -401,7 +401,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 38.0
 
 	[Spells.Greater-Heal]
@@ -412,7 +412,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 47.5
 
 	[Spells.Heal]
@@ -423,7 +423,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 27.2
 
 	[Spells.Wisp]
@@ -434,7 +434,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 3.8
 
 	[Spells.Fortify]
@@ -445,7 +445,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 38.0
 
 	[Spells.Blessing-Of-Life]
@@ -456,7 +456,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Healing-Circle]
@@ -467,7 +467,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 27.2
 
 	#Ice Spells
@@ -479,7 +479,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Frost-Step]
@@ -490,7 +490,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Icicle]
@@ -501,7 +501,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 1.5
 
 	[Spells.Summon-Polar-Bear]
@@ -512,7 +512,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 200.0
 
 	[Spells.Ice-Block]
@@ -523,7 +523,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 17.0
 
 	[Spells.Frostbite]
@@ -534,7 +534,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 0.0
 
 	#Lightning Spells
@@ -546,7 +546,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Lightning-Bolt]
@@ -557,7 +557,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 27.2
 
 	[Spells.Lightning-Lance]
@@ -568,7 +568,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 11.0
 
 	[Spells.Charge]
@@ -579,7 +579,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 40.0
 
 	[Spells.Ascension]
@@ -590,7 +590,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 17.0
 
 	#Void Spells
@@ -602,7 +602,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 300.0
 
 	[Spells.Void-Tentacles]
@@ -613,7 +613,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 30.0
 
 	[Spells.Black-Hole]
@@ -624,7 +624,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 130.0
 
 	#Poison Spells
@@ -636,7 +636,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 17.0
 
 	[Spells.Poison-Splash]
@@ -647,7 +647,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 22.5
 
 	[Spells.Poison-Breath]
@@ -658,7 +658,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Acid-Orb]
@@ -669,7 +669,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 17.0
 
 	[Spells.Spider-Aspect]
@@ -680,7 +680,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 90.0
 
 	[Spells.Blight]
@@ -691,7 +691,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 38.0
 
 	[Spells.Root]
@@ -702,7 +702,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.1
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 38.0
 
 	[Spells.Devour]
@@ -713,7 +713,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 22.5
 
 	[Spells.Gust]
@@ -724,7 +724,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Magma-Bomb]
@@ -735,7 +735,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 12.0
 
 	[Spells.Guiding-Bolt]
@@ -746,7 +746,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 11.0
 
 	[Spells.Sunbeam]
@@ -757,7 +757,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 22.5
 
 	[Spells.Chain-Lightning]
@@ -768,7 +768,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 0.75
 		CooldownInSeconds = 22.5
 
 [Worldgen]
