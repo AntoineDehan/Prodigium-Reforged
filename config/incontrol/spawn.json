@@ -880,5 +880,9 @@
   {
     "mob": ["born_in_chaos_v1:glutton_fish"],
     "result": "deny"
+  },
+  {
+    "mob": ["enemyexpansion:reaver"],
+    "result": "deny"
   }
 ]

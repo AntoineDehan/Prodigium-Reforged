@@ -77,7 +77,7 @@
 	"Mobs Sometimes Spawn With Varying Speed Chance" = 0.5
 	"Skeletons Switch Weapons Mid-Fight Chance" = 0.2
 	"Flies Spawn From Killed Zombies Chance" = 0.05
-	"Pillagers Spawn with Reaver Chance" = 0.05
+	"Pillagers Spawn with Reaver Chance" = 0.0
 
 [effectSpawning]
 	"Chance of Strength effect applied on mob-spawn" = 0.01
