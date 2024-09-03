@@ -1,0 +1,37 @@
+{
+  "armorSetName": "wizard",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:shadowwalker_helmet"
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:shadowwalker_chestplate"
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:shadowwalker_leggings"
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:shadowwalker_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "modifierUUID": "865b61a6-a553-470a-a14a-f960b5be0cda",
+      "description": "+5% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 100,
+      "modifierUUID": "4368eef6-3ba0-4af1-9713-6e81b92c960a",
+      "description": "+100 Max Mana"
+    },
+    {
+      "type": "effect",
+      "name": "better_beacons:phantom_bane",
+      "value": 0.0
+    }
+  ]
+}

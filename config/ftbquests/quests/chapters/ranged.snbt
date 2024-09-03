@@ -1,0 +1,499 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ranged"
+	group: "52532F5E67425F1C"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "prodigium:palladium_bow"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2177D8DE2443A1AF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You need to unlock the armors in the &6Skill Tree&r."]
+			id: "0EEBAEA6C5EE0454"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "116CBBF3BC0E1AF1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07C4A708CF6C12E3"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78EBC13AEEB81615"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "026BBCA987413465"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Archer Armor"
+					type: "item"
+				}
+				{
+					id: "0621F5DB651D11F1"
+					item: {
+						Count: 1
+						id: "prodigium:cobalt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Cobalt Armor"
+					type: "item"
+				}
+				{
+					id: "4A574E19DF8D827E"
+					item: {
+						Count: 1
+						id: "prodigium:palladium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ranged armors for the Normal Mode"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EEBAEA6C5EE0454"]
+			hide: true
+			id: "5FEC8279A8C2E462"
+			rewards: [{
+				auto: "no_toast"
+				id: "39BC502A978E6A02"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "6CB78B448DF82681"
+				item: {
+					Count: 1
+					id: "prodigium:palladium_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Traditional arsenal"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEC8279A8C2E462"]
+			id: "104CACCA0684A194"
+			rewards: [{
+				auto: "no_toast"
+				id: "216E4885410007BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5035A0ECADED4AF7"
+				item: "archers_paradox:explosive_arrow"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DECF19C4A20F805"]
+			id: "0A760A8F2DC0A847"
+			rewards: [{
+				auto: "no_toast"
+				id: "49700ADCCE7B9A5C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2C42F0F9561AB098"
+				item: "archers_paradox:quartz_arrow"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5DECF19C4A20F805"]
+			id: "715DA9E925411FC4"
+			rewards: [{
+				auto: "no_toast"
+				id: "5E4AEE918F832FF4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "556CBB5D99D95AE2"
+				item: "archers_paradox:diamond_arrow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3842F25859FA533C"]
+			id: "25DB715EA2BA4A2B"
+			rewards: [{
+				auto: "no_toast"
+				id: "5304A3C5C8C4D45B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "65BFB648C35F632C"
+				item: "archers_paradox:prismarine_arrow"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEC8279A8C2E462"]
+			id: "28CC2513C9AA09B1"
+			rewards: [{
+				auto: "no_toast"
+				id: "1D12899F18929BE0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1CEE967CD48EDB61"
+				item: "archers_paradox:slime_arrow"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEC8279A8C2E462"]
+			id: "37920610232EB15A"
+			rewards: [{
+				auto: "no_toast"
+				id: "2CFCA4310A2994B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "704954F765022C05"
+				item: "archers_paradox:ender_arrow"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEC8279A8C2E462"]
+			id: "4C5D8C951C59F357"
+			rewards: [{
+				auto: "no_toast"
+				id: "562A54EEA98CB97D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "03077CE0FE10E7A3"
+				item: "archers_paradox:phantasmal_arrow"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3842F25859FA533C"]
+			id: "1D4BB24C27A6CA47"
+			rewards: [{
+				auto: "no_toast"
+				id: "3E843C5D25E8DC4F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3C193F2A7FCFA4FA"
+				item: "archers_paradox:shulker_arrow"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEC8279A8C2E462"]
+			id: "0CC371471916AF28"
+			rewards: [{
+				auto: "no_toast"
+				id: "5979960E859A3030"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2A8675417E65AC69"
+				item: "archers_paradox:frost_arrow"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5DECF19C4A20F805"]
+			id: "3D080F5C5E1DB4E1"
+			rewards: [{
+				auto: "no_toast"
+				id: "76FA0E892BEC53A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2270E7DD2621C824"
+				item: "archers_paradox:blaze_arrow"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3842F25859FA533C"]
+			id: "25642F7F18E8579F"
+			rewards: [{
+				auto: "no_toast"
+				id: "64D4CBC48E9C2634"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "33AB5FFAB5212B22"
+				item: "archers_paradox:lightning_arrow"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEC8279A8C2E462"]
+			hide: true
+			id: "5DECF19C4A20F805"
+			rewards: [{
+				auto: "no_toast"
+				id: "1AF8C52597327EFE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "40732440204128FC"
+				item: {
+					Count: 1
+					id: "prodigium:orichalcum_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DECF19C4A20F805"]
+			id: "3842F25859FA533C"
+			rewards: [{
+				auto: "no_toast"
+				id: "4DC98F559D82AEB3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "5C9E7BB28C8F784A"
+				item: {
+					Count: 1
+					id: "prodigium:shroomite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0EEBAEA6C5EE0454"]
+			description: ["You need to unlock the armor in the &6Skill Tree&r."]
+			hide: true
+			id: "4A96E3EADCF0C191"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "46A1FD069C348B5E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D016B99595F7139"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "1810148AB647EF39"
+					item: {
+						Count: 1
+						id: "prodigium:orichalcum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Orichalcum Armor"
+					type: "item"
+				}
+				{
+					id: "30A0B17B5ED6FC4A"
+					item: {
+						Count: 1
+						id: "aether:neptune_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Naptune Armor"
+					type: "item"
+				}
+			]
+			title: "Ranged Armor for the Expert Mode"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A96E3EADCF0C191"]
+			description: ["You need to unlock the armor in the &6Skill Tree&r."]
+			hide: true
+			id: "5F83D1C077915E7E"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0F2DEEFE33EBF0C1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79B259E359971EF9"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "0E6A75E3E1B63059"
+				item: {
+					Count: 1
+					id: "prodigium:shroomite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Shroomite Armor"
+				type: "item"
+			}]
+			title: "Ranged Armor for the Master Mode"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "1E4A77FD6D950B55"
+			tasks: [{
+				id: "7C8C2198071AD44F"
+				item: {
+					Count: 1
+					id: "archers:royal_longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "27563E8EE26B6434"
+			tasks: [{
+				id: "6CE9D2D491F40319"
+				item: {
+					Count: 1
+					id: "archers:mechanic_shortbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "7DA15DEDB89FE330"
+			tasks: [{
+				id: "0D4CCEA10C8F8F5F"
+				item: {
+					Count: 1
+					id: "archers:rapid_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "6FAC083A2D7E898C"
+			tasks: [{
+				id: "51A39758DD373530"
+				item: {
+					Count: 1
+					id: "archers:heavy_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+	]
+	title: "Ranged"
+}

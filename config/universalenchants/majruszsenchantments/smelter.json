@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "apotheosis:other_tome",
+    "apotheosis:pickaxe_tome"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

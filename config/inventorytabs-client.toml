@@ -1,0 +1,9 @@
+
+[Client]
+	doSightChecksFlag = true
+	rotatePlayer = false
+	excludeTab = ["tiered:reforging_station", "#techreborn:block_entities_without_inventories", "#inventorytabs:mod_compat_blacklist"]
+	includeTab = [""]
+	renderTabs = true
+	debugEnabled = false
+

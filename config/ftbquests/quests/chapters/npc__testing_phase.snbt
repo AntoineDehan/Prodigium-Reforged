@@ -1,0 +1,505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "npc__testing_phase"
+	group: "04557421BF808B7D"
+	icon: "minecraft:armor_stand"
+	id: "0A2B3BA8E1E37719"
+	images: [
+		{
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/normal_mode.png"
+			rotation: 0.0d
+			width: 2.589873417721519d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependency: "774BCB593AAFAA33"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/expert_mode.png"
+			rotation: 0.0d
+			width: 2.3857142857142857d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependency: "6EB21A5EFC2F6EF2"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/master_mode.png"
+			rotation: 0.0d
+			width: 2.589873417721519d
+			x: 3.0d
+			y: 3.5d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&dThis is the first release of the NPC system.&r"
+				""
+				"You will &2need to build homes&r for different npc and to defend them if needed."
+				""
+				"To make a &6suitable house&r, you will need &6chose the NPC quest&r, then &6click \"show structure\"&r."
+				" &6The template of the furnitures&r needed will then &6be shown&r, &6build it&r in a house of your choosing."
+				" When the &6template has been built&r, go &6back on the quest&r, and &6click \"submit structure\"&r(do it while INSIDE the home). The NPC will now spawn."
+				""
+				"You will then be able to trade with this NPC and more :D"
+				""
+				"&nMore explanation if needed&r &6->&r"
+				""
+				"{@pagebreak}"
+				""
+				"{image:prodigium_reforged:textures/gui/2024-03-18_13.54.03.png width:500 height:200 align:1}"
+				""
+				""
+				"&6Select the quest&r and press &e\"Click to show structure\"&r."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"{image:prodigium_reforged:textures/gui/2024-03-18_13.54.17.png width:500 height:300 align:1 fit:true}"
+				""
+				""
+				"&6Put the template&r in the house(or outside/in a cave/whatever you built) and &eright click&r when the position of the template is good."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"{image:prodigium_reforged:textures/gui/2024-03-18_13.54.48.png width:500 height:300 align:1 fit:true}"
+				""
+				""
+				"&6Build the template&r."
+				""
+				"{@pagebreak}"
+				""
+				"{image:prodigium_reforged:textures/gui/2024-03-18_13.55.32.png width:500 height:200 align:1}"
+				""
+				""
+				"When &6the template is fully built&r, &6go back to the quest&r and press &e\"Click to submit\"&r."
+			]
+			icon: "easy_npc:humanoid_spawn_egg"
+			id: "089A5A236DA73970"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Read me"
+			tasks: [{
+				id: "05B0046ED073F491"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EF592CDDA98B3BB"]
+			description: [
+				"&6Blocks needed :&r"
+				"- nordic drawer"
+				"- white bed"
+				"- nordic chair"
+				"- nordic table small"
+				"- gunpowder sack"
+				"- storage crate"
+			]
+			id: "418F4DA11631D188"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/arms_dealer.npc.nbt ~ ~ ~"
+					id: "49218C68BC28AB28"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07BA27826FCE8544"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				hasCustomPicture: false
+				id: "3FD2EC8246C6F4DA"
+				ignoreState: true
+				layer: true
+				name: "arms_dealer_home"
+				rightclick: false
+				type: "questsadditions:structure"
+			}]
+			title: "The Arms Dealer"
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["05CD079B659C9887"]
+			description: [
+				"Create a home for the Merchant to spawn in. "
+				""
+				"Show the template with by clicking on the quest and then submit your build to make the npc spawn."
+				""
+				"&6Blocks needed :&r"
+				"- flower pot"
+				"- oak fence gate"
+				"- chest"
+				"- dunmer shelf"
+				"- nordic chair"
+				"- nordic table small"
+				"- white bed"
+				"- nordic counter"
+				"- shop"
+			]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:missionary_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2EF592CDDA98B3BB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/merchant.npc.nbt ~ ~ ~"
+					id: "23B753F640C8D81F"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69312D6EE60B35E2"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				hasCustomPicture: false
+				id: "30CB657D2FE73AC6"
+				ignoreState: true
+				layer: true
+				name: "merchant_house"
+				rightclick: false
+				type: "questsadditions:structure"
+			}]
+			title: "The Merchant"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11C8F012CBB15B39"]
+			description: [
+				"&6Blocks needed&r :"
+				"- smithing table"
+				"- dunmer shelf"
+				"- anvil"
+				"- nordic drawer"
+				"- black bed"
+				"- nordic table small"
+				"- nordic chair"
+				"- venthyr candles"
+				"- block of iron"
+				"- spruce four panel trapdoor"
+			]
+			hide: true
+			icon: "confluence:goblin_tech"
+			id: "73436E1218DD099D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "009CE7EB338D3D13"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "easy_npc preset import_new prodigiumreforged:preset/terraria/goblin.npc.nbt ~ ~ ~"
+					id: "143804A6F00CEA42"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				hasCustomPicture: false
+				id: "3D838AAD41A5C3D0"
+				ignoreState: true
+				layer: true
+				name: "goblin_house"
+				rightclick: false
+				type: "questsadditions:structure"
+			}]
+			title: "The Goblin Tinkerer"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2EF592CDDA98B3BB"]
+			description: [
+				"&6Blocks needed &r:"
+				"- nordic counter"
+				"- lantern"
+				"- cookie jar"
+				"- white bed"
+			]
+			icon: "runes:healing_stone"
+			id: "473A1C167CB0BBA2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E81204920BED541"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "easy_npc preset import_new prodigiumreforged:preset/terraria/nurse.npc.nbt ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "6AC1D81A0BE5E2D4"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				hasCustomPicture: false
+				id: "674EC63D1911E22B"
+				ignoreState: true
+				layer: true
+				name: "nurse_home"
+				rightclick: false
+				type: "questsadditions:structure"
+			}]
+			title: "The Nurse"
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["11C8F012CBB15B39"]
+			description: [
+				"&6Blocks needed :&r"
+				"- nordic table small"
+				"- nordic chair"
+				"- dog bath"
+				"- oak barn trapdoor"
+				"- white bed"
+			]
+			hide: true
+			icon: "doggytalents:dog_plushie_toy_item"
+			id: "15FFAB3CB126794B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3791FBEBEF6D31D1"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "easy_npc preset import_new prodigiumreforged:preset/terraria/zoologist.npc.nbt ~ ~ ~"
+					id: "0545E7E61FB4129C"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				hasCustomPicture: false
+				id: "07FAACFAA40C262F"
+				ignoreState: true
+				layer: true
+				name: "zoologist_house"
+				rightclick: false
+				type: "questsadditions:structure"
+			}]
+			title: "The Zoologist"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			description: [
+				"&6Blocks needed : &r"
+				"- nordic chair"
+				"- scroll forge"
+				"- nordic table small"
+				"- brewing cauldron (fantasy's furniture)"
+				"- inscription table"
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "wizards:arcane_robe_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11C8F012CBB15B39"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D480E500E7924D8"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/wizard.npc.nbt ~ ~ ~"
+					id: "0745249E62612091"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				hasCustomPicture: false
+				id: "73EACB91AC6E0180"
+				ignoreState: true
+				layer: true
+				name: "wizard_home"
+				rightclick: false
+				type: "questsadditions:structure"
+			}]
+			title: "The Wizard"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2EF592CDDA98B3BB"]
+			description: [
+				"&6Blocks needed :&r"
+				"- white_sleeping_bag (valhelsia)"
+				"- nordic table small"
+				"- nordic chair"
+				"- flower pot"
+				"- dummer pottery 1"
+			]
+			id: "65192517B6EF65B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00AB296FFF5E1A43"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/dryad.npc.nbt ~ ~ ~"
+					id: "7E78CB6A8385354A"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				hasCustomPicture: false
+				icon: "minecraft:sunflower"
+				id: "3BFA16146B4EC58A"
+				ignoreState: true
+				layer: true
+				name: "dryad_home"
+				rightclick: false
+				type: "questsadditions:structure"
+			}]
+			title: "The Dryad"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"The NPC will have information about different things."
+				""
+				"This is still an early build of the NPCs, The Guide will improve by a lot each updates."
+				""
+				"&6Blocks needed :&r"
+				""
+				"- white bed"
+				"- crafting table"
+				"- furnace"
+			]
+			icon: "solcarrot:food_book"
+			id: "05CD079B659C9887"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EBA60C82B16B5C9"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/guide.npc.nbt ~ ~ ~"
+					elevate_perms: true
+					id: "751C502C7C7D31CE"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				hasCustomPicture: false
+				id: "51F08D5471C390B0"
+				ignoreState: true
+				layer: true
+				name: "guide_home"
+				rightclick: false
+				type: "questsadditions:structure"
+			}]
+			title: "First NPC, The Guide."
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2EF592CDDA98B3BB"]
+			description: [
+				"&6Blocks needed:&r"
+				"- Barrel"
+				"- Nordic Counter"
+				"- White Bed"
+				"- Nordic table small"
+				"- Nordic chair"
+			]
+			icon: "minecraft:barrel"
+			id: "3EDAF52890A4A330"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 4B1ABE1A8E60831E"
+					id: "0FD8C7A7F13D765F"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/tavernkeep.npc.nbt ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "6AC3D007EB0204E2"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CDBC3C380A4A754"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				hasCustomPicture: false
+				id: "4B16BD7DDB30A79B"
+				ignoreState: true
+				layer: true
+				name: "tavernkeep_home"
+				rightclick: false
+				title: "The Tavernkeep"
+				type: "questsadditions:structure"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+	]
+	title: "NPC"
+}

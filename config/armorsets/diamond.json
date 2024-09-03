@@ -1,0 +1,32 @@
+{
+  "armorSetName": "berseker",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:diamond_helmet"
+  },
+  "chest": {
+    "itemKey": "minecraft:diamond_chestplate"
+  },
+  "legs": {
+    "itemKey": "minecraft:diamond_leggings"
+  },
+  "boots": {
+    "itemKey": "minecraft:diamond_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.5,
+      "modifierUUID": "590733d0-eb62-4408-91a6-4cc4c8559bd8",
+      "description": "+1.5 Attack Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "c1caf6f5-00c2-475e-8a70-08a7a9f0b5db",
+      "description": "+2 Max health"
+    }
+  ]
+}

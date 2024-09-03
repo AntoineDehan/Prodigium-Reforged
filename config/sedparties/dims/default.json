@@ -1,0 +1,38 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "item": "minecraft:grass_block",
+    "color": 8183709,
+    "priority": -1
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "item": "minecraft:netherrack",
+    "color": 16767610,
+    "priority": -1
+  },
+  {
+    "dimension": "minecraft:the_end",
+    "item": "minecraft:end_portal_frame",
+    "color": 13597919,
+    "priority": -1
+  },
+  {
+    "dimension": "twilightforest:twilight_forest",
+    "item": "twilightforest:twilight_portal_miniature_structure",
+    "color": 5819318,
+    "priority": -1
+  },
+  {
+    "dimension": "rftoolsdim:dim",
+    "item": "rftoolsdim:dimensional_cross_block",
+    "color": 12312029,
+    "priority": -2
+  },
+  {
+    "dimension": "rftoolsdim:dim",
+    "item": "rftoolsutility:matter_transmitter",
+    "color": 12312029,
+    "priority": -1
+  }
+]

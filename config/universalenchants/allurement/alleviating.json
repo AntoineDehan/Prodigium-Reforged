@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome"
+  ],
+  "incompatible": [
+    "allurement:reforming",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:mending"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:scguns_gun"
+  ],
+  "incompatible": [
+    "scguns:fire_starter",
+    "scguns:accelerator",
+    "majruszsenchantments:incompatibility_curse",
+    "scguns:puncturing"
+  ]
+}

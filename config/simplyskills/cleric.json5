@@ -1,0 +1,6 @@
+{
+	"enableClericSpecialisation": true,
+	"signatureClericDivineInterventionCooldown": 45,
+	"signatureClericSacredOrbCooldown": 30,
+	"signatureClericAnointWeaponCooldown": 35
+}

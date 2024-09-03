@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet",
+    "apotheosis:other_tome",
+    "alexsmobs:pigshoes",
+    "$minecraft:universal_enchants_horse_armor"
+  ],
+  "incompatible": [
+    "majruszsenchantments:magic_protection",
+    "allurement:shockwave",
+    "minecraft:thorns",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

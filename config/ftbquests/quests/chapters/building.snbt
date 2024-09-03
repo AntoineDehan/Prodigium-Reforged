@@ -1,0 +1,689 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "04557421BF808B7D"
+	icon: "mcwdoors:acacia_western_door"
+	id: "3FEC8081D4D64E2A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You can then use it to remove/add pixel by pixel on a block "]
+			id: "0519865F33017960"
+			rewards: [{
+				auto: "no_toast"
+				id: "3E4E04538638FFA9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2FC68160D304E65C"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft your first Chisel"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0519865F33017960"]
+			description: ["Insert a block in the station and it will transform it entierly in bits"]
+			id: "2559E2941C011938"
+			rewards: [{
+				auto: "no_toast"
+				id: "3EB6E7936B1CD8CF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "74D76F74EEE888CB"
+				item: "chiselsandbits:chiseled_printer"
+				type: "item"
+			}]
+			title: "Craft a chisel station"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2559E2941C011938"]
+			hide: true
+			id: "7CAA27F14BD611CA"
+			rewards: [{
+				auto: "no_toast"
+				id: "7C027FA0BAF57E08"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "79F1A1E3E074EC11"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_netherite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Use a netherite ingot to craft a Netherite Chisel"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37BD72501729B47F"]
+			id: "4557E177412C935E"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "59BC7DBA48478C9E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 32
+					id: "263BBD7F110B8C47"
+					item: "minecraft:sand"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A111F18D16F309E"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:oak_door"
+				id: "17621BA5BDA51C07"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:doors"
+					}
+				}
+				title: "Build any door"
+				type: "item"
+			}]
+			title: "Craft a door"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4557E177412C935E"]
+			description: ["Use the &9Window Base&r to craft windows"]
+			id: "14DA9A8622BCB36F"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2E00C76E03A09146"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "33D5B8211941E767"
+					item: "minecraft:oak_planks"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F5218C370C9B209"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "052E0C2999E49D44"
+				item: "mcwwindows:window_base"
+				type: "item"
+			}]
+			title: "Craft a window"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41B97054DF4728A4"]
+			description: ["Use what you crafted to build awesome furnitures"]
+			id: "36C28F5BEB3A60A2"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "453B04A9D7FCF3DA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CD3D3626C2F0470"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0DADC795CC680D6E"
+					item: "mcwfurnitures:cabinet_door"
+					type: "item"
+				}
+				{
+					id: "7EBC1AD8F1FE4D1F"
+					item: "mcwfurnitures:cabinet_drawer"
+					type: "item"
+				}
+			]
+			title: "Craft a furniture"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["016D857B312FE4A3"]
+			id: "41B97054DF4728A4"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0FF589EB7523833F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 32
+					id: "0280793BEAF57204"
+					item: "minecraft:brick"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07BE5C62A2C81351"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "mcwtrpdoors:oak_glass_trapdoor"
+				id: "5C41CB0494175584"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wooden_trapdoors"
+					}
+				}
+				title: "Craft any trapdoors"
+				type: "item"
+			}]
+			title: "Craft a trapdoor"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14DA9A8622BCB36F"]
+			description: ["The oak roof might not be the best suited for your home, you can craft a good amount of different roofs, check through JEI"]
+			id: "016D857B312FE4A3"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "620F5BA8C3F133E0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 32
+					id: "567D6A6F9CA86B41"
+					item: "quark:flowering_azalea_leaf_carpet"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					count: 32
+					id: "300DE703C2382208"
+					item: "quark:pink_blossom_leaf_carpet"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7287F2BBB8B8D04C"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "1455514D2BF77356"
+					item: "mcwroofs:oak_planks_roof"
+					type: "item"
+				}
+				{
+					id: "2AB320AC24807549"
+					item: "mcwroofs:mangrove_roof"
+					type: "item"
+				}
+				{
+					id: "02208CA800A386EF"
+					item: "mcwroofs:birch_planks_roof"
+					type: "item"
+				}
+				{
+					id: "0A78D080CEAA1968"
+					item: "mcwroofs:base_roof"
+					type: "item"
+				}
+				{
+					id: "7AF90CE988AB59EC"
+					item: "mcwroofs:white_roof"
+					type: "item"
+				}
+				{
+					id: "5C09B8F538B50C78"
+					item: "mcwroofs:oak_roof"
+					type: "item"
+				}
+				{
+					id: "5722E9C26233529A"
+					item: "mcwroofs:birch_roof"
+					type: "item"
+				}
+			]
+			title: "Start building a roof"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "5755F6B79ADF7D0E"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2BAE62A100596073"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2055C28D5652EB7F"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5BEB89CCB870EEB2"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Upgrade the chest"
+				type: "item"
+			}]
+			title: "Upgrade your storage"
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5755F6B79ADF7D0E"]
+			id: "6982453EB40F2EA2"
+			rewards: [{
+				auto: "no_toast"
+				id: "63072BA8753C5A94"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3347668AFBBBA416"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Upgrade the chest"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6982453EB40F2EA2"]
+			id: "6ED68C9852902412"
+			rewards: [{
+				auto: "no_toast"
+				id: "401DB26A2CBB4CE3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4BF83DCAC0CCF8E9"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Make the last upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "0EB920EEF5BFE535"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "38EDB8DE4CC5F69D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F098F5430AAC533"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1A8A74A654EC2F78"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Upgrade the barrel"
+				type: "item"
+			}]
+			title: "Upgrade your storage"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0EB920EEF5BFE535"]
+			id: "704DDC1A7CFFFE8C"
+			rewards: [{
+				auto: "no_toast"
+				id: "6DFE5270F477D852"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6C2F8D5582120B38"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Upgrade the barrel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["704DDC1A7CFFFE8C"]
+			id: "3A309CB9632F7626"
+			rewards: [{
+				auto: "no_toast"
+				id: "0628F3D167613559"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6F61F951D536071A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				title: "Make the last barrel's upgrade"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36C28F5BEB3A60A2"]
+			id: "1591389E5F045792"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7DE18BD272D440C1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6AB5677D031D430A"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E233438E9EDA4D4"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "3A88095915D2215C"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3876B2A0D915D586"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "valhelsia_structures:big_glazed_jar"
+				id: "784FEDF8E48B3B98"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "valhelsia_structures:jars"
+					}
+				}
+				title: "Craft any jar"
+				type: "item"
+			}]
+			title: "Craft a jar"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "645B26C0DD2FD22F"
+			rewards: [{
+				auto: "no_toast"
+				id: "74C41F17EA74EE8F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4D44B706FA268DF0"
+				item: {
+					Count: 1
+					id: "doggytalents:dog_bed"
+					tag: {
+						doggytalents: {
+							beddingId: "minecraft:black_wool"
+							casingId: "minecraft:oak_planks"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a dog bed"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "6E94C5DC58DB73C5"
+			rewards: [{
+				auto: "no_toast"
+				id: "3A00D70CE071E289"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "71CA2B394DF7F801"
+				item: "doggytalents:dog_bath"
+				type: "item"
+			}]
+			title: "Craft a dog bath"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "48C2C7D0D7A76E03"
+			rewards: [{
+				auto: "no_toast"
+				id: "03BA168F0EB851D6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4CEE5576F9E13D2C"
+				item: "doggytalents:food_bowl"
+				type: "item"
+			}]
+			title: "Craft a food bowl"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "37BD72501729B47F"
+			rewards: [
+				{
+					id: "00D1ACDCD9200DB1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "21A9CBD2D836C205"
+					item: "mcwdoors:print_nether"
+					type: "item"
+				}
+				{
+					id: "0C2AB06FA09FEECC"
+					item: "mcwdoors:print_mystic"
+					type: "item"
+				}
+				{
+					id: "50A4AE25E385984A"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DF5C4C3C471E2F3"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "4332CC31AC50BA3B"
+					item: "domum_ornamentum:architectscutter"
+					type: "item"
+				}
+				{
+					id: "757C9F5B9A2A49FF"
+					item: "corail_woodcutter:oak_woodcutter"
+					type: "item"
+				}
+				{
+					id: "2253EB9503CB5CF6"
+					item: "fantasyfurniture:furniture_station"
+					type: "item"
+				}
+			]
+			title: "Prepare your workstations !"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6ED68C9852902412"
+				"3A309CB9632F7626"
+			]
+			dependency_requirement: "one_completed"
+			description: ["There is a ton of different upgrades for your storage"]
+			hide: true
+			id: "3279EADE357BB8E4"
+			rewards: [{
+				auto: "no_toast"
+				id: "07F5FB2EF44D1AC1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1BA603243B41A766"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			title: "More upgrades!"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			hide: true
+			id: "12663C238389EEAA"
+			rewards: [{
+				auto: "no_toast"
+				id: "36FA1D4CC7D63983"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6F2F356A9D5C9382"
+				item: "davespotioneering:compound_brewing_stand"
+				type: "item"
+			}]
+			title: "Upgrade your brewing stand!"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: ["Sold by the merchant"]
+			id: "786BD0E102119A23"
+			rewards: [{
+				auto: "no_toast"
+				id: "54E908A022CBD00C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6865DD4D2D658D67"
+				item: "dummmmmmy:target_dummy"
+				title: "Obtain a Target Dummy"
+				type: "item"
+			}]
+			title: "Test your DPS!"
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+	title: "Building"
+}

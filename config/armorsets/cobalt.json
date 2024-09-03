@@ -1,0 +1,32 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "prodigium:cobalt_helmet"
+  },
+  "chest": {
+    "itemKey": "prodigium:cobalt_chestplate"
+  },
+  "legs": {
+    "itemKey": "prodigium:cobalt_leggings"
+  },
+  "boots": {
+    "itemKey": "prodigium:cobalt_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.ranged_damage",
+      "value": 0.5,
+      "modifierUUID": "da70305d-c058-4f9d-8b8f-62c27e51a1bb",
+      "description": "+0.5 Ranged damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.05,
+      "modifierUUID": "db033587-03b5-4a8c-94eb-d4e6f66a044b",
+      "description": "5% Roll Cooldown Reduction"
+    }
+  ]
+}

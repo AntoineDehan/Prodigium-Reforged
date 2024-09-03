@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:damage_enchantment",
+    "apotheosis:pickaxe_tome",
+    "apotheosis:weapon_tome"
+  ],
+  "incompatible": [
+    "iguanatweaksreborn:sharpness",
+    "iguanatweaksreborn:bane_of_sssss",
+    "majruszsenchantments:incompatibility_curse",
+    "iguanatweaksreborn:smite"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "armorSetName": "berseker",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "stalwart_dungeons:tungsten_helmet"
+  },
+  "chest": {
+    "itemKey": "stalwart_dungeons:tungsten_chestplate"
+  },
+  "legs": {
+    "itemKey": "stalwart_dungeons:tungsten_leggings"
+  },
+  "boots": {
+    "itemKey": "stalwart_dungeons:tungsten_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.75,
+      "modifierUUID": "765ca026-4cbe-4ac5-a3d2-0cb41f7238b7",
+      "description": "+1.75 Attack Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4,
+      "modifierUUID": "cb9702bc-9cbb-11ed-a286-9f66aaed1dd3",
+      "description": "+2 Max Health"
+    },
+    {
+      "type": "effect",
+      "name": "majruszsdifficulty:glass_regeneration",
+      "value": 0.0
+    }
+  ]
+}

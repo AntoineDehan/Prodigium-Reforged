@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor"
+  ],
+  "incompatible": [
+    "minecraft:thorns",
+    "iguanatweaksreborn:blast_protection",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:blast_protection",
+    "minecraft:fire_protection",
+    "iguanatweaksreborn:protection",
+    "iguanatweaksreborn:projectile_protection",
+    "majruszsenchantments:magic_protection",
+    "iguanatweaksreborn:fire_protection",
+    "minecraft:projectile_protection"
+  ]
+}

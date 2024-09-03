@@ -1,0 +1,37 @@
+{
+  "armorSetName": "crusader",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:valkyrie_helmet"
+  },
+  "chest": {
+    "itemKey": "aether:valkyrie_chestplate"
+  },
+  "legs": {
+    "itemKey": "aether:valkyrie_leggings"
+  },
+  "boots": {
+    "itemKey": "aether:valkyrie_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.5,
+      "modifierUUID": "844303b1-dbd9-4b20-b077-ccad75118b6c",
+      "description": "+2.5 Armor"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 1,
+      "modifierUUID": "66a417c0-5d04-4789-ba98-5df0a914dc80",
+      "description": "+1 Armor Toughness"
+    },
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:guided",
+      "value": 0.0
+    }
+  ]
+}

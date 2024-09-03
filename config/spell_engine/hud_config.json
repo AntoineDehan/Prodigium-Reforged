@@ -1,0 +1,40 @@
+{
+  "castbar": {
+    "base": {
+      "origin": "BOTTOM",
+      "offset": {
+        "f_82470_": 0.0,
+        "f_82471_": -27.0
+      }
+    },
+    "target": {
+      "visible": false,
+      "offset": {
+        "f_82470_": 0.0,
+        "f_82471_": -12.0
+      }
+    },
+    "icon": {
+      "visible": true,
+      "offset": {
+        "f_82470_": -8.0,
+        "f_82471_": -25.0
+      }
+    },
+    "width": 172
+  },
+  "hotbar": {
+    "origin": "BOTTOM",
+    "offset": {
+      "f_82470_": -170.0,
+      "f_82471_": -11.0
+    }
+  },
+  "error_message": {
+    "origin": "BOTTOM",
+    "offset": {
+      "f_82470_": 0.0,
+      "f_82471_": -80.0
+    }
+  }
+}

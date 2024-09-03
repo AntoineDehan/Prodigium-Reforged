@@ -1,0 +1,404 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cleric"
+	group: "52532F5E67425F1C"
+	icon: "confluence:cross_necklace"
+	id: "55E9F74FAA839A76"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Use it to bind spells to spell books."
+				""
+				"To add a spell to your spell book you need a scroll (with the spell you want to add to the book)."
+			]
+			id: "167F636BCCA964EA"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "60BD3B2C9DA428D8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "678087D28276473B"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "556245AEC7A8272B"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Craft an Inscription Table"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "5DAEFA87EDF5F96D"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "4BE81E372C4A6002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "7D96483C34913E62"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2E9E3A4C61214A4E"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71BC502631CE6C40"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 4
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft your first Spell Book!"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["167F636BCCA964EA"]
+			description: ["You need to unlock the armors in the &6Skill Tree&r."]
+			id: "1A9AB70D43851B41"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "126EAAB1634DF86E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "00C99A176AA8B8BB"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37FE5F492EA2BB51"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E4857681EEA6B1E"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "55252D321592C2ED"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Wandering Magician Armor"
+					type: "item"
+				}
+				{
+					id: "6430852F5E853F35"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cleric armors for the Normal Mode"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D2E7F73862AF301"]
+			hide: true
+			id: "0F8B2C405921526F"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "3025C31DD3A99686"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "736ABB9CDC51DB05"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DE7DB81228D6C5F"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "1ACC41585E096CAD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Holy School Armor"
+				type: "item"
+			}]
+			title: "Cleric armors for the Expert Mode"
+			x: 6.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DAEFA87EDF5F96D"]
+			id: "063543BC78669DCB"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "645591D160AEF195"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "4835F92E36041C94"
+					item: "irons_spellbooks:uncommon_ink"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "349B2D5F2A70B33D"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4519CAC4D0393275"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 5
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bigger Faster Stronger"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["063543BC78669DCB"]
+			id: "6A8C2DE986B261A9"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "16FED7F0BE4B9DBA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7571A1FF4F2684C2"
+					item: "irons_spellbooks:rare_ink"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "130F66DF7542F9B7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "New book, new mage"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A8C2DE986B261A9"]
+			id: "4C3468FE8D873B68"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2B542AF1808BD316"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "26172E543B0B2137"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E47A7FA2CD4D761"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ultimate Cleric weapon"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C3468FE8D873B68"]
+			hide: true
+			id: "7E667B478AC9D11C"
+			rewards: [{
+				auto: "no_toast"
+				id: "57CCE791D57C8250"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2E62C8B51B2E0E5F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "From the depth"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: ["Use the Scroll Forge to create new scrolls."]
+			id: "3E4F3F3F0402D036"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "64C6C63B8010F910"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "70907843ACBCC5BB"
+					item: "irons_spellbooks:common_ink"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ACD1CE969E34555"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Scroll making"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A9AB70D43851B41"]
+			description: ["The other armors are the school armors."]
+			hide: true
+			id: "2D2E7F73862AF301"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "317394F01224F614"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "7327D8CEED0689EC"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DEB16D9EEB223EE"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "6741626C3FF47625"
+				item: {
+					Count: 1
+					id: "paladins:prior_robe_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cleric armors for the Expert Mode"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "Cleric"
+}

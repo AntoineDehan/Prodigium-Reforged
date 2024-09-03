@@ -1,0 +1,37 @@
+{
+  "armorSetName": "crusader",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "paladins:crusader_armor_head"
+  },
+  "chest": {
+    "itemKey": "paladins:crusader_armor_chest"
+  },
+  "legs": {
+    "itemKey": "paladins:crusader_armor_legs"
+  },
+  "boots": {
+    "itemKey": "paladins:crusader_armor_feet"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "majruszsdifficulty:bleeding_immunity",
+      "value": 0.0
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+      "modifierUUID": "765ca026-4cbe-4ac5-a3d2-0cb48f7838b7",
+      "description": "+2 Armor"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.5,
+      "modifierUUID": "b06f49fe-df7f-4898-a2bd-fbb1031b060f",
+      "description": "+0.5 armor toughness"
+    }
+  ]
+}

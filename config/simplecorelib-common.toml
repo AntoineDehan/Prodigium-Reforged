@@ -1,0 +1,6 @@
+
+[General]
+	#test shears durability value (tests initializing properties from config)
+	#Range: 1 ~ 99999
+	TestShearDurability = 1500
+

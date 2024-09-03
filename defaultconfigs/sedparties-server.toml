@@ -1,0 +1,41 @@
+
+#Server Party Settings
+[timers]
+	#Delay (in ticks) for player packet syncing (hunger, xp)
+	#Range: 10 ~ 200
+	playerUpdateInterval = 10
+	#Delay (in ticks) for player packet syncing for less frequent items (World Temp, etc)
+	#Range: 40 ~ 800
+	playerSlowUpdateInterval = 40
+
+[mechanics]
+	#Allow players to attack each other in parties
+	friendlyFire = false
+
+[xp-share]
+	#Allow players to share XP in a party. This is a universal option.
+	enableShare = true
+	#Enables XP Sharing between party members regardless of distance from each other.
+	globalShare = true
+	#Disables XP Sharing from vanilla commands that give experience *points*.
+	#(/xp add [name] [amount] points)
+	ignoreCommand = true
+
+[mod-support]
+	#This allows for extra modded information (like cast bars) to update regardless of distance.
+	#true - Enables this feature.  Members have all information shared regardless of distance.
+	#false - Disables this feature. Members have to be within tracking range for updates.
+	#APPLIES TO: Cast Bar Element
+	allowGlobalUpdates = true
+	#Allow you to enable specific type of game stage syncing between party members.
+	#ALL - Players can opt-in to allow all game stage syncing, including previous entries.
+	#FUTURE - Players can only opt-in to allow future game stages to be synced
+	#NONE - Game stage syncing is disabled completely.
+	#Allowed Values: ALL, FUTURE, NONE
+	syncGameStages = "NONE"
+	#Specifies if Game Stages (and other mods with similar systems) should utilize server lists for syncing.
+	#These white/blacklists determine what stages are allowed to be synced by the client, regardless of sync settings.
+	#If the list is a whitelist, only stages in the list will be syncable.
+	#For a blacklist, all stages that aren't in the list will be syncable.
+	useSyncLists = false
+

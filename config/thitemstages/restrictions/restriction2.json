@@ -1,0 +1,131 @@
+{
+  "Restriction Data": {
+    "stage": "stage_2",
+    "itemList": [
+      {
+		 "item": "minecraft:diamond"
+	 }, 
+	 {
+		 "item": "minecraft:diamond_sword"
+	 },
+	 {
+		 "item": "minecraft:diamond_shovel"
+	 }, 
+	 {	
+		 "item": "minecraft:diamond_pickaxe"
+	 },
+	 {	
+		 "item": "minecraft:diamond_axe"
+	 },
+	 {
+		 "item": "minecraft:diamond_hoe"
+	 },
+	 {	
+		 "item": "minecraft:diamond_helmet"
+	 },
+	 {
+		 "item": "minecraft:diamond_chestplate"
+	 },
+	 {	
+		 "item": "minecraft:diamond_leggings"
+	 },
+	 {
+		 "item": "minecraft:diamond_boots"
+	 },
+	 {
+		 "item": "minecolonies:sifter_mesh_diamond"
+	 },
+	 {
+		 "item": "minecraft:diamond_horse_armor"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_ingot"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_nugget"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_sword"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_axe"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_pickaxe"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_axe"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_shovel"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_hoe"
+	 },
+	 {
+	     "item": "prodigium:orichalcum_helmet"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_chestplate"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_leggins"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_boots"
+	 },
+	 {
+		 "item": "prodigium:raw_orichalcum"
+	 },
+	 {
+		 "item": "minecraft:diamond_ore"
+	 },
+	 {
+		 "item": "minecraft:diamond_block"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_ore"
+	 },
+	 {
+		 "item": "prodigium:deepslate_orichalcum_ore"
+	 },
+	 {
+		 "item": "minecraft:deepslate_diamond_ore"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_bow"
+	 },
+	 {
+		 "item": "minecraft:enchanting_table"
+	 }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+	 {
+	"dimension": "minecraft:the_nether",
+	"message": "You have to defeat the Dead King before entering this dimension"
+	 }
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Defeat Dead King)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

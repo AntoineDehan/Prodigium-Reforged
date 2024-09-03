@@ -1,0 +1,577 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mage"
+	group: "52532F5E67425F1C"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:pyromancer_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4529A3374C270239"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Use it to bind spells to spell books."
+				""
+				"To add a spell to your spell book you need a scroll (with the spell you want to add to the book)."
+			]
+			id: "624B188BB0FFB9D9"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "25B53EDBCE9537C5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "535FEB0F0F4D84F9"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "7DA1553498C51ADE"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Craft an Inscription Table"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "18B042EFAA245E8D"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "40016D845D7A8FF8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5FE596F71DEABACF"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01D1622846B624AB"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22CD741615881510"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 4
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft your first Spell Book!"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["624B188BB0FFB9D9"]
+			description: ["You need to unlock the armors in the &6Skill Tree&r."]
+			id: "2C81ED5255847C86"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "50347ED944A6AEB1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "14EE3EB84B1475ED"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59C9E3DD2B1488EB"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66511BDE2D004047"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "6A35EAF60735FECA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Wandering Magician Armor"
+					type: "item"
+				}
+				{
+					id: "4F3BE7636DE2CBC0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Scarecrow Armor"
+					type: "item"
+				}
+			]
+			title: "Wizard armors for the Normal Mode"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32C900436B8BA216"]
+			hide: true
+			id: "6AEDFC7887701A98"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "5D66A4DDCA1F6775"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "47CFB330DC74B709"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E873A91E68AE2FF"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "361AEE05B0A8DEA1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Blood School Armor"
+					type: "item"
+				}
+				{
+					id: "2DAAD1DD63FB3B14"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Ice School Armor"
+					type: "item"
+				}
+				{
+					id: "166C8588BD752FBD"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Poison School Armor"
+					type: "item"
+				}
+				{
+					id: "5ED394F0CAA81810"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Ender School Armor"
+					type: "item"
+				}
+				{
+					id: "7549CC70B463289A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Evocation School Armor"
+					type: "item"
+				}
+				{
+					id: "081521DA6CC9D7C3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Lightning School Armor"
+					type: "item"
+				}
+				{
+					id: "46FBC6C5656AB6A0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Fire School Armor"
+					type: "item"
+				}
+			]
+			title: "Time for an upgrade"
+			x: 6.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18B042EFAA245E8D"]
+			id: "39D61483845902CD"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "5B6E785583743ECA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "709167352EFE357B"
+					item: "irons_spellbooks:uncommon_ink"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "665FBE12E32011C2"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D19A09FC562CF85"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 5
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bigger Faster Stronger"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39D61483845902CD"]
+			id: "64BC25EF7137C9F9"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "4803C21F7888F91E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "41AFB67DA7E9CA0F"
+					item: "irons_spellbooks:rare_ink"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B32D1B10B62301A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "New book, new mage"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64BC25EF7137C9F9"]
+			id: "297C650C9443F6AC"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7751125E58378F12"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3836CF4437A4B3E5"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26172C9B4A8570F0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 8
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ultimate Wizard weapon"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["297C650C9443F6AC"]
+			hide: true
+			id: "457F3B09A012EC52"
+			rewards: [{
+				auto: "no_toast"
+				id: "0A5419BE8826FA98"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0AE48EC27FC9E0D6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "From the depth"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["297C650C9443F6AC"]
+			hide: true
+			id: "14858556B512FCA1"
+			rewards: [{
+				auto: "no_toast"
+				id: "1317AC5D54A7BABF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7914BD1EA6804BDE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "From the dragon itself"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			description: ["Use the Scroll Forge to create new scrolls."]
+			id: "1F264C3D08A2BC5E"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "178C1703DDD17B9B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "6BF6C39D80D4FD89"
+					item: "irons_spellbooks:common_ink"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1467F584E2D974E8"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Scroll making"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E4F3F3F0402D036"]
+			hide: true
+			id: "2244361598A4C203"
+			rewards: [{
+				auto: "no_toast"
+				id: "366BF483FCCB25C8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "66B2618B4B58A227"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Imbue your weapons with magic!"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C81ED5255847C86"]
+			description: ["The other armors are the school armors."]
+			hide: true
+			id: "32C900436B8BA216"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "70B927015D6921E7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "29DC028A0C874F98"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "184892CDDDB55675"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "1B293FAFD36D6F62"
+				item: {
+					Count: 1
+					id: "aether:zanite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Zanite Armor"
+				type: "item"
+			}]
+			title: "Wizard armors for the Expert Mode"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "648A557424EC566D"
+			tasks: [{
+				id: "20F9183BAFABC09C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "0EF134C050A64147"
+			tasks: [{
+				id: "7B9659FF92B22DEC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	title: "Wizard"
+}

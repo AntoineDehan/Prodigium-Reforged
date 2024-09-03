@@ -1,0 +1,39 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "prodigium:palladium_helmet"
+  },
+  "chest": {
+    "itemKey": "prodigium:palladium_chestplate"
+  },
+  "legs": {
+    "itemKey": "prodigium:palladium_leggings"
+  },
+  "boots": {
+    "itemKey": "prodigium:palladium_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.ranged_damage",
+      "value": 0.75,
+      "modifierUUID": "36d41b96-cdc7-42a9-94e3-8b901bae6d74",
+      "description": "+0.75 Ranged damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.07,
+      "modifierUUID": "445b1d8d-523e-41c3-92cd-130cae1c7bea",
+      "description": "7% Roll Cooldown Reduction"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:dodge_chance",
+      "value": 0.02,
+      "modifierUUID": "dd4c881c-7e95-466f-963f-110a17255b65",
+      "description": "2% Dodge Chance"
+    }
+  ]
+}

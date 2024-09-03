@@ -1,0 +1,44 @@
+{
+  "armorSetName": "berseker",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "stalwart_dungeons:chorundum_armor_helmet"
+  },
+  "chest": {
+    "itemKey": "stalwart_dungeons:chorundum_armor_chestplate"
+  },
+  "legs": {
+    "itemKey": "stalwart_dungeons:chorundum_armor_leggings"
+  },
+  "boots": {
+    "itemKey": "stalwart_dungeons:chorundum_armor_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 2.5,
+      "modifierUUID": "ad12baac-13a8-48e5-8a1d-5728c52582ec",
+      "description": "+2.5 Atack Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.2,
+      "modifierUUID": "6a4023e0-9cca-11ed-9f07-db0840f7fbeb",
+      "description": "+0.2 Attack Speed"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4,
+      "modifierUUID": "be966903-6928-43c1-9d8e-d304cb7591e1",
+      "description": "+2 Max Health"
+    },
+    {
+      "type": "effect",
+      "name": "iguanatweaksreborn:entity_reach",
+      "value": 0.0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Restriction Data": {
+    "stage": "stage_crusader_paladin",
+    "itemList": [
+	 {
+		 "item": "paladins:paladin_armor_head"
+	 },
+	 {	
+		 "item": "paladins:paladin_armor_chest"
+	 },
+	 {
+		 "item": "paladins:paladin_armor_legs"
+	 },
+	 {
+		 "item": "paladins:paladin_armor_feet"
+	 }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+     
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Crusader's skill tree & Defeat the Slime King)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

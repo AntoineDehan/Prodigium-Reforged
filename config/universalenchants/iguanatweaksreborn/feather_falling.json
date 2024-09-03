@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet",
+    "apotheosis:boots_tome",
+    "alexsmobs:pigshoes"
+  ],
+  "incompatible": [
+    "minecraft:thorns",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

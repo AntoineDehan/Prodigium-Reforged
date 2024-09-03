@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:scguns_gun"
+  ],
+  "incompatible": [
+    "scguns:trigger_finger",
+    "scguns:lightweight",
+    "scguns:banzai",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

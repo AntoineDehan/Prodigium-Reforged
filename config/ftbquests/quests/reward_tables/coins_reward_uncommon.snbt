@@ -1,0 +1,11 @@
+{
+	id: "676205A37BD058DA"
+	loot_size: 3
+	order_index: 4
+	rewards: [
+		{ item: "numismatic-overhaul:gold_coin" }
+		{ count: 15, item: "numismatic-overhaul:silver_coin", random_bonus: 25, weight: 4.0f }
+		{ count: 20, item: "numismatic-overhaul:bronze_coin", random_bonus: 79, weight: 8.0f }
+	]
+	title: "Coins Reward Uncommon"
+}

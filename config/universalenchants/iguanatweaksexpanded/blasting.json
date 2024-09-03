@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pickaxes"
+  ],
+  "incompatible": [
+    "minecraft:efficiency",
+    "iguanatweaksexpanded:veining",
+    "majruszsenchantments:incompatibility_curse",
+    "iguanatweaksexpanded:expanded"
+  ]
+}

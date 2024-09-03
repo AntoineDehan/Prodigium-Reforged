@@ -1,0 +1,10 @@
+#Modify the number of kills required to get a flag from an entity
+#Format: modid:entity-killCount,'minecraft:zombie-50'
+entityTypes = []
+#global kill count for all entities
+#Range: > 1
+globalKillCount = 50
+#Blacklist of entities that cannot be used to make flags
+#Format: modid:entity,'minecraft:zombie'
+entityBlackList = []
+

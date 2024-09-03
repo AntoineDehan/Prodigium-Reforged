@@ -1,0 +1,352 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "invasions"
+	group: "04557421BF808B7D"
+	icon: {
+		Count: 1
+		id: "gateways:gate_pearl"
+		tag: {
+			gateway: "gateways:hellish_fortress"
+		}
+	}
+	id: "54F1757E93DDC8E2"
+	images: [{
+		alpha: 100
+		color: 16744448
+		height: 10.0d
+		image: "gateways:item/gate_pearl_large"
+		rotation: 0.0d
+		width: 10.0d
+		x: 2.0d
+		y: -0.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F2897AB3326FC08"
+			rewards: [
+				{
+					id: "31C569BF5881FABA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03D4167D6416E52E"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "1CD7D54A26396F20"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:emerald_grove"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:emerald_grove"
+						}
+					}
+					id: "6419CD3A4E52DA5A"
+					title: "Defeat the slime gate"
+					type: "custom"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F2897AB3326FC08"]
+			id: "7757ADD770092575"
+			rewards: [
+				{
+					id: "4510E577E2423887"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "173AB06992DF3A87"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0D7BC5E642654D58"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:overworldian_nights"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:overworldian_nights"
+						}
+					}
+					id: "2221A3096897D237"
+					title: "Defeat the zombie gate"
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7757ADD770092575"
+				"049A1A789CCBA808"
+			]
+			id: "2E5CC3A82A1DB7B1"
+			rewards: [
+				{
+					id: "0892A6A173425D55"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E358EEEA0300A40"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "5C8DF537F0A85B44"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:hellish_fortress"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:hellish_fortress"
+						}
+					}
+					id: "15FAE2025D04EB4B"
+					title: "Defeat the spider gate"
+					type: "custom"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "4B1ABE1A8E60831E"
+			rewards: [{
+				count: 5
+				id: "48A8C17266E83621"
+				item: "kubejs:eternia_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:barrel"
+				id: "7B2BFEEE8BC988B0"
+				title: "Unlock the Tavernkeep"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B1ABE1A8E60831E"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0E96EE566942D684"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F13DA76F2CFBE2A"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					id: "733A75F7261DB2FA"
+					item: "prodigium:defender_medal"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tieri"
+						}
+					}
+					id: "61188D3BD0DA2700"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tieri"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tieri"
+						}
+					}
+					id: "4440E5DD615DD84B"
+					title: "Defeat the gate"
+					type: "custom"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E96EE566942D684"]
+			hide: true
+			hide_dependent_lines: true
+			id: "3F7F2374AD6AE9BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58874F817A46215E"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "40D041E8F67B4171"
+					item: "prodigium:defender_medal"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierii"
+						}
+					}
+					id: "2AA36AE41A33EDCC"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierii"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tierii"
+						}
+					}
+					id: "37E7DE37AE6E8D6F"
+					title: "Defeat the gate"
+					type: "custom"
+				}
+			]
+			x: 3.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F7F2374AD6AE9BC"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3ECF0082B62C4AB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CF2E42FC78918C2"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "26A05C560AB9C1EA"
+					item: "prodigium:defender_medal"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "443F4B17C114FE8D"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tieriii"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:old_ones_army_tieriii"
+						}
+					}
+					id: "01590DC84238B719"
+					title: "Defeat the gate"
+					type: "custom"
+				}
+			]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: ["All The Gates needs to be reworked for the 1.20 update so more will come in the future!"]
+			id: "462E69FDAE8B2997"
+			optional: true
+			tasks: [{
+				icon: "minecraft:red_banner"
+				id: "40C55EE58B543530"
+				title: "Coming in the future"
+				type: "custom"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+	]
+	title: "Gates"
+}

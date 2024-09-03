@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:damage_enchantment"
+  ],
+  "incompatible": [
+    "iguanatweaksexpanded:water_coolant",
+    "iguanatweaksreborn:bane_of_sssss",
+    "iguanatweaksreborn:critical",
+    "majruszsenchantments:incompatibility_curse",
+    "iguanatweaksreborn:sharpness",
+    "iguanatweaksreborn:smite",
+    "iguanatweaksexpanded:swift_strike"
+  ]
+}

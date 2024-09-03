@@ -1,0 +1,7 @@
+{
+  "ignore_items_required_mods": false,
+  "battle_banner_attack_speed_bonus": 0.4,
+  "battle_banner_ranged_haste_bonus": 0.4,
+  "battle_banner_spell_haste_bonus": 0.4,
+  "battle_banner_knockback_resistance_bonus": 0.5
+}

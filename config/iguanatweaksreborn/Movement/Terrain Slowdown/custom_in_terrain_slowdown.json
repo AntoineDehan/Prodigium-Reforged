@@ -1,0 +1,10 @@
+[
+  {
+    "id": "minecraft:snow",
+    "value": 0.075
+  },
+  {
+    "id": "minecraft:powder_snow",
+    "value": 0.5
+  }
+]

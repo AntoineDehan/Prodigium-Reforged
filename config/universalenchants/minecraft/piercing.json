@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "minecraft:trident",
+    "apotheosis:other_tome",
+    "minecolonies:spear",
+    "$minecraft:trident",
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "minecraft:efficiency",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

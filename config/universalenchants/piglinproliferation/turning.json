@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:buckler",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "piglinproliferation:bang",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

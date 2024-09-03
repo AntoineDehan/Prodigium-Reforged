@@ -1,0 +1,29 @@
+
+#Common Party Settings
+#Note: This mod also includes server configuration files found within specific world config folders.
+[timers]
+	#Delay (in seconds) for player to accept invite before it automatically expires.
+	#Range: 5 ~ 60
+	playerAcceptTimer = 30
+
+[mechanics]
+	#Max size for a party
+	#Range: > 2
+	partySize = 5
+	#Makes parties persist between server launches. Disabling this removes all saved parties - they will have to be remade.
+	partyPersistence = true
+
+[mod-support]
+	#This allows for integration with other party mods. Enabling this forces party persistence to be enabled as well.
+	#true - Enables party sync between Parties mod and Open Parties and Claims.
+	#false - Causes the Parties Mod to use its own party system by itself.
+	#NOTE: If enabled, the partySize setting is ignored.
+	partiesSync = true
+
+[other]
+	#This allows the game to create a default server config file inside the defaultconfigs folder if no file is present,
+	#meaning that all new worlds will try and copy the server configuration placed in said folder.
+	#true - Attempts to create sedparties-server.toml inside defaultconfigs for use by new worlds.
+	#false - Does not try to create a server config nor remove any present configurations in said folder.
+	defaultServerConfig = true
+

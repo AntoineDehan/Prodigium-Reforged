@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pickaxe_or_shovel"
+  ],
+  "incompatible": [
+    "iguanatweaksexpanded:blasting",
+    "minecraft:efficiency",
+    "iguanatweaksexpanded:veining",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

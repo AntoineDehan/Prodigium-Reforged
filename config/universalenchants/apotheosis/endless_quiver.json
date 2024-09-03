@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "apotheosis:bow_tome"
+  ],
+  "incompatible": [
+    "minecraft:infinity",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

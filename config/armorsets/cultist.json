@@ -1,0 +1,37 @@
+{
+  "armorSetName": "wizard",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:cultist_helmet"
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:cultist_chestplate"
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:cultist_leggings"
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:cultist_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "modifierUUID": "d9c9cf5f-19a5-43c1-b64f-b32d2924a3cb",
+      "description": "+5% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 100,
+      "modifierUUID": "00f7eb1c-1a12-40ed-9552-dfb333760b09",
+      "description": "+100 Max Mana"
+    },
+    {
+      "type": "effect",
+      "name": "majruszsdifficulty:bleeding_immunity",
+      "value": 0.0
+    }
+  ]
+}

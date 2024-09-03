@@ -1,0 +1,41 @@
+{
+	hide_tooltip: true
+	icon: "minecolonies:blockminecoloniesrack"
+	id: "3558D8809B8B726B"
+	loot_size: 6
+	order_index: 1
+	rewards: [
+		{ count: 32, item: "minecraft:cobblestone", random_bonus: 128, weight: 2.0f }
+		{ count: 32, item: "minecraft:oak_planks", random_bonus: 32, weight: 2.0f }
+		{ item: "minecolonies:ancienttome", random_bonus: 1 }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 16, item: "minecraft:stone", random_bonus: 32, weight: 2.0f }
+		{ count: 12, item: "minecraft:oak_fence", random_bonus: 32, weight: 2.0f }
+		{ count: 32, item: "minecraft:clay", random_bonus: 32, weight: 2.0f }
+		{ count: 16, icon: "minecraft:brick", item: "minecraft:brick", random_bonus: 16, weight: 2.0f }
+		{ count: 32, item: "minecraft:sand", random_bonus: 32, weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "minecolonies:blockminecoloniesrack", random_bonus: 2 }
+		{ count: 16, item: "minecraft:cooked_beef", random_bonus: 16 }
+		{ count: 16, item: "minecraft:flint", random_bonus: 16 }
+		{ count: 16, item: "minecraft:iron_ingot", random_bonus: 16, weight: 2.0f }
+	]
+	title: "Resources Package"
+	use_title: true
+}

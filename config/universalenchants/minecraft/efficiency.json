@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "minecraft:shears",
+    "apotheosis:pickaxe_tome",
+    "simplecorelib:test_shears",
+    "quark:pickarang",
+    "quark:flamerang",
+    "simpleores:copper_shears",
+    "simpleores:tin_shears",
+    "simpleores:mythril_shears",
+    "simpleores:adamantium_shears",
+    "simpleores:onyx_shears"
+  ],
+  "incompatible": [
+    "majruszsenchantments:fatigue_curse",
+    "minecraft:piercing",
+    "apotheosis:miners_fervor",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,268 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "melee"
+	group: "52532F5E67425F1C"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0FBF9F804D930CAF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You need to unlock the armor in the &6Skill Tree&r."]
+			id: "50E838001D06D62B"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "797ADBD44405D9CC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07B7730CE7415B81"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3199BC908A5061C0"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "603755F3C531414D"
+					item: {
+						Count: 1
+						id: "simpleores:adamantium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Adamantium Armor"
+					type: "item"
+				}
+				{
+					id: "4929FFF8FCCB0568"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Diamond Armor"
+					type: "item"
+				}
+			]
+			title: "Berseker armors for the Normal Mode"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50E838001D06D62B"]
+			dependency_requirement: "one_completed"
+			description: ["You need to unlock the armor in the &6Skill Tree&r."]
+			hide: true
+			id: "01C7F36A07D993DB"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "511F64D27F8D2593"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3772D03396B4974B"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "1934A764DBDE9E7F"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Tungsten Armor"
+					type: "item"
+				}
+				{
+					id: "79110EFE1EAF0AD6"
+					item: {
+						Count: 1
+						id: "aether:phoenix_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Phoenix Armor"
+					type: "item"
+				}
+			]
+			title: "Berseker armors for the Expert Mode"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01C7F36A07D993DB"]
+			description: ["You need to unlock the armor in the &6Skill Tree&r."]
+			hide: true
+			id: "39E4AEC53761A7A1"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "17E70969428C878B"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BA317B6839F300E"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "3CEAFF4B4E1A0B79"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:chorundum_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Chorundum Armor"
+				type: "item"
+			}]
+			title: "Berseker armor for the Master Mode"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50E838001D06D62B"]
+			hide: true
+			id: "6941F5D15A68E8F3"
+			rewards: [{
+				auto: "no_toast"
+				id: "7B315FA3E138179C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "21579002B798EA9F"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "You might want more range ?"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50E838001D06D62B"]
+			hide: true
+			id: "0195CA9DA04CF441"
+			rewards: [{
+				auto: "no_toast"
+				id: "5060803884FF7724"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2E876050678F222F"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Why not using a scynthe ?"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50E838001D06D62B"]
+			dependency_requirement: "all_started"
+			description: ["Sold by the Goblin Tinkerer."]
+			hide: true
+			id: "0AE464C7E2B6B92D"
+			rewards: [
+				{
+					id: "229D1F8011AC0022"
+					item: {
+						Count: 1
+						id: "davespotioneering:rudimentary_gauntlet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "5D414328B287E91A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "18F4FF86811C4B90"
+				item: "davespotioneering:potion_injector"
+				type: "item"
+			}]
+			title: "Obtain a Potion Injector"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0AE464C7E2B6B92D"]
+			hide: true
+			id: "172CE6EB436255BA"
+			rewards: [{
+				auto: "no_toast"
+				id: "1BEE705D178C969F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6169CE8BF6B11776"
+				item: "davespotioneering:reinforced_cauldron"
+				type: "item"
+			}]
+			title: "Why not coat your weapons?"
+			x: 2.0d
+			y: -2.5d
+		}
+	]
+	title: "Berseker"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:shield"
+  ],
+  "incompatible": [
+    "shieldsplus:reflection",
+    "majruszsenchantments:incompatibility_curse",
+    "shieldsplus:recoil"
+  ]
+}

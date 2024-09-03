@@ -1,0 +1,34 @@
+# Use Cloth Config mod for the descriptions.
+---
+modules:
+  farmersdelight: true
+  bee: true
+  vacuum: true
+  ritual: true
+  food: true
+treeGrowingSpeed: 5
+fruitDropMode:
+  singleplayer: Independent
+  multiplayer: OneByOne
+fruitTreeLifespan:
+  min: 14
+  max: 24
+appleSaplingFromHeroOfTheVillage: true
+villageAppleTreeWorldGen: true
+hornHarvestingInstrument: minecraft:sing_goat_horn
+wanderingTraderSapling: true
+beeNaturalHealingInterval: 900
+mutagenRecipe: true
+redloveFruitUse: true
+dragonBreath:
+  fixExploit: true
+  dispenserCollecting: true
+leavesUsInPeaceIncompatibilityNotified: false
+geneticsDifficulty: Normal
+mutationRate:
+  RC: 0.1
+  FT1: 0.07
+  FT2: 0.06
+  FC: 0.14
+imperfectMutagenChance: 0.15
+mutagenMutationRate: 0.8

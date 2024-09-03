@@ -1,0 +1,28 @@
+{
+	id: "245107EFBF50FC61"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:music_disc_13" }
+		{ item: "minecraft:music_disc_cat" }
+		{ item: "minecraft:music_disc_blocks" }
+		{ item: "minecraft:music_disc_chirp" }
+		{ item: "minecraft:music_disc_far" }
+		{ item: "minecraft:music_disc_mall" }
+		{ item: "minecraft:music_disc_mellohi" }
+		{ item: "minecraft:music_disc_stal" }
+		{ item: "minecraft:music_disc_strad" }
+		{ item: "minecraft:music_disc_ward" }
+		{ item: "minecraft:music_disc_11" }
+		{ item: "minecraft:music_disc_wait" }
+		{ item: "minecraft:music_disc_pigstep" }
+		{ item: "alexsmobs:music_disc_daze" }
+		{ item: "alexsmobs:music_disc_thime" }
+		{ item: "quark:music_disc_endermosh" }
+		{ item: "cataclysm:music_disc_netherite_monstrosity" }
+		{ item: "cataclysm:music_disc_ender_guardian" }
+		{ item: "cataclysm:music_disc_ignis" }
+		{ item: "minecraft:music_disc_5" }
+	]
+	title: "Random discs"
+}

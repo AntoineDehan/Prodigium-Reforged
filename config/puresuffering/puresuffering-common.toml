@@ -1,0 +1,88 @@
+
+[GameRules]
+	#This will make these config options override their game rule values.
+	#NOTE: Can be used to help modpack creators enforce certain settings.
+	overrideGameRules = false
+
+	[GameRules.Boolean]
+		#Should hyper invasions be able to occur?
+		enableHyperInvasions = true
+		#Should nightmare invasions be able to occur?
+		#NOTE: Hyper invasions must be enabled.
+		enableNightmareInvasions = true
+		#Will disable explosions, fire, etc... from entities spawned by invasions.
+		invasionAntiGrief = true
+		#Rather than the invasion occuring once in every 'rarity' days, it will instead be set to occur every 'rarity' days.
+		consistentInvasions = false
+		#Tiers make certain invasions only able to occur after so many days, turning this off will make the world ignore the day count when selecting invasions.
+		tieredInvasions = true
+		#Hyper Aggression is what invasion mobs have to target the player from across the world, turning this off will make them use default targeting.
+		hyperAggression = true
+		#Hyper Charge is what the buffed mobs spawned by invasions have, turning this off will disabled these buffed mobs from spawning (This also disables Hyper invasions).
+		hyperCharge = true
+		#This determines whether players will be unable to sleep during all invasions.
+		forceInvasionSleeplessness = false
+		#This determines whether invasion mobs should have an xp boost per kill.
+		useXPMultiplier = true
+		#Determines if invasion mobs should die when the invasions are over.
+		#NOTE: Can be used to reduce server lag.
+		mobsDieAtEndOfInvasions = false
+		#Determines vexes in invasions have a limited lifespan.
+		weakenedInvasionVexes = true
+		#Should invasion ambient sounds be broadcasted before invasions?
+		enableInvasionAmbience = true
+
+	[GameRules.Integer]
+		#The max amount of mobs that can spawn from Primary Invasions at once.
+		#NOTE: Reduce for increased performance!
+		#Range: > 0
+		primaryInvasionMobCap = 70
+		#The max amount of mobs that can spawn from Secondary Invasions at once.
+		#NOTE: Reduce for increased performance!
+		#Range: > 0
+		secondaryInvasionMobCap = 15
+
+[Invasions]
+	#List of Invasions that can't occur.
+	#Ex: 'puresuffering:solar_eclipse', 'puresuffering:phantom_zone' (swap '' with quotation marks)
+	invasionBlacklist = []
+	#List of Invasions that can be primary invasions.
+	#NOTE: The Invasion's Priority cannot be labeled as Secondary Only!
+	#Ex: 'puresuffering:solar_eclipse', 'lostcities:lostcity' (swap '' with quotation marks)
+	primaryWhitelist = []
+	#List of Dimensions that should use Overworld Invasions.
+	#NOTE: May not work with randomly generated dimensions! (RFTools/Mystcraft)
+	#Ex: 'twilightforest:twilight_forest', 'lostcities:lostcity' (swap '' with quotation marks)
+	overworldLikeDimensions = []
+	#List of Dimensions that should use Nether Invasions.
+	#NOTE: May not work with randomly generated dimensions! (RFTools/Mystcraft)
+	#Ex: 'twilightforest:twilight_forest', 'lostcities:lostcity' (swap '' with quotation marks)
+	netherLikeDimensions = []
+	#List of Dimensions that should use End Invasions.
+	#NOTE: May not work with randomly generated dimensions! (RFTools/Mystcraft)
+	#Ex: 'twilightforest:twilight_forest', 'lostcities:lostcity' (swap '' with quotation marks)
+	endLikeDimensions = []
+	#List of mobs that won't be hyper aggressive towards the player. (If setting is turned on)
+	hyperAggressionBlacklist = ["minecraft:vex"]
+	#List of mobs that can't be hyper charged. (If setting is turned on)
+	hyperChargeBlacklist = ["minecraft:vex"]
+	#List of mods that won't be allowed to have their mobs spawn in Biome Boosted Invasions.
+	#Ex: 'twilightforest', 'mutantbeasts'
+	modBiomeBoostedBlacklist = []
+	#List of mobs that won't be allowed to spawn in Biome Boosted Invasions.
+	#Ex: 'minecraft:enderman', 'mutantbeasts:mutant_creeper'
+	mobBiomeBoostedBlacklist = []
+	#The chance of a naturally spawning mob has of spawning during an invasion.
+	#NOTE: May affect performance at higher numbers!
+	#Range: 0.0 ~ 1.0
+	naturalSpawnChance = 5.0E-4
+	#The chance of an invasion mob being hyper charged.
+	#Range: 0.0 ~ 1.0
+	hyperChargeChance = 0.3
+	#How many ticks the Blessing Effect lasts when respawning.
+	#Range: > 0
+	blessingEffectRespawnDuration = 650
+	#How many ticks the Blessing Effect lasts when changing dimensions.
+	#Range: > 0
+	blessingEffectDimensionChangeDuration = 300
+

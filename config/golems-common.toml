@@ -1,0 +1,21 @@
+
+[general]
+	#When true, only players in creative mode can use a Bedrock Golem spawn item
+	bedrock_golem_creative_only = true
+	#When true, pumpkins can be used to build Extra Golems entities
+	pumpkin_builds_golems = false
+	#When enabled, attacking a player-built golem will make it attack you
+	friendly_fire = false
+	#When enabled, players can use the spell item on a carved pumpkin to convert it to a golem head in-world
+	use_spell = true
+	#Super secret special days
+	holidays = true
+	#Percent chance for a villager to summon an Extra Golems entity
+	#Range: 0 ~ 100
+	villager_summon_chance = 60
+	#When enabled, giving blocks and items to golems can restore health
+	heal_golems = true
+	#The minimum permission level required to spawn golems from the guide book
+	#Range: 0 ~ 4
+	debug_golems_permission_level = 2
+

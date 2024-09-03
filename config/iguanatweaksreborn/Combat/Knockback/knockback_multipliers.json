@@ -1,0 +1,22 @@
+[
+  {
+    "id": "#minecraft:pickaxes",
+    "value": 0.85
+  },
+  {
+    "id": "#minecraft:axes",
+    "value": 0.9
+  },
+  {
+    "id": "#minecraft:swords",
+    "value": 0.85
+  },
+  {
+    "id": "#minecraft:hoes",
+    "value": 0.35
+  },
+  {
+    "id": "#iguanatweaksexpanded:forge_hammers",
+    "value": 1.0
+  }
+]

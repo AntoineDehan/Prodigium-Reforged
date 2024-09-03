@@ -1,0 +1,21 @@
+{
+    /*
+     * How long it takes for the extractinator to extract a single block
+     * Type: Integer
+     */
+    "extractTicks": 8,
+    /*
+     * Multiplies the amount of loot dropped by this value
+     * Type: Double
+     */
+    "lootMultiplier": 1.0,
+    /*
+     * Amount of uses before the extractinator breaks
+     * Type: Integer
+     */
+    "extractinatorDurability": -1,
+    // If the extractinator should be silent
+    "silent": false,
+    // [Fabric Only] Generates Silt and Slush ores
+    "worldgen": true
+}

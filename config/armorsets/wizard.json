@@ -1,0 +1,32 @@
+{
+  "armorSetName": "wizard",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "wizards:wizard_robe_head"
+  },
+  "chest": {
+    "itemKey": "wizards:wizard_robe_chest"
+  },
+  "legs": {
+    "itemKey": "wizards:wizard_robe_legs"
+  },
+  "boots": {
+    "itemKey": "wizards:wizard_robe_feet"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "modifierUUID": "fd83eb39-fa96-4ddb-968a-fb00482eaa69",
+      "description": "+5% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 75,
+      "modifierUUID": "9f25495a-23bd-4caa-a983-bac1e96eb05f",
+      "description": "+75 Max Mana"
+    }
+  ]
+}

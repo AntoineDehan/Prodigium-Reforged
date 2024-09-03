@@ -1,0 +1,125 @@
+{
+  "Restriction Data": {
+    "stage": "stage_1",
+    "itemList": [
+      {
+		 "item": "simpleores:adamantium_ingot"
+	 }, 
+	 {
+		 "item": "simpleores:adamantium_sword"
+	 },
+	 {
+		 "item": "simpleores:adamantium_pickaxe"
+	 }, 
+	 {	
+		 "item": "simpleores:adamantium_axe"
+	 },
+	 {	
+		 "item": "simpleores:adamantium_shovel"
+	 },
+	 {
+		 "item": "simpleores:adamantium_hoe"
+	 },
+	 {	
+		 "item": "simpleores:adamantium_shears"
+	 },
+	 {
+		 "item": "simpleores:adamantium_helmet"
+	 },
+	 {	
+		 "item": "simpleores:adamantium_leggings"
+	 },
+	 {
+		 "item": "simpleores:adamantium_chestplate"
+	 },
+	 {
+		 "item": "simpleores:adamantium_boots"
+	 },
+	 {
+		 "item": "prodigium:palladium_ingot"
+	 },
+	 {
+		 "item": "prodigium:palladium_nugget"
+	 },
+	 {
+		 "item": "prodigium:palladium_rod"
+	 },
+	 {
+		 "item": "prodigium:palladium_bow"
+	 },
+	 {
+		 "item": "prodigium:palladium_sword"
+	 },
+	 {
+		 "item": "prodigium:palladium_pickaxe"
+	 },
+	 {
+		 "item": "prodigium:palladium_axe"
+	 },
+	 {
+		 "item": "prodigium:palladium_shovel"
+	 },
+	 {
+		 "item": "prodigium:palladium_hoe"
+	 },
+	 {
+	     "item": "prodigium:palladium_helmet"
+	 },
+	 {
+		 "item": "prodigium:palladium_chestplate"
+	 },
+	 {
+		 "item": "prodigium:palladium_leggings"
+	 },
+	 {
+		 "item": "prodigium:palladium_boots"
+	 },
+	 {
+		 "item": "prodigium:raw_palladium"
+	 },
+	 {
+		 "item": "simpleores:adamantium_ore"
+	 },
+	 {
+		 "item": "simpleores:adamantium_block"
+	 },
+	 {
+		 "item": "prodigium:palladium_ore"
+	 },
+	 {
+		 "item": "prodigium:deepslate_palladium_ore"
+	 },
+	 {
+		 "item": "simpleores:deepslate_adamantium_ore"
+	 },
+	 {
+		 "item": "simpleores:raw_adamantium"
+	 }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+     
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Defeat the Slime King)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

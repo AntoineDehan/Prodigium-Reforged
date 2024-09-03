@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome"
+  ],
+  "incompatible": [
+    "minecraft:fire_protection",
+    "iguanatweaksreborn:fire_protection",
+    "minecraft:blast_protection",
+    "minecraft:projectile_protection",
+    "iguanatweaksreborn:protection",
+    "minecraft:thorns",
+    "iguanatweaksreborn:projectile_protection",
+    "minecraft:protection",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

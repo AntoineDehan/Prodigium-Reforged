@@ -1,0 +1,44 @@
+{
+  "Restriction Data": {
+    "stage": "stage_cleric_priest",
+    "itemList": [
+	 {
+		 "item": "irons_spellbooks:priest_helmet"
+	 },
+	 {	
+		 "item": "irons_spellbooks:priest_leggings"
+	 },
+	 {
+		 "item": "irons_spellbooks:priest_chestplate"
+	 },
+	 {
+		 "item": "irons_spellbooks:priest_boots"
+	 }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+     
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Cleric's skill tree)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crusader"
+	group: "52532F5E67425F1C"
+	icon: {
+		Count: 1
+		id: "stalwart_dungeons:golden_hammer"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0FADD8D8A96DCBA7"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4295FD014E3D5800"
+			tasks: [
+				{
+					id: "40A6AA876BEFD3DD"
+					item: {
+						Count: 1
+						id: "simpleores:mythril_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "095C6D2E09F549B7"
+					item: {
+						Count: 1
+						id: "paladins:paladin_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3A908ED8568C4279"
+			tasks: [
+				{
+					id: "0BC2CBFD6B76D13B"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "521DFB9908C92A81"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "17E89E220CD2DACA"
+			tasks: [{
+				id: "6993A5BE56E815E4"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "470ECEF309E513B7"
+			tasks: [{
+				id: "6B79186D6EED57CD"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "30D9026F9DEED078"
+			tasks: [{
+				id: "267DCE8A252FB68F"
+				item: {
+					Count: 1
+					id: "paladins:iron_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+	title: "Crusader"
+}

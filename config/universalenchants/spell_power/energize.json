@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable"
+  ],
+  "incompatible": [
+    "minecraft:infinity",
+    "minecraft:multishot",
+    "minecraft:power",
+    "minecraft:flame",
+    "spell_power:sunfire",
+    "minecraft:punch",
+    "minecraft:piercing",
+    "majruszsenchantments:incompatibility_curse",
+    "allurement:spread_of_ailments",
+    "allurement:reeling",
+    "spell_power:spell_power",
+    "minecraft:quick_charge",
+    "spell_power:soulfrost"
+  ]
+}

@@ -1,0 +1,20 @@
+
+[structures]
+
+	[structures.global]
+		#How flat does terrain need to be for surface structures to spawn? (in blocks) [default: 4]
+		#Range: 0 ~ 64
+		flatness_delta = 4
+		#How many chunks need to be at least between two structures? (in chunks) [default: 5]
+		#Range: 0 ~ 64
+		min_structure_distance = 5
+		#The default margin around a valhelsia structure if not otherwise specified in the structure json file. [default: 12]
+		default_margin = 12
+
+[blocks]
+
+	[blocks.doused_torch]
+		#Enable/Disable the Doused Torch Feature. If disabled Water will no longer transform normal Torches into Doused Torches. 
+		# Doused Torches will however still generate in structures. [default: false]
+		disable = false
+

@@ -1,0 +1,1257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mid_game"
+	group: "3172DA2E2FE4A37B"
+	icon: "ftbquests:book"
+	id: "049A1A789CCBA808"
+	images: [
+		{
+			height: 3.5d
+			image: "bettericons:textures/items/tile037.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 27.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 1.0d
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 1.25d
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			height: 1.3d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: -40.0d
+			width: 1.0d
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 19.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 1.0d
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 18.5d
+			y: -4.5d
+		}
+		{
+			height: 0.75d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			height: 0.55d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: -20.0d
+			width: 0.55d
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			height: 0.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 0.55d
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			height: 0.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 25.0d
+			width: 0.5d
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			height: 0.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 0.55d
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			height: 0.75d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 25.0d
+			width: 0.5d
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			dependency: "7C742369CC5C8B9E"
+			height: 0.75d
+			image: "cataclysm:textures/particle/cursed_flame.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.5d
+			y: -2.0d
+		}
+		{
+			dependency: "3C652834876CF66B"
+			dev: true
+			height: 1.0d
+			image: "cataclysm:textures/particle/cursed_flame.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 28.5d
+			y: -0.5d
+		}
+		{
+			dependency: "64DECE60E0B6FB6D"
+			height: 0.9d
+			image: "endertrigon:textures/entity/dragon_flame.png"
+			rotation: 5.0d
+			width: 0.9d
+			x: 26.5d
+			y: -0.5d
+		}
+		{
+			dependency: "3FDEF8CE2822DEFB"
+			height: 2.0d
+			image: "endertrigon:textures/entity/dragon_flame.png"
+			rotation: -10.0d
+			width: 2.0d
+			x: 26.5d
+			y: 0.5d
+		}
+		{
+			dependency: "78E025D30CD1E607"
+			height: 0.45d
+			image: "cataclysm:textures/particle/cursed_flame.png"
+			rotation: -5.0d
+			width: 0.45d
+			x: 27.0d
+			y: -2.5d
+		}
+		{
+			dependency: "0BE51A7B2CF00CE8"
+			height: 1.0d
+			image: "endertrigon:textures/entity/dragon_flame.png"
+			rotation: 10.0d
+			width: 1.0d
+			x: 28.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: -40.0d
+			width: 1.25d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: 40.0d
+			width: 1.0d
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: 40.0d
+			width: 0.4d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: -40.0d
+			width: 0.5d
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: 40.0d
+			width: 1.5d
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:item/glowstone_dust"
+			order: 1000
+			rotation: -40.0d
+			width: 1.5d
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			height: 2.75d
+			image: "prodigium_reforged:textures/gui/expert_mode.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 13.0d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14CA102BAD4F6A38"]
+			description: ["Found in the &2Ocean monument&r."]
+			icon: "majruszsdifficulty:elder_guardian_treasure_bag"
+			id: "3B3B33E6A70E1CAF"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "530AD02D154A1F58"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "5E90E3EA1742547D"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EA17A0885361A61"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: "majruszsdifficulty:elder_guardian_treasure_bag"
+					id: "7E8040F0998CD20A"
+					title: "Kill the &5Elder Guardian&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "endrem:main/guardian_eye"
+					criterion: ""
+					disable_toast: true
+					id: "67BD9E46B33852C9"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "78E025D30CD1E607"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "4A351B089ACB26D6"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 3
+					id: "2913551A2D470366"
+					item: "progressivebosses:nether_star_shard"
+					random_bonus: 30
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "300434783D0F1505"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "1787DFC6FDBED8FB"
+					title: "Kill the &5Wither&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "endrem:main/wither_eye"
+					criterion: ""
+					disable_toast: true
+					id: "3A706A75FBBDCAFE"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FDEF8CE2822DEFB"]
+			description: [
+				"To get into the End dimension, you can use one of &6end remastered&r's eye to find the portal. To activate it you will then need at least 12 unique eyes."
+				""
+				"Some eyes are dropped by bosses, some are craftable and some can be found while exploring."
+				"As long as you have 12 different eyes you have enough."
+			]
+			icon: "minecraft:dragon_head"
+			id: "6EB21A5EFC2F6EF2"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "1A5ADAF77FC7C714"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "732706AC81B6F8C5"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					id: "56DD9AB400FF6912"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5655690CE5E7F828"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/sh_difficulty add @p 220"
+					id: "6FF91769476B7760"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "2F5E3A53F186F4F3"
+					title: "Kill the &5Ender Dragon&r and unlock the &9Master Mode&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					disable_toast: true
+					id: "2E822D980F10CBB8"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			id: "42861ECC8C67377F"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7B9BD5A4C2F1D3A3"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "2C0624367D19F3B1"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "4D6ECB9E5C928459"
+					item: "majruszsdifficulty:golden_bandage"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "114EAED80D9E5BC8"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "1A6396831354B5F3"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C22C30E8EA0E749"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6C28758B7F9ABA01"
+				item: "majruszsdifficulty:undead_army_treasure_bag"
+				type: "item"
+			}]
+			title: "Defeat the Undead Army in Expert Mode!"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78E025D30CD1E607"]
+			description: ["Found in the &2Keeping Castle&r. Both bosses are waiting for you..."]
+			id: "0EA710182249A301"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "450AEA99A43E2657"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "48F6A3B7232BD44D"
+					item: "stalwart_dungeons:tungsten_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 6
+					id: "12B22C3B93175109"
+					item: "stalwart_dungeons:blaze_armor_scrap"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_3 true"
+					id: "0D9CD74F2A212D9D"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p stage_mb true"
+					id: "4979AE4D6DF5803E"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"Even though you feel\",\"italic\":\"true\"},{\"text\":\" old spirits rising through the ground\",\"bold\":\"true\"},{\"text\":\", you can now find and mine\"},{\"text\":\" Onyx\",\"bold\":\"true\",\"color\":\"dark_gray\"},{\"text\":\".\"}]"
+					id: "64218CCD3D139652"
+					type: "command"
+				}
+				{
+					id: "37870C0B2A497035"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:ancient_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/skills set @p skills:stage_3 true"
+					id: "3BDEB4F94B19F275"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "704BF5919FF82AB9"
+					item: "stalwart_dungeons:awful_crystal"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ED82335A17A3AF4"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "stalwart_dungeons:nether_keeper"
+					icon: "stalwart_dungeons:keeping_castle_spawner"
+					id: "7A851329C3F650DB"
+					title: "Kill the &5Nether Keeper&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "stalwart_dungeons:awful_ghast"
+					icon: "stalwart_dungeons:awful_dungeon_spawner"
+					id: "5B443EB49F15C3AB"
+					title: "Kill the &5Awful Ghast&r"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill the &5Nether Keeper&r and &5The Awful Ghast&r"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78E025D30CD1E607"]
+			hide: true
+			id: "27D8F0F385A37554"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "758AE61415F0F8B4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "22C57E4C3B2A33D3"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "667175D9AFE4F79A"
+					item: "progressivebosses:nether_star_shard"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "5515296F6AA235E4"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "2C91F2E4CF182B42"
+				title: "Kill the &5Wither&r 15 times"
+				type: "kill"
+				value: 15L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14CA102BAD4F6A38"]
+			hide: true
+			id: "28B617BF86C93248"
+			rewards: [{
+				auto: "no_toast"
+				id: "3471E4B4CDE18E39"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1D824B33CF46B9A2"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			title: "You now have unlocked &8netherite&r"
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0EA710182249A301"]
+			description: ["Find it in the nether"]
+			hide: true
+			id: "099477E4F8EED634"
+			rewards: [{
+				auto: "no_toast"
+				id: "747CBED420376EB1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3B4F63376B8890C1"
+				item: "simpleores:onyx_gem"
+				type: "item"
+			}]
+			title: "You now have unlocked &8onyx&r gems"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["476DC0D49480853F"]
+			description: ["Found in his &2Soul Blacksmith&r structure"]
+			id: "0BE51A7B2CF00CE8"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2EB5744E3FB412B3"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "741DDBF0EC984314"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_aether true"
+					id: "15235E560DDE8FB8"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"You hear something coming from the sky. Such agony... You now have unlocked the\",\"italic\":\"true\"},{\"text\":\" Aether\",\"bold\":\"true\",\"color\":\"yellow\"},{\"text\":\".\"}]"
+					id: "0FBAD140037E4387"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66A187E731D6DA41"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "stalwart_dungeons:nether_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "49BFF0417C3C70C2"
+				title: "Kill the &5Netherite Monstrosity&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B3B33E6A70E1CAF"]
+			description: ["Found at the last floor of the &2Burning Arena&r. Use &9burning ashes&r dropped from Ignited Revenant onto the Altar of Fire"]
+			id: "3FDEF8CE2822DEFB"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "3A5C0FDFA6523858"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "0A15B758C25A82B5"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "1E8D07BB33C38443"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6631511088F0E739"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:bulwark_of_the_flame"
+				id: "469575AC0949000F"
+				title: "Kill &5Ignis&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E4E6F6B59046500"]
+			description: [
+				"Found in the &2Ancient Factory&r deep in the overworld."
+				""
+				"Use a nether star to wake him up"
+			]
+			id: "14CA102BAD4F6A38"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "252666FEC7F347A3"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 2
+					id: "175256B3FB429C90"
+					item: "simpleores:onyx_gem"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_netherite true"
+					id: "3BBD9B1E1CC9CCF8"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/skills set @p skills:stage_n true"
+					id: "219DCB43441B50F9"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D29AD85571CA036"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:emp"
+				id: "1E8C22D71228D269"
+				title: "Kill the &5Harbinger&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BE51A7B2CF00CE8"]
+			description: [
+				"&nTip :&r"
+				""
+				"In the &eAether&r you can mine &eAmbrosium&r."
+				"&eAmbrosium Shards&r can be used to &7reforge modifiers&r of every items (&7even curios items!&r)."
+			]
+			id: "7C742369CC5C8B9E"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7486758638F0AAE2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "36DF0AB234B5B42F"
+					item: {
+						Count: 1
+						id: "aether:golden_parachute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "241910D351F224D3"
+					item: "aether:book_of_lore"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "minecraft:glowstone"
+				id: "0DE749290636BCC1"
+				title: "Enter the Aether dimension"
+				type: "dimension"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C742369CC5C8B9E"]
+			description: [
+				"Located in the &2Bronze Dungeon&r."
+				""
+				"&7(the aether bosses are not balanced yet)&r"
+			]
+			icon: {
+				Count: 1
+				id: "majruszsdifficulty:enderium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C652834876CF66B"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "71F29CD532D8B11D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					auto: "invisible"
+					command: "/skills set @p skills:stage_a true"
+					id: "5BEE49A9C1A77859"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"You can feel the sky getting stronger, you can now mine \",\"italic\":\"true\"},{\"text\":\"Veridium\",\"bold\":true,\"color\":\"blue\"},{\"text\":\".\"}]\""
+					id: "1785972DD82E9F6F"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0276B5A52DA2B124"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "aether:slider"
+					icon: {
+						Count: 1
+						id: "majruszsdifficulty:enderium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6B4790D825780CDF"
+					title: "Defeat the &5Slider&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "aether:bronze_dungeon"
+					criterion: ""
+					disable_toast: true
+					id: "71DC793BF68AE368"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3C652834876CF66B"]
+			description: [
+				"Located in the &2Silver Dungeon&r."
+				""
+				"&7(the aether bosses are not balanced yet)&r"
+			]
+			icon: {
+				Count: 1
+				id: "aether:valkyrie_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "777E4D10DDDACAD7"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "157CC496056702D4"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "384F467C2C7BBA37"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "aether:valkyrie_queen"
+					icon: {
+						Count: 1
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "61BB677C2D9111EC"
+					title: "Kill the &5Valkyrie Queen&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "aether:silver_dungeon"
+					criterion: ""
+					disable_toast: true
+					id: "5CC843CB4A61C2EC"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AC131C918D30C93"]
+			description: [
+				"Located in the &2Gold Dungeon&r."
+				""
+				"&7(the aether bosses are not balanced yet)&r"
+			]
+			icon: "irons_spellbooks:fire_upgrade_orb"
+			id: "64DECE60E0B6FB6D"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "489887152A567929"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "456215B6CDFAC09B"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "aether:sun_spirit"
+					icon: "irons_spellbooks:fire_upgrade_orb"
+					id: "13C396BB9CF8F116"
+					title: "Defeat the &5Sun Spirit&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "aether:gold_dungeon"
+					criterion: ""
+					disable_toast: true
+					id: "0292B82B728632BB"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20AFC310D0AC8AB0"]
+			description: ["Found in the &2Blossom Arena&r."]
+			icon: "minecraft:spore_blossom"
+			id: "6AC131C918D30C93"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7332A13149BABBC6"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "112A3B040DB513C1"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					icon: "minecraft:spore_blossom"
+					id: "5B7ACDD77C09B465"
+					title: "Kill the &5Void Blossom&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
+					criterion: ""
+					disable_toast: true
+					id: "37C693D169EB44F1"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["777E4D10DDDACAD7"]
+			description: [
+				"You can find it in the &2Lich Tower&r."
+				""
+				"You will need to put &9Soul Stars&r into the &9Chiseled Altars&r. "
+			]
+			icon: "bosses_of_mass_destruction:mob_ward"
+			id: "20AFC310D0AC8AB0"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "no_toast"
+				id: "540A7795CCA91D18"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:mob_ward"
+					id: "43E2430FC6169174"
+					title: "Kill the &5Night Lich&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+					criterion: ""
+					disable_toast: true
+					id: "032E7F1C90512375"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0EA710182249A301"]
+			description: ["Found in the &2Gauntlet Arena&r."]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "476DC0D49480853F"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "769B329C24E04696"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3301307C66DDC272"
+					item: "irons_spellbooks:blank_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21533FF0C5725142"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					icon: "bosses_of_mass_destruction:blazing_eye"
+					id: "461CA47E0065DD97"
+					title: "Defeat the &5Nether Gauntlet&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+					criterion: ""
+					disable_toast: true
+					id: "44252BB21C9099DD"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64DECE60E0B6FB6D"]
+			description: ["Found in the &2Sunken City&r, use an &9Abyssal Sacrifice&r on the Abyssal Altar to summon the creature. "]
+			id: "2E4E6F6B59046500"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "407423DFC1531B8F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A80046CC245D29A"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:altar_of_abyss"
+				id: "20108F7B32AB038C"
+				title: "Defeath &5The Leviathan&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+	]
+	title: "Expert Mode"
+}

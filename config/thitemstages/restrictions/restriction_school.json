@@ -1,0 +1,109 @@
+{
+  "Restriction Data": {
+    "stage": "stage_wizard_school",
+    "itemList": [
+      {
+        "item": "irons_spellbooks:pyromancer_helmet"
+      },
+      {
+        "item": "irons_spellbooks:pyromancer_leggings"
+      },
+      {
+        "item": "irons_spellbooks:pyromancer_chestplate"
+      },
+      {
+        "item": "irons_spellbooks:pyromancer_boots"
+      },
+      {
+        "item": "irons_spellbooks:pyromancer_helmet"
+      },
+      {
+        "item": "irons_spellbooks:pyromancer_leggings"
+      },
+      {
+        "item": "irons_spellbooks:pyromancer_chestplate"
+      },
+      {
+        "item": "irons_spellbooks:pyromancer_boots"
+      },
+      {
+        "item": "irons_spellbooks:archevoker_helmet"
+      },
+      {
+        "item": "irons_spellbooks:archevoker_leggings"
+      },
+      {
+        "item": "irons_spellbooks:archevoker_chestplate"
+      },
+      {
+        "item": "irons_spellbooks:archevoker_boots"
+      },
+      {
+        "item": "irons_spellbooks:cultist_helmet"
+      },
+      {
+        "item": "irons_spellbooks:cultist_leggings"
+      },
+      {
+        "item": "irons_spellbooks:cultist_chestplate"
+      },
+      {
+        "item": "irons_spellbooks:cultist_boots"
+      },
+      {
+        "item": "irons_spellbooks:cryomancer_helmet"
+      },
+      {
+        "item": "irons_spellbooks:cryomancer_leggings"
+      },
+      {
+        "item": "irons_spellbooks:cryomancer_chestplate"
+      },
+      {
+        "item": "irons_spellbooks:cryomancer_boots"
+      },
+      {
+        "item": "irons_spellbooks:shadowwalker_helmet"
+      },
+      {
+        "item": "irons_spellbooks:shadowwalker_leggings"
+      },
+      {
+        "item": "irons_spellbooks:shadowwalker_chestplate"
+      },
+      {
+        "item": "irons_spellbooks:shadowwalker_boots"
+      },
+      {
+        "item": "irons_spellbooks:plagued_helmet"
+      },
+      {
+        "item": "irons_spellbooks:plagued_leggings"
+      },
+      {
+        "item": "irons_spellbooks:plagued_chestplate"
+      },
+      {
+        "item": "irons_spellbooks:plagued_boots"
+      }
+    ],
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Wizard's skill tree)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

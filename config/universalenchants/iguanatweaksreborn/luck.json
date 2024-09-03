@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:luck",
+    "minecraft:shears",
+    "apotheosis:fishing_tome",
+    "apotheosis:pickaxe_tome",
+    "apotheosis:weapon_tome",
+    "simplecorelib:test_shears",
+    "quark:pickarang",
+    "quark:flamerang",
+    "simpleores:copper_shears",
+    "simpleores:tin_shears",
+    "simpleores:mythril_shears",
+    "simpleores:adamantium_shears",
+    "simpleores:onyx_shears"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

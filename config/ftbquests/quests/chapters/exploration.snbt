@@ -1,0 +1,957 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "04557421BF808B7D"
+	icon: {
+		Count: 1
+		id: "alexsmobs:roadrunner_boots"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5E388EE081CDE755"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "553959824CEF85A7"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "6A13B605B6FE1A2C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "2BCCF619EB04B635"
+					item: "minecraft:cooked_beef"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "246C0DF29DFAC7BA"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					id: "162FD047B105A3D6"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F696ACD09516DC0"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3372247E9D6A1248"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 50000
+			}]
+			title: "A humble begining"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["553959824CEF85A7"]
+			id: "49DAAFAE970EA86B"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "23EB2854F14340DB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F995240D67897F2"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "344D622CA7A52048"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D0586D2C0B7AAB5"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0C8EBB1A8127CBD3"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 250000
+			}]
+			title: "Be carefull not to trip..."
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49DAAFAE970EA86B"]
+			description: [""]
+			id: "245A8BD6DC7519E4"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "471CB414F624C990"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "2EEF34DF318EE97B"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CD3D17142F95085"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4E1A38128BEBA27C"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1357600
+			}]
+			title: "Leg day"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["245A8BD6DC7519E4"]
+			id: "102C10A8940860BE"
+			rewards: [
+				{
+					id: "2FFD9D80548A1F79"
+					item: "artifacts:cloud_in_a_bottle"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "4E609FCC0FE7A7EC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "300C65833EE35C44"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65456494907708B8"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "majruszsdifficulty:enderium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0BBF08E7D60AD978"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 2900000
+			}]
+			title: "If only you were doing that outside"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:grass_block"
+			id: "36881E899CEDCD73"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "33CC91CCEEFE8959"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "331108E339F8C761"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42AA9CF569856594"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "23D03D127AB5EBFE"
+				stat: "minecraft:sprint_one_cm"
+				type: "stat"
+				value: 300000
+			}]
+			title: "Fast as f*"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F2E50059566AEBE"]
+			hide: true
+			id: "6F46DA0CE7915EA5"
+			rewards: [{
+				auto: "no_toast"
+				id: "24F602941B587E6F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				icon: "minecraft:nether_bricks"
+				id: "58C5DD2A2386D6FA"
+				title: "Enter a nether fortress"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F2E50059566AEBE"]
+			hide: true
+			id: "40C9AFC1329502B4"
+			rewards: [{
+				auto: "no_toast"
+				id: "7849E1C994A6B348"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				icon: "minecraft:nether_gold_ore"
+				id: "23B94FF0A2227367"
+				title: "Enter a nether bastion"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F2E50059566AEBE"]
+			hide: true
+			id: "3E5345FF29F8F505"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "4EE4FCAB4CF0FA62"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "17F5438D4D3F4419"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				icon: "minecraft:netherrack"
+				id: "52EA2A28657B7423"
+				title: "Explore all nether biomes"
+				type: "advancement"
+			}]
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["294BCF112F074116"]
+			hide: true
+			id: "68B0C1B1996D608C"
+			rewards: [{
+				auto: "no_toast"
+				id: "58FE7B49D67625A1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				icon: "minecraft:ender_pearl"
+				id: "3C67D1882D620555"
+				title: "Enter an end city"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "50808532F58ECF3E"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "3D97B33ED85B3545"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "39873CB75A234ABE"
+					item: "artifacts:everlasting_beef"
+					type: "item"
+				}
+				{
+					id: "1A602B0F21ECF2BB"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "7CCFC70793464007"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "768BA4C101B245BC"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				icon: "minecraft:mangrove_roots"
+				id: "712EDC0F4C7EDF29"
+				title: "Discover every vanilla biomes and more"
+				type: "advancement"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			id: "2113A0F7C9F8077D"
+			rewards: [{
+				auto: "no_toast"
+				id: "51683526EAF7A994"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				icon: "minecraft:dark_oak_log"
+				id: "2D9FAFFBF7064D1F"
+				type: "biome"
+			}]
+			title: "Visit a Dark Forest"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "16933044F78649C9"
+			rewards: [{
+				auto: "no_toast"
+				id: "3B8DC93924D272E3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "minecraft:mushroom_fields"
+				icon: "minecraft:mycelium"
+				id: "4AA200255933157A"
+				type: "biome"
+			}]
+			title: "Find a Mushroom Island"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "294BCF112F074116"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "133BF03F129513DA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "453702509A7C9CAA"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7704B21334B53693"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				biome: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "731C2059B19D0FCD"
+				type: "biome"
+			}]
+			title: "Enter The End"
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Use it to skip the night without setting your spawnpoint."
+				"Very useful while exploring"
+			]
+			id: "05C411967C23076E"
+			rewards: [{
+				auto: "no_toast"
+				id: "303064AE37A6F7C3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4D4A3A4271D88445"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "Craft a sleeping bag"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Use it to skip the day"]
+			id: "4F8C256146E5A62D"
+			rewards: [{
+				auto: "no_toast"
+				id: "76F215CF77F9F00E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "58F9F922FBEF791A"
+					item: "comforts:hammock_white"
+					type: "item"
+				}
+				{
+					id: "77169D278033D416"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+			]
+			title: "Craft an Hammock and a rope and nail"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["294BCF112F074116"]
+			hide: true
+			id: "621E46F3A4C10A15"
+			rewards: [{
+				id: "5F93208E879FD2DF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "6F6E363F6EB7A42A"
+				type: "advancement"
+			}]
+			title: "Explore end's structures"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F2E50059566AEBE"]
+			hide: true
+			id: "1C1B9CF465CC8188"
+			rewards: [{
+				auto: "no_toast"
+				id: "7B7F37C1F552F465"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "dungeons_plus:nether/find_soul_prison"
+				criterion: ""
+				id: "7E16AC7305DE0B00"
+				title: "Find a caged Ghasts dungeon"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F2E50059566AEBE"]
+			hide: true
+			id: "4381DD6F74983CD1"
+			rewards: [{
+				auto: "no_toast"
+				id: "7AD41131804FBE4D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "bygonenether:catacomb"
+				criterion: ""
+				id: "48CD8F99D4830060"
+				title: "Find a Catacomb"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["294BCF112F074116"]
+			hide: true
+			id: "681C905B9C33D28B"
+			rewards: [{
+				id: "6636E756508C17EB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "majruszs_difficulty:progressive_difficulty/find_flying_phantom"
+				criterion: ""
+				icon: "minecraft:phantom_membrane"
+				id: "47356BE14BF89354"
+				type: "advancement"
+			}]
+			title: "Find a flying phantom"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:crimson_nylium"
+			id: "0F2E50059566AEBE"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "77E51002F67B0C9F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "497D9516394CF8B6"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:nether_wart"
+				id: "7B7B3C2FC504186E"
+				type: "dimension"
+			}]
+			title: "Enter the Nether"
+			x: 0.75d
+			y: 3.0d
+		}
+		{
+			id: "5C85C8E30EEE17FE"
+			rewards: [{
+				auto: "no_toast"
+				id: "1E570556C028A4A2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "terralith:alpha_islands"
+				icon: "regions_unexplored:alpha_grass_block"
+				id: "10BE2AA5A0DE5005"
+				type: "biome"
+			}]
+			title: "Nostalgic isn't it ?"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "4C8350F6914D397E"
+			rewards: [{
+				auto: "no_toast"
+				id: "6B552E9E2BC91F18"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "terralith:emerald_peaks"
+				icon: "minecraft:emerald_ore"
+				id: "6AB0CE6464781BA1"
+				type: "biome"
+			}]
+			title: "Climb the emeral peaks"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "198F583945866FB6"
+			rewards: [{
+				auto: "no_toast"
+				id: "7033DE0DAB61E8BA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "terralith:painted_mountains"
+				icon: "minecraft:orange_terracotta"
+				id: "3585FE2CCCA44E39"
+				type: "biome"
+			}]
+			title: "Find the colorful painted moutains"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "2F8AB47CFE80A5D1"
+			rewards: [{
+				auto: "no_toast"
+				id: "06107E644732B6CB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "terralith:volcanic_crater"
+				icon: "minecraft:lava_bucket"
+				id: "20DE75A81DF1F865"
+				type: "biome"
+			}]
+			title: "Do not get burned!"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "261166A86CFF91F6"
+			rewards: [{
+				auto: "no_toast"
+				id: "6933093126376694"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "670D0284F9FC184D"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an iron glider"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["261166A86CFF91F6"]
+			description: ["Use it in a smithing table with a glider. You will then be able to use the glider during rain/thunderstorms."]
+			hide: true
+			id: "539D9A86161D23FF"
+			rewards: [
+				{
+					id: "6A6D427C5A292A1D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72A409BA7E291AFE"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "22892B133186208C"
+				item: "vc_gliders:copper_upgrade"
+				type: "item"
+			}]
+			title: "Craft the copper upgrade"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F2E50059566AEBE"]
+			hide: true
+			id: "4214ACE6E3469233"
+			rewards: [{
+				auto: "no_toast"
+				id: "08C2898CDC63670D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "minecraft:nether_brick"
+				id: "1E9499BABC565A07"
+				structure: "bygonenether:citadel"
+				title: "Find a Citadel"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F2E50059566AEBE"]
+			hide: true
+			id: "3D7D11D85D2C13A5"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "63A23BC3301AE2E0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5E06B10F73816B97"
+					item: "irons_spellbooks:hogskin"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "piglinproliferation:piglin_alchemist_head"
+				id: "13FF8EEB1FECA869"
+				structure: "bygonenether:piglin_manor"
+				title: "Find a Piglin Manor"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F2E50059566AEBE"]
+			hide: true
+			id: "4174FCEC1DD1D86E"
+			rewards: [{
+				auto: "no_toast"
+				id: "7C6E13A0332D5AB4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "gardens_of_the_dead:soulblight_forest"
+				icon: "gardens_of_the_dead:soulblight_fungus"
+				id: "19E7859D50DCF8A5"
+				title: "Visit a soulblight forest"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F2E50059566AEBE"]
+			hide: true
+			id: "54998B4FD08FD7EA"
+			rewards: [{
+				auto: "no_toast"
+				id: "38E6D69B04DE4930"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "gardens_of_the_dead:whistling_woods"
+				icon: "gardens_of_the_dead:whistlecane"
+				id: "401A2FDAB6C26FD5"
+				title: "Visit a whistling biome"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "406879C4C9D7B0FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FD01C7BD5DA4894"
+				table_id: 5533560640127059513L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "3334EAE72120B7B1"
+				title: "Enter the Aether"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["294BCF112F074116"]
+			hide: true
+			id: "400B087189CA14AE"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0EB0567BAC7562D3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "28643608F8E30D59"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DCD6119810048CF"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an Elytra"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["400B087189CA14AE"]
+			hide: true
+			id: "6F86A910DA0F6330"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "583236F71194D814"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F8C7B705BD4888F"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0995986EBDA14D05"
+				item: {
+					Count: 1
+					id: "alexsmobs:tarantula_hawk_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrade!"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["406879C4C9D7B0FD"]
+			description: ["This item can be used as a reforge material for tools/armors modifier !"]
+			hide: true
+			id: "62D948E2D36892DE"
+			rewards: [{
+				auto: "no_toast"
+				id: "45DD705B9DEBC3A9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "460C32AC7A60D775"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			title: "Obtain some Ambrosium Shards"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["406879C4C9D7B0FD"]
+			hide: true
+			id: "4B4E29EFC92EC3E3"
+			rewards: [{
+				auto: "no_toast"
+				id: "3155388E84077701"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "aether_redux:frosted_forests"
+				icon: "fantasyfurniture:decorations/snowballs"
+				id: "0EF63C58C8EC1A0A"
+				type: "biome"
+			}]
+			title: "Bit chilly isn't it ?"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["406879C4C9D7B0FD"]
+			hide: true
+			id: "272015D864A06FCE"
+			rewards: [{
+				auto: "no_toast"
+				id: "16DCFB4E1066BA00"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "aether_redux:the_blight"
+				icon: "aether_redux:blighted_skyroot_leaves"
+				id: "6AE4148949CCEBF6"
+				type: "biome"
+			}]
+			title: "Find a Blighted biome"
+			x: 4.0d
+			y: -4.0d
+		}
+	]
+	title: "Exploration"
+}

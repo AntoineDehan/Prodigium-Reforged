@@ -1,0 +1,18 @@
+[
+  {
+    "id": "minecraft:regeneration",
+    "duration": 900,
+    "ambient": true
+  },
+  {
+    "id": "minecraft:absorption",
+    "duration": 1200,
+    "amplifier": 1,
+    "ambient": true
+  },
+  {
+    "id": "minecraft:speed",
+    "duration": 1200,
+    "ambient": true
+  }
+]

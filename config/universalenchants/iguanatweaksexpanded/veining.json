@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger"
+  ],
+  "incompatible": [
+    "iguanatweaksexpanded:blasting",
+    "minecraft:efficiency",
+    "majruszsenchantments:incompatibility_curse",
+    "iguanatweaksexpanded:expanded"
+  ]
+}

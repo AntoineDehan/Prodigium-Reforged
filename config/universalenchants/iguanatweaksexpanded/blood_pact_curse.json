@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:vanishable"
+  ],
+  "incompatible": [
+    "minecraft:mending",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

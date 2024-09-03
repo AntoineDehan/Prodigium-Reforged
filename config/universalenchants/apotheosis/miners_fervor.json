@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "apotheosis:pickaxe_tome"
+  ],
+  "incompatible": [
+    "minecraft:efficiency",
+    "majruszsenchantments:fatigue_curse",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Restriction Data": {
+    "stage": "stage_nether",
+    "itemList": [
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+	{
+	"dimension": "minecraft:the_nether",
+	"message": "You have to defeat the Frostmaw before entering this dimension"
+	}
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

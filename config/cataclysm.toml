@@ -1,0 +1,472 @@
+
+[Etc]
+	#Lava Opacity for the Ignitium Helemt.
+	#Range: 0.01 ~ 1.0
+	lavaVisionOpacity = 0.5
+	#Whether to disable certain aspects of the Ignitium Helemt. Enable if issues with shaders persist.
+	shadersCompat = false
+	#ScreenShake(on/off)
+	"ScreenShake(on/off)" = true
+	#custombossbar(on/off)
+	"custombossbar(on/off)" = true
+	#AddedServerlist(on/off)
+	"AddedServerlist(on/off)" = false
+	#BossMusic(on/off)
+	"BossMusic(on/off)" = true
+	#BossMusicVolume(denominator)
+	#Range: 1 ~ 1000000
+	BossMusicVolume = 1
+
+[Weapon]
+	#Armor Infinity Durability(on/off)
+	"Armor Infinity Durability(on/off)" = false
+	#Bulwark of the Flame's Cooldown
+	#Range: 0 ~ 1000000
+	BulwarkOfTheFlameCooldown = 80
+	#Gauntlet of Bulwark's Cooldown
+	#Range: 0 ~ 1000000
+	GauntletOfBulwarkCooldown = 80
+	#Infernal Forge's Cooldown
+	#Range: 0 ~ 1000000
+	InfernalForgeCooldown = 80
+	#Void Forge's Cooldown
+	#Range: 0 ~ 1000000
+	VoidForgeCooldown = 120
+	#The Incinerator's Cooldown
+	#Range: 0 ~ 1000000
+	TheIncineratorCooldown = 400
+	#Wither Assault Shoulder Weapon's Missile Cooldown
+	#Range: 0 ~ 1000000
+	WASWMissileCooldown = 40
+	#WASW's Wither Missile's Damage
+	#Range: 0.0 ~ 1000000.0
+	"WASW's WitherMissiledamage" = 40.0
+	#Wither Assault Shoulder Weapon's Howitzer Cooldown
+	#Range: 0 ~ 1000000
+	WASWHowitzerCooldown = 100
+	#Void Assault Shoulder Weapon's Cooldown
+	#Range: 0 ~ 1000000
+	VASWCooldown = 120
+	#Void Core's Cooldown
+	#Range: 0 ~ 1000000
+	VoidCoreCooldown = 160
+	#Sandstorm's Timer
+	#Range: 0 ~ 1000000
+	SandstormTimer = 160
+
+["Entity damage"]
+	#Void Rune's Damage
+	#Range: 0.0 ~ 1000000.0
+	Voidrunedamage = 9.0
+	#Ashen Breath's Damage
+	#Range: 0.0 ~ 1000000.0
+	Ashenbreathdamage = 8.0
+	#Death Laser's Damage
+	#Range: 0.0 ~ 1000000.0
+	DeathLaserdamage = 8.0
+	#Death Laser's Hp Damage
+	#Range: 0.0 ~ 1.0
+	DeathLaserHpdamage = 0.1
+	#Player's Laser's Damage
+	#Range: 0.0 ~ 1000000.0
+	Laserdamage = 7.0
+	#Blazing Bone's Damage
+	#Range: 0.0 ~ 1000000.0
+	BlazingBonedamage = 8.0
+	#Lionfish Spike's Damage
+	#Range: 0.0 ~ 1000000.0
+	LionfishSpikedamage = 5.0
+	#Wither Howizter's Damage
+	#Range: 0.0 ~ 1000000.0
+	WitherHowizterdamage = 12.0
+	#Dimensional Rift's Damage
+	#Range: 0.0 ~ 1000000.0
+	DimensionalRiftdamage = 15.0
+	#Wither Homing Missile's Damage
+	#Range: 0.0 ~ 1000000.0
+	WitherHomingMissiledamage = 5.0
+	#Abyss Blast's Damage
+	#Range: 0.0 ~ 1000000.0
+	AbyssBlastdamage = 15.0
+	#Abyss Blast's Hp Damage
+	#Range: 0.0 ~ 1.0
+	AbyssBlastHpdamage = 0.2
+	#Abyss Orb's Damage
+	#Range: 0.0 ~ 1000000.0
+	AbyssOrbdamage = 5.0
+	#Lava bomb's Radius
+	#Range: 1 ~ 7
+	Lavabombradius = 2
+	#Amethyst Cluster's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Amethyst Cluster Damage" = 15.0
+	#Sandstorm's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Sandstorm Damage" = 8.0
+	#Ancient Desert Stele's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Ancient Desert Stele Damage" = 20.0
+
+["Ender Guardian"]
+	#EnderGuardian's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	EnderGuardianHealthMultiplier = 3.2
+	#EnderGuardian's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	EnderGuardianDamageMultiplier = 4.0
+	#EnderGuardian's DamageCap
+	#Range: 0.0 ~ 1000000.0
+	EnderGuardianDamageCap = 28.0
+	#EnderGuardian's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	EnderGuardianNatureHealing = 10.0
+	#Ender guardian's block breaking ignore the MobGriefing
+	EnderguardianBlockBreaking = true
+	#Guardian's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Guardian's prevent attacks from far away Range" = 21.0
+	#Guardian's gravity Punch Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Guardian's gravity Punch Hp Damage" = 0.15
+	#Guardian's Teleport attack Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Guardian's Teleport attack Hp Damage" = 0.1
+	#Guardian's Punch Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Guardian's knockback Hp Damage" = 0.06
+	#Guardian's Uppercut Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Guardian's Uppercut Hp Damage" = 0.2
+	#Guardian's RocketPunch Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Guardian's RocketPunch Hp Damage" = 0.15
+	#Guardian's etc area attack Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Guardian's area attack Hp Damage" = 0.12
+	#EnderGuardianBlockBreaking radius
+	#Range: 0 ~ 20
+	"EnderGuardianBlockBreaking X" = 15
+	#EnderGuardianBlockBreaking radius
+	#Range: 0 ~ 10
+	"EnderGuardianBlockBreaking Y" = 2
+	#EnderGuardianBlockBreaking radius
+	#Range: 0 ~ 20
+	"EnderGuardianBlockBreaking Z" = 15
+
+["Netherite Monstrosity"]
+	#Monstrosity's Lavabomb magazine.
+	#Range: 1 ~ 1000000
+	LavabombMagazine = 2
+	#Monstrosity's Lavabomb amount
+	#Range: 1 ~ 1000000
+	Lavabombamount = 3
+	#Monstrosity's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityHealthMultiplier = 1.8
+	#Monstrosity's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityDamageMultiplier = 6.5
+	#Monstrosity's Healing Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityHealingMultiplier = 1.0
+	# Monstrosity's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityNatureHealing = 10.0
+	#Monstrosity's DamageCap
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityDamageCap = 25.0
+	#Monstrosity's bodyBlocking verdict
+	NetheritemonstrosityBodyBloking = true
+	#Monstrosity's attack Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Monstrosity's attack Hp Damage" = 0.12
+	#Monstrosity's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Monstrosity's prevent attacks from far away Range" = 21.0
+
+["Ender Golem"]
+	#Ender Golem's block breaking ignore the MobGriefing
+	EndergolemBlockBreaking = false
+	#Endergolem's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Endergolem's prevent attacks from far away Range" = 18.0
+	#Golem's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	GolemHealthMultiplier = 7.5
+	#Golem's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	GolemDamageMultiplier = 15.0
+
+[Ignis]
+	#Ignis's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	IgnisHealthMultiplier = 2.4
+	#Ignis's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	IgnisDamageMultiplier = 4.5
+	#Ignis's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	IgnisNatureHealing = 10.0
+	#Ignis's Healing Multiplier
+	#Range: 0.0 ~ 1000000.0
+	IgnisHealingMultiplier = 1.0
+	#Ignis's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Ignis's prevent attacks from far away Range" = 21.0
+	#Ignis's DamageCap
+	#Range: 0.0 ~ 1000000.0
+	IgnisDamageCap = 25.0
+	#Ignis's cracked block breaking ignore the MobGriefing
+	IgnisBlockBreaking = true
+
+[revenant]
+	#Revenant's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	RevenantHealthMultiplier = 1.2
+	#Revenant's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	RevenantDamageMultiplier = 1.2
+
+["The Prowler"]
+	#The Prowler's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"The Prowler's prevent attacks from far away Range" = 18.0
+	#Prowler's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	ProwlerHealthMultiplier = 1.8
+	#Prowler's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	ProwlerDamageMultiplier = 1.5
+
+["The Harbinger"]
+	#Harbinger's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	HarbingerHealthMultiplier = 1.9
+	#Harbinger's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	HarbingerDamageMultiplier = 4.5
+	#Harbinger's Healing Multiplier
+	#Range: 0.0 ~ 1000000.0
+	HarbingerHealingMultiplier = 1.0
+	#Harbinger's Wither Missile's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Harbinger's WitherMissiledamage" = 8.0
+	#Harbinger's laser's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Harbinger's laser damage" = 3.4
+	#Harbinger's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"The Harbinger's prevent attacks from far away Range" = 35.0
+	#Harbinger's DamageCap
+	#Range: 0.0 ~ 1000000.0
+	"The Harbinger DamageCap" = 23.0
+	#Harbinger's lasers can light a fire in MobGriefing
+	"The Harbinger Light A Fire" = true
+	#The Harbinger's charge attack Hp Damage
+	#Range: 0.0 ~ 1.0
+	"The Harbinger's charge attack Hp Damage" = 0.06
+
+["The Leviathan"]
+	#Leviathan's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	LeviathanHealthMultiplier = 1.6
+	#Leviathan's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	LeviathanDamageMultiplier = 1.2
+	#Leviathan's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	LeviathanNatureHealing = 10.0
+	#Leviathan's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Leviathan's prevent attacks from far away Range" = 40.0
+	#Leviathan's Bite Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Leviathan's Bite Hp Damage" = 0.2
+	#Leviathan's Rush Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Leviathan's Rush Hp Damage" = 0.06
+	#Leviathan's TailSwing Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Leviathan's TailSwing Hp Damage" = 0.1
+	#Leviathan's Tentacle Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Leviathan's Tentacle Hp Damage" = 0.04
+	#Leviathan's DamageCap
+	#Range: 0.0 ~ 1000000.0
+	LeviathanDamageCap = 25.0
+	#Leviathan's block breaking ignore the MobGriefing
+	LeviathanBlockBreaking = true
+	#Leviathan Immune Out of Water
+	LeviathanImmuneOutofWater = true
+
+["The Baby Leviathan"]
+	#BabyLeviathan's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	BabyLeviathanHealthMultiplier = 1.25
+	#BabyLeviathan's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	BabyLeviathanDamageMultiplier = 1.25
+
+["Modern Remnant"]
+	#Modern Remnant's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	ModernRemnantHealthMultiplier = 1.2
+	#Modern Remnant's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	ModernRemnantDamageMultiplier = 1.2
+
+["Amethyst Crab"]
+	#Amethyst Crab's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AmethystCrabHealthMultiplier = 2.0
+	#Amethyst Crab's EarthQuake Damage
+	#Range: 0.0 ~ 1000000.0
+	AmethystCrabEarthQuakeDamage = 6.0
+	#Amethyst Crab's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AmethystCrabDamageMultiplier = 1.2
+
+["Ancient Remnant"]
+	#Ancient Remnant's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AncientRemnantHealthMultiplier = 1.8
+	#Ancient Remnant's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AncientRemnantDamageMultiplier = 1.5
+	#AncientRemnant's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	AncientRemnantNatureHealing = 10.0
+	#Ancient Remnant's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Ancient Remnant's prevent attacks from far away Range" = 18.0
+	#Ancient Remnant's DamageCap
+	#Range: 0.0 ~ 1000000.0
+	AncientRemnantCap = 25.0
+	#Ancient Remnant's block breaking ignore the MobGriefing
+	AncientRemnantBlockBreaking = true
+	#Remnant's Charge Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Remnant's Charge Hp Damage" = 0.08
+	#Remnant's Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Remnant's Normal attack Hp Damage" = 0.06
+	#Remnant's Stomp Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Remnant's Stomp Hp Damage" = 0.04
+	#Remnant's EarthQuake Damage
+	#Range: 0.0 ~ 1000000.0
+	"Remnant's EarthQuakeDamage" = 8.3
+
+[Koboleton]
+	#Cause Koboleton to Drop Item In Hand Percent
+	#Range: 0.0 ~ 100.0
+	CauseKoboletontoDropItemInHandPercent = 5.0
+
+[Kobolediator]
+	#Kobolediator's block breaking ignore the MobGriefing
+	KobolediatorBlockBreaking = false
+	#Kobolediator's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	KobolediatorHealthMultiplier = 1.2
+	#Kobolediator's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	KobolediatorDamageMultiplier = 1.2
+
+[wadjet]
+	#Wadjet's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	WadjetHealthMultiplier = 1.2
+	#Wadjet's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	WadjetDamageMultiplier = 1.2
+
+[Maledictus]
+	#Maledictus's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MaledictusHealthMultiplier = 1.8
+	#Maledictus's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MaledictusDamageMultiplier = 1.5
+	#Maledictus's DamageCap
+	#Range: 0.0 ~ 1000000.0
+	MaledictusDamageCap = 25.0
+	#Maledictus's melee Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's melee Hp Damage" = 0.06
+	#Maledictus's Shock wave Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's Shock Wave Hp Damage" = 0.04
+	#Maledictus's AOE Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's AOE Hp Damage" = 0.18
+	#Maledictus's flying Smash Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's Flying Smash Hp Damage" = 0.12
+	#Maledictus's Jump Smash Hp Damage
+	#Range: 0.0 ~ 1.0
+	"Maledictus's Jump Smash Hp Damage" = 0.1
+
+[spawning]
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	DeeplingSpawnWeight = 2
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	DeeplingSpawnRolls = 30
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	DeeplingBruteSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	DeeplingBruteSpawnRolls = 50
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	DeeplingAnglerSpawnWeight = 2
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	DeeplingAnglerSpawnRolls = 30
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	DeeplingPriestSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	DeeplingPriestSpawnRolls = 70
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	DeeplingWarlockSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	DeeplingWarlockSpawnRolls = 70
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	CoralgolemSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	CoralgolemSpawnRolls = 70
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	AmethystCrabSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	AmethystCrabSpawnRolls = 100
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	KoboletonSpawnWeight = 2
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	KoboletonSpawnRolls = 30
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	IgnitedBerserkerSpawnWeight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	IgnitedBerserkerSpawnRolls = 30
+
+["World Generation"]
+	#Defines the area in which the structure check for height variances (1 means 9 chunks will be checked (center + area around it)) - 0 disables this check
+	#Range: 0 ~ 5
+	cursedPyramidCheckRange = 2
+	#Allowed height variance for the check - if the variance is lower than this value the structure will not spawn (has no effect if the are check is disabled)
+	#Range: 0 ~ 32
+	cursedPyramidHeightVariance = 2
+

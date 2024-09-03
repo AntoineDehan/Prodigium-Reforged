@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:accepts_smartness"
+  ],
+  "incompatible": [
+    "minecraft:looting",
+    "minecraft:fortune",
+    "iguanatweaksreborn:luck",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:luck_of_the_sea"
+  ]
+}

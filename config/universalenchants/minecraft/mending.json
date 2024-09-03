@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable",
+    "apotheosis:boots_tome",
+    "apotheosis:bow_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:fishing_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "apotheosis:pickaxe_tome",
+    "apotheosis:weapon_tome"
+  ],
+  "incompatible": [
+    "allurement:reforming",
+    "allurement:alleviating",
+    "majruszsenchantments:incompatibility_curse",
+    "apotheosis:life_mending"
+  ]
+}

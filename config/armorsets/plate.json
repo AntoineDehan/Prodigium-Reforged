@@ -1,0 +1,47 @@
+{
+  "armorSetName": "plate_armor",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecolonies:plate_armor_helmet"
+  },
+  "chest": {
+    "itemKey": "minecolonies:plate_armor_chest"
+  },
+  "legs": {
+    "itemKey": "minecolonies:plate_armor_legs"
+  },
+  "boots": {
+    "itemKey": "minecolonies:plate_armor_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 5,
+      "modifierUUID": "2d9ccc0b-dc1e-472b-b012-0f00e4f1e0e9",
+      "description": "+5 Armor"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 0.0
+    },
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:fortify",
+      "value": 1.0,
+      "interactionDuration": 1200,
+      "conditions": [
+        {
+          "type": "onblock",
+          "extra": "minecraft:dirt_path"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:fortify",
+      "value": 0.0
+    }
+  ]
+}

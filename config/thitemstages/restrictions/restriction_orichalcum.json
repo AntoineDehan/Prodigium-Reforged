@@ -1,0 +1,44 @@
+{
+  "Restriction Data": {
+    "stage": "stage_ranged_orichalcum",
+    "itemList": [
+	 {
+		 "item": "prodigium:orichalcum_helmet"
+	 },
+	 {	
+		 "item": "prodigium:orichalcum_leggings"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_chestplate"
+	 },
+	 {
+		 "item": "prodigium:orichalcum_boots"
+	 }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+     
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Ranger's skill tree & Defeat the Dead King)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

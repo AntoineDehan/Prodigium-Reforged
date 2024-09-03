@@ -1,0 +1,71 @@
+{
+  "Restriction Data": {
+    "stage": "stage_3",
+    "itemList": [
+     {
+		 "item": "simpleores:onyx_gem"
+	 }, 
+	 {
+		 "item": "simpleores:onyx_sword"
+	 },
+	 {
+		 "item": "simpleores:onyx_pickaxe"
+	 }, 
+	 {	
+		 "item": "simpleores:onyx_axe"
+	 },
+	 {	
+		 "item": "simpleores:onyx_shovel"
+	 },
+	 {
+		 "item": "simpleores:onyx_hoe"
+	 },
+	 {	
+		 "item": "simpleores:onyx_shears"
+	 },
+	 {
+		 "item": "simpleores:onyx_helmet"
+	 },
+	 {	
+		 "item": "simpleores:onyx_leggings"
+	 },
+	 {
+		 "item": "simpleores:onyx_chestplate"
+	 },
+	 {
+		 "item": "simpleores:onyx_boots"
+	 },
+	 {
+		 "item": "simpleores:onyx_ore"
+	 },
+	 {
+		 "item": "simpleores:onyx_block"
+	 }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+     
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Defeat the Nether Kreeper & Awful Ghast)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

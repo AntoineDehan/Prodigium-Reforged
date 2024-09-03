@@ -1,0 +1,1188 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "test_3"
+	group: "3172DA2E2FE4A37B"
+	icon: "minecraft:book"
+	id: "65BDF772537C570E"
+	images: [
+		{
+			height: 3.5d
+			image: "bettericons:textures/items/tile005.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 23.5d
+			y: 2.5d
+		}
+		{
+			dependency: "458DA39CB1A3AE07"
+			height: 1.0d
+			image: "minecraft:textures/particle/lava.png"
+			rotation: 40.0d
+			width: 1.0d
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			dependency: "281435B11C0F1243"
+			height: 0.8d
+			image: "minecraft:textures/particle/lava.png"
+			rotation: 20.0d
+			width: 0.8d
+			x: 24.5d
+			y: 1.5d
+		}
+		{
+			dependency: "1A1D4191D9A098E9"
+			height: 0.9d
+			image: "minecraft:textures/particle/lava.png"
+			rotation: 0.0d
+			width: 0.9d
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependency: "44CABC14818B1DFB"
+			height: 1.0d
+			image: "minecraft:textures/particle/lava.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.5d
+			y: 0.5d
+		}
+		{
+			height: 0.65d
+			image: "minecraft:textures/particle/lava.png"
+			rotation: 0.0d
+			width: 0.65d
+			x: 22.5d
+			y: 1.0d
+		}
+		{
+			height: 2.5d
+			image: "prodigium_reforged:textures/gui/normal_mode.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 13.0d
+			y: 2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &lProdigium Reforged&r."
+				""
+				"By &6defeating bosses&r you will &6unlock&r &3new ores generating&r in the world, &3new mobs spawning&r and &3harder difficulty&r."
+				""
+				"You will also slowly gain &3Experience Point&r by &6killing mobs&7 AND&r by &6completing quests&r, you will then be able to &3chose a class&r in the &2Quest Book&r, you will then unlock a Skill Tree in the menu (&6default key: \"i\"&r)."
+				"You can also gain &3Experience Point&r for the &9General Tree&r by completing &6certain secondary quests&r. "
+				""
+				"There are &6npcs&r that works like in Terraria, check the &2NPC chapter&r in the &2Quest Book&r to know more."
+				""
+				"{@pagebreak}"
+				"&3Three main stages&r are available in Prodigium Reforged. &3New mobs&r will also spawn in the world after defeating certain bosses, messages will appear in the chat to notice you about it.                                                                   "
+				"&3Normal Mode&r : automatically unlocked when you first enter the world."
+				"&4Expert Mode&r : unlocked when entering the nether for the first time. Mobs will have more dmg, spawn in groups, the player will receive Bleeding II and more"
+				"&9Master Mode&r : Mobs will deal even more dmg, players will receive Bleeding III and more..."
+				"{@pagebreak}"
+				"&nHelpful info :&r"
+				"With a &6mage spell book&r press &6\"R\"&r to switch your spells."
+				"You can &6roll&r using the &6\"X\"&r key."
+				"Open the &6world map&r with &6\",\"&r key (or \"m\" key, depend on your keyboard layout)"
+				""
+				"You can use &3The Guide&r to learn more about bosses and more. It acts as a wiki if needed."
+			]
+			disable_toast: true
+			id: "3941AFCFA581CDB6"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "584DD4AC83F6EFBE"
+					item: "alexsmobs:animal_dictionary"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "1330ACB2FF423A3A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "0A2E19F471CC634B"
+					item: "majruszsdifficulty:bandage"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Read me! (it's important and not long)"
+			tasks: [{
+				consume_items: false
+				icon: "minecraft:oak_log"
+				id: "688A970060E5C053"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				only_from_crafting: false
+				title: "The start"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["281435B11C0F1243"]
+			description: [
+				"The &4Expert Mode&r is automatically unlocked when you enter the Nether."
+				""
+				""
+				"&nTip :&r"
+				"Prepare yourself &cbefore&r entering the Nether. The &4Expert Mode&r will make the game &charder&r!"
+			]
+			id: "774BCB593AAFAA33"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "6A3C8D8F61EF7A48"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5D14321AB73AA69B"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p stage_expert true"
+					id: "56B17953259D49BC"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "140C77D73AD3E390"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/sh_difficulty add @p 220"
+					id: "5428ECA7D05AD2ED"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.75d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "502CBC7EEFC802A9"
+				title: "Unlock the &4Expert Mode&r"
+				type: "dimension"
+			}]
+			x: 23.5d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"2105DF082D01D023"
+				"7E84A690580422CF"
+			]
+			description: [
+				"Craft a &9Slime Crown&r to invoke the boss"
+				""
+				""
+				"As a reward, you will get an &bExplorer Compass&r to help you explore."
+				""
+				"The &bExplorer Compass&r can be used to &7search&r for &6ANY&r structures that spawns in the world."
+				""
+				"If you lose it you will need to trade with the Merchant NPC."
+			]
+			icon: "terrawhips_and_more:slime_crown"
+			id: "1A1D4191D9A098E9"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "51EF37A9FA12BA0E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_1 true"
+					id: "7321FE2BA2A9DFB4"
+					type: "command"
+				}
+				{
+					id: "25F992F84278A591"
+					item: "solcarrot:food_book"
+					type: "item"
+				}
+				{
+					id: "798B923D0AC9B35D"
+					item: "meetyourfight:mossy_tooth"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49E1B931A5EE5EDE"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p stage_g true"
+					id: "722636AF2D412EC9"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"Your world has been blessed with \",\"italic\":\"true\"},{\"text\":\"Palladium \",\"bold\":true,\"color\":\"red\"},{\"text\":\"and \"},{\"text\":\"Adamantium\",\"bold\":\"true\",\"color\":\"green\"},{\"text\":\", but \"},{\"text\":\"beware\"},{\"text\":\" you also feel an horrible chill going down your spine.\",\"bold\":\"true\"}]\""
+					id: "79BDDDC7A5565643"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5EC133EC6D7911E3"
+					item: "majruszsdifficulty:recall_potion"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7481FA50F0EDFF93"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/skills set @p skills:stage_1 true"
+					id: "0CA10F5ED3DDC319"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "2934B8A5346AFAA9"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "2E1A7CDB45C65472"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "37726BD7F71B6629"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B95C2DDF5FFB97A"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "terrawhips_and_more:thekingslime"
+				icon: "terrawhips_and_more:slime_crown"
+				id: "1D39AC7F95C73EA9"
+				title: "Kill the &3King Slime&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: ["Use an &9Undead Battle Standard&r or defeat 125 undeads to invoke the Undead Army."]
+			id: "78DBF35A71CFAF36"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "75691260A8D4427F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1EF4912ABF72C89E"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1BBFBA10AD1533B9"
+					item: "majruszsdifficulty:golden_bandage"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5750D3063D0FBA83"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					id: "528F36A63AF6D27C"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "2DE75B12CEA39186"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "072884EDD9A14E44"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "060DEF4F27A9DD6E"
+				item: "majruszsdifficulty:undead_army_treasure_bag"
+				title: "Defeat the Undead Army!"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A1D4191D9A098E9"]
+			description: [
+				"Found in &2The Theatre&r."
+				""
+				""
+				"&nTip :&r"
+				"You can search through the &bExplorer's Compass&r &2The Theatre&r structure to find it!"
+				"You can also ask the guide for a map to the closest &2The Theatre&r structure."
+			]
+			id: "458DA39CB1A3AE07"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "5A69EAFFA5588759"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0CC3874458030CA5"
+					item: "golems:guide_book"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "05FD3130376F7816"
+					item: "minecraft:emerald"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F41D0B35532C72C"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					id: "39EEC26C7AF0A2DB"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5112C5E0FFE44069"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "conjurer_illager:conjurer"
+					icon: {
+						Count: 1
+						id: "conjurer_illager:conjurer_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "00A12CB227DDE76F"
+					title: "Kill the &3Conjurer&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "conjurer_illager:kill_conjurer"
+					criterion: ""
+					disable_toast: true
+					id: "373A8252374ED8C6"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44CABC14818B1DFB"]
+			description: ["Found in the &2Frostmaw Cavern&r"]
+			id: "281435B11C0F1243"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "47190CBDF382B6D8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "028F5A75D3754345"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_nether true"
+					id: "7A9B8F44ACA5AA99"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"As the world trembles under your feet you feel a sudden burst of heat. It's time. You can now enter\",\"italic\":\"true\"},{\"text\":\" The Nether\",\"bold\":true,\"color\":\"red\"},{\"text\":\". But be ready for what comes next...\",\"italic\":\"true\"}]\""
+					id: "7AF928A7265F4150"
+					type: "command"
+				}
+				{
+					command: "/puffish_skills points add @p melee 2"
+					icon: "minecraft:experience_bottle"
+					id: "136A338170F2CADA"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p ranged 2"
+					icon: "minecraft:experience_bottle"
+					id: "2E90F6A58DFBD733"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p mage 2"
+					icon: "minecraft:experience_bottle"
+					id: "168CC5696AC7E27E"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "773E139DDB4B486D"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2F7F6325F65627FB"
+				title: "Kill the &3Frostmaw&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32A453D0E324CFEF"]
+			description: ["You do not yet have the knowledge to use the enchanting table, using an anvil and &6enchanting books&r are your only option for now."]
+			id: "2105DF082D01D023"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "4160481023FDCE6F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "68F55D5B274A77A6"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04F00FA06CEC6936"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "56C29622D7240913"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Craft an anvil"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A1D4191D9A098E9"]
+			description: [
+				"Congratulation! You can now mine and use &2Adamantium&r and &4Palladium&r."
+				""
+				""
+				"&nTip :&r"
+				"This is the first time you have &7unlocked new ores&r. It will now &6generate in the world&r meaning that you might find the new ores in &6places&r where &6you've already been to&r."
+				"Don't hesitate to take a look into your old mines!"
+			]
+			hide: true
+			id: "0E23B5BD98AD2A6F"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "no_toast"
+				id: "797CB7A6241BB6A8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "6BFB3E2791C717E2"
+					item: "prodigium:raw_palladium"
+					type: "item"
+				}
+				{
+					id: "38487755FF5AFCFF"
+					item: "simpleores:raw_adamantium"
+					type: "item"
+				}
+			]
+			title: "You now have unlocked new ores"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44CABC14818B1DFB"]
+			description: [
+				"Congratulation! You can now mine and use &3diamonds&r and &5orichalcum&r to craft armors/tools and a ton of other stuff"
+				"(orichalcum is found in the nether)"
+			]
+			hide: true
+			id: "67833F35B83C9FE8"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "no_toast"
+				id: "14ACD0C0E109948D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "12797F915FF69B65"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "40CD05FC5F4B1161"
+					item: "prodigium:raw_orichalcum"
+					type: "item"
+				}
+			]
+			title: "You now have unlocked &3diamonds&r"
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44CABC14818B1DFB"]
+			hide: true
+			id: "4D723F25ABA40671"
+			rewards: [{
+				auto: "no_toast"
+				id: "11AFFCF54ED22BFD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "364D6F7FFC875F41"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Obtain an enchanting table"
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3941AFCFA581CDB6"]
+			description: [
+				"Weapons, tools and armors have randomly attributes attributed to it. You can change the attributes thanks to the reforging tab in the smithing table"
+				""
+				"To &6reforge&r the Modifier, use &6the correspondig material&r and/or use an &eAmbrosium Shard&r that acts as a universal reforge item."
+			]
+			id: "32A453D0E324CFEF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "518E51AAD0534A68"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "177E4A9D7533339D"
+					item: "majruszsdifficulty:recall_potion"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A4D7891DB4EE225"
+					item: "minecraft:leather"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5019DE57102514FB"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "Craft a smithing table"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "509DBFC46966C6EF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "218B96331C9069C3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "13E97D2199346D73"
+					item: "minecraft:string"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0B4F9662D13CDDBC"
+					item: "minecraft:leather"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6739C3294BD30C25"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3906C757FBDFCA5E"
+				item: "sophisticatedbackpacks:backpack"
+				title: "Craft a backpack"
+				type: "item"
+			}]
+			title: "Craft a backpack"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59B2D8AD613CAD61"]
+			description: [
+				"Prodigium Reforged has three classes, &6mage&r, &6melee&r and &6ranged&r."
+				""
+				"&6Each class has armors&r for it, you can unlock them in the skill tree AND by progressing."
+				""
+				"Check the details in the \"Classes\" section of the quest book."
+				""
+				""
+				"&nTip :&r"
+				"You can &7unlock&r new ores by &cdefeating bosses&r!"
+			]
+			id: "7E84A690580422CF"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "511F8512C1F29329"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A990492BA8F509A"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "12B4586961644F73"
+					item: "prodigium:raw_cobalt"
+					type: "item"
+				}
+				{
+					id: "28A8DF150B8C4FE6"
+					item: "simpleores:raw_mythril"
+					type: "item"
+				}
+				{
+					id: "2F462005BC977ADF"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			title: "Make a choice"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3941AFCFA581CDB6"]
+			id: "59B2D8AD613CAD61"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "35488F85CA848578"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "22AAAF10A100B38A"
+					item: {
+						Count: 1
+						id: "shieldexp:iron_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "256CFBA5C1C893AA"
+					item: "majruszsdifficulty:recall_potion"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4106548A7697311B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D856881E58BBEA4"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E0AC0579376C8FE"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71311B421925325E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Protect yourself"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["509DBFC46966C6EF"]
+			description: ["A lot of different upgrades are available for your backpacks!"]
+			hide: true
+			id: "03F464A4772CDB9F"
+			rewards: [
+				{
+					id: "2818DA83E62A68C4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "376A84A3B2C43BFF"
+					item: "minecraft:string"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 3
+					id: "66727B92CA814577"
+					item: "minecraft:leather"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "6819667168F08470"
+					item: "majruszsdifficulty:recall_potion"
+					random_bonus: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "794F94E7ABA86632"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "Upgrade your backpack !"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B31131A12E42700"]
+			description: [
+				"You can find the Dead King corpse laying in the &2Catacombs&r"
+				""
+				""
+				"&nTip :&r"
+				"If you're having &ctrouble with the bosses&r, you can always craft some &3custom golems&r to &3help you&r!"
+				"Use the &9Extra Golems Guide&r (rewarded through The Conjurer quest) for more information."
+			]
+			id: "44CABC14818B1DFB"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "3CEC8C0ECD5A2022"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_2 true"
+					id: "3EA2C636F29ADDE9"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20366D4FF6292FEB"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p stage_1 true"
+					id: "28D9709F5D0A220F"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"As the\",\"italic\":\"true\"},{\"text\":\" Dead King\",\"bold\":\"true\"},{\"text\":\" is finally laid to rest, you hear\"},{\"text\":\" multiple screams echoing around you\",\"bold\":\"true\"},{\"text\":\", fortunately, you also feel\"},{\"text\":\" Diamond\",\"bold\":\"true\",\"color\":\"aqua\"},{\"text\":\" and\"},{\"text\":\" Orichalcum\",\"bold\":\"true\",\"color\":\"light_purple\"},{\"text\":\" growing in your world.\"}]\""
+					id: "35F0822D0D6C7FC6"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/skills set @p skills:stage_2 true"
+					id: "250C22F979F19A4E"
+					silent: true
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D00707520CF9365"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "irons_spellbooks:dead_king"
+					icon: "minecraft:skeleton_skull"
+					id: "650290681E34BC76"
+					title: "Defeat the &3Dead King&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_dead_king"
+					criterion: ""
+					disable_toast: true
+					id: "1E69867E84BE4A43"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D723F25ABA40671"]
+			description: ["You can use it to remove the enchant of a weapon to then put it in a book."]
+			hide: true
+			id: "2851394B90D1E773"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2A24757FDDA08C34"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 10
+					id: "3110B3D155E27500"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28D9AFA467A843F3"
+				item: "disenchanting:disenchanter"
+				type: "item"
+			}]
+			title: "Craft a disenchanter"
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["509DBFC46966C6EF"]
+			description: [
+				"You can upgrade the size of your backpack."
+				"When you want to upgrade your backpack, it must be empty before using it in a crafting table."
+			]
+			hide: true
+			hide_text_until_complete: false
+			id: "313D6112DC7FE209"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7FA9E6FFEC4D352F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "676F96E063E80E0B"
+					item: "minecraft:leather"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "0CA747B753788ACF"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7074AF45CBC47D71"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Bigger backpack"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["313D6112DC7FE209"]
+			hide: true
+			id: "21462A616D86CFD6"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2B9E81566E08FD4F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "63C4721D9FF483C7"
+					item: "sophisticatedbackpacks:upgrade_base"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C0901CDF2163342"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "Even bigger"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21462A616D86CFD6"]
+			hide: true
+			id: "1916F155816608D5"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "389B18644630BA2F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6182AB7DABCC52E0"
+					table_id: 2616881584767302753L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5B5C024EEF487705"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Storage overload"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["458DA39CB1A3AE07"]
+			description: ["Found in his village, the &2Umvathana Grove&r."]
+			id: "0B31131A12E42700"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "611163A27977DCDF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "434A7D36D1E32A52"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					icon: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_misery"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0B529EF55A352EF6"
+					title: "Kill &3Umvuthi the Sunbird&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "mowziesmobs:kill_umvuthi"
+					criterion: ""
+					disable_toast: true
+					id: "5CD9B7512FE834BA"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"You can create homes for NPC to spawn in."
+				"They will trade usefull items and more, check the NPC tab quests."
+			]
+			disable_toast: true
+			id: "2701922429C60ACD"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p [{\"text\":\"You've heard that people are looking for a home, maybe if you built homes they could join your base? \",\"italic\":\"true\"},{\"text\":\"Learn more in the \",\"bold\":true},{\"text\":\"NPC \",\"color\":\"red\",\"bold\":\"true\"},{\"text\":\"quest chapter.\",\"bold\":\"true\"}]"
+				id: "14F03ACFFD4B28D3"
+				type: "command"
+			}]
+			secret: true
+			tasks: [{
+				days: 3
+				disable_toast: true
+				id: "090702E16837BCE0"
+				title: "Make some room in your base!"
+				type: "questsadditions:days"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+	]
+	title: "Normal Mode"
+}

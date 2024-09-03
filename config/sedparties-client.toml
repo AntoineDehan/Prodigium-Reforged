@@ -1,0 +1,28 @@
+
+#--------------------------------------------------------
+#Client Party Settings
+#Type /party reload in-game to reload this configuration.
+#--------------------------------------------------------
+[party-ui]
+	#Render your information as a party member.
+	#If true, this will include you in the party list. This will also render your information when outside the party.
+	#If false, your information will NOT be rendered both in a party and outside a party.
+	renderSelfFrame = true
+	#Makes all the models drawn on the party frame face forward if true.
+	#Self model is drawn when the head element has Head Type at 1, or 2 for the entire party.
+	forceModelRotation = false
+	#Offset of the front-facing model if forceModelRotation is enabled.
+	#Negative values make the model face right, while positive values make the model face left.
+	#Range: -180 ~ 180
+	rotationOffset = -20
+
+[mod-options]
+	#This allows you to set the type of automatic syncing you'd like for GameStages support
+	#When prompted from a party invite. Syncing only occurs if players allow it.
+	#ALL - Prompt disabled, all game stages are synced. Only works if server allows it.
+	#FUTURE - Prompt disabled, future game stages are synced. Only works if server allows it.
+	#NONE - Prompt disabled, no game stages are synced at all.
+	#PROMPT - A prompt asking for sync permission is sent each time you join a party.
+	#Allowed Values: ALL, FUTURE, NONE
+	defaultSync = "NONE"
+

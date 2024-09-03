@@ -1,0 +1,25 @@
+{
+  "armorSetName": "crusader",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "simpleores:mythril_helmet"
+  },
+  "chest": {
+    "itemKey": "simpleores:mythril_chestplate"
+  },
+  "legs": {
+    "itemKey": "simpleores:mythril_leggings"
+  },
+  "boots": {
+    "itemKey": "simpleores:mythril_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 1,
+      "modifierUUID": "c7bd9592-d387-44df-9cf2-959afc4f3901",
+      "description": "+1 Armor"
+    }
+  ]
+}

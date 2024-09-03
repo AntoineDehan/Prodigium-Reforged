@@ -1,0 +1,47 @@
+{
+  "Restriction Data": {
+    "stage": "stage_crusader_ignitium",
+    "itemList": [
+	 {
+		 "item": "cataclysm:ignitium_helmet"
+	 },
+	 {	
+		 "item": "cataclysm:ignitium_leggings"
+	 },
+	 {
+		 "item": "cataclysm:ignitium_chestplate"
+	 },
+	 {
+		 "item": "cataclysm:ignitium_boots"
+	 },
+   {
+    "item": "cataclysm:ignitium_elytra_chestplate"
+   }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+     
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Crusader's skill tree)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

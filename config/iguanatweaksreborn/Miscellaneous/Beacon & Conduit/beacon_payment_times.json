@@ -1,0 +1,42 @@
+[
+  {
+    "id": "minecraft:iron_ingot",
+    "value": 6000.0
+  },
+  {
+    "id": "minecraft:gold_ingot",
+    "value": 18000.0
+  },
+  {
+    "id": "minecraft:diamond",
+    "value": 72000.0
+  },
+  {
+    "id": "minecraft:emerald",
+    "value": 72000.0
+  },
+  {
+    "id": "minecraft:netherite_ingot",
+    "value": 115200.0
+  },
+  {
+    "id": "iguanatweaksexpanded:durium_ingot",
+    "value": 12000.0
+  },
+  {
+    "id": "iguanatweaksexpanded:keego",
+    "value": 96000.0
+  },
+  {
+    "id": "iguanatweaksexpanded:quaron_ingot",
+    "value": 96000.0
+  },
+  {
+    "id": "iguanatweaksexpanded:soul_steel_ingot",
+    "value": 96000.0
+  },
+  {
+    "id": "minecraft:nether_star",
+    "value": 576000.0
+  }
+]

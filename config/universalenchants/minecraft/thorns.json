@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome",
+    "$minecraft:universal_enchants_horse_armor",
+    "$minecraft:universal_enchants_shield"
+  ],
+  "incompatible": [
+    "minecraft:fire_protection",
+    "minecraft:feather_falling",
+    "minecraft:blast_protection",
+    "iguanatweaksreborn:protection",
+    "minecraft:protection",
+    "apotheosis:icy_thorns",
+    "iguanatweaksreborn:fire_protection",
+    "iguanatweaksreborn:feather_falling",
+    "minecraft:projectile_protection",
+    "iguanatweaksreborn:projectile_protection",
+    "iguanatweaksreborn:blast_protection",
+    "allurement:vengeance",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

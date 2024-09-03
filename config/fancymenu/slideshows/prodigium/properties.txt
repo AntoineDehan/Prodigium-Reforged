@@ -1,0 +1,11 @@
+type = slideshow
+
+slideshow-meta {
+   name = prodigium
+   width = 1920
+   height = 1080
+   x = 0
+   y = 0
+   duration = 12.0
+   fadespeed = 7.0
+}

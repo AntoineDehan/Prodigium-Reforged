@@ -1,0 +1,44 @@
+{
+  "Restriction Data": {
+    "stage": "stage_cleric_tunic",
+    "itemList": [
+	 {
+		 "item": "paladins:priest_robe_head"
+	 },
+	 {	
+		 "item": "paladins:priest_robe_chest"
+	 },
+	 {
+		 "item": "paladins:priest_robe_legs"
+	 },
+	 {
+		 "item": "paladins:priest_robe_feet"
+	 }
+    ],
+    "modList": [
+    ],
+    "tagList": [
+    ],
+    "exceptionList": [
+    ],
+    "containerList": [
+      "net.minecraft.inventory.container.WorkbenchContainer"
+    ],
+    "dimensionList": [
+     
+    ]
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Mage's skill tree & Defeat the Slime King)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

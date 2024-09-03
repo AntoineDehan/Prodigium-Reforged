@@ -1,0 +1,25 @@
+{
+  "armorSetName": "crusader",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "paladins:paladin_armor_head"
+  },
+  "chest": {
+    "itemKey": "paladins:paladin_armor_chest"
+  },
+  "legs": {
+    "itemKey": "paladins:paladin_armor_legs"
+  },
+  "boots": {
+    "itemKey": "paladins:paladin_armor_feet"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 1.5,
+      "modifierUUID": "24b4b1e5-2a33-441d-98f8-b89f62919e2d",
+      "description": "+1.5 Armor"
+    }
+  ]
+}

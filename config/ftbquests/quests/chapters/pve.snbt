@@ -1,0 +1,908 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pve"
+	group: "04557421BF808B7D"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "34139115EBB7158A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A1D4191D9A098E9"]
+			description: ["You can create custom golems, really helpfull to defend your base and/or gateways gates."]
+			hide_dependency_lines: true
+			id: "74C4032C291E75E3"
+			rewards: [
+				{
+					count: 3
+					id: "3629EC97DAD2CB2B"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "3B5C6579D6A1B5EC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "519E9B9EBC3882BD"
+					item: "minecraft:pumpkin_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "01FB847DBD2B5DB6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "68D7E08D5839F7BD"
+				item: "golems:golem_head"
+				type: "item"
+			}]
+			title: "Is it alive ?!"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "486983B040326665"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "52CBD9B732B110D1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16C296AF6DC5B3CC"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A75C65FAC365F00"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0E930557DC6907F8"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100
+			}]
+			title: "Mob hunter"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["486983B040326665"]
+			id: "239F5EB3FAAE7AED"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "5B1C7C40AF4B0D46"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "157A03BF4DE252BB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ma-enchants:wisdom"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "45CDA21DF18A3FE9"
+					silent: true
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2942DF25A8FBA7C4"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "446D2A23165CFCDE"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 500
+			}]
+			title: "It's starting to be a lot"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["239F5EB3FAAE7AED"]
+			id: "21066718665E581C"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "019BC123CB553167"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "31C49C1DB0978349"
+					item: "artifacts:golden_hook"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ECEC94722EDF809"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "637B4AF39F9369EF"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1050
+			}]
+			title: "Monster eradication"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21066718665E581C"]
+			id: "631A571DDC1083FD"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2B6FD0838F6EBCD8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1A69E740C690B8A9"
+					item: "artifacts:vampiric_glove"
+					type: "item"
+				}
+				{
+					id: "51A884A6FCFCF280"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "13AB59042A818424"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "090FFE9B857AACF1"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "majruszsdifficulty:enderium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5222D45BBDF3E8E4"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 2100
+			}]
+			title: "Unstoppable "
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "25C70C7D25692208"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "63E9525FE3A4F540"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D5682BFE4BB680B"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ECFD665C5849C5C"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "33A089E19084B2A2"
+				stat: "minecraft:damage_blocked_by_shield"
+				type: "stat"
+				value: 250
+			}]
+			title: "Close one"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "4D4928E6EFAFF355"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "3DE9FA74904CE196"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "567B44853C53D982"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "518E9935CF24BA52"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "327D379B64CB0FBD"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "scalinghealth:enchanted_heart"
+				id: "5A63A38A3CC568BE"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 1000
+			}]
+			title: "Does it hurt ?"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D4928E6EFAFF355"]
+			id: "1B3C27A714554400"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "3E16CB1CA69E0452"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "7D969671C84FA0EB"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "15049F434348394C"
+					silent: true
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37330FF912A3A636"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "scalinghealth:chance_heart"
+				id: "34AA928509341B54"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 10000
+			}]
+			title: "You might want to dodge more"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B3C27A714554400"]
+			id: "1315639F402AB033"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "46DDF085D9978238"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5C331353BB82FF40"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E22F5D18DDD75FA"
+					item: "artifacts:cross_necklace"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "33D521560C8F705D"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					id: "7CB402805C2C16A2"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C3F3D54757F67FF"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "artifacts:crystal_heart"
+				id: "610088D2B5962292"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 75000
+			}]
+			title: "Are you alright?"
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1315639F402AB033"]
+			id: "06F035E343EE57A1"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7978EDD7EABF37C0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0BC6D375366E3A97"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
+				{
+					id: "15D07AB776941A35"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "54940788A4DB0576"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BC07D504C95A113"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "4DB5DA0BA090A2CC"
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DF4DD71E792BBCF"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "scalinghealth:heart_crystal"
+				id: "69B070B96F3FD7E9"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 150000
+			}]
+			title: "Are you a masochist ?"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25C70C7D25692208"]
+			id: "6069640B2BA2C586"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "16820712350FB3C6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "40C6A6A8DF14F6E8"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					id: "6438D9A9C63E584C"
+					item: {
+						Count: 1
+						id: "shieldexp:golden_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/puffish_skills experience add @p general 125"
+					icon: "minecraft:experience_bottle"
+					id: "65CF761B98A555AF"
+					silent: true
+					title: "&9+General EXP&r"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22C56600D0FD5099"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "stalwart_dungeons:tungsten_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "005F28194B54C92A"
+				stat: "minecraft:damage_blocked_by_shield"
+				type: "stat"
+				value: 2500
+			}]
+			title: "You're not killed so easily"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6069640B2BA2C586"]
+			id: "694FF7CBED350952"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "08197C413CD66663"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2D4B476D0D0C5E2B"
+					table_id: 2616881584767302753L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "693655D63C09CA2C"
+					item: "majruszsdifficulty:golden_bandage"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5424AE9A7E48B6F4"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "stalwart_dungeons:warted_tungsten_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "417AAF5072306592"
+				stat: "minecraft:damage_blocked_by_shield"
+				type: "stat"
+				value: 50000
+			}]
+			title: "Stronger than a wall"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0273BBFD0A5BCFA2"]
+			description: ["Use it on a tamed wolf to train him. Then right click with a stick on your friend to see his stats and upgrade him."]
+			id: "3F4D7489BF9B4E66"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0EF06E6197EAC109"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "54B2EEBF3D35AD01"
+					item: "doggytalents:throw_stick"
+					type: "item"
+				}
+				{
+					id: "08D13CD6F325C542"
+					item: "doggytalents:throw_bone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4644B2DEC5AC48DA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "doggytalents:treats"
+					}
+				}
+				title: "Any #doggytalents:treats"
+				type: "item"
+			}]
+			title: "Craft a treat"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "0273BBFD0A5BCFA2"
+			rewards: [{
+				auto: "no_toast"
+				id: "5C53326D2592BCB7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "2EE58AF23A1ECE36"
+				type: "advancement"
+			}]
+			title: "Tame a wild wolf"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "581D423E5B13508B"
+			rewards: [{
+				auto: "no_toast"
+				id: "7F31F9035C3BACED"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					entity: "friendsandfoes:mauler"
+					icon: "alexsmobs:shark_tooth"
+					id: "4CC9504C0E8DEB38"
+					title: "Kill a Mauler"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "friendsandfoes:iceologer"
+					icon: "projectvibrantjourneys:ice_chunks"
+					id: "7F82A2D47AE487FB"
+					title: "Kill an Iceologer"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:illusioner"
+					icon: {
+						Count: 1
+						id: "conjurer_illager:conjurer_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3FB32584FEEE72A8"
+					title: "Kill an Illusioner"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "friendsandfoes:wildfire"
+					icon: {
+						Count: 1
+						id: "friendsandfoes:wildfire_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "483CC567A59BA80D"
+					title: "Kill a Wildfire"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill all hostile mobs from &6Friends and Foes&r"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "53E52F77478E811F"
+			rewards: [{
+				auto: "no_toast"
+				id: "0680A0DF1FA97A15"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					entity: "stalwart_dungeons:reinforced_blaze"
+					icon: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0A016FF34122B636"
+					title: "Kill a Reinforced Blaze"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "stalwart_dungeons:incomplete_wither"
+					icon: "wstweaks:fragment"
+					id: "0C88F9AB77699C08"
+					title: "Kill an Incomplete Wither"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "stalwart_dungeons:giddy_blaze"
+					icon: "minecraft:blaze_rod"
+					id: "3B3B040B87C4206C"
+					title: "Kill a Giddy Blaze"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "stalwart_dungeons:propulk"
+					icon: "minecraft:shulker_shell"
+					id: "42F5E5E1C3F6BDC9"
+					title: "Kill a Propulk"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill all hostile mobs from &6Stalwart's dungeons&r"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "010ECC42A75540D6"
+			rewards: [{
+				auto: "no_toast"
+				id: "5ECB14A59483CA75"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					entity: "bygonenether:piglin_hunter"
+					icon: "minecraft:gold_nugget"
+					id: "6378ABF199129626"
+					title: "Kill a Piglin Hunter"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bygonenether:piglin_prisoner"
+					icon: "minecraft:gold_ingot"
+					id: "336D4D27B4C32BD2"
+					title: "Kill a Piglin Prisoner"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bygonenether:warped_enderman"
+					icon: "bygonenether:warped_ender_pearl"
+					id: "49E958FB4EE5086F"
+					title: "Kill a Wraped Enderman"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bygonenether:wex"
+					icon: "born_in_chaos_v1:ethereal_spirit"
+					id: "578045D467CC5FC8"
+					title: "Defeat a Wex"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bygonenether:wraither"
+					icon: "wstweaks:fragment"
+					id: "1E0A3DF3C331A858"
+					title: "Kill a Wraither"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bygonenether:wither_skeleton_knight"
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5EFAF1559A41B347"
+					title: "Kill a Wither Skeleton Knight"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill all hostile mobs from &6Bygone nether&r"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "256072F518AC104B"
+			rewards: [{
+				auto: "no_toast"
+				id: "50F948A599A8E334"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "artifacts:mimic"
+				icon: "minecraft:chest"
+				id: "48DE389B46519E26"
+				title: "Kill a Mimic"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Watch your hands while opening it"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: ["The only way to get your armor destroyed is by dying."]
+			disable_toast: true
+			id: "19FEA09C5D7A9F47"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"This is your first \",\"italic\":\"true\"},{\"text\":\"death\",\"color\":\"gold\"},{\"text\":\", in Prodigium Reforged, when you die you will\"},{\"text\":\" respawn with all your items\",\"color\":\"gold\"},{\"text\":\" but you will\"},{\"text\":\" lose some durabillity on your armor.\",\"color\":\"gold\"}]"
+					id: "4F3519D0AE7E200D"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "5E2CB7DB8679F491"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			secret: true
+			tasks: [{
+				icon: "fantasyfurniture:bone/skeleton/skull"
+				id: "2EFD585DD6C37C63"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "Your first death"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "5E507B465A28F997"
+			rewards: [{
+				auto: "no_toast"
+				id: "19ED19CADC87A875"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "majruszsdifficulty:cursed_armor"
+				icon: "quark:oak_chest"
+				id: "5C34BD08F52CB1CE"
+				title: "Kill a Cursed Armor"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Another chest, another surprise"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: ["To get the &6Bad Omen&r effect you will need to burn with a &7Flint and Steel&r a &6Ominous Banner&r."]
+			id: "49C9DD065EE5739F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F310190A3F968C2"
+				table_id: 7449522933339281626L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0E9431B665AA2307"
+				title: "Burn an Ominous Banner to get the Bad Omen effect"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "PVE"
+}
