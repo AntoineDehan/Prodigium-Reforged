@@ -4,10 +4,6 @@
 #Type /party reload in-game to reload this configuration.
 #--------------------------------------------------------
 [party-ui]
-	#Render your information as a party member.
-	#If true, this will include you in the party list. This will also render your information when outside the party.
-	#If false, your information will NOT be rendered both in a party and outside a party.
-	renderSelfFrame = true
 	#Makes all the models drawn on the party frame face forward if true.
 	#Self model is drawn when the head element has Head Type at 1, or 2 for the entire party.
 	forceModelRotation = false
@@ -15,6 +11,10 @@
 	#Negative values make the model face right, while positive values make the model face left.
 	#Range: -180 ~ 180
 	rotationOffset = -20
+	#End the potion effects on the client without the server packet
+	#If true, the client won't wait for the server to send a potion effect packet to remove the potion effects from the UI.
+	#If false, the potion effects will stay on the client until the server says the client no longer has it.
+	endPotionEffects = true
 
 [mod-options]
 	#This allows you to set the type of automatic syncing you'd like for GameStages support

@@ -1,32 +1,25 @@
 {
   "Restriction Data": {
-    "stage": "stage_berseker_phoenix",
+    "stage": "stage_berserker_phoenix",
     "itemList": [
-	 {
-		 "item": "aether:phoenix_helmet"
-	 },
-	 {	
-		 "item": "aether:phoenix_leggings"
-	 },
-	 {
-		 "item": "aether:phoenix_chestplate"
-	 },
-	 {
-		 "item": "aether:phoenix_boots"
-	 }
+      {
+        "item": "aether:phoenix_helmet"
+      },
+      {
+        "item": "aether:phoenix_leggings"
+      },
+      {
+        "item": "aether:phoenix_chestplate"
+      },
+      {
+        "item": "aether:phoenix_boots"
+      }
     ],
-    "modList": [
-    ],
-    "tagList": [
-    ],
-    "exceptionList": [
-    ],
-    "containerList": [
-      "net.minecraft.inventory.container.WorkbenchContainer"
-    ],
-    "dimensionList": [
-     
-    ]
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",

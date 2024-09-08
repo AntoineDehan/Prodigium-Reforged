@@ -118,14 +118,6 @@
 					type: "item"
 				}
 				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "45CDA21DF18A3FE9"
-					silent: true
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2942DF25A8FBA7C4"
 					table_id: 8049615661713598272L
@@ -192,21 +184,9 @@
 					xp_levels: 10
 				}
 				{
-					id: "1A69E740C690B8A9"
-					item: "artifacts:vampiric_glove"
-					type: "item"
-				}
-				{
 					id: "51A884A6FCFCF280"
 					table_id: 2616881584767302753L
 					type: "random"
-				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "13AB59042A818424"
-					title: "&9+General EXP&r"
-					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
@@ -327,14 +307,6 @@
 					type: "item"
 				}
 				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "15049F434348394C"
-					silent: true
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "37330FF912A3A636"
 					table_id: 8049615661713598272L
@@ -374,11 +346,6 @@
 							}]
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "0E22F5D18DDD75FA"
-					item: "artifacts:cross_necklace"
 					type: "item"
 				}
 				{
@@ -443,13 +410,6 @@
 					type: "item"
 				}
 				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "4DB5DA0BA090A2CC"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "5DF4DD71E792BBCF"
 					table_id: 5533560640127059513L
@@ -493,14 +453,6 @@
 						}
 					}
 					type: "item"
-				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "65CF761B98A555AF"
-					silent: true
-					title: "&9+General EXP&r"
-					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
@@ -595,6 +547,7 @@
 				}
 			]
 			tasks: [{
+				icon: "doggytalents:training_treat"
 				id: "4644B2DEC5AC48DA"
 				item: {
 					Count: 1
@@ -736,7 +689,7 @@
 			]
 			title: "Kill all hostile mobs from &6Stalwart's dungeons&r"
 			x: 6.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			id: "010ECC42A75540D6"
@@ -804,7 +757,7 @@
 			]
 			title: "Kill all hostile mobs from &6Bygone nether&r"
 			x: 1.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			id: "256072F518AC104B"
@@ -834,7 +787,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/tellraw @p [{\"text\":\"This is your first \",\"italic\":\"true\"},{\"text\":\"death\",\"color\":\"gold\"},{\"text\":\", in Prodigium Reforged, when you die you will\"},{\"text\":\" respawn with all your items\",\"color\":\"gold\"},{\"text\":\" but you will\"},{\"text\":\" lose some durabillity on your armor.\",\"color\":\"gold\"}]"
+					command: "/tellraw @p [{\"text\":\"This is your first \",\"italic\":\"true\"},{\"text\":\"death\",\"color\":\"gold\"},{\"text\":\", in Prodigium Reforged, when you die you will\"},{\"text\":\" respawn with all your items\",\"color\":\"gold\"},{\"text\":\" but you will\"},{\"text\":\" lose some durabillity on your armor and tools.\",\"color\":\"gold\"}]"
 					id: "4F3519D0AE7E200D"
 					type: "command"
 				}
@@ -875,32 +828,6 @@
 			}]
 			title: "Another chest, another surprise"
 			x: 5.0d
-			y: 1.0d
-		}
-		{
-			description: ["To get the &6Bad Omen&r effect you will need to burn with a &7Flint and Steel&r a &6Ominous Banner&r."]
-			id: "49C9DD065EE5739F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5F310190A3F968C2"
-				table_id: 7449522933339281626L
-				type: "loot"
-			}]
-			tasks: [{
-				advancement: "minecraft:story/root"
-				criterion: ""
-				icon: {
-					Count: 1
-					id: "minecraft:iron_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "0E9431B665AA2307"
-				title: "Burn an Ominous Banner to get the Bad Omen effect"
-				type: "advancement"
-			}]
-			x: 4.0d
 			y: 1.0d
 		}
 	]

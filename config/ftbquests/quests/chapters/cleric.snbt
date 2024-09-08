@@ -10,9 +10,9 @@
 	quests: [
 		{
 			description: [
-				"Use it to bind spells to spell books."
+				"Use it to &ebind spells to spell books&r."
 				""
-				"To add a spell to your spell book you need a scroll (with the spell you want to add to the book)."
+				"To add a spell to your spell book you need&e a scroll&r and your spellbook."
 			]
 			id: "167F636BCCA964EA"
 			rewards: [
@@ -137,6 +137,7 @@
 							Damage: 0
 						}
 					}
+					title: "Tunic Priest Armor"
 					type: "item"
 				}
 			]
@@ -327,10 +328,11 @@
 				type: "item"
 			}]
 			title: "From the depth"
-			x: 5.5d
-			y: 2.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["1A1D4191D9A098E9"]
 			description: ["Use the Scroll Forge to create new scrolls."]
 			id: "3E4F3F3F0402D036"
 			rewards: [
@@ -393,6 +395,7 @@
 						Damage: 0
 					}
 				}
+				title: "Prior Armor"
 				type: "item"
 			}]
 			title: "Cleric armors for the Expert Mode"

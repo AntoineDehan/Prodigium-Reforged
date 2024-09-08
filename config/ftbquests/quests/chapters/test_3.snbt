@@ -76,8 +76,7 @@
 				""
 				"By &6defeating bosses&r you will &6unlock&r &3new ores generating&r in the world, &3new mobs spawning&r and &3harder difficulty&r."
 				""
-				"You will also slowly gain &3Experience Point&r by &6killing mobs&7 AND&r by &6completing quests&r, you will then be able to &3chose a class&r in the &2Quest Book&r, you will then unlock a Skill Tree in the menu (&6default key: \"i\"&r)."
-				"You can also gain &3Experience Point&r for the &9General Tree&r by completing &6certain secondary quests&r. "
+				"You will also slowly gain &3Experience Point&r by &6killing mobs&7 AND&r by &6completing quests&r, you will then be able to &3chose a class&r in the Skill Tree (&6default key: \"i\"&r). "
 				""
 				"There are &6npcs&r that works like in Terraria, check the &2NPC chapter&r in the &2Quest Book&r to know more."
 				""
@@ -119,9 +118,7 @@
 			]
 			subtitle: "Read me! (it's important and not long)"
 			tasks: [{
-				consume_items: false
-				icon: "minecraft:oak_log"
-				id: "688A970060E5C053"
+				id: "654CD9EEBFFD888B"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -129,8 +126,7 @@
 						value: "minecraft:logs"
 					}
 				}
-				only_from_crafting: false
-				title: "The start"
+				title: "Any #minecraft:logs"
 				type: "item"
 			}]
 			x: 2.0d
@@ -161,6 +157,7 @@
 				{
 					auto: "invisible"
 					command: "/gamestage add @p stage_expert true"
+					elevate_perms: true
 					id: "56B17953259D49BC"
 					type: "command"
 				}
@@ -173,6 +170,7 @@
 				{
 					auto: "invisible"
 					command: "/sh_difficulty add @p 220"
+					elevate_perms: true
 					id: "5428ECA7D05AD2ED"
 					silent: true
 					type: "command"
@@ -198,8 +196,8 @@
 		}
 		{
 			dependencies: [
-				"2105DF082D01D023"
 				"7E84A690580422CF"
+				"32A453D0E324CFEF"
 			]
 			description: [
 				"Craft a &9Slime Crown&r to invoke the boss"
@@ -224,18 +222,13 @@
 				{
 					auto: "invisible"
 					command: "/thitemstages add @p stage_1 true"
+					elevate_perms: true
 					id: "7321FE2BA2A9DFB4"
 					type: "command"
 				}
 				{
 					id: "25F992F84278A591"
 					item: "solcarrot:food_book"
-					type: "item"
-				}
-				{
-					id: "798B923D0AC9B35D"
-					item: "meetyourfight:mossy_tooth"
-					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -247,12 +240,14 @@
 				{
 					auto: "invisible"
 					command: "/gamestage add @p stage_g true"
+					elevate_perms: true
 					id: "722636AF2D412EC9"
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/tellraw @p [{\"text\":\"Your world has been blessed with \",\"italic\":\"true\"},{\"text\":\"Palladium \",\"bold\":true,\"color\":\"red\"},{\"text\":\"and \"},{\"text\":\"Adamantium\",\"bold\":\"true\",\"color\":\"green\"},{\"text\":\", but \"},{\"text\":\"beware\"},{\"text\":\" you also feel an horrible chill going down your spine.\",\"bold\":\"true\"}]\""
+					elevate_perms: true
 					id: "79BDDDC7A5565643"
 					type: "command"
 				}
@@ -273,36 +268,12 @@
 					type: "item"
 				}
 				{
-					auto: "invisible"
-					command: "/skills set @p skills:stage_1 true"
-					id: "0CA10F5ED3DDC319"
-					silent: true
-					type: "command"
-				}
-				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p melee 2"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
 					icon: "minecraft:experience_bottle"
-					id: "2934B8A5346AFAA9"
+					id: "07D00BF50D810090"
 					silent: true
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p mage 2"
-					icon: "minecraft:experience_bottle"
-					id: "2E1A7CDB45C65472"
-					silent: true
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p ranged 2"
-					icon: "minecraft:experience_bottle"
-					id: "37726BD7F71B6629"
-					silent: true
+					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -431,6 +402,17 @@
 					table_id: 7449522933339281626L
 					type: "loot"
 				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "47F30B39B86BDD11"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -482,38 +464,79 @@
 				{
 					auto: "invisible"
 					command: "/thitemstages add @p stage_nether true"
+					elevate_perms: true
 					id: "7A9B8F44ACA5AA99"
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/tellraw @p [{\"text\":\"As the world trembles under your feet you feel a sudden burst of heat. It's time. You can now enter\",\"italic\":\"true\"},{\"text\":\" The Nether\",\"bold\":true,\"color\":\"red\"},{\"text\":\". But be ready for what comes next...\",\"italic\":\"true\"}]\""
+					elevate_perms: true
 					id: "7AF928A7265F4150"
 					type: "command"
 				}
 				{
-					command: "/puffish_skills points add @p melee 2"
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "136A338170F2CADA"
+					id: "34CE74069813827E"
 					silent: true
+					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p ranged 2"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "2E90F6A58DFBD733"
-					silent: true
+					id: "3AE46320570828AD"
+					team_reward: true
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p mage 2"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "168CC5696AC7E27E"
+					id: "0105925823BAB23B"
 					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4DE335BD2510A7AC"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5FDA3C9274418ACE"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1D3707E10A0946C5"
+					silent: true
+					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -544,7 +567,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["32A453D0E324CFEF"]
+			dependencies: ["3941AFCFA581CDB6"]
 			description: ["You do not yet have the knowledge to use the enchanting table, using an anvil and &6enchanting books&r are your only option for now."]
 			id: "2105DF082D01D023"
 			rewards: [
@@ -572,7 +595,7 @@
 				type: "item"
 			}]
 			title: "Craft an anvil"
-			x: 6.5d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -661,9 +684,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["3941AFCFA581CDB6"]
+			dependencies: ["2105DF082D01D023"]
 			description: [
-				"Weapons, tools and armors have randomly attributes attributed to it. You can change the attributes thanks to the reforging tab in the smithing table"
+				"Weapons, tools and armors have randomly attributes attributed to it. You can change the attributes by using the &cReforging Station&r."
 				""
 				"To &6reforge&r the Modifier, use &6the correspondig material&r and/or use an &eAmbrosium Shard&r that acts as a universal reforge item."
 			]
@@ -691,11 +714,11 @@
 			]
 			tasks: [{
 				id: "5019DE57102514FB"
-				item: "minecraft:smithing_table"
+				item: "quality_equipment:reforging_station"
 				type: "item"
 			}]
-			title: "Craft a smithing table"
-			x: 3.5d
+			title: "Craft a Reforging Station"
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -742,7 +765,8 @@
 		{
 			dependencies: ["59B2D8AD613CAD61"]
 			description: [
-				"Prodigium Reforged has three classes, &6mage&r, &6melee&r and &6ranged&r."
+				"Prodigium Reforged has three main classes you can pick from, &6mage&r, &6melee&r and &6ranged&r."
+				"Those classes have subclasses in them as well."
 				""
 				"&6Each class has armors&r for it, you can unlock them in the skill tree AND by progressing."
 				""
@@ -918,6 +942,7 @@
 				"If you're having &ctrouble with the bosses&r, you can always craft some &3custom golems&r to &3help you&r!"
 				"Use the &9Extra Golems Guide&r (rewarded through The Conjurer quest) for more information."
 			]
+			icon: "minecraft:skeleton_skull"
 			id: "44CABC14818B1DFB"
 			min_required_tasks: 1
 			rewards: [
@@ -930,6 +955,7 @@
 				{
 					auto: "invisible"
 					command: "/thitemstages add @p stage_2 true"
+					elevate_perms: true
 					id: "3EA2C636F29ADDE9"
 					type: "command"
 				}
@@ -942,20 +968,15 @@
 				{
 					auto: "invisible"
 					command: "/gamestage add @p stage_1 true"
+					elevate_perms: true
 					id: "28D9709F5D0A220F"
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/tellraw @p [{\"text\":\"As the\",\"italic\":\"true\"},{\"text\":\" Dead King\",\"bold\":\"true\"},{\"text\":\" is finally laid to rest, you hear\"},{\"text\":\" multiple screams echoing around you\",\"bold\":\"true\"},{\"text\":\", fortunately, you also feel\"},{\"text\":\" Diamond\",\"bold\":\"true\",\"color\":\"aqua\"},{\"text\":\" and\"},{\"text\":\" Orichalcum\",\"bold\":\"true\",\"color\":\"light_purple\"},{\"text\":\" growing in your world.\"}]\""
+					elevate_perms: true
 					id: "35F0822D0D6C7FC6"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/skills set @p skills:stage_2 true"
-					id: "250C22F979F19A4E"
-					silent: true
 					type: "command"
 				}
 				{
@@ -963,6 +984,17 @@
 					id: "7D00707520CF9365"
 					table_id: 7449522933339281626L
 					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "090CFD8E9168D825"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -1039,13 +1071,6 @@
 					random_bonus: 5
 					type: "item"
 				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "0CA747B753788ACF"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
 			]
 			tasks: [{
 				id: "7074AF45CBC47D71"
@@ -1112,7 +1137,14 @@
 		}
 		{
 			dependencies: ["458DA39CB1A3AE07"]
-			description: ["Found in his village, the &2Umvathana Grove&r."]
+			description: ["Found in his village, the &2Umvuthana Grove&r."]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_misery"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0B31131A12E42700"
 			min_required_tasks: 1
 			rewards: [
@@ -1127,6 +1159,17 @@
 					id: "434A7D36D1E32A52"
 					table_id: 7449522933339281626L
 					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4374005227DD3EFF"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -1161,7 +1204,7 @@
 		{
 			description: [
 				"You can create homes for NPC to spawn in."
-				"They will trade usefull items and more, check the NPC tab quests."
+				"They will trade useful items and more, check the NPC tab quests."
 			]
 			disable_toast: true
 			id: "2701922429C60ACD"

@@ -1,9 +1,7 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:breakable",
-    "apotheosis:other_tome",
-    "apotheosis:weapon_tome"
+    "$minecraft:breakable"
   ],
   "incompatible": [
     "majruszsenchantments:incompatibility_curse"

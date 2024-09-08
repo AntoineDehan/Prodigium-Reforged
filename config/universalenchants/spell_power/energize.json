@@ -1,8 +1,6 @@
 {
   "schemaVersion": 2,
-  "items": [
-    "$minecraft:breakable"
-  ],
+  "items": [],
   "incompatible": [
     "minecraft:infinity",
     "minecraft:multishot",

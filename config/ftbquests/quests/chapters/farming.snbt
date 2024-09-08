@@ -620,12 +620,20 @@
 		{
 			dependencies: ["5B3A19F6D6A7DF76"]
 			id: "3669B9A30968F6DE"
-			rewards: [{
-				auto: "no_toast"
-				id: "36306E7E7A5925B1"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "36306E7E7A5925B1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D4457C4288D24A0"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				id: "0E6E741E7EBA4D76"
@@ -638,12 +646,20 @@
 		{
 			dependencies: ["5B3A19F6D6A7DF76"]
 			id: "05BCD8FB2523FD42"
-			rewards: [{
-				auto: "no_toast"
-				id: "760D4646CDDFC766"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "760D4646CDDFC766"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BCB088EC65713FC"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				id: "4987454B7FE510A8"
@@ -656,12 +672,20 @@
 		{
 			dependencies: ["5B3A19F6D6A7DF76"]
 			id: "7AE104392DEFE1E8"
-			rewards: [{
-				auto: "no_toast"
-				id: "5165976E0C534953"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "5165976E0C534953"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06EFBA2BD3EA976D"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				id: "4F18B39BFD2F0593"
@@ -1026,13 +1050,6 @@
 					id: "17A57046A7988F7D"
 					type: "xp_levels"
 					xp_levels: 3
-				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "1B689C77D24DF682"
-					title: "&9+General EXP&r"
-					type: "command"
 				}
 				{
 					exclude_from_claim_all: true

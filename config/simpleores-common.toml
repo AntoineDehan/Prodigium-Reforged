@@ -39,5 +39,5 @@
 	#false disables recipes
 	EnableAdamantiumArmor = true
 	#false disables recipes
-	EnableOnyxArmor = true
+	EnableOnyxArmor = false
 

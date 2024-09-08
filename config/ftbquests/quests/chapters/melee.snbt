@@ -263,6 +263,30 @@
 			x: 2.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["50E838001D06D62B"]
+			description: ["A lot of different whips are available, some of them are only obtainable through &3Treasure Bags&r others can be crafted."]
+			id: "3064A22F3AFACAC9"
+			rewards: [{
+				auto: "no_toast"
+				id: "1186B51B61A89D3F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1AA5A3664B778750"
+				item: {
+					Count: 1
+					id: "terrawhips_and_more:ironwhip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
 	]
 	title: "Berseker"
 }

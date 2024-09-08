@@ -1,9 +1,6 @@
 {
   "schemaVersion": 2,
-  "items": [
-    "$minecraft:spyglass",
-    "apotheosis:other_tome"
-  ],
+  "items": ["$minecraft:spyglass"],
   "incompatible": [
     "majruszsenchantments:incompatibility_curse",
     "usefulspyglass:marking"

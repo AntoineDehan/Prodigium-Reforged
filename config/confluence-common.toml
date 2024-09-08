@@ -6,10 +6,10 @@ rareBlocks = ["stalwart_dungeons:tungsten_ore", "prodigium:orichalcum_ore", "pro
 #You need to fill the list with string like 'modid:entity'
 #The higher the creature in the list, the higher the value
 rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay", "minecraft:axolotl", "minecraft:evoker", "minecraft:piglin_prute", "minecraft:vindicator", "minecraft:enderman"]
-#Range: 0.0 ~ 1.0
-"Hurt Evasion Chance" = 0.1
 #Range: 6 ~ 100
 "Max Accessory Amount" = 7
+#Range: 0.0 ~ 1.0
+"Hurt Evasion Chance" = 0.1
 
 ["Random Attack Damage"]
 	enable = true
@@ -18,61 +18,11 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 	#Range: 1.0 ~ 2.0
 	max = 1.2
 
-["Aggro Attach"]
-	#Range: > -2147483648
-	BerserkersGlove = 400
-	#Range: > -2147483648
-	FleshKnuckles = 400
-	#Range: > -2147483648
-	HeroShield = 400
-	#Range: > -2147483648
-	PutridScent = -400
-	#Range: > -2147483648
-	StalkersQuiver = -400
-	#Range: > -2147483648
-	ReconScope = -400
-
-["Armor Pass"]
-	#Range: > 0
-	SharkToothNecklace = 5
-	#Range: > 0
-	StingerNecklace = 6
-
 ["Invulnerable Time"]
 	#Range: > 0
 	CrossNecklace = 15
 	#Range: > 0
 	StarVeil = 20
-
-["Magic Attack Bonus"]
-	#Range: 0.0 ~ 1.7976931348623157E308
-	SorcererEmblem = 0.15
-	#Range: 0.0 ~ 1.7976931348623157E308
-	AvengerEmblem = 0.12
-	#Range: 0.0 ~ 1.7976931348623157E308
-	DestroyerEmblem = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	CelestialStone = 0.1
-
-["Projectile Attack Bonus"]
-	#Range: 0.0 ~ 1.7976931348623157E308
-	AvengerEmblem = 0.12
-	#Range: 0.0 ~ 1.7976931348623157E308
-	DestroyerEmblem = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	RangerEmblem = 0.15
-	#Range: 0.0 ~ 1.7976931348623157E308
-	MagicQuiver = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	MoltenQuiver = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	StalkersQuiver = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	ReconScope = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	SniperScope = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	CelestialStone = 0.1
 
 ["Fall Resistance"]
 	#Range: > -1
@@ -203,14 +153,10 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		TsunamiInABottle = 1.0
 
 ["Magic Quiver"]
-	#Range: 0.0 ~ 1.7976931348623157E308
-	arrowSpeedMultiplier = 1.2
 	#Range: 0.0 ~ 1.0
 	arrowNoConsumeChance = 0.25
-
-["Break Speed Bonus"]
 	#Range: 0.0 ~ 1.7976931348623157E308
-	AncientChisel = 0.25
+	arrowSpeedMultiplier = 1.2
 
 [Attributes]
 
@@ -411,4 +357,58 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 	[Attributes."Sniper Scope"]
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.1
+
+["Aggro Attach"]
+	#Range: > -2147483648
+	BerserkersGlove = 400
+	#Range: > -2147483648
+	FleshKnuckles = 400
+	#Range: > -2147483648
+	HeroShield = 400
+	#Range: > -2147483648
+	PutridScent = -400
+	#Range: > -2147483648
+	StalkersQuiver = -400
+	#Range: > -2147483648
+	ReconScope = -400
+
+["Armor Pass"]
+	#Range: > 0
+	SharkToothNecklace = 5
+	#Range: > 0
+	StingerNecklace = 5
+
+["Magic Attack Bonus"]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	SorcererEmblem = 0.15
+	#Range: 0.0 ~ 1.7976931348623157E308
+	AvengerEmblem = 0.12
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DestroyerEmblem = 0.1
+	#Range: 0.0 ~ 1.7976931348623157E308
+	CelestialStone = 0.1
+
+["Projectile Attack Bonus"]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	AvengerEmblem = 0.12
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DestroyerEmblem = 0.1
+	#Range: 0.0 ~ 1.7976931348623157E308
+	RangerEmblem = 0.15
+	#Range: 0.0 ~ 1.7976931348623157E308
+	MagicQuiver = 0.1
+	#Range: 0.0 ~ 1.7976931348623157E308
+	MoltenQuiver = 0.1
+	#Range: 0.0 ~ 1.7976931348623157E308
+	StalkersQuiver = 0.1
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ReconScope = 0.1
+	#Range: 0.0 ~ 1.7976931348623157E308
+	SniperScope = 0.1
+	#Range: 0.0 ~ 1.7976931348623157E308
+	CelestialStone = 0.1
+
+["Break Speed Bonus"]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	AncientChisel = 0.25
 

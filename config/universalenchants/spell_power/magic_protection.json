@@ -1,8 +1,6 @@
 {
   "schemaVersion": 2,
-  "items": [
-    "$minecraft:armor"
-  ],
+  "items": [],
   "incompatible": [
     "minecraft:thorns",
     "iguanatweaksreborn:blast_protection",

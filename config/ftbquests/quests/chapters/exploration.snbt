@@ -122,13 +122,6 @@
 					xp_levels: 5
 				}
 				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "2EEF34DF318EE97B"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4CD3D17142F95085"
 					table_id: 7449522933339281626L
@@ -156,11 +149,6 @@
 			dependencies: ["245A8BD6DC7519E4"]
 			id: "102C10A8940860BE"
 			rewards: [
-				{
-					id: "2FFD9D80548A1F79"
-					item: "artifacts:cloud_in_a_bottle"
-					type: "item"
-				}
 				{
 					auto: "no_toast"
 					id: "4E609FCC0FE7A7EC"
@@ -281,21 +269,12 @@
 			dependencies: ["0F2E50059566AEBE"]
 			hide: true
 			id: "3E5345FF29F8F505"
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "4EE4FCAB4CF0FA62"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "17F5438D4D3F4419"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				id: "4EE4FCAB4CF0FA62"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			size: 1.5d
 			tasks: [{
 				advancement: "minecraft:nether/explore_nether"
@@ -347,13 +326,6 @@
 					id: "1A602B0F21ECF2BB"
 					table_id: 2616881584767302753L
 					type: "random"
-				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "7CCFC70793464007"
-					title: "&9+General EXP&r"
-					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
@@ -418,13 +390,6 @@
 					id: "133BF03F129513DA"
 					type: "xp_levels"
 					xp_levels: 2
-				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "453702509A7C9CAA"
-					title: "&9+General EXP&r"
-					type: "command"
 				}
 				{
 					exclude_from_claim_all: true

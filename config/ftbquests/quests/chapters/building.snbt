@@ -101,7 +101,6 @@
 				}
 			]
 			tasks: [{
-				icon: "minecraft:oak_door"
 				id: "17621BA5BDA51C07"
 				item: {
 					Count: 1
@@ -210,7 +209,6 @@
 				}
 			]
 			tasks: [{
-				icon: "mcwtrpdoors:oak_glass_trapdoor"
 				id: "5C41CB0494175584"
 				item: {
 					Count: 1
@@ -482,13 +480,6 @@
 					type: "loot"
 				}
 				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "3A88095915D2215C"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3876B2A0D915D586"
 					table_id: 5533560640127059513L
@@ -496,7 +487,6 @@
 				}
 			]
 			tasks: [{
-				icon: "valhelsia_structures:big_glazed_jar"
 				id: "784FEDF8E48B3B98"
 				item: {
 					Count: 1
@@ -632,12 +622,20 @@
 			description: ["There is a ton of different upgrades for your storage"]
 			hide: true
 			id: "3279EADE357BB8E4"
-			rewards: [{
-				auto: "no_toast"
-				id: "07F5FB2EF44D1AC1"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "07F5FB2EF44D1AC1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4272ECFB4409DECD"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1BA603243B41A766"
 				item: "sophisticatedstorage:upgrade_base"

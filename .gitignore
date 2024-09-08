@@ -17,18 +17,21 @@ fancymenu_data/
 lightspeed-cache/
 local/
 logs/
+crash-reports/
 modernfix/
 saves/
 XaeroWaypoints/
 XaeroWorldMap/
 blueprints/
 
+.idea/
 aes/
 config/spawnbalanceutility/AllMobEntities.rpt
 config/sound_physics_remastered/
 screenshots/
 crash-reports/
 data/
+puresufferingmusic/
 downloads/
 easy_npc/cache/player_skin
 easy_npc/cache/remote_skin
@@ -40,4 +43,6 @@ fabricloader.log
 servers.dat_old
 supportercache.json
 TrashslotSaveState.json
+hs_err_*.log
+
 

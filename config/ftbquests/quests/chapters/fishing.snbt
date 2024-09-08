@@ -234,6 +234,12 @@
 					table_id: 2616881584767302753L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3DB2505CF76C2056"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
 			]
 			tasks: [
 				{
@@ -449,13 +455,6 @@
 					id: "3F8FAC291446B0CE"
 					table_id: 2616881584767302753L
 					type: "random"
-				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "0BDB659F3B8FA9D3"
-					title: "&9+General EXP&r"
-					type: "command"
 				}
 				{
 					exclude_from_claim_all: true

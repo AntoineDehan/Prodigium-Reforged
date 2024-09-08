@@ -38,7 +38,7 @@
 	quests: [
 		{
 			description: [
-				"&dThis is the first release of the NPC system.&r"
+				"&dThe NPC system is still a work in progress.&r"
 				""
 				"You will &2need to build homes&r for different npc and to defend them if needed."
 				""
@@ -103,11 +103,12 @@
 				"- gunpowder sack"
 				"- storage crate"
 			]
+			icon: "archers_paradox:blaze_arrow"
 			id: "418F4DA11631D188"
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/arms_dealer.npc.nbt ~ ~ ~"
+					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/arms_dealer.npc.nbt ~ ~ ~"
 					id: "49218C68BC28AB28"
 					silent: true
 					team_reward: false
@@ -118,6 +119,15 @@
 					id: "07BA27826FCE8544"
 					table_id: 7449522933339281626L
 					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc navigation set home d4ef3e8d-ccc8-4ac5-a7e2-5199a0e27ecf ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "79F4460C9BF9AA90"
+					silent: true
+					type: "command"
 				}
 			]
 			tasks: [{
@@ -162,7 +172,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/merchant.npc.nbt ~ ~ ~"
+					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/merchant.npc.nbt ~ ~ ~"
 					id: "23B753F640C8D81F"
 					silent: true
 					team_reward: false
@@ -173,6 +183,15 @@
 					id: "69312D6EE60B35E2"
 					table_id: 7449522933339281626L
 					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc navigation set home 2d146e4f-6905-49b4-9163-62a5d5fb73f3 ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "5E8E2B61EB6180E5"
+					silent: true
+					type: "command"
 				}
 			]
 			tasks: [{
@@ -215,10 +234,19 @@
 				}
 				{
 					auto: "invisible"
-					command: "easy_npc preset import_new prodigiumreforged:preset/terraria/goblin.npc.nbt ~ ~ ~"
+					command: "easy_npc preset import data prodigiumreforged:preset/terraria/goblin.npc.nbt ~ ~ ~"
 					id: "143804A6F00CEA42"
 					silent: true
 					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc navigation set home 2d146e4f-6905-49b4-9163-62a5d5fb73f3 ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "03461951D28107BC"
+					silent: true
 					type: "command"
 				}
 			]
@@ -255,11 +283,20 @@
 				}
 				{
 					auto: "invisible"
-					command: "easy_npc preset import_new prodigiumreforged:preset/terraria/nurse.npc.nbt ~ ~ ~"
+					command: "easy_npc preset import data prodigiumreforged:preset/terraria/nurse.npc.nbt ~ ~ ~"
 					exclude_from_claim_all: true
 					id: "6AC1D81A0BE5E2D4"
 					silent: true
 					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc navigation set home 88f7ac3f-9696-4c5b-bf4a-52e3b40e10ac ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "5408A7F6ADB1D300"
+					silent: true
 					type: "command"
 				}
 			]
@@ -298,10 +335,19 @@
 				}
 				{
 					auto: "invisible"
-					command: "easy_npc preset import_new prodigiumreforged:preset/terraria/zoologist.npc.nbt ~ ~ ~"
+					command: "easy_npc preset import data prodigiumreforged:preset/terraria/zoologist.npc.nbt ~ ~ ~"
 					id: "0545E7E61FB4129C"
 					silent: true
 					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc navigation set home 3d380f27-8f30-4daa-aaf1-f720c34afb86 ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "0C082B0A662032A4"
+					silent: true
 					type: "command"
 				}
 			]
@@ -346,10 +392,19 @@
 				}
 				{
 					auto: "invisible"
-					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/wizard.npc.nbt ~ ~ ~"
+					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/wizard.npc.nbt ~ ~ ~"
 					id: "0745249E62612091"
 					silent: true
 					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc navigation set home f5be7dde-967f-4b27-8b50-7e6a9ddb35ce ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "5AF642047F2F3362"
+					silent: true
 					type: "command"
 				}
 			]
@@ -386,10 +441,19 @@
 				}
 				{
 					auto: "invisible"
-					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/dryad.npc.nbt ~ ~ ~"
+					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/dryad.npc.nbt ~ ~ ~"
 					id: "7E78CB6A8385354A"
 					silent: true
 					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc navigation set home 31d2de80-97a0-41cf-a227-11ff3e097e25 ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "7BB5B73CCFA3DB6C"
+					silent: true
 					type: "command"
 				}
 			]
@@ -430,11 +494,20 @@
 				}
 				{
 					auto: "invisible"
-					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/guide.npc.nbt ~ ~ ~"
+					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/guide.npc.nbt ~ ~ ~"
 					elevate_perms: true
 					id: "751C502C7C7D31CE"
 					silent: true
 					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc navigation set home 3bd2ab72-41d7-4472-a480-5d849f76298c ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "754AA4FDBAE1CAC9"
+					silent: true
 					type: "command"
 				}
 			]
@@ -473,7 +546,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/easy_npc preset import_new prodigiumreforged:preset/terraria/tavernkeep.npc.nbt ~ ~ ~"
+					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/tavernkeep.npc.nbt ~ ~ ~"
 					exclude_from_claim_all: true
 					id: "6AC3D007EB0204E2"
 					silent: true
@@ -485,6 +558,15 @@
 					id: "4CDBC3C380A4A754"
 					table_id: 7449522933339281626L
 					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/easy_npc navigation set home 407a8d48-2853-486f-85e0-b6a6abc04f63 ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "4847F8903A716F56"
+					silent: true
+					type: "command"
 				}
 			]
 			tasks: [{

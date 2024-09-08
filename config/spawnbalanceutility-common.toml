@@ -14,7 +14,7 @@
 	#Fix min, max values and add nether creatures
 	fixSpawnValues = false
 	#Use the 'StructMobWeight.csv' file to balance structure spawn values
-	balanceStructureSpawnValues = true
+	balanceStructureSpawnValues = false
 	#Mod Name set separated by SemiColons of mods to report.
 	includedReportModsSet = "exampleModName;"
 

@@ -20,7 +20,7 @@
 	"Chance Botflies will spawn from a slain Zombie" = 0.0
 	#Range: 0 to 100 (Percent)
 	"Chance Phantoms drop their Eyes" = 15.0
-	"New Creeper Mobs Survive Their Own Explosions" = true
+	"New Creeper Mobs Survive Their Own Explosions" = false
 
 [experimental]
 	#All hostile mobs get faster the longer they look at you, like Intruders.

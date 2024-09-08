@@ -52,6 +52,61 @@
 					table_id: 518173385962404322L
 					type: "loot"
 				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2934B8A5346AFAA9"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "520EE244D800BA9D"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "52D7898E9616183C"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "05EF9A1507EC4A40"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "06818C947276DCE0"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -90,6 +145,61 @@
 					table_id: 518173385962404322L
 					type: "loot"
 				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7E3DDA423222169B"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2F5A7305FD7F8E56"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6D07CA881297E3FC"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5CB2313CD63C31BF"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "206EEF428E60886A"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.75d
@@ -126,6 +236,61 @@
 					id: "3B1E5CE5AE48BFF7"
 					table_id: 518173385962404322L
 					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2F1424B4925C78E7"
+					silent: true
+					team_reward: false
+					title: "&6+1 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1D8302AAA2FC755E"
+					silent: true
+					team_reward: false
+					title: "&6+1 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4393BE5168C5891E"
+					silent: true
+					team_reward: false
+					title: "&6+1 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "11579B9DFE67E76F"
+					silent: true
+					team_reward: false
+					title: "&6+1 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "32E0090EC329E0FB"
+					silent: true
+					team_reward: false
+					title: "&6+1 Skill Points&r"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -225,13 +390,6 @@
 					type: "item"
 				}
 				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "3DC0C5C701035E95"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2FAADA8ADECFD2A9"
 					table_id: 518173385962404322L
@@ -261,36 +419,65 @@
 					xp_levels: 5
 				}
 				{
-					command: "/puffish_skills points add @p melee 2"
-					icon: "minecraft:experience_bottle"
-					id: "08F10D9E70E26775"
-					silent: true
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p ranged 2"
-					icon: "minecraft:experience_bottle"
-					id: "6BA72CD3FB7AD987"
-					silent: true
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p mage 2"
-					icon: "minecraft:experience_bottle"
-					id: "35E6E3E9570A6F03"
-					silent: true
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3A4334935EDA3EDE"
 					table_id: 518173385962404322L
 					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "403823BB710E502D"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "43F57CC4F92B0700"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5CBBBB635E229018"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "18800BC0E3E80A01"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1374CD7B212B7C63"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -342,6 +529,61 @@
 					id: "19EC1F4A0F0C869A"
 					table_id: 518173385962404322L
 					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5B72F8A78D9737DA"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "761987E01EE87961"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "48B551EEC0EAED2E"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "20C2D551E4FF3550"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "323EF3DFD605B1CD"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
 				}
 			]
 			shape: "hexagon"

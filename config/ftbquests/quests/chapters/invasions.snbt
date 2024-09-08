@@ -162,8 +162,8 @@
 			id: "4B1ABE1A8E60831E"
 			rewards: [{
 				count: 5
-				id: "48A8C17266E83621"
-				item: "kubejs:eternia_crystal"
+				id: "054A29D6E37437B7"
+				item: "prodigium:eternia_crystal"
 				type: "item"
 			}]
 			tasks: [{

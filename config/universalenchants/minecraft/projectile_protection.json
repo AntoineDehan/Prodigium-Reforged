@@ -1,10 +1,6 @@
 {
   "schemaVersion": 2,
-  "items": [
-    "$minecraft:armor",
-    "apotheosis:other_tome",
-    "$minecraft:universal_enchants_horse_armor"
-  ],
+  "items": [],
   "incompatible": [
     "minecraft:fire_protection",
     "iguanatweaksreborn:fire_protection",

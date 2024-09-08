@@ -1,32 +1,25 @@
 {
   "Restriction Data": {
-    "stage": "stage_berseker_chorundum",
+    "stage": "stage_berserker_chorundum",
     "itemList": [
-	 {
-		 "item": "stalwart_dungeons:chorundum_armor_helmet"
-	 },
-	 {	
-		 "item": "stalwart_dungeons:chorundum_armor_leggings"
-	 },
-	 {
-		 "item": "stalwart_dungeons:chorundum_armor_chestplate"
-	 },
-	 {
-		 "item": "stalwart_dungeons:chorundum_armor_boots"
-	 }
+      {
+        "item": "stalwart_dungeons:chorundum_armor_helmet"
+      },
+      {
+        "item": "stalwart_dungeons:chorundum_armor_leggings"
+      },
+      {
+        "item": "stalwart_dungeons:chorundum_armor_chestplate"
+      },
+      {
+        "item": "stalwart_dungeons:chorundum_armor_boots"
+      }
     ],
-    "modList": [
-    ],
-    "tagList": [
-    ],
-    "exceptionList": [
-    ],
-    "containerList": [
-      "net.minecraft.inventory.container.WorkbenchContainer"
-    ],
-    "dimensionList": [
-     
-    ]
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",

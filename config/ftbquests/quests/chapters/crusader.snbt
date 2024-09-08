@@ -15,7 +15,29 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["You need to unlock the armors in the &6Skill Tree&r."]
 			id: "4295FD014E3D5800"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "157E475C5C4819C6"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15892F5D3E98534A"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "1E262FAE71EFDC99"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.25d
 			tasks: [
 				{
 					id: "40A6AA876BEFD3DD"
@@ -26,6 +48,7 @@
 							Damage: 0
 						}
 					}
+					title: "Mythril Armor"
 					type: "item"
 				}
 				{
@@ -37,14 +60,33 @@
 							Damage: 0
 						}
 					}
+					title: "Paladin Armor"
 					type: "item"
 				}
 			]
+			title: "Crusader armors for the Normal Mode"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["4295FD014E3D5800"]
+			hide: true
 			id: "3A908ED8568C4279"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CA043612D99597A"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "06AFAC895FEFD81F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.25d
 			tasks: [
 				{
 					id: "0BC2CBFD6B76D13B"
@@ -55,6 +97,7 @@
 							Damage: 0
 						}
 					}
+					title: "Crusader Armor"
 					type: "item"
 				}
 				{
@@ -66,14 +109,33 @@
 							Damage: 0
 						}
 					}
+					title: "Valkyrie Armor"
 					type: "item"
 				}
 			]
-			x: 2.0d
+			title: "Crusader armors for the Expert Mode"
+			x: 1.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["3A908ED8568C4279"]
+			hide: true
 			id: "17E89E220CD2DACA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02C0B097DDE8B653"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "00AEC466BC17BE86"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.25d
 			tasks: [{
 				id: "6993A5BE56E815E4"
 				item: {
@@ -83,13 +145,23 @@
 						Damage: 0
 					}
 				}
+				title: "Ignitium Armor"
 				type: "item"
 			}]
-			x: 4.0d
+			title: "Crusader armors for the Master Mode"
+			x: 3.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["4295FD014E3D5800"]
+			hide: true
 			id: "470ECEF309E513B7"
+			rewards: [{
+				auto: "no_toast"
+				id: "7D3CA326CCD34891"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "6B79186D6EED57CD"
 				item: {
@@ -101,11 +173,20 @@
 				}
 				type: "item"
 			}]
+			title: "Improved melee weapon"
 			x: 1.0d
 			y: -2.0d
 		}
 		{
+			dependencies: ["4295FD014E3D5800"]
+			hide: true
 			id: "30D9026F9DEED078"
+			rewards: [{
+				auto: "no_toast"
+				id: "4DCBD5474C36FDE6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "267DCE8A252FB68F"
 				item: {
@@ -117,6 +198,7 @@
 				}
 				type: "item"
 			}]
+			title: "Better gear"
 			x: 1.0d
 			y: 2.0d
 		}

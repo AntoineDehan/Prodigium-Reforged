@@ -1,0 +1,24 @@
+{
+  // If true, the numbers will appear when any entity takes damage, regardless if the cause is the player or not.
+  "ALWAYS_DISPLAY": false,
+  // The color of the numbers.
+  "DEFAULT_NUMBER_COLOR": 16777215,
+  // Whether or not to make the numbers light up. Works with shaders.
+  "LIT_UP_NUMBERS": false,
+  // Changes the color of the number according to the value.
+  // Example:
+  //  "amount = 100, color = 0xfcba03" will turn the number into the color 0xfcba03 when the amount is 100 or higher.
+  //  
+  // If no condition is met, the number's color will be DEFAULT_NUMBER_COLOR.
+  "enable_threshold_coloring": false,
+  "threshold_colors": [
+    {
+      "threshold": 200,
+      "number_color": 16531715
+    },
+    {
+      "threshold": 100,
+      "number_color": 16562691
+    }
+  ]
+}

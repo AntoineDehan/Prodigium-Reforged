@@ -110,6 +110,15 @@
     "result": "deny"
   },
   {
+    "mob": ["undead_revamp2:theskeeper"],
+    "gamestage": "stage_expert",
+    "result": "default"
+  },
+  {
+    "mob": ["undead_revamp2:theskeeper"],
+    "result": "deny"
+  },
+  {
     "mob": ["born_in_chaos_v1:barrel_zombie"],
     "gamestage": "stage_g",
     "result": "default"
@@ -563,6 +572,10 @@
     "result": "deny"
   },
   {
+    "mob": ["enemyexpansion:faller"],
+    "result": "deny"
+  },
+  {
     "mob": ["enemyexpansion:intruder"],
     "result": "deny"
   },
@@ -612,6 +625,10 @@
   },
   {
     "mob": ["undead_revamp2:therod"],
+    "result": "deny"
+  },
+  {
+    "mob": ["undead_revamp2:thebeartamer"],
     "result": "deny"
   },
   {

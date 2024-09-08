@@ -1,0 +1,51 @@
+
+[Beasts]
+	#(0 is disabled, 1 is normal, 2 is doubled, 3 is tripled)
+	"Tree Ent Spawn rate" = 1.0
+	"Hermit King Spawn rate" = 1.0
+	"Mummy Spawn rate" = 1.0
+	"Sea Viper Egg Spawnrate" = 1.0
+	"Yeti Spawnrate" = 1.0
+	"Vile Gator Spawnrate" = 1.0
+	"Pheonix Spawnrate" = 1.0
+	"Bone Stalker Spawnrate" = 1.0
+	"Piglin Executioner Spawnrate" = 1.0
+	"Mushlin Spitter Spawn" = 1.0
+
+[BeastItems]
+	#Determines The level of slowness applied to mobs while using the enchanted root
+	"Enchanted Root Slowness Level" = 4.0
+	#Determines the amount of time an enemy will be slowed by the root's attacks (in seconds)
+	"Enchanted Root Slowness Duration" = 4.0
+	#Determines the level of speed granted when wearing the shellmet
+	"Shellmet Speed Level" = 1.0
+	#Determines the amount of time before the viper fang ticks damage onto itself in seconds
+	"Viper Fang Damage Timer" = 10.0
+	#Determines the amount of seconds between each heal while holding the Frigid Horn
+	"Frigid Horn Heal Timer" = 10.0
+	#Determined the level of poison given to mobs with the gator tooth
+	"Gator Tooth Poison Level" = 1.0
+	#determines the amount of time a mob is effected with the gator tooth's poison
+	"Gator Tooth Poison Timer" = 5.0
+	#Determines how long a spawned phantom stalker will stay alive for (in seconds)
+	"Tamed Stalker Life Time" = 300.0
+	#Sets the amount of seconds the player receives strength for after killing a mob (default is 2)
+	"Executioner Cowl Strength" = 2.0
+	#Sets the amount of health using the Spore Bundle will replenish your health to (default is 6)
+	"Spore Bundle Healing " = 6.0
+	#Sets the seconds the player has 'antidote' after using the Spore Bundle (Default is 20)
+	"Spore Bundle Antidote" = 20.0
+
+["Rare Beasts"]
+	#(0 is disabled, 1 is enabled)
+	"Rare Tree Ent Spawn" = 1.0
+	"Rare Hermit King Spawn" = 1.0
+	"Rare Mummy Spawn" = 1.0
+	"Rare Sea Viper Spawn" = 1.0
+	"Rare Yeti Spawn" = 1.0
+	"Rare Vile Gator Spawn" = 1.0
+	"Rare Phoenix Spawn" = 1.0
+	"Rare Bone Stalker Spawn" = 1.0
+	"Rare Executioner Spawn" = 1.0
+	"Rare Spitter Spawn" = 1.0
+

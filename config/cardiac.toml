@@ -1,0 +1,49 @@
+
+[General]
+	#Life orbs can only be dropped from entities killed by the player
+	playerOnly = true
+	#How much percent of the slain entity's maximum health will be placed in the life orbs
+	#Range: 0.0 ~ 1.7976931348623157E308
+	generalPercentage = 0.1
+	#How much additional percent of the slain entity's maximum health will be placed in the life orbs per each level of Lifesteal enchantment
+	#Range: 0.0 ~ 1.7976931348623157E308
+	lifestealPercentage = 0.05
+	#Minimum number of life orbs dropped from slain entity. Does not affect the total amount of health they will collectively restore
+	#Range: > 0
+	minLifeOrbs = 0
+	#The maximum allowed level of Lifesteal enchantment
+	#Range: > 0
+	maxLifestealLevel = 2
+	#Maximum amount of health carried by a life orb
+	#Range: 0.0 ~ 1.7976931348623157E308
+	lifeOrbMaxHealth = 6.0
+	#Time in seconds before removal of the life orb
+	#Range: > 0
+	lifeOrbLifetime = 25
+	#Maximum number of stages of the size of life orbs. Affects only the appearance and hitbox size. Requires additional textures when > 5
+	#Range: > 1
+	lifeOrbMaxStages = 5
+	#Maximum distance to the nearest player to attract a life orb
+	#Range: 0.0 ~ 1.7976931348623157E308
+	lifeOrbFollowDistance = 8.0
+	#Minimum number of life orbs falling out of the life bottle. Affects the total amount of health restored in the aggregate
+	#Range: > 0
+	lifeBottleMinOrbs = 1
+	#Maximum number of additional life orbs dropped from the life bottle. Affects the total amount of health restored in the aggregate
+	#Range: > 0
+	lifeBottleAdditionalOrbs = 5
+	#Minimum amount of health that can be replenished by a single life orb from a life bottle
+	#Range: 0.0 ~ 1.7976931348623157E308
+	lifeBottleMinLifeRestore = 1.0
+	#Maximum amount of additional health that can be replenished by a single life orb from a life bottle
+	#Range: 0.0 ~ 1.7976931348623157E308
+	lifeBottleAdditionalLifeRestore = 3.0
+	#Generating a life bottle in dungeon chests
+	lifeBottleGen = true
+	#The probability of generating a life bottle in dungeon chests: 0 = 0%, 1 = 100%
+	#Range: 0.0 ~ 1.0
+	lifeBottleGenChance = 0.2
+	#Maximum number of life bottles that can be generated inside a dungeon chest
+	#Range: > 0
+	lifeBottleGenMaxAmount = 3
+

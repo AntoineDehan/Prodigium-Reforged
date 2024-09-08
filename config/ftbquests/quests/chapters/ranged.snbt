@@ -75,6 +75,7 @@
 							Damage: 0
 						}
 					}
+					title: "Palladium Armor"
 					type: "item"
 				}
 			]
@@ -386,7 +387,7 @@
 							Damage: 0
 						}
 					}
-					title: "Naptune Armor"
+					title: "Neptune Armor"
 					type: "item"
 				}
 			]
@@ -431,7 +432,14 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0EEBAEA6C5EE0454"]
 			id: "1E4A77FD6D950B55"
+			rewards: [{
+				auto: "no_toast"
+				id: "24488264E3A63CE5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "7C8C2198071AD44F"
 				item: {
@@ -443,11 +451,18 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["0EEBAEA6C5EE0454"]
 			id: "27563E8EE26B6434"
+			rewards: [{
+				auto: "no_toast"
+				id: "071D780241C1E68F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "6CE9D2D491F40319"
 				item: {
@@ -459,11 +474,18 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["0EEBAEA6C5EE0454"]
 			id: "7DA15DEDB89FE330"
+			rewards: [{
+				auto: "no_toast"
+				id: "6BFB71064A3AD69F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "0D4CCEA10C8F8F5F"
 				item: {
@@ -475,11 +497,18 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["0EEBAEA6C5EE0454"]
 			id: "6FAC083A2D7E898C"
+			rewards: [{
+				auto: "no_toast"
+				id: "7ABAA1364DB7D00E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "51A39758DD373530"
 				item: {
@@ -491,8 +520,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 3.5d
+			y: -1.5d
 		}
 	]
 	title: "Ranged"

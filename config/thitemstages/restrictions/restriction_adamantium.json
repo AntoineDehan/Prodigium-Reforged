@@ -1,32 +1,25 @@
 {
   "Restriction Data": {
-    "stage": "stage_berseker_adamantium",
+    "stage": "stage_berserker_adamantium",
     "itemList": [
-	 {
-		 "item": "simpleores:adamantium_helmet"
-	 },
-	 {	
-		 "item": "simpleores:adamantium_leggings"
-	 },
-	 {
-		 "item": "simpleores:adamantium_chestplate"
-	 },
-	 {
-		 "item": "simpleores:adamantium_boots"
-	 }
+      {
+        "item": "simpleores:adamantium_helmet"
+      },
+      {
+        "item": "simpleores:adamantium_leggings"
+      },
+      {
+        "item": "simpleores:adamantium_chestplate"
+      },
+      {
+        "item": "simpleores:adamantium_boots"
+      }
     ],
-    "modList": [
-    ],
-    "tagList": [
-    ],
-    "exceptionList": [
-    ],
-    "containerList": [
-      "net.minecraft.inventory.container.WorkbenchContainer"
-    ],
-    "dimensionList": [
-     
-    ]
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",

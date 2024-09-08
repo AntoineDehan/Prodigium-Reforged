@@ -34,5 +34,11 @@
     "item": "rftoolsutility:matter_transmitter",
     "color": 12312029,
     "priority": -1
+  },
+  {
+    "dimension": "aether:the_aether",
+    "item": "aether:aether_grass_block",
+    "color": 5759716,
+    "priority": -1
   }
 ]

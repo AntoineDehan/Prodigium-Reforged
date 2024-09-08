@@ -165,6 +165,17 @@
         "value": 1024
       }
     },
+    "confluence:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "puffish_attributes:player.resistance": {
       "enabled": false,
       "min": {
@@ -229,6 +240,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "quality_equipment:projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecraft:zombie.spawn_reinforcements": {
@@ -394,6 +416,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "confluence:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "spell_power:haste": {
@@ -594,6 +627,17 @@
         "value": 1
       }
     },
+    "confluence:ranged_velocity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "spell_power:arcane": {
       "enabled": false,
       "min": {
@@ -726,6 +770,17 @@
         "value": 1024
       }
     },
+    "quality_equipment:dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "irons_spellbooks:fire_spell_power": {
       "enabled": false,
       "min": {
@@ -746,6 +801,28 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "confluence:ranged_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "confluence:pickup_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "puffish_attributes:player.fortune": {
@@ -856,6 +933,28 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "confluence:aggro": {
+      "enabled": false,
+      "min": {
+        "default": -10000,
+        "value": -10000
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "confluence:armor_pass": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "attributeslib:fire_damage": {
@@ -999,6 +1098,17 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "confluence:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "irons_spellbooks:blood_magic_resist": {
@@ -1153,6 +1263,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "quality_equipment:jump_height": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "combatroll:count": {

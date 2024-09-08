@@ -97,14 +97,6 @@
 					type: "item"
 				}
 				{
-					auto: "invisible"
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "3CA680552C73F40D"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0CE00E9ADC92113E"
 					table_id: 8049615661713598272L
@@ -544,13 +536,6 @@
 					type: "loot"
 				}
 				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "784C822E461DA2B4"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "1293D21F06608BBB"
 					table_id: 5533560640127059513L
@@ -650,13 +635,6 @@
 					type: "loot"
 				}
 				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "01AC798C92FE3599"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "405B4839518F238B"
 					table_id: 7449522933339281626L
@@ -689,13 +667,6 @@
 					id: "435AD15752F1CDA4"
 					table_id: 3844060328837739115L
 					type: "loot"
-				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "588DA3C7A125794D"
-					title: "&9+General EXP&r"
-					type: "command"
 				}
 				{
 					command: "/puffish_skills points add @p classes 1"

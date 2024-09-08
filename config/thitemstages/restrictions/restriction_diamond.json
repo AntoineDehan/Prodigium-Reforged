@@ -1,32 +1,25 @@
 {
   "Restriction Data": {
-    "stage": "stage_berseker_diamond",
+    "stage": "stage_berserker_diamond",
     "itemList": [
-	 {
-		 "item": "minecraft:diamond_helmet"
-	 },
-	 {	
-		 "item": "minecraft:diamond_leggings"
-	 },
-	 {
-		 "item": "minecraft:diamond_chestplate"
-	 },
-	 {
-		 "item": "minecraft:diamond_boots"
-	 }
+      {
+        "item": "minecraft:diamond_helmet"
+      },
+      {
+        "item": "minecraft:diamond_leggings"
+      },
+      {
+        "item": "minecraft:diamond_chestplate"
+      },
+      {
+        "item": "minecraft:diamond_boots"
+      }
     ],
-    "modList": [
-    ],
-    "tagList": [
-    ],
-    "exceptionList": [
-    ],
-    "containerList": [
-      "net.minecraft.inventory.container.WorkbenchContainer"
-    ],
-    "dimensionList": [
-     
-    ]
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
