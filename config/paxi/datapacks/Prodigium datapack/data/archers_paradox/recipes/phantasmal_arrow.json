@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:arrow"
+    },
+    "X": {
+      "item": "meetyourfight:phantoplasm"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "count": 4,
+    "item": "archers_paradox:phantasmal_arrow"
+  }
+}

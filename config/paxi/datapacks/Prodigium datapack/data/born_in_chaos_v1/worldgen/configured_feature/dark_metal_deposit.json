@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 0,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "born_in_chaos_v1:black_argillite"
+          }
+        },
+        "state": {
+          "Name": "born_in_chaos_v1:dark_metal_deposit"
+        }
+      }
+    ]
+  }
+}

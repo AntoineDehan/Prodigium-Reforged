@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": [
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "D": {
+      "item": "prodigium:palladium_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": ["DSX", "G X", "DSX"],
+  "result": {
+    "item": "archers:royal_longbow"
+  },
+  "category": "equipment",
+  "show_notification": true
+}

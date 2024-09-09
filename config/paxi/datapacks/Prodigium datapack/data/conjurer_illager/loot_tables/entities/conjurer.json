@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prodigium:conjurer_treasure_bag",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Glowing:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

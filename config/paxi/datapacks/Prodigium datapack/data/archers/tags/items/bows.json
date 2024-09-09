@@ -1,0 +1,21 @@
+{
+  "values": [
+    "archers:composite_longbow",
+    "archers:mechanic_shortbow",
+    "archers:royal_longbow",
+    "archers:netherite_shortbow",
+    "archers:netherite_longbow",
+    "aether:phoenix_bow",
+    "prodigium:palladium_bow",
+    "prodigium:orichalcum_bow",
+    "prodigium:shroomite_bow",
+    {
+      "id": "archers:crystal_shortbow",
+      "required": false
+    },
+    {
+      "id": "archers:crystal_longbow",
+      "required": false
+    }
+  ]
+}

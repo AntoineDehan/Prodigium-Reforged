@@ -1,0 +1,23 @@
+{
+  "type": "born_in_chaos_v1:infected_deepslate_diamond_ore_feature",
+  "config": {
+    "size": 0,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "born_in_chaos_v1:infected_deepslate_diamond_ore"
+        }
+      }
+    ]
+  }
+}

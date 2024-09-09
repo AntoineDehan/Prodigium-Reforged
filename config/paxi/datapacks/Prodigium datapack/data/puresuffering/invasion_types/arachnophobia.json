@@ -1,0 +1,131 @@
+{
+  "Dimensions": ["minecraft:overworld"],
+  "InvasionPriority": "BOTH",
+  "InvasionTime": "NIGHT",
+  "Rarity": 0,
+  "SeverityInfo": [
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.6,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:spider",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        }
+      ],
+      "TickDelay": 30
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.7,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:spider",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "minecraft:cave_spider",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "earthtojavamobs:bone_spider",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 24
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.8,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:spider",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 3
+        },
+        {
+          "EntityType": "minecraft:cave_spider",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "earthtojavamobs:bone_spider",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 18
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.9,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:spider",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 3
+        },
+        {
+          "EntityType": "minecraft:cave_spider",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "earthtojavamobs:bone_spider",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 12
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 1.0,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:spider",
+          "MaxCount": 7,
+          "MinCount": 3,
+          "Weight": 3
+        },
+        {
+          "EntityType": "minecraft:cave_spider",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 1
+        },
+        {
+          "EntityType": "earthtojavamobs:bone_spider",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 6
+    }
+  ],
+  "SpawningSystem": "DEFAULT",
+  "Tier": 0,
+  "TimeChangeability": "DEFAULT",
+  "TimeModifier": "NONE",
+  "WeatherType": "DEFAULT"
+}

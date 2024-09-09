@@ -1,0 +1,275 @@
+{
+  "size": "large",
+  "color": "#915ea8",
+  "allow_discarding": true,
+  "leash_range": 60,
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "born_in_chaos_v1:door_knight"
+        },
+        {
+          "entity": "born_in_chaos_v1:door_knight"
+        },
+        {
+          "entity": "born_in_chaos_v1:door_knight"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "prodigiumreforged:gates/defender_tierii",
+          "rolls": 20,
+          "desc": "Coins rewards"
+        }
+      ],
+      "max_wave_time": 750,
+      "setup_time": 150
+    },
+    {
+      "entities": [
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "born_in_chaos_v1:bonescaller"
+        },
+        {
+          "entity": "born_in_chaos_v1:bonescaller"
+        },
+        {
+          "entity": "born_in_chaos_v1:scarlet_persecutor"
+        },
+        {
+          "entity": "born_in_chaos_v1:scarlet_persecutor"
+        },
+        {
+          "entity": "born_in_chaos_v1:fallen_chaos_knight"
+        },
+        {
+          "entity": "born_in_chaos_v1:fallen_chaos_knight"
+        },
+        {
+          "entity": "born_in_chaos_v1:fallen_chaos_knight"
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.33
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDITION",
+          "value": 2.5
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.33
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDITION",
+          "value": 0.05
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.05
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "prodigiumreforged:gates/defender_tierii",
+          "rolls": 25,
+          "desc": "Coins rewards"
+        }
+      ],
+      "max_wave_time": 1150,
+      "setup_time": 150
+    },
+    {
+      "entities": [
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "born_in_chaos_v1:fallen_chaos_knight"
+        },
+        {
+          "entity": "born_in_chaos_v1:fallen_chaos_knight"
+        },
+        {
+          "entity": "born_in_chaos_v1:fallen_chaos_knight"
+        },
+        {
+          "entity": "born_in_chaos_v1:fallen_chaos_knight"
+        },
+        {
+          "entity": "born_in_chaos_v1:scarlet_persecutor"
+        },
+        {
+          "entity": "born_in_chaos_v1:scarlet_persecutor"
+        },
+        {
+          "entity": "born_in_chaos_v1:scarlet_persecutor"
+        },
+        {
+          "entity": "born_in_chaos_v1:scarlet_persecutor"
+        },
+        {
+          "entity": "born_in_chaos_v1:bonescaller"
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.4
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDITION",
+          "value": 3
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.4
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDITION",
+          "value": 0.1
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "prodigiumreforged:gates/defender_tierii",
+          "rolls": 35,
+          "desc": "Coins rewards"
+        }
+      ],
+      "max_wave_time": 1150,
+      "setup_time": 150
+    },
+    {
+      "entities": [
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_monsters:hollow"
+        },
+        {
+          "entity": "luminous_beasts:rare_crimson_spitter"
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.5
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDITION",
+          "value": 4
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.4
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDITION",
+          "value": 0.15
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "prodigiumreforged:gates/defender_tierii",
+          "rolls": 40,
+          "desc": "Coins rewards"
+        }
+      ],
+      "max_wave_time": 4150,
+      "setup_time": 250
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "item": "prodigium:defender_medal"
+      }
+    },
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "item": "prodigium:defender_medal"
+      }
+    },
+    {
+      "type": "gateways:command",
+      "command": "/ftbquests change_progress @p complete 4440E5DD615DD84B",
+      "desc": "Quest's progress"
+    }
+  ],
+  "completion_xp": 1550,
+  "spawn_range": 10,
+  "failures": []
+}

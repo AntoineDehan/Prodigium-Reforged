@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "enemyexpansion:meature",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "enemyexpansion:sprinter",
+    "enemyexpansion:slugger",
+    "enemyexpansion:equestrian"
+  ]
+}

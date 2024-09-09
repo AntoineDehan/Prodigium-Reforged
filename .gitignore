@@ -24,13 +24,13 @@ XaeroWaypoints/
 XaeroWorldMap/
 blueprints/
 
+
 .idea/
 aes/
 config/spawnbalanceutility/AllMobEntities.rpt
 config/sound_physics_remastered/
 screenshots/
 crash-reports/
-data/
 puresufferingmusic/
 downloads/
 easy_npc/cache/player_skin
@@ -44,5 +44,11 @@ servers.dat_old
 supportercache.json
 TrashslotSaveState.json
 hs_err_*.log
+XaeroWaypoints*
 
 
+config/embeddium++.toml
+config/oculus.properties
+config/jei/ingredient-list-mod-sort-order.ini
+config/fabric/indigo-renderer.properties
+config/xaerominimap_entities.json

@@ -1,0 +1,28 @@
+{
+  "values": [
+    "minecraft:creeper",
+    "aether:valkyrie_queen",
+    "aether:sun_spirit",
+    "aether:slider",
+    "bosses_of_mass_destruction:void_blossom",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:obsidilith",
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "conjurer_illager:conjurer",
+    "minecraft:elder_guardian",
+    "stalwart_dungeons:nether_keeper",
+    "stalwart_dungeons:awful_ghast",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:ignis",
+    "minecraft:warden",
+    "cataclysm:the_harbinger",
+    "alexsmobs:void_worm",
+    "stalwart_dungeons:shelterer",
+    "cataclysm:ender_guardian",
+    "cataclysm:ender_golem",
+    "irons_spellbooks:dead_king",
+    "cataclysm:the_leviathan"
+  ]
+}

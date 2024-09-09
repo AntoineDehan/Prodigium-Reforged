@@ -1,0 +1,269 @@
+{
+  "size": "large",
+  "color": "#915ea8",
+  "allow_discarding": true,
+  "leash_range": 60,
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "prodigiumreforged:gates/defender_tieri",
+          "rolls": 10,
+          "desc": "Coins rewards"
+        }
+      ],
+      "max_wave_time": 750,
+      "setup_time": 150
+    },
+    {
+      "entities": [
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "minecraft:husk"
+        },
+        {
+          "entity": "minecraft:husk"
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTiPLY_TOTAL",
+          "value": 0.33
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDiTiON",
+          "value": 2.5
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "MULTiPLY_TOTAL",
+          "value": 0.33
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDiTiON",
+          "value": 0.05
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTiPLY_TOTAL",
+          "value": 0.05
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "prodigiumreforged:gates/defender_tieri",
+          "rolls": 30,
+          "desc": "Coins rewards"
+        }
+      ],
+      "max_wave_time": 1150,
+      "setup_time": 150
+    },
+    {
+      "entities": [
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "enemyexpansion:goblin"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "minecraft:husk"
+        },
+        {
+          "entity": "minecraft:husk"
+        },
+        {
+          "entity": "born_in_chaos_v1:bonescaller"
+        },
+        {
+          "entity": "born_in_chaos_v1:bonescaller"
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTiPLY_TOTAL",
+          "value": 0.4
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDiTiON",
+          "value": 3
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "MULTiPLY_TOTAL",
+          "value": 0.4
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDiTiON",
+          "value": 0.1
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTiPLY_TOTAL",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "prodigiumreforged:gates/defender_tieri",
+          "rolls": 40,
+          "desc": "Coins rewards"
+        }
+      ],
+      "max_wave_time": 1150,
+      "setup_time": 150
+    },
+    {
+      "entities": [
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "born_in_chaos_v1:barrel_zombie"
+        },
+        {
+          "entity": "luminous_beasts:rare_bone_stalker"
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTiPLY_TOTAL",
+          "value": 0.5
+        },
+        {
+          "attribute": "generic.armor",
+          "operation": "ADDiTiON",
+          "value": 4
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "MULTiPLY_TOTAL",
+          "value": 0.4
+        },
+        {
+          "attribute": "generic.knockback_resistance",
+          "operation": "ADDiTiON",
+          "value": 0.15
+        },
+        {
+          "attribute": "generic.movement_speed",
+          "operation": "MULTiPLY_TOTAL",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "prodigiumreforged:gates/defender_tieri",
+          "rolls": 45,
+          "desc": "Coins rewards"
+        }
+      ],
+      "max_wave_time": 4000,
+      "setup_time": 250
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "item": "prodigium:defender_medal"
+      }
+    },
+    {
+      "type": "gateways:command",
+      "command": "/ftbquests change_progress @p complete 4440E5DD615DD84B",
+      "desc": "Quest's progress"
+    }
+  ],
+  "completion_xp": 1250,
+  "spawn_range": 9,
+  "failures": []
+}

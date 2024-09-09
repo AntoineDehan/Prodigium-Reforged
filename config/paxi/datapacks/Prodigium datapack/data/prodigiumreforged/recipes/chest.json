@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+	"A A",
+	"AAA"
+	
+  ],
+  "key": {
+    "A":{
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest"
+  }
+}

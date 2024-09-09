@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" # ", "cRc", " c "],
+  "key": {
+    "#": {
+      "item": "minecraft:chain"
+    },
+    "c": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "confluence:tungsten_watch",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CRC", "CVC", "CCC"],
+  "key": {
+    "C": {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    "R": {
+      "item": "irons_spellbooks:blood_rune"
+    },
+    "V": {
+      "item": "stalwart_dungeons:void_crystal"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:cultist_chestplate",
+    "count": 1
+  }
+}

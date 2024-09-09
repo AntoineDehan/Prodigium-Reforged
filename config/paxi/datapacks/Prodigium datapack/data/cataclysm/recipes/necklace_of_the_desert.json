@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["GSG", "SCS", "GSG"],
+  "key": {
+    "S": {
+      "item": "minecraft:sand"
+    },
+    "G": {
+      "item": "numismatic-overhaul:gold_coin"
+    },
+    "C": {
+      "item": "stalwart_dungeons:chorundum"
+    }
+  },
+  "result": {
+    "item": "cataclysm:necklace_of_the_desert",
+    "count": 1
+  }
+}

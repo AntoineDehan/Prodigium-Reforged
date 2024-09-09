@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_swamp",
+  "spawners": {
+    "type": "luminous_beasts:rare_bone_stalker",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:binding_curse",
+    "minecraft:vanishing_curse",
+    "majruszsenchantments:breaking_curse",
+    "majruszsenchantments:corrosion_curse",
+    "majruszsenchantments:fatigue_curse",
+    "majruszsenchantments:incompatibility_curse",
+    "majruszsenchantments:vampirism_curse",
+    "allurement:ascension_curse",
+    "allurement:fleeting_curse",
+    "cursery:curse_blindness",
+    "cursery:curse_weakness",
+    "cursery:curse_switchy",
+    "cursery:curse_illusion",
+    "cursery:curse_laddering",
+    "cursery:curse_breaking"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:cauldron"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "v": {
+      "item": "aether_redux:veridium_ingot"
+    }
+  },
+  "pattern": [
+    "v v",
+    "bab",
+    "v v"
+  ],
+  "result": {
+    "item": "davespotioneering:reinforced_cauldron"
+  }
+}

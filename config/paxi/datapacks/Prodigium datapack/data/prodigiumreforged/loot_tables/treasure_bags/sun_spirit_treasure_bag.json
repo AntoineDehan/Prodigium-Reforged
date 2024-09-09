@@ -1,0 +1,172 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:gold_dungeon_key"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether_redux:vampire_amulet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:vampire_blade",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:pig_slayer",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:ice_pendant",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:ice_ring",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:phoenix_gloves",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:phoenix_bow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether_redux:subzero_crossbow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:sun_stone",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether_redux:vanilla_gummy_swet",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:golden_gummy_swet",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:blue_gummy_swet",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 45,
+                "max": 45
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:gold_coin",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:phoenix_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:phoenix_helmet",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:phoenix_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:phoenix_boots",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

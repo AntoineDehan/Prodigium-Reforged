@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_swamp",
+  "spawners": {
+    "type": "luminous_beasts:vile_gator",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_general",
+  "spawners": {
+    "type": "enemyexpansion:equestrian",
+    "weight": 40,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

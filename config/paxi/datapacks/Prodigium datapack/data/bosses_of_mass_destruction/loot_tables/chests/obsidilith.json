@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bosses_of_mass_destruction:obsidian_heart"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stalwart_dungeons:void_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stalwart_dungeons:chorundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/end_city_treasure"
+        }
+      ]
+    }
+  ]
+}

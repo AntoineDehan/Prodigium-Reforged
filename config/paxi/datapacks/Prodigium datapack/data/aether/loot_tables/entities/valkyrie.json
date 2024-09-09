@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prodigium:valkyrie_queen_treasure_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:siver_dungeon_key"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prodigium:sun_spirit_treasure_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:gold_dungeon_key"
+        }
+      ]
+    }
+  ]
+}

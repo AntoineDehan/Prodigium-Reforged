@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " D ",
+    "VNV"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "V": {
+      "item": "minecraft:anvil"
+    },
+    "N": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "A": {
+      "tag": "forge:storage_blocks/amethyst"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:arcane_anvil",
+    "count": 1
+  }
+}

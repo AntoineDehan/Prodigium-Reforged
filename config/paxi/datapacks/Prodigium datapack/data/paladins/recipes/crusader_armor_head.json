@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "T": {
+      "item": "simpleores:onyx_gem"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": ["GTG", "I I", "III"],
+  "result": {
+    "item": "paladins:crusader_armor_head"
+  }
+}

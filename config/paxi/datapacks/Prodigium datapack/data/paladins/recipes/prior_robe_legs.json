@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "T": {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": ["GTG", "W W", "W W"],
+  "result": {
+    "item": "paladins:prior_robe_legs"
+  }
+}

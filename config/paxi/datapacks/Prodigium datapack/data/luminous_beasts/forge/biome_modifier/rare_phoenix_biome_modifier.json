@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_peak",
+  "spawners": {
+    "type": "luminous_beasts:rare_phoenix",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

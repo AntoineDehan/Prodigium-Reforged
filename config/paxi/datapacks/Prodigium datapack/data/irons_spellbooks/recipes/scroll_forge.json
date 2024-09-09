@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["DDD", " O ", "CPC"],
+  "key": {
+    "D": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "P": {
+      "item": "prodigium:palladium_ingot"
+    },
+    "C": {
+      "item": "prodigium:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:scroll_forge",
+    "count": 1
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:ancient_metal_block"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_ancient_remnant",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:remnant_skull",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:sandstorm_in_a_bottle",
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 60,
+                "max": 90
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:gold_coin",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 30,
+                "max": 45
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

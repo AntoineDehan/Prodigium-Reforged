@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_swamp",
+  "spawners": {
+    "type": "luminous_monsters:swamp_skeleton",
+    "weight": 70,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

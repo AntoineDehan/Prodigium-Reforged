@@ -1,0 +1,211 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:silver_dungeon_key"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:lightning_knife",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:poison_dart_shooter",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:holy_sword",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:lightning_sword",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:music_disc_ascending_dawn",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:music_disc_aether_tune",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_gloves",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_cape",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:invisibility_cloak",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether_redux:vanilla_gummy_swet",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:golden_gummy_swet",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:blue_gummy_swet",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 35,
+                "max": 45
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:gold_coin",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 9,
+                "max": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_helmet",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_boots",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_shovel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_hoe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_lance",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

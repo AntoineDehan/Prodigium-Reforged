@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "stalwart_dungeons:chorundum"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:netherite_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "betterendforge:crystal_shards"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "heartcanisters:heart_canister"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "doggytalents:dire_treat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "betterendforge:terminite_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "majruszsdifficulty:golden_bandage"
+        },
+		{
+		  "type": "minecraft:item",
+		  "weight": 19,
+		  "name": "minecraft:emerald"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 25,
+		  "name": "heartcanisters:golden_heart"
+		}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+gamerule artifacts.cloudInABottle.enabled false

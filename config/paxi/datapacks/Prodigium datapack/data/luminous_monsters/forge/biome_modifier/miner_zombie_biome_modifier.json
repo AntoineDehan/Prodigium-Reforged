@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_cave",
+  "spawners": {
+    "type": "luminous_monsters:miner_zombie",
+    "weight": 60,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}
