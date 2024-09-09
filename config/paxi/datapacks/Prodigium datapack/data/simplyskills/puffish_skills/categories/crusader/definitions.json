@@ -10333,7 +10333,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:dodge_chance",
-          "value": 0.5,
+          "value": 0.05,
           "operation": "addition"
         }
       }

@@ -4,7 +4,7 @@
 "Should Scale Boss Drops" = true
 #The amount to scale boss health per player after the first
 #Range: 0.0 ~ 1.7976931348623157E308
-"Health Multiplier Per Player" = 0.3
+"Health Multiplier Per Player" = 0.15
 #A flat value to increase boss health. Will override "Health Multiplier Per Player" if it is not 0
 #Range: 0.0 ~ 1.7976931348623157E308
 "Flat Health Multiplier" = 0.0
