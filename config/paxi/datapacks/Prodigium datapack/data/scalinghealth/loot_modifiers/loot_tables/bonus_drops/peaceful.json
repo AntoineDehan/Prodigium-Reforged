@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.0,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.0
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [],
+      "rolls": 0.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "scalinghealth:mob_properties",
+          "difficulty": {
+            "max": 0.0,
+            "min": 0.0
+          },
+          "entity": "this",
+          "is_blight": false
+        },
+        {
+          "chance": 0.0,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.0
+        }
+      ],
+      "entries": [],
+      "rolls": 0.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "scalinghealth:mob_properties",
+          "difficulty": {
+            "max": 0.0,
+            "min": 0.0
+          },
+          "entity": "this",
+          "is_blight": false
+        },
+        {
+          "chance": 0.0,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.0
+        }
+      ],
+      "entries": [],
+      "rolls": 0.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "scalinghealth:mob_properties",
+          "difficulty": {
+            "max": 0.0,
+            "min": 0.0
+          },
+          "entity": "this",
+          "is_blight": true
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [],
+      "rolls": 0.0
+    }
+  ],
+  "random_sequence": "scalinghealth:bonus_drops/peaceful"
+}

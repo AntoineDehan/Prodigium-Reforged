@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["aba", "cdc"],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "b": {
+      "item": "minecraft:anvil"
+    },
+    "c": {
+      "item": "simpleores:mythril_ingot"
+    },
+    "d": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "quality_equipment:reforging_station",
+    "count": 1
+  }
+}

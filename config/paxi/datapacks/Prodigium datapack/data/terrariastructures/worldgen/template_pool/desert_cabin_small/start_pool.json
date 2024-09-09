@@ -1,0 +1,16 @@
+{
+  "name": "terrariastructures:desert_cabin_small/start_pool",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "terrariastructures:cabins/desert_cabin/desert_cabin_small",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

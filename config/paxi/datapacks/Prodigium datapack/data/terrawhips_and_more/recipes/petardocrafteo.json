@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["  a", " ba", "c d"],
+  "key": {
+    "a": {
+      "item": "minecraft:chain"
+    },
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "c": {
+      "item": "minecraft:blaze_rod"
+    },
+    "d": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    }
+  },
+  "result": {
+    "item": "terrawhips_and_more:firecracker",
+    "count": 1
+  }
+}

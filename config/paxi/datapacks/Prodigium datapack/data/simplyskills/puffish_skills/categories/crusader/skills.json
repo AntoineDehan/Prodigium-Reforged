@@ -1,0 +1,686 @@
+{
+	"a3ns9xl58ixdg2lo": {
+		"definition": "crusaderSignatureHeavensmithsCall",
+		"x": 0,
+		"y": -228,
+		"root": false
+	},
+	"is053f9imz801s57": {
+		"definition": "crusaderSignatureConsecration",
+		"x": 228,
+		"y": 0,
+		"root": false
+	},
+	"kp8uei8ppni71b5x": {
+		"definition": "crusaderSignatureSacredOnslaught",
+		"x": -228,
+		"y": 0,
+		"root": false
+	},
+	"xsak3gay0v3z4inb": {
+		"definition": "crusaderSignatureSacredOnslaughtHeal",
+		"x": -608,
+		"y": -76,
+		"root": false
+	},
+	"ipbguvfzpm9nvg8j": {
+		"definition": "crusaderSignatureSacredOnslaughtDefend",
+		"x": -608,
+		"y": 76,
+		"root": false
+	},
+	"cdbv71rvffagxjvo": {
+		"definition": "crusaderSignatureConsecrationMighty",
+		"x": 608,
+		"y": -76,
+		"root": false
+	},
+	"9d9t6hnhyc248jy0": {
+		"definition": "crusaderSignatureConsecrationSpellforged",
+		"x": 456,
+		"y": -38,
+		"root": false
+	},
+	"1gd45mne4etmyrl1": {
+		"definition": "crusaderSignatureHeavensmithsCallEffect",
+		"x": 0,
+		"y": -380,
+		"root": false
+	},
+	"4rmb8nu7b0iogk54": {
+		"definition": "crusaderAegis",
+		"x": 0,
+		"y": 646,
+		"root": false
+	},
+	"jx3mz6cj3x6pav5l": {
+		"definition": "crusaderRetribution",
+		"x": -76,
+		"y": 684,
+		"root": false
+	},
+	"zv95vb80wc1dysx9": {
+		"definition": "crusaderExhaustiveRecovery",
+		"x": 76,
+		"y": 684,
+		"root": false
+	},
+	"4p70f1lw2j9ogrvz": {
+		"definition": "crusaderSignatureConsecrationWard",
+		"x": 608,
+		"y": 76,
+		"root": false
+	},
+	"lumiaobsxfeefc2g": {
+		"definition": "crusaderSignatureConsecrationTaunt",
+		"x": 456,
+		"y": 38,
+		"root": false
+	},
+	"vq2yx5g5wqatozfj": {
+		"definition": "crusaderSignatureConsecrationDuration",
+		"x": 532,
+		"y": 0,
+		"root": false
+	},
+	"rmjv991vg9onqmrw": {
+		"definition": "crusaderSignatureSacredOnslaughtMighty",
+		"x": -456,
+		"y": 38,
+		"root": false
+	},
+	"sp16ctx7bbkpd4bz": {
+		"definition": "crusaderSignatureSacredOnslaughtStun",
+		"x": -456,
+		"y": -38,
+		"root": false
+	},
+	"u2ukao7v37zmiyxe": {
+		"definition": "crusaderSignatureHeavensmithsCallTaunt",
+		"x": -38,
+		"y": -418,
+		"root": false
+	},
+	"tc1tmlw0t5e0ieuw": {
+		"definition": "crusaderSignatureHeavensmithsCallMark",
+		"x": 38,
+		"y": -570,
+		"root": false
+	},
+	"pv9qamft1cecuw43": {
+		"definition": "crusaderSignatureHeavensmithsCallEffectExhaust",
+		"x": 38,
+		"y": -418,
+		"root": false
+	},
+	"aqir5hfk5syii7t6": {
+		"definition": "crusaderSignatureHeavensmithsCallEffectMighty",
+		"x": -38,
+		"y": -570,
+		"root": false
+	},
+	"kzj431vrpy8f109q": {
+		"definition": "health+4",
+		"x": 0,
+		"y": 256,
+		"root": true
+	},
+	"v84xz68i7bvphs14": {
+		"definition": "spell_healing_power_additive+1%",
+		"x": 342,
+		"y": -38,
+		"root": false
+	},
+	"oe71a8ur5veqof1h": {
+		"definition": "spell_healing_power_additive+1%",
+		"x": 304,
+		"y": -38,
+		"root": false
+	},
+	"llccr2ypb9jaf1i6": {
+		"definition": "health2+",
+		"x": -38,
+		"y": -266,
+		"root": false
+	},
+	"cglzhcyqtmxacfq7": {
+		"definition": "melee_damage+5%",
+		"x": 38,
+		"y": -266,
+		"root": false
+	},
+	"uv9k7kv3aqbzfr64": {
+		"definition": "health2+",
+		"x": -304,
+		"y": -38,
+		"root": false
+	},
+	"p68bkrnaaagohu81": {
+		"definition": "resistance+1",
+		"x": -304,
+		"y": 38,
+		"root": false
+	},
+	"w4evr0q6yph87omh": {
+		"definition": "crusader",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"1ucar84wfyev7tdx": {
+		"definition": "health2+",
+		"x": -114,
+		"y": 0,
+		"root": false
+	},
+	"c2uz6l2odetofj4a": {
+		"definition": "health2+",
+		"x": 0,
+		"y": -114,
+		"root": false
+	},
+	"sl0l2ub8xzjkv086": {
+		"definition": "health2+",
+		"x": 114,
+		"y": 0,
+		"root": false
+	},
+	"cqujkqx285e0hg08": {
+		"definition": "health2+",
+		"x": 0,
+		"y": 114,
+		"root": false
+	},
+	"4phh8h0qy7qyckt1": {
+		"definition": "health2+",
+		"x": 304,
+		"y": 38,
+		"root": false
+	},
+	"6kxenymyx64xljap": {
+		"definition": "health2+",
+		"x": 342,
+		"y": 38,
+		"root": false
+	},
+	"7rnj4ttre9v658yd": {
+		"definition": "health2+",
+		"x": 380,
+		"y": 38,
+		"root": false
+	},
+	"edambgfk92s9mgou": {
+		"definition": "spell_healing_power_additive+1%",
+		"x": 380,
+		"y": -38,
+		"root": false
+	},
+	"x1jhqgowf381t3br": {
+		"definition": "holy_spell_power+10%",
+		"x": 380,
+		"y": -76,
+		"root": false
+	},
+	"n35lsvpywspx2skq": {
+		"definition": "health+4",
+		"x": 380,
+		"y": 76,
+		"root": false
+	},
+	"t3l035ru6rd2loyd": {
+		"definition": "mana+50",
+		"x": 494,
+		"y": -76,
+		"root": false
+	},
+	"u56ruqv3dmos2eqp": {
+		"definition": "mana+50",
+		"x": 494,
+		"y": -114,
+		"root": false
+	},
+	"y0y7xxh7sb102bkx": {
+		"definition": "resistance+1",
+		"x": 532,
+		"y": -76,
+		"root": false
+	},
+	"gqtzs5jspohtzi8j": {
+		"definition": "resistance+1",
+		"x": 532,
+		"y": -114,
+		"root": false
+	},
+	"hpy3u3kwvfotebtt": {
+		"definition": "health2+",
+		"x": 570,
+		"y": -38,
+		"root": false
+	},
+	"dfpmtfybdu3bt9re": {
+		"definition": "health2+",
+		"x": 608,
+		"y": -38,
+		"root": false
+	},
+	"d1wen3x4c4cn1vlr": {
+		"definition": "armor+0.5",
+		"x": 494,
+		"y": 76,
+		"root": false
+	},
+	"e1gz0ij8iq5nxfgk": {
+		"definition": "armor+0.5",
+		"x": 494,
+		"y": 114,
+		"root": false
+	},
+	"wlmhssvqi13kcnbb": {
+		"definition": "knockback_resistance+5%",
+		"x": 532,
+		"y": 76,
+		"root": false
+	},
+	"w9w9l5g3jl8n0nwl": {
+		"definition": "armor_toughness+1",
+		"x": 532,
+		"y": 114,
+		"root": false
+	},
+	"i6yt4bzm5n79fkff": {
+		"definition": "healing+5%",
+		"x": 570,
+		"y": 38,
+		"root": false
+	},
+	"7lycg8cpn3prfpm7": {
+		"definition": "healing+5%",
+		"x": 608,
+		"y": 38,
+		"root": false
+	},
+	"uju2tzl0g8yutg5b": {
+		"definition": "mana+50",
+		"x": 684,
+		"y": 38,
+		"root": false
+	},
+	"0re3o25p0izlw21k": {
+		"definition": "spell_healing_power_additive+1%",
+		"x": 684,
+		"y": -38,
+		"root": false
+	},
+	"mt7s90fekpgqf1rm": {
+		"definition": "health2+",
+		"x": -342,
+		"y": -38,
+		"root": false
+	},
+	"tmc9wr8o38ls2ole": {
+		"definition": "health2+",
+		"x": -380,
+		"y": -38,
+		"root": false
+	},
+	"8ag0lfx1r9ksfps8": {
+		"definition": "health+4",
+		"x": -380,
+		"y": -76,
+		"root": false
+	},
+	"qo1pshi63nxow6m0": {
+		"definition": "resistance+1",
+		"x": -342,
+		"y": 38,
+		"root": false
+	},
+	"9ypgx5i0rldy0qth": {
+		"definition": "resistance+1",
+		"x": -380,
+		"y": 38,
+		"root": false
+	},
+	"qys02j5vfzd0348r": {
+		"definition": "resistance+5%",
+		"x": -380,
+		"y": 76,
+		"root": false
+	},
+	"fxfuhx5whmzxh7qk": {
+		"definition": "spell_healing_power_additive+1%",
+		"x": -494,
+		"y": -76,
+		"root": false
+	},
+	"25u7uaw06g05gq5l": {
+		"definition": "spell_healing_power_additive+1%",
+		"x": -494,
+		"y": -114,
+		"root": false
+	},
+	"kzoso581h7x5b8w5": {
+		"definition": "armor+0.5",
+		"x": -494,
+		"y": 76,
+		"root": false
+	},
+	"qxzkryba2qybcm6x": {
+		"definition": "armor+0.5",
+		"x": -494,
+		"y": 114,
+		"root": false
+	},
+	"ialiw29ctcdx63ca": {
+		"definition": "armor_toughness+1",
+		"x": -532,
+		"y": -76,
+		"root": false
+	},
+	"6fb8eypwp04ev1xs": {
+		"definition": "armor_toughness+1",
+		"x": -532,
+		"y": -114,
+		"root": false
+	},
+	"16bfep1psx2lab6a": {
+		"definition": "knockback_resistance+5%",
+		"x": -570,
+		"y": -38,
+		"root": false
+	},
+	"gpq4bx3gwj0mlzf5": {
+		"definition": "knockback_resistance+5%",
+		"x": -608,
+		"y": -38,
+		"root": false
+	},
+	"5n6d94xxzz43lfvz": {
+		"definition": "resistance+1",
+		"x": -570,
+		"y": 38,
+		"root": false
+	},
+	"pqhdqlaw8r90bb3q": {
+		"definition": "resistance+1",
+		"x": -608,
+		"y": 38,
+		"root": false
+	},
+	"ztab51i7h2g3gbqy": {
+		"definition": "healing+5%",
+		"x": -532,
+		"y": 76,
+		"root": false
+	},
+	"hsnctphi9rjzms3f": {
+		"definition": "healing+5%",
+		"x": -532,
+		"y": 114,
+		"root": false
+	},
+	"dgua9nbfbcra9pzq": {
+		"definition": "resistance+5%",
+		"x": -722,
+		"y": 0,
+		"root": false
+	},
+	"ylx3ow4eavetnp7z": {
+		"definition": "health+4",
+		"x": -684,
+		"y": -38,
+		"root": false
+	},
+	"fy1b2jevv8s0eavg": {
+		"definition": "spell_resist+10",
+		"x": -684,
+		"y": 38,
+		"root": false
+	},
+	"v5rpvltnlidqq8v2": {
+		"definition": "melee_damage+5%",
+		"x": 76,
+		"y": -266,
+		"root": false
+	},
+	"g18zxt47kw9f9w0s": {
+		"definition": "melee_damage+5%",
+		"x": 76,
+		"y": -304,
+		"root": false
+	},
+	"sm7japh5rhullevi": {
+		"definition": "melee_damage+10%",
+		"x": 114,
+		"y": -266,
+		"root": false
+	},
+	"whbm7ic8p0zy23za": {
+		"definition": "health2+",
+		"x": -76,
+		"y": -266,
+		"root": false
+	},
+	"wijj3hkf4otfyqix": {
+		"definition": "health2+",
+		"x": -76,
+		"y": -304,
+		"root": false
+	},
+	"ub8mcbwgf11j089f": {
+		"definition": "health2+",
+		"x": -114,
+		"y": -266,
+		"root": false
+	},
+	"2cz9m6ux3bxuodft": {
+		"definition": "resistance+1",
+		"x": -114,
+		"y": -380,
+		"root": false
+	},
+	"5yil3romy3lfrl2f": {
+		"definition": "resistance+1",
+		"x": -152,
+		"y": -380,
+		"root": false
+	},
+	"aviw3s61qp5gif0g": {
+		"definition": "crit_chance+5%",
+		"x": 114,
+		"y": -380,
+		"root": false
+	},
+	"od81m3ckha36u84a": {
+		"definition": "crit_chance+5%",
+		"x": 152,
+		"y": -380,
+		"root": false
+	},
+	"ti09nona045hdues": {
+		"definition": "health2+",
+		"x": -38,
+		"y": -456,
+		"root": false
+	},
+	"9iv79bp89b401qrr": {
+		"definition": "health2+",
+		"x": -76,
+		"y": -456,
+		"root": false
+	},
+	"6y36d2p6mdmvk4xp": {
+		"definition": "armor+0.5",
+		"x": -76,
+		"y": -418,
+		"root": false
+	},
+	"829ctjsw8k6h2sbh": {
+		"definition": "armor+0.5",
+		"x": -152,
+		"y": -418,
+		"root": false
+	},
+	"4zkb23uief7vvs41": {
+		"definition": "melee_damage+5%",
+		"x": 76,
+		"y": -418,
+		"root": false
+	},
+	"5ajqgwxmlhvf3qam": {
+		"definition": "melee_damage+5%",
+		"x": 152,
+		"y": -418,
+		"root": false
+	},
+	"b33vbozt41ysisbc": {
+		"definition": "crit_damage+5%",
+		"x": 38,
+		"y": -456,
+		"root": false
+	},
+	"dzkhho7rjwiikov6": {
+		"definition": "crit_damage+5%",
+		"x": 76,
+		"y": -456,
+		"root": false
+	},
+	"u1kg82m92w34h18k": {
+		"definition": "healing+5%",
+		"x": 76,
+		"y": -532,
+		"root": false
+	},
+	"2jw3pyhaky179tpl": {
+		"definition": "health2+",
+		"x": -38,
+		"y": 342,
+		"root": false
+	},
+	"opxdnso7ecbnmeqx": {
+		"definition": "health2+",
+		"x": -38,
+		"y": 380,
+		"root": false
+	},
+	"5272lulm1azy76en": {
+		"definition": "armor+0.5",
+		"x": 38,
+		"y": 342,
+		"root": false
+	},
+	"j27eh810pgzlc4t3": {
+		"definition": "armor+0.5",
+		"x": 38,
+		"y": 380,
+		"root": false
+	},
+	"1bjwvdzmckg3m9hg": {
+		"definition": "resistance+5%",
+		"x": 114,
+		"y": 456,
+		"root": false
+	},
+	"g8maimxbovss4bzf": {
+		"definition": "melee_damage+10%",
+		"x": -114,
+		"y": 456,
+		"root": false
+	},
+	"ec0uc3b03p9jmwln": {
+		"definition": "healing+5%",
+		"x": 114,
+		"y": 532,
+		"root": false
+	},
+	"6eeyns9mscth2p2f": {
+		"definition": "healing+5%",
+		"x": 152,
+		"y": 532,
+		"root": false
+	},
+	"sfazmslkn255hg4d": {
+		"definition": "knockback_resistance+5%",
+		"x": 114,
+		"y": 570,
+		"root": false
+	},
+	"e0elh3fr3p911zhv": {
+		"definition": "knockback_resistance+5%",
+		"x": 152,
+		"y": 570,
+		"root": false
+	},
+	"yzu0h5kgbppcuwn2": {
+		"definition": "mana+25",
+		"x": 114,
+		"y": 608,
+		"root": false
+	},
+	"8x897vcg2id4xqg9": {
+		"definition": "mana+25",
+		"x": 152,
+		"y": 608,
+		"root": false
+	},
+	"xnecykfr971cbemj": {
+		"definition": "spell_healing_power_additive+1%",
+		"x": -114,
+		"y": 532,
+		"root": false
+	},
+	"gzlhbfo80mo21juw": {
+		"definition": "spell_healing_power_additive+1%",
+		"x": -152,
+		"y": 532,
+		"root": false
+	},
+	"o3tp0rwra2a3apzp": {
+		"definition": "attack_knockback+5%",
+		"x": -114,
+		"y": 570,
+		"root": false
+	},
+	"wt7xbg6zm2vt7giz": {
+		"definition": "attack_knockback+5%",
+		"x": -152,
+		"y": 570,
+		"root": false
+	},
+	"hvojnad2s1o07vdi": {
+		"definition": "resistance+1",
+		"x": -114,
+		"y": 608,
+		"root": false
+	},
+	"4g1rneasnt6fs169": {
+		"definition": "resistance+1",
+		"x": -152,
+		"y": 608,
+		"root": false
+	},
+	"vf0oirohwfjn9cr7": {
+		"definition": "stamina+0.5%",
+		"x": -76,
+		"y": -532,
+		"root": false
+	},
+	"wba6vdbk2idb945d": {
+		"definition": "luck+1",
+		"x": 722,
+		"y": 0,
+		"root": false
+	},
+	"d9e8ovw9d62ksnjq": {
+		"definition": "valkyrie",
+		"x": 0,
+		"y": 494,
+		"root": false
+	},
+	"kvw9973utvdgxglk": {
+		"definition": "ignitium",
+		"x": 0,
+		"y": 532,
+		"root": false
+	}
+}

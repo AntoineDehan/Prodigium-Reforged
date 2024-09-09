@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" G ", "GCG", "CCC"],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "prodigium:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "terrawhips_and_more:slime_crown",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+  ],
+  "features": "stalwart_dungeons:end_dungeon",
+  "step": "surface_structures"
+}

@@ -1,0 +1,764 @@
+{
+	"a3ns9xl58ixdg2lo": {
+		"definition": "rangerSignatureArrowRain",
+		"x": 0,
+		"y": -384,
+		"root": false
+	},
+	"is053f9imz801s57": {
+		"definition": "rangerSignatureDisengage",
+		"x": 192,
+		"y": -192,
+		"root": false
+	},
+	"kp8uei8ppni71b5x": {
+		"definition": "rangerSignatureElementalArrows",
+		"x": -192,
+		"y": -192,
+		"root": false
+	},
+	"yftatjo9vwzf5vpw": {
+		"definition": "rangerSignatureArrowRainElemental",
+		"x": 0,
+		"y": -736,
+		"root": false
+	},
+	"l6feffzr1kt6i2ds": {
+		"definition": "rangerSignatureArrowRainEplosive",
+		"x": 0,
+		"y": -544,
+		"root": false
+	},
+	"b9sdl3i5pk4c8yor": {
+		"definition": "rangerSignatureArrowRainVolley+",
+		"x": -64,
+		"y": -672,
+		"root": false
+	},
+	"kj4gdess10vmmu1h": {
+		"definition": "rangerSignatureArrowRainVolley++",
+		"x": -96,
+		"y": -704,
+		"root": false
+	},
+	"67krnm60doqj0ukv": {
+		"definition": "rangerSignatureArrowRainVolley+++",
+		"x": -96,
+		"y": -736,
+		"root": false
+	},
+	"7gtk26uaf6fzugyx": {
+		"definition": "rangerSignatureArrowRainRadius+",
+		"x": 96,
+		"y": -704,
+		"root": false
+	},
+	"12p6g36kjjd9cihs": {
+		"definition": "rangerSignatureArrowRainRadius++",
+		"x": 64,
+		"y": -672,
+		"root": false
+	},
+	"b6ys22j75bek89z8": {
+		"definition": "rangerSignatureArrowRainRadius+++",
+		"x": 96,
+		"y": -736,
+		"root": false
+	},
+	"ov9mp25y08ouk5jj": {
+		"definition": "spell_fire_damage_multi+1%",
+		"x": -448,
+		"y": -224,
+		"root": false
+	},
+	"6bycgdo9shmo7et7": {
+		"definition": "rangerSignatureElementalArrowsFireAttuned",
+		"x": -448,
+		"y": -192,
+		"root": false
+	},
+	"f4xxv7jkv3jznaxd": {
+		"definition": "spell_frost_damage_multi+1%",
+		"x": -416,
+		"y": -128,
+		"root": false
+	},
+	"ivyp2p1jp6ip5w0q": {
+		"definition": "rangerSignatureElementalArrowsFrostAttuned",
+		"x": -384,
+		"y": -128,
+		"root": false
+	},
+	"qsxd036xrayyrfz7": {
+		"definition": "spell_lightning_damage_multi+1%",
+		"x": -352,
+		"y": -256,
+		"root": false
+	},
+	"7747tky4ka5hid0r": {
+		"definition": "rangerSignatureElementalArrowsLightningAttuned",
+		"x": -384,
+		"y": -256,
+		"root": false
+	},
+	"jyjchp0ewoqq2n9w": {
+		"definition": "rangerSignatureElementalArrowsRadius+",
+		"x": -480,
+		"y": -64,
+		"root": false
+	},
+	"c27k3khjocrzi77a": {
+		"definition": "rangerSignatureElementalArrowsRadius++",
+		"x": -512,
+		"y": -64,
+		"root": false
+	},
+	"7fcjbknbz80nqnmc": {
+		"definition": "rangerSignatureElementalArrowsRadius+++",
+		"x": -544,
+		"y": -64,
+		"root": false
+	},
+	"nho6njv0e6ngyea0": {
+		"definition": "rangerSignatureElementalArrowsStacks+",
+		"x": -480,
+		"y": -320,
+		"root": false
+	},
+	"jyzyi0dx8elgb4fl": {
+		"definition": "rangerSignatureElementalArrowsStacks++",
+		"x": -512,
+		"y": -320,
+		"root": false
+	},
+	"14riqlyv2efrldoq": {
+		"definition": "rangerSignatureElementalArrowsStacks+++",
+		"x": -544,
+		"y": -320,
+		"root": false
+	},
+	"aizxxvc9fwqnpq60": {
+		"definition": "rangerSignatureElementalArrowsRenewal",
+		"x": -544,
+		"y": -192,
+		"root": false
+	},
+	"t5c5gzcskng8b8cz": {
+		"definition": "rangerSignatureDisengageExploitation",
+		"x": 512,
+		"y": -128,
+		"root": false
+	},
+	"dr852odvrafemtmw": {
+		"definition": "rangerSignatureDisengageRecuperate",
+		"x": 352,
+		"y": -192,
+		"root": false
+	},
+	"ybvq1ijnytlldmmy": {
+		"definition": "dodge+5%",
+		"x": 256,
+		"y": -224,
+		"root": false
+	},
+	"inctw0dlvdx7wrf0": {
+		"definition": "dodge+5%",
+		"x": 288,
+		"y": -224,
+		"root": false
+	},
+	"xb84xgtz2cynhxe2": {
+		"definition": "dodge+5%",
+		"x": 320,
+		"y": -224,
+		"root": false
+	},
+	"4q8hsjuia145trv7": {
+		"definition": "ranged_damage+5%",
+		"x": 256,
+		"y": -160,
+		"root": false
+	},
+	"7i77726t2uhbe1oh": {
+		"definition": "ranged_damage+5%",
+		"x": 320,
+		"y": -160,
+		"root": false
+	},
+	"9hqz9uonnud6t9rw": {
+		"definition": "ranged_damage+5%",
+		"x": 288,
+		"y": -160,
+		"root": false
+	},
+	"1sd5kv4wi1ylacx8": {
+		"definition": "ranged_damage+10%",
+		"x": 316,
+		"y": -114,
+		"root": false
+	},
+	"ydcjvatyvt2o7etu": {
+		"definition": "dodge+10%",
+		"x": 320,
+		"y": -256,
+		"root": false
+	},
+	"fau41sxkpniul48c": {
+		"definition": "rangerSignatureDisengageMarksman",
+		"x": 512,
+		"y": -256,
+		"root": false
+	},
+	"ntl6t82dx4trymtz": {
+		"definition": "movement_speed_multi+1.5%",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"fv9u51en0gnr42sg": {
+		"definition": "rangerReveal",
+		"x": 128,
+		"y": 416,
+		"root": false
+	},
+	"8qujpjd26hnzorvc": {
+		"definition": "rangerTamer",
+		"x": -128,
+		"y": 416,
+		"root": false
+	},
+	"p3nyz0ovok45zgdd": {
+		"definition": "rangerBonded",
+		"x": 0,
+		"y": 380,
+		"root": false
+	},
+	"kp8fomkuvt4mo5rx": {
+		"definition": "rangerTrained",
+		"x": -64,
+		"y": 416,
+		"root": false
+	},
+	"yx0lq81aedw5u765": {
+		"definition": "rangerIncognito",
+		"x": 64,
+		"y": 416,
+		"root": false
+	},
+	"jj2x90x4mspo7o00": {
+		"definition": "jump_multi+2%",
+		"x": 0,
+		"y": 96,
+		"root": false
+	},
+	"sgyyljazgqavx43g": {
+		"definition": "rangerSignatureArrowRainElementalArtillery",
+		"x": 0,
+		"y": -768,
+		"root": false
+	},
+	"4i8nukdyw3p3z55v": {
+		"definition": "roll_count+1",
+		"x": -32,
+		"y": 128,
+		"root": false
+	},
+	"h69oixq4lmovs5vj": {
+		"definition": "roll_count+1",
+		"x": -32,
+		"y": 160,
+		"root": false
+	},
+	"fhytjq45c82kxvjn": {
+		"definition": "roll_distance+1",
+		"x": 32,
+		"y": 128,
+		"root": false
+	},
+	"8mrcc69250ovi5iu": {
+		"definition": "roll_distance+1",
+		"x": 32,
+		"y": 160,
+		"root": false
+	},
+	"8f2ah6jyyjz3xhnr": {
+		"definition": "luck+1",
+		"x": -96,
+		"y": 224,
+		"root": false
+	},
+	"b4dawdvltkrvhx09": {
+		"definition": "luck+1",
+		"x": 96,
+		"y": 224,
+		"root": false
+	},
+	"y6hujyjvwnykw07y": {
+		"definition": "orichalcum",
+		"x": 0,
+		"y": -190,
+		"root": false
+	},
+	"ufi8h0555n883jt8": {
+		"definition": "health2+",
+		"x": -96,
+		"y": -192,
+		"root": false
+	},
+	"r20pbk6p52ebncvt": {
+		"definition": "health2+",
+		"x": 96,
+		"y": -192,
+		"root": false
+	},
+	"zwo2afoaavz6i6mu": {
+		"definition": "health2+",
+		"x": 0,
+		"y": -288,
+		"root": false
+	},
+	"gvwmwvenu50ia34q": {
+		"definition": "health2+",
+		"x": 0,
+		"y": -96,
+		"root": false
+	},
+	"bxyapmssug8dbs91": {
+		"definition": "roll_cooldown-10%",
+		"x": 416,
+		"y": -256,
+		"root": false
+	},
+	"3rotl9kxdpapknvz": {
+		"definition": "crit_chance+5%",
+		"x": 416,
+		"y": -128,
+		"root": false
+	},
+	"6fu03xv5g78a5853": {
+		"definition": "crit_chance+5%",
+		"x": 416,
+		"y": -96,
+		"root": false
+	},
+	"xqrwi6bhfxyoiehw": {
+		"definition": "ranged_damage+5%",
+		"x": 480,
+		"y": -160,
+		"root": false
+	},
+	"yfoilgnn2vm2qh9g": {
+		"definition": "crit_damage+5%",
+		"x": 448,
+		"y": -128,
+		"root": false
+	},
+	"edg5cgz4asabvu5e": {
+		"definition": "crit_damage+5%",
+		"x": 448,
+		"y": -96,
+		"root": false
+	},
+	"4cnk6i8enbj8zqeb": {
+		"definition": "current_hp_damage+5%",
+		"x": 448,
+		"y": -256,
+		"root": false
+	},
+	"9nsaoqszckur1wiw": {
+		"definition": "dodge+5%",
+		"x": 480,
+		"y": -224,
+		"root": false
+	},
+	"sa3fbiaxne3eex7x": {
+		"definition": "dodge+5%",
+		"x": 512,
+		"y": -224,
+		"root": false
+	},
+	"a3i01lqnntdlbfh6": {
+		"definition": "roll_cooldown-10%",
+		"x": 416,
+		"y": -288,
+		"root": false
+	},
+	"2n6f2mnf1qsb1esp": {
+		"definition": "current_hp_damage+5%",
+		"x": 448,
+		"y": -288,
+		"root": false
+	},
+	"l0z2uojrdbrxe40m": {
+		"definition": "ranged_damage+5%",
+		"x": 512,
+		"y": -160,
+		"root": false
+	},
+	"ytrr91onusvnbo67": {
+		"definition": "dodge+5%",
+		"x": 96,
+		"y": 288,
+		"root": false
+	},
+	"ydj15rw9dbyhzrfh": {
+		"definition": "dodge+5%",
+		"x": 128,
+		"y": 288,
+		"root": false
+	},
+	"jo2748f4rxll1cms": {
+		"definition": "roll_cooldown-10%",
+		"x": 96,
+		"y": 320,
+		"root": false
+	},
+	"cd9bew4z767kropg": {
+		"definition": "roll_cooldown-10%",
+		"x": 128,
+		"y": 320,
+		"root": false
+	},
+	"59ooxjvk0ano4rtj": {
+		"definition": "health2+",
+		"x": 96,
+		"y": 352,
+		"root": false
+	},
+	"tv5ryx4segjaen9g": {
+		"definition": "health2+",
+		"x": 128,
+		"y": 352,
+		"root": false
+	},
+	"mef0m5001oyn3bni": {
+		"definition": "ranged_damage+5%",
+		"x": -96,
+		"y": 288,
+		"root": false
+	},
+	"f508fru5o7tiv574": {
+		"definition": "ranged_damage+5%",
+		"x": -128,
+		"y": 288,
+		"root": false
+	},
+	"3kxgrose8kc0th0u": {
+		"definition": "armor_shred+5%",
+		"x": -96,
+		"y": 352,
+		"root": false
+	},
+	"jmoqp7gzqt2vhwu4": {
+		"definition": "armor_shred+5%",
+		"x": -128,
+		"y": 352,
+		"root": false
+	},
+	"9d0e6yrnbs8do4u8": {
+		"definition": "roll_cooldown-10%",
+		"x": -96,
+		"y": 320,
+		"root": false
+	},
+	"g1o32kpap4us5gk8": {
+		"definition": "roll_cooldown-10%",
+		"x": -128,
+		"y": 320,
+		"root": false
+	},
+	"qrec5zf98uxmq46n": {
+		"definition": "spell_lightning_damage_multi+1%",
+		"x": -416,
+		"y": -256,
+		"root": false
+	},
+	"9z510nrx8rfblqm5": {
+		"definition": "spell_fire_damage_multi+1%",
+		"x": -448,
+		"y": -160,
+		"root": false
+	},
+	"wujnoqlhy3lvrm98": {
+		"definition": "spell_frost_damage_multi+1%",
+		"x": -352,
+		"y": -128,
+		"root": false
+	},
+	"3kzqeato5enkv2ba": {
+		"definition": "draw_speed+5%",
+		"x": -384,
+		"y": -320,
+		"root": false
+	},
+	"bawbw39nqog5fnhs": {
+		"definition": "draw_speed+5%",
+		"x": -384,
+		"y": -352,
+		"root": false
+	},
+	"u1frgqh744k5a64h": {
+		"definition": "ranged_damage+5%",
+		"x": -416,
+		"y": -320,
+		"root": false
+	},
+	"2sb4x1azahixocq4": {
+		"definition": "ranged_damage+5%",
+		"x": -416,
+		"y": -352,
+		"root": false
+	},
+	"we5o0snhf18wqu8v": {
+		"definition": "spell_power_additive",
+		"x": -512,
+		"y": -288,
+		"root": false
+	},
+	"qzfuhsw11sq34085": {
+		"definition": "spell_power_additive",
+		"x": -448,
+		"y": -288,
+		"root": false
+	},
+	"rxjwcc7m1tpi1chb": {
+		"definition": "roll_cooldown-10%",
+		"x": -416,
+		"y": -64,
+		"root": false
+	},
+	"bi7uzvfu83uq9q9g": {
+		"definition": "roll_cooldown-10%",
+		"x": -416,
+		"y": -32,
+		"root": false
+	},
+	"p8dbdhcw1ij6aqk5": {
+		"definition": "armor_shred+5%",
+		"x": -384,
+		"y": -64,
+		"root": false
+	},
+	"6h83mvs8wevtg7wv": {
+		"definition": "armor_shred+5%",
+		"x": -384,
+		"y": -32,
+		"root": false
+	},
+	"g2pzmtnk3t6mfa0p": {
+		"definition": "crit_chance+5%",
+		"x": -448,
+		"y": -96,
+		"root": false
+	},
+	"k5v86ga7qutbccqe": {
+		"definition": "crit_chance+5%",
+		"x": -512,
+		"y": -96,
+		"root": false
+	},
+	"ty48s924bh3wdrak": {
+		"definition": "crit_damage+5%",
+		"x": 32,
+		"y": -448,
+		"root": false
+	},
+	"bsls7wsjimb9l76v": {
+		"definition": "crit_damage+5%",
+		"x": 32,
+		"y": -480,
+		"root": false
+	},
+	"rwha4gb6gfffxjm9": {
+		"definition": "crit_damage+5%",
+		"x": 32,
+		"y": -512,
+		"root": false
+	},
+	"w985zf562tjqawnu": {
+		"definition": "prot_shred+5%",
+		"x": 96,
+		"y": -608,
+		"root": false
+	},
+	"h622teemhwllxjzn": {
+		"definition": "ranged_damage+5%",
+		"x": -32,
+		"y": -448,
+		"root": false
+	},
+	"suysszlwppaj4qee": {
+		"definition": "ranged_damage+5%",
+		"x": -32,
+		"y": -480,
+		"root": false
+	},
+	"c1y2bfjhe88yx18o": {
+		"definition": "crit_chance+5%",
+		"x": -32,
+		"y": -640,
+		"root": false
+	},
+	"3vcrs3ilofobied3": {
+		"definition": "arrow_velocity+2%",
+		"x": -64,
+		"y": -608,
+		"root": false
+	},
+	"ss8qhl05x8g7tn9c": {
+		"definition": "arrow_velocity+2%",
+		"x": -96,
+		"y": -608,
+		"root": false
+	},
+	"0bcswh1uv44t76b2": {
+		"definition": "dodge+10%",
+		"x": 608,
+		"y": -192,
+		"root": false
+	},
+	"gpbyisbrpkyr5kyc": {
+		"definition": "melee_damage+5%",
+		"x": 576,
+		"y": -160,
+		"root": false
+	},
+	"0cdxlge9lkx2zlt7": {
+		"definition": "crit_damage+5%",
+		"x": 64,
+		"y": -512,
+		"root": false
+	},
+	"rojop8pn3wky8uo0": {
+		"definition": "crit_chance+5%",
+		"x": -32,
+		"y": -672,
+		"root": false
+	},
+	"moqmq8zz5h2nt83v": {
+		"definition": "prot_shred+5%",
+		"x": 64,
+		"y": -608,
+		"root": false
+	},
+	"uw21jvzuyfcfaljp": {
+		"definition": "crit_damage+5%",
+		"x": -64,
+		"y": -576,
+		"root": false
+	},
+	"dvmqichpsne7zk9o": {
+		"definition": "crit_chance+5%",
+		"x": 64,
+		"y": -576,
+		"root": false
+	},
+	"l009dvbbyn24q0lc": {
+		"definition": "movement_speed+1%",
+		"x": 576,
+		"y": -224,
+		"root": false
+	},
+	"gjd7qppvqmm7sat5": {
+		"definition": "ranged_damage+5%",
+		"x": -256,
+		"y": -96,
+		"root": false
+	},
+	"awkw4zae6shvkbl8": {
+		"definition": "ranged_damage+5%",
+		"x": -288,
+		"y": -96,
+		"root": false
+	},
+	"rd21bdsw8xrbj2d4": {
+		"definition": "ranged_damage+5%",
+		"x": -320,
+		"y": -96,
+		"root": false
+	},
+	"3t4mix4qjad84by4": {
+		"definition": "ranged_damage+10%",
+		"x": -320,
+		"y": -64,
+		"root": false
+	},
+	"ioxn3u3gx61v0ihz": {
+		"definition": "spell_crit_chance_additive+1%",
+		"x": -256,
+		"y": -288,
+		"root": false
+	},
+	"bod7jjs32norefr3": {
+		"definition": "spell_crit_chance_additive+1%",
+		"x": -288,
+		"y": -288,
+		"root": false
+	},
+	"2jph6vrn104fkoop": {
+		"definition": "spell_crit_chance_additive+1%",
+		"x": -320,
+		"y": -288,
+		"root": false
+	},
+	"0de702z3ymzkxev8": {
+		"definition": "spell_crit_damage_additive+1%",
+		"x": -320,
+		"y": -320,
+		"root": false
+	},
+	"dfgqp44b8gfhz3hm": {
+		"definition": "spell_power_additive",
+		"x": -352,
+		"y": -192,
+		"root": false
+	},
+	"hoqolo3dyjqps6qf": {
+		"definition": "ranged_damage+5%",
+		"x": -32,
+		"y": -512,
+		"root": false
+	},
+	"5b0vjw7jpsn2ekqq": {
+		"definition": "crit_damage+5%",
+		"x": -96,
+		"y": -576,
+		"root": false
+	},
+	"wm0m1jzph24hobkt": {
+		"definition": "crit_chance+5%",
+		"x": 96,
+		"y": -576,
+		"root": false
+	},
+	"dw4azx37f9i7jubf": {
+		"definition": "armor_shred+5%",
+		"x": 32,
+		"y": -640,
+		"root": false
+	},
+	"f8y231tpioqvd2ve": {
+		"definition": "armor_shred+5%",
+		"x": 32,
+		"y": -672,
+		"root": false
+	},
+	"u7btgc906v2hrz23": {
+		"definition": "ranged_damage+10%",
+		"x": -64,
+		"y": -512,
+		"root": false
+	},
+	"4243453g33izai7j": {
+		"definition": "neptune",
+		"x": 0,
+		"y": 266,
+		"root": false
+	},
+	"rhbb3rdhu7wuohfi": {
+		"definition": "shroomite",
+		"x": 0,
+		"y": 304,
+		"root": false
+	}
+}

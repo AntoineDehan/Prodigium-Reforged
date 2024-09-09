@@ -1,0 +1,5 @@
+{
+  "replace": false,
+
+  "values": ["#forge:is_snowy", "#forge:is_cold"]
+}

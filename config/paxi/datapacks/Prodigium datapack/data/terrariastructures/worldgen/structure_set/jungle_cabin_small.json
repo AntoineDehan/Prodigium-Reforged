@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "terrariastructures:jungle_cabin_small",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1326156996,
+    "spacing": 20,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

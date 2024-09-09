@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "terrariastructures:cabin_large",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 343864103,
+    "spacing": 30,
+    "separation": 12,
+    "type": "minecraft:random_spread"
+  }
+}

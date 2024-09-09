@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "terrariastructures:ruined_houses",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1050587213,
+    "spacing": 25,
+    "separation": 15,
+    "type": "minecraft:random_spread"
+  }
+}

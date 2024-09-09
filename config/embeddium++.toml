@@ -5,7 +5,7 @@
 		#Set Fullscreen mode
 		#Borderless let you change between screens more faster and move your mouse across monitors
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
-		fullscreen = "BORDERLESS"
+		fullscreen = "WINDOWED"
 		#Configure FPS Display mode
 		#Complete mode gives you min FPS count and average count
 		#Allowed Values: OFF, SIMPLE, ADVANCED

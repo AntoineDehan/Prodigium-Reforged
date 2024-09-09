@@ -1,0 +1,16 @@
+{
+  "name": "terrariastructures:ruined_houses/start_pool",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "terrariastructures:ruined_houses/ruined_room_piglin",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

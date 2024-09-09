@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "terrariastructures:ice_cabin_large",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 141320358,
+    "spacing": 30,
+    "separation": 12,
+    "type": "minecraft:random_spread"
+  }
+}

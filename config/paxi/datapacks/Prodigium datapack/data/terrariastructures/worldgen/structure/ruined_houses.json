@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "terrariastructures:ruined_houses/start_pool",
+  "size": 6,
+  "max_distance_from_center": 35,
+  "biomes": "#terrariastructures:has_structure/ruined_houses",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "absolute": 33
+  },
+  "use_expansion_hack": false,
+  "spawn_overrides": {}
+}

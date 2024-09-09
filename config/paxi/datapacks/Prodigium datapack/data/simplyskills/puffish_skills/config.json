@@ -1,0 +1,16 @@
+{
+  "version": 2,
+
+  "categories": [
+    "tree",
+    "wizard",
+    "berserker",
+    "rogue",
+    "ranger",
+    "spellblade",
+    "crusader",
+    "cleric",
+    "necromancer",
+    "ascendancy"
+  ]
+}

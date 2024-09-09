@@ -1,0 +1,16 @@
+{
+  "name": "terrariastructures:cabin_medium/start_pool",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "terrariastructures:cabins/default_cabin/cabin_medium",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
