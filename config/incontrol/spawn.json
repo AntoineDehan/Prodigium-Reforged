@@ -636,6 +636,10 @@
     "result": "deny"
   },
   {
+    "mob": ["undead_revamp2:theordure"],
+    "result": "deny"
+  },
+  {
     "mob": ["born_in_chaos_v1:maggot"],
     "result": "deny"
   },

@@ -2,31 +2,24 @@
   "Restriction Data": {
     "stage": "stage_wizard_zanite",
     "itemList": [
-	 {
-		 "item": "aether:zanite_helmet"
-	 },
-	 {	
-		 "item": "waether:zanite_chestplate"
-	 },
-	 {
-		 "item": "aether:zanite_leggings"
-	 },
-	 {
-		 "item": "aether:zanite_boots"
-	 }
+      {
+        "item": "aether:zanite_helmet"
+      },
+      {
+        "item": "aether:zanite_chestplate"
+      },
+      {
+        "item": "aether:zanite_leggings"
+      },
+      {
+        "item": "aether:zanite_boots"
+      }
     ],
-    "modList": [
-    ],
-    "tagList": [
-    ],
-    "exceptionList": [
-    ],
-    "containerList": [
-      "net.minecraft.inventory.container.WorkbenchContainer"
-    ],
-    "dimensionList": [
-     
-    ]
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",

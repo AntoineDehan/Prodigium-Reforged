@@ -11483,7 +11483,7 @@
     ]
   },
   "swim_speed+3%": {
-    "title": "+3% Swim Speed",
+    "title": "+10% Swim Speed",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11496,7 +11496,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "forge:swim_speed",
-          "value": 3.0,
+          "value": 0.1,
           "operation": "addition"
         }
       }
