@@ -1,13 +1,16 @@
 {
   "schemaVersion": 2,
-  "items": [],
+  "items": [
+    "$minecraft:armor",
+    "$minecraft:universal_enchants_horse_armor"
+  ],
   "incompatible": [
-    "iguanatweaksreborn:fire_protection",
     "majruszsenchantments:magic_protection",
-    "iguanatweaksreborn:protection",
+    "majruszsenchantments:incompatibility_curse",
     "minecraft:thorns",
-    "iguanatweaksreborn:projectile_protection",
     "iguanatweaksreborn:blast_protection",
-    "majruszsenchantments:incompatibility_curse"
+    "iguanatweaksreborn:protection",
+    "iguanatweaksreborn:projectile_protection",
+    "iguanatweaksreborn:fire_protection"
   ]
 }

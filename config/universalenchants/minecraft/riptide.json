@@ -2,13 +2,12 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:trident",
-    "apotheosis:other_tome",
     "cataclysm:coral_spear",
     "cataclysm:coral_bardiche"
   ],
   "incompatible": [
     "minecraft:loyalty",
-    "minecraft:channeling",
-    "majruszsenchantments:incompatibility_curse"
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:channeling"
   ]
 }

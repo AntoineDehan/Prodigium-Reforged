@@ -2,7 +2,6 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:weapon",
-    "apotheosis:other_tome",
     "dungeons_plus:warped_axe",
     "mowziesmobs:spear",
     "mowziesmobs:naga_fang_dagger",
@@ -29,11 +28,9 @@
     "$minecraft:trident"
   ],
   "incompatible": [
-    "apotheosis:shield_bash",
-    "majruszsenchantments:misanthropy",
-    "minecraft:smite",
-    "minecraft:impaling",
     "majruszsenchantments:incompatibility_curse",
-    "apotheosis:bane_of_illagers"
+    "minecraft:impaling",
+    "minecraft:smite",
+    "majruszsenchantments:misanthropy"
   ]
 }

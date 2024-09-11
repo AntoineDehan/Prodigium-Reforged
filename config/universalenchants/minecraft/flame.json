@@ -2,11 +2,17 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:bow",
-    "apotheosis:bow_tome",
     "dungeons_plus:soul_cannon",
     "$minecraft:crossbow"
   ],
   "incompatible": [
-    "majruszsenchantments:incompatibility_curse"
+    "spell_power:soulfrost",
+    "spell_power:spell_power",
+    "majruszsenchantments:incompatibility_curse",
+    "spell_power:energize",
+    "spell_power:critical_chance",
+    "spell_power:sunfire",
+    "spell_power:critical_damage",
+    "spell_power:haste"
   ]
 }

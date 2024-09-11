@@ -1,11 +1,10 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:fishing_rod",
-    "apotheosis:other_tome"
+    "$minecraft:fishing_rod"
   ],
   "incompatible": [
-    "minecraft:silk_touch",
-    "majruszsenchantments:incompatibility_curse"
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:silk_touch"
   ]
 }

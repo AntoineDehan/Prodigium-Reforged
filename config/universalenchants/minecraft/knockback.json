@@ -2,7 +2,6 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:weapon",
-    "apotheosis:other_tome",
     "dungeons_plus:soul_cannon",
     "mowziesmobs:spear",
     "mowziesmobs:naga_fang_dagger",
@@ -30,7 +29,7 @@
     "$minecraft:universal_enchants_shield"
   ],
   "incompatible": [
-    "allurement:launch",
-    "majruszsenchantments:incompatibility_curse"
+    "majruszsenchantments:incompatibility_curse",
+    "allurement:launch"
   ]
 }

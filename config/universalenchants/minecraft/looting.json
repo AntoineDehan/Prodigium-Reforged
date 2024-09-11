@@ -2,8 +2,6 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:weapon",
-    "minecraft:trident",
-    "apotheosis:other_tome",
     "mowziesmobs:spear",
     "mowziesmobs:naga_fang_dagger",
     "aether_redux:spear_of_the_blight",
@@ -25,14 +23,13 @@
     "irons_spellbooks:ice_staff",
     "irons_spellbooks:lightning_rod",
     "irons_spellbooks:blood_staff",
-    "minecolonies:spear",
     "$minecraft:universal_enchants_axe",
     "$minecraft:trident",
     "$minecraft:bow",
     "$minecraft:crossbow"
   ],
   "incompatible": [
-    "minecraft:silk_touch",
-    "majruszsenchantments:incompatibility_curse"
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:silk_touch"
   ]
 }

@@ -1,12 +1,6 @@
 {
   "schemaVersion": 2,
-  "items": [
-    "$minecraft:armor",
-    "apotheosis:boots_tome",
-    "apotheosis:chestplate_tome",
-    "apotheosis:helmet_tome",
-    "apotheosis:leggings_tome"
-  ],
+  "items": [],
   "incompatible": [
     "minecraft:fire_protection",
     "iguanatweaksreborn:fire_protection",

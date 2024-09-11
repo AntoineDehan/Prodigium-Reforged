@@ -2,16 +2,15 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:digger",
-    "apotheosis:pickaxe_tome",
     "quark:pickarang",
     "quark:flamerang"
   ],
   "incompatible": [
+    "minecraft:luck_of_the_sea",
     "minecraft:looting",
+    "majruszsenchantments:incompatibility_curse",
     "minecraft:fortune",
     "iguanatweaksreborn:luck",
-    "minecraft:luck_of_the_sea",
-    "majruszsenchantments:smelter",
-    "majruszsenchantments:incompatibility_curse"
+    "majruszsenchantments:smelter"
   ]
 }

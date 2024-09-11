@@ -2,12 +2,11 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:armor_feet",
-    "apotheosis:boots_tome",
     "alexsmobs:pigshoes",
     "$minecraft:universal_enchants_horse_armor"
   ],
   "incompatible": [
-    "minecraft:frost_walker",
-    "majruszsenchantments:incompatibility_curse"
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:frost_walker"
   ]
 }

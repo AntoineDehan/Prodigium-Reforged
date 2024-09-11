@@ -788,6 +788,7 @@
 				{
 					auto: "invisible"
 					command: "/tellraw @p [{\"text\":\"This is your first \",\"italic\":\"true\"},{\"text\":\"death\",\"color\":\"gold\"},{\"text\":\", in Prodigium Reforged, when you die you will\"},{\"text\":\" respawn with all your items\",\"color\":\"gold\"},{\"text\":\" but you will\"},{\"text\":\" lose some durabillity on your armor and tools.\",\"color\":\"gold\"}]"
+					elevate_perms: true
 					id: "4F3519D0AE7E200D"
 					type: "command"
 				}

@@ -2,11 +2,17 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:crossbow",
-    "apotheosis:other_tome",
     "$minecraft:trident",
     "$minecraft:bow"
   ],
   "incompatible": [
-    "majruszsenchantments:incompatibility_curse"
+    "spell_power:soulfrost",
+    "spell_power:spell_power",
+    "majruszsenchantments:incompatibility_curse",
+    "spell_power:energize",
+    "spell_power:critical_chance",
+    "spell_power:sunfire",
+    "spell_power:critical_damage",
+    "spell_power:haste"
   ]
 }

@@ -1212,6 +1212,7 @@
 			rewards: [{
 				auto: "invisible"
 				command: "/tellraw @p [{\"text\":\"You've heard that people are looking for a home, maybe if you built homes they could join your base? \",\"italic\":\"true\"},{\"text\":\"Learn more in the \",\"bold\":true},{\"text\":\"NPC \",\"color\":\"red\",\"bold\":\"true\"},{\"text\":\"quest chapter.\",\"bold\":\"true\"}]"
+				elevate_perms: true
 				id: "14F03ACFFD4B28D3"
 				type: "command"
 			}]

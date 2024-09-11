@@ -2,12 +2,11 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:armor_feet",
-    "apotheosis:boots_tome",
     "alexsmobs:pigshoes",
     "$minecraft:universal_enchants_horse_armor"
   ],
   "incompatible": [
-    "minecraft:depth_strider",
-    "majruszsenchantments:incompatibility_curse"
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:depth_strider"
   ]
 }

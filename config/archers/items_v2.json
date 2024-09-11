@@ -81,9 +81,9 @@
         "armor": 2,
         "attributes": [
           {
-            "id": "ranged_weapon:damage",
+            "id": "puffish_attributes:player.ranged_damage",
             "value": 0.05,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           }
         ]
       },
@@ -91,9 +91,9 @@
         "armor": 3,
         "attributes": [
           {
-            "id": "ranged_weapon:damage",
+            "id": "puffish_attributes:player.ranged_damage",
             "value": 0.05,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           }
         ]
       },
@@ -101,9 +101,9 @@
         "armor": 3,
         "attributes": [
           {
-            "id": "ranged_weapon:damage",
+            "id": "puffish_attributes:player.ranged_damage",
             "value": 0.05,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           }
         ]
       },
@@ -111,9 +111,9 @@
         "armor": 2,
         "attributes": [
           {
-            "id": "ranged_weapon:damage",
+            "id": "puffish_attributes:player.ranged_damage",
             "value": 0.05,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           }
         ]
       }
@@ -125,14 +125,14 @@
         "armor": 2,
         "attributes": [
           {
-            "id": "ranged_weapon:damage",
+            "id": "puffish_attributes:player.ranged_damage",
             "value": 0.08,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           },
           {
             "id": "ranged_weapon:haste",
             "value": 0.03,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           }
         ]
       },
@@ -140,14 +140,14 @@
         "armor": 3,
         "attributes": [
           {
-            "id": "ranged_weapon:damage",
+            "id": "puffish_attributes:player.ranged_damage",
             "value": 0.08,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           },
           {
             "id": "ranged_weapon:haste",
             "value": 0.03,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           }
         ]
       },
@@ -155,14 +155,14 @@
         "armor": 3,
         "attributes": [
           {
-            "id": "ranged_weapon:damage",
+            "id": "puffish_attributes:player.ranged_damage",
             "value": 0.08,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           },
           {
             "id": "ranged_weapon:haste",
             "value": 0.03,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           }
         ]
       },
@@ -170,14 +170,14 @@
         "armor": 2,
         "attributes": [
           {
-            "id": "ranged_weapon:damage",
+            "id": "puffish_attributes:player.ranged_damage",
             "value": 0.08,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           },
           {
             "id": "ranged_weapon:haste",
             "value": 0.03,
-            "operation": "MULTIPLY_BASE"
+            "operation": "MULTIPLY_TOTAL"
           }
         ]
       }

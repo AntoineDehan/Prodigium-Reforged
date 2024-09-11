@@ -2,7 +2,6 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:bow",
-    "apotheosis:bow_tome",
     "aether:golden_dart_shooter",
     "aether:poison_dart_shooter",
     "aether:enchanted_dart_shooter",
@@ -11,6 +10,13 @@
     "$minecraft:crossbow"
   ],
   "incompatible": [
-    "majruszsenchantments:incompatibility_curse"
+    "spell_power:soulfrost",
+    "spell_power:spell_power",
+    "majruszsenchantments:incompatibility_curse",
+    "spell_power:energize",
+    "spell_power:critical_chance",
+    "spell_power:sunfire",
+    "spell_power:critical_damage",
+    "spell_power:haste"
   ]
 }
