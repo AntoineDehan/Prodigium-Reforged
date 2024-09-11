@@ -10508,7 +10508,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berseker_adamantium"
+          "command": "thitemstages add @s stage_berserker_adamantium"
         }
       }
     ]
@@ -10526,7 +10526,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berseker_diamond"
+          "command": "thitemstages add @s stage_berserker_diamond"
         }
       }
     ]
@@ -11553,7 +11553,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berseker_tungsten"
+          "command": "thitemstages add @s stage_berserker_tungsten"
         }
       }
     ]
@@ -11571,7 +11571,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berseker_phoenix"
+          "command": "thitemstages add @s stage_berserker_phoenix"
         }
       }
     ]
@@ -11589,7 +11589,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berseker_chorundum"
+          "command": "thitemstages add @s stage_berserker_chorundum"
         }
       }
     ]
