@@ -1,5 +1,5 @@
 #If boss health should be scaled
-"Should Scale Boss Health" = true
+"Should Scale Boss Health" = false
 #If boss drops should be rolled an additional time per player
 "Should Scale Boss Drops" = true
 #The amount to scale boss health per player after the first
