@@ -11751,7 +11751,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_wizard_robe"
+          "command": "thitemstages add @s stage_wizard_zanite"
         }
       }
     ]

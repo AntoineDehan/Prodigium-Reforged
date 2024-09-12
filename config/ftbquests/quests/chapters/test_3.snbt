@@ -199,6 +199,7 @@
 				"7E84A690580422CF"
 				"32A453D0E324CFEF"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Craft a &9Slime Crown&r to invoke the boss"
 				""

@@ -85,6 +85,18 @@
       },
       {
         "item": "irons_spellbooks:plagued_boots"
+      },
+      {
+        "item": "irons_spellbooks:electromancer_helmet"
+      },
+      {
+        "item": "irons_spellbooks:electromancer_leggings"
+      },
+      {
+        "item": "irons_spellbooks:electromancer_chestplate"
+      },
+      {
+        "item": "irons_spellbooks:electromancer_boots"
       }
     ],
     "modList": [],

@@ -1,0 +1,31 @@
+{
+  "Restriction Data": {
+    "stage": "stage_rpg",
+    "itemList": [
+      {
+        "item": "spell_engine:spell_binding"
+      },
+      {
+        "item": "runes:crafting_altar"
+      }
+    ],
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "This item seems to be lost to time (Unusable item)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}
