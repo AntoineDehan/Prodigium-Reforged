@@ -3,6 +3,8 @@
 	default_quest_shape: ""
 	filename: "crusader"
 	group: "52532F5E67425F1C"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "stalwart_dungeons:golden_hammer"
@@ -11,11 +13,13 @@
 		}
 	}
 	id: "0FADD8D8A96DCBA7"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["44FCF260737D0785"]
 			description: ["You need to unlock the armors in the &6Skill Tree&r."]
+			hide_dependency_lines: false
 			id: "4295FD014E3D5800"
 			rewards: [
 				{

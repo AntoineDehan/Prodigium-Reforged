@@ -13,10 +13,11 @@
 		}
 	}
 	id: "4529A3374C270239"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["745FE062B66D6927"]
 			description: [
 				"Use it to &ebind spells to spell books&r."
 				""
@@ -49,6 +50,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["745FE062B66D6927"]
 			id: "18B042EFAA245E8D"
 			rewards: [
 				{
@@ -442,7 +444,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1A1D4191D9A098E9"]
+			dependencies: [
+				"1A1D4191D9A098E9"
+				"745FE062B66D6927"
+			]
 			description: ["Use the Scroll Forge to create new scrolls."]
 			hide: true
 			id: "1F264C3D08A2BC5E"

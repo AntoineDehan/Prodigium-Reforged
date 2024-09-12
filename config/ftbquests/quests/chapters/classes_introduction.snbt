@@ -1,0 +1,296 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "classes_introduction"
+	group: "52532F5E67425F1C"
+	icon: "minecolonies:firearrow"
+	id: "59B899949D512C6D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Prodigium Reforged has &6three main branches&r, &9mage&r, &aranged&r and &dmelee&r."
+				""
+				"To &6open the Skill Tree&r, &6press \"i\"&r, you will then need &eSkill Points&r."
+				""
+				"To obtain &eSkill Points&r, you can kill mobs (this will give a little bit of experience) and/or you can defeat bosses which will give you 2 &eSkill Points&r."
+				""
+				"After selecting &6a branch&r, you will be able to &6select a class&r, you can &conly chose one per branch&r."
+				""
+				"Selecting a class will give &6a new Skill Tree&r, in this Skill Tree you have &6three sub-classes available&r, you can &conly pick one&r as well."
+				""
+				"Learn more about classes ->"
+				""
+				"{@pagebreak}"
+				"&l&d&nMelee&r&r&r"
+				""
+				"Two classes are available in &dMelee&r :"
+				""
+				"&l&eCrusader&r&r"
+				"This class is the tankiest class in the pack, it's aimed at tanking and helping others by healing, buffing and crowdcontrol."
+				""
+				"&l&3Berserker&r&r"
+				"Aimed at having a lot of dmg while having less resistance, the Berserker is here to defeat ennemies."
+				""
+				"{@pagebreak}"
+				"&l&9&nMage&r&r&r"
+				""
+				"Two classes are available in &9Mage&r :"
+				""
+				"&l&1Wizard&r&r"
+				"Your typical mage, aimed at dealing damage and to specialize in the school of your chosing."
+				""
+				"&e&lCleric&r&r"
+				"Healing centered class, heal and buff your friends and yourself, specialized in Holy school."
+				""
+				"{@pagebreak}"
+				"&l&a&nRanged&r&r&r"
+				""
+				"Only one (atm) class is available in &aRanged&r :"
+				""
+				"&2&lRanger&r&r"
+				"Made to deal with enemies from a safe distance, also specialize in using pets!"
+			]
+			id: "25D1B37A73FB9F53"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39A33E029EA6C64D"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					id: "1B5CE872603DFFB4"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Read me!"
+			tasks: [{
+				id: "35CE5084B54682B4"
+				title: "Click on me when understood!"
+				type: "checkmark"
+			}]
+			title: "Classes introduction"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You now have unlocked the &6Berserker quest chapter&r."
+				""
+				"It will help you know which armors and more to craft!"
+			]
+			id: "78DE64EE0773BEF4"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3668223101538AEE"
+				title: "You've chosen the Berserker class!"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"You now have unlocked &6the Crusader quest chapter&r."
+				""
+				"It will help you know which armors and more to craft next!"
+			]
+			id: "44FCF260737D0785"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "stalwart_dungeons:golden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5875FE1DE2AE640D"
+				title: "You've chosen the Crusader class!"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"You now have unlocked &6the Ranger quest chapter&r."
+				""
+				"It will help you know which armors and more to craft next!"
+			]
+			id: "686B5BA848725480"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "prodigium:palladium_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "41F70500E273E37C"
+				title: "You've chosen the Ranger class!"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"You now have unlocked &6the Wizard quest chapter&r."
+				""
+				"It will help you know which armors and more to craft next!"
+			]
+			id: "745FE062B66D6927"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "wizards:wizard_robe_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1038F0CA80FBD1CA"
+				title: "You've chosen the Wizard class!"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"You now have unlocked &6the Cleric quest chapter&r."
+				""
+				"It will help you know which armors and more to craft next!"
+			]
+			id: "525D3BC989CF49D9"
+			secret: true
+			tasks: [{
+				icon: "runes:healing_stone"
+				id: "27BB11301CE03400"
+				title: "You've chosen the Cleric class!"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25D1B37A73FB9F53"]
+			description: ["Used for Mage (wizard and cleric)"]
+			hide: true
+			id: "0613243385C3015B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23132442C60CB815"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "47343F384ADC19CE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "7C1794DE4816E2EC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wandering_magician_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Wandering Magician armor"
+				type: "item"
+			}]
+			title: "Early mage armor"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25D1B37A73FB9F53"]
+			description: ["Used for ranged (ranger)"]
+			hide: true
+			id: "412E0ADC86F7DE20"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11C30D4841F79407"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "273004BF99CA6F34"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "284806BB280CB458"
+				item: {
+					Count: 1
+					id: "prodigium:cobalt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Cobalt armor"
+				type: "item"
+			}]
+			title: "Early ranged armor"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25D1B37A73FB9F53"]
+			description: ["Used for melee (cruader and berserker)"]
+			hide: true
+			id: "525148F80B756AD6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6968123BE30175C0"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "6C9FC85CD3243555"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "41B052F3415EDC28"
+				item: {
+					Count: 1
+					id: "simpleores:mythril_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Mythril armor"
+				type: "item"
+			}]
+			title: "Early melee armor"
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+	title: "Classes introduction"
+}

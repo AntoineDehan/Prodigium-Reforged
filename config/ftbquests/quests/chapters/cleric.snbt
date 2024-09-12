@@ -3,12 +3,15 @@
 	default_quest_shape: ""
 	filename: "cleric"
 	group: "52532F5E67425F1C"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "confluence:cross_necklace"
 	id: "55E9F74FAA839A76"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["525D3BC989CF49D9"]
 			description: [
 				"Use it to &ebind spells to spell books&r."
 				""
@@ -41,6 +44,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["525D3BC989CF49D9"]
 			id: "5DAEFA87EDF5F96D"
 			rewards: [
 				{
@@ -332,7 +336,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1A1D4191D9A098E9"]
+			dependencies: [
+				"1A1D4191D9A098E9"
+				"525D3BC989CF49D9"
+			]
 			description: ["Use the Scroll Forge to create new scrolls."]
 			id: "3E4F3F3F0402D036"
 			rewards: [

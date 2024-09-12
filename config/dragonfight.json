@@ -21,7 +21,7 @@
   },
   "dragonHealthModifier": {
     "desc:": "Sets the dragon health modifier: default:1.0",
-    "dragonHealthModifier": 4
+    "dragonHealthModifier": 1.2
   },
   "dragonDamageModifier": {
     "desc:": "Sets the dragon damage modifier: default:1.0",
@@ -29,7 +29,7 @@
   },
   "mobSpawnAmountModifier": {
     "desc:": "Sets the mob spawn amount modifier: default:1.0",
-    "mobSpawnAmountModifier": 0.7
+    "mobSpawnAmountModifier": 0.2
   },
   "dragonXPModifier": {
     "desc:": "Sets the XP drop modifier: default:1.0",

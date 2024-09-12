@@ -42,8 +42,8 @@
 	lifeBottleGen = true
 	#The probability of generating a life bottle in dungeon chests: 0 = 0%, 1 = 100%
 	#Range: 0.0 ~ 1.0
-	lifeBottleGenChance = 0.2
+	lifeBottleGenChance = 0.1
 	#Maximum number of life bottles that can be generated inside a dungeon chest
 	#Range: > 0
-	lifeBottleGenMaxAmount = 3
+	lifeBottleGenMaxAmount = 1
 

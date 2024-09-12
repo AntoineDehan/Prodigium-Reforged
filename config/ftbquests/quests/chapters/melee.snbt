@@ -13,10 +13,11 @@
 		}
 	}
 	id: "0FBF9F804D930CAF"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["78DE64EE0773BEF4"]
 			description: ["You need to unlock the armor in the &6Skill Tree&r."]
 			id: "50E838001D06D62B"
 			min_required_tasks: 1
