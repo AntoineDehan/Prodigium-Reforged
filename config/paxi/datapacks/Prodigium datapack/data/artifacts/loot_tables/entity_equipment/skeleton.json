@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:config_value_chance",
+          "config": "entity_equipment"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:night_vision_goggles"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "artifacts:items/drinking_hat"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:entity_equipment/skeleton"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.3
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:chorus_totem",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:helium_flamingo",
+          "weight": 4
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/end_city_treasure"
+}

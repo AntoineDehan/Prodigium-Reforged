@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.25
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:pocket_piston"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:steadfast_spikes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:scarf_of_invisibility"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:superstitious_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:rooted_boots"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/pillager_outpost"
+}

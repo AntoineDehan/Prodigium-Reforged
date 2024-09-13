@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.15
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:rooted_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:pickaxe_heater"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:onion_ring"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:charm_of_sinking"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:shock_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:helium_flamingo"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/ancient_city"
+}

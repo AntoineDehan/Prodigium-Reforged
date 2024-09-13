@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:config_value_chance",
+          "config": "entity_equipment"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:cowboy_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:scarf_of_invisibility"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:entity_equipment/zombie"
+}

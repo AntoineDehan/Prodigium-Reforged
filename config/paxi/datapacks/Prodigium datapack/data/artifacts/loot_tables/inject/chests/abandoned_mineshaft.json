@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.3
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:onion_ring",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:night_vision_goggles"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:superstitious_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:digging_claws"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:vampiric_glove"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:pickaxe_heater"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "artifacts:items/drinking_hat"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/abandoned_mineshaft"
+}

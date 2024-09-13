@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.35
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:kitty_slippers",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:rooted_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:anglers_hat"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/jungle_temple"
+}

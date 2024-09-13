@@ -1,1 +1,14 @@
 gamerule artifacts.cloudInABottle.enabled false
+gamerule artifacts.crystalHeart.healthBonus 0
+gamerule artifacts.obsidianSkull.FireResistanceCooldown 0
+gamerule artifacts.obsidianSkull.FireResistanceDuration 0
+gamerule artifacts.panicNecklace.speedDuration 0
+gamerule artifacts.crossNecklace.bonusInvicibilityTicks 0
+gamerule artifacts.bunnyHoppers.doCancelFallDamage false
+gamerule artifacts.runningShoes.doIncreaseStepHeight false
+gamerule artifacts.runningShoes.doIncreaseStepHeight false
+gamerule artifacts.runningShoes.speedBonus 0
+gamerule artifacts.aquaDashers.enabled 0
+gamerule artifacts.runningShoes.doIncreaseStepHeight false
+gamerule artifacts.powerGlove.attackDamageBonus 0
+gamerule artifacts.fireGauntler.fireDuration 0

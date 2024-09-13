@@ -1,15 +1,13 @@
 #In order for the block to be found by the Metal Detector
 #You need to fill the list with string like 'modid:block[state1=true]' or 'modid:block'
-#The higher the block in the list, the higher the value
+#The order of the blocks in the list is the order of their rarity
 rareBlocks = ["stalwart_dungeons:tungsten_ore", "prodigium:orichalcum_ore", "prodigium:palladium_ore", "prodigium:deepslate_palladium_ore", "simpleores:onyx_ore", "simpleores:adamantium_ore", "simpleores:deepslate_adamantium_ore", "minecraft:ancient_debris", "minecraft:suspicious_gravel", "minecraft:suspicious_sand", "minecraft:deepslate_emerald_ore", "minecraft:emerald_ore", "minecraft:deepslate_diamond_ore", "minecraft:diamond_ore", "minecraft:deepslate_lapis_ore", "minecraft:lapis_ore", "minecraft:nether_gold_ore", "minecraft:deepslate_gold_ore", "minecraft:gold_ore", "minecraft:nether_quartz_ore"]
 #In order for the creature to be found by the Life Form Analyzer
 #You need to fill the list with string like 'modid:entity'
-#The higher the creature in the list, the higher the value
+#The order of the entities in the list is the order of their rarity
 rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay", "minecraft:axolotl", "minecraft:evoker", "minecraft:piglin_prute", "minecraft:vindicator", "minecraft:enderman"]
 #Range: 6 ~ 100
 "Max Accessory Amount" = 7
-#Range: 0.0 ~ 1.0
-"Hurt Evasion Chance" = 0.1
 
 ["Random Attack Damage"]
 	enable = true
@@ -155,8 +153,6 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 ["Magic Quiver"]
 	#Range: 0.0 ~ 1.0
 	arrowNoConsumeChance = 0.25
-	#Range: 0.0 ~ 1.7976931348623157E308
-	arrowSpeedMultiplier = 1.2
 
 [Attributes]
 
@@ -169,6 +165,10 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 	[Attributes."Avenger Emblem"]
 		#Range: 0.0 ~ 10.0
 		attackDamage = 0.12
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.12
+		#Range: 0.0 ~ 10.0
+		magicDamage = 0.12
 
 	[Attributes."Berserker's Glove"]
 		#Range: 0 ~ 1024
@@ -179,6 +179,8 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		attackKnockback = 1.0
 		#Range: 0.0 ~ 1024.0
 		entityReach = 0.1
+		#Range: -10000 ~ 10000
+		aggro = 400
 
 	[Attributes."Celestial Stone"]
 		#Range: 0.0 ~ 10.0
@@ -189,6 +191,12 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		armor = 4
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.02
+		#Range: 0.0 ~ 10.0
+		miningSpeed = 0.15
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.1
+		#Range: 0.0 ~ 10.0
+		magicDamage = 0.1
 
 	[Attributes."Cobalt Shield"]
 		#Range: 0.0 ~ 1.0
@@ -201,6 +209,10 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		attackDamage = 0.1
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.08
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.1
+		#Range: 0.0 ~ 10.0
+		magicDamage = 0.1
 
 	[Attributes."Feral Claws"]
 		#Range: 0.0 ~ 10.0
@@ -219,6 +231,8 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 	[Attributes."Flesh Knuckles"]
 		#Range: 0 ~ 1024
 		armor = 8
+		#Range: -10000 ~ 10000
+		aggro = 400
 
 	[Attributes."Frozen Shield"]
 		#Range: 0 ~ 1024
@@ -231,6 +245,8 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		armor = 10
 		#Range: 0.0 ~ 1.0
 		knockbackResistance = 1.0
+		#Range: -10000 ~ 10000
+		aggro = 400
 
 	[Attributes."Mechanical Glove"]
 		#Range: 0.0 ~ 10.0
@@ -249,6 +265,12 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		armor = 4
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.02
+		#Range: 0.0 ~ 10.0
+		miningSpeed = 0.15
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.1
+		#Range: 0.0 ~ 10.0
+		magicDamage = 0.1
 
 	[Attributes."Obsidian Shield"]
 		#Range: 0.0 ~ 1.0
@@ -279,6 +301,8 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		attackDamage = 0.05
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.05
+		#Range: -10000 ~ 10000
+		aggro = -400
 
 	[Attributes.Shackle]
 		#Range: 0 ~ 1024
@@ -293,6 +317,12 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		armor = 4
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.02
+		#Range: 0.0 ~ 10.0
+		miningSpeed = 0.15
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.1
+		#Range: 0.0 ~ 10.0
+		magicDamage = 0.1
 
 	[Attributes."Titan Glove"]
 		#Range: 0.0 ~ 10.0
@@ -353,62 +383,64 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 	[Attributes."Recon Scope"]
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.1
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.1
+		#Range: -10000 ~ 10000
+		aggro = -400
 
 	[Attributes."Sniper Scope"]
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.1
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.1
 
-["Aggro Attach"]
-	#Range: > -2147483648
-	BerserkersGlove = 400
-	#Range: > -2147483648
-	FleshKnuckles = 400
-	#Range: > -2147483648
-	HeroShield = 400
-	#Range: > -2147483648
-	PutridScent = -400
-	#Range: > -2147483648
-	StalkersQuiver = -400
-	#Range: > -2147483648
-	ReconScope = -400
+	[Attributes."Ancient Chisel"]
+		#Range: 0.0 ~ 10.0
+		miningSpeed = 0.25
 
-["Armor Pass"]
-	#Range: > 0
-	SharkToothNecklace = 5
-	#Range: > 0
-	StingerNecklace = 5
+	[Attributes."Hand Of Creation"]
+		#Range: 0.0 ~ 1024.0
+		blockReach = 3.0
+		#Range: 0.0 ~ 10.0
+		miningSpeed = 0.25
 
-["Magic Attack Bonus"]
-	#Range: 0.0 ~ 1.7976931348623157E308
-	SorcererEmblem = 0.15
-	#Range: 0.0 ~ 1.7976931348623157E308
-	AvengerEmblem = 0.12
-	#Range: 0.0 ~ 1.7976931348623157E308
-	DestroyerEmblem = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	CelestialStone = 0.1
+	[Attributes."Magic Quiver"]
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.1
+		#Range: 0.0 ~ 10.0
+		rangedVelocity = 0.2
 
-["Projectile Attack Bonus"]
-	#Range: 0.0 ~ 1.7976931348623157E308
-	AvengerEmblem = 0.12
-	#Range: 0.0 ~ 1.7976931348623157E308
-	DestroyerEmblem = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	RangerEmblem = 0.15
-	#Range: 0.0 ~ 1.7976931348623157E308
-	MagicQuiver = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	MoltenQuiver = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	StalkersQuiver = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	ReconScope = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	SniperScope = 0.1
-	#Range: 0.0 ~ 1.7976931348623157E308
-	CelestialStone = 0.1
+	[Attributes."Molten Quiver"]
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.1
+		#Range: 0.0 ~ 10.0
+		rangedVelocity = 0.2
 
-["Break Speed Bonus"]
-	#Range: 0.0 ~ 1.7976931348623157E308
-	AncientChisel = 0.25
+	[Attributes."Ranger Emblem"]
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.15
+
+	[Attributes."Shark Tooth Necklace"]
+		#Range: 0 ~ 10000
+		armorPass = 5
+
+	[Attributes."Sorcerer Emblem"]
+		#Range: 0.0 ~ 10.0
+		magicDamage = 0.15
+
+	[Attributes."Stalker Quiver"]
+		#Range: 0.0 ~ 10.0
+		rangedDamage = 0.1
+		#Range: 0.0 ~ 10.0
+		rangedVelocity = 0.2
+		#Range: -10000 ~ 10000
+		aggro = -400
+
+	[Attributes."Stinger Necklace"]
+		#Range: 0 ~ 10000
+		armorPass = 5
+
+	[Attributes."Treasure Magnet"]
+		#Range: 0.0 ~ 64.0
+		pickupRange = 6.25
 

@@ -1089,17 +1089,6 @@
         "value": 100
       }
     },
-    "forge:nametag_distance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
-      }
-    },
     "confluence:magic_damage": {
       "enabled": false,
       "min": {
@@ -1109,6 +1098,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "forge:nametag_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "irons_spellbooks:blood_magic_resist": {

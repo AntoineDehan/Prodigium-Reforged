@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.25
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "artifacts:artifact",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:cowboy_hat",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:pickaxe_heater",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:everlasting_beef"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/bastion_hoglin_stable"
+}

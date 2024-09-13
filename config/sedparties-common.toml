@@ -15,19 +15,12 @@
 	#Max size for a party
 	#Range: > 2
 	partySize = 5
-	#Makes parties persist between server launches. Disabling this removes all saved parties - they will have to be remade.
-	partyPersistence = true
 	#Makes the party system utilize the vanilla team system as well.
 	useVanillaTeams = true
 	#Allow players to attack each other in parties
 	friendlyFire = false
 
 [mod-support]
-	#This allows for integration with other party mods. Enabling this forces party persistence to be enabled as well.
-	#true - Enables party sync between Parties mod and Open Parties and Claims.
-	#false - Causes the Parties Mod to use its own party system by itself.
-	#NOTE: If enabled, the partySize setting is ignored.
-	partiesSync = true
 	#This allows for extra modded information (like cast bars) to update regardless of distance.
 	#true - Enables this feature.  Members have all information shared regardless of distance.
 	#false - Disables this feature. Members have to be within tracking range for updates.
@@ -44,13 +37,47 @@
 	#If the list is a whitelist, only stages in the list will be syncable.
 	#For a blacklist, all stages that aren't in the list will be syncable.
 	useSyncLists = false
+	#Uses FTB Teams to handle party management instead. Commands will be disabled.
+	useFTBTeams = false
 
 [xp-share]
 	#Allow players to share XP in a party. This is a universal option.
 	enableShare = true
 	#Enables XP Sharing between party members regardless of distance from each other.
-	globalShare = true
+	globalShare = false
 	#Disables XP Sharing from vanilla commands that give experience *points*.
 	#(/xp add [name] [amount] points)
 	ignoreCommand = true
+
+[boss-module]
+	#The boss module allows you to alter boss attributes and loot depending on the number of players from various types of sources.
+	#true - Enables the boss module.
+	#false - Disables the boss module.
+	bossModuleEnabled = true
+	#A list of entity IDs that the Parties mod treats as bosses. These entities will utilize the scaling of the Boss Module. Changes to this list require a restart.
+	markBosses = ["aether:valkyrie_queen", "aether:sun_spirit", "terrawhips_and_more:thekingslime", "aether:slider", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith", "minecraft:wither", "minecraft:ender_dragon", "conjurer_illager:conjurer", "minecraft:elder_guardian", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:awful_ghast", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "minecraft:warden", "cataclysm:the_harbinger", "alexsmobs:void_worm", "stalwart_dungeons:shelterer", "cataclysm:ender_guardian", "cataclysm:ender_golem", "cataclysm:ancient_remnant", "irons_spellbooks:dead_king", "cataclysm:the_leviathan", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw"]
+	#Changes the way the player count is calculated to adjust the attributes and loot drops of bosses.
+	#SERVER - Counts all online players.
+	#DIMENSION - Counts all players in the same dimension.
+	#RADIUS - Counts all players in a defined radius from the spawned boss. (Not functional yet)
+	#PARTY - Counts all players in the nearest player's party.
+	#Allowed Values: SERVER, DIMENSION, RADIUS, PARTY
+	playerCountType = "DIMENSION"
+	#If playerCountType is RADIUS, this defines the radius size from the boss to look for players, in meters.
+	#Range: > 1
+	playerCountRadius = 256
+	#The health mod per player count defined above, as a total multiplier. (0.5 = 150%)
+	#A value of 0 disables health modifiers.
+	#Range: 0.0 ~ 2.147483647E9
+	healthMod = 0.3
+	#The damage mod per player count defined above, as a total multiplier. (0.5 = 150%)
+	#A value of 0 disables damage modifiers.
+	#Range: 0.0 ~ 2.147483647E9
+	damageMod = 0.05
+	#If true, scales the loot to the amount of players from the player count above.
+	#Setting this value to false disables this feature.
+	scaleLoot = true
+	#If true, scales special loot just like above.
+	#Currently determines whether you'd get more Affixed items from Apotheosis mini-bosses.
+	scaleSpecialLoot = false
 

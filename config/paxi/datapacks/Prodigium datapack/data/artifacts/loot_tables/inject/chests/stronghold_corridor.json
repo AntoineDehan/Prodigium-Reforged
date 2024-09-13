@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.3
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:antidote_vessel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:superstitious_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:lucky_scarf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:helium_flamingo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:rooted_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:pickaxe_heater"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/stronghold_corridor"
+}

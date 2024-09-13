@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:artifact_rarity_adjusted_chance",
+          "default_probability": 0.15
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:night_vision_goggles"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:thorn_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:universal_attractor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:lucky_scarf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:cowboy_hat"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/chests/ruined_portal"
+}

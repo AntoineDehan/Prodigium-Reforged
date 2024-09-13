@@ -600,6 +600,10 @@
     "result": "deny"
   },
   {
+    "mob": ["undead_revamp2:invisiclogger"],
+    "result": "deny"
+  },
+  {
     "mob": ["undead_revamp2:thehorrors"],
     "result": "deny"
   },

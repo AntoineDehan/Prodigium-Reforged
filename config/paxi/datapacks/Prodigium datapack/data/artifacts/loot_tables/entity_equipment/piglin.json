@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:config_value_chance",
+          "config": "entity_equipment"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:golden_hook"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:universal_attractor"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:entity_equipment/piglin"
+}
