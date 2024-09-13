@@ -65,3 +65,7 @@
 	#Enable spawning of tropical fish in jungles
 	enableJungleTropicalFish = true
 
+["Misc Options"]
+	#Enable replaceable groundcover behavior - i.e. makes it behave like tall grass when placing blocks
+	replaceableGroundcover = true
+
