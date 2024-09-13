@@ -1,11 +1,11 @@
 {
   "dragonDifficulty": {
     "desc:": "Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.Scales up mob spawn amount, dragon damage and health aswell as crystal respawn intervals. Note that the difficulty already scales on the playercount involved in the fight, this is a static bonus ontop.default:2, vanilla:0",
-    "dragonDifficulty": 25
+    "dragonDifficulty": 5
   },
   "crystalRespawnTimeModifier": {
     "desc:": "Modifies crystal respawn time, 0.5 = spawns twice as fast, 2 = twice as slow. default:1.0",
-    "crystalRespawnTimeModifier": 2
+    "crystalRespawnTimeModifier": 4
   },
   "lightningExplosionDensity": {
     "desc:": "Modifies lightning and explosion density, 0.5 = half as many, 2 = twice as many. default:1.0",
@@ -21,7 +21,7 @@
   },
   "dragonHealthModifier": {
     "desc:": "Sets the dragon health modifier: default:1.0",
-    "dragonHealthModifier": 1.2
+    "dragonHealthModifier": 1.4
   },
   "dragonDamageModifier": {
     "desc:": "Sets the dragon damage modifier: default:1.0",
