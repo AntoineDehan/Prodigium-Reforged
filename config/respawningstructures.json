@@ -1,0 +1,50 @@
+{
+  "enableAutomaticRespawn": {
+    "desc:": "Enables automatic respawning of structures, default:true",
+    "enableAutomaticRespawn": true
+  },
+  "minutesUntilRespawn": {
+    "desc:": "Sets the time after which a structure can respawn, the timer starts after the last activity within the structure. default:2.880 minutes(48h)",
+    "minutesUntilRespawn": 90
+  },
+  "increaseDifficultyWithRespawn": {
+    "desc:": "Enables increased difficulty with in respawned dungeons(mobs can get enchanted items/potions effects), default: true",
+    "increaseDifficultyWithRespawn": true
+  },
+  "dimensionBlackList": {
+    "desc:": "List of blacklisted dimension ids, e.g. minecraft:overworld   Seperate multiple entries by , ",
+    "dimensionBlackList": []
+  },
+  "respawnableStructureIDs": {
+    "desc:": "List of structure IDs that should respawn (others may still be detected and respawn, but this is the surefire way): e.g. minecraft:mansion",
+    "respawnableStructureIDs": [
+      "prodigium_dungeons:the_theatre",
+      "mowziesmobs:umvuthana_grove",
+      "irons_spellbooks:catacombs",
+      "prodigium_dungeons:frostmaw_cavern",
+      "prodigium_dungeons:keeping_castle",
+      "prodigium_dungeons:blossom_arena",
+      "bosses_of_mass_destruction:gauntlet_arena",
+      "bosses_of_mass_destruction:lich_tower",
+      "bosses_of_mass_destruction:obsidilith_arena",
+      "cataclysm:cursed_pyramid",
+      "cataclysm:soul_black_smith",
+      "cataclysm:ruined_citadel",
+      "cataclysm:sunken_city",
+      "cataclysm:acient_factory",
+      "cataclysm:burning_arena",
+      "minecraft:ocean_monument",
+      "aether:bronze_dungeon",
+      "aether:silver_dungeon",
+      "aether:gold_dungeon"
+    ]
+  },
+  "blacklistedStructures": {
+    "desc:": "List of blacklisted structures, those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by , ",
+    "blacklistedStructures": []
+  },
+  "dungeonChestLoottables": {
+    "desc:": "List of loot tables of chests considered to be dungeon loot, partially used for detecting dungeons. Adding additional modded ones improves detection",
+    "dungeonChestLoottables": []
+  }
+}

@@ -106,6 +106,8 @@ craftingTable.removeByName("sophisticatedstorage:stack_upgrade_tier_5");
 craftingTable.removeByName("sophisticatedstorage:stack_upgrade_tier_4");
 craftingTable.removeByName("sophisticatedbackpacks:stack_upgrade_tier_4");
 craftingTable.removeByName("numismatic-overhaul:piggy_bank");
+craftingTable.removeByName("confluence:workshop");
+
 
 
 
