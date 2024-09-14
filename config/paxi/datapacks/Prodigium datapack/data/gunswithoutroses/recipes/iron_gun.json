@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"I  ",
+		"SIF",
+		" SI"
+	],
+	"key": {
+		"I": { "tag": "forge:ingots/iron" },
+		"S": { "tag": "forge:rods/wooden" },
+		"F": { "item": "minecraft:flint" }
+	},
+	"result": { "item": "gunswithoutroses:iron_gun" }
+}

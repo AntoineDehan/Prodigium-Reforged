@@ -109,6 +109,7 @@
 				{
 					auto: "invisible"
 					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/arms_dealer.npc.nbt ~ ~ ~"
+					elevate_perms: true
 					id: "49218C68BC28AB28"
 					silent: true
 					team_reward: false
@@ -173,6 +174,7 @@
 				{
 					auto: "invisible"
 					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/merchant.npc.nbt ~ ~ ~"
+					elevate_perms: true
 					id: "23B753F640C8D81F"
 					silent: true
 					team_reward: false
@@ -235,6 +237,7 @@
 				{
 					auto: "invisible"
 					command: "easy_npc preset import data prodigiumreforged:preset/terraria/goblin.npc.nbt ~ ~ ~"
+					elevate_perms: true
 					id: "143804A6F00CEA42"
 					silent: true
 					team_reward: false
@@ -284,6 +287,7 @@
 				{
 					auto: "invisible"
 					command: "easy_npc preset import data prodigiumreforged:preset/terraria/nurse.npc.nbt ~ ~ ~"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "6AC1D81A0BE5E2D4"
 					silent: true
@@ -336,6 +340,7 @@
 				{
 					auto: "invisible"
 					command: "easy_npc preset import data prodigiumreforged:preset/terraria/zoologist.npc.nbt ~ ~ ~"
+					elevate_perms: true
 					id: "0545E7E61FB4129C"
 					silent: true
 					team_reward: false
@@ -393,6 +398,7 @@
 				{
 					auto: "invisible"
 					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/wizard.npc.nbt ~ ~ ~"
+					elevate_perms: true
 					id: "0745249E62612091"
 					silent: true
 					team_reward: false
@@ -442,6 +448,7 @@
 				{
 					auto: "invisible"
 					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/dryad.npc.nbt ~ ~ ~"
+					elevate_perms: true
 					id: "7E78CB6A8385354A"
 					silent: true
 					team_reward: false
@@ -540,6 +547,7 @@
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @p complete 4B1ABE1A8E60831E"
+					elevate_perms: true
 					id: "0FD8C7A7F13D765F"
 					silent: true
 					type: "command"
@@ -547,6 +555,7 @@
 				{
 					auto: "invisible"
 					command: "/easy_npc preset import data prodigiumreforged:preset/terraria/tavernkeep.npc.nbt ~ ~ ~"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "6AC3D007EB0204E2"
 					silent: true

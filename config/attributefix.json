@@ -154,6 +154,17 @@
         "value": 100
       }
     },
+    "gunswithoutroses:gwr.damage_base": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:generic.luck": {
       "enabled": true,
       "min": {
@@ -240,6 +251,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "gunswithoutroses:gwr.damage_total": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "quality_equipment:projectile_damage": {
@@ -386,6 +408,17 @@
       }
     },
     "forge:block_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "gunswithoutroses:gwr.spread": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -583,6 +616,17 @@
         "value": 100
       }
     },
+    "gunswithoutroses:gwr.knockback": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "irons_spellbooks:ice_magic_resist": {
       "enabled": false,
       "min": {
@@ -592,6 +636,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "gunswithoutroses:gwr.fire_delay": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "minecraft:horse.jump_strength": {
@@ -618,6 +673,17 @@
     },
     "minecraft:generic.knockback_resistance": {
       "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "gunswithoutroses:gwr.chance_ammo": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0

@@ -524,6 +524,55 @@
 			x: 3.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["0EEBAEA6C5EE0454"]
+			description: ["Check the other guns from Guns Without Roses!"]
+			id: "033E7FA97D9CD1A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63AE61433F9D2DC0"
+				table_id: 7449522933339281626L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "16D1D45D69ADD3A9"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:iron_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "More up to date arsenal"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			description: ["Dropped by the Void Blossom."]
+			id: "42208C5158426B53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56EB8CD1096DF572"
+				table_id: 5533560640127059513L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "395D9DDC9507F249"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:diamond_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
 	]
 	title: "Ranged"
 }

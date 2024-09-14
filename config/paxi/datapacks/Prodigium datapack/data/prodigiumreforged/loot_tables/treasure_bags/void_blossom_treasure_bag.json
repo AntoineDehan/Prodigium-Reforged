@@ -43,6 +43,11 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gunswithoutroses:diamong_gatling",
+          "weight": 5
         }
       ]
     },

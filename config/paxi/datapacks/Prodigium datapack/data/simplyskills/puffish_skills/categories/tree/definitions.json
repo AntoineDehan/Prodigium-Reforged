@@ -3302,12 +3302,6 @@
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:berserker"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 78DE64EE0773BEF4"
-        }
       }
     ]
   },
@@ -4335,12 +4329,6 @@
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:ranger"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 686B5BA848725480"
-        }
       }
     ]
   },
@@ -4503,12 +4491,6 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:crusader"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 44FCF260737D0785"
         }
       }
     ]
@@ -5031,12 +5013,6 @@
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:wizard"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 745FE062B66D6927"
-        }
       }
     ]
   },
@@ -5106,12 +5082,6 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:cleric"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 525D3BC989CF49D9"
         }
       }
     ]
@@ -10540,6 +10510,12 @@
         "data": {
           "command": "thitemstages add @s stage_berserker_adamantium"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 78DE64EE0773BEF4"
+        }
       }
     ]
   },
@@ -10826,6 +10802,12 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_ranged_palladium"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 686B5BA848725480"
         }
       }
     ]
@@ -11509,6 +11491,12 @@
         "data": {
           "command": "thitemstages add @s stage_wizard_pumpkin"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 745FE062B66D6927"
+        }
       }
     ]
   },
@@ -11639,6 +11627,12 @@
         "data": {
           "command": "thitemstages add @s stage_crusader_paladin"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 44FCF260737D0785"
+        }
       }
     ]
   },
@@ -11710,6 +11704,12 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_cleric_tunic"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 525D3BC989CF49D9"
         }
       }
     ]
