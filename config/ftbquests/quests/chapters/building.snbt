@@ -244,13 +244,6 @@
 					type: "item"
 				}
 				{
-					count: 32
-					id: "300DE703C2382208"
-					item: "quark:pink_blossom_leaf_carpet"
-					random_bonus: 32
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7287F2BBB8B8D04C"
 					table_id: 8049615661713598272L

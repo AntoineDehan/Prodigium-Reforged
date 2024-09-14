@@ -109,7 +109,9 @@ craftingTable.removeByName("numismatic-overhaul:piggy_bank");
 craftingTable.removeByName("confluence:workshop");
 craftingTable.removeByName("gunswithoutroses:bullet_bag");
 craftingTable.removeByName("gunswithoutroses:diamond_gatling");
-
+craftingTable.removeByName("simplyskills:skill_chronicle");
+craftingTable.removeByName("simplyskills:malevolent_manuscript");
+craftingTable.removeByName("cataclysm:meat_shredder");
 
 
 

@@ -16,6 +16,11 @@
           "type": "minecraft:item",
           "name": "cataclysm:music_disc_ender_guardian",
           "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:meat_shredder",
+          "weight": 7
         }
       ]
     },
