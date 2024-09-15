@@ -7,10 +7,15 @@
         {
           "type": "minecraft:item",
           "name": "prodigium:valkyrie_queen_treasure_bag"
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
-          "name": "aether:siver_dungeon_key"
+          "name": "aether:silver_dungeon_key"
         }
       ]
     }
