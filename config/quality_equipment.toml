@@ -11,10 +11,10 @@
 	#A list of equipment that cannot be reforged.
 	Blacklist = []
 	#If true, items have a chance to be automatically reforged when they enter the player's inventory.
-	AutoReforge = false
+	AutoReforge = true
 	#The chance an item has of being automatically reforged.
 	#Max is 1.0 (100%) and minimum is 0.1 (10%).
-	AutoReforgeChance = 0.5
+	AutoReforgeChance = 1.0
 
 [Qualities]
 	#A list of json objects assigned to a translation key.
