@@ -1,45 +1,45 @@
 {
-	"enabled": true,
-	"experience_per_level": {
-		"type": "expression",
-		"data": {
-			"expression": "15 * level + 40"
-		}
-	},
-	"sources": [
-		{
-			"type": "puffish_skills:kill_entity",
-			"data": {
-				"variables": {
-					"dropped_xp": {
-						"operations": [
-							{
-								"type": "dropped_experience"
-							}
-						]
-					},
-					"max_health": {
-						"operations": [
-							{
-								"type": "killed_living_entity"
-							},
-							{
-								"type": "max_health"
-							}
-						]
-					}
-				},
-				"experience": [
-					{
-						"expression": "dropped_xp / 2.8"
-					}
-				],
-				"anti_farming": {
-					"enabled": true,
-					"limit_per_chunk": 15,
-					"reset_after_seconds": 360
-				}
-			}
-		}
-	]
+  "enabled": true,
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "15 * level + 40"
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:kill_entity",
+      "data": {
+        "variables": {
+          "dropped_xp": {
+            "operations": [
+              {
+                "type": "dropped_experience"
+              }
+            ]
+          },
+          "max_health": {
+            "operations": [
+              {
+                "type": "killed_living_entity"
+              },
+              {
+                "type": "max_health"
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "expression": "dropped_xp / 2"
+          }
+        ],
+        "anti_farming": {
+          "enabled": true,
+          "limit_per_chunk": 15,
+          "reset_after_seconds": 360
+        }
+      }
+    }
+  ]
 }
