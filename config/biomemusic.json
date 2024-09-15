@@ -17,7 +17,7 @@
   },
   "disableDefaultMusicInDimensions": {
     "desc:": "Disables overworld music being played at random(rarely) in nether/end, default = true",
-    "disableDefaultMusicInDimensions": true
+    "disableDefaultMusicInDimensions": false
   },
   "displayMusicPlayed": {
     "desc:": "Shows currently played music in chat/log, default = false",
