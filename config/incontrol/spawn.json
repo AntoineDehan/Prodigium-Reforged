@@ -604,6 +604,14 @@
     "result": "deny"
   },
   {
+    "mob": ["undead_revamp2:deadclogger"],
+    "result": "deny"
+  },
+  {
+    "mob": ["undead_revamp2:the_moonflower"],
+    "result": "deny"
+  },
+  {
     "mob": ["undead_revamp2:thehorrors"],
     "result": "deny"
   },
