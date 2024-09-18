@@ -489,7 +489,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "3AE46320570828AD"
@@ -510,7 +510,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "4DE335BD2510A7AC"

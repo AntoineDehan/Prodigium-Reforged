@@ -353,7 +353,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "066F9BFA5EFA0D8F"
@@ -375,7 +375,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "07B9F377F16CB245"
@@ -457,7 +457,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "52767CE2AD9485AF"
@@ -479,7 +479,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "2008CD9DB00EB6F4"
@@ -578,7 +578,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "32CBBFBA3DC5415C"
@@ -600,7 +600,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "0C495DB55391615D"
@@ -771,7 +771,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1B71CE6DA404AFF6"
@@ -793,7 +793,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "3FF589D046FB7A76"
@@ -879,7 +879,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					icon: "minecraft:experience_bottle"
 					id: "4DA27660174E44DD"
 					silent: true
@@ -899,7 +899,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					icon: "minecraft:experience_bottle"
 					id: "1E231A6D24C91038"
 					silent: true
@@ -1016,7 +1016,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "6A0F63D341B5DFE9"
@@ -1038,7 +1038,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "6C1B077866FB7111"
@@ -1118,7 +1118,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "7C0EBDD06175C1F3"
@@ -1140,7 +1140,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "4F9ED9A5152A3DF0"
@@ -1230,7 +1230,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "38807C207C580E0C"
@@ -1252,7 +1252,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "5BCBFA87CD9F3442"
@@ -1331,7 +1331,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 1"
+					command: "/puffish_skills points add @p simplyskills:berserker 1"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "6EE8FF677891D93E"
@@ -1353,7 +1353,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 1"
+					command: "/puffish_skills points add @p simplyskills:ranger 1"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "473E24337022DAFA"
@@ -1443,7 +1443,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "4C752276FB1E1778"
@@ -1465,7 +1465,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "12AB2C1B5366600B"
@@ -1557,7 +1557,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "62A8EF396D839A00"
@@ -1579,7 +1579,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "7B162AE85189C58C"
@@ -1665,7 +1665,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1B7E6B3DAC2E166D"
@@ -1687,7 +1687,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "6BF3AC2C32475BA3"
@@ -1763,7 +1763,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "40EA9119B1C5D45A"
@@ -1785,7 +1785,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "0B9C60D4D2819B7B"
@@ -1859,7 +1859,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "4003B1832636D437"
@@ -1881,7 +1881,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "2CABF84E4DF9A50F"
@@ -1963,7 +1963,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1DE358B0DEE1D794"
@@ -1985,7 +1985,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1B3A1EA0367EE22B"
@@ -2059,7 +2059,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "0871F67F5B61C74F"
@@ -2081,7 +2081,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "05DD50B4D2DF5E65"
