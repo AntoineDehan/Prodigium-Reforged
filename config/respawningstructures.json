@@ -5,7 +5,7 @@
   },
   "minutesUntilRespawn": {
     "desc:": "Sets the time after which a structure can respawn, the timer starts after the last activity within the structure. default:2.880 minutes(48h)",
-    "minutesUntilRespawn": 90
+    "minutesUntilRespawn": 60
   },
   "increaseDifficultyWithRespawn": {
     "desc:": "Enables increased difficulty with in respawned dungeons(mobs can get enchanted items/potions effects), default: true",

@@ -14,7 +14,7 @@
 [mechanics]
 	#Max size for a party
 	#Range: > 2
-	partySize = 5
+	partySize = 8
 	#Makes the party system utilize the vanilla team system as well.
 	useVanillaTeams = true
 	#Allow players to attack each other in parties
@@ -38,7 +38,7 @@
 	#For a blacklist, all stages that aren't in the list will be syncable.
 	useSyncLists = false
 	#Uses FTB Teams to handle party management instead. Commands will be disabled.
-	useFTBTeams = false
+	useFTBTeams = true
 
 [xp-share]
 	#Allow players to share XP in a party. This is a universal option.

@@ -52,11 +52,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "confluence:sun_stone",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
           "name": "earthtojavamobs:fancy_feather",
           "weight": 5,
           "functions": [

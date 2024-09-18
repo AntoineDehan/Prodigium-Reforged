@@ -13,7 +13,7 @@
   },
   "smartMusic": {
     "desc:": "Enables smart stopping of music, when the biome changes or player leaves a cave/water/night is over, default = true",
-    "smartMusic": true
+    "smartMusic": false
   },
   "disableDefaultMusicInDimensions": {
     "desc:": "Disables overworld music being played at random(rarely) in nether/end, default = true",

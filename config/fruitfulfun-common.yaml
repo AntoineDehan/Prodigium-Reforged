@@ -16,7 +16,8 @@ fruitTreeLifespan:
 appleSaplingFromHeroOfTheVillage: true
 villageAppleTreeWorldGen: true
 hornHarvestingInstrument: minecraft:sing_goat_horn
-wanderingTraderSapling: true
+wanderingTraderSaplingPrice: 12
+beehiveTrade: true
 beeNaturalHealingInterval: 900
 mutagenRecipe: true
 redloveFruitUse: true
