@@ -180,10 +180,10 @@
 		[mobs.frostmaw.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.5
+			health_multiplier = 1.9
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.1
+			attack_multiplier = 1.4
 
 	[mobs.umvuthi]
 		#Disable/enable Umvuthi's boss health bar

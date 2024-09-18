@@ -10069,7 +10069,7 @@
     ]
   },
   "melee_damage+5%": {
-    "title": "+5% Melee Damage",
+    "title": "+4% Melee Damage",
     "icon": {
       "type": "effect",
       "data": {
@@ -10081,14 +10081,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.melee_damage",
-          "value": 0.05,
+          "value": 0.04,
           "operation": "multiply_base"
         }
       }
     ]
   },
   "melee_damage+10%": {
-    "title": "+10% Melee Damage",
+    "title": "+8% Melee Damage",
     "icon": {
       "type": "effect",
       "data": {
@@ -10100,7 +10100,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.melee_damage",
-          "value": 0.1,
+          "value": 0.08,
           "operation": "multiply_base"
         }
       }
@@ -10185,7 +10185,7 @@
     ]
   },
   "health2+": {
-    "title": "+2 Hearts",
+    "title": "+1 Hearts",
     "icon": {
       "type": "effect",
       "data": {
@@ -10197,7 +10197,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.max_health",
-          "value": 2,
+          "value": 1,
           "operation": "addition"
         }
       }
@@ -10244,7 +10244,7 @@
     ]
   },
   "healing+5%": {
-    "title": "+5% Healing",
+    "title": "+4% Healing",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10257,7 +10257,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.healing",
-          "value": 0.05,
+          "value": 0.04,
           "operation": "multiply_total"
         }
       }
@@ -10321,7 +10321,7 @@
     ]
   },
   "dodge+5%": {
-    "title": "+5% Dodge chance",
+    "title": "+3% Dodge chance",
     "icon": {
       "type": "effect",
       "data": {
@@ -10333,14 +10333,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:dodge_chance",
-          "value": 0.05,
+          "value": 0.03,
           "operation": "addition"
         }
       }
     ]
   },
   "dodge+10%": {
-    "title": "+10% Dodge chance",
+    "title": "+8% Dodge chance",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10353,7 +10353,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:dodge_chance",
-          "value": 0.1,
+          "value": 0.08,
           "operation": "addition"
         }
       }

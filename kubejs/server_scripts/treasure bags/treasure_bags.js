@@ -14,7 +14,7 @@ let treasureBags = [
   "prodigium:netherite_monstrosity_treasure_bag",
   "prodigium:night_lich_treasure_bag",
   "prodigium:obsidilith_treasure_bag",
-  "prodigium:sun_bird_treasure_bag",
+  "prodigium:sunbird_treasure_bag",
   "prodigium:void_blossom_treasure_bag",
   "prodigium:void_worm_treasure_bag",
   "prodigium:valkyrie_queen_treasure_bag",

@@ -92,29 +92,29 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		#Range: > 0
 		FairyBoots = 32
 		#Range: > 0
-		FrostsparkBoots = 32
+		FrostsparkBoots = 42
 		#Range: > 0
-		LightningBoots = 32
+		LightningBoots = 42
 		#Range: > 0
-		RocketBoots = 32
+		RocketBoots = 42
 		#Range: > 0
-		SpectreBoots = 32
+		SpectreBoots = 42
 		#Range: > 0
-		TerrasparkBoots = 42
+		TerrasparkBoots = 56
 
 	["May Fly"."Fly Speed"]
 		#Range: 0.0 ~ 1.7976931348623157E308
-		FairyBoots = 0.3
+		FairyBoots = 0.31
 		#Range: 0.0 ~ 1.7976931348623157E308
-		FrostsparkBoots = 0.3
+		FrostsparkBoots = 0.31
 		#Range: 0.0 ~ 1.7976931348623157E308
-		LightningBoots = 0.3
+		LightningBoots = 0.31
 		#Range: 0.0 ~ 1.7976931348623157E308
-		RocketBoots = 0.3
+		RocketBoots = 0.31
 		#Range: 0.0 ~ 1.7976931348623157E308
-		SpectreBoots = 0.3
+		SpectreBoots = 0.31
 		#Range: 0.0 ~ 1.7976931348623157E308
-		TerrasparkBoots = 0.35
+		TerrasparkBoots = 0.37
 
 ["Multi Jump"]
 
@@ -130,25 +130,25 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 
 	["Multi Jump"."Jump Speed"]
 		#Range: 0.0 ~ 1.7976931348623157E308
-		BlizzardInABalloon = 0.4
+		BlizzardInABalloon = 0.7
 		#Range: 0.0 ~ 1.7976931348623157E308
-		BlizzardInABottle = 0.4
+		BlizzardInABottle = 0.7
 		#Range: 0.0 ~ 1.7976931348623157E308
-		CloudInABalloon = 1.1
+		CloudInABalloon = 1.3
 		#Range: 0.0 ~ 1.7976931348623157E308
-		CloudInABottle = 1.1
+		CloudInABottle = 1.3
 		#Range: 0.0 ~ 1.7976931348623157E308
-		FartInABalloon = 2.1
+		FartInABalloon = 2.3
 		#Range: 0.0 ~ 1.7976931348623157E308
 		FartInAJar = 2.8
 		#Range: 0.0 ~ 1.7976931348623157E308
-		SandstormInABalloon = 0.45
+		SandstormInABalloon = 0.65
 		#Range: 0.0 ~ 1.7976931348623157E308
-		SandstormInABottle = 0.45
+		SandstormInABottle = 0.65
 		#Range: 0.0 ~ 1.7976931348623157E308
-		SharkronBalloon = 1.1
+		SharkronBalloon = 1.3
 		#Range: 0.0 ~ 1.7976931348623157E308
-		TsunamiInABottle = 1.0
+		TsunamiInABottle = 1.2
 
 ["Magic Quiver"]
 	#Range: 0.0 ~ 1.0

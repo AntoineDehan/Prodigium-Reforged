@@ -5,7 +5,7 @@
 	#In this list you can define different reforge items for specific equipment.
 	#This can override repair items and will be used instead of the fallback item in case no repair item exists.
 	#The left item is the equipment and right is the material.
-	Overrides = ["minecraft:bow,minecraft:string", "minecraft:crossbow,minecraft:iron_ingot"]
+	Overrides = ["minecraft:bow,minecraft:string", "minecraft:crossbow,minecraft:iron_ingot", "simple_weapons:corinthium_katana,simpleores:adamantium_ingot", "simple_weapons:corinthium_dagger,simpleores:adamantium_ingot", "simple_weapons:corinthium_greatsword,simpleores:adamantium_ingot", "simple_weapons:corinthium_spear,simpleores:adamantium_ingot", "simple_weapons:corinthium_katar,simpleores:adamantium_ingot", "simple_weapons:corinthium_scimitar,simpleores:adamantium_ingot", "simple_weapons:corinthium_crowbill,simpleores:adamantium_ingot", "simple_weapons:corinthium_scythe,simpleores:adamantium_ingot", "simple_weapons:fiery_katana,cataclysm:ignitium_ingot", "simple_weapons:fiery_dagger,cataclysm:ignitium_ingot", "simple_weapons:fiery_greatsword,cataclysm:ignitium_ingot", "simple_weapons:fiery_spear,cataclysm:ignitium_ingot", "simple_weapons:fiery_katar,cataclysm:ignitium_ingot", "simple_weapons:fiery_scimitar,cataclysm:ignitium_ingot", "simple_weapons:fiery_crowbill,cataclysm:ignitium_ingot", "simple_weapons:fiery_scythe,cataclysm:ignitium_ingot"]
 
 [Reforging]
 	#A list of equipment that cannot be reforged.
