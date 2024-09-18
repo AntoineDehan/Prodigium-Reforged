@@ -10629,7 +10629,7 @@
     ]
   },
   "ranged_damage+5%": {
-    "title": "+5% Ranged Damage",
+    "title": "+6% Ranged Damage",
     "icon": {
       "type": "item",
       "data": {
@@ -10641,7 +10641,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.ranged_damage",
-          "value": 0.05,
+          "value": 0.06,
           "operation": "multiply_total"
         }
       }
