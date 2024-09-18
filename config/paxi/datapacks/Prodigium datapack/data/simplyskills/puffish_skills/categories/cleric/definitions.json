@@ -10857,7 +10857,7 @@
     ]
   },
   "mana+50": {
-    "title": "+50 Mana",
+    "title": "+70 Mana",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10870,14 +10870,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:max_mana",
-          "value": 50,
+          "value": 70,
           "operation": "addition"
         }
       }
     ]
   },
   "mana+25": {
-    "title": "+25 Mana",
+    "title": "+35 Mana",
     "icon": {
       "type": "effect",
       "data": {
@@ -10889,7 +10889,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:max_mana",
-          "value": 25,
+          "value": 35,
           "operation": "addition"
         }
       }
@@ -11151,7 +11151,7 @@
     ]
   },
   "holy_spell_power+5%": {
-    "title": "+5% Holy Spell Power",
+    "title": "+6% Holy Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11163,14 +11163,22 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:holy_spell_power",
-          "value": 0.05,
+          "value": 0.06,
           "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 0.06,
+          "operation": "multiply_base"
         }
       }
     ]
   },
   "holy_spell_power+10%": {
-    "title": "+10% Holy Spell Power",
+    "title": "+13% Holy Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11183,8 +11191,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:holy_spell_power",
-          "value": 0.1,
+          "value": 0.13,
           "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 0.13,
+          "operation": "multiply_base"
         }
       }
     ]

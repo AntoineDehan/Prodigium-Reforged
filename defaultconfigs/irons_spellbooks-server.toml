@@ -6,7 +6,7 @@
 	#Whether or not imbued weapons require mana to be casted. Default: true
 	swordsConsumeMana = true
 	#The multiplier on the cooldown of imbued weapons. Default: 0.5 (50% of default cooldown)
-	swordsCooldownMultiplier = 0.5
+	swordsCooldownMultiplier = 0.6
 	#Whether or not players can harm their own magic summons. Default: false
 	canAttackOwnSummons = false
 	#The maximum amount of times an applicable piece of equipment can be upgraded in the arcane anvil. Default: 3
