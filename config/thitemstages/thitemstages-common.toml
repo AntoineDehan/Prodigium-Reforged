@@ -1,7 +1,7 @@
 
 ["General Options"]
 	#List all the stages that you want to have.
-	stages = ["stage_1", "stage_2", "stage_3", "stage_nether", "stage_netherite", "stage_aether", "stage_berserker_adamantium", "stage_berserker_diamond", "stage_berserker_tungsten", "stage_berserker_chorundum", "stage_berserker_phoenix", "stage_berserker_adamantium", "stage_crusader_paladin", "stage_crusader_crusader", "stage_crusader_valkyrie", "stage_crusader_ignitium", "stage_wizard_pumpkin", "stage_wizard_robe", "stage_wizard_zanite", "stage_cleric_tunic", "stage_cleric_prior", "stage_cleric_priest", "stage_ranged_palladium", "stage_ranged_shroomite", "stage_ranged_orichalcum", "stage_ranged_neptune", "stage_wizard_school", "stage_rpg"]
+	stages = ["stage_1", "stage_2", "stage_3", "stage_nether", "stage_netherite", "stage_aether", "stage_berserker_adamantium", "stage_berserker_diamond", "stage_berserker_tungsten", "stage_berserker_chorundum", "stage_berserker_phoenix", "stage_berserker_adamantium", "stage_crusader_paladin", "stage_crusader_crusader", "stage_crusader_valkyrie", "stage_crusader_ignitium", "stage_wizard_pumpkin", "stage_wizard_robe", "stage_wizard_zanite", "stage_cleric_tunic", "stage_cleric_prior", "stage_cleric_priest", "stage_ranged_palladium", "stage_ranged_shroomite", "stage_ranged_orichalcum", "stage_ranged_neptune", "stage_wizard_school", "stage_rpg", "stage_crusader_weapons", "stage_mage"]
 	#Set this value to 'true' whenever you're having issues, this will allow the mod to output everything it tries to do in the log.
 	debugMode = false
 	#Set this value to 'true' whenever you want the default restrictions to be regenerated. [true/false]

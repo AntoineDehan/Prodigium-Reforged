@@ -1,0 +1,61 @@
+{
+  "Restriction Data": {
+    "stage": "stage_mage",
+    "itemList": [
+      {
+        "item": "irons_spellbooks:necronomicon_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:gold_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:netherite_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:diamond_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:iron_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:evoker_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:rotten_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:dragonskin_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:villager_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:blaze_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:druidic_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:mana_ring"
+      }
+    ],
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "This item can only be used by Mages (Unusable item for your class)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

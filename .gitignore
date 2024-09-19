@@ -46,9 +46,14 @@ TrashslotSaveState.json
 hs_err_*.log
 XaeroWaypoints*
 
-
+.replay_cache/
+replay_recordings/
+simplebackups/
 config/embeddium++.toml
 config/oculus.properties
+config/jei/
 config/jei/ingredient-list-mod-sort-order.ini
 config/fabric/indigo-renderer.properties
 config/xaerominimap_entities.json
+config/packetfixer.properties
+config/spawnbalanceutility/BiomeMobWeight.rpt
