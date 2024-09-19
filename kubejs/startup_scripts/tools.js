@@ -44,4 +44,28 @@ ItemEvents.modification((event) => {
     item.attackDamage = 6;
     item.attackSpeed = -2.95;
   });
+
+  // Crusader Weapons
+
+  // Great Sword
+  event.modify("simple_weapons:diamond_greatsword", (item) => {
+    item.attackDamage = 8;
+    item.attackSpeed = -2.9;
+  });
+  event.modify("simple_weapons:iron_greatsword", (item) => {
+    item.attackDamage = 6.5;
+    item.attackSpeed = -2.9;
+  });
+  event.modify("simple_weapons:stone_greatsword", (item) => {
+    item.attackDamage = 5.5;
+    item.attackSpeed = -2.9;
+  });
+  event.modify("simple_weapons:corinthium_greatsword", (item) => {
+    item.attackDamage = 7.25;
+    item.attackSpeed = -2.9;
+  });
+  event.modify("simple_weapons:fiery_greatsword", (item) => {
+    item.attackDamage = 9.75;
+    item.attackSpeed = -2.9;
+  });
 });

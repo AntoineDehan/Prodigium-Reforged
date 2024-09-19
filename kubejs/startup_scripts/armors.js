@@ -4,29 +4,30 @@ ItemEvents.modification((event) => {
   // Diamond
   event.modify("minecraft:diamond_helmet", (item) => {
     item.armorToughness = 0;
-  })
+  });
 
   event.modify("minecraft:diamond_chestplate", (item) => {
-    item.armorProtection = 7;
+    item.armorProtection = 6;
     item.armorToughness = 0;
-  })
+  });
 
   event.modify("minecraft:diamond_leggings", (item) => {
     item.armorToughness = 0;
-  })
+  });
 
   event.modify("minecraft:diamond_boots", (item) => {
+    item.armorProtection = 2;
     item.armorToughness = 0;
-  })
+  });
 
   // Adamantium
   event.modify("simpleores:adamantium_helmet", (item) => {
-    item.armorProtection = 3;
+    item.armorProtection = 2;
     item.armorToughness = 0;
   });
 
   event.modify("simpleores:adamantium_chestplate", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 5;
     item.armorToughness = 0;
   });
 
@@ -47,7 +48,7 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("stalwart_dungeons:tungsten_chestplate", (item) => {
-    item.armorProtection = 8;
+    item.armorProtection = 7;
     item.armorToughness = 0;
   });
 
@@ -89,12 +90,12 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("stalwart_dungeons:chorundum_armor_chestplate", (item) => {
-    item.armorProtection = 9;
+    item.armorProtection = 8;
     item.armorToughness = 0;
   });
 
   event.modify("stalwart_dungeons:chorundum_armor_leggings", (item) => {
-    item.armorProtection = 8;
+    item.armorProtection = 7;
     item.armorToughness = 0;
   });
 
@@ -126,8 +127,24 @@ ItemEvents.modification((event) => {
     item.armorToughness = 0;
   });
 
-
   //// Crusader armors
+
+  // Crusader
+  event.modify("paladins:crusader_armor_head", (item) => {
+    item.armorToughness = 1;
+  });
+
+  event.modify("paladins:crusader_armor_chest", (item) => {
+    item.armorToughness = 1;
+  });
+
+  event.modify("paladins:crusader_armor_legs", (item) => {
+    item.armorToughness = 1;
+  });
+
+  event.modify("paladins:crusader_armor_feet", (item) => {
+    item.armorToughness = 1;
+  });
 
   // Valkyrie
   event.modify("aether:valkyrie_helmet", (item) => {
@@ -136,7 +153,7 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("aether:valkyrie_chestplate", (item) => {
-    item.armorProtection = 8;
+    item.armorProtection = 9;
   });
 
   event.modify("aether:valkyrie_leggings", (item) => {
