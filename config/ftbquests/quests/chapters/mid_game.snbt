@@ -998,6 +998,7 @@
 				{
 					auto: "invisible"
 					command: "/thitemstages add @p stage_aether true"
+					elevate_perms: true
 					id: "15235E560DDE8FB8"
 					type: "command"
 				}

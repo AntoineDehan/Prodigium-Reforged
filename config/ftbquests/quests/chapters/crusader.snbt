@@ -206,6 +206,30 @@
 			x: 1.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["4295FD014E3D5800"]
+			id: "4D6543C1B848F5FA"
+			rewards: [{
+				auto: "no_toast"
+				id: "68577C2A61F7FD7B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7C733A46B07D7DAB"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Longer weapon!"
+			x: 1.5d
+			y: -1.0d
+		}
 	]
 	title: "Crusader"
 }
