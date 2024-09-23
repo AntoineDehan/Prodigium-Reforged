@@ -25,7 +25,7 @@
 	#Change wandering trader offers.
 	"Enable Wandering Trades" = true
 	"Enable Coal & Fire" = true
-	"Enable Fluids" = true
+	"Enable Fluids" = false
 
 	#Trees fall when cut.
 	[World."Timber Trees"]
@@ -155,12 +155,12 @@
 
 	[World.Fluids]
 		#If enabled, water will deal fall damage if too shallow
-		"Water fall damage" = true
+		"Water fall damage" = false
 		#How strong does water push entities. Vanilla is 0.014
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		"Water push force" = 0.03
+		"Water push force" = 0.014
 		#If true water pushes entities down even when no blocks are around
-		"Water pushes when no blocks are around" = true
+		"Water pushes when no blocks are around" = false
 
 ["Sleep & Respawn"]
 	#Changes to sleeping and spawn points
@@ -270,7 +270,7 @@
 	"Enable Better Climbable" = false
 	#Player's slowed down when walking backwards.
 	"Enable Backwards slowdown" = false
-	"Enable Swimming" = true
+	"Enable Swimming" = false
 
 	#Prevents the player from placing blocks below him when in mid air.
 	[Movement."No Pillaring"]

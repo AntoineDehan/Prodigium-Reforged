@@ -10069,7 +10069,7 @@
     ]
   },
   "melee_damage+5%": {
-    "title": "+4% Melee Damage",
+    "title": "+3% Melee Damage",
     "icon": {
       "type": "effect",
       "data": {
@@ -10088,7 +10088,7 @@
     ]
   },
   "melee_damage+10%": {
-    "title": "+8% Melee Damage",
+    "title": "+6% Melee Damage",
     "icon": {
       "type": "effect",
       "data": {
@@ -10127,7 +10127,7 @@
     ]
   },
   "overheal+2%": {
-    "title": "+2% Overheal",
+    "title": "+1% Overheal",
     "icon": {
       "type": "effect",
       "data": {
@@ -10139,7 +10139,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:overheal",
-          "value": 0.02,
+          "value": 0.01,
           "operation": "multiply_total"
         }
       }
