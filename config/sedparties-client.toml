@@ -15,6 +15,12 @@
 	#If true, the client won't wait for the server to send a potion effect packet to remove the potion effects from the UI.
 	#If false, the potion effects will stay on the client until the server says the client no longer has it.
 	endPotionEffects = true
+	#Enables the Player Frame under specific conditions.
+	#ON - Enables the Player Frame.
+	#PARTY - Enables the Player Frame only when the player is in a party.
+	#OFF - Disables the Player Frame.
+	#Allowed Values: ON, PARTY, OFF
+	playerRender = "PARTY"
 
 [mod-options]
 	#This allows you to set the type of automatic syncing you'd like for GameStages support

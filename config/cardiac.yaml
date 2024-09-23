@@ -2,18 +2,18 @@
 attractToFullHP: true
 # Defines pairs where the key is either a mob's ID or a regex for matching mob IDs, and the value is the percentage of the slain entity's maximum health that will be stored in the life orbs
 generalPercentages:
-    minecraft:ender_dragon: 0.0
-    .*: 0.1
+  minecraft:ender_dragon: 0.0
+  .*: 0.1
 # Defines pairs where the key is either a mob's ID or a regex for matching mob IDs, and the value is the extra percentage of the slain entity's maximum health added to the life orbs for each level of the Lifesteal enchantment
 lifestealPercentages:
-    .*: 0.05
+  .*: 0.05
 # The maximum amount of health carried by a life orb
-maxOrbHealth: 6.0
+maxOrbHealth: 3.0
 # The minimum number of life orbs dropped from a slain entity. This does not affect the total amount of health they will collectively restore
 minOrbsAmount: 0
 # The maximum distance in blocks from which a life orb can be attracted to the nearest player
 orbFollowDistance: 8
 # Time in seconds before the removal of the life orb
-orbLifetime: 25
+orbLifetime: 15
 # Should life orbs drop when a mob is killed only by a player, or should whenever it dies
 shouldBeKilledByPlayer: true
