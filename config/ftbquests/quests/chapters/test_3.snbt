@@ -129,6 +129,7 @@
 				title: "Any #minecraft:logs"
 				type: "item"
 			}]
+			title: "Obtain a log"
 			x: 2.0d
 			y: 2.0d
 		}

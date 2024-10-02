@@ -275,7 +275,7 @@
     },
     {
       "type": "gateways:command",
-      "command": "/ftbquests change_progress @p complete 01590DC84238B719",
+      "command": "/ftbquests change_progress @p complete 3ECF0082B62C4AB8",
       "desc": "Quest's progress"
     }
   ],

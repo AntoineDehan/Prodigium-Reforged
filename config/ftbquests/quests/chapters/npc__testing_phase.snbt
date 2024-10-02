@@ -33,7 +33,7 @@
 			y: 3.5d
 		}
 	]
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -210,7 +210,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["11C8F012CBB15B39"]
+			dependencies: [
+				"11C8F012CBB15B39"
+				"774BCB593AAFAA33"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&6Blocks needed&r :"
 				"- smithing table"
@@ -318,7 +322,11 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["11C8F012CBB15B39"]
+			dependencies: [
+				"11C8F012CBB15B39"
+				"774BCB593AAFAA33"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&6Blocks needed :&r"
 				"- nordic table small"

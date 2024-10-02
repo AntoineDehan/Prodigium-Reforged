@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "classes_introduction"
 	group: "52532F5E67425F1C"
-	icon: "minecolonies:firearrow"
+	icon: "minecraft:amethyst_cluster"
 	id: "59B899949D512C6D"
 	order_index: 0
 	quest_links: [ ]
@@ -79,7 +79,7 @@
 		}
 		{
 			description: [
-				"You now have unlocked the &6Berserker quest chapter&r."
+				"You now have unlocked the &6Berserker quest chapter&r. Check it out in the quest book!"
 				""
 				"It will help you know which armors and more to craft!"
 			]
@@ -102,7 +102,7 @@
 		}
 		{
 			description: [
-				"You now have unlocked &6the Crusader quest chapter&r."
+				"You now have unlocked &6the Crusader quest chapter&r. Check it out in the quest book!"
 				""
 				"It will help you know which armors and more to craft next!"
 			]
@@ -125,7 +125,7 @@
 		}
 		{
 			description: [
-				"You now have unlocked &6the Ranger quest chapter&r."
+				"You now have unlocked &6the Ranger quest chapter&r. Check it out in the quest book!"
 				""
 				"It will help you know which armors and more to craft next!"
 			]
@@ -148,7 +148,7 @@
 		}
 		{
 			description: [
-				"You now have unlocked &6the Wizard quest chapter&r."
+				"You now have unlocked &6the Wizard quest chapter&r. Check it out in the quest book!"
 				""
 				"It will help you know which armors and more to craft next!"
 			]
@@ -171,7 +171,7 @@
 		}
 		{
 			description: [
-				"You now have unlocked &6the Cleric quest chapter&r."
+				"You now have unlocked &6the Cleric quest chapter&r. Check it out in the quest book!"
 				""
 				"It will help you know which armors and more to craft next!"
 			]
@@ -188,7 +188,14 @@
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
-			description: ["Used for Mage (wizard and cleric)"]
+			description: [
+				"Used for Mage (wizard and cleric)"
+				""
+				"You will drop&7 Scrolls&r in chest, those are a one time use spells unless you put them in a spellbook."
+				""
+				"To do that, you will need to craft an &3Inscription Table&r and have a &6Spell Book&r. "
+				"Put the &6Spell Book&r and the &7Scroll&r in the &3Inscription table&r, you will then be able to use the spells as much as you have enough mana."
+			]
 			hide: true
 			id: "0613243385C3015B"
 			rewards: [
@@ -205,18 +212,38 @@
 					xp_levels: 2
 				}
 			]
-			tasks: [{
-				id: "7C1794DE4816E2EC"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:wandering_magician_helmet"
-					tag: {
-						Damage: 0
+			subtitle: "Read me!"
+			tasks: [
+				{
+					id: "7C1794DE4816E2EC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					title: "Wandering Magician armor"
+					type: "item"
 				}
-				title: "Wandering Magician armor"
-				type: "item"
-			}]
+				{
+					id: "5EA1D5A61D3F1051"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 5
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					title: "Early game Spell book"
+					type: "item"
+				}
+			]
 			title: "Early mage armor"
 			x: 1.0d
 			y: 2.5d
@@ -240,6 +267,7 @@
 					xp_levels: 2
 				}
 			]
+			subtitle: "Read me!"
 			tasks: [{
 				id: "284806BB280CB458"
 				item: {
@@ -275,6 +303,7 @@
 					xp_levels: 2
 				}
 			]
+			subtitle: "Read me!"
 			tasks: [{
 				id: "41B052F3415EDC28"
 				item: {

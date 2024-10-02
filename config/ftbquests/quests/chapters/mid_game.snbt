@@ -1223,7 +1223,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/gamestage add stage_5 true"
+					command: "/gamestage add @p stage_5 true"
 					elevate_perms: true
 					id: "33244345647D6486"
 					silent: true
@@ -2313,6 +2313,29 @@
 			]
 			x: 26.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			description: [
+				"To obtain the Workshop you need to buy it from the &aGoblin npc&r."
+				""
+				"Use the Workshop to combine accessories (from the Terra Curio mod only, &nfor the moment&r)"
+			]
+			id: "6556B46344AD4167"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CC8DFB8672FD2C9"
+				table_id: 8049615661713598272L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "294AB098050B6614"
+				item: "confluence:workshop"
+				type: "item"
+			}]
+			title: "Combine your accessories!"
+			x: 1.5d
+			y: -3.5d
 		}
 	]
 	title: "Expert Mode"
