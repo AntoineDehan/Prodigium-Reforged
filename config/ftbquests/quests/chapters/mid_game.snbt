@@ -432,6 +432,12 @@
 		}
 		{
 			dependencies: ["774BCB593AAFAA33"]
+			description: [
+				"You summon it like in vanilla Minecraft."
+				""
+				"Sometimes it might not work, don't worry just break the blocks and wither skulls and replace it in"
+				"a different place (just a few block away is enough), I'm trying to find a fix :)"
+			]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "78E025D30CD1E607"
 			min_required_tasks: 1

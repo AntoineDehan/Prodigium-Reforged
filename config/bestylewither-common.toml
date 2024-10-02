@@ -1,6 +1,6 @@
 "Enable bounce blue wither skull" = true
 "Enable more inertial blue wither skull" = true
-"Enable shoot more blue wither skull" = true
+"Enable shoot more blue wither skull" = false
 "Enable spin and white summon" = true
 "Enable explode by half health" = true
 "Enable explode by die" = true
