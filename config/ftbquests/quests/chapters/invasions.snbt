@@ -159,6 +159,7 @@
 			y: -4.0d
 		}
 		{
+			description: ["You need this NPC to craft the Gates."]
 			id: "4B1ABE1A8E60831E"
 			rewards: [{
 				count: 5

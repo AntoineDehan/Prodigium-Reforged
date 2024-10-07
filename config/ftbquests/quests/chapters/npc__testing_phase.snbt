@@ -42,6 +42,8 @@
 				""
 				"You will &2need to build homes&r for different npc and to defend them if needed."
 				""
+				"The furniture you will need are crafted through the &cFurniture Station&r."
+				""
 				"To make a &6suitable house&r, you will need &6chose the NPC quest&r, then &6click \"show structure\"&r."
 				" &6The template of the furnitures&r needed will then &6be shown&r, &6build it&r in a house of your choosing."
 				" When the &6template has been built&r, go &6back on the quest&r, and &6click \"submit structure\"&r(do it while INSIDE the home). The NPC will now spawn."
@@ -150,6 +152,7 @@
 				"Create a home for the Merchant to spawn in. "
 				""
 				"Show the template with by clicking on the quest and then submit your build to make the npc spawn."
+				"A lot of the decoration/furniture you use are crafted through the &cFurniture Station&r."
 				""
 				"&6Blocks needed :&r"
 				"- flower pot"
@@ -542,6 +545,9 @@
 		{
 			dependencies: ["2EF592CDDA98B3BB"]
 			description: [
+				"This NPC is the one selling items to spawn &5Gates&r."
+				"It also sell &6uncraftable items&r such as the Nature Compass, Waystones, Storages and Backpack Upgrades etc..."
+				""
 				"&6Blocks needed:&r"
 				"- Barrel"
 				"- Nordic Counter"

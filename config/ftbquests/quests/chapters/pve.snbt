@@ -689,7 +689,7 @@
 			]
 			title: "Kill all hostile mobs from &6Stalwart's dungeons&r"
 			x: 6.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			id: "010ECC42A75540D6"
@@ -830,6 +830,35 @@
 			title: "Another chest, another surprise"
 			x: 5.0d
 			y: 1.0d
+		}
+		{
+			description: [
+				"Prodigium Reforged has a &llot&r of different accessories."
+				""
+				"You can combine (the ones from the Terra curio) them in a &6Workshop&r which is sold by the &aGoblin npc&r (Expert Mode)"
+			]
+			id: "74255C6153975B59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51D9CDAD8973D06B"
+				table_id: 7449522933339281626L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F72AB9EE11EA9FA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:accessory"
+					}
+				}
+				title: "Any #curios:accessory"
+				type: "item"
+			}]
+			title: "Obtain an accessory"
+			x: 6.5d
+			y: 0.5d
 		}
 	]
 	title: "PVE"

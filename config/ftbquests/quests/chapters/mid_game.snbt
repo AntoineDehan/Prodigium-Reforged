@@ -1442,7 +1442,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/gamestage add stage_4"
+					command: "/gamestage add @p stage_4"
 					elevate_perms: true
 					id: "49B57A0774575AD1"
 					silent: true

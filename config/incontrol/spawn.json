@@ -18,8 +18,8 @@
   {
     "mob": ["conjurer_illager:conjurer"],
     "result": "allow",
-    "healthmultiply": 2.2,
-    "damagemultiply": 1.8,
+    "healthmultiply": 2.1,
+    "damagemultiply": 1.7,
     "when": "onjoin"
   },
   {
@@ -47,14 +47,14 @@
     "mob": ["stalwart_dungeons:awful_ghast"],
     "result": "allow",
     "healthmultiply": 1.9,
-    "damagemultiply": 3.8,
+    "damagemultiply": 2.0,
     "potion": ["alexsmobs:poison_resistance,4550,0"],
     "when": "onjoin"
   },
   {
     "mob": ["minecraft:elder_guardian"],
     "result": "allow",
-    "healthmultiply": 2.9,
+    "healthmultiply": 2.0,
     "damagemultiply": 2.0,
     "speedmultiply": 1.1,
     "when": "onjoin"
@@ -84,6 +84,7 @@
     "mob": ["aether:sun_spirit"],
     "result": "allow",
     "damagemultiply": 1.1,
+    "healthmultiply": 0.3,
     "when": "onjoin"
   },
   {
