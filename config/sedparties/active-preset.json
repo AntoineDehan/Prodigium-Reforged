@@ -1,15 +1,15 @@
 [
   {
     "preset": "0:EABAAAA/-3|3:AoBABAU=|4:Hu+f/AC4AgI=|5:QIgISg==|6:cAQCAQ==|7:BggXAI275/8AAAA=|8:BghEAEW75/4FYBQ=|9:BhhEgEd+zMwBkBQ=|10:Y1PL//9TU////gXAUhR4sBwdAwM=|13:YIAgFgFHAf8XAAAA|14:OCBcA0DIAVhAAAADC/LAOeWVIogAAGUSAA==|15:KCD2AiAuAVHAAAAEi//Og7yFMpteAH5MAA==|20:aMC4CMMgArCAAAA2nMr/bLD/EmubDElq|21:DBCVASAtAF4AAAE=|1:AQBgBgjgJA==|",
-    "xPos": 75,
-    "yPos": 11,
+    "xPos": 73,
+    "yPos": 13,
     "scale": 1.0,
     "anchor": "TOP_LEFT"
   },
   {
     "preset": "0:EABAAAA/-3|3:AoBABAU=|4:Hu+f/AC4AgI=|5:QIgISg==|6:cAQCAQ==|7:BggXAI275/8AAAA=|8:BghEAEW75/4FYBQ=|9:BhhEgEd+zMwBkBQ=|10:Y1PL//9TU////gXAUhR4sBwdAwM=|13:YIAgFgFHAf8XAAAA|14:OCBcA0DIAVhAAAADC/LAOeWVIogAAGUSAA==|15:KCD2AiAuAVHAAAAEi//Og7yFMpteAH5MAA==|20:aMC4CMMgArCAAAA2nMr/bLD/EmubDElq|21:DBCVASAtAF4AAAE=|1:AQBgBgjgJA==|",
-    "xPos": 14,
-    "yPos": 108,
+    "xPos": 18,
+    "yPos": 107,
     "scale": 0.5,
     "anchor": "TOP_LEFT"
   }

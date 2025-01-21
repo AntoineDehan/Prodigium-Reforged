@@ -28,7 +28,7 @@
 	[embeddiumplus.quality]
 		#Toggle fog feature
 		#Fog was a vanilla feature
-		fog = true
+		fog = false
 		#Clean my skies
 		#Blue band was a vanilla feature, toggle off will show sky color directly
 		blueBand = true
@@ -127,11 +127,11 @@
 				#Configure horizontal max distance before cull entities
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
-				cullingMaxDistanceX = 2304
+				cullingMaxDistanceX = 20736
 				#Configure vertical max distance before cull entities
 				#Value is raw
 				#Range: 0 ~ 512
-				cullingMaxDistanceY = 28
+				cullingMaxDistanceY = 64
 				#List of all Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:bat" - Ignores bats only
@@ -145,11 +145,11 @@
 					#Configure horizontal max distance before cull monster entities
 					#Value is squared, default was 64^2 (or 64x64)
 					#Range: > 0
-					cullingMaxDistanceX = 16384
+					cullingMaxDistanceX = 12544
 					#Configure vertical max distance before cull monster entities
 					#Value is raw
 					#Range: 0 ~ 512
-					cullingMaxDistanceY = 64
+					cullingMaxDistanceY = 52
 					#List of all monster entities to be ignored by distance culling
 					#Uses ResourceLocation to identify it
 					#Example 1: "minecraft:bat" - Ignores bats only

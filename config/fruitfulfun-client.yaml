@@ -5,3 +5,4 @@ moddedCherryParticleFrequency: 32
 food:
   specialEffectTooltip: true
   statusEffectTooltip: true
+beehiveTooltipDisplayBees: true
