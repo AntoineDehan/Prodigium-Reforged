@@ -36,92 +36,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["178CBBAB037A6FE8"]
-			description: ["Drop the &9Mysterious Worm&r in the void while in the end to summon the &4Void Worm&r"]
-			id: "1F0F1E44E140025C"
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "23631A059B79D99C"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5C0B9B82F1FBEF61"
-					table_id: 518173385962404322L
-					type: "loot"
-				}
-				{
-					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "2934B8A5346AFAA9"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:crusader 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "520EE244D800BA9D"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "52D7898E9616183C"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:wizard 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "05EF9A1507EC4A40"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:cleric 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "06818C947276DCE0"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-			]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				entity: "alexsmobs:void_worm"
-				icon: "alexsmobs:void_worm_eye"
-				id: "117BFAC8B3DE0C43"
-				title: "Defeat the &4Void Worm&r"
-				type: "kill"
-				value: 1L
-			}]
-			x: 17.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["4CAE385F554764AE"]
 			description: ["The final boss of the &2Ruined Citadel&r (lower levels of the structure)"]
 			hide_until_deps_visible: false
@@ -307,62 +221,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2F2E994C5099612A"]
-			id: "2B6A4A6E2B86BA68"
-			rewards: [{
-				id: "2B7C3D23A8B361C0"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "35216BF3BFA57B95"
-				item: "alexsmobs:mosquito_larva"
-				type: "item"
-			}]
-			title: "Obtain a Crimson Mosquito Larva"
-			x: 14.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F2E994C5099612A"]
-			description: ["Dropped in The End"]
-			id: "1BABBA58C159FA7F"
-			rewards: [{
-				auto: "no_toast"
-				id: "42F53549EB27605E"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "69E1291E132F5790"
-				item: "alexsmobs:capsid"
-				type: "item"
-			}]
-			title: "Get a Capsid"
-			x: 13.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"2B6A4A6E2B86BA68"
-				"1BABBA58C159FA7F"
-			]
-			description: ["To create the &9Mysterious worm&r you need to place the Capsid block, then right click on it with the &9Crimson Mosquito Larva&r to put it inside. Wait a bit then you can destroy the block to obtain the &9Mysterious Worm&r"]
-			id: "178CBBAB037A6FE8"
-			rewards: [{
-				id: "0BBC2C56BB4987B1"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				id: "6EA60769A7038ABE"
-				item: "alexsmobs:mysterious_worm"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["6EB21A5EFC2F6EF2"]
 			id: "6F8318146F7B7166"
 			rewards: [
@@ -402,11 +260,11 @@
 				type: "item"
 			}]
 			title: "Defeat the Undead Battle Army in Master mode!"
-			x: 19.0d
-			y: 0.5d
+			x: 17.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1F0F1E44E140025C"]
+			dependencies: ["2F2E994C5099612A"]
 			description: ["Craft a &9Necklace of the desert&r then find the ancient fossil in the &2Cursed Pyramid&r"]
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "69211BF1D6204C54"
@@ -490,8 +348,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 20.0d
-			y: 2.0d
+			x: 17.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6EB21A5EFC2F6EF2"]

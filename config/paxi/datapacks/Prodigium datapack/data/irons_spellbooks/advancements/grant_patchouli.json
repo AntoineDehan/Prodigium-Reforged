@@ -1,11 +1,7 @@
 {
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "disable": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "rewards": {
-    "loot": [
-    ]
   }
 }

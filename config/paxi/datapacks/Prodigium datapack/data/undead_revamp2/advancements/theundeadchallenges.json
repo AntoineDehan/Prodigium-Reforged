@@ -1,1 +1,7 @@
-{}
+{
+  "criteria": {
+    "disable": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

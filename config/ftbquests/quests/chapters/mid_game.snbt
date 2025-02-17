@@ -1750,7 +1750,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["20AFC310D0AC8AB0"]
+			dependencies: ["777E4D10DDDACAD7"]
 			description: ["Found in the &2Blossom Arena&r."]
 			icon: "minecraft:spore_blossom"
 			id: "6AC131C918D30C93"
@@ -1845,102 +1845,6 @@
 				}
 			]
 			x: 16.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["777E4D10DDDACAD7"]
-			description: [
-				"You can find it in the &2Lich Tower&r."
-				""
-				"You will need to put &9Soul Stars&r into the &9Chiseled Altars&r. "
-			]
-			icon: "bosses_of_mass_destruction:mob_ward"
-			id: "20AFC310D0AC8AB0"
-			min_required_tasks: 1
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "540A7795CCA91D18"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-				{
-					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berserker 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "4003B1832636D437"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:crusader 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "09F4657DDAE89CB9"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranger 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "2CABF84E4DF9A50F"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:wizard 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "7CDB51A17EB18831"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:cleric 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "0153404CA0A6B0A9"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-			]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [
-				{
-					entity: "bosses_of_mass_destruction:lich"
-					icon: "bosses_of_mass_destruction:mob_ward"
-					id: "43E2430FC6169174"
-					title: "Kill the &5Night Lich&r"
-					type: "kill"
-					value: 1L
-				}
-				{
-					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
-					criterion: ""
-					disable_toast: true
-					id: "032E7F1C90512375"
-					secret: true
-					type: "advancement"
-				}
-			]
-			x: 13.0d
 			y: -5.0d
 		}
 		{
