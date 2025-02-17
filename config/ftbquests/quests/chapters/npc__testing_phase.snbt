@@ -91,6 +91,7 @@
 				id: "05B0046ED073F491"
 				type: "checkmark"
 			}]
+			title: "Read me!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -604,6 +605,116 @@
 			}]
 			x: -3.5d
 			y: 9.5d
+		}
+		{
+			dependencies: ["05CD079B659C9887"]
+			description: [
+				"By using this button it will reset ALL the npcs quests for the normal mode."
+				""
+				"This works but is still a placeholder method of having respawnable npcs!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "12925553745B74D6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 05CD079B659C9887"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED610F"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 2EF592CDDA98B3BB"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED611F"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 65192517B6EF65B3"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED612F"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 418F4DA11631D188"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED613F"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 473A1C167CB0BBA2"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED614F"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 3EDAF52890A4A330"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED615F"
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 12925553745B74D6"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED616F"
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "132D086583745CB4"
+				title: "Respawn Normal Mode NPCs"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["11C8F012CBB15B39"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "583004977E949E94"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 11C8F012CBB15B39"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED617F"
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 115FFAB3CB126794B"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED618F"
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 73436E1218DD099D"
+					exclude_from_claim_all: true
+					id: "248CE8D009ED619F"
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4FA66AC762616F2B"
+				title: "Reset Expert Mode NPCs"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 6.0d
 		}
 	]
 	title: "NPC"
