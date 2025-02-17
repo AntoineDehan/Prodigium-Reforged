@@ -102,6 +102,15 @@
     "when": "onjoin"
   },
   {
+    "mob": ["alexsmobs:skelewag"],
+    "gamestage": "stage_expert",
+    "result": "default"
+  },
+  {
+    "mob": ["alexsmobs:skelewag"],
+    "result": "deny"
+  },
+  {
     "mob": ["enemyexpansion:goblin"],
     "gamestage": "stage_g",
     "result": "default"

@@ -45,6 +45,10 @@ ItemEvents.modification((event) => {
     item.attackSpeed = -2.95;
   });
 
+  event.modify("alexsmobs:skelewag_sword", (item) => {
+    item.attackSpeed = -1;
+  });
+
   // Crusader Weapons
 
   // Great Sword
