@@ -1,8 +1,6 @@
 {
   "schemaVersion": 2,
-  "items": [
-    "$minecraft:accepts_adrenaline"
-  ],
+  "items": [""],
   "incompatible": [
     "minecraft:efficiency",
     "majruszsenchantments:incompatibility_curse"

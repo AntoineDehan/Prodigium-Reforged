@@ -1,9 +1,5 @@
 {
   "schemaVersion": 2,
-  "items": [
-    "$minecraft:breakable"
-  ],
-  "incompatible": [
-    "majruszsenchantments:incompatibility_curse"
-  ]
+  "items": ["$minecraft:universal_enchants_horse_armor"],
+  "incompatible": ["majruszsenchantments:incompatibility_curse"]
 }

@@ -1,11 +1,10 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:breakable",
     "apotheosis:bow_tome",
-    "apotheosis:other_tome"
+    "apotheosis:other_tome",
+    "$minecraft:bow",
+    "$minecraft:crossbow"
   ],
-  "incompatible": [
-    "majruszsenchantments:incompatibility_curse"
-  ]
+  "incompatible": ["majruszsenchantments:incompatibility_curse"]
 }

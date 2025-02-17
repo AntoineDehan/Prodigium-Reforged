@@ -1,10 +1,6 @@
 {
   "schemaVersion": 2,
-  "items": [
-    "$minecraft:breakable",
-    "apotheosis:other_tome",
-    "apotheosis:weapon_tome"
-  ],
+  "items": ["$minecraft:weapon"],
   "incompatible": [
     "minecraft:bane_of_arthropods",
     "minecraft:sharpness",

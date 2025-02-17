@@ -1,10 +1,22 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:breakable",
-    "apotheosis:other_tome"
+    "minecraft:golden_shovel",
+    "minecraft:golden_sword",
+    "minecraft:golden_pickaxe",
+    "minecraft:golden_axe",
+    "minecraft:golden_hoe",
+    "minecraft:golden_helmet",
+    "minecraft:golden_chestplate",
+    "minecraft:golden_leggings",
+    "minecraft:golden_boots",
+    "aquaculture:gold_fishing_rod",
+    "farmersdelight:golden_knife",
+    "gunsiwthoutroses:gold_gun",
+    "terrawhips_and_more:goldwhip",
+    "paladins:golden_claymore",
+    "paladins:golden_mace",
+    "archers:golden_spear"
   ],
-  "incompatible": [
-    "majruszsenchantments:incompatibility_curse"
-  ]
+  "incompatible": ["majruszsenchantments:incompatibility_curse"]
 }
