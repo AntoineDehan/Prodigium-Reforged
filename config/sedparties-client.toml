@@ -21,6 +21,8 @@
 	#OFF - Disables the Player Frame.
 	#Allowed Values: ON, PARTY, OFF
 	playerRender = "PARTY"
+	#Renders armor toughness as text in paranthesis next to the armor value if it's not zero.
+	toughnessRender = false
 
 [mod-options]
 	#This allows you to set the type of automatic syncing you'd like for GameStages support

@@ -5,7 +5,7 @@
 	"Should Aquaculture fish be able to be used to breed cats & ocelots?" = true
 	"Enable debug mode? (Enables additional logging)" = false
 	"Show Fillet recipes in JEI?" = true
-	#Range: -63 ~ 0
+	#Range: 0 ~ 63
 	"How many blocks below sea level Aquaculture fish can spawn" = 0
 
 	["basic options"."Amount of Message In A Bottle messages"]

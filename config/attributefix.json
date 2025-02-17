@@ -352,22 +352,22 @@
         "value": 100
       }
     },
-    "reach-entity-attributes:reach": {
+    "puffish_attributes:player.stamina": {
       "enabled": false,
       "min": {
-        "default": -1024,
-        "value": -1024
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
         "value": 1024
       }
     },
-    "puffish_attributes:player.stamina": {
+    "reach-entity-attributes:reach": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": -1024,
+        "value": -1024
       },
       "max": {
         "default": 1024,
@@ -660,6 +660,17 @@
         "value": 2
       }
     },
+    "gunswithoutroses:gwr.sniper_crit_mult": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "irons_spellbooks:max_mana": {
       "enabled": false,
       "min": {
@@ -790,6 +801,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "gunswithoutroses:gwr.shotgun_projectiles": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "minecolonies:mc_mob_damage": {
@@ -1089,17 +1111,6 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
-    "reach-entity-attributes:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "irons_spellbooks:fire_magic_resist": {
       "enabled": false,
       "min": {
@@ -1120,6 +1131,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:ender_spell_power": {

@@ -4,47 +4,43 @@
     "enableAutomaticRespawn": true
   },
   "minutesUntilRespawn": {
-    "desc:": "Sets the time after which a structure can respawn, the timer starts after the last activity within the structure. default:2.880 minutes(48h)",
+    "desc:": "Sets the time after which a structure can respawn, the timer starts after the last activity within the structure. default:5760 minutes(96h)",
     "minutesUntilRespawn": 60
   },
   "increaseDifficultyWithRespawn": {
-    "desc:": "Enables increased difficulty with in respawned dungeons(mobs can get enchanted items/potions effects), default: true",
+    "desc:": "Enables increased difficulty for mobs in respawned dungeons(mobs can get enchanted items/potions effects), default: true",
     "increaseDifficultyWithRespawn": true
   },
+  "blockCountMod": {
+    "desc:": "Modifies the placed/broken block count, which can prevent respawn. Setting it to zero means respawn will ignore placed/broken blocks. Setting it higher than 1.0 makes it more likely that players breaking/placing things in the structure will prevent its respawn.By default it blocks respawn after 200+(scales slightly with structure size) blocks placed/broken. default: 1.0",
+    "blockCountMod": 1.5
+  },
+  "playerRespawnDist": {
+    "desc:": "Sets the minimum distance from player respawn position(bed e.g.) to allow structure respawning, 0 to disable this. default: 200 blocks",
+    "playerRespawnDist": 200
+  },
+  "playerNearbyTime": {
+    "desc:": "Prevents respawns in too busy player areas, tracks how much percent of the respawntime a player was nearby loading the chunk. Resets respawn time counter when it prevent a structure respawn. default: 15 percent, range 0-100",
+    "playerNearbyTime": 15
+  },
   "dimensionBlackList": {
-    "desc:": "List of blacklisted dimension ids, e.g. minecraft:overworld   Seperate multiple entries by , ",
+    "desc:": "List of blacklisted dimension ids, e.g. minecraft:overworld  Seperate multiple entries by , ",
     "dimensionBlackList": []
   },
-  "respawnableStructureIDs": {
-    "desc:": "List of structure IDs that should respawn (others may still be detected and respawn, but this is the surefire way): e.g. minecraft:mansion",
-    "respawnableStructureIDs": [
-      "prodigium_dungeons:the_theatre",
-      "mowziesmobs:umvuthana_grove",
-      "irons_spellbooks:catacombs",
-      "prodigium_dungeons:frostmaw_cavern",
-      "prodigium_dungeons:keeping_castle",
-      "prodigium_dungeons:blossom_arena",
-      "bosses_of_mass_destruction:gauntlet_arena",
-      "bosses_of_mass_destruction:lich_tower",
-      "bosses_of_mass_destruction:obsidilith_arena",
-      "cataclysm:cursed_pyramid",
-      "cataclysm:soul_black_smith",
-      "cataclysm:ruined_citadel",
-      "cataclysm:sunken_city",
-      "cataclysm:ancient_factory",
-      "cataclysm:burning_arena",
-      "minecraft:ocean_monument",
-      "aether:bronze_dungeon",
-      "aether:silver_dungeon",
-      "aether:gold_dungeon"
-    ]
+  "respawnableStructures": {
+    "desc:": "List of structure IDs that should respawn always respawn, no matter if a player build sth inside, has a portal there etc.: e.g. minecraft:mansion",
+    "respawnableStructures": []
   },
   "blacklistedStructures": {
     "desc:": "List of blacklisted structures, those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by , ",
     "blacklistedStructures": []
   },
-  "dungeonChestLoottables": {
-    "desc:": "List of loot tables of chests considered to be dungeon loot, partially used for detecting dungeons. Adding additional modded ones improves detection",
-    "dungeonChestLoottables": []
+  "whitelist": {
+    "desc:": "Changes the structure blacklist to a whitelist, default: false",
+    "whitelist": false
+  },
+  "logRespawns": {
+    "desc:": "Log structure respawns happening to the latest.log, default: true",
+    "logRespawns": true
   }
 }

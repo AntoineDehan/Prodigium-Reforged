@@ -19,6 +19,7 @@ hornHarvestingInstrument: minecraft:sing_goat_horn
 wanderingTraderSaplingPrice: 12
 beehiveTrade: true
 beeNaturalHealingInterval: 900
+beeRidingHeightLimit: true
 mutagenRecipe: true
 redloveFruitUse: true
 dragonBreath:
@@ -33,3 +34,14 @@ mutationRate:
   FC: 0.14
 imperfectMutagenChance: 0.15
 mutagenMutationRate: 0.8
+haunting:
+  crossDimensional: true
+  interactionParticles: true
+  initiativeSkill: true
+  ghostBeeTimeLimitTicks: 120
+  interaction: true
+  initiativeSkillCooldownTicks: 90
+  enabled: true
+  cooldownSeconds: 10
+integration:
+  hauntedHarvestRottenAppleChance: 0.03

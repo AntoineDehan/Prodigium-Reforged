@@ -1,17 +1,18 @@
 
 ["Legendary Nether Beasts"]
-	#Mushlin Spewer Spawn rate (0 is disabled, 1 is normal, 2 is doubled, and 3 is tripled)
+	#(0 is disabled, 1 is normal, 2 is doubled, and 3 is tripled)
 	"Mushlin Spewer Spawn" = 1.0
-	#Piglin Executioner Spawn rate (0 is disabled, 1 is normal, 2 is doubled, and 3 is tripled)
 	"Piglin Executioner Spawn" = 1.0
-	#Determines the range of the Totem of Beasts (100 is default)
 	"Totem of Beasts range" = 100.0
+	"The Furnace Spawn" = 1.0
 
 ["Legendary Items"]
-	#Sets the amount of health using the Spore Bundle will replenish your health to (default is 6)
-	"Spore Bundle Healing " = 6.0
-	#Sets the amount of seconds the player is effected with 'antidote' after using the Spore Bundle (Default is 20)
-	"Spore Bundle Antidote" = 20.0
-	#Sets the amount of seconds the player receives strength for after killing a mob (default is 2)
-	"Executioner Cowl Strength" = 2.0
+	"Sets the amount of health using the Spore Bundle will replenish your health to (default is 6)" = 6.0
+	"Sets the amount of seconds the player is effected with 'antidote' after using the Spore Bundle (Default is 20)" = 20.0
+	"Sets the amount of seconds the player receives strength for after killing a mob (default is 2)" = 2.0
+
+[Other]
+	"Changes the amount of durability healed per item (default 100)" = 100.0
+	"Sets the amount of seconds (in ticks) crimson contaminant infects for" = 300.0
+	"Sets the amount of seconds between damage ticks of the Molten Coal" = 3.0
 

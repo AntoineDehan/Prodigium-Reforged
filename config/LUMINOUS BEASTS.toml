@@ -1,6 +1,6 @@
 
-[Beasts]
-	#(0 is disabled, 1 is normal, 2 is doubled, 3 is tripled)
+["Beasts Configuration"]
+	#(0 is disabled, 1 is normal_
 	"Tree Ent Spawn rate" = 1.0
 	"Hermit King Spawn rate" = 1.0
 	"Mummy Spawn rate" = 1.0
@@ -11,8 +11,10 @@
 	"Bone Stalker Spawnrate" = 1.0
 	"Piglin Executioner Spawnrate" = 1.0
 	"Mushlin Spitter Spawn" = 1.0
+	"Furnace Spawn Rate" = 1.0
+	"Headsman Spawn Rate" = 1.0
 
-[BeastItems]
+["Beast Items Configuration"]
 	#Determines The level of slowness applied to mobs while using the enchanted root
 	"Enchanted Root Slowness Level" = 4.0
 	#Determines the amount of time an enemy will be slowed by the root's attacks (in seconds)
@@ -35,9 +37,13 @@
 	"Spore Bundle Healing " = 6.0
 	#Sets the seconds the player has 'antidote' after using the Spore Bundle (Default is 20)
 	"Spore Bundle Antidote" = 20.0
+	#Determines how quickly the Molten coal takes damage
+	"Molten Coal Damage Timer" = 3.0
+	#determines the level of strength applied to you when wearing the pumpkin helmet
+	"Pumpkin Helmet Strength Level" = 1.0
 
-["Rare Beasts"]
-	#(0 is disabled, 1 is enabled)
+["Rare Beasts Configuration"]
+	#(0 is disabled, 1 is normal)
 	"Rare Tree Ent Spawn" = 1.0
 	"Rare Hermit King Spawn" = 1.0
 	"Rare Mummy Spawn" = 1.0
@@ -48,4 +54,13 @@
 	"Rare Bone Stalker Spawn" = 1.0
 	"Rare Executioner Spawn" = 1.0
 	"Rare Spitter Spawn" = 1.0
+	"Rare Furnace Spawn" = 1.0
+	"Scarecrow Spawn rate" = 1.0
+
+["Beast Pit Configuration"]
+	"Allowed Beast Pit Number" = 2.0
+	"Determines how long the Beast Pit stays lit" = 300.0
+
+["Enable Modded Biomes"]
+	"Determines if Legendary Beasts can spawn in modded biomes" = false
 
