@@ -76,7 +76,7 @@
 			dependencies: ["50E838001D06D62B"]
 			dependency_requirement: "one_completed"
 			description: ["You need to unlock the armor in the &6Skill Tree&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "01C7F36A07D993DB"
 			min_required_tasks: 1
 			rewards: [
@@ -127,7 +127,7 @@
 		{
 			dependencies: ["01C7F36A07D993DB"]
 			description: ["You need to unlock the armor in the &6Skill Tree&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "39E4AEC53761A7A1"
 			rewards: [
 				{
@@ -163,7 +163,7 @@
 		}
 		{
 			dependencies: ["50E838001D06D62B"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6941F5D15A68E8F3"
 			rewards: [{
 				auto: "no_toast"
@@ -188,7 +188,7 @@
 		}
 		{
 			dependencies: ["50E838001D06D62B"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0195CA9DA04CF441"
 			rewards: [{
 				auto: "no_toast"
@@ -215,7 +215,7 @@
 			dependencies: ["50E838001D06D62B"]
 			dependency_requirement: "all_started"
 			description: ["Sold by the Goblin Tinkerer."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0AE464C7E2B6B92D"
 			rewards: [
 				{
@@ -247,7 +247,7 @@
 		}
 		{
 			dependencies: ["0AE464C7E2B6B92D"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "172CE6EB436255BA"
 			rewards: [{
 				auto: "no_toast"

@@ -151,7 +151,7 @@
 		}
 		{
 			dependencies: ["2D2E7F73862AF301"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0F8B2C405921526F"
 			min_required_tasks: 1
 			rewards: [
@@ -308,7 +308,7 @@
 		}
 		{
 			dependencies: ["4C3468FE8D873B68"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7E667B478AC9D11C"
 			rewards: [{
 				auto: "no_toast"
@@ -369,7 +369,7 @@
 		{
 			dependencies: ["1A9AB70D43851B41"]
 			description: ["The other armors are the school armors."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2D2E7F73862AF301"
 			rewards: [
 				{

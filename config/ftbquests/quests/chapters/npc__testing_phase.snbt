@@ -231,7 +231,7 @@
 				"- block of iron"
 				"- spruce four panel trapdoor"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "confluence:goblin_tech"
 			id: "73436E1218DD099D"
 			rewards: [
@@ -338,7 +338,7 @@
 				"- oak barn trapdoor"
 				"- white bed"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "doggytalents:dog_plushie_toy_item"
 			id: "15FFAB3CB126794B"
 			rewards: [
@@ -390,7 +390,7 @@
 				"- brewing cauldron (fantasy's furniture)"
 				"- inscription table"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "wizards:arcane_robe_head"

@@ -112,6 +112,7 @@ craftingTable.removeByName("gunswithoutroses:diamond_gatling");
 craftingTable.removeByName("simplyskills:skill_chronicle");
 craftingTable.removeByName("simplyskills:malevolent_manuscript");
 craftingTable.removeByName("cataclysm:meat_shredder");
+craftingTable.removeByName("doggytalents:sussy_sickle");
 
 
 

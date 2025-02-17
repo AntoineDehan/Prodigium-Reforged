@@ -225,7 +225,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6F46DA0CE7915EA5"
 			rewards: [{
 				auto: "no_toast"
@@ -246,7 +246,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "40C9AFC1329502B4"
 			rewards: [{
 				auto: "no_toast"
@@ -267,7 +267,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3E5345FF29F8F505"
 			rewards: [{
 				auto: "no_toast"
@@ -289,7 +289,7 @@
 		}
 		{
 			dependencies: ["294BCF112F074116"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "68B0C1B1996D608C"
 			rewards: [{
 				auto: "no_toast"
@@ -457,7 +457,7 @@
 		}
 		{
 			dependencies: ["294BCF112F074116"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "621E46F3A4C10A15"
 			rewards: [{
 				id: "5F93208E879FD2DF"
@@ -476,7 +476,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1C1B9CF465CC8188"
 			rewards: [{
 				auto: "no_toast"
@@ -496,7 +496,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4381DD6F74983CD1"
 			rewards: [{
 				auto: "no_toast"
@@ -516,7 +516,7 @@
 		}
 		{
 			dependencies: ["294BCF112F074116"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "681C905B9C33D28B"
 			rewards: [{
 				id: "6636E756508C17EB"
@@ -660,7 +660,7 @@
 		{
 			dependencies: ["261166A86CFF91F6"]
 			description: ["Use it in a smithing table with a glider. You will then be able to use the glider during rain/thunderstorms."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "539D9A86161D23FF"
 			rewards: [
 				{
@@ -686,7 +686,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4214ACE6E3469233"
 			rewards: [{
 				auto: "no_toast"
@@ -706,7 +706,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3D7D11D85D2C13A5"
 			rewards: [
 				{
@@ -734,7 +734,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4174FCEC1DD1D86E"
 			rewards: [{
 				auto: "no_toast"
@@ -754,7 +754,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "54998B4FD08FD7EA"
 			rewards: [{
 				auto: "no_toast"
@@ -793,7 +793,7 @@
 		}
 		{
 			dependencies: ["294BCF112F074116"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "400B087189CA14AE"
 			rewards: [
 				{
@@ -826,7 +826,7 @@
 		}
 		{
 			dependencies: ["400B087189CA14AE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6F86A910DA0F6330"
 			rewards: [
 				{
@@ -860,7 +860,7 @@
 		{
 			dependencies: ["406879C4C9D7B0FD"]
 			description: ["This item can be used as a reforge material for tools/armors modifier !"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "62D948E2D36892DE"
 			rewards: [{
 				auto: "no_toast"
@@ -879,7 +879,7 @@
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4B4E29EFC92EC3E3"
 			rewards: [{
 				auto: "no_toast"
@@ -899,7 +899,7 @@
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "272015D864A06FCE"
 			rewards: [{
 				auto: "no_toast"

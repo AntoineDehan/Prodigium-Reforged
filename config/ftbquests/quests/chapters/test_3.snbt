@@ -610,7 +610,7 @@
 				"This is the first time you have &7unlocked new ores&r. It will now &6generate in the world&r meaning that you might find the new ores in &6places&r where &6you've already been to&r."
 				"Don't hesitate to take a look into your old mines!"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0E23B5BD98AD2A6F"
 			min_required_tasks: 1
 			rewards: [{
@@ -641,7 +641,7 @@
 				"Congratulation! You can now mine and use &3diamonds&r and &5orichalcum&r to craft armors/tools and a ton of other stuff"
 				"(orichalcum is found in the nether)"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "67833F35B83C9FE8"
 			min_required_tasks: 1
 			rewards: [{
@@ -668,7 +668,7 @@
 		}
 		{
 			dependencies: ["44CABC14818B1DFB"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4D723F25ABA40671"
 			rewards: [{
 				auto: "no_toast"
@@ -896,7 +896,7 @@
 		{
 			dependencies: ["509DBFC46966C6EF"]
 			description: ["A lot of different upgrades are available for your backpacks!"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "03F464A4772CDB9F"
 			rewards: [
 				{
@@ -1025,7 +1025,7 @@
 		{
 			dependencies: ["4D723F25ABA40671"]
 			description: ["You can use it to remove the enchant of a weapon to then put it in a book."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2851394B90D1E773"
 			rewards: [
 				{
@@ -1056,8 +1056,8 @@
 				"You can upgrade the size of your backpack."
 				"When you want to upgrade your backpack, it must be empty before using it in a crafting table."
 			]
-			hide: true
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			id: "313D6112DC7FE209"
 			rewards: [
 				{
@@ -1085,7 +1085,7 @@
 		}
 		{
 			dependencies: ["313D6112DC7FE209"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "21462A616D86CFD6"
 			rewards: [
 				{
@@ -1112,7 +1112,7 @@
 		}
 		{
 			dependencies: ["21462A616D86CFD6"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1916F155816608D5"
 			rewards: [
 				{

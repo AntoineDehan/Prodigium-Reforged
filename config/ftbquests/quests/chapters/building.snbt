@@ -53,7 +53,7 @@
 		}
 		{
 			dependencies: ["2559E2941C011938"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7CAA27F14BD611CA"
 			rewards: [{
 				auto: "no_toast"
@@ -613,7 +613,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["There is a ton of different upgrades for your storage"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3279EADE357BB8E4"
 			rewards: [
 				{
@@ -639,7 +639,7 @@
 			y: -2.0d
 		}
 		{
-			hide: true
+			hide_until_deps_visible: true
 			id: "12663C238389EEAA"
 			rewards: [{
 				auto: "no_toast"

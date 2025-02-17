@@ -857,7 +857,7 @@
 		}
 		{
 			dependencies: ["78E025D30CD1E607"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "27D8F0F385A37554"
 			optional: true
 			rewards: [
@@ -948,7 +948,7 @@
 		}
 		{
 			dependencies: ["14CA102BAD4F6A38"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "28B617BF86C93248"
 			rewards: [{
 				auto: "no_toast"
@@ -968,7 +968,7 @@
 		{
 			dependencies: ["0EA710182249A301"]
 			description: ["Find it in the nether"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "099477E4F8EED634"
 			rewards: [{
 				auto: "no_toast"
@@ -2140,8 +2140,8 @@
 				""
 				"A majority of them are &eobtained in bosses Treasure Bags&r, you can as well &ecraft some of them&r!"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4AC9C0AE0E293CF0"
 			min_required_tasks: 12
 			rewards: [{

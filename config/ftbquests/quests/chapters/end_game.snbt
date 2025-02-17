@@ -124,7 +124,7 @@
 		{
 			dependencies: ["4CAE385F554764AE"]
 			description: ["The final boss of the &2Ruined Citadel&r (lower levels of the structure)"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "499AD4E69B48B516"
 			rewards: [
 				{

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["A"],
+  "key": {
+    "A": {
+      "item": "farmersdelight:rice"
+    }
+  },
+  "result": {
+    "item": "doggytalents:rice_wheat",
+    "count": 1
+  }
+}

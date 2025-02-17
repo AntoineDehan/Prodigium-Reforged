@@ -83,6 +83,26 @@ ItemEvents.modification((event) => {
     item.armorToughness = 0;
   });
 
+  event.modify("aether:obsidian_helmet", (item) => {
+    item.armorProtection = 4;
+    item.armorToughness = 0;
+  });
+
+  event.modify("aether:obsidian_chestplate", (item) => {
+    item.armorProtection = 8;
+    item.armorToughness = 0;
+  });
+
+  event.modify("aether:obsidian_leggings", (item) => {
+    item.armorProtection = 6;
+    item.armorToughness = 0;
+  });
+
+  event.modify("aether:obsidian_boots", (item) => {
+    item.armorProtection = 4;
+    item.armorToughness = 0;
+  });
+
   // Chorundum
   event.modify("stalwart_dungeons:chorundum_armor_helmet", (item) => {
     item.armorProtection = 4;

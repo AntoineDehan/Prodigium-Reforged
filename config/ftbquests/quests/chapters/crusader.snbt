@@ -74,7 +74,7 @@
 		}
 		{
 			dependencies: ["4295FD014E3D5800"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3A908ED8568C4279"
 			rewards: [
 				{
@@ -123,7 +123,7 @@
 		}
 		{
 			dependencies: ["3A908ED8568C4279"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "17E89E220CD2DACA"
 			rewards: [
 				{
@@ -158,7 +158,7 @@
 		}
 		{
 			dependencies: ["4295FD014E3D5800"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "470ECEF309E513B7"
 			rewards: [{
 				auto: "no_toast"
@@ -183,7 +183,7 @@
 		}
 		{
 			dependencies: ["4295FD014E3D5800"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "30D9026F9DEED078"
 			rewards: [{
 				auto: "no_toast"

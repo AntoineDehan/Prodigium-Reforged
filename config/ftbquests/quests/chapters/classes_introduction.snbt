@@ -65,6 +65,16 @@
 					item: "farmersdelight:egg_sandwich"
 					type: "item"
 				}
+				{
+					auto: "no_toast"
+					command: "/loot give @p loot irons_spellbooks:patchouli_book"
+					elevate_perms: true
+					icon: "minecraft:book"
+					id: "2E6141BC5B872808"
+					silent: true
+					title: "Mage guide"
+					type: "command"
+				}
 			]
 			size: 1.5d
 			subtitle: "Read me!"
@@ -196,7 +206,7 @@
 				"To do that, you will need to craft an &3Inscription Table&r and have a &6Spell Book&r. "
 				"Put the &6Spell Book&r and the &7Scroll&r in the &3Inscription table&r, you will then be able to use the spells as much as you have enough mana."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0613243385C3015B"
 			rewards: [
 				{
@@ -251,7 +261,7 @@
 		{
 			dependencies: ["25D1B37A73FB9F53"]
 			description: ["Used for ranged (ranger)"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "412E0ADC86F7DE20"
 			rewards: [
 				{
@@ -287,7 +297,7 @@
 		{
 			dependencies: ["25D1B37A73FB9F53"]
 			description: ["Used for melee (cruader and berserker)"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "525148F80B756AD6"
 			rewards: [
 				{

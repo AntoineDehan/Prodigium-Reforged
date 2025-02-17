@@ -178,9 +178,9 @@
 		}
 		{
 			dependencies: ["4B1ABE1A8E60831E"]
-			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			id: "0E96EE566942D684"
 			rewards: [
 				{
@@ -233,8 +233,8 @@
 		}
 		{
 			dependencies: ["0E96EE566942D684"]
-			hide: true
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			id: "3F7F2374AD6AE9BC"
 			rewards: [
 				{
@@ -288,9 +288,9 @@
 		}
 		{
 			dependencies: ["3F7F2374AD6AE9BC"]
-			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			id: "3ECF0082B62C4AB8"
 			rewards: [
 				{

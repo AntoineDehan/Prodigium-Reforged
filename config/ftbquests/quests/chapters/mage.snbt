@@ -157,7 +157,7 @@
 		}
 		{
 			dependencies: ["32C900436B8BA216"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6AEDFC7887701A98"
 			min_required_tasks: 1
 			rewards: [
@@ -387,7 +387,7 @@
 		}
 		{
 			dependencies: ["297C650C9443F6AC"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "457F3B09A012EC52"
 			rewards: [{
 				auto: "no_toast"
@@ -416,7 +416,7 @@
 		}
 		{
 			dependencies: ["297C650C9443F6AC"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "14858556B512FCA1"
 			rewards: [{
 				auto: "no_toast"
@@ -449,7 +449,7 @@
 				"745FE062B66D6927"
 			]
 			description: ["Use the Scroll Forge to create new scrolls."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1F264C3D08A2BC5E"
 			rewards: [
 				{
@@ -477,7 +477,7 @@
 		}
 		{
 			dependencies: ["3E4F3F3F0402D036"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2244361598A4C203"
 			rewards: [{
 				auto: "no_toast"
@@ -497,7 +497,7 @@
 		{
 			dependencies: ["2C81ED5255847C86"]
 			description: ["The other armors are the school armors."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "32C900436B8BA216"
 			rewards: [
 				{

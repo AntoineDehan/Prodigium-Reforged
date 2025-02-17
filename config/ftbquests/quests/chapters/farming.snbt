@@ -967,8 +967,8 @@
 				""
 				"The grass and foliage mellows out to a yellow-ish green tint. Thunderstorms are also more common in &9summer&r."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "03E76085134E7062"
 			rewards: [
 				{
@@ -1004,8 +1004,8 @@
 				""
 				"Biome temperatures start to fall towards the end of the season leading to &3Winter&r."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7600028B404F631B"
 			rewards: [
 				{
@@ -1041,8 +1041,8 @@
 				""
 				"Precipitation is also more frequent in &3Winter&r, but thunderstorms cannot occur."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "60E09D52896ED882"
 			rewards: [
 				{

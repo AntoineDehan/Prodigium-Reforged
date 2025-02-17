@@ -86,7 +86,7 @@
 		}
 		{
 			dependencies: ["0EEBAEA6C5EE0454"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5FEC8279A8C2E462"
 			rewards: [{
 				auto: "no_toast"
@@ -299,7 +299,7 @@
 		}
 		{
 			dependencies: ["5FEC8279A8C2E462"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5DECF19C4A20F805"
 			rewards: [{
 				auto: "no_toast"
@@ -349,7 +349,7 @@
 		{
 			dependencies: ["0EEBAEA6C5EE0454"]
 			description: ["You need to unlock the armor in the &6Skill Tree&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4A96E3EADCF0C191"
 			rewards: [
 				{
@@ -399,7 +399,7 @@
 		{
 			dependencies: ["4A96E3EADCF0C191"]
 			description: ["You need to unlock the armor in the &6Skill Tree&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5F83D1C077915E7E"
 			rewards: [
 				{
@@ -550,8 +550,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: [
+				"774BCB593AAFAA33"
+				"0EEBAEA6C5EE0454"
+			]
 			description: ["Dropped by the Void Blossom."]
+			hide_until_deps_visible: true
 			id: "42208C5158426B53"
 			rewards: [{
 				exclude_from_claim_all: true
