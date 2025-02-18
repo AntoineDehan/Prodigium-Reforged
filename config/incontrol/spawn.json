@@ -395,6 +395,15 @@
     "result": "deny"
   },
   {
+    "mob": ["born_in_chaos_v1:mother_spider"],
+    "gamestage": "stage_expert",
+    "result": "default"
+  },
+  {
+    "mob": ["born_in_chaos_v1:mother_spider"],
+    "result": "deny"
+  },
+  {
     "mob": ["born_in_chaos_v1:zombie_bruiser"],
     "gamestage": "stage_expert",
     "result": "default"
@@ -683,6 +692,18 @@
   },
   {
     "mob": ["born_in_chaos_v1:glutton_fish"],
+    "result": "deny"
+  },
+  {
+    "mob": ["undead_revamp2:thedungeon"],
+    "result": "deny"
+  },
+  {
+    "mob": ["undead_revamp2:bigsucker"],
+    "result": "deny"
+  },
+  {
+    "mob": ["undead_revamp2:neocrorines"],
     "result": "deny"
   }
 ]
