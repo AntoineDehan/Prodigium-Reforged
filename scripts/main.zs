@@ -46,8 +46,6 @@ craftingTable.removeByName("born_in_chaos_v1:spiny_shell_helm_k");
 craftingTable.removeByName("born_in_chaos_v1:skull_crusher_k");
 craftingTable.removeByName("born_in_chaos_v1:pileof_dark_metal_d");
 craftingTable.removeByName("born_in_chaos_v1:armor_plate_from_dark_metal_k");
-craftingTable.removeByName("born_in_chaos_v1:potionof_rampagek");
-craftingTable.removeByName("born_in_chaos_v1:elixirof_vampirism_k");
 craftingTable.removeByName("born_in_chaos_v1:transmuting_elixirkraft");
 craftingTable.removeByName("paladins:diamond_great_hammer");
 craftingTable.removeByName("paladins:golden_great_hammer");

@@ -15,7 +15,6 @@
 			y: 3.5d
 		}
 		{
-			dependency: "774BCB593AAFAA33"
 			height: 1.0d
 			image: "prodigium_reforged:textures/gui/expert_mode.png"
 			rotation: 0.0d
@@ -391,7 +390,6 @@
 				"- brewing cauldron (fantasy's furniture)"
 				"- inscription table"
 			]
-			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "wizards:arcane_robe_head"
