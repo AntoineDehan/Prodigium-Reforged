@@ -5,11 +5,11 @@
   },
   "general": {
     "passiveMultiplier": 0.002,
-    "hostileMultiplier": 0.026,
+    "hostileMultiplier": 0.036,
     "hostilePotionChance": 0.05,
     "peacefulPotionChance": 0.0025,
-    "damageBoostScale": 0.055,
-    "maxDamageBoost": 17,
+    "damageBoostScale": 0.042,
+    "maxDamageBoost": 15,
     "spawnerModifier": 0.3,
     "xpBoost": 0.02
   },
@@ -43,6 +43,24 @@
       "level": 1,
       "minDifficulty": 260,
       "durationInMinutes": 3.0
+    },
+    {
+      "effect": "aether_redux:adrenaline_rush",
+      "level": 1,
+      "minDifficulty": 250,
+      "durationInMinutes": 10.0
+    },
+    {
+      "effect": "irons_spellbooks:oakskin",
+      "level": 1,
+      "minDifficulty": 250,
+      "durationInMinutes": 10.0
+    },
+    {
+      "effect": "irons_spellbooks:oakskin",
+      "level": 2,
+      "minDifficulty": 380,
+      "durationInMinutes": 10.0
     },
     {
       "effect": "minecraft:resistance",

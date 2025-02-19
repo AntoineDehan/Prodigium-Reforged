@@ -180,10 +180,10 @@
 		[mobs.frostmaw.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 2.4
+			health_multiplier = 2.8
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.8
+			attack_multiplier = 1.65
 
 	[mobs.umvuthi]
 		#Disable/enable Umvuthi's boss health bar
@@ -238,10 +238,10 @@
 		[mobs.umvuthi.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 2.0
+			health_multiplier = 2.5
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.8
+			attack_multiplier = 1.6
 
 	[mobs.ferrous_wroughtnaut]
 		#Disable/enable Ferrous Wroughtnaut's boss health bar
