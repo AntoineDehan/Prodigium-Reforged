@@ -180,7 +180,7 @@
 		[mobs.frostmaw.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 2.8
+			health_multiplier = 2.9
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.65
@@ -238,7 +238,7 @@
 		[mobs.umvuthi.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 2.5
+			health_multiplier = 2.6
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.6

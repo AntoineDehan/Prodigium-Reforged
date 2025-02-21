@@ -69,11 +69,11 @@
 	#The health mod per player count defined above, as a total multiplier. (0.5 = 150%)
 	#A value of 0 disables health modifiers.
 	#Range: 0.0 ~ 2.147483647E9
-	healthMod = 0.5
+	healthMod = 0.35
 	#The damage mod per player count defined above, as a total multiplier. (0.5 = 150%)
 	#A value of 0 disables damage modifiers.
 	#Range: 0.0 ~ 2.147483647E9
-	damageMod = 0.05
+	damageMod = 0.15
 	#If true, scales the loot to the amount of players from the player count above.
 	#Setting this value to false disables this feature.
 	scaleLoot = true
