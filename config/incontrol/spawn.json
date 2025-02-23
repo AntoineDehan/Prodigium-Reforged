@@ -22,6 +22,35 @@
     "when": "onjoin"
   },
   {
+    "mob": ["meetyourfight:bellringer"],
+    "result": "allow",
+    "healthmultiply": 2.2,
+    "damagemultiply": 1.2,
+    "when": "onjoin"
+  },
+  {
+    "mob": ["meetyourfight:swampjaw"],
+    "result": "allow",
+    "healthmultiply": 1.1,
+    "speedmultiply": 0.8,
+    "when": "onjoin"
+  },
+  {
+    "mob": ["meetyourfight:dame_fortuna"],
+    "result": "allow",
+    "healthmultiply": 2.9,
+    "speedmultiply": 1.2,
+    "potion": ["cofh_core:panacea,9999,1"],
+    "when": "onjoin"
+  },
+  {
+    "mob": ["meetyourfight:rosalyne"],
+    "result": "allow",
+    "healthmultiply": 2.1,
+    "damagemultiply": 1.3,
+    "when": "onjoin"
+  },
+  {
     "mob": ["minecraft:rabbit"],
     "result": "allow",
     "damagemultiply": 2.1,

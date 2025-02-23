@@ -467,6 +467,25 @@
 			x: 13.0d
 			y: 1.0d
 		}
+		{
+			id: "20DC0659957F6560"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D29BBD79B38CB36"
+				table_id: 518173385962404322L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "meetyourfight:rosalyne"
+				icon: "meetyourfight:dusk_key"
+				id: "7731EA48F2CD6DD2"
+				title: "Kill &4Rosalyne&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
 	]
 	title: "Master Mode"
 }

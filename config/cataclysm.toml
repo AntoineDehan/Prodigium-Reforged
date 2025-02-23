@@ -7,15 +7,6 @@
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
-	#custombossbar(on/off)
-	"custombossbar(on/off)" = true
-	#AddedServerlist(on/off)
-	"AddedServerlist(on/off)" = false
-	#BossMusic(on/off)
-	"BossMusic(on/off)" = true
-	#BossMusicVolume(denominator)
-	#Range: 1 ~ 1000000
-	BossMusicVolume = 1
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -50,9 +41,18 @@
 	#Void Core's Cooldown
 	#Range: 0 ~ 1000000
 	VoidCoreCooldown = 160
-	#Sandstorm's Timer
+	#Sandstorm's cooldown
 	#Range: 0 ~ 1000000
-	SandstormTimer = 160
+	Sandstormcooldown = 300
+	#Soul Render's Timer
+	#Range: 0 ~ 1000000
+	SoulRenderCooldown = 100
+	#Gauntlet of Maelstrom's Timer
+	#Range: 0 ~ 1000000
+	gauntletofMaelstromCooldown = 180
+	#The Immolator's Timer
+	#Range: 0 ~ 1000000
+	immolatorCooldown = 300
 
 ["Entity damage"]
 	#Void Rune's Damage
@@ -65,7 +65,7 @@
 	#Range: 0.0 ~ 1000000.0
 	DeathLaserdamage = 8.0
 	#Death Laser's Hp Damage
-	#Range: 0.0 ~ 1.0
+	#Range: 0.0 ~ 100.0
 	DeathLaserHpdamage = 0.1
 	#Player's Laser's Damage
 	#Range: 0.0 ~ 1000000.0
@@ -106,6 +106,21 @@
 	#Ancient Desert Stele's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Ancient Desert Stele Damage" = 20.0
+	#Player's Phantom Arrow's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Phantom Arrow Damage" = 5.0
+	#Phantom Halberd's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Phantom Halberd Damage" = 12.0
+	#Cursed Sandstorm's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Cursed Sandstorm Damage" = 6.0
+	#Flame jet's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Flame Jet Damage" = 7.0
+	#Flare Bomb's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Flare Bomb Damage" = 7.0
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
@@ -152,6 +167,9 @@
 	#EnderGuardianBlockBreaking radius
 	#Range: 0 ~ 20
 	"EnderGuardianBlockBreaking Z" = 15
+	#EnderGuardian's DamageTime
+	#Range: 0 ~ 100
+	EnderGuardianDamageTime = 30
 
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
@@ -183,6 +201,11 @@
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Monstrosity's prevent attacks from far away Range" = 23.0
+	#Monstrosity's DamageTime
+	#Range: 0 ~ 100
+	MonstrosityDamageTime = 10
+	#Monstrosity's block breaking ignore the MobGriefing
+	monstrosityBlockBreaking = true
 
 ["Ender Golem"]
 	#Ender Golem's block breaking ignore the MobGriefing
@@ -218,6 +241,9 @@
 	IgnisDamageCap = 20.0
 	#Ignis's cracked block breaking ignore the MobGriefing
 	IgnisBlockBreaking = true
+	#Ignis's DamageTime
+	#Range: 0 ~ 100
+	IgnisDamageTime = 15
 
 [revenant]
 	#Revenant's Health Multiplier
@@ -265,6 +291,9 @@
 	#The Harbinger's charge attack Hp Damage
 	#Range: 0.0 ~ 1.0
 	"The Harbinger's charge attack Hp Damage" = 0.06
+	#Harbinger's DamageTime
+	#Range: 0 ~ 100
+	"The Harbinger DamageTime" = 12
 
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
@@ -298,6 +327,9 @@
 	LeviathanBlockBreaking = true
 	#Leviathan Immune Out of Water
 	LeviathanImmuneOutofWater = true
+	#Leviathan's DamageTime
+	#Range: 0 ~ 100
+	"Leviathan DamageTime" = 15
 
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
@@ -356,6 +388,9 @@
 	#Remnant's EarthQuake Damage
 	#Range: 0.0 ~ 1000000.0
 	"Remnant's EarthQuakeDamage" = 8.0
+	#Ancient Remnant's DamageTime
+	#Range: 0 ~ 100
+	"Ancient Remnant DamageTime" = 12
 
 [Koboleton]
 	#Cause Koboleton to Drop Item In Hand Percent
@@ -372,39 +407,48 @@
 	#Range: 0.0 ~ 1000000.0
 	KobolediatorDamageMultiplier = 1.2
 
-[wadjet]
-	#Wadjet's Health Multiplier
-	#Range: 0.0 ~ 1000000.0
-	WadjetHealthMultiplier = 1.2
-	#Wadjet's Damage Multiplier
-	#Range: 0.0 ~ 1000000.0
-	WadjetDamageMultiplier = 1.2
-
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 1.8
+	MaledictusHealthMultiplier = 3.7
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 1.5
+	MaledictusDamageMultiplier = 1.3
 	#Maledictus's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageCap = 25.0
+	MaledictusDamageCap = 23.0
 	#Maledictus's melee Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Maledictus's melee Hp Damage" = 0.06
+	"Maledictus's melee Hp Damage" = 0.05
 	#Maledictus's Shock wave Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Maledictus's Shock Wave Hp Damage" = 0.04
+	"Maledictus's Shock Wave Hp Damage" = 0.03
 	#Maledictus's AOE Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Maledictus's AOE Hp Damage" = 0.18
+	"Maledictus's AOE Hp Damage" = 0.16
 	#Maledictus's flying Smash Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Maledictus's Flying Smash Hp Damage" = 0.12
+	"Maledictus's Flying Smash Hp Damage" = 0.1
 	#Maledictus's Jump Smash Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Maledictus's Jump Smash Hp Damage" = 0.1
+	#Maledictus's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Maledictus's prevent attacks from far away Range" = 24.0
+	#Maledictus's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	MaledictusNatureHealing = 8.0
+	#Maledictus's Phantom Halberd Damage
+	#Range: 0.0 ~ 1000000.0
+	"Maledictus' Phantom Halberd Damage'" = 11.0
+	#Maledictus's DamageTime
+	#Range: 0 ~ 100
+	"Maledictus DamageTime" = 30
+	#Maledictus's Phantom Arrow's Damage
+	#Range: 0.0 ~ 1000000.0
+	"Maledictus's Phantom Arrow Damage" = 5.0
+	#Maledictus's cracked block breaking ignore the MobGriefing
+	MaledictusBlockBreaking = true
 
 [spawning]
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
@@ -469,4 +513,45 @@
 	#Allowed height variance for the check - if the variance is lower than this value the structure will not spawn (has no effect if the are check is disabled)
 	#Range: 0 ~ 32
 	cursedPyramidHeightVariance = 2
+
+["bosses Common settings"]
+	#custombossbar(on/off)
+	"custombossbar(on/off)" = true
+	#BossMusic(on/off)
+	"BossMusic(on/off)" = true
+	#BossMusicVolume(denominator)
+	#Range: 1 ~ 1000000
+	BossMusicVolume = 1
+	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
+	#Range: 0 ~ 200
+	ReturnHome = 20
+
+[Block]
+	#Cursed Tombstone Summon cooldown Minute
+	#Range: 1 ~ 300
+	"Cursed Tombstone Summon cooldown Minute" = 5
+
+["Netherite Ministrosity"]
+	#Ministrosity's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MinistrosityHealthMultiplier = 1.0
+
+[Wadjet]
+	#Wadjet's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	WadjetHealthMultiplier = 1.0
+	#Wadjet's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	WadjetDamageMultiplier = 1.0
+
+[Aptrgangr]
+	#Aptrgangr's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AptrgangrHealthMultiplier = 1.0
+	#Aptrgangr's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AptrgangrDamageMultiplier = 1.0
+	#Axe Blade's Damage
+	#Range: 0.0 ~ 1000000.0
+	AptrgangrAxeBladeDamage = 8.0
 

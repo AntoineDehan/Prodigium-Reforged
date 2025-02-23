@@ -2247,6 +2247,25 @@
 			x: 1.5d
 			y: -3.5d
 		}
+		{
+			id: "113BABA4C72BAEBD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DF6733C3EF7C24A"
+				table_id: 5533560640127059513L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				icon: "meetyourfight:devils_ante"
+				id: "44A45D7F652EA1F2"
+				title: "Kill the &5Dame Fortuna&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
 	]
 	title: "Expert Mode"
 }

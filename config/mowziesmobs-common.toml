@@ -1,7 +1,5 @@
 
 [tools_and_abilities]
-	#Range: 0.0 ~ 1.7976931348623157E308
-	geomancy_attack_multiplier = 1.0
 	#Cost in minutes of using the supernova ability.
 	#Range: > 0
 	supernova_cost = 60
@@ -21,12 +19,12 @@
 		breakable = false
 
 		[tools_and_abilities.wrought_helm.armor_config]
-			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
-			#Range: > 0
-			damage_reduction = 2
-			#See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Multiply armor damage reduction by this amount. See official Minecraft Wiki for an explanation of how armor damage reduction works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness = 0.0
+			damage_reduction_multiplier = 1.0
+			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness_multiplier = 1.0
 
 	[tools_and_abilities.axe_of_a_thousand_metals]
 		#Set to true for the Axe of a Thousand Metals to have limited durability.
@@ -48,12 +46,12 @@
 		max_followers = 10
 
 		[tools_and_abilities.sol_visage.armor_config]
-			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
-			#Range: > 0
-			damage_reduction = 2
-			#See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Multiply armor damage reduction by this amount. See official Minecraft Wiki for an explanation of how armor damage reduction works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness = 0.0
+			damage_reduction_multiplier = 1.0
+			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness_multiplier = 1.0
 
 	[tools_and_abilities.ice_crystal]
 		#Multiply all damage done with the ice crystal by this amount.
@@ -69,12 +67,12 @@
 	[tools_and_abilities.umvuthana_mask]
 
 		[tools_and_abilities.umvuthana_mask.armor_config]
-			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
-			#Range: > 0
-			damage_reduction = 1
-			#See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Multiply armor damage reduction by this amount. See official Minecraft Wiki for an explanation of how armor damage reduction works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness = 0.0
+			damage_reduction_multiplier = 1.0
+			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness_multiplier = 1.0
 
 	[tools_and_abilities.spear]
 
@@ -110,24 +108,49 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		attack_damage = 1.0
 
-	[tools_and_abilities.earthbore_gauntlet]
-		#Multiply all damage done with the Earthbore Gauntlet by this amount.
+	[tools_and_abilities.geomancerArmor]
+
+		[tools_and_abilities.geomancerArmor.armor_config]
+			#Multiply armor damage reduction by this amount. See official Minecraft Wiki for an explanation of how armor damage reduction works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			damage_reduction_multiplier = 1.0
+			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness_multiplier = 1.0
+
+	[tools_and_abilities.earthrend_gauntlet]
+		#Multiply all damage done with the Earthrend Gauntlet by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		attack_multiplier = 1.0
-		#Set to true for the Earthbore Gauntlet to have limited durability.
+		#Set to true for the Earthrend Gauntlet to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
-		#Earthbore Gauntlet durability
+		#Earthrend Gauntlet durability
 		#Range: > 1
 		durability = 400
+		#Set to false to disable the Earthrend Gauntlet's tunneling ability.
+		enable_tunneling = true
 
-		[tools_and_abilities.earthbore_gauntlet.tool_config]
+		[tools_and_abilities.earthrend_gauntlet.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_damage = 6.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 1.2000000476837158
+
+	[tools_and_abilities.sculptor_staff]
+		#Multiply all damage done with the Sculptor Staff by this amount.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		attack_multiplier = 1.0
+
+		[tools_and_abilities.sculptor_staff.tool_config]
+			#Tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 3.0
+			#Tool attack speed
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_speed = 1.0
 
 [mobs]
 
@@ -298,6 +321,21 @@
 	[mobs.sculptor]
 		#Disable/enable the Sculptor healing while not in combat
 		heals_out_of_battle = true
+		#How tall (in blocks) the Sculptor's test will be
+		#Range: 1 ~ 500
+		test_height = 60
+		#The time limit (in seconds) for completing the Sculptor's test
+		#Range: 1 ~ 36000
+		test_time_limit = 400
+		#Disable/enable the Sculptor's boss health bar
+		has_boss_bar = true
+		#Which item the Sculptor desires in exchange for a chance to try his challenge
+		trade_which_item = "mowziesmobs:bluff_rod"
+		#How many of the item the Sculptor desires in exchange for a chance to try his challenge
+		#Range: 0 ~ 64
+		trade_how_many = 1
+		#Set to true for the Sculptor to disappear after a player beats the test and claims the reward.
+		disappear_after_reward = true
 
 		[mobs.sculptor.biome_config]
 			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
@@ -634,6 +672,65 @@
 			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts"]
 
 		[mobs.foliaath.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+	[mobs.bluff]
+
+		[mobs.bluff.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = []
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = []
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for vanilla-style mob spawning
+		[mobs.bluff.spawn_config]
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 10
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 2
+			#Maximum number of mobs that appear in a spawn group
+			#Range: > 1
+			max_group_size = 3
+			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
+			#Range: 0.0 ~ 1.0
+			extra_rarity = 1.0
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = []
+			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
+			allowed_block_tags = []
+			#Maximum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_max = -65
+			#Minimum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_min = -65
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = true
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = true
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = []
+
+		[mobs.bluff.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			health_multiplier = 1.0

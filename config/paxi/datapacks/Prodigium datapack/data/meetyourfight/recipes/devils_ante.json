@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["NIN", "IDI", "NIN"],
+  "key": {
+    "D": { "item": "aether_redux:sentry_chip" },
+    "I": { "tag": "forge:ingots/gold" },
+    "N": { "item": "prodigium:palladium_ingot" }
+  },
+  "result": { "item": "meetyourfight:devils_ante" }
+}

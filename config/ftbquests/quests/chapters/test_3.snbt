@@ -1229,6 +1229,25 @@
 			x: 6.5d
 			y: 4.5d
 		}
+		{
+			id: "53EAB8D1FE264583"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18C1ADC10468421E"
+				table_id: 7449522933339281626L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				icon: "meetyourfight:haunted_bell"
+				id: "3AB84AEFA28459AB"
+				title: "Kill the &3Bellringer&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
 	]
 	title: "Normal Mode"
 }

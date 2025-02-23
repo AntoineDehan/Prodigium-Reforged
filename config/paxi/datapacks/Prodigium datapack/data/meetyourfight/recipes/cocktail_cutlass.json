@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["NDG", "EDG", " F "],
+  "key": {
+    "D": { "item": "cataclysm:witherite_ingot" },
+    "G": { "tag": "forge:glass" },
+    "F": { "item": "meetyourfight:fortunes_favor" },
+    "N": { "item": "minecraft:nether_star" },
+    "E": { "item": "minecraft:echo_shard" }
+  },
+  "result": { "item": "meetyourfight:cocktail_cutlass" }
+}
