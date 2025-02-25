@@ -1750,7 +1750,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["777E4D10DDDACAD7"]
+			dependencies: ["113BABA4C72BAEBD"]
 			description: ["Found in the &2Blossom Arena&r."]
 			icon: "minecraft:spore_blossom"
 			id: "6AC131C918D30C93"
@@ -2245,16 +2245,83 @@
 			}]
 			title: "Combine your accessories!"
 			x: 1.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["777E4D10DDDACAD7"]
+			description: ["Summon it using a &9Devil's Ante&r."]
 			id: "113BABA4C72BAEBD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4DF6733C3EF7C24A"
-				table_id: 5533560640127059513L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0A22FAF7A131157A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "735CBAF0C1B72886"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0385F7F5A3D2708D"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4BDC3D79FA392EB4"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0DB32DC9023F0E1C"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2FE5BB4519D5D5E3"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4ADFBF6BDD1F95ED"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				entity: "meetyourfight:dame_fortuna"
 				icon: "meetyourfight:devils_ante"
@@ -2264,7 +2331,7 @@
 				value: 1L
 			}]
 			x: 13.0d
-			y: -5.5d
+			y: -5.0d
 		}
 	]
 	title: "Expert Mode"

@@ -264,7 +264,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2F2E994C5099612A"]
+			dependencies: ["20DC0659957F6560"]
 			description: ["Craft a &9Necklace of the desert&r then find the ancient fossil in the &2Cursed Pyramid&r"]
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "69211BF1D6204C54"
@@ -348,8 +348,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 17.0d
-			y: 3.0d
+			x: 20.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6EB21A5EFC2F6EF2"]
@@ -367,13 +367,6 @@
 					id: "66E4AD30B713233F"
 					type: "xp_levels"
 					xp_levels: 5
-				}
-				{
-					count: 2
-					id: "2C60ED4B6F322B81"
-					item: "stalwart_dungeons:chorundum"
-					random_bonus: 2
-					type: "item"
 				}
 				{
 					count: 2
@@ -468,13 +461,87 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["2F2E994C5099612A"]
+			description: ["Summon it by crafting a &9Dusk Key&r."]
 			id: "20DC0659957F6560"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0D29BBD79B38CB36"
-				table_id: 518173385962404322L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "78B8D58EE60EC130"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "34F1348EC9DC14BC"
+					item: "stalwart_dungeons:chorundum"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16DB830FD71CC6A6"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "397A0D8E07A38A08"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "41AD951141EB19D1"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "146766E1E8F522CD"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0CCD7161288CB583"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2E2404C2E3CE66C2"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				entity: "meetyourfight:rosalyne"
 				icon: "meetyourfight:dusk_key"
@@ -483,8 +550,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.0d
-			y: 4.0d
+			x: 16.0d
+			y: 3.0d
 		}
 	]
 	title: "Master Mode"
