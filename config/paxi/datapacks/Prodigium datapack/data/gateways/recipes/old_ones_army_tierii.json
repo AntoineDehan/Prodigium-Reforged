@@ -4,7 +4,7 @@
   "pattern": ["A#A", "BAB", "ABA"],
   "key": {
     "#": {
-      "item": "minecraft:nether_star"
+      "item": "meetyourfight:fortunes_favor"
     },
     "A": {
       "item": "prodigium:eternia_crystal"

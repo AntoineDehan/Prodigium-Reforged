@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["IR ", "RIF", " SI"],
+  "key": {
+    "I": { "tag": "forge:ingots/nether_brick" },
+    "S": { "tag": "forge:rods/wooden" },
+    "F": { "item": "prodigium:orichalcum_ingot" },
+    "R": { "tag": "forge:rods/blaze" }
+  },
+  "result": { "item": "gunswithoutroses:blaze_gun" }
+}

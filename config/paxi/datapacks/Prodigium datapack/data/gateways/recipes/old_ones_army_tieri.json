@@ -4,7 +4,7 @@
   "pattern": ["A#A", "BAB", "ABA"],
   "key": {
     "#": {
-      "item": "minecraft:dirt"
+      "item": "meetyourfight:mossy_tooth"
     },
     "A": {
       "item": "prodigium:eternia_crystal"
