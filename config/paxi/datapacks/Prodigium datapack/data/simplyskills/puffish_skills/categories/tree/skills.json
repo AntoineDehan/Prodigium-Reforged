@@ -1,554 +1,572 @@
 {
-  "xpfympjrekzl2xg3": {
-    "definition": "root_mana+75",
-    "x": 0,
-    "y": -73.9008344562721,
-    "root": true
-  },
-  "tipi2rs1k21b0px5": {
-    "definition": "root_ranged_damage+15%",
-    "x": -64,
-    "y": 36.95041722813605,
-    "root": true
-  },
-  "9zqesev43zo55z96": {
-    "definition": "root_health+4",
-    "x": 64,
-    "y": 36.95041722813605,
-    "root": true
-  },
-  "lzbf1rqhs7c0lwq9": {
-    "definition": "warriorFrenzy",
-    "x": 380,
-    "y": 418,
-    "root": false
-  },
-  "76yjx504zpenspon": {
-    "definition": "warriorSpellbreaker",
-    "x": 304,
-    "y": 190,
-    "root": false
-  },
-  "fllh5lt74qbdfy90": {
-    "definition": "berserkerPath",
-    "x": 456,
-    "y": 418,
-    "root": false
-  },
-  "kx8w660c2twzgsj9": {
-    "definition": "crusaderPath",
-    "x": 456,
-    "y": 342,
-    "root": false
-  },
-  "amtacp7z2f28pvtl": {
-    "definition": "wizardPath",
-    "x": -76,
-    "y": -342,
-    "root": false
-  },
-  "cxtj5vjpi93xqqal": {
-    "definition": "spellbladePath",
-    "x": 532,
-    "y": -38,
-    "root": false
-  },
-  "ib0a72j4dae7m4dx": {
-    "definition": "roguePath",
-    "x": 532,
-    "y": -76,
-    "root": false
-  },
-  "rlpa0zbspqxpn4vr": {
-    "definition": "rangerPath",
-    "x": -287,
-    "y": 401,
-    "root": false
-  },
-  "seovhlfjsltfbyp7": {
-    "definition": "clericPath",
-    "x": 76,
-    "y": -342,
-    "root": false
-  },
-  "10v0k6yq1cgim39a": {
-    "definition": "wayfarerSneak",
-    "x": -295,
-    "y": 339,
-    "root": false
-  },
-  "apfs7w6sbchad164": {
-    "definition": "wayfarerGuarding",
-    "x": -76,
-    "y": 190,
-    "root": false
-  },
-  "5o6a4ijsol0u1qti": {
-    "definition": "warriorHeavyArmorMastery",
-    "x": 380,
-    "y": 342,
-    "root": false
-  },
-  "fm976fajc2qb9fs0": {
-    "definition": "warriorGoliath",
-    "x": 190,
-    "y": 456,
-    "root": false
-  },
-  "hdiq3q8b406mn5wi": {
-    "definition": "warriorHeavyWeight",
-    "x": 228,
-    "y": 570,
-    "root": false
-  },
-  "25z1vqo6cvu4ujfo": {
-    "definition": "initiateGambit",
-    "x": 114,
-    "y": -190,
-    "root": false
-  },
-  "pudmdza96cel9knj": {
-    "definition": "initiateHasty",
-    "x": 0,
-    "y": -380,
-    "root": false
-  },
-  "x0eke7vbrvrb116p": {
-    "definition": "initiateEldritchEnfeeblement",
-    "x": -114,
-    "y": -190,
-    "root": false
-  },
-  "vt35q1gqa29spnfy": {
-    "definition": "warriorBound",
-    "x": 152,
-    "y": 570,
-    "root": false
-  },
-  "4xep9ktz3a23kgmv": {
-    "definition": "warriorTwinstrike",
-    "x": 76,
-    "y": 266,
-    "root": false
-  },
-  "l25y43rzg9mp48ju": {
-    "definition": "warriorSwordfall",
-    "x": 76,
-    "y": 190,
-    "root": false
-  },
-  "d9gigvmx9tt0cm92": {
-    "definition": "wayfarerQuickfire",
-    "x": -304,
-    "y": 190,
-    "root": false
-  },
-  "wcu17zzahofhx3ol": {
-    "definition": "ranged_damage+5%",
-    "x": -339,
-    "y": 190,
-    "root": false
-  },
-  "7ht9g1avasgmwwg3": {
-    "definition": "necromancerPath",
-    "x": 532,
-    "y": 0,
-    "root": false
-  },
-  "py2lbk1ixst7wfyo": {
-    "definition": "health2+",
-    "x": -190,
-    "y": 38,
-    "root": false
-  },
-  "nefghrlhcu5xvvq5": {
-    "definition": "ranged_damage+5%",
-    "x": -269,
-    "y": 155,
-    "root": false
-  },
-  "xzdjr7j81aydjp3z": {
-    "definition": "ranged_damage+5%",
-    "x": -304,
-    "y": 155,
-    "root": false
-  },
-  "puhkjbguxime6xou": {
-    "definition": "palladium",
-    "x": -190,
-    "y": 190,
-    "root": false
-  },
-  "ydy5b7hhtwy3dzsx": {
-    "definition": "swim_speed+3%",
-    "x": -190,
-    "y": 266,
-    "root": false
-  },
-  "a0dcl4861m9eusb8": {
-    "definition": "movement_speed+1%",
-    "x": -114,
-    "y": 152,
-    "root": false
-  },
-  "i97udptxjg87ogui": {
-    "definition": "movement_speed+1%",
-    "x": -76,
-    "y": 152,
-    "root": false
-  },
-  "h6evqvx3dqlw9qmj": {
-    "definition": "movement_speed+1%",
-    "x": -38,
-    "y": 190,
-    "root": false
-  },
-  "3y506haru71uvg3u": {
-    "definition": "stamina+0.5%",
-    "x": -225,
-    "y": 339,
-    "root": false
-  },
-  "j4dlu4n82vj47dbp": {
-    "definition": "wayfarerStealth",
-    "x": -225,
-    "y": 409,
-    "root": false
-  },
-  "g9olz7l1kvf3uj5n": {
-    "definition": "dodge+5%",
-    "x": -260,
-    "y": 304,
-    "root": false
-  },
-  "f06y6pqs4g9b20n0": {
-    "definition": "dodge+5%",
-    "x": -295,
-    "y": 304,
-    "root": false
-  },
-  "ub0e2b84gtodg7su": {
-    "definition": "crit_damage+5%",
-    "x": -190,
-    "y": 374,
-    "root": false
-  },
-  "0fdp1x9nk580xz8o": {
-    "definition": "crit_damage+5%",
-    "x": -190,
-    "y": 409,
-    "root": false
-  },
-  "tig3f7onxxvz33cw": {
-    "definition": "warriorDeathDefy",
-    "x": 304,
-    "y": 266,
-    "root": false
-  },
-  "pz6y6i37e5z25zf7": {
-    "definition": "health2+",
-    "x": 190,
-    "y": 38,
-    "root": false
-  },
-  "xprvzluhtusme3g5": {
-    "definition": "melee_damage+5%",
-    "x": 114,
-    "y": 152,
-    "root": false
-  },
-  "s1zkde9eauvh7bu5": {
-    "definition": "melee_damage+5%",
-    "x": 76,
-    "y": 152,
-    "root": false
-  },
-  "48vwkx048jtnv5os": {
-    "definition": "melee_damage+5%",
-    "x": 38,
-    "y": 190,
-    "root": false
-  },
-  "usqzzx6x3lpve9sj": {
-    "definition": "attack_knockback+5%",
-    "x": 76,
-    "y": 304,
-    "root": false
-  },
-  "t4gkkw4f7hxog5h8": {
-    "definition": "attack_knockback+5%",
-    "x": 38,
-    "y": 266,
-    "root": false
-  },
-  "5dwhtfv5o73ccwdk": {
-    "definition": "attack_knockback+5%",
-    "x": 114,
-    "y": 304,
-    "root": false
-  },
-  "vr8unkbj1kc85dt3": {
-    "definition": "health2+",
-    "x": 266,
-    "y": 304,
-    "root": false
-  },
-  "ov8s2y93j2qkr42h": {
-    "definition": "health2+",
-    "x": 342,
-    "y": 266,
-    "root": false
-  },
-  "l3oonc3ty4cadujq": {
-    "definition": "health2+",
-    "x": 304,
-    "y": 304,
-    "root": false
-  },
-  "bsjvz3xpxd9e8c45": {
-    "definition": "mining_speed+5%",
-    "x": 190,
-    "y": 114,
-    "root": false
-  },
-  "zi89awerm0ijzsp9": {
-    "definition": "stamina+0.5%",
-    "x": 190,
-    "y": 494,
-    "root": false
-  },
-  "arjadba79hsc8ak5": {
-    "definition": "healing+5%",
-    "x": 152,
-    "y": 532,
-    "root": false
-  },
-  "w35xtg0el1s04ajf": {
-    "definition": "healing+5%",
-    "x": 228,
-    "y": 532,
-    "root": false
-  },
-  "ii1lsoqdhjfiajr0": {
-    "definition": "armor+0.5",
-    "x": 266,
-    "y": 152,
-    "root": false
-  },
-  "hfgv6mjsdjxf7dyz": {
-    "definition": "armor+0.5",
-    "x": 304,
-    "y": 152,
-    "root": false
-  },
-  "qekfvj05y0icf3ws": {
-    "definition": "armor+0.5",
-    "x": 342,
-    "y": 190,
-    "root": false
-  },
-  "tgvbyyhk0di3wjcx": {
-    "definition": "swim_speed+3%",
-    "x": 190,
-    "y": 380,
-    "root": false
-  },
-  "pdg7s817hlibc3a4": {
-    "definition": "spell_healing_power_multi+1%",
-    "x": 228,
-    "y": 228,
-    "root": false
-  },
-  "2znwjp6uzpm2xedu": {
-    "definition": "spell_healing_power_multi+1%",
-    "x": 342,
-    "y": 342,
-    "root": false
-  },
-  "4u91qt4f6h4ocvzr": {
-    "definition": "melee_damage+5%",
-    "x": 342,
-    "y": 418,
-    "root": false
-  },
-  "dwaqop3xz3lqi1g2": {
-    "definition": "health2+",
-    "x": 0,
-    "y": -152,
-    "root": false
-  },
-  "9wxezxh3rx8jh05i": {
-    "definition": "spell_power+5%",
-    "x": 76,
-    "y": -152,
-    "root": false
-  },
-  "2duu2u13yrbmyyzo": {
-    "definition": "spell_power+5%",
-    "x": 114,
-    "y": -152,
-    "root": false
-  },
-  "q8gju46z8nfll6kj": {
-    "definition": "spell_power+5%",
-    "x": 152,
-    "y": -190,
-    "root": false
-  },
-  "h3g5nbsh367mne9o": {
-    "definition": "mana+25",
-    "x": -76,
-    "y": -152,
-    "root": false
-  },
-  "c95ss2z4cl1idkle": {
-    "definition": "mana+25",
-    "x": -114,
-    "y": -152,
-    "root": false
-  },
-  "170n40750gx7yjjz": {
-    "definition": "mana+25",
-    "x": -152,
-    "y": -190,
-    "root": false
-  },
-  "gb82saqp5pqinb5i": {
-    "definition": "cooldown_reduction-5%",
-    "x": 0,
-    "y": -266,
-    "root": false
-  },
-  "abvtjslp434jg7qj": {
-    "definition": "mining_speed+5%",
-    "x": 0,
-    "y": -228,
-    "root": false
-  },
-  "uwrtecrimz83gyti": {
-    "definition": "movement_speed+1%",
-    "x": 152,
-    "y": -266,
-    "root": false
-  },
-  "abvc5lsq1zvl7oy1": {
-    "definition": "spell_healing_power_multi+1%",
-    "x": 38,
-    "y": -456,
-    "root": false
-  },
-  "l1ztojjp0mqfuk41": {
-    "definition": "spell_healing_power_multi+1%",
-    "x": 190,
-    "y": -304,
-    "root": false
-  },
-  "zgzfwz2vk3agpfw8": {
-    "definition": "swim_speed+3%",
-    "x": 0,
-    "y": -342,
-    "root": false
-  },
-  "espmdy80gt9qwrfe": {
-    "definition": "cast_time_reduction-5%",
-    "x": -38,
-    "y": -380,
-    "root": false
-  },
-  "lgw1j6spe8jarfb3": {
-    "definition": "cooldown_reduction-5%",
-    "x": 38,
-    "y": -380,
-    "root": false
-  },
-  "xypj5tnakrc26i5f": {
-    "definition": "spell_power+5%",
-    "x": -38,
-    "y": -456,
-    "root": false
-  },
-  "77agp29a8xae8kgf": {
-    "definition": "mana+50",
-    "x": 0,
-    "y": -494,
-    "root": false
-  },
-  "8jhnexdsbcgom8vd": {
-    "definition": "tunic",
-    "x": 152,
-    "y": -380,
-    "root": false
-  },
-  "z6hmdbdo1y3ks2yf": {
-    "definition": "mana+25",
-    "x": 76,
-    "y": -304,
-    "root": false
-  },
-  "ow42w1f5z744fh5u": {
-    "definition": "pumpkin",
-    "x": -152,
-    "y": -380,
-    "root": false
-  },
-  "a5o8ujbtq09vwfkl": {
-    "definition": "spell_power+5%",
-    "x": -190,
-    "y": -304,
-    "root": false
-  },
-  "789ccfwulgo1yi43": {
-    "definition": "movement_speed+1%",
-    "x": -152,
-    "y": -266,
-    "root": false
-  },
-  "0d0acawqyhyfir0d": {
-    "definition": "movement_speed+1%",
-    "x": -76,
-    "y": -304,
-    "root": false
-  },
-  "1nxigud1ohpr950b": {
-    "definition": "armor_shred+5%",
-    "x": 152,
-    "y": 228,
-    "root": false
-  },
-  "11ari7qif87dgjs3": {
-    "definition": "mining_speed+5%",
-    "x": -190,
-    "y": 114,
-    "root": false
-  },
-  "43qazzsahm8mpp65": {
-    "definition": "stamina+0.5%",
-    "x": 0,
-    "y": -418,
-    "root": false
-  },
-  "4v7pfrohk3invo5h": {
-    "definition": "adamantium",
-    "x": 266,
-    "y": 418,
-    "root": false
-  },
-  "b9ljevk54tqsofj6": {
-    "definition": "diamond",
-    "x": 304,
-    "y": 418,
-    "root": false
-  },
-  "3tlnz9444s3q8x8t": {
-    "definition": "paladin",
-    "x": 266,
-    "y": 342,
-    "root": false
-  },
-  "6295lakfw0ewg4gj": {
-    "definition": "spell_resist+10",
-    "x": 190,
-    "y": 228,
-    "root": false
-  }
+	"xpfympjrekzl2xg3": {
+		"definition": "root_mana+75",
+		"x": 0,
+		"y": -73.9008344562721,
+		"root": true
+	},
+	"tipi2rs1k21b0px5": {
+		"definition": "root_ranged_damage+15%",
+		"x": -64,
+		"y": 36.95041722813605,
+		"root": true
+	},
+	"9zqesev43zo55z96": {
+		"definition": "root_health+4",
+		"x": 64,
+		"y": 36.95041722813605,
+		"root": true
+	},
+	"lzbf1rqhs7c0lwq9": {
+		"definition": "warriorFrenzy",
+		"x": 380,
+		"y": 418,
+		"root": false
+	},
+	"76yjx504zpenspon": {
+		"definition": "warriorSpellbreaker",
+		"x": 304,
+		"y": 190,
+		"root": false
+	},
+	"fllh5lt74qbdfy90": {
+		"definition": "berserkerPath",
+		"x": 456,
+		"y": 418,
+		"root": false
+	},
+	"kx8w660c2twzgsj9": {
+		"definition": "crusaderPath",
+		"x": 456,
+		"y": 342,
+		"root": false
+	},
+	"amtacp7z2f28pvtl": {
+		"definition": "wizardPath",
+		"x": -76,
+		"y": -342,
+		"root": false
+	},
+	"cxtj5vjpi93xqqal": {
+		"definition": "spellbladePath",
+		"x": 532,
+		"y": -38,
+		"root": false
+	},
+	"ib0a72j4dae7m4dx": {
+		"definition": "roguePath",
+		"x": 532,
+		"y": -76,
+		"root": false
+	},
+	"rlpa0zbspqxpn4vr": {
+		"definition": "rangerPath",
+		"x": -287,
+		"y": 401,
+		"root": false
+	},
+	"seovhlfjsltfbyp7": {
+		"definition": "clericPath",
+		"x": 76,
+		"y": -342,
+		"root": false
+	},
+	"10v0k6yq1cgim39a": {
+		"definition": "wayfarerSneak",
+		"x": -295,
+		"y": 339,
+		"root": false
+	},
+	"apfs7w6sbchad164": {
+		"definition": "wayfarerGuarding",
+		"x": -76,
+		"y": 190,
+		"root": false
+	},
+	"5o6a4ijsol0u1qti": {
+		"definition": "warriorHeavyArmorMastery",
+		"x": 380,
+		"y": 342,
+		"root": false
+	},
+	"fm976fajc2qb9fs0": {
+		"definition": "warriorGoliath",
+		"x": 190,
+		"y": 456,
+		"root": false
+	},
+	"hdiq3q8b406mn5wi": {
+		"definition": "warriorHeavyWeight",
+		"x": 228,
+		"y": 570,
+		"root": false
+	},
+	"25z1vqo6cvu4ujfo": {
+		"definition": "initiateGambit",
+		"x": 114,
+		"y": -190,
+		"root": false
+	},
+	"pudmdza96cel9knj": {
+		"definition": "initiateHasty",
+		"x": 0,
+		"y": -380,
+		"root": false
+	},
+	"x0eke7vbrvrb116p": {
+		"definition": "initiateEldritchEnfeeblement",
+		"x": -114,
+		"y": -190,
+		"root": false
+	},
+	"vt35q1gqa29spnfy": {
+		"definition": "warriorBound",
+		"x": 152,
+		"y": 570,
+		"root": false
+	},
+	"4xep9ktz3a23kgmv": {
+		"definition": "warriorTwinstrike",
+		"x": 76,
+		"y": 266,
+		"root": false
+	},
+	"l25y43rzg9mp48ju": {
+		"definition": "warriorSwordfall",
+		"x": 76,
+		"y": 190,
+		"root": false
+	},
+	"d9gigvmx9tt0cm92": {
+		"definition": "wayfarerQuickfire",
+		"x": -304,
+		"y": 190,
+		"root": false
+	},
+	"wcu17zzahofhx3ol": {
+		"definition": "ranged_damage+5%",
+		"x": -339,
+		"y": 190,
+		"root": false
+	},
+	"7ht9g1avasgmwwg3": {
+		"definition": "necromancerPath",
+		"x": -76,
+		"y": -532,
+		"root": false
+	},
+	"py2lbk1ixst7wfyo": {
+		"definition": "health2+",
+		"x": -190,
+		"y": 38,
+		"root": false
+	},
+	"nefghrlhcu5xvvq5": {
+		"definition": "ranged_damage+5%",
+		"x": -269,
+		"y": 155,
+		"root": false
+	},
+	"xzdjr7j81aydjp3z": {
+		"definition": "ranged_damage+5%",
+		"x": -304,
+		"y": 155,
+		"root": false
+	},
+	"puhkjbguxime6xou": {
+		"definition": "palladium",
+		"x": -190,
+		"y": 190,
+		"root": false
+	},
+	"ydy5b7hhtwy3dzsx": {
+		"definition": "swim_speed+3%",
+		"x": -190,
+		"y": 266,
+		"root": false
+	},
+	"a0dcl4861m9eusb8": {
+		"definition": "movement_speed+1%",
+		"x": -114,
+		"y": 152,
+		"root": false
+	},
+	"i97udptxjg87ogui": {
+		"definition": "movement_speed+1%",
+		"x": -76,
+		"y": 152,
+		"root": false
+	},
+	"h6evqvx3dqlw9qmj": {
+		"definition": "movement_speed+1%",
+		"x": -38,
+		"y": 190,
+		"root": false
+	},
+	"3y506haru71uvg3u": {
+		"definition": "stamina+0.5%",
+		"x": -225,
+		"y": 339,
+		"root": false
+	},
+	"j4dlu4n82vj47dbp": {
+		"definition": "wayfarerStealth",
+		"x": -225,
+		"y": 409,
+		"root": false
+	},
+	"g9olz7l1kvf3uj5n": {
+		"definition": "dodge+5%",
+		"x": -260,
+		"y": 304,
+		"root": false
+	},
+	"f06y6pqs4g9b20n0": {
+		"definition": "dodge+5%",
+		"x": -295,
+		"y": 304,
+		"root": false
+	},
+	"ub0e2b84gtodg7su": {
+		"definition": "crit_damage+5%",
+		"x": -190,
+		"y": 374,
+		"root": false
+	},
+	"0fdp1x9nk580xz8o": {
+		"definition": "crit_damage+5%",
+		"x": -190,
+		"y": 409,
+		"root": false
+	},
+	"tig3f7onxxvz33cw": {
+		"definition": "warriorDeathDefy",
+		"x": 304,
+		"y": 266,
+		"root": false
+	},
+	"pz6y6i37e5z25zf7": {
+		"definition": "health2+",
+		"x": 190,
+		"y": 38,
+		"root": false
+	},
+	"xprvzluhtusme3g5": {
+		"definition": "melee_damage+5%",
+		"x": 114,
+		"y": 152,
+		"root": false
+	},
+	"s1zkde9eauvh7bu5": {
+		"definition": "melee_damage+5%",
+		"x": 76,
+		"y": 152,
+		"root": false
+	},
+	"48vwkx048jtnv5os": {
+		"definition": "melee_damage+5%",
+		"x": 38,
+		"y": 190,
+		"root": false
+	},
+	"usqzzx6x3lpve9sj": {
+		"definition": "attack_knockback+5%",
+		"x": 76,
+		"y": 304,
+		"root": false
+	},
+	"t4gkkw4f7hxog5h8": {
+		"definition": "attack_knockback+5%",
+		"x": 38,
+		"y": 266,
+		"root": false
+	},
+	"5dwhtfv5o73ccwdk": {
+		"definition": "attack_knockback+5%",
+		"x": 114,
+		"y": 304,
+		"root": false
+	},
+	"vr8unkbj1kc85dt3": {
+		"definition": "health2+",
+		"x": 266,
+		"y": 304,
+		"root": false
+	},
+	"ov8s2y93j2qkr42h": {
+		"definition": "health2+",
+		"x": 342,
+		"y": 266,
+		"root": false
+	},
+	"l3oonc3ty4cadujq": {
+		"definition": "health2+",
+		"x": 304,
+		"y": 304,
+		"root": false
+	},
+	"bsjvz3xpxd9e8c45": {
+		"definition": "mining_speed+5%",
+		"x": 190,
+		"y": 114,
+		"root": false
+	},
+	"zi89awerm0ijzsp9": {
+		"definition": "stamina+0.5%",
+		"x": 190,
+		"y": 494,
+		"root": false
+	},
+	"arjadba79hsc8ak5": {
+		"definition": "healing+5%",
+		"x": 152,
+		"y": 532,
+		"root": false
+	},
+	"w35xtg0el1s04ajf": {
+		"definition": "healing+5%",
+		"x": 228,
+		"y": 532,
+		"root": false
+	},
+	"ii1lsoqdhjfiajr0": {
+		"definition": "armor+0.5",
+		"x": 266,
+		"y": 152,
+		"root": false
+	},
+	"hfgv6mjsdjxf7dyz": {
+		"definition": "armor+0.5",
+		"x": 304,
+		"y": 152,
+		"root": false
+	},
+	"qekfvj05y0icf3ws": {
+		"definition": "armor+0.5",
+		"x": 342,
+		"y": 190,
+		"root": false
+	},
+	"tgvbyyhk0di3wjcx": {
+		"definition": "swim_speed+3%",
+		"x": 190,
+		"y": 380,
+		"root": false
+	},
+	"pdg7s817hlibc3a4": {
+		"definition": "spell_healing_power_multi+1%",
+		"x": 228,
+		"y": 228,
+		"root": false
+	},
+	"2znwjp6uzpm2xedu": {
+		"definition": "spell_healing_power_multi+1%",
+		"x": 342,
+		"y": 342,
+		"root": false
+	},
+	"4u91qt4f6h4ocvzr": {
+		"definition": "melee_damage+5%",
+		"x": 342,
+		"y": 418,
+		"root": false
+	},
+	"dwaqop3xz3lqi1g2": {
+		"definition": "health2+",
+		"x": 0,
+		"y": -152,
+		"root": false
+	},
+	"9wxezxh3rx8jh05i": {
+		"definition": "spell_power+5%",
+		"x": 76,
+		"y": -152,
+		"root": false
+	},
+	"2duu2u13yrbmyyzo": {
+		"definition": "spell_power+5%",
+		"x": 114,
+		"y": -152,
+		"root": false
+	},
+	"q8gju46z8nfll6kj": {
+		"definition": "spell_power+5%",
+		"x": 152,
+		"y": -190,
+		"root": false
+	},
+	"h3g5nbsh367mne9o": {
+		"definition": "mana+25",
+		"x": -76,
+		"y": -152,
+		"root": false
+	},
+	"c95ss2z4cl1idkle": {
+		"definition": "mana+25",
+		"x": -114,
+		"y": -152,
+		"root": false
+	},
+	"170n40750gx7yjjz": {
+		"definition": "mana+25",
+		"x": -152,
+		"y": -190,
+		"root": false
+	},
+	"gb82saqp5pqinb5i": {
+		"definition": "cooldown_reduction-5%",
+		"x": 0,
+		"y": -266,
+		"root": false
+	},
+	"abvtjslp434jg7qj": {
+		"definition": "mining_speed+5%",
+		"x": 0,
+		"y": -228,
+		"root": false
+	},
+	"uwrtecrimz83gyti": {
+		"definition": "movement_speed+1%",
+		"x": 152,
+		"y": -266,
+		"root": false
+	},
+	"abvc5lsq1zvl7oy1": {
+		"definition": "spell_healing_power_multi+1%",
+		"x": 38,
+		"y": -456,
+		"root": false
+	},
+	"l1ztojjp0mqfuk41": {
+		"definition": "spell_healing_power_multi+1%",
+		"x": 190,
+		"y": -304,
+		"root": false
+	},
+	"zgzfwz2vk3agpfw8": {
+		"definition": "swim_speed+3%",
+		"x": 0,
+		"y": -342,
+		"root": false
+	},
+	"espmdy80gt9qwrfe": {
+		"definition": "cast_time_reduction-5%",
+		"x": -38,
+		"y": -380,
+		"root": false
+	},
+	"lgw1j6spe8jarfb3": {
+		"definition": "cooldown_reduction-5%",
+		"x": 38,
+		"y": -380,
+		"root": false
+	},
+	"xypj5tnakrc26i5f": {
+		"definition": "spell_power+5%",
+		"x": -38,
+		"y": -456,
+		"root": false
+	},
+	"77agp29a8xae8kgf": {
+		"definition": "mana+50",
+		"x": 0,
+		"y": -494,
+		"root": false
+	},
+	"8jhnexdsbcgom8vd": {
+		"definition": "tunic",
+		"x": 152,
+		"y": -380,
+		"root": false
+	},
+	"z6hmdbdo1y3ks2yf": {
+		"definition": "mana+25",
+		"x": 76,
+		"y": -304,
+		"root": false
+	},
+	"ow42w1f5z744fh5u": {
+		"definition": "pumpkin",
+		"x": -152,
+		"y": -380,
+		"root": false
+	},
+	"a5o8ujbtq09vwfkl": {
+		"definition": "spell_power+5%",
+		"x": -190,
+		"y": -304,
+		"root": false
+	},
+	"789ccfwulgo1yi43": {
+		"definition": "movement_speed+1%",
+		"x": -152,
+		"y": -266,
+		"root": false
+	},
+	"0d0acawqyhyfir0d": {
+		"definition": "movement_speed+1%",
+		"x": -76,
+		"y": -304,
+		"root": false
+	},
+	"1nxigud1ohpr950b": {
+		"definition": "armor_shred+5%",
+		"x": 152,
+		"y": 228,
+		"root": false
+	},
+	"11ari7qif87dgjs3": {
+		"definition": "mining_speed+5%",
+		"x": -190,
+		"y": 114,
+		"root": false
+	},
+	"43qazzsahm8mpp65": {
+		"definition": "stamina+0.5%",
+		"x": 0,
+		"y": -418,
+		"root": false
+	},
+	"4v7pfrohk3invo5h": {
+		"definition": "adamantium",
+		"x": 266,
+		"y": 418,
+		"root": false
+	},
+	"b9ljevk54tqsofj6": {
+		"definition": "diamond",
+		"x": 304,
+		"y": 418,
+		"root": false
+	},
+	"3tlnz9444s3q8x8t": {
+		"definition": "paladin",
+		"x": 266,
+		"y": 342,
+		"root": false
+	},
+	"6295lakfw0ewg4gj": {
+		"definition": "spell_resist+10",
+		"x": 190,
+		"y": 228,
+		"root": false
+	},
+	"78ic5epluwywt3k7": {
+		"definition": "summon_damage+5%",
+		"x": -190,
+		"y": -456,
+		"root": false
+	},
+	"lgd3moehdt74x5g3": {
+		"definition": "health2+",
+		"x": -152,
+		"y": -532,
+		"root": false
+	},
+	"69o7jqm1imyuw6tt": {
+		"definition": "health2+",
+		"x": -76,
+		"y": -570,
+		"root": false
+	}
 }
