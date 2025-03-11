@@ -245,4 +245,155 @@ ItemEvents.modification((event) => {
     item.armorProtection = 2;
     item.armorToughness = 0;
   });
+
+  //// Necromancer armors
+
+  // Tattered
+
+  event.modify("majruszsdifficulty:tattered_helmet", (item) => {
+    item.armorProtection = 2;
+    item.addAttribute(
+      "irons_spellbooks:max_mana",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11bc6",
+      "max mana",
+      25,
+      "addition"
+    );
+  });
+  event.modify("majruszsdifficulty:tattered_chestplate", (item) => {
+    item.armorProtection = 4;
+    item.addAttribute(
+      "irons_spellbooks:max_mana",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11bc5",
+      "max mana",
+      50,
+      "addition"
+    );
+  });
+  event.modify("majruszsdifficulty:tattered_leggings", (item) => {
+    item.armorProtection = 3;
+    item.addAttribute(
+      "irons_spellbooks:max_mana",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11bc4",
+      "max mana",
+      50,
+      "addition"
+    );
+  });
+  event.modify("majruszsdifficulty:tattered_boots", (item) => {
+    item.armorProtection = 3;
+    item.addAttribute(
+      "irons_spellbooks:max_mana",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11bc3",
+      "max mana",
+      25,
+      "addition"
+    );
+  });
+
+  // Phantasm armor
+  event.modify("enemyexpansion:phantasm_helmet", (item) => {
+    item.armorProtection = 3;
+    item.addAttribute(
+      "irons_spellbooks:max_mana",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11ba1",
+      "max mana",
+      75,
+      "addition"
+    );
+    item.addAttribute(
+      "irons_spellbooks:summon_damage",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11ba2",
+      "summon damage",
+      0.01,
+      "addition"
+    );
+  });
+
+  event.modify("enemyexpansion:phantasm_chestplate", (item) => {
+    item.armorProtection = 7;
+    item.addAttribute(
+      "irons_spellbooks:max_mana",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11ba3",
+      "max mana",
+      75,
+      "addition"
+    );
+    item.addAttribute(
+      "irons_spellbooks:summon_damage",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11ba4",
+      "summon damage",
+      0.01,
+      "addition"
+    );
+  });
+
+  event.modify("enemyexpansion:phantasm_leggings", (item) => {
+    item.armorProtection = 5;
+    item.addAttribute(
+      "irons_spellbooks:max_mana",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11ba5",
+      "max mana",
+      75,
+      "addition"
+    );
+    item.addAttribute(
+      "irons_spellbooks:summon_damage",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11ba6",
+      "summon damage",
+      0.01,
+      "addition"
+    );
+  });
+
+  event.modify("enemyexpansion:phantasm_boots", (item) => {
+    item.armorProtection = 3;
+    item.addAttribute(
+      "irons_spellbooks:max_mana",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11ba7",
+      "max mana",
+      75,
+      "addition"
+    );
+    item.addAttribute(
+      "irons_spellbooks:summon_damage",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11ba8",
+      "summon damage",
+      0.01,
+      "addition"
+    );
+  });
+
+  // Netherite Battlemage armor
+  event.modify("irons_spellbooks:netherite_mage_helmet", (item) => {
+    item.addAttribute(
+      "irons_spellbooks:max_mana",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11bb1",
+      "max mana",
+      125,
+      "addition"
+    );
+    item.addAttribute(
+      "irons_spellbooks:summon_damage",
+      "33c4993a-970b-4ff8-9ff3-e73c07c11bb1",
+      "summon damage",
+      0.1,
+      "addition"
+    );
+  });
+
+  event.modify("irons_spellbooks:netherite_mage_chestplate", (item) => {
+    item.armorProtection = 5;
+    item.armorToughness = 0;
+  });
+
+  event.modify("irons_spellbooks:netherite_mage_leggings", (item) => {
+    item.armorProtection = 4;
+    item.armorToughness = 0;
+  });
+
+  event.modify("irons_spellbooks:netherite_mage_boots", (item) => {
+    item.armorProtection = 2;
+    item.armorToughness = 0;
+  });
 });
