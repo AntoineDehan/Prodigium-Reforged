@@ -1,0 +1,37 @@
+{
+  "Restriction Data": {
+    "stage": "stage_necromancer_phantasm",
+    "itemList": [
+      {
+        "item": "enemyexpansion:phantasm_helmet"
+      },
+      {
+        "item": "enemyexpansion:phantasm_leggings"
+      },
+      {
+        "item": "enemyexpansion:phantasm_chestplate"
+      },
+      {
+        "item": "enemyexpansion:phantasm_boots"
+      }
+    ],
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Necromancer's Skill Tree)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

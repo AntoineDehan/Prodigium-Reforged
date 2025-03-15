@@ -1,0 +1,37 @@
+{
+  "Restriction Data": {
+    "stage": "stage_necromancer_tattered",
+    "itemList": [
+      {
+        "item": "majruszsdifficulty:tattered_helmet"
+      },
+      {
+        "item": "majruszsdifficulty:tattered_leggings"
+      },
+      {
+        "item": "majruszsdifficulty:tattered_chestplate"
+      },
+      {
+        "item": "majruszsdifficulty:tattered_boots"
+      }
+    ],
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "Unavailable Item (Unlock it in the Mage's Skill Tree & Defeat the Swampjaw)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": false,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}

@@ -33,11 +33,49 @@
   },
   "blacklistedStructures": {
     "desc:": "List of blacklisted structures, those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by , ",
-    "blacklistedStructures": []
+    "blacklistedStructures": [
+      "prodigium_dungeons:the_theatre",
+
+      "mowziesmobs:umvuthana_grove",
+
+      "irons_spellbooks:catacombs",
+
+      "prodigium_dungeons:frostmaw_cavern",
+
+      "prodigium_dungeons:keeping_castle",
+
+      "prodigium_dungeons:blossom_arena",
+
+      "bosses_of_mass_destruction:gauntlet_arena",
+
+      "bosses_of_mass_destruction:lich_tower",
+
+      "bosses_of_mass_destruction:obsidilith_arena",
+
+      "cataclysm:cursed_pyramid",
+
+      "cataclysm:soul_black_smith",
+
+      "cataclysm:ruined_citadel",
+
+      "cataclysm:sunken_city",
+
+      "cataclysm:ancient_factory",
+
+      "cataclysm:burning_arena",
+
+      "minecraft:ocean_monument",
+
+      "aether:bronze_dungeon",
+
+      "aether:silver_dungeon",
+
+      "aether:gold_dungeon"
+    ]
   },
   "whitelist": {
     "desc:": "Changes the structure blacklist to a whitelist, default: false",
-    "whitelist": false
+    "whitelist": true
   },
   "logRespawns": {
     "desc:": "Log structure respawns happening to the latest.log, default: true",
