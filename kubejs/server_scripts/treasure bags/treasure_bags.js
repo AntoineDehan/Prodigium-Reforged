@@ -24,6 +24,7 @@ let treasureBags = [
   "prodigium:bellringer_treasure_bag",
   "prodigium:dame_fortuna_treasure_bag",
   "prodigium:rosalynne_treasure_bag",
+  "prodigium:king_slime_treasure_bag",
 ];
 
 ServerEvents.tags("item", (event) => {
