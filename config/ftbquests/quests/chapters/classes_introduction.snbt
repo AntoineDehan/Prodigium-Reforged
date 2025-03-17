@@ -163,6 +163,12 @@
 				"It will help you know which armors and more to craft next!"
 			]
 			id: "745FE062B66D6927"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7811ABFA60B5931B"
+				table_id: 9057004262298788782L
+				type: "loot"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
@@ -186,6 +192,12 @@
 				"It will help you know which armors and more to craft next!"
 			]
 			id: "525D3BC989CF49D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DC913972774FD63"
+				table_id: 9057004262298788782L
+				type: "loot"
+			}]
 			secret: true
 			tasks: [{
 				icon: "runes:healing_stone"
@@ -220,6 +232,12 @@
 					id: "47343F384ADC19CE"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "471732A3775B3926"
+					table_id: 8392552378705949885L
+					type: "loot"
 				}
 			]
 			subtitle: "Read me!"
@@ -296,7 +314,7 @@
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
-			description: ["Used for melee (cruader and berserker)"]
+			description: ["Used for melee (crusader and berserker)"]
 			hide_until_deps_visible: true
 			id: "525148F80B756AD6"
 			rewards: [

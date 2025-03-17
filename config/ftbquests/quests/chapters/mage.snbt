@@ -38,6 +38,12 @@
 					random_bonus: 1
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "41764A2250A58787"
+					table_id: 8392552378705949885L
+					type: "loot"
+				}
 			]
 			size: 1.25d
 			tasks: [{
@@ -157,6 +163,7 @@
 		}
 		{
 			dependencies: ["32C900436B8BA216"]
+			description: ["Pick your Magic School armor!"]
 			hide_until_deps_visible: true
 			id: "6AEDFC7887701A98"
 			min_required_tasks: 1
@@ -496,7 +503,7 @@
 		}
 		{
 			dependencies: ["2C81ED5255847C86"]
-			description: ["The other armors are the school armors."]
+			description: [""]
 			hide_until_deps_visible: true
 			id: "32C900436B8BA216"
 			rewards: [
@@ -521,18 +528,32 @@
 				}
 			]
 			size: 1.25d
-			tasks: [{
-				id: "1B293FAFD36D6F62"
-				item: {
-					Count: 1
-					id: "aether:zanite_helmet"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1B293FAFD36D6F62"
+					item: {
+						Count: 1
+						id: "aether:zanite_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					title: "Zanite Armor"
+					type: "item"
 				}
-				title: "Zanite Armor"
-				type: "item"
-			}]
+				{
+					id: "74822A6F9FF25711"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Wizard Armor"
+					type: "item"
+				}
+			]
 			title: "Wizard armors for the Expert Mode"
 			x: 4.5d
 			y: 0.0d

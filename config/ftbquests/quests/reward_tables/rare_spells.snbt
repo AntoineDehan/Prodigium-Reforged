@@ -1,0 +1,312 @@
+{
+	id: "7DB0F163F784A3AE"
+	loot_size: 2
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:heartstop"
+							index: 0
+							level: 6
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:wither_skull"
+							index: 0
+							level: 4
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:counterspell"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:teleport"
+							index: 0
+							level: 2
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:gust"
+							index: 0
+							level: 4
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:summon_vex"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:firebolt"
+							index: 0
+							level: 6
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:heat_surge"
+							index: 0
+							level: 5
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:blessing_of_life"
+							index: 0
+							level: 6
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:haste"
+							index: 0
+							level: 3
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:icicle"
+							index: 0
+							level: 6
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:frostwave"
+							index: 0
+							level: 5
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:shockwave"
+							index: 0
+							level: 5
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:ball_lightning"
+							index: 0
+							level: 6
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:firefly_swarm"
+							index: 0
+							level: 4
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:root"
+							index: 0
+							level: 4
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+	]
+	title: "Rare Spells"
+}

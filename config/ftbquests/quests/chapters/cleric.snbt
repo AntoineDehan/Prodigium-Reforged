@@ -7,7 +7,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "confluence:cross_necklace"
 	id: "55E9F74FAA839A76"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,6 +31,12 @@
 					item: "irons_spellbooks:arcane_essence"
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F33D30413577D73"
+					table_id: 8392552378705949885L
+					type: "loot"
 				}
 			]
 			size: 1.25d

@@ -289,7 +289,7 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				entity: "terrawhips_and_more:thekingslime"
+				entity: "terra_entity:king_slime"
 				icon: "terrawhips_and_more:slime_crown"
 				id: "1D39AC7F95C73EA9"
 				title: "Kill the &3King Slime&r"
