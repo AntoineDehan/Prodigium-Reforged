@@ -180,10 +180,10 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 2.6
+	MonstrosityHealthMultiplier = 2.8
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 5.9
+	MonstrosityDamageMultiplier = 2.8
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
@@ -192,7 +192,7 @@
 	MonstrosityNatureHealing = 10.0
 	#Monstrosity's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageCap = 25.0
+	MonstrosityDamageCap = 20.0
 	#Monstrosity's bodyBlocking verdict
 	NetheritemonstrosityBodyBloking = true
 	#Monstrosity's attack Hp Damage

@@ -213,7 +213,7 @@
 			description: [
 				"Used for Mage (wizard and cleric)"
 				""
-				"You will drop&7 Scrolls&r in chest, those are a one time use spells unless you put them in a spellbook."
+				"You will drop&7 Scrolls&r in a chest, those are a one time use spells unless you put them in a spellbook."
 				""
 				"To do that, you will need to craft an &3Inscription Table&r and have a &6Spell Book&r. "
 				"Put the &6Spell Book&r and the &7Scroll&r in the &3Inscription table&r, you will then be able to use the spells as much as you have enough mana."
