@@ -1,0 +1,32 @@
+{
+  "armorSetName": "necromancer",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "enemyexpansion:phantasm_helmet"
+  },
+  "chest": {
+    "itemKey": "enemyexpansion:phantasm_chestplate"
+  },
+  "legs": {
+    "itemKey": "enemyexpansion:phantasm_leggings"
+  },
+  "boots": {
+    "itemKey": "enemyexpansion:phantasm_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:summon_damage",
+      "value": 0.05,
+      "modifierUUID": "59fab77d-3912-4d21-9165-f736743138f7",
+      "description": "+5% Summon Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 75,
+      "modifierUUID": "51462d00-cc8a-4e6e-afd1-7161104df8c4",
+      "description": "+75 Max Mana"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "armorSetName": "necromancer",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "majruszsdifficulty:tattered_helmet"
+  },
+  "chest": {
+    "itemKey": "majruszsdifficulty:tattered_chestplate"
+  },
+  "legs": {
+    "itemKey": "majruszsdifficulty:tattered_leggings"
+  },
+  "boots": {
+    "itemKey": "majruszsdifficulty:tattered_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:summon_damage",
+      "value": 0.03,
+      "modifierUUID": "5cd97753-3eb2-4094-9b61-b550151a4482",
+      "description": "+3% Summon Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 50,
+      "modifierUUID": "cbe976ac-175e-4260-8bfc-b2546451ba5b",
+      "description": "+50 Max Mana"
+    }
+  ]
+}
