@@ -1231,7 +1231,7 @@
 		}
 		{
 			dependencies: ["44CABC14818B1DFB"]
-			description: ["Summon it by crafting a &9Hauted Bell&r."]
+			description: ["Summon it by crafting a &9Haunted Bell&r."]
 			id: "53EAB8D1FE264583"
 			rewards: [
 				{

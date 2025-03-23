@@ -1,18 +1,18 @@
 {
   "Restriction Data": {
-    "stage": "stage_necromancer_battlemage",
+    "stage": "stage_necromancer_cultist",
     "itemList": [
       {
-        "item": "irons_spellbooks:netherite_mage_helmet"
+        "item": "irons_spellbooks:cultist_helmet"
       },
       {
-        "item": "irons_spellbooks:netherite_mage_leggings"
+        "item": "irons_spellbooks:cultist_leggings"
       },
       {
-        "item": "irons_spellbooks:netherite_mage_chestplate"
+        "item": "irons_spellbooks:cultist_chestplate"
       },
       {
-        "item": "irons_spellbooks:netherite_mage_boots"
+        "item": "irons_spellbooks:cultist_boots"
       }
     ],
     "modList": [],
