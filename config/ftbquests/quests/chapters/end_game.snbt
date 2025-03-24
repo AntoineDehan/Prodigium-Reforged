@@ -39,7 +39,9 @@
 			dependencies: ["4CAE385F554764AE"]
 			description: ["The final boss of the &2Ruined Citadel&r (lower levels of the structure)"]
 			hide_until_deps_visible: false
+			icon: "majruszsdifficulty:enderium_shard"
 			id: "499AD4E69B48B516"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -117,14 +119,21 @@
 			]
 			shape: "hexagon"
 			size: 2.75d
-			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				icon: "majruszsdifficulty:enderium_shard"
-				id: "04D5EB5486245C39"
-				title: "Kill the &4Ender Guardian&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "majruszsdifficulty:enderium_shard"
+					id: "04D5EB5486245C39"
+					title: "Kill the &4Ender Guardian&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "768F0BBF18BBA292"
+					item: "prodigium:ender_guardian_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 16.5d
 			y: 0.0d
 		}
@@ -340,14 +349,21 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:ancient_remnant"
-				icon: "cataclysm:necklace_of_the_desert"
-				id: "59330083685E8CCA"
-				title: "Defeat the &4Ancient Remnant&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: "cataclysm:necklace_of_the_desert"
+					id: "59330083685E8CCA"
+					title: "Defeat the &4Ancient Remnant&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "233D359120B0CF54"
+					item: "prodigium:ancient_remnant_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 20.0d
 			y: 2.0d
 		}
@@ -456,6 +472,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "2D80C06190C7255D"
+					item: "prodigium:obsidilith_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 13.0d
 			y: 1.0d
@@ -463,7 +484,9 @@
 		{
 			dependencies: ["2F2E994C5099612A"]
 			description: ["Summon it by crafting a &9Dusk Key&r."]
+			icon: "meetyourfight:dusk_key"
 			id: "20DC0659957F6560"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -542,14 +565,21 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "meetyourfight:rosalyne"
-				icon: "meetyourfight:dusk_key"
-				id: "7731EA48F2CD6DD2"
-				title: "Kill &4Rosalyne&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:rosalyne"
+					icon: "meetyourfight:dusk_key"
+					id: "7731EA48F2CD6DD2"
+					title: "Kill &4Rosalyne&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1248F33840619C34"
+					item: "prodigium:rosalynne_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 16.0d
 			y: 3.0d
 		}

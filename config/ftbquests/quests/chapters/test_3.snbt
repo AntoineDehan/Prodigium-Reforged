@@ -288,14 +288,21 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "terra_entity:king_slime"
-				icon: "terrawhips_and_more:slime_crown"
-				id: "1D39AC7F95C73EA9"
-				title: "Kill the &3King Slime&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "terra_entity:king_slime"
+					icon: "terrawhips_and_more:slime_crown"
+					id: "1D39AC7F95C73EA9"
+					title: "Kill the &3King Slime&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1565D3F35E9F7FA3"
+					item: "prodigium:king_slime_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 2.0d
 		}
@@ -366,6 +373,14 @@
 				"You can search through the &bExplorer's Compass&r &2The Theatre&r structure to find it!"
 				"You can also ask the guide for a map to the closest &2The Theatre&r structure."
 			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "conjurer_illager:conjurer_hat"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "458DA39CB1A3AE07"
 			min_required_tasks: 1
 			rewards: [
@@ -441,6 +456,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "478B2C3B980CFD72"
+					item: "prodigium:conjurer_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 12.0d
 			y: -1.0d
@@ -448,6 +468,13 @@
 		{
 			dependencies: ["53EAB8D1FE264583"]
 			description: ["Found in the &2Frostmaw Cavern&r"]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "281435B11C0F1243"
 			min_required_tasks: 1
 			rewards: [
@@ -551,20 +578,27 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "mowziesmobs:frostmaw"
-				icon: {
-					Count: 1
-					id: "mowziesmobs:ice_crystal"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					entity: "mowziesmobs:frostmaw"
+					icon: {
+						Count: 1
+						id: "mowziesmobs:ice_crystal"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "2F7F6325F65627FB"
+					title: "Kill the &3Frostmaw&r"
+					type: "kill"
+					value: 1L
 				}
-				id: "2F7F6325F65627FB"
-				title: "Kill the &3Frostmaw&r"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					id: "228D1F7A53D75209"
+					item: "prodigium:frostmaw_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 21.0d
 			y: 2.0d
 		}
@@ -1018,6 +1052,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "7AE84720065BE26F"
+					item: "prodigium:dead_king_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 17.0d
 			y: -1.0d
@@ -1199,6 +1238,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "5C306661E9B7F665"
+					item: "prodigium:sunbird_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 15.0d
 			y: -1.0d
@@ -1232,7 +1276,9 @@
 		{
 			dependencies: ["44CABC14818B1DFB"]
 			description: ["Summon it by crafting a &9Haunted Bell&r."]
+			icon: "meetyourfight:haunted_bell"
 			id: "53EAB8D1FE264583"
+			min_required_tasks: 1
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1266,21 +1312,30 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "meetyourfight:bellringer"
-				icon: "meetyourfight:haunted_bell"
-				id: "3AB84AEFA28459AB"
-				title: "Kill the &3Bellringer&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:bellringer"
+					icon: "meetyourfight:haunted_bell"
+					id: "3AB84AEFA28459AB"
+					title: "Kill the &3Bellringer&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "15BF0BA69F0E4C6F"
+					item: "prodigium:bellringer_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1A1D4191D9A098E9"]
 			description: ["Summon it by crafting a &9Fossil Bait&r."]
+			icon: "meetyourfight:swampjaw_head"
 			id: "4D93BD91D588FC2E"
+			min_required_tasks: 1
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1319,14 +1374,21 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "meetyourfight:swampjaw"
-				icon: "meetyourfight:swampjaw_head"
-				id: "68529F45A5B5E184"
-				title: "Kill the &3Swampjaw&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:swampjaw"
+					icon: "meetyourfight:swampjaw_head"
+					id: "68529F45A5B5E184"
+					title: "Kill the &3Swampjaw&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "71C9057C401D1709"
+					item: "prodigium:swampjaw_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: -1.0d
 		}

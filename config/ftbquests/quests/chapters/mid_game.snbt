@@ -426,6 +426,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "2AC334209C788654"
+					item: "majruszsdifficulty:elder_guardian_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 21.0d
 			y: 0.0d
@@ -535,6 +540,11 @@
 					id: "3A706A75FBBDCAFE"
 					secret: true
 					type: "advancement"
+				}
+				{
+					id: "3B3F0E1C25E9CCE7"
+					item: "majruszsdifficulty:wither_treasure_bag"
+					type: "item"
 				}
 			]
 			x: -1.0d
@@ -657,6 +667,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "65CC0474C17BAF26"
+					item: "majruszsdifficulty:ender_dragon_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 27.5d
 			y: 0.0d
@@ -708,7 +723,9 @@
 		{
 			dependencies: ["78E025D30CD1E607"]
 			description: ["Found in the &2Keeping Castle&r. Both bosses are waiting for you..."]
+			icon: "stalwart_dungeons:keeping_castle_spawner"
 			id: "0EA710182249A301"
+			min_required_tasks: 2
 			rewards: [
 				{
 					auto: "no_toast"
@@ -850,6 +867,16 @@
 					type: "kill"
 					value: 1L
 				}
+				{
+					id: "48B54934F0F9C2B1"
+					item: "prodigium:nether_keeper_treasure_bag"
+					type: "item"
+				}
+				{
+					id: "10BE3424167CB631"
+					item: "prodigium:awful_ghast_treasure_bag"
+					type: "item"
+				}
 			]
 			title: "Kill the &5Nether Keeper&r and &5The Awful Ghast&r"
 			x: 2.0d
@@ -988,7 +1015,15 @@
 		{
 			dependencies: ["476DC0D49480853F"]
 			description: ["Found in his &2Soul Blacksmith&r structure"]
+			icon: {
+				Count: 1
+				id: "stalwart_dungeons:nether_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0BE51A7B2CF00CE8"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1079,27 +1114,36 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
-				icon: {
-					Count: 1
-					id: "stalwart_dungeons:nether_hammer"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: {
+						Count: 1
+						id: "stalwart_dungeons:nether_hammer"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "49BFF0417C3C70C2"
+					title: "Kill the &5Netherite Monstrosity&r"
+					type: "kill"
+					value: 1L
 				}
-				id: "49BFF0417C3C70C2"
-				title: "Kill the &5Netherite Monstrosity&r"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					id: "4EA512E17B6F8813"
+					item: "prodigium:netherite_monstrosity_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3B3B33E6A70E1CAF"]
 			description: ["Found at the last floor of the &2Burning Arena&r. Use &9burning ashes&r dropped from Ignited Revenant onto the Altar of Fire"]
+			icon: "cataclysm:bulwark_of_the_flame"
 			id: "3FDEF8CE2822DEFB"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1181,14 +1225,21 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:ignis"
-				icon: "cataclysm:bulwark_of_the_flame"
-				id: "469575AC0949000F"
-				title: "Kill &5Ignis&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					icon: "cataclysm:bulwark_of_the_flame"
+					id: "469575AC0949000F"
+					title: "Kill &5Ignis&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "44F69D681DBE9B96"
+					item: "prodigium:ignis_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 24.0d
 			y: 0.0d
 		}
@@ -1199,7 +1250,9 @@
 				""
 				"Use a nether star to wake him up"
 			]
+			icon: "cataclysm:emp"
 			id: "14CA102BAD4F6A38"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1293,14 +1346,21 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:the_harbinger"
-				icon: "cataclysm:emp"
-				id: "1E8C22D71228D269"
-				title: "Kill the &5Harbinger&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:emp"
+					id: "1E8C22D71228D269"
+					title: "Kill the &5Harbinger&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "789C980C826E0D55"
+					item: "prodigium:harbinger_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 18.5d
 			y: 0.0d
 		}
@@ -1529,6 +1589,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "605FCC2C30F80D7C"
+					item: "prodigium:slider_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 7.0d
 			y: -5.0d
@@ -1643,6 +1708,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "67FBC68989D9DAB8"
+					item: "prodigium:valkyrie_queen_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 10.0d
 			y: -5.0d
@@ -1745,6 +1815,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "1B79CD83F3EC0355"
+					item: "prodigium:sun_spirit_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 19.0d
 			y: -5.0d
@@ -1842,6 +1917,11 @@
 					id: "37C693D169EB44F1"
 					secret: true
 					type: "advancement"
+				}
+				{
+					id: "50951BCAF1EB5633"
+					item: "prodigium:void_blossom_treasure_bag"
+					type: "item"
 				}
 			]
 			x: 16.0d
@@ -1947,6 +2027,11 @@
 					secret: true
 					type: "advancement"
 				}
+				{
+					id: "40E4AD224A92FF1F"
+					item: "prodigium:nether_gauntlet_treasure_bag"
+					type: "item"
+				}
 			]
 			x: 5.0d
 			y: 0.0d
@@ -1954,7 +2039,9 @@
 		{
 			dependencies: ["64DECE60E0B6FB6D"]
 			description: ["Found in the &2Sunken City&r, use an &9Abyssal Sacrifice&r on the Abyssal Altar to summon the creature. "]
+			icon: "cataclysm:altar_of_abyss"
 			id: "2E4E6F6B59046500"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -2026,14 +2113,21 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				icon: "cataclysm:altar_of_abyss"
-				id: "20108F7B32AB038C"
-				title: "Defeath &5The Leviathan&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: "cataclysm:altar_of_abyss"
+					id: "20108F7B32AB038C"
+					title: "Defeath &5The Leviathan&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2B234CF2EB937D4D"
+					item: "prodigium:leviathan_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 18.5d
 			y: -2.5d
 		}
@@ -2250,7 +2344,9 @@
 		{
 			dependencies: ["777E4D10DDDACAD7"]
 			description: ["Summon it using a &9Devil's Ante&r."]
+			icon: "meetyourfight:devils_ante"
 			id: "113BABA4C72BAEBD"
+			min_required_tasks: 1
 			rewards: [
 				{
 					auto: "no_toast"
@@ -2322,14 +2418,21 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "meetyourfight:dame_fortuna"
-				icon: "meetyourfight:devils_ante"
-				id: "44A45D7F652EA1F2"
-				title: "Kill the &5Dame Fortuna&r"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:dame_fortuna"
+					icon: "meetyourfight:devils_ante"
+					id: "44A45D7F652EA1F2"
+					title: "Kill the &5Dame Fortuna&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1A13E7482C484022"
+					item: "prodigium:dame_fortuna_treasure_bag"
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: -5.0d
 		}
