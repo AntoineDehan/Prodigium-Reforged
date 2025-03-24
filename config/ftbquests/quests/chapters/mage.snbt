@@ -191,18 +191,6 @@
 			size: 1.25d
 			tasks: [
 				{
-					id: "361AEE05B0A8DEA1"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:cultist_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					title: "Blood School Armor"
-					type: "item"
-				}
-				{
 					id: "2DAAD1DD63FB3B14"
 					item: {
 						Count: 1

@@ -184,15 +184,15 @@
 			]
 			size: 1.25d
 			tasks: [{
-				id: "28B48D8C94D46BC4"
+				id: "7731EF7A690C4F03"
 				item: {
 					Count: 1
-					id: "irons_spellbooks:netherite_mage_helmet"
+					id: "irons_spellbooks:cultist_helmet"
 					tag: {
 						Damage: 0
 					}
 				}
-				title: "Netherite Battlemage Armor"
+				title: "Cultist Armor"
 				type: "item"
 			}]
 			title: "Necromancer armor for the Expert Mode"
