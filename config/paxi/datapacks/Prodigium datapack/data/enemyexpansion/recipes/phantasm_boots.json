@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["c c", "b b", "a a"],
+  "key": {
+    "a": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    },
+    "c": {
+      "item": "stalwart_dungeons:awful_crystal"
+    }
+  },
+  "result": {
+    "item": "enemyexpansion:phantasm_boots",
+    "count": 1
+  }
+}

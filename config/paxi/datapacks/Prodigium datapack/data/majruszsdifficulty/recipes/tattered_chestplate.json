@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cloth",
+  "pattern": ["c c", "cac", "aca"],
+  "key": {
+    "c": {
+      "item": "majruszsdifficulty:cloth"
+    },
+    "a": {
+      "item": "prodigium:palladium_ingot"
+    }
+  },
+  "result": {
+    "item": "majruszsdifficulty:tattered_chestplate",
+    "count": 1
+  }
+}

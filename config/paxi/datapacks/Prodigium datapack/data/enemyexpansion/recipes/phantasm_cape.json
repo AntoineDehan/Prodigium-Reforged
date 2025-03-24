@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["a a", "bab", "bcb"],
+  "key": {
+    "a": {
+      "item": "minecraft:bone"
+    },
+    "b": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "c": {
+      "item": "stalwart_dungeons:awful_crystal"
+    }
+  },
+  "result": {
+    "item": "enemyexpansion:phantasm_chestplate",
+    "count": 1
+  }
+}

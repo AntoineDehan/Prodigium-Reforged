@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "b": {
+      "item": "enemyexpansion:healing_eye"
+    }
+  },
+  "result": {
+    "item": "enemyexpansion:phantom_eye",
+    "count": 1
+  }
+}
