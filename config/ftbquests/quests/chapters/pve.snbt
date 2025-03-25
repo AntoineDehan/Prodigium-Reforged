@@ -104,20 +104,6 @@
 					xp_levels: 2
 				}
 				{
-					id: "157A03BF4DE252BB"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "ma-enchants:wisdom"
-								lvl: 3s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2942DF25A8FBA7C4"
 					table_id: 8049615661713598272L
@@ -801,7 +787,7 @@
 			]
 			secret: true
 			tasks: [{
-				icon: "fantasyfurniture:bone/skeleton/skull"
+				icon: "minecraft:skeleton_skull"
 				id: "2EFD585DD6C37C63"
 				stat: "minecraft:deaths"
 				type: "stat"

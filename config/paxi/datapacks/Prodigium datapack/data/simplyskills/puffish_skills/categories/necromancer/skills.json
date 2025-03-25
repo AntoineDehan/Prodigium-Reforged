@@ -47,12 +47,6 @@
 		"y": -950,
 		"root": false
 	},
-	"po1zpua99okzv0iy": {
-		"definition": "necromancerWinterborn",
-		"x": -380,
-		"y": 380,
-		"root": false
-	},
 	"mx19tvgt8bqtnjpz": {
 		"definition": "necromancerDeathWarden",
 		"x": -76,
@@ -131,12 +125,6 @@
 		"y": -836,
 		"root": false
 	},
-	"15ij8zrlxd00ykqf": {
-		"definition": "necromancerDelightfulSuffering",
-		"x": -418,
-		"y": 380,
-		"root": false
-	},
 	"2tfjkx7b6mgn0xgc": {
 		"definition": "wizard",
 		"x": 0,
@@ -192,25 +180,25 @@
 		"root": false
 	},
 	"bggfi92ktcmolgzr": {
-		"definition": "mana+25",
+		"definition": "blood_spell_power+5%",
 		"x": 38,
 		"y": -532,
 		"root": false
 	},
 	"cbuv1mpusy9uli4f": {
-		"definition": "mana+25",
+		"definition": "blood_spell_power+5%",
 		"x": 38,
 		"y": -570,
 		"root": false
 	},
 	"phljx6dz895twdfc": {
-		"definition": "mana+25",
+		"definition": "blood_spell_power+5%",
 		"x": 38,
 		"y": -608,
 		"root": false
 	},
 	"if5lfydm9eufrfiq": {
-		"definition": "mana+50",
+		"definition": "blood_spell_power+10%",
 		"x": 76,
 		"y": -608,
 		"root": false
@@ -264,7 +252,7 @@
 		"root": false
 	},
 	"4u0zgdouq2jwmfpa": {
-		"definition": "spell_power+5%",
+		"definition": "mana+25",
 		"x": -38,
 		"y": -760,
 		"root": false
@@ -354,13 +342,13 @@
 		"root": false
 	},
 	"24z3bwf46pkkx4cb": {
-		"definition": "health2+",
+		"definition": "blood_spell_power+5%",
 		"x": -114,
 		"y": 380,
 		"root": false
 	},
 	"28ybdwkodfm61q9j": {
-		"definition": "health2+",
+		"definition": "blood_spell_power+5%",
 		"x": -152,
 		"y": 380,
 		"root": false
@@ -390,13 +378,13 @@
 		"root": false
 	},
 	"srrwtsfhvo0ynlan": {
-		"definition": "knockback_resistance+5%",
+		"definition": "health2+",
 		"x": 114,
 		"y": 380,
 		"root": false
 	},
 	"ef6uyw5wwk5o4vy4": {
-		"definition": "knockback_resistance+5%",
+		"definition": "health2+",
 		"x": 152,
 		"y": 380,
 		"root": false

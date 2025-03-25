@@ -596,11 +596,6 @@
 					item: "corail_woodcutter:oak_woodcutter"
 					type: "item"
 				}
-				{
-					id: "2253EB9503CB5CF6"
-					item: "fantasyfurniture:furniture_station"
-					type: "item"
-				}
 			]
 			title: "Prepare your workstations !"
 			x: 3.0d
