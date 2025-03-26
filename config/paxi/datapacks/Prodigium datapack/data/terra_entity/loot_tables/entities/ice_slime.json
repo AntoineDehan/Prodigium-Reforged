@@ -8,7 +8,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:slime_ball",
-          "weight": 1,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",

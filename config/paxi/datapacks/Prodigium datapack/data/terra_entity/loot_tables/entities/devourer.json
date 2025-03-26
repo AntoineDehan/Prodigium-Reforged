@@ -3,37 +3,7 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "treasure": false
-            }
-          ],
-          "name": "terra_entity:eater_of_world_spawn_egg"
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:binomial",
-        "n": 1.0,
-        "p": 0.1
-      }
+      "entries": []
     }
   ],
   "random_sequence": "terra_entity:entities/devourer"
