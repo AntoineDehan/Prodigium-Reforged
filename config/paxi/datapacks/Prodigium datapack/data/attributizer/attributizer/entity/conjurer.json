@@ -1,0 +1,9 @@
+{
+  "conjurer_illager:conjurer": [
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.4,
+      "operation": "ADDITION"
+    }
+  ]
+}

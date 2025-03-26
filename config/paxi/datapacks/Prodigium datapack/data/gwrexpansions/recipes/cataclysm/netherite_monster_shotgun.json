@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["N  ", "SNM", " SL"],
+  "key": {
+    "N": { "item": "cataclysm:ancient_metal_ingot" },
+    "S": { "tag": "forge:rods/wooden" },
+    "M": { "item": "cataclysm:monstrous_horn" },
+    "L": { "tag": "minecraft:logs" }
+  },
+  "result": { "item": "gwrexpansions:netherite_monster_shotgun" }
+}
