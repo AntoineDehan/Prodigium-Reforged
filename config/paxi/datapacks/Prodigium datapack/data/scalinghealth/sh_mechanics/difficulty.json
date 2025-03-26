@@ -52,7 +52,7 @@
         "entities": [
           "aether:valkyrie_queen",
           "aether:sun_spirit",
-          "terrawhips_and_more:thekingslime",
+          "terra_entity:king_slime",
           "aether:slider",
           "bosses_of_mass_destruction:void_blossom",
           "bosses_of_mass_destruction:gauntlet",
@@ -76,7 +76,11 @@
           "irons_spellbooks:dead_king",
           "cataclysm:the_leviathan",
           "mowziesmobs:umvuthi",
-          "mowziesmobs:frostmaw"
+          "mowziesmobs:frostmaw",
+          "meetyourfight:swampjaw",
+          "meetyourfight:bellringer",
+          "meetyourfight:dame_fortuna",
+          "meetyourfight:rosalyne"
         ],
         "onKilled": "difficulty + 10"
       }

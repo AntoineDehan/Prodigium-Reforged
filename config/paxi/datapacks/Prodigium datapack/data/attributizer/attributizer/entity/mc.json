@@ -1,18 +1,13 @@
 {
-  "meetyourfight:swampjaw": [
+  "minecraft:warden": [
     {
-      "attribute": "irons_spellbooks:blood_magic_resist",
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
       "modify": 0.25,
       "operation": "ADDITION"
     },
     {
-      "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": -0.35,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:eldritch_magic_resist",
-      "modify": -0.15,
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.55,
       "operation": "ADDITION"
     },
     {
@@ -36,67 +31,30 @@
       "operation": "ADDITION"
     },
     {
-      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "attribute": "irons_spellbooks:fire_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.15,
-      "operation": "ADDITION"
-    }
-  ],
-  "meetyourfight:bellringer": [
-    {
-      "attribute": "irons_spellbooks:holy_magic_resist",
-      "modify": -0.35,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:evocation_magic_resist",
-      "modify": 0.05,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": 0.05,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:eldritch_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:nature_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:lightning_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
     }
   ],
-  "meetyourfight:dame_fortuna": [
+  "minecraft:ender_dragon": [
     {
-      "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": -0.35,
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": 0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.55,
       "operation": "ADDITION"
     },
     {
@@ -111,58 +69,6 @@
     },
     {
       "attribute": "irons_spellbooks:lightning_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:holy_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:evocation_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    }
-  ],
-  "meetyourfight:rosalyne": [
-    {
-      "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": -0.35,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:eldritch_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:nature_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:lightning_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:ice_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
     },
@@ -184,6 +90,61 @@
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": -0.15,
+      "operation": "ADDITION"
+    }
+  ],
+  "minecraft:elder_guardian": [
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": 0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.55,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    }
+  ],
+  "a": [
+    {
+      "attribute": "minecraft:generic.luck",
+      "min": -1,
+      "max": 1,
       "operation": "ADDITION"
     }
   ]

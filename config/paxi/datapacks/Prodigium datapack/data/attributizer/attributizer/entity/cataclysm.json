@@ -2,79 +2,329 @@
   "cataclysm:netherite_monstrosity": [
     {
       "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": 0.4,
+      "modify": 0.25,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": -0.4,
+      "modify": -0.55,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
       "operation": "ADDITION"
     }
   ],
   "cataclysm:the_harbinger": [
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": 0.5,
+      "modify": 0.35,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": -0.2,
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": -0.15,
       "operation": "ADDITION"
     }
   ],
   "cataclysm:the_leviathan": [
     {
       "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": -0.2,
+      "modify": -0.05,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": 0.2,
+      "modify": 0.05,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": 0.2,
+      "modify": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
       "operation": "ADDITION"
     }
   ],
   "cataclysm:ignis": [
     {
       "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": 0.4,
+      "modify": 0.25,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": -0.4,
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
       "operation": "ADDITION"
     }
   ],
   "cataclysm:ancient_remnant": [
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": 0.4,
+      "modify": 0.25,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": -0.4,
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": -0.15,
       "operation": "ADDITION"
     }
   ],
   "cataclysm:ender_golem": [
     {
       "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": 0.4,
+      "modify": 0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
       "operation": "ADDITION"
     }
   ],
   "cataclysm:ender_guardian": [
     {
       "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": 0.4,
+      "modify": 0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
       "operation": "ADDITION"
     }
   ]

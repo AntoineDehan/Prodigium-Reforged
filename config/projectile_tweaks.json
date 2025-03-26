@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "entities": {
+    "aether:valkyrie_queen": 0.15,
+    "aether:sun_spirit": 0.15,
+    "terra_entity:king_slime": 0.15,
+    "aether:slider": 0.15,
+    "bosses_of_mass_destruction:void_blossom": 0.15,
+    "bosses_of_mass_destruction:gauntlet": 0.15,
+    "bosses_of_mass_destruction:lich": 0.15,
+    "bosses_of_mass_destruction:obsidilith": 0.15,
+    "minecraft:wither": 0.15,
+    "minecraft:ender_dragon": 0.15,
+    "conjurer_illager:conjurer": 0.15,
+    "minecraft:elder_guardian": 0.15,
+    "stalwart_dungeons:nether_keeper": 0.15,
+    "stalwart_dungeons:awful_ghast": 0.15,
+    "cataclysm:netherite_monstrosity": 0.15,
+    "cataclysm:ignis": 0.15,
+    "minecraft:warden": 0.15,
+    "cataclysm:the_harbinger": 0.15,
+    "alexsmobs:void_worm": 0.15,
+    "stalwart_dungeons:shelterer": 0.15,
+    "cataclysm:ender_guardian": 0.15,
+    "cataclysm:ender_golem": 0.15,
+    "cataclysm:ancient_remnant": 0.15,
+    "irons_spellbooks:dead_king": 0.15,
+    "cataclysm:the_leviathan": 0.15,
+    "mowziesmobs:umvuthi": 0.15,
+    "mowziesmobs:frostmaw": 0.15,
+    "meetyourfight:swampjaw": 0.15,
+    "meetyourfight:bellringer": 0.15,
+    "meetyourfight:dame_fortuna": 0.15,
+    "meetyourfight:rosalyne": 0.15
+  },
+  "difficulty_multipliers": {
+    "normal": 0.0,
+    "hardcore": 0.4,
+    "hard": 0.1,
+    "easy": 0.0,
+    "peaceful": 0.0
+  }
+}
