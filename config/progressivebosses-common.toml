@@ -87,7 +87,7 @@
 		"Bonus Experience" = 60.0
 		#If true default mod drops are added to the Wither.
 		#Note that replacing the Wither loot table (e.g. via DataPack) will automatically remove the Injected loot.
-		"Inject Default Loot" = true
+		"Inject Default Loot" = false
 
 	#Handles various small features, such as the explosion
 	[Wither.Misc]
