@@ -126,7 +126,7 @@
 		"root": false
 	},
 	"2tfjkx7b6mgn0xgc": {
-		"definition": "wizard",
+		"definition": "phantasm",
 		"x": 0,
 		"y": -228,
 		"root": false
@@ -318,15 +318,9 @@
 		"root": false
 	},
 	"0412j73bt64hfmd3": {
-		"definition": "zanite",
+		"definition": "cultist",
 		"x": 0,
 		"y": 266,
-		"root": false
-	},
-	"chtr43t75sib91q5": {
-		"definition": "school",
-		"x": 0,
-		"y": 304,
 		"root": false
 	},
 	"98ortdbslmjai2vc": {

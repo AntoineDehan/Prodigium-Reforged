@@ -554,19 +554,25 @@
 	"78ic5epluwywt3k7": {
 		"definition": "summon_damage+5%",
 		"x": -190,
-		"y": -456,
+		"y": -570,
 		"root": false
 	},
 	"lgd3moehdt74x5g3": {
 		"definition": "health2+",
-		"x": -152,
-		"y": -532,
+		"x": -114,
+		"y": -608,
 		"root": false
 	},
 	"69o7jqm1imyuw6tt": {
 		"definition": "health2+",
 		"x": -76,
 		"y": -570,
+		"root": false
+	},
+	"1xwcsww3h8sxltma": {
+		"definition": "tattered",
+		"x": -152,
+		"y": -494,
 		"root": false
 	}
 }

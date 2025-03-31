@@ -2581,14 +2581,6 @@
           "value": 0.05,
           "operation": "multiply_total"
         }
-      },
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:spell_power",
-          "value": 0.05,
-          "operation": "multiply_total"
-        }
       }
     ]
   },
@@ -4499,12 +4491,6 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:crusader"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_crusader_weapons"
         }
       }
     ]
@@ -10522,13 +10508,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berserker_adamantium"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 78DE64EE0773BEF4"
+          "command": "thitemstages add @s stage_berseker_adamantium"
         }
       }
     ]
@@ -10546,7 +10526,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berserker_diamond"
+          "command": "thitemstages add @s stage_berseker_diamond"
         }
       }
     ]
@@ -10817,12 +10797,6 @@
         "data": {
           "command": "thitemstages add @s stage_ranged_palladium"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 686B5BA848725480"
-        }
       }
     ]
   },
@@ -10878,12 +10852,6 @@
           "attribute": "irons_spellbooks:max_mana",
           "value": 75,
           "operation": "addition"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_mage"
         }
       }
     ]
@@ -10982,6 +10950,54 @@
           "value": 0.05,
           "operation": "addition"
         }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:arcane",
+          "value": 5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:fire",
+          "value": 5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:frost",
+          "value": 5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:lightning",
+          "value": 5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:soul",
+          "value": 5,
+          "operation": "addition"
+        }
       }
     ]
   },
@@ -11000,6 +11016,54 @@
         "data": {
           "attribute": "irons_spellbooks:spell_power",
           "value": 0.1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:arcane",
+          "value": 10,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:fire",
+          "value": 10,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:frost",
+          "value": 10,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 10,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:lightning",
+          "value": 10,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:soul",
+          "value": 10,
           "operation": "addition"
         }
       }
@@ -11022,11 +11086,59 @@
           "value": 0.2,
           "operation": "addition"
         }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:arcane",
+          "value": 20,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:fire",
+          "value": 20,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:frost",
+          "value": 20,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 20,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:lightning",
+          "value": 20,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:soul",
+          "value": 20,
+          "operation": "addition"
+        }
       }
     ]
   },
   "summon_damage+5%": {
-    "title": "+5% Summoning Damage",
+    "title": "+7% Summoning Damage",
     "icon": {
       "type": "effect",
       "data": {
@@ -11038,14 +11150,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:summon_damage",
-          "value": 0.05,
+          "value": 0.07,
           "operation": "addition"
         }
       }
     ]
   },
   "summon_damage+10%": {
-    "title": "+10% Summon Damage",
+    "title": "+15% Summon Damage",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11058,14 +11170,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:summon_damage",
-          "value": 0.1,
+          "value": 0.15,
           "operation": "addition"
         }
       }
     ]
   },
   "lightning_spell_power+5%": {
-    "title": "+5% Lightning Spell Power",
+    "title": "+7% Lightning Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11077,14 +11189,22 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:lightning_spell_power",
-          "value": 0.05,
+          "value": 0.07,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:lightning",
+          "value": 8,
           "operation": "addition"
         }
       }
     ]
   },
   "lightning_spell_power+10%": {
-    "title": "+10% Lightning Spell Power",
+    "title": "+15% Lightning Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11097,7 +11217,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:lightning_spell_power",
-          "value": 0.1,
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:lightning",
+          "value": 17,
           "operation": "addition"
         }
       }
@@ -11124,7 +11252,7 @@
     ]
   },
   "ice_spell_power+5%": {
-    "title": "+5% Ice Spell Power",
+    "title": "+7% Ice Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11136,14 +11264,22 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:ice_spell_power",
-          "value": 0.05,
+          "value": 0.07,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:frost",
+          "value": 8,
           "operation": "addition"
         }
       }
     ]
   },
   "ice_spell_power+10%": {
-    "title": "+10% Ice Spell Power",
+    "title": "+15% Ice Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11156,7 +11292,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:ice_spell_power",
-          "value": 0.1,
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:frost",
+          "value": 17,
           "operation": "addition"
         }
       }
@@ -11183,7 +11327,7 @@
     ]
   },
   "holy_spell_power+5%": {
-    "title": "+5% Holy Spell Power",
+    "title": "+7% Holy Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11195,14 +11339,22 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:holy_spell_power",
-          "value": 0.05,
+          "value": 0.07,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 8,
           "operation": "addition"
         }
       }
     ]
   },
   "holy_spell_power+10%": {
-    "title": "+10% Holy Spell Power",
+    "title": "+15% Holy Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11215,7 +11367,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:holy_spell_power",
-          "value": 0.1,
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 17,
           "operation": "addition"
         }
       }
@@ -11242,7 +11402,7 @@
     ]
   },
   "fire_spell_power+5%": {
-    "title": "+5% Fire Spell Power",
+    "title": "+7% Fire Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11254,14 +11414,22 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:fire_spell_power",
-          "value": 0.05,
+          "value": 0.07,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:fire",
+          "value": 8,
           "operation": "addition"
         }
       }
     ]
   },
   "fire_spell_power+10%": {
-    "title": "+10% Fire Spell Power",
+    "title": "+15% Fire Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11274,7 +11442,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:fire_spell_power",
-          "value": 0.1,
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:fire",
+          "value": 17,
           "operation": "addition"
         }
       }
@@ -11301,7 +11477,7 @@
     ]
   },
   "evocation_spell_power+5%": {
-    "title": "+5% Evocation Spell Power",
+    "title": "+7% Evocation Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11313,14 +11489,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:evocation_spell_power",
-          "value": 0.05,
+          "value": 0.07,
           "operation": "addition"
         }
       }
     ]
   },
   "evocation_spell_power+10%": {
-    "title": "+10% Evocation Spell Power",
+    "title": "+17% Evocation Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11333,7 +11509,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:evocation_spell_power",
-          "value": 0.1,
+          "value": 0.17,
           "operation": "addition"
         }
       }
@@ -11360,7 +11536,7 @@
     ]
   },
   "ender_spell_power+5%": {
-    "title": "+5% Ender Spell Power",
+    "title": "+7% Ender Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11372,14 +11548,22 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:ender_spell_power",
-          "value": 0.05,
+          "value": 0.07,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:arcane",
+          "value": 8,
           "operation": "addition"
         }
       }
     ]
   },
   "ender_spell_power+10%": {
-    "title": "+10% Ender Spell Power",
+    "title": "+15% Ender Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11392,7 +11576,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:ender_spell_power",
-          "value": 0.1,
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:arcane",
+          "value": 17,
           "operation": "addition"
         }
       }
@@ -11419,7 +11611,7 @@
     ]
   },
   "blood_spell_power+5%": {
-    "title": "+5% Blood Spell Power",
+    "title": "+7% Blood Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11431,14 +11623,22 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:blood_spell_power",
-          "value": 0.05,
+          "value": 0.07,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:soul",
+          "value": 8,
           "operation": "addition"
         }
       }
     ]
   },
   "blood_spell_power+10%": {
-    "title": "+10% Blood Spell Power",
+    "title": "+15% Blood Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11451,7 +11651,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:blood_spell_power",
-          "value": 0.1,
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:soul",
+          "value": 17,
           "operation": "addition"
         }
       }
@@ -11511,17 +11719,11 @@
         "data": {
           "command": "thitemstages add @s stage_wizard_pumpkin"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 745FE062B66D6927"
-        }
       }
     ]
   },
   "swim_speed+3%": {
-    "title": "+10% Swim Speed",
+    "title": "+3% Swim Speed",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11534,7 +11736,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "forge:swim_speed",
-          "value": 0.1,
+          "value": 3.0,
           "operation": "addition"
         }
       }
@@ -11591,7 +11793,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berserker_tungsten"
+          "command": "thitemstages add @s stage_berseker_tungsten"
         }
       }
     ]
@@ -11609,7 +11811,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berserker_phoenix"
+          "command": "thitemstages add @s stage_berseker_phoenix"
         }
       }
     ]
@@ -11627,7 +11829,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_berserker_chorundum"
+          "command": "thitemstages add @s stage_berseker_chorundum"
         }
       }
     ]
@@ -11646,12 +11848,6 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_crusader_paladin"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 44FCF260737D0785"
         }
       }
     ]
@@ -11725,12 +11921,6 @@
         "data": {
           "command": "thitemstages add @s stage_cleric_tunic"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 525D3BC989CF49D9"
-        }
       }
     ]
   },
@@ -11801,7 +11991,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_wizard_robe"
+          "command": "thitemstages add @s stage_wizard_zanite"
         }
       }
     ]
@@ -11820,6 +12010,60 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_wizard_school"
+        }
+      }
+    ]
+  },
+  "tattered": {
+    "title": "Unlock Tattered Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "majruszsdifficulty:tattered_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_necromancer_tattered"
+        }
+      }
+    ]
+  },
+  "phantasm": {
+    "title": "Unlock Phantasm Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "enemyexpansion:phantasm_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_necromancer_phantasm"
+        }
+      }
+    ]
+  },
+  "cultist": {
+    "title": "Unlock Cultist Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cultist_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_necromancer_cultist"
         }
       }
     ]

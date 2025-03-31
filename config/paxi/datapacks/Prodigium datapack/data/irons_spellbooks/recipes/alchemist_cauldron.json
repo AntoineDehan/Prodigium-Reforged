@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["I I", "ICI", "EFE"],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "E": {
+      "item": "prodigium:orichalcum_ingot"
+    },
+    "F": {
+      "item": "irons_spellbooks:cinder_essence"
+    },
+    "C": {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:alchemist_cauldron",
+    "count": 1
+  }
+}

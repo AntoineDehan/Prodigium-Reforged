@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "sophisticatedstorage:upgrade_base"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "O": {
+      "item": "prodigium:orichalcum_ingot"
+    }
+  },
+  "pattern": ["LLL", "PBP", "POP"],
+  "result": {
+    "item": "sophisticatedstorage:decoration_table"
+  },
+  "show_notification": true
+}
