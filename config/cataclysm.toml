@@ -174,10 +174,10 @@
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
 	#Range: 1 ~ 1000000
-	LavabombMagazine = 2
+	LavabombMagazine = 1
 	#Monstrosity's Lavabomb amount
 	#Range: 1 ~ 1000000
-	Lavabombamount = 3
+	Lavabombamount = 2
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealthMultiplier = 2.8

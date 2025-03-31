@@ -8,12 +8,12 @@ generalPercentages:
 lifestealPercentages:
     .*: 0.05
 # The maximum amount of health carried by a life orb
-maxOrbHealth: 3.0
+maxOrbHealth: 0.5
 # The minimum number of life orbs dropped from a slain entity. This does not affect the total amount of health they will collectively restore
 minOrbsAmount: 0
 # The maximum distance in blocks from which a life orb can be attracted to the nearest player
-orbFollowDistance: 8
+orbFollowDistance: 7
 # Time in seconds before the removal of the life orb
-orbLifetime: 15
+orbLifetime: 5
 # Should life orbs drop when a mob is killed only by a player, or should whenever it dies
 shouldBeKilledByPlayer: true
