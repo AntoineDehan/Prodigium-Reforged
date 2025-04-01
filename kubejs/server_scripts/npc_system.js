@@ -64,6 +64,30 @@ let NPC_HOME_COMMANDS = {
     "easy_npc navigation set home 497c50ac-c667-4c70-a784-a1e3f07f35c5 ~ ~ ~",
 };
 
+let NPC_QUEST_COMMANDS = {
+  "minecraft:crafting_table":
+    "ftbquests change_progress @p complete 384F487E612876CC",
+  "drinkbeer:bartending_table_normal":
+    "ftbquests change_progress @p complete 6F79F027D77C3DAD",
+  "doggytalents:dog_bed":
+    "ftbquests change_progress @p complete 70ABE0C1C74091F0",
+  "irons_spellbooks:alchemist_cauldron":
+    "ftbquests change_progress @p complete 47E990C188715ECC",
+  "minecraft:red_bed": "ftbquests change_progress @p complete 17977EFFC2672EBA",
+  "numismatic-overhaul:shop":
+    "ftbquests change_progress @p complete 59E9072E7D9FCB02",
+  "cataclysm:mechanical_fusion_anvil":
+    "ftbquests change_progress @p complete 57002871DA02FC72",
+  "minecraft:flower_pot":
+    "ftbquests change_progress @p complete 4F808E1A98977B6C",
+  "quark:gunpowder_sack":
+    "ftbquests change_progress @p complete 1775200C7A70CD7E",
+  "aquaculture:tackle_box":
+    "ftbquests change_progress @p complete 6EED8FB36CADB75B",
+  "sophisticatedstorage:decoration_table":
+    "ftbquests change_progress @p complete 40FF13E4F5C0D544",
+};
+
 let categoryBlocks = {
   chairs: [
     "valhelsia_furniture:oak_chair",
@@ -804,7 +828,9 @@ BlockEvents.placed((event) => {
         "~ ~ ~",
         `${pos.x} ${pos.y} ${pos.z}`
       );
+      let questCommand = NPC_QUEST_COMMANDS[block.id];
       player.server.runCommand(homeCommand);
+      player.server.runCommand(questCommand);
       player.tell("This housing is suitable.");
     }
   }
