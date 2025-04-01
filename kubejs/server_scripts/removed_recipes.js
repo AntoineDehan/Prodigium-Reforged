@@ -18,4 +18,30 @@ ServerEvents.recipes((event) => {
 
   // Tom's Simple Storage
   event.remove({ mod: "toms_storage" });
+
+  // Stick issue kek
+  event.remove({ output: "simple_weapons:ironwood_dagger" });
+  event.remove({ output: "simple_weapons:ironwood_scythe" });
+  event.remove({ output: "simple_weapons:ironwood_sickle" });
+  event.remove({ output: "simple_weapons:ironwood_greatsword" });
+  event.remove({ output: "simple_weapons:ironwood_katana" });
+  event.remove({ output: "simple_weapons:ironwood_scimitar" });
+  event.remove({ output: "simple_weapons:knightmetal_dagger" });
+  event.remove({ output: "simple_weapons:knightmetal_scythe" });
+  event.remove({ output: "simple_weapons:knightmetal_sickle" });
+  event.remove({ output: "simple_weapons:knightmetal_fist" });
+  event.remove({ output: "simple_weapons:knightmetal_spear" });
+  event.remove({ output: "simple_weapons:knightmetal_greatsword" });
+  event.remove({ output: "simple_weapons:knightmetal_katana" });
+  event.remove({ output: "simple_weapons:knightmetal_scimitar" });
+  event.remove({ output: "simple_weapons:steeleaf_dagger" });
+  event.remove({ output: "simple_weapons:steeleaf_fist" });
+  event.remove({ output: "simple_weapons:steeleaf_scythe" });
+  event.remove({ output: "simple_weapons:steeleaf_sickle" });
+  event.remove({ output: "simple_weapons:steeleaf_spear" });
+  event.remove({ output: "simple_weapons:steeleaf_greatsword" });
+  event.remove({ output: "simple_weapons:steeleaf_katana" });
+  event.remove({ output: "simple_weapons:steeleaf_scimitar" });
+  event.remove({ output: "simple_weapons:ironwood_fist" });
+  event.remove({ output: "simple_weapons:ironwood_spear" });
 });
