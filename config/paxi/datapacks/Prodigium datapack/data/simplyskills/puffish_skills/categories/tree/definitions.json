@@ -10853,6 +10853,12 @@
           "value": 75,
           "operation": "addition"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_mage"
+        }
       }
     ]
   },
