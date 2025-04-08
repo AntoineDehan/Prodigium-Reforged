@@ -11,6 +11,15 @@
       ]
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "confluence:demon_heart"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 1,
         "max": 2
@@ -19,16 +28,20 @@
         {
           "type": "minecraft:item",
           "name": "cataclysm:ignitium_ingot",
-          "weight": 5
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "cataclysm:music_disc_ignis",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "confluence:demon_heart",
           "weight": 4
         }
       ]

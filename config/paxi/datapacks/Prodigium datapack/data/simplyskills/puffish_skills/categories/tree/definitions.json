@@ -3302,6 +3302,12 @@
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:berserker"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_crusader_weapons"
+        }
       }
     ]
   },
