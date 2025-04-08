@@ -1,0 +1,39 @@
+
+["Legendary Beasts"]
+	#0 means disabled, 1 is normal, 2 is doubled, 3 is tripled
+	"Mushlin Spewer Spawning" = 1.0
+	"Piglin Executioner Spawning" = 1.0
+	"Furnace Spawning" = 1.0
+	#Rare beast spawn configurations need returned true/false values
+	"Rare Furnace Spawning" = true
+	"Rare Mushlin Spitter Spawning" = true
+	"Rare Piglin Executioner Spawning" = true
+
+["Legendary Items"]
+	#The value in half hearts recovered after using the spore bundle (default is 6)
+	"Spore Bundle Healing" = 6.0
+	#Sets the amount of seconds the player is effected with 'antidote' after using the Spore Bundle (Default is 20)
+	"Spore Bundle Antidote" = 20.0
+	#Sets the amount of seconds the player receives strength for after killing a mob (default is 2)
+	"Executioner Cowl Strength" = 2.0
+	#Sets the amount of seconds between damage ticks of the Molten Coal (Default is 3)
+	"Molten Coal Damage timer" = 3.0
+
+[Other]
+	#Totem of Beasts range (default is 100)
+	"Beast Totem Range" = 100.0
+	#Determines the amount of hitpoints an auto mending repair heals for (default is 100)
+	"Auto Mending Restoration" = 100.0
+	#Sets the amount of seconds (in ticks) crimson contaminant infects for (default is 300)
+	"Hemorrhage Timer" = 300.0
+	#Determines if the Luminous:Tag startup message appears
+	"Startup Message" = true
+
+[Rituals]
+	#Enter the item registry name of any items you do NOT want to be affected by the auto mending ritual
+	"Mending Blacklist Item One" = ""
+	"Mending Blacklist Item Two" = ""
+	"Mending Blacklist Item Three" = ""
+	"Mending Blacklist Item Four" = ""
+	"Mending Blacklist Item Five" = ""
+

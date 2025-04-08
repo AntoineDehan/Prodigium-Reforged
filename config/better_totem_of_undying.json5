@@ -1,0 +1,66 @@
+{
+	"defaultTotemFeatures": {
+		"healthUponUse": 1,
+		"clearEffectsUponUse": true,
+		"fireResistance": {
+			"enabled": true,
+			"duration": 800
+		},
+		"regeneration": {
+			"enabled": true,
+			"duration": 900,
+			"amplifier": 1
+		},
+		"absorption": {
+			"enabled": true,
+			"duration": 100,
+			"amplifier": 1
+		}
+	},
+	"newTotemFeatures": {
+		"canUseTotemFromInventory": false,
+		// Apply fire resistance and water breathing effects only when necessary. This means that you will receive these effects only if you are on fire or underwater, respectively.
+		"applyEffectsOnlyWhenNecessary": true,
+		"customEffects": [],
+		"waterBreathing": {
+			"enabled": true,
+			"duration": 800
+		},
+		"destroyBlocks": {
+			"whenSuffocating": true,
+			"whenFullyFrozen": true,
+			"totemCantDestroy": []
+		},
+		"knockbackMobs": {
+			"enabled": true,
+			"radius": 3.0,
+			"strength": 2.5
+		},
+		"cooldown": {
+			"enabled": false,
+			"cooldown": 200
+		},
+		"teleportOutOfVoid": {
+			"enabled": true,
+			"teleportHeightOffset": 64
+		},
+		"totemResistanceType": {
+			// If true, totems with the Infinity enchantment will have unlimited uses (they won't be consumed)
+			"infinity": false
+		}
+	},
+	"charm": {
+		"canUseTotemFromCharmSlot": true,
+		"displayTotemOnChest": true,
+		// The X offset for rendering the totem on the player
+		"xOffset": 0.0,
+		// The Y offset for rendering the totem on the player
+		"yOffset": 0.0,
+		// The Z offset for rendering the totem on the player
+		"zOffset": 0.0
+	},
+	"blacklists": {
+		"blacklistedDimensions": [],
+		"blacklistedStructures": []
+	}
+}
