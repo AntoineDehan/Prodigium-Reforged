@@ -56,13 +56,6 @@
     "fg_color": "WHITE",
     "jade_entity_provider": true
   },
-  "jadecolonies": {
-    "colony.citizens": true,
-    "colony.pack": true,
-    "colony.visitor_cost": true,
-    "colony.colonist": true,
-    "domum.materials": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -74,7 +67,9 @@
   "waystones": {
     "waystone": true
   },
-  "fruitfulfun": {
-    "inspector": true
+  "drinkbeer": {
+    "mixed_beer": true,
+    "trade_box": true,
+    "beer_barrel": true
   }
 }

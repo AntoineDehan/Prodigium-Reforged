@@ -1,5 +1,8 @@
 {
   "schemaVersion": 2,
   "items": ["$minecraft:weapon"],
-  "incompatible": ["majruszsenchantments:incompatibility_curse"]
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "cardiac:lifesteal"
+  ]
 }

@@ -889,7 +889,7 @@
 			}]
 			tasks: [{
 				biome: "aether_redux:frosted_forests"
-				icon: "fantasyfurniture:decorations/snowballs"
+				icon: "minecraft:snowball"
 				id: "0EF63C58C8EC1A0A"
 				type: "biome"
 			}]

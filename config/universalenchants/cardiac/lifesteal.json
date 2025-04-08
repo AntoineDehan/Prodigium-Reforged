@@ -20,6 +20,7 @@
     "irons_spellbooks:blood_staff"
   ],
   "incompatible": [
-    "majruszsenchantments:incompatibility_curse"
+    "majruszsenchantments:incompatibility_curse",
+    "majruszsenchantments:leech"
   ]
 }
