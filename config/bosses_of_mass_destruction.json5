@@ -45,7 +45,7 @@
 		}
 	},
 	"obsidilithConfig": {
-		"health": 2450.0,
+		"health": 2650.0,
 		"armor": 16.0,
 		"attack": 15.0,
 		"idleHealingPerTick": 0.5,
