@@ -298,8 +298,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "1565D3F35E9F7FA3"
 					item: "prodigium:king_slime_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -457,8 +459,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "478B2C3B980CFD72"
 					item: "prodigium:conjurer_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -563,7 +567,18 @@
 					command: "/puffish_skills points add @p simplyskills:cleric 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "1D3707E10A0946C5"
+					id: "4DE5EF8C75AD5FC7"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0E78000F3EE296AE"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -594,8 +609,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "228D1F7A53D75209"
 					item: "prodigium:frostmaw_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1053,8 +1070,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "7AE84720065BE26F"
 					item: "prodigium:dead_king_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1239,8 +1258,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "5C306661E9B7F665"
 					item: "prodigium:sunbird_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1322,8 +1343,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "15BF0BA69F0E4C6F"
 					item: "prodigium:bellringer_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1384,8 +1407,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "71C9057C401D1709"
 					item: "prodigium:swampjaw_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]

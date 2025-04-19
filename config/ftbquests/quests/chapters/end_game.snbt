@@ -116,6 +116,17 @@
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1D3707E10A0946C5"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.75d
@@ -129,8 +140,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "768F0BBF18BBA292"
 					item: "prodigium:ender_guardian_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -215,6 +228,17 @@
 					title: "&6+1 Skill Points&r"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "36A90D9057AE3D15"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -232,6 +256,7 @@
 		{
 			dependencies: ["6EB21A5EFC2F6EF2"]
 			id: "6F8318146F7B7166"
+			optional: true
 			rewards: [
 				{
 					auto: "no_toast"
@@ -346,6 +371,17 @@
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "68F72D473CCABC7C"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -359,8 +395,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "233D359120B0CF54"
 					item: "prodigium:ancient_remnant_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -452,6 +490,17 @@
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "43409629829EAA87"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -473,8 +522,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "2D80C06190C7255D"
 					item: "prodigium:obsidilith_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -562,6 +613,17 @@
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1E39767E44C6B97E"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -575,8 +637,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "1248F33840619C34"
 					item: "prodigium:rosalynne_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]

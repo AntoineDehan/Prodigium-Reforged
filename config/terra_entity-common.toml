@@ -4,6 +4,15 @@
 	#0: Default, 1: Still Style, 2: Dynamic Style
 	#Range: 0 ~ 2
 	boss_bar_style = 2
+	#Boss Bar Number Offset X.
+	#Range: -150 ~ 300
+	boss_bar_number_offset_x = 0
+	#Boss Bar Number Offset Y.
+	#Range: -100 ~ 200
+	boss_bar_number_offset_y = 0
+	#Generate Whip Particle.
+	generate_whip_particle = true
+	enableNonSpiderModel = false
 
 [server]
 	#When a boss has no target, should it be cleared?
