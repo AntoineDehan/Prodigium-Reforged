@@ -130,7 +130,7 @@
 				title: "You've chosen the Crusader class!"
 				type: "custom"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 3.5d
 		}
 		{
@@ -153,7 +153,7 @@
 				title: "You've chosen the Ranger class!"
 				type: "custom"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 3.5d
 		}
 		{
@@ -182,7 +182,7 @@
 				title: "You've chosen the Wizard class!"
 				type: "custom"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 3.5d
 		}
 		{
@@ -211,7 +211,7 @@
 		{
 			dependencies: ["25D1B37A73FB9F53"]
 			description: [
-				"Used for Mage (wizard and cleric)"
+				"Used for Mage (wizard, cleric and necromancer)"
 				""
 				"You will drop&7 Scrolls&r in a chest, those are a one time use spells unless you put them in a spellbook."
 				""
@@ -347,6 +347,29 @@
 			title: "Early melee armor"
 			x: -1.0d
 			y: 2.5d
+		}
+		{
+			description: [
+				"You now have unlocked &6the Necromancer quest chapter&r. Check it out in the quest book!"
+				""
+				"It will help you know which armors and more to craft next!"
+			]
+			id: "004D49788CC0D5FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "375608D699D16B77"
+				table_id: 9057004262298788782L
+				type: "loot"
+			}]
+			secret: true
+			tasks: [{
+				icon: "born_in_chaos_v1:shattered_skull"
+				id: "4686B4DE08B2CE31"
+				type: "custom"
+			}]
+			title: "You've chosen the Necromancer class!"
+			x: 1.5d
+			y: 3.5d
 		}
 	]
 	title: "Classes introduction"

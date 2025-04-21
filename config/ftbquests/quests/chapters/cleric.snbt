@@ -415,6 +415,25 @@
 			x: 4.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["167F636BCCA964EA"]
+			hide_dependency_lines: true
+			id: "7C10A7A09A99192F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53EDC55F1A7F526B"
+				table_id: 9057004262298788782L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "33EA3BF147E840F6"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			title: "Craft a staff"
+			x: 4.5d
+			y: -1.5d
+		}
 	]
 	title: "Cleric"
 }

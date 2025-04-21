@@ -604,6 +604,25 @@
 			x: 4.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["624B188BB0FFB9D9"]
+			hide_dependency_lines: true
+			id: "768556D0BC5F9EFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46FBBDC501885DCA"
+				table_id: 9057004262298788782L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "390F09620F26D8B3"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			title: "Craft a staff"
+			x: 4.5d
+			y: -1.5d
+		}
 	]
 	title: "Wizard"
 }

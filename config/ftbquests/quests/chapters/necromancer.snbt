@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["745FE062B66D6927"]
+			dependencies: ["004D49788CC0D5FC"]
 			description: [
 				"Use it to &ebind spells to spell books&r."
 				""
@@ -521,6 +521,26 @@
 			title: "Fire book"
 			x: 4.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["5D0510B00777D444"]
+			description: ["You can obtain it by completing an Undead Army"]
+			hide_dependency_lines: true
+			id: "1D701FC4D12E7293"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "018CDB4B59B91B59"
+				table_id: 9057004262298788782L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7C659E8634BD70C9"
+				item: "majruszsdifficulty:soul_jar"
+				type: "item"
+			}]
+			title: "Obtian a Soul Jar"
+			x: 4.5d
+			y: -1.5d
 		}
 	]
 	title: "Necromancer"
