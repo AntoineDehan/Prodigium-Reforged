@@ -1,7 +1,7 @@
 let activeNpcBlocks = new Set();
 
 let npcSpawnBlocks = [
-  "minecraft:crafting_table",
+  "minecraft:loom",
   "doggytalents:dog_bed",
   "irons_spellbooks:alchemist_cauldron",
   "drinkbeer:bartending_table_normal",
@@ -15,7 +15,7 @@ let npcSpawnBlocks = [
 ];
 
 let NPC_COMMANDS = {
-  "minecraft:crafting_table":
+  "minecraft:loom":
     "easy_npc preset import data prodigiumreforged:preset/terraria/guide.npc.nbt ~ ~ ~",
   "drinkbeer:bartending_table_normal":
     "easy_npc preset import data prodigiumreforged:preset/terraria/tavernkeep.npc.nbt ~ ~ ~",
@@ -40,7 +40,7 @@ let NPC_COMMANDS = {
 };
 
 let NPC_HOME_COMMANDS = {
-  "minecraft:crafting_table":
+  "minecraft:loom":
     "easy_npc navigation set home 3bd2ab72-41d7-4472-a480-5d849f76298c ~ ~ ~",
   "drinkbeer:bartending_table_normal":
     "easy_npc navigation set home 407a8d48-2853-486f-85e0-b6a6abc04f63 ~ ~ ~",
@@ -65,8 +65,7 @@ let NPC_HOME_COMMANDS = {
 };
 
 let NPC_QUEST_COMMANDS = {
-  "minecraft:crafting_table":
-    "ftbquests change_progress @p complete 384F487E612876CC",
+  "minecraft:loom": "ftbquests change_progress @p complete 384F487E612876CC",
   "drinkbeer:bartending_table_normal":
     "ftbquests change_progress @p complete 6F79F027D77C3DAD",
   "doggytalents:dog_bed":
@@ -806,11 +805,12 @@ let categoryBlocks = {
     "minecraft:jack_o_lantern",
     "minecraft:sea_lantern",
     "aether:ambrosium_torch",
+    "minecraft:wall_torch",
   ],
 };
 
 let npcRequirements = {
-  "minecraft:crafting_table": ["chairs", "tables", "doors", "light"],
+  "minecraft:loom": ["chairs", "tables", "doors", "light"],
   "drinkbeer:bartending_table_normal": ["chairs", "tables", "doors", "light"],
   "doggytalents:dog_bed": ["chairs", "tables", "doors", "light"],
   "irons_spellbooks:alchemist_cauldron": ["chairs", "tables", "doors", "light"],
@@ -838,7 +838,7 @@ BlockEvents.placed((event) => {
 
   activeNpcBlocks.add(`${pos.x},${pos.y},${pos.z}`);
 
-  let searchRadius = 15;
+  let searchRadius = 13;
   let foundConditions = {};
 
   let requiredCategories = npcRequirements[block.id] || [];
@@ -849,11 +849,16 @@ BlockEvents.placed((event) => {
   for (let x = -searchRadius; x <= searchRadius; x++) {
     for (let y = -searchRadius; y <= searchRadius; y++) {
       for (let z = -searchRadius; z <= searchRadius; z++) {
+        if (Math.sqrt(x * x + y * y + z * z) > searchRadius) continue;
+
         let nearbyPos = pos.offset(x, y, z);
         let nearbyBlock = level.getBlock(nearbyPos);
 
         for (let category of requiredCategories) {
-          if (categoryBlocks[category].includes(nearbyBlock.id)) {
+          if (
+            !foundConditions[category] &&
+            categoryBlocks[category].includes(nearbyBlock.id)
+          ) {
             foundConditions[category] = true;
           }
         }

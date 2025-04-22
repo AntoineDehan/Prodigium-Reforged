@@ -212,7 +212,7 @@
 			description: [
 				"The first NPC, you will need inside a room a &6Chair&r, a &6Table&r, a &6Door&r and a &6Light&r. Read the \"NPC System\" quest to learn more."
 				""
-				"When the &6furnitures&r are placed, you can place a &bCrafting Table&r close by."
+				"When the &6furnitures&r are placed, you can place a &bLoom&r close by."
 			]
 			icon: "solcarrot:food_book"
 			id: "05CD079B659C9887"
@@ -223,7 +223,7 @@
 				type: "loot"
 			}]
 			tasks: [{
-				icon: "minecraft:crafting_table"
+				icon: "minecraft:loom"
 				id: "384F487E612876CC"
 				title: "The Guide's Block"
 				type: "custom"
