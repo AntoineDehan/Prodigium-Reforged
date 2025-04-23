@@ -32,20 +32,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "stalwart_dungeons:void_crystal",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 8,
-                "max": 15
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:chorus_totem",
           "weight": 4
         }
