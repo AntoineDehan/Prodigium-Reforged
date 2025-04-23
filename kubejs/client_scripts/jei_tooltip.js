@@ -22,6 +22,7 @@ JEIEvents.information((event) => {
       "farmersdelight:rope",
       "numismatic-overhaul:piggy_bank",
       "dummmmmmy:target_dummy",
+      "minecraft:phantom_membrane",
     ],
     ["Sold by the Merchant NPC"]
   );
@@ -56,11 +57,11 @@ JEIEvents.information((event) => {
   event.addItem(
     [
       "davespotioneering:potion_injector",
-      "vc_gliders:copper_upgrade",
       "extractinator:extractinator",
       "aether:ambrosium_shard",
       "confluence:workshop",
       "confluence:dps_meter",
+      "minecraft:firework_rocket",
     ],
     ["Sold by the Goblin Thinkerer NPC"]
   );
