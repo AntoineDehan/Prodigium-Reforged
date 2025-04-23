@@ -761,7 +761,11 @@
 		}
 		{
 			dependencies: ["78E025D30CD1E607"]
-			description: ["Found in the &2Keeping Castle&r. Both bosses are waiting for you..."]
+			description: [
+				"Found in the &2Keeping Castle&r. Both bosses are waiting for you..."
+				""
+				"&oThose bosses have a rework coming, in the meantime they are not very good, sorry...&r"
+			]
 			icon: "stalwart_dungeons:keeping_castle_spawner"
 			id: "0EA710182249A301"
 			min_required_tasks: 2

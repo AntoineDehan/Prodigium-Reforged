@@ -7,7 +7,7 @@ let npcSpawnBlocks = [
   "drinkbeer:bartending_table_normal",
   "minecraft:red_bed",
   "numismatic-overhaul:shop",
-  "cataclysm:mechanical_fusion_anvil",
+  "quark:crafter",
   "minecraft:flower_pot",
   "quark:gunpowder_sack",
   "aquaculture:tackle_box",
@@ -27,7 +27,7 @@ let NPC_COMMANDS = {
     "easy_npc preset import data prodigiumreforged:preset/terraria/nurse.npc.nbt ~ ~ ~",
   "numismatic-overhaul:shop":
     "easy_npc preset import data prodigiumreforged:preset/terraria/merchant.npc.nbt ~ ~ ~",
-  "cataclysm:mechanical_fusion_anvil":
+  "quark:crafter":
     "easy_npc preset import data prodigiumreforged:preset/terraria/goblin.npc.nbt ~ ~ ~",
   "minecraft:flower_pot":
     "easy_npc preset import data prodigiumreforged:preset/terraria/dryad.npc.nbt ~ ~ ~",
@@ -52,7 +52,7 @@ let NPC_HOME_COMMANDS = {
     "easy_npc navigation set home 88f7ac3f-9696-4c5b-bf4a-52e3b40e10ac ~ ~ ~",
   "numismatic-overhaul:shop":
     "easy_npc navigation set home 2d146e4f-6905-49b4-9163-62a5d5fb73f3 ~ ~ ~",
-  "cataclysm:mechanical_fusion_anvil":
+  "quark:crafter":
     "easy_npc navigation set home bc6503ee-44cf-42a9-a6fa-6a0f3d82af73 ~ ~ ~",
   "minecraft:flower_pot":
     "easy_npc navigation set home 31d2de80-97a0-41cf-a227-11ff3e097e25 ~ ~ ~",
@@ -75,8 +75,7 @@ let NPC_QUEST_COMMANDS = {
   "minecraft:red_bed": "ftbquests change_progress @p complete 17977EFFC2672EBA",
   "numismatic-overhaul:shop":
     "ftbquests change_progress @p complete 59E9072E7D9FCB02",
-  "cataclysm:mechanical_fusion_anvil":
-    "ftbquests change_progress @p complete 57002871DA02FC72",
+  "quark:crafter": "ftbquests change_progress @p complete 57002871DA02FC72",
   "minecraft:flower_pot":
     "ftbquests change_progress @p complete 4F808E1A98977B6C",
   "quark:gunpowder_sack":
@@ -816,7 +815,7 @@ let npcRequirements = {
   "irons_spellbooks:alchemist_cauldron": ["chairs", "tables", "doors", "light"],
   "minecraft:red_bed": ["chairs", "tables", "doors", "light"],
   "numismatic-overhaul:shop": ["chairs", "tables", "doors", "light"],
-  "cataclysm:mechanical_fusion_anvil": ["chairs", "tables", "doors", "light"],
+  "quark:crafter": ["chairs", "tables", "doors", "light"],
   "minecraft:flower_pot": ["chairs", "tables", "doors", "light"],
   "quark:gunpowder_sack": ["chairs", "tables", "doors", "light"],
   "aquaculture:tackle_box": ["chairs", "tables", "doors", "light"],

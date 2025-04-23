@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "ICI", "RDR"],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "D": {
+      "item": "minecraft:dropper"
+    },
+    "R": {
+      "item": "simpleores:onyx_gem"
+    }
+  },
+  "result": {
+    "item": "quark:crafter"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "crafter"
+    }
+  ]
+}

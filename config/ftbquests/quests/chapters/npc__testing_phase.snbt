@@ -86,7 +86,7 @@
 		{
 			dependencies: ["774BCB593AAFAA33"]
 			dependency_requirement: "one_completed"
-			description: ["When the &6furnitures&r are placed, you can place a &bMechanical Fusion Anvil&r nearby."]
+			description: ["When the &6furnitures&r are placed, you can place a &bCrafter&r nearby."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "confluence:goblin_tech"
@@ -98,7 +98,7 @@
 				type: "loot"
 			}]
 			tasks: [{
-				icon: "cataclysm:mechanical_fusion_anvil"
+				icon: "quark:crafter"
 				id: "57002871DA02FC72"
 				title: "Goblin's Block"
 				type: "custom"
