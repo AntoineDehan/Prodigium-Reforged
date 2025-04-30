@@ -209,7 +209,7 @@
 				""
 				"The &bExplorer Compass&r can be used to &7search&r for &6ANY&r structures that spawns in the world."
 				""
-				"If you lose it you will need to trade with the Merchant NPC."
+				"If you lose it you will need to trade with the Tavernkeep NPC."
 			]
 			icon: "terrawhips_and_more:slime_crown"
 			id: "1A1D4191D9A098E9"

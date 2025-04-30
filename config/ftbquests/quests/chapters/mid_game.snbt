@@ -1478,7 +1478,9 @@
 				"&nTip :&r"
 				""
 				"In the &eAether&r you can mine &eAmbrosium&r."
-				"&eAmbrosium Shards&r can be used to &7reforge modifiers&r of every items (&7even curios items!&r)."
+				"&eAmbrosium Shards&r can be used to &7reforge the quality&r of every items."
+				""
+				"Every bosses in the Aether category can be fought &oin&r the Aether dimension."
 			]
 			id: "7C742369CC5C8B9E"
 			rewards: [
@@ -1984,7 +1986,7 @@
 		}
 		{
 			dependencies: ["113BABA4C72BAEBD"]
-			description: ["Found in the &2Blossom Arena&r."]
+			description: ["Found in the &2Blossom Arena&r. (this arena is found in the Aether)"]
 			icon: "minecraft:spore_blossom"
 			id: "6AC131C918D30C93"
 			min_required_tasks: 1
