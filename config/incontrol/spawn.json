@@ -58,7 +58,7 @@
   {
     "mob": ["stalwart_dungeons:nether_keeper"],
     "result": "allow",
-    "healthmultiply": 1.9,
+    "healthmultiply": 1.5,
     "damagemultiply": 0.4,
     "speedmultiply": 0.9,
     "when": "onjoin"
@@ -66,8 +66,8 @@
   {
     "mob": ["stalwart_dungeons:awful_ghast"],
     "result": "allow",
-    "healthmultiply": 1.8,
-    "damagemultiply": 1.5,
+    "healthmultiply": 1.5,
+    "damagemultiply": 1.4,
     "potion": ["alexsmobs:poison_resistance,4550,0"],
     "when": "onjoin"
   },
