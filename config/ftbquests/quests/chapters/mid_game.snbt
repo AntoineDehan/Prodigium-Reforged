@@ -2648,6 +2648,17 @@
 			x: 13.0d
 			y: -5.0d
 		}
+		{
+			id: "28FAB0D6AD1ACA26"
+			tasks: [{
+				entity: "lost_aether_content:aerwhale_king"
+				id: "7A840B459C76DDB9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
 	]
 	title: "Expert Mode"
 }

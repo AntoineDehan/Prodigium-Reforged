@@ -220,6 +220,17 @@
         "value": 1024
       }
     },
+    "undead_revamp2:cheroattackspeed": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 20,
+        "value": 20
+      }
+    },
     "spell_power:critical_damage": {
       "enabled": false,
       "min": {
@@ -242,6 +253,17 @@
         "value": 100
       }
     },
+    "terra_entity:player.whip_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
     "spell_power:frost": {
       "enabled": false,
       "min": {
@@ -251,6 +273,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "terra_entity:player.sentry_capacity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 128,
+        "value": 128
       }
     },
     "gunswithoutroses:gwr.damage_total": {
@@ -407,6 +440,17 @@
         "value": 1024
       }
     },
+    "terra_entity:player.summon_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "forge:block_reach": {
       "enabled": false,
       "min": {
@@ -427,6 +471,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "terra_entity:player.minion_capacity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 128,
+        "value": 128
       }
     },
     "puffish_attributes:player.sprinting_speed": {
@@ -957,6 +1012,17 @@
         "value": 24
       }
     },
+    "terra_entity:player.mark_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "puffish_attributes:player.shovel_speed": {
       "enabled": false,
       "min": {
@@ -1331,6 +1397,17 @@
         "value": 1
       }
     },
+    "terra_entity:player.summon_knockback": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
+      }
+    },
     "puffish_attributes:player.ranged_damage": {
       "enabled": false,
       "min": {
@@ -1395,6 +1472,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "savage_and_ravage:explosive_damage_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "spell_power:healing": {
