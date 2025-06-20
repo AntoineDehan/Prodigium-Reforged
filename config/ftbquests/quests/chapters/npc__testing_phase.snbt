@@ -269,7 +269,7 @@
 				""
 				"To have an NPC spawn it is now really simple, inside the room for the NPC, you will need a&6 Chair&r, a &6Table&r, a &6Door&r and a &6Light&r."
 				""
-				"After placing the needed furnitures, you will then need to place the specific block that correspond to the specific npc around it while it's inside a room."
+				"After placing the needed furnitures, you will then need to place the &6specific block that correspond to the specific npc&r inside the room."
 				"To know which block coresspond to which NPC, check the other NPC's quests!"
 				""
 				"&nFor the moment, for the Chairs and Tables, only furnitures from the &6valhelsia_furniture&r &nmod are accepted&r ;)"

@@ -63,7 +63,7 @@
 			image: "prodigium_reforged:textures/gui/normal_mode.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 13.0d
+			x: 14.5d
 			y: 2.0d
 		}
 	]

@@ -63,7 +63,7 @@ JEIEvents.information((event) => {
       "confluence:dps_meter",
       "minecraft:firework_rocket",
     ],
-    ["Sold by the Goblin Thinkerer NPC"]
+    ["Sold by the Goblin Tinkerer NPC"]
   );
 
   // Wizard

@@ -21,7 +21,7 @@
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 2,
         "max": 3
       },
       "entries": [
@@ -52,6 +52,11 @@
         {
           "type": "minecraft:item",
           "name": "confluence:worm_scarf",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:lava_power_cell",
           "weight": 4
         }
       ]

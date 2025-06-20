@@ -11,7 +11,7 @@
 			image: "bettericons:textures/items/tile037.png"
 			rotation: 0.0d
 			width: 3.5d
-			x: 27.5d
+			x: 33.5d
 			y: -0.5d
 		}
 		{
@@ -179,7 +179,7 @@
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 25.0d
 			width: 0.5d
-			x: 18.0d
+			x: 19.5d
 			y: -6.0d
 		}
 		{
@@ -212,7 +212,7 @@
 			image: "cataclysm:textures/particle/cursed_flame.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 28.5d
+			x: 34.5d
 			y: -2.0d
 		}
 		{
@@ -222,7 +222,7 @@
 			image: "cataclysm:textures/particle/cursed_flame.png"
 			rotation: 0.0d
 			width: 1.25d
-			x: 28.5d
+			x: 34.5d
 			y: -0.5d
 		}
 		{
@@ -231,7 +231,7 @@
 			image: "endertrigon:textures/entity/dragon_flame.png"
 			rotation: 5.0d
 			width: 0.9d
-			x: 26.5d
+			x: 32.5d
 			y: -0.5d
 		}
 		{
@@ -240,7 +240,7 @@
 			image: "endertrigon:textures/entity/dragon_flame.png"
 			rotation: -10.0d
 			width: 2.0d
-			x: 26.5d
+			x: 32.5d
 			y: 0.5d
 		}
 		{
@@ -249,7 +249,7 @@
 			image: "cataclysm:textures/particle/cursed_flame.png"
 			rotation: -5.0d
 			width: 0.45d
-			x: 27.0d
+			x: 33.0d
 			y: -2.5d
 		}
 		{
@@ -258,7 +258,7 @@
 			image: "endertrigon:textures/entity/dragon_flame.png"
 			rotation: 10.0d
 			width: 1.0d
-			x: 28.5d
+			x: 34.5d
 			y: 0.5d
 		}
 		{
@@ -320,8 +320,72 @@
 			image: "prodigium_reforged:textures/gui/expert_mode.png"
 			rotation: 0.0d
 			width: 7.5d
-			x: 13.0d
+			x: 16.5d
 			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.9d
+			x: 21.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 2.0d
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 2.0d
+			x: 24.5d
+			y: -5.0d
+		}
+		{
+			height: 2.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 2.0d
+			x: 25.5d
+			y: -5.0d
+		}
+		{
+			height: 1.25d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.75d
+			width: 1.25d
+			x: 25.0d
+			y: -4.5d
+		}
+		{
+			height: 0.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 25.0d
+			width: 0.5d
+			x: 26.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: -7.5d
+		}
+		{
+			height: 0.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 25.0d
+			width: 0.5d
+			x: 24.0d
+			y: -4.0d
 		}
 	]
 	order_index: 1
@@ -445,7 +509,7 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
+			x: 27.0d
 			y: 0.0d
 		}
 		{
@@ -712,7 +776,7 @@
 					type: "item"
 				}
 			]
-			x: 27.5d
+			x: 33.5d
 			y: 0.0d
 		}
 		{
@@ -1058,7 +1122,7 @@
 				type: "item"
 			}]
 			title: "You now have unlocked &8netherite&r"
-			x: 17.0d
+			x: 22.5d
 			y: -0.5d
 		}
 		{
@@ -1335,7 +1399,7 @@
 					type: "item"
 				}
 			]
-			x: 24.0d
+			x: 30.0d
 			y: 0.0d
 		}
 		{
@@ -1469,7 +1533,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 24.5d
 			y: 0.0d
 		}
 		{
@@ -1981,7 +2045,7 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
+			x: 25.0d
 			y: -5.0d
 		}
 		{
@@ -2327,7 +2391,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 24.5d
 			y: -2.5d
 		}
 		{
@@ -2514,7 +2578,7 @@
 					type: "item"
 				}
 			]
-			x: 26.0d
+			x: 32.0d
 			y: 0.0d
 		}
 		{
@@ -2649,15 +2713,35 @@
 			y: -5.0d
 		}
 		{
+			description: [
+				"Found in Platinium Dungeon"
+				""
+				"Right-click the Songstone to activate the fight"
+			]
 			id: "28FAB0D6AD1ACA26"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				entity: "lost_aether_content:aerwhale_king"
 				id: "7A840B459C76DDB9"
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.0d
-			y: -9.0d
+			x: 22.0d
+			y: -5.0d
+		}
+		{
+			id: "625D1BE78D3262AD"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				id: "51D2E191FCC58D47"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.0d
+			y: -5.0d
 		}
 	]
 	title: "Expert Mode"
