@@ -706,7 +706,7 @@
 					entity: "bygonenether:warped_enderman"
 					icon: "bygonenether:warped_ender_pearl"
 					id: "49E958FB4EE5086F"
-					title: "Kill a Wraped Enderman"
+					title: "Kill a Warped Enderman"
 					type: "kill"
 					value: 1L
 				}

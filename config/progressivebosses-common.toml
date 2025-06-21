@@ -40,20 +40,20 @@
 	[Wither.Health]
 		#Increase Wither's Health by this value at max difficulty (scales accordingly at lower difficulties)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 720.0
+		"Health Bonus per Difficulty" = 500.0
 		#Maximum bonus regeneration per second given by "Bonus Regeneration".
 		#Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
 		#Note that this bonus health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when reaches half health.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Maximum Bonus Regeneration" = 1
+		"Maximum Bonus Regeneration" = 0.1
 		#How many half hearts will the Wither regen at max difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Regeneration" = 2.4
+		"Bonus Regeneration" = 0.2
 		#Bonus regeneration will be multiplied by this ratio when the Wither has been hit in the last 'Bonus Regeneration When Hit Duration' ticks.
 		#Range: 0.0 ~ 2.0
 		"Bonus Regeneration Ratio When Hit" = 0.1
 		#Range: > 0
-		"Bonus Regeneration When Hit Duration" = 20
+		"Bonus Regeneration When Hit Duration" = 10
 
 	#How difficulty is handled for the Wither.
 	[Wither."Difficulty Settings"]
@@ -216,7 +216,7 @@
 	["Elder Guardian".Minions]
 		#Elder Guardians will spawn Elder Minions every this tick value (20 ticks = 1 sec).
 		#Range: > 0
-		"Base Cooldown" = 200
+		"Base Cooldown" = 350
 		#The base cooldown is reduced by this value for each missing Elder Guardian.
 		#Range: > 0
 		"Cooldown Reduction per Missing Elder" = 60
@@ -245,7 +245,7 @@
 	["Elder Guardian".Resistances]
 		#Percentage Damage Reduction for each Elder Guardian Defeated.
 		#Range: 0.0 ~ 1.0
-		"Damage Reduction per Elder Guardian Defeated" = 0.3
+		"Damage Reduction per Elder Guardian Defeated" = 0.2
 
 	#More damage and attack speed based off Elder Guardians Defeated
 	["Elder Guardian".Attack]
@@ -254,7 +254,7 @@
 		"Bonus Damage per Elder Guardian Defeated" = 0.0
 		#How many ticks faster will Elder Guardian attack (multiplied by defeated Elder Guardians). Vanilla Attack Duration is 60 ticks (3 secs)
 		#Range: 0 ~ 60
-		"Attack Duration Reduction per Elder Guardian Defeated" = 25
+		"Attack Duration Reduction per Elder Guardian Defeated" = 0
 
 	#Bonus Health and Health regeneration.
 	["Elder Guardian".Health]
@@ -266,7 +266,7 @@
 		"Absorption Health" = 40.0
 		#Health Regen per second
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Regen" = 0.5
+		"Health Regen" = 0.2
 
 ["Ender Dragon"]
 	#Shulkers that will make you float around.
@@ -288,10 +288,10 @@
 	["Ender Dragon"."Difficulty Settings"]
 		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
 		#Range: > 1
-		"Max Difficulty" = 8
+		"Max Difficulty" = 3
 		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
 		#Range: > 0
-		"Starting Difficulty" = 0
+		"Starting Difficulty" = 1
 		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
 		"Sum Killed Dragons Difficulty" = false
 		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
@@ -313,13 +313,13 @@
 		"Maximum Cooldown" = 2000
 		#Percentage cooldown reduction at max difficulty for the cooldown of Minion spawning.
 		#Range: 0.0 ~ 1.0
-		"Cooldown Reduction" = 0.4
+		"Cooldown Reduction" = 0.2
 		#Percentage chance at max difficulty for a Minion to spawn as a Blinding Minion.
 		#Range: 0.0 ~ 1.0
-		"Blinding Chance" = 0.4
+		"Blinding Chance" = 0.2
 		#Time (in ticks) for the blinding effect when hit by a blinding bullet.
 		#Range: 0 ~ 1200
-		"Blinding duration" = 150
+		"Blinding duration" = 60
 		#If true, Dragon Minions will take only 10% damage from the Ender Dragon.
 		"Reduced Dragon Damage" = true
 
@@ -330,27 +330,27 @@
 		"Health Bonus at Max Difficulty" = 200.0
 		#How much health will the Ender Dragon regen at max difficulty (scaling accordingly at lower difficulties). This doesn't affect the health regen given by crystals.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Regeneration" = 1.0
+		"Bonus Regeneration" = 0.1
 		#Maximum bonus regeneration per second given by "Bonus Regeneration". Set to 0 to disable bonus health regeneration. Can be lower than "Bonus Regeneration". This doesn't affect the health regen given by crystals.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Maximum Bonus Regeneration" = 1.0
+		"Maximum Bonus Regeneration" = 0.2
 		#How much health (when missing 100% health) will the Ender Dragon regen at max difficulty each second whenever she's attached to a Crystal. So if she's missing 30% health, this will be 30% effective. This is added to the normal Crystal regen.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Crystal Regeneration" = 0.0
 		#Bonus regeneration (also bonus crystal regen) will be multiplied by this ratio when the Dragon has been hit in the last 'Bonus Regeneration When Hit Duration' ticks.
 		#Range: 0.0 ~ 4.0
-		"Bonus Regeneration Ratio When Hit" = 0.4
+		"Bonus Regeneration Ratio When Hit" = 0.2
 		#Range: > 0
-		"Bonus Regeneration When Hit Duration" = 85
+		"Bonus Regeneration When Hit Duration" = 10
 
 	#Handles the Damage Resistances and Vulnerabilities
 	["Ender Dragon"."Resistances & Vulnerabilities"]
 		#Melee Damage reduction at max difficulty while the Ender Dragon is at the center.
 		#Range: 0.0 ~ 1.0
-		"Melee Damage reduction while at the center" = 0.24
+		"Melee Damage reduction while at the center" = 0.1
 		#Melee Damage is increased by this percentage while the Ender Dragon is not at the center.
 		#Range: 0.0 ~ 1.0
-		"Melee Damage increase while not at the center" = 0.24
+		"Melee Damage increase while not at the center" = 0.1
 		#Damage reduction when hit by explosions (firework rockets excluded).
 		#Range: 0.0 ~ 1.0
 		"Explosion Damage reduction" = 0.667
@@ -378,7 +378,7 @@
 		#Range: 0.0 ~ 10.0
 		"Crystal Respawn Per Difficulty" = 3.0
 		#Crystals can no longer be destroyed by other explosions.
-		"Explosion Immune" = true
+		"Explosion Immune" = false
 
 	#Bonus Experience and Dragon Egg per player
 	["Ender Dragon".Rewards]
@@ -398,10 +398,10 @@
 		"Bonus Larva Every Difficulty" = 1
 		#Maximum Larva spawned by the Ender Dragon
 		#Range: > 0
-		"Max Larvae Spawned" = 7
+		"Max Larvae Spawned" = 5
 		#Minimum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
-		"Minimum Cooldown" = 800
+		"Minimum Cooldown" = 900
 		#Maximum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
 		"Maximum Cooldown" = 1400
@@ -412,10 +412,10 @@
 	["Ender Dragon".Attack]
 		#How much more damage at max difficulty (percentage) does the Ender Dragon deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Direct Damage" = 2.25
+		"Bonus Direct Damage" = 1.5
 		#How much more damage at max difficulty (percentage) does the Ender Dragon's Acid fireball and pool deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Acid Pool Damage" = 2.4
+		"Bonus Acid Pool Damage" = 1.5
 		#Normally the Ender Dragon attacks only when leaving the center platform. With this active she has a chance when she has finished charging / fireballing or before checking if she should land in the center to charge the player.
 		#This is the chance to start a charge attack when the difficulty is at max. Otherwise it scales accordingly.
 		#The actual chance is: (this_value * (difficulty / max difficulty)).
@@ -425,7 +425,7 @@
 		#This is the chance to start a fireball attack when the difficulty is at max. Otherwise it scales accordingly.
 		#The actual chance is: (this_value * (difficulty / max difficulty)).
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Fireball Max Chance" = 0.35
+		"Fireball Max Chance" = 0.25
 		#Since around 1.13/1.14 the Ender Dragon can no longer dive for more than about 3 blocks so she takes a lot to rise / fall. With this active the dragon will be able to rise and fall many more blocks, making easier to hit the player and approach the center.
 		"Increase Max Rise and Fall" = true
 		#On impact the Acid Fireball will deal magic damage in an area.
@@ -434,8 +434,8 @@
 		"Fireball 3D Area Effect Cloud" = true
 		#Speed multiplier for the Dragon Fireball.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Fireball Velocity Multiplier" = 2.5
+		"Fireball Velocity Multiplier" = 1.4
 		#The dragon will fire (up to) this more fireballs at max difficulty. The bonus fireballs have a slight shotting error so aren't all directly aimed at the player.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Fireballs" = 15.0
+		"Bonus Fireballs" = 8.0
 

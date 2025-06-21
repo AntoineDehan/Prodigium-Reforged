@@ -343,13 +343,6 @@
 					type: "item"
 				}
 				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "2DE75B12CEA39186"
-					title: "&9+General EXP&r"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "072884EDD9A14E44"
 					table_id: 5533560640127059513L

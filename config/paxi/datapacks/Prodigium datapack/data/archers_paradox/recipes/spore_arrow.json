@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:arrow"
+    },
+    "X": {
+      "item": "minecraft:mycelium"
+    },
+    "Y": {
+      "item": "minecraft:bone_meal"
+    },
+    "Z": {
+      "tag": "forge:mushrooms"
+    }
+  },
+  "pattern": [
+    "Y#Z",
+    "#X#",
+    "Z#Y"
+  ],
+  "result": {
+    "count": 4,
+    "item": "archers_paradox:spore_arrow"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "archers_paradox:training_arrow"
+    },
+    "X": {
+      "item": "minecraft:experience_bottle"
+    },
+    "Y": {
+      "tag": "forge:gems/emerald"
+    },
+    "Z": {
+      "tag": "forge:gems/lapis"
+    }
+  },
+  "pattern": [
+    "Y#Z",
+    "#X#",
+    "Z#Y"
+  ],
+  "result": {
+    "count": 4,
+    "item": "archers_paradox:challenge_arrow"
+  },
+  "show_notification": true
+}

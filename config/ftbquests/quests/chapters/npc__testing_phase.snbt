@@ -275,6 +275,7 @@
 				"&nFor the moment, for the Chairs and Tables, only furnitures from the &6valhelsia_furniture&r &nmod are accepted&r ;)"
 			]
 			id: "403FB403014A738D"
+			optional: true
 			size: 2.0d
 			subtitle: "Read Me!"
 			tasks: [{
@@ -302,7 +303,7 @@
 				title: "Steampunker's Block"
 				type: "custom"
 			}]
-			title: "Streampunker"
+			title: "Steampunker"
 			x: 4.5d
 			y: 7.5d
 		}

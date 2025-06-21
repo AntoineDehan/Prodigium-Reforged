@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:arrow"
+    },
+    "X": {
+      "item": "minecraft:ender_eye"
+    },
+    "Y": {
+      "item": "minecraft:end_stone"
+    },
+    "Z": {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  },
+  "pattern": [
+    "Y#Z",
+    "#X#",
+    "Z#Y"
+  ],
+  "result": {
+    "count": 4,
+    "item": "archers_paradox:shulker_arrow"
+  },
+  "show_notification": true
+}

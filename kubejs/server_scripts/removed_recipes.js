@@ -3,6 +3,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "terrawhips_and_more:slime_crown" });
   event.remove({ output: "drinkbeer:trade_box_normal" });
   event.remove({ output: "irons_spellbooks:amethyst_rapier" });
+  event.remove({ output: "gwrexpansions:lavapower_bullet" });
 
   // Armor
   event.remove({ output: "irons_spellbooks:netherite_mage_helmet" });
