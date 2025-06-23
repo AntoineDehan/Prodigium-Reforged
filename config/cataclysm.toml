@@ -183,7 +183,7 @@
 	MonstrosityHealthMultiplier = 2.8
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 2.8
+	MonstrosityDamageMultiplier = 2.0
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
@@ -197,7 +197,7 @@
 	NetheritemonstrosityBodyBloking = true
 	#Monstrosity's attack Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Monstrosity's attack Hp Damage" = 0.12
+	"Monstrosity's attack Hp Damage" = 0.11
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Monstrosity's prevent attacks from far away Range" = 23.0
@@ -226,7 +226,7 @@
 	IgnisHealthMultiplier = 2.9
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 3.7
+	IgnisDamageMultiplier = 2.7
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 7.0

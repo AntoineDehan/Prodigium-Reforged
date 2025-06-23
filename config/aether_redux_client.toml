@@ -18,7 +18,7 @@
 		#Allowed Values: sync_with_server, modern_override, classic_override
 		"Mimic Model Upgrade" = "sync_with_server"
 		#Gives the Sheepuff's model some touchups and improvements
-		"Sheepuff Model Upgrade" = true
+		"Sheepuff Model Upgrade" = false
 		#Gives the Phyg's model some touchups and improvements
 		"Phyg Model Upgrade" = true
 		#Gives the Flying Cow's model some touchups and improvements

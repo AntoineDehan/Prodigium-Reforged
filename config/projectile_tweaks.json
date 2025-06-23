@@ -1,7 +1,7 @@
 {
   "version": 2,
   "entities": {
-    "aether:valkyrie_queen": 0.15,
+    "aether:valkyrie_queen": 0.25,
     "aether:sun_spirit": 0.15,
     "terra_entity:king_slime": 0.15,
     "aether:slider": 0.15,
@@ -35,7 +35,7 @@
   },
   "difficulty_multipliers": {
     "normal": 0.0,
-    "hardcore": 0.4,
+    "hardcore": 0.2,
     "hard": 0.1,
     "easy": 0.0,
     "peaceful": 0.0

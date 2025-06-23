@@ -89,22 +89,28 @@
   {
     "mob": ["aether:valkyrie_queen"],
     "result": "allow",
-    "healthmultiply": 1.9,
-    "damagemultiply": 1.5,
+    "healthmultiply": 2.8,
+    "damagemultiply": 0.7,
     "when": "onjoin"
   },
   {
     "mob": ["aether:slider"],
     "result": "allow",
-    "healthmultiply": 1.5,
+    "healthmultiply": 1.8,
     "damagemultiply": 1.1,
     "when": "onjoin"
   },
   {
     "mob": ["aether:sun_spirit"],
     "result": "allow",
-    "damagemultiply": 1.1,
-    "healthmultiply": 0.3,
+    "healthmultiply": 1.6,
+    "when": "onjoin"
+  },
+  {
+    "mob": ["aether:fire_minion"],
+    "result": "allow",
+    "damagemultiply": 0.7,
+    "healthmultiply": 1.1,
     "when": "onjoin"
   },
   {
