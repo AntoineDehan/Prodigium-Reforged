@@ -635,56 +635,6 @@
 			y: 1.0d
 		}
 		{
-			id: "261166A86CFF91F6"
-			rewards: [{
-				auto: "no_toast"
-				id: "6933093126376694"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "670D0284F9FC184D"
-				item: {
-					Count: 1
-					id: "vc_gliders:paraglider_iron"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Craft an iron glider"
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["261166A86CFF91F6"]
-			description: ["Use it in a smithing table with a glider. You will then be able to use the glider during rain/thunderstorms."]
-			hide_until_deps_visible: true
-			id: "539D9A86161D23FF"
-			rewards: [
-				{
-					id: "6A6D427C5A292A1D"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					exclude_from_claim_all: true
-					id: "72A409BA7E291AFE"
-					table_id: 2230653418983874155L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "22892B133186208C"
-				item: "vc_gliders:copper_upgrade"
-				type: "item"
-			}]
-			title: "Craft the copper upgrade"
-			x: 0.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["0F2E50059566AEBE"]
 			hide_until_deps_visible: true
 			id: "4214ACE6E3469233"
@@ -916,6 +866,34 @@
 			title: "Find a Blighted biome"
 			x: 4.0d
 			y: -4.0d
+		}
+		{
+			description: [
+				"Will be very useful to explore (and will be even more useful in the Aether)"
+				""
+				"Glide above a campfire to gain more height!"
+			]
+			id: "62D78C9B289DE586"
+			rewards: [
+				{
+					id: "1178A3BDEE702733"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "0C5B89CB924B48B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "323816B281DE3E85"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			title: "Craft a Paraglider"
+			x: -1.0d
+			y: 0.0d
 		}
 	]
 	title: "Exploration"
