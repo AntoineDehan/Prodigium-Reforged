@@ -2714,16 +2714,32 @@
 		}
 		{
 			description: [
-				"Found in Platinium Dungeon"
+				"Found in &2Platinium Dungeon&r."
 				""
-				"Right-click the Songstone to activate the fight"
+				"Right-click the Songstone to activate the fight."
 			]
 			id: "28FAB0D6AD1ACA26"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7B8C0FC8F5D08AE5"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10A51882DC9651A1"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				entity: "lost_aether_content:aerwhale_king"
+				icon: "lost_aether_content:songstone"
 				id: "7A840B459C76DDB9"
+				title: "Defeat the &5Aerwhale King&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -2731,12 +2747,35 @@
 			y: -5.0d
 		}
 		{
+			description: ["Found in his &2Monastery&r, challenge it with a &9Bluff Rod&r."]
 			id: "625D1BE78D3262AD"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0416DD601D0B9BD8"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37FAAD159E52AA5F"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "51D2E191FCC58D47"
+				title: "Defeat the &5Sculptor&r"
 				type: "kill"
 				value: 1L
 			}]

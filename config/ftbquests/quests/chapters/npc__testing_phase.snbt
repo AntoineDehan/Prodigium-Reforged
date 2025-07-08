@@ -274,16 +274,17 @@
 				""
 				"&nFor the moment, for the Chairs and Tables, only furnitures from the &6valhelsia_furniture&r &nmod are accepted&r ;)"
 			]
+			icon: "valhelsia_furniture:oak_chair"
 			id: "403FB403014A738D"
 			optional: true
 			size: 2.0d
 			subtitle: "Read Me!"
 			tasks: [{
-				icon: "valhelsia_furniture:oak_chair"
-				id: "2F826E40EA8903D6"
-				title: "NPC System"
-				type: "custom"
+				id: "6514DF78AF64C8CF"
+				title: "Click after reading!"
+				type: "checkmark"
 			}]
+			title: "NPC System"
 			x: 3.0d
 			y: 5.0d
 		}

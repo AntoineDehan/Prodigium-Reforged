@@ -7,6 +7,7 @@
     "numismatic-overhaul:gold_coin",
     "aether:ambrosium_shard",
     "simpleores:onyx_gem",
+    "confluence_ancient_chisel",
     {
       "required": false,
       "id": "#extractinator_platform:raw_materials/platinum"

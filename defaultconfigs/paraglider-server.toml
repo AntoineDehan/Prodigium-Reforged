@@ -6,7 +6,7 @@ ascendingWinds = true
 #  [block ID]#[property1=value],[property2=value],[property3=value]   (Matches state of the block that has specified properties)
 #  #[Tag ID]   (Matches all blocks with the tag)
 #Same property cannot be specified multiple times. Wind sources with any invalid part will be excluded.
-windSources = ["fire", "soul_fire", "campfire#lit=true", "soul_campfire#lit=true"]
+windSources = ["fire", "soul_fire", "campfire#lit=true", "soul_campfire#lit=true", "ancient_aether:ambrosium_campfire#lit=true"]
 #Multiplier to horizontal movement speed while paragliding.
 #Value of 0.5 means 50% of the speed, 2.0 means two times the speed and so forth.
 #Range: 0.2 ~ 10.0
