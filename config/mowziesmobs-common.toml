@@ -323,10 +323,10 @@
 		heals_out_of_battle = true
 		#How tall (in blocks) the Sculptor's test will be
 		#Range: 1 ~ 500
-		test_height = 60
+		test_height = 80
 		#The time limit (in seconds) for completing the Sculptor's test
 		#Range: 1 ~ 36000
-		test_time_limit = 400
+		test_time_limit = 320
 		#Disable/enable the Sculptor's boss health bar
 		has_boss_bar = true
 		#Which item the Sculptor desires in exchange for a chance to try his challenge
@@ -376,7 +376,7 @@
 		[mobs.sculptor.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.0

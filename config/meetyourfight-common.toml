@@ -1,0 +1,185 @@
+
+#Boss stats
+#Changing any of these values will change the recommended gear in the summoning item's tooltip to a notice
+[stats]
+
+	#Swampjaw
+	[stats.swampjaw]
+		#Max health multiplier for Swampjaw
+		#eg 2 means x2 max health
+		#Values above ~10 require AttributeFix mod
+		#Will not apply to already spawned bosses
+		#Default: 1.0
+		#Range: 0.1 ~ 1000.0
+		health = 1.0
+		#Damage multiplier for Swampjaw's charge
+		#eg 2 means x2 damage
+		#Values above ~170 require AttributeFix mod
+		#Will not apply to already spawned bosses
+		#Default: 1.0
+		#Range: 0.1 ~ 1000.0
+		melee = 1.0
+		#Explosion strength for Swampjaw's mines
+		#eg ghast fireballs are 1, creepers are 3, tnt 4, charged creeper 6
+		#Default: 2.5
+		#Range: 0.1 ~ 20.0
+		explosion = 2.5
+
+	#Bellringer
+	[stats.bellringer]
+		#Max health multiplier for Bellringer
+		#eg 2 means x2 max health
+		#Values above ~5 require AttributeFix mod
+		#Will not apply to already spawned bosses
+		#Default: 1.0
+		#Range: 0.1 ~ 1000.0
+		health = 1.0
+		#Damage multiplier for Bellringer's projectiles
+		#eg 2 means x2 damage
+		#Default: 1.0
+		#Range: 0.1 ~ 1000.0
+		damage = 1.0
+
+	#Dame Fortuna
+	[stats.fortuna]
+		#Max health multiplier for Dame Fortuna, very low values may lead to skipped/wonky card transitions
+		#eg 2 means x2 max health
+		#Values above ~3.4 require AttributeFix mod
+		#Will not apply to already spawned bosses
+		#Default: 1.0
+		#Range: 0.1 ~ 1000.0
+		health = 1.0
+		#Damage multiplier for Dame Fortuna's projectiles
+		#eg 2 means x2 damage
+		#Default: 1.0
+		#Range: 0.1 ~ 1000.0
+		damage = 1.0
+
+	#Rosalyne
+	[stats.rosalyne]
+		#Max health multiplier for Rosalyne and her spirits
+		#eg 2 means x2 max health
+		#Values above ~2 require AttributeFix mod
+		#Will not apply to already spawned bosses
+		#Default: 1.0
+		#Range: 0.1 ~ 1000.0
+		health = 1.0
+		#Damage multiplier for Rosalyne's melee swings
+		#eg 2 means x2 damage
+		#Values above ~85 require AttributeFix mod
+		#Will not apply to already spawned bosses
+		#Default: 1.0
+		#Range: 0.1 ~ 1000.0
+		melee = 1.0
+		#Damage multiplier for Rosalyne's spirits' projectiles
+		#eg 2 means x2 damage
+		#Default: 1.0
+		#Range: 0.1 ~ 1000.0
+		projectile = 1.0
+
+#Boss items
+[items]
+
+	#Swampjaw
+	[items.swampjaw]
+		#Caged Heart will reduce damage over this fraction of max health
+		#eg 0.25 means it reduces damage over 25% max health
+		#Default: 0.25
+		#Range: 0.0 ~ 1.0
+		cagedHeartTreshold = 0.25
+		#Caged Heart's damage multiplier for damage above the treshold
+		#eg 0.25 multiplies damage by 0.25 = 75% reduction
+		#Default: 0.5
+		#Range: 0.0 ~ 1.0
+		cagedHeartMultiplier = 0.5
+		#Bone Raker bonus attack damage
+		#Need to reequip or restart world to take effect
+		#Default: 2.0
+		#Range: 0.0 ~ 100.0
+		boneRakerBonus = 2.0
+
+	#Bellringer
+	[items.bellringer]
+		#Range of the Spectre's Eye in blocks
+		#Default: 32
+		#Range: 1 ~ 64
+		spectresEyeRange = 32
+		#Max range of the Passage's Toll in blocks
+		#Default: 16
+		#Range: 1 ~ 64
+		passagesTollRange = 16
+
+	#Dame Fortuna
+	[items.fortuna]
+		#Chance that the Slicer's Dice increases damage
+		#eg 0.25 means 25% chance
+		#Default: 0.16666666666666666
+		#Range: 0.01 ~ 1.0
+		slicerDiceChance = 0.16666666666666666
+		#Damage multiplier of the Slicer's Dice
+		#eg 2 means x2 damage = +100% damage
+		#Default: 2.0
+		#Range: 1.0 ~ 100.0
+		slicerDiceMultiplier = 2.0
+		#Whether the Slicer's Dice proc chance is affected by luck
+		#When positive luck, it's (1+luck)/((1/chance)+luck)
+		#When negative luck, it's 1/((1/chance)-3*luck)
+		#Default: true
+		slicerDiceLuck = true
+		#Chance that the Ace of Iron blocks damage
+		#eg 0.25 means 25% chance
+		#Default: 0.16666666666666666
+		#Range: 0.01 ~ 1.0
+		aceOfIronChance = 0.16666666666666666
+		#Whether the Ace of Iron proc chance is affected by luck
+		#There is a soft cap of 50% chance, so if the base chance exceeds that, positive luck won't do anything either way
+		#When positive luck, it's (1+luck)/((1/chance)+2*luck)
+		#When negative luck, it's 1/((1/chance)-3*luck)
+		#Default: true
+		aceOfIronLuck = true
+		#Chance that the Cocktail Cutlass gives a potion effect
+		#eg 0.25 means 25% chance
+		#Default: 0.2
+		#Range: 0.01 ~ 1.0
+		cocktailCutlassChance = 0.2
+		#Whether the Cocktail Cutlass proc chance is affected by luck
+		#When positive luck, it's (1+luck)/((1/chance)+0.5*luck)
+		#When negative luck, it's 1/((1/chance)-luck)
+		#Default: true
+		cocktailCutlassLuck = true
+		#Chance that the Jagershot (Guns Without Roses compat) shoots a splash potion
+		#eg 0.25 means 25% chance
+		#Default: 0.3333333333333333
+		#Range: 0.01 ~ 1.0
+		jagershotChance = 0.3333333333333333
+		#Whether the Jagershot proc chance is affected by luck
+		#When positive luck, it's (1+luck)/((1/chance)+0.5*luck)
+		#When negative luck, it's 1/((1/chance)-luck)
+		#Default: true
+		jagershotLuck = true
+
+	#Rosalyne
+	[items.rosalyne]
+		#Damage multiplier of the Wilted Ideals
+		#eg 2 means x2 damage = +100% damage
+		#Default: 1.5
+		#Range: 1.0 ~ 100.0
+		wiltedIdealsMultiplier = 1.5
+		#Percent max health penalty from the Wilted Ideals
+		#eg 0.4 means -40% max health
+		#Need to reequip or restart world to take effect
+		#Default: 0.5
+		#Range: 0.0 ~ 0.9
+		wiltedIdealsPenalty = 0.5
+		#Average bonus experience (relative to the mob's xp drop) the Blossoming Mind gives
+		#eg 0.6 means adds an average of 0.6x the base xp drops (so +60%)
+		#Default: 1.0
+		#Range: 0.0 ~ 100.0
+		blossomingMindBonus = 1.0
+		#Maximum bonus experiece the Blossoming Mind can give per kill
+		#The actual amount can vary between 0.5 and 1.5 times that and still depends on the experience dropped by the monster
+		#I capped it so that it's not 'optimal' to use it for bosses
+		#Default: 10
+		#Range: 1 ~ 10000
+		blossomingMindCap = 10
+

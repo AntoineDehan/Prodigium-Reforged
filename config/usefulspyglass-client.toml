@@ -8,4 +8,6 @@
 #Change the horizontal position of the HUD. Default 0.09.
 #Range: 0.0 ~ 1.0
 "Vertical position" = 0.05
+#If enabled and Jade is installed, will use its overlay instead of the built-in overlay.
+"Jade Overlay" = true
 

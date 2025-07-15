@@ -14,6 +14,7 @@
 	"Phoenix Egg Rarity" = 1.0
 	#1 is normal, 2 is doubled, 3 is tripled
 	"Sea Viper Egg Rarity" = 1.0
+	"Witch Doctor Spawning" = true
 
 ["Beast Items Configuration"]
 	#Determines the slowness level applied by the root
@@ -42,6 +43,10 @@
 	"Molten Coal Damage Timer" = 3.0
 	#Determines the level of strength applied to you when wearing the pumpkin helmet
 	"Pumpkin Helmet Strength Level" = 1.0
+	#Determines the level of resistance granted by the Jungle Pendant
+	"Jungle Pendant Resistance" = 1.0
+	#Determines the duration of resistance granted to the player
+	"Jungle Pendant Timer" = 6.0
 
 ["Rare Beasts Configuration"]
 	#true means spawns are on, false means they are not
@@ -58,6 +63,7 @@
 	#1 is normal, 2 is doubled, 3 is tripled
 	"Rare Phoenix Egg Rarity" = 1.0
 	"Rare Sea Viper Egg Rarity" = 1.0
+	"Rare Witchdoctor Rarity" = true
 
 ["Beast Pit Configuration"]
 	#Determines the max number of Beast pits that can be lit at any given time per world

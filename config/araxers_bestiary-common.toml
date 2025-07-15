@@ -1,0 +1,22 @@
+#Enable the progression system where entity information is gradually revealed as you kill more of them
+enableProgressionSystem = true
+#Number of kills required to unlock spawn locations
+#Range: > 5
+spawnLocationThreshold = 50
+#Number of kills required to unlock loot icons
+#Range: > 10
+lootIconThreshold = 100
+#Number of kills required to unlock loot drop chances
+#Range: > 25
+lootChanceThreshold = 200
+#Hide entities with 0 kills when progression system is enabled
+hideZeroKillEntities = false
+#List of mob categories to be considered as monsters (all categories: "monster", "creature", "water_creature", "underground_water_creature", "ambient", "water_ambient", "axolotls", "misc")
+monsterCategories = ["monster", "creature", "water_creature", "underground_water_creature", "ambient", "water_ambient", "axolotls"]
+#List of entities that should not be shown in the bestiary (format: "minecraft:sheep")
+entityBlacklist = []
+#Enable the keybind to open the bestiary screen
+enableKeybind = true
+#Which UI to use for the bestiary screen ("legacy" or "modern")
+uiType = "modern"
+

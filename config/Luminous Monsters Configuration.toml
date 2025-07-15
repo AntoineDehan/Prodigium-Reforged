@@ -1,0 +1,21 @@
+
+["Mob Parameters"]
+	#enables/disables the monster variants
+	"Variant Spawns" = true
+	"Miner Zombie Spawns" = true
+	"Miner Skeleton Spawns" = true
+	"Frigid Zombie Spawns" = true
+	"Frigid Skeleton Spawns" = true
+	"Swamp Zombie Spawns" = true
+	"Swamp Skeleton Spawns" = true
+	"Savanna Zombie Spawns" = true
+	"Savanna Skeleton Spawns" = true
+	"Dark Oak Zombie Spawns" = true
+	"Dark Oak Skeleton Spawns" = true
+	"Cherry Zombie Spawns" = true
+	"Cherry Skeleton Spawns" = true
+	"Hollow Skeleton Spawns" = true
+	"Sunken Skeleton Spawns" = true
+	"Crimson Walker Spawns" = true
+	"Revenant Skeleton Spawns" = true
+

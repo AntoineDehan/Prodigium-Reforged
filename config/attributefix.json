@@ -231,6 +231,17 @@
         "value": 20
       }
     },
+    "item_cooling_reduction:reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "spell_power:critical_damage": {
       "enabled": false,
       "min": {
@@ -902,6 +913,17 @@
         "value": 1000
       }
     },
+    "irons_rpg_tweaks:natural_regen_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "iguanatweaksreborn:piercing_damage": {
       "enabled": false,
       "min": {
@@ -1153,6 +1175,17 @@
       "max": {
         "default": 5,
         "value": 1000000
+      }
+    },
+    "irons_rpg_tweaks:natural_regen_amount": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "forge:swim_speed": {
