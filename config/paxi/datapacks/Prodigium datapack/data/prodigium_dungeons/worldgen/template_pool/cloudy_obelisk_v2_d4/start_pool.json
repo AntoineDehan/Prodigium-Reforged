@@ -1,0 +1,19 @@
+{
+  "name": "prodigium_dungeons:cloudy_obelisk_v2_d4/start_pool",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "prodigium_dungeons:cloudy_obelisk_v2_d4",
+
+        "processors": "minecraft:empty",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
