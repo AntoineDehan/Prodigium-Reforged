@@ -3,12 +3,12 @@
   "start_pool": "prodigium_dungeons:cloudy_obelisk_v2_d1/start_pool",
   "size": 1,
   "max_distance_from_center": 65,
-  "biomes": "#prodigium_dungeons:has_structure/glider_tower",
+  "biomes": "#prodigium_dungeons:has_structure/obelisk",
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "above_bottom": 80,
   "start_height": {
-    "absolute": 180
+    "absolute": 120
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "use_expansion_hack": false,
