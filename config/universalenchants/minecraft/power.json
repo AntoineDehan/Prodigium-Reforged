@@ -7,8 +7,7 @@
     "aether:enchanted_dart_shooter",
     "aether_redux:veridium_dart_shooter",
     "aether_redux:infused_veridium_dart_shooter",
-    "$minecraft:crossbow",
-    "$minecraft:gwr_gun"
+    "$minecraft:crossbow"
   ],
   "incompatible": [
     "spell_power:soulfrost",
