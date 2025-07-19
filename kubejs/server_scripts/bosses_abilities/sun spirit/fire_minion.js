@@ -9,6 +9,6 @@ EntityEvents.death((event) => {
     .filter((e) => e.type === "aether:sun_spirit");
 
   for (let boss of bosses) {
-    boss.health = Math.max(boss.health - 10, 0);
+    boss.health = Math.max(boss.health - 7, 0);
   }
 });

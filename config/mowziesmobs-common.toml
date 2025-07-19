@@ -330,7 +330,7 @@
 		#Disable/enable the Sculptor's boss health bar
 		has_boss_bar = true
 		#Which item the Sculptor desires in exchange for a chance to try his challenge
-		trade_which_item = "mowziesmobs:bluff_rod"
+		trade_which_item = "ancient_aether:sakura_sapling"
 		#How many of the item the Sculptor desires in exchange for a chance to try his challenge
 		#Range: 0 ~ 64
 		trade_how_many = 1

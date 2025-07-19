@@ -19,4 +19,10 @@ entityBlacklist = []
 enableKeybind = true
 #Which UI to use for the bestiary screen ("legacy" or "modern")
 uiType = "modern"
+#Number of kills required to unlock advanced attributes (knockback resistance, armor, movement speed)
+#Range: > 15
+advancedAttributesThreshold = 30
+#Number of kills required to unlock entity descriptions
+#Range: > 5
+descriptionThreshold = 40
 

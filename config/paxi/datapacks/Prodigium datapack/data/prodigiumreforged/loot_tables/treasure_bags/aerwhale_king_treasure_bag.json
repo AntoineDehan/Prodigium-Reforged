@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lost_aether_content:platinium_key"
+          "name": "lost_aether_content:platinum_key"
         }
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:tag",
@@ -23,8 +23,8 @@
     },
     {
       "rolls": {
-        "min": 3,
-        "max": 5
+        "min": 2,
+        "max": 4
       },
       "entries": [
         {
@@ -114,7 +114,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 35,
+                "min": 10,
                 "max": 45
               }
             }

@@ -1,28 +1,38 @@
-let cooldown = false;
+let bossRef = null;
+let running = false;
+let waveCount = 0;
 
 EntityEvents.hurt((event) => {
   const entity = event.entity;
   const server = event.server;
 
-  if (entity.type != "aether:sun_spirit") return;
+  if (entity.type !== "aether:sun_spirit") return;
+  if (running) return;
 
-  if (!cooldown) {
-    cooldown = true;
+  running = true;
+  bossRef = entity;
+  waveCount = 0;
 
-    if (event.player) {
-      event.player.tell("Minions incoming!");
+  const summonMinions = () => {
+    if (!bossRef || bossRef.isRemoved() || waveCount >= 5) {
+      running = false;
+      bossRef = null;
+      waveCount = 0;
+      return;
     }
 
     for (let i = 0; i < 3; i++) {
-      let x = entity.x + (Math.random() - 0.5) * 4;
-      let y = entity.y;
-      let z = entity.z + (Math.random() - 0.5) * 4;
-
-      entity.level.runCommand(`summon aether:fire_minion ${x} ${y} ${z}`);
+      const x = bossRef.x + (Math.random() - 0.5) * 4;
+      const y = bossRef.y;
+      const z = bossRef.z + (Math.random() - 0.5) * 4;
+      bossRef.level.runCommandSilent(
+        `summon aether:fire_minion ${x} ${y} ${z}`
+      );
     }
 
-    server.scheduleInTicks(600, () => {
-      cooldown = false;
-    });
-  }
+    waveCount++;
+    server.scheduleInTicks(400, summonMinions);
+  };
+
+  summonMinions();
 });

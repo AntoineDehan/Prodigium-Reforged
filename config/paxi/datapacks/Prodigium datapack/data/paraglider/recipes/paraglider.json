@@ -10,9 +10,12 @@
     },
     "l": {
       "item": "quark:bonded_leather"
+    },
+    "c": {
+      "item": "aether:cold_aercloud"
     }
   },
-  "pattern": ["1l1", "f1f", "1 1"],
+  "pattern": ["clc", "f1f", "1 1"],
   "result": {
     "item": "paraglider:paraglider"
   },

@@ -2713,6 +2713,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["6AC131C918D30C93"]
 			description: [
 				"Found in &2Platinium Dungeon&r."
 				""
@@ -2747,7 +2748,8 @@
 			y: -5.0d
 		}
 		{
-			description: ["Found in his &2Monastery&r, challenge it with a &9Bluff Rod&r."]
+			dependencies: ["6AC131C918D30C93"]
+			description: ["Found in his &2Monastery&r (in the Aether), challenge it with a &9Sakura Sapling&r."]
 			id: "625D1BE78D3262AD"
 			rewards: [
 				{
@@ -2766,7 +2768,8 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				entity: "mowziesmobs:sculptor"
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
 				icon: {
 					Count: 1
 					id: "mowziesmobs:earthrend_gauntlet"
@@ -2774,11 +2777,11 @@
 						Damage: 0
 					}
 				}
-				id: "51D2E191FCC58D47"
-				title: "Defeat the &5Sculptor&r"
-				type: "kill"
-				value: 1L
+				id: "6C8EDFC8469C2256"
+				title: "Complete his challenge"
+				type: "advancement"
 			}]
+			title: "Complete &5The Sculptor's&r challenge"
 			x: 19.0d
 			y: -5.0d
 		}

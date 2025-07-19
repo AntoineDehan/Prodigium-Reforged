@@ -824,7 +824,7 @@
 				type: "item"
 			}]
 			title: "Obtain some Ambrosium Shards"
-			x: 3.0d
+			x: 2.0d
 			y: -4.5d
 		}
 		{
@@ -844,8 +844,8 @@
 				type: "biome"
 			}]
 			title: "Bit chilly isn't it ?"
-			x: 2.0d
-			y: -4.0d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]
@@ -864,10 +864,11 @@
 				type: "biome"
 			}]
 			title: "Find a Blighted biome"
-			x: 4.0d
-			y: -4.0d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
+			dependencies: ["406879C4C9D7B0FD"]
 			description: [
 				"Will be very useful to explore (and will be even more useful in the Aether)"
 				""
@@ -892,8 +893,8 @@
 				type: "item"
 			}]
 			title: "Craft a Paraglider"
-			x: -1.0d
-			y: 0.0d
+			x: 4.0d
+			y: -4.5d
 		}
 	]
 	title: "Exploration"

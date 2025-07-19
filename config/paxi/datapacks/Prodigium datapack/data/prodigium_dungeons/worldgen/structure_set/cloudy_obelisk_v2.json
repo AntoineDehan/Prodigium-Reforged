@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "prodigium_dungeons:cloudy_obelisk_v2_d1",
+      "weight": 1
+    },
+    {
+      "structure": "prodigium_dungeons:cloudy_obelisk_v2_d2",
+      "weight": 1
+    },
+    {
+      "structure": "prodigium_dungeons:cloudy_obelisk_v2_d3",
+      "weight": 1
+    },
+    {
+      "structure": "prodigium_dungeons:cloudy_obelisk_v2_d4",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 2144173955,
+    "spacing": 70,
+    "separation": 43,
+    "type": "minecraft:random_spread"
+  }
+}
