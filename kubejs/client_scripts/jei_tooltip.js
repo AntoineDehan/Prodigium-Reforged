@@ -119,7 +119,7 @@ JEIEvents.information((event) => {
   // Swampjaw
   event.addItem(
     ["meetyourfight:mossy_tooth"],
-    ["Obtained in the King Slime's Treasure Bag"]
+    ["Obtained in the Swampjaw's Treasure Bag"]
   );
 
   // Conjurer
