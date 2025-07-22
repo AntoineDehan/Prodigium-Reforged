@@ -5,7 +5,7 @@
 	group: "04557421BF808B7D"
 	icon: "mcwdoors:acacia_western_door"
 	id: "3FEC8081D4D64E2A"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
