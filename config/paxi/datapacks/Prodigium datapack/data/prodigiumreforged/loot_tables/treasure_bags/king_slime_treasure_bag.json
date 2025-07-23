@@ -39,16 +39,6 @@
           "type": "minecraft:item",
           "name": "confluence:royal_gel",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terra_entity:slime_staff",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terrawhips_and_more:slimywhip",
-          "weight": 1
         }
       ]
     },

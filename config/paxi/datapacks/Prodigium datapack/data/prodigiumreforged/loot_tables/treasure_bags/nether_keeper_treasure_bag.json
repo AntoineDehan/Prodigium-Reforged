@@ -32,11 +32,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "terrawhips_and_more:volcano",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:thorn_pendant",
           "weight": 4
         },
