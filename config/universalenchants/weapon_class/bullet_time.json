@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert"
+  ],
+  "incompatible": [
+    "spell_power:critical_damage",
+    "spell_power:soulfrost",
+    "majruszsenchantments:incompatibility_curse",
+    "spell_power:sunfire",
+    "spell_power:energize",
+    "spell_power:spell_power",
+    "spell_power:haste",
+    "spell_power:critical_chance",
+    "weapon_class:retreat"
+  ]
+}
