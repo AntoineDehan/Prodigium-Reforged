@@ -1,10 +1,10 @@
 {
-  "cooldown": 8,
+  "cooldown": 5,
   "base_damage": 10,
-  "draw_time": 16,
-  "range": 5,
-  "player_speed": 0.5,
-  "break_resist": 0.2,
+  "draw_time": 10,
+  "range": 3,
+  "player_speed": 0.9,
+  "break_resist": 0.5,
   "break_chance": 1.0,
   "on_fire_effects": [
     {

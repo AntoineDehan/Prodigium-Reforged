@@ -1,11 +1,11 @@
 {
   "cooldown": 8,
-  "base_damage": 10,
-  "draw_time": 16,
-  "range": 5,
-  "player_speed": 0.5,
-  "break_resist": 0.2,
-  "break_chance": 1.0,
+  "base_damage": 15,
+  "draw_time": 10,
+  "range": 4,
+  "player_speed": 0.7,
+  "break_resist": 0.5,
+  "break_chance": 0.9,
   "on_fire_effects": [
     {
       "effect": "archeryexp:quickdraw",

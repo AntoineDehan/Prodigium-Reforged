@@ -108,7 +108,7 @@
 	"Ancient Desert Stele Damage" = 20.0
 	#Player's Phantom Arrow's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Phantom Arrow Damage" = 5.0
+	"Phantom Arrow Damage" = 20.0
 	#Phantom Halberd's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Phantom Halberd Damage" = 12.0
