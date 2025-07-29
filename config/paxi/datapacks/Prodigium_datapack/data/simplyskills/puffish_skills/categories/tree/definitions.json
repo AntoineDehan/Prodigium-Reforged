@@ -10897,6 +10897,14 @@
         }
       },
       {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": -5,
+          "operation": "addition"
+        }
+      },
+      {
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_mage"
