@@ -11,17 +11,17 @@
 			image: "bettericons:textures/items/tile005.png"
 			rotation: 0.0d
 			width: 3.5d
-			x: 24.0d
-			y: 2.5d
+			x: 34.5d
+			y: 2.0d
 		}
 		{
-			dependency: "458DA39CB1A3AE07"
+			dependency: "41155113EBA75E4E"
 			height: 1.0d
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 40.0d
 			width: 1.0d
-			x: 22.5d
-			y: 1.5d
+			x: 33.5d
+			y: 1.0d
 		}
 		{
 			dependency: "281435B11C0F1243"
@@ -29,8 +29,8 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 20.0d
 			width: 0.8d
-			x: 25.0d
-			y: 1.5d
+			x: 35.5d
+			y: 1.0d
 		}
 		{
 			dependency: "1A1D4191D9A098E9"
@@ -38,8 +38,8 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 0.9d
-			x: 22.5d
-			y: 2.5d
+			x: 33.0d
+			y: 1.5d
 		}
 		{
 			dependency: "44CABC14818B1DFB"
@@ -47,24 +47,79 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
-			y: 0.5d
+			x: 35.0d
+			y: 0.0d
 		}
 		{
+			dependency: "0B31131A12E42700"
 			height: 0.65d
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 0.65d
-			x: 23.0d
-			y: 1.0d
+			x: 34.0d
+			y: 0.5d
 		}
 		{
 			height: 2.5d
 			image: "prodigium_reforged:textures/gui/normal_mode.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 14.5d
-			y: 2.0d
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependency: "53EAB8D1FE264583"
+			height: 1.0d
+			image: "simpleores:item/raw_adamantium"
+			rotation: -30.0d
+			width: 1.0d
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependency: "53EAB8D1FE264583"
+			height: 1.5d
+			image: "simpleores:item/raw_adamantium"
+			rotation: 35.0d
+			width: 1.5d
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependency: "53EAB8D1FE264583"
+			height: 1.0d
+			image: "prodigium:item/raw_palladium"
+			rotation: 20.0d
+			width: 1.0d
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependency: "53EAB8D1FE264583"
+			height: 0.85d
+			image: "prodigium:item/raw_palladium"
+			rotation: 0.0d
+			width: 0.85d
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependency: "281435B11C0F1243"
+			height: 1.5d
+			image: "minecraft:item/diamond"
+			rotation: -30.0d
+			width: 1.5d
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependency: "281435B11C0F1243"
+			height: 1.0d
+			image: "minecraft:item/diamond"
+			rotation: -5.0d
+			width: 1.0d
+			x: 24.5d
+			y: -0.5d
 		}
 	]
 	order_index: 0
@@ -134,7 +189,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["281435B11C0F1243"]
+			dependencies: ["44CABC14818B1DFB"]
 			description: [
 				"The &4Expert Mode&r is automatically unlocked when you enter the Nether."
 				""
@@ -192,8 +247,8 @@
 				title: "Unlock the &4Expert Mode&r"
 				type: "dimension"
 			}]
-			x: 24.0d
-			y: 2.75d
+			x: 34.5d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -211,7 +266,7 @@
 				""
 				"If you lose it you will need to trade with the Tavernkeep NPC."
 			]
-			icon: "terrawhips_and_more:slime_crown"
+			icon: "prodigium_reforged:slime_crown"
 			id: "1A1D4191D9A098E9"
 			min_required_tasks: 1
 			rewards: [
@@ -291,7 +346,7 @@
 			tasks: [
 				{
 					entity: "terra_entity:king_slime"
-					icon: "terrawhips_and_more:slime_crown"
+					icon: "prodigium_reforged:slime_crown"
 					id: "1D39AC7F95C73EA9"
 					title: "Kill the &3King Slime&r"
 					type: "kill"
@@ -359,10 +414,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4D93BD91D588FC2E"]
+			dependencies: ["41155113EBA75E4E"]
 			description: [
 				"Found in &2The Theatre&r."
-				""
 				""
 				"&nTip :&r"
 				"You can search through the &bExplorer's Compass&r &2The Theatre&r structure to find it!"
@@ -378,6 +432,7 @@
 			}
 			id: "458DA39CB1A3AE07"
 			min_required_tasks: 1
+			optional: true
 			rewards: [
 				{
 					auto: "no_toast"
@@ -426,8 +481,8 @@
 					type: "command"
 				}
 			]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "octagon"
+			size: 1.25d
 			tasks: [
 				{
 					entity: "conjurer_illager:conjurer"
@@ -460,10 +515,10 @@
 				}
 			]
 			x: 12.0d
-			y: -1.0d
+			y: 1.25d
 		}
 		{
-			dependencies: ["53EAB8D1FE264583"]
+			dependencies: ["0B31131A12E42700"]
 			description: ["Found in the &2Frostmaw Cavern&r"]
 			icon: {
 				Count: 1
@@ -609,8 +664,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 2.0d
+			x: 24.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3941AFCFA581CDB6"]
@@ -645,7 +700,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1A1D4191D9A098E9"]
+			dependencies: ["53EAB8D1FE264583"]
 			description: [
 				"Congratulation! You can now mine and use &2Adamantium&r and &4Palladium&r."
 				""
@@ -676,11 +731,11 @@
 				}
 			]
 			title: "You now have unlocked new ores"
-			x: 9.5d
-			y: 1.0d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["44CABC14818B1DFB"]
+			dependencies: ["281435B11C0F1243"]
 			description: [
 				"Congratulation! You can now mine and use &3diamonds&r and &5orichalcum&r to craft armors/tools and a ton of other stuff"
 				"(orichalcum is found in the nether)"
@@ -707,11 +762,11 @@
 				}
 			]
 			title: "You now have unlocked &3diamonds&r"
-			x: 19.0d
-			y: -2.5d
+			x: 26.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["44CABC14818B1DFB"]
+			dependencies: ["281435B11C0F1243"]
 			hide_until_deps_visible: true
 			id: "4D723F25ABA40671"
 			rewards: [{
@@ -726,8 +781,8 @@
 				type: "item"
 			}]
 			title: "Obtain an enchanting table"
-			x: 19.0d
-			y: -1.5d
+			x: 26.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2105DF082D01D023"]
@@ -979,7 +1034,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0B31131A12E42700"]
+			dependencies: ["2F37A0996328D7E5"]
 			description: [
 				"You can find the Dead King corpse laying in the &2Catacombs&r"
 				""
@@ -1070,8 +1125,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: -1.0d
+			x: 30.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4D723F25ABA40671"]
@@ -1098,8 +1153,8 @@
 				type: "item"
 			}]
 			title: "Craft a disenchanter"
-			x: 20.5d
-			y: -1.5d
+			x: 27.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["509DBFC46966C6EF"]
@@ -1189,7 +1244,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["458DA39CB1A3AE07"]
+			dependencies: [
+				"076CA10541A9CDF3"
+				"059DA9E1AF69D4DC"
+			]
 			description: ["Found in his village, the &2Umvuthana Grove&r."]
 			icon: {
 				Count: 1
@@ -1258,7 +1316,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 22.0d
 			y: -1.0d
 		}
 		{
@@ -1284,11 +1342,11 @@
 				title: "Make some room in your base!"
 				type: "questsadditions:days"
 			}]
-			x: 6.5d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["44CABC14818B1DFB"]
+			dependencies: ["41155113EBA75E4E"]
 			description: ["Summon it by crafting a &9Haunted Bell&r."]
 			icon: "meetyourfight:haunted_bell"
 			id: "53EAB8D1FE264583"
@@ -1343,8 +1401,8 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
-			y: 0.0d
+			x: 13.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1A1D4191D9A098E9"]
@@ -1352,6 +1410,7 @@
 			icon: "meetyourfight:swampjaw_head"
 			id: "4D93BD91D588FC2E"
 			min_required_tasks: 1
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1388,8 +1447,8 @@
 					type: "command"
 				}
 			]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "octagon"
+			size: 1.25d
 			tasks: [
 				{
 					entity: "meetyourfight:swampjaw"
@@ -1407,8 +1466,130 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -1.0d
+			x: 8.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["41155113EBA75E4E"]
+			description: ["Located in his &2Wrought Chamber&r."]
+			id: "1494480D5013F207"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F4C882807107059"
+				table_id: 7449522933339281626L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "275266D212C679D3"
+				title: "Kill the &3Ferrous Wroughtnaut&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.625d
+			y: -1.25d
+		}
+		{
+			dependencies: ["281435B11C0F1243"]
+			id: "2F37A0996328D7E5"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "terra_entity:skeletron"
+				icon: "terra_entity:skeletron_spawn_egg"
+				id: "0E798C00DCB02783"
+				title: "Defeat the &3Skeletron&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 27.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53EAB8D1FE264583"]
+			id: "059DA9E1AF69D4DC"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "terra_entity:eater_of_worlds"
+				icon: "terra_entity:eater_of_world_spawn_egg"
+				id: "6D98D52CF46CA484"
+				title: "Kill the &3Eater of World&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53EAB8D1FE264583"]
+			id: "076CA10541A9CDF3"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "terra_entity:brain_of_cthulhu"
+				icon: "terra_entity:brain_of_cthulhu_spawn_egg"
+				id: "156A51C915CCBDFC"
+				title: "Kill the &3Brain of Cthulhu&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["281435B11C0F1243"]
+			id: "2012C230E71A6F4E"
+			optional: true
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "prodigium:night_lich_treasure_bag"
+				id: "09F7ACD5E19F8A86"
+				title: "Defeat the &3Night Lich&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.875d
+			y: 1.75d
+		}
+		{
+			dependencies: ["1A1D4191D9A098E9"]
+			id: "41155113EBA75E4E"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "terra_entity:eye_of_cthulhu"
+				icon: "confluence:shield_of_cthulhu"
+				id: "32F6F8D28EA9586B"
+				title: "Defeat the &3Eye of Cthulhu&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B31131A12E42700"]
+			id: "3D7985B800B5CB3F"
+			optional: true
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				entity: "terra_entity:queen_bee"
+				icon: "terra_entity:queen_bee_spawn_egg"
+				id: "799EB97DED8C5E95"
+				title: "Defeat the &3Queen Bee&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.0d
+			y: -3.0d
 		}
 	]
 	title: "Normal Mode"

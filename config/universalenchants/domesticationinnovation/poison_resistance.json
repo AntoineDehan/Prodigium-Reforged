@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "domesticationinnovation:fireproof",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

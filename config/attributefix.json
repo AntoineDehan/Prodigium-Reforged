@@ -550,17 +550,6 @@
         "value": 2048
       }
     },
-    "doggytalents:generic.jump_power": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "irons_spellbooks:evocation_spell_power": {
       "enabled": false,
       "min": {
@@ -570,6 +559,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "doggytalents:generic.jump_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "puffish_attributes:player.jump": {

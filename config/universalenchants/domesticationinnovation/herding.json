@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "domesticationinnovation:ore_scenting",
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:blight_curse",
+    "domesticationinnovation:psychic_wall",
+    "domesticationinnovation:magnetic"
+  ]
+}

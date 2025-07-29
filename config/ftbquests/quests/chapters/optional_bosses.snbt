@@ -190,17 +190,6 @@
 			y: 0.0d
 		}
 		{
-			id: "2EB3E2E9F89FC177"
-			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				id: "0B2F31A13C42DDFB"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
 			id: "190F23F18D9A042B"
 			tasks: [{
 				entity: "alexsmobs:void_worm"
@@ -210,17 +199,6 @@
 			}]
 			x: 2.5d
 			y: 0.0d
-		}
-		{
-			id: "7A61C5912E3B1CF8"
-			tasks: [{
-				entity: "mowziesmobs:ferrous_wroughtnaut"
-				id: "644A31E619A68D56"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.5d
-			y: -1.5d
 		}
 	]
 	title: "Optional bosses"

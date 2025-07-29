@@ -114,7 +114,7 @@
 	"Phantom Halberd Damage" = 12.0
 	#Cursed Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Cursed Sandstorm Damage" = 6.0
+	"Cursed Sandstorm Damage" = 16.0
 	#Flame jet's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Flame Jet Damage" = 7.0

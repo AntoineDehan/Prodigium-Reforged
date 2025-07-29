@@ -215,17 +215,6 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			tasks: [{
-				id: "7C733A46B07D7DAB"
-				item: {
-					Count: 1
-					id: "simple_weapons:iron_greatsword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			title: "Longer weapon!"
 			x: 1.5d
 			y: -1.0d

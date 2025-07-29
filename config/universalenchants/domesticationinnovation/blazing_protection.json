@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "domesticationinnovation:deflection",
+    "domesticationinnovation:amphibious",
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:frost_fang",
+    "domesticationinnovation:shadow_hands",
+    "domesticationinnovation:disc_jockey",
+    "domesticationinnovation:immunity_frame"
+  ]
+}

@@ -1,0 +1,27 @@
+
+["Tameable Beasts Configs"]
+	#Spawn Chikote
+	"Chikotes enabled:" = true
+	#Spawn Flying Beetle
+	"Flying Beetles enabled:" = true
+	#Spawn Roly Poly
+	"Roly Polys enabled:" = true
+	#Spawn Grasshopper
+	"Grasshoppers enabled:" = true
+	#Spawn Ground Beetle
+	"Ground Beetles enabled:" = true
+	#Spawn Penguin
+	"Penguins enabled:" = true
+	#Spawn QuetzalCoatulus
+	"QuetzalCoatuluss enabled:" = true
+	#Spawn Racoon
+	"Racoons enabled:" = true
+	#Spawn Crested Gecko
+	"Crested Geckos enabled:" = true
+	#Spawn Argentavis
+	"Argentavis enabled:" = true
+	#Spawn Grapteranodons
+	"Grapteranodons enabled:" = true
+	#Argentavis Spawn Height
+	"Argentavis minimum spawn height:" = 100
+

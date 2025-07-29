@@ -1,0 +1,38 @@
+
+["Damage Popup Configuration"]
+	#Should show onomatopoeia expressions in popup particle?
+	"Show Expressions" = true
+	#Should text include outlines?
+	"Show Text Outline" = true
+	#Should show damage counter in popup particle?
+	"Show Damage Counter" = true
+	#Size multiplier for the hit particle popups.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Size Multiplier" = 0.4
+	#The decimal format for the popup damage text.
+	#e.g.: [0.000] will result in numbers like 7.325 while just [0] keeps it as whole numbers.
+	"Damage Decimal Format" = "0"
+	#RGB Color values for critical hit popups.
+	"Critical Hit Popup Colors" = [255, 196, 0]
+	#RGB Color values for heal popups.
+	"Heal Popup Colors" = [0, 255, 38]
+	#RGB Color values for magic attack popups.
+	"Melee Hit Popup Colors" = [162, 0, 250]
+	#RGB Color values for other damage type popups (becomes redder the higher the damage).
+	"Generic Popup Colors" = [255, 75, 75]
+	#A list of onomatopoeia expressions for melee hit popups.
+	"Melee Expressions" = ["CLANK!", "POW!", "BRUH!", "OUCH!", "WHAM!", "THWACK!", "BONK!", "SMACK!", "WHACK!", "BAM!"]
+	#A list of onomatopoeia expressions for critical melee hit popups.
+	"Critical Melee Expressions" = ["STRIKE!", "CRIT!", "CRUNCH!", "KABOOM!", "SMASH!", "OBLITERATE!", "DEVASTATE!", "ANNIHILATE!", "DECIMATE!", "SHATTER!"]
+	#A list of onomatopoeia expressions for critical arrow effect popups.
+	"Critical Arrow Expressions" = ["STRIKE!", "BULLSEYE!", "HEADSHOT?...!", "PIERCE!", "SNIPE!"]
+
+["Hurt Overlay Configuration"]
+	#Configure the conditions to enable the entity white hurt overlay.
+	#Allowed Values: DEFAULT, ONLY_BY_PLAYER, DISABLED
+	"Hurt Overlay Condition" = "DEFAULT"
+
+["Special Sounds Configuration"]
+	#Should play sounds on weapon swing?
+	"Swinging Sounds" = false
+

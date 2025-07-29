@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "domesticationinnovation:health_siphon",
+    "domesticationinnovation:rejuvenation",
+    "domesticationinnovation:vampire",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

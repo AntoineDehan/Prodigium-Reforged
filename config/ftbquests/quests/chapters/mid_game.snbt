@@ -119,28 +119,28 @@
 			y: -4.5d
 		}
 		{
-			height: 1.5d
-			image: "cofh_core:textures/particle/cloud.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: 19.0d
-			y: -4.5d
-		}
-		{
 			height: 1.0d
 			image: "cofh_core:textures/particle/cloud.png"
-			rotation: 0.25d
+			rotation: 0.0d
 			width: 1.0d
-			x: 19.5d
-			y: -4.5d
+			x: 17.0d
+			y: -7.0d
 		}
 		{
-			height: 1.5d
+			height: 0.5d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 0.5d
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 0.0d
-			width: 1.5d
-			x: 18.5d
-			y: -4.5d
+			width: 1.25d
+			x: 16.5d
+			y: -7.0d
 		}
 		{
 			height: 0.75d
@@ -163,8 +163,8 @@
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 0.0d
 			width: 0.55d
-			x: 16.0d
-			y: -7.0d
+			x: 17.5d
+			y: -6.0d
 		}
 		{
 			height: 1.0d
@@ -320,14 +320,30 @@
 			image: "prodigium_reforged:textures/gui/expert_mode.png"
 			rotation: 0.0d
 			width: 7.5d
-			x: 16.5d
-			y: -1.0d
+			x: 14.5d
+			y: -1.5d
 		}
 		{
 			height: 1.5d
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 0.0d
 			width: 1.9d
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 2.0d
+			x: 18.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "cofh_core:textures/particle/cloud.png"
+			rotation: 0.25d
+			width: 2.0d
 			x: 21.5d
 			y: -4.5d
 		}
@@ -340,35 +356,19 @@
 			y: -4.5d
 		}
 		{
-			height: 2.0d
-			image: "cofh_core:textures/particle/cloud.png"
-			rotation: 0.25d
-			width: 2.0d
-			x: 24.5d
-			y: -5.0d
-		}
-		{
-			height: 2.0d
-			image: "cofh_core:textures/particle/cloud.png"
-			rotation: 0.25d
-			width: 2.0d
-			x: 25.5d
-			y: -5.0d
-		}
-		{
 			height: 1.25d
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 0.75d
 			width: 1.25d
-			x: 25.0d
-			y: -4.5d
+			x: 22.0d
+			y: -4.0d
 		}
 		{
 			height: 0.5d
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 25.0d
 			width: 0.5d
-			x: 26.5d
+			x: 23.0d
 			y: -6.5d
 		}
 		{
@@ -376,8 +376,8 @@
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
-			y: -7.5d
+			x: 20.5d
+			y: -8.0d
 		}
 		{
 			height: 0.5d
@@ -509,7 +509,7 @@
 					type: "item"
 				}
 			]
-			x: 27.0d
+			x: 23.5d
 			y: 0.0d
 		}
 		{
@@ -820,8 +820,8 @@
 				type: "item"
 			}]
 			title: "Defeat the Undead Army in Expert Mode!"
-			x: 16.5d
-			y: 1.0d
+			x: 14.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["78E025D30CD1E607"]
@@ -941,7 +941,7 @@
 				type: "item"
 			}]
 			title: "You now have unlocked &8netherite&r"
-			x: 22.5d
+			x: 19.0d
 			y: -0.5d
 		}
 		{
@@ -1218,7 +1218,7 @@
 					type: "item"
 				}
 			]
-			x: 30.0d
+			x: 26.5d
 			y: 0.0d
 		}
 		{
@@ -1352,7 +1352,7 @@
 					type: "item"
 				}
 			]
-			x: 24.5d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -1864,7 +1864,7 @@
 					type: "item"
 				}
 			]
-			x: 25.0d
+			x: 22.0d
 			y: -5.0d
 		}
 		{
@@ -2210,7 +2210,7 @@
 					type: "item"
 				}
 			]
-			x: 24.5d
+			x: 21.0d
 			y: -2.5d
 		}
 		{
@@ -2397,7 +2397,7 @@
 					type: "item"
 				}
 			]
-			x: 32.0d
+			x: 28.5d
 			y: 0.0d
 		}
 		{
@@ -2629,11 +2629,10 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 22.0d
+			x: 19.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["6AC131C918D30C93"]
 			description: ["Found in his &2Monastery&r (in the Aether), challenge it with a &9Sakura Sapling&r."]
 			id: "625D1BE78D3262AD"
 			rewards: [
@@ -2716,8 +2715,8 @@
 					type: "command"
 				}
 			]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "octagon"
+			size: 1.25d
 			tasks: [{
 				advancement: "mowziesmobs:sculptor_challenge"
 				criterion: ""
@@ -2733,8 +2732,27 @@
 				type: "advancement"
 			}]
 			title: "Complete &5The Sculptor's&r challenge"
-			x: 19.0d
-			y: -5.0d
+			x: 16.875d
+			y: -7.5d
+		}
+		{
+			id: "0EB3E0BFA9725EC9"
+			tasks: [
+				{
+					entity: "stalwart_dungeons:awful_ghast"
+					id: "71982EED0EE6384F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "stalwart_dungeons:nether_keeper"
+					id: "1C660AF350D9E0AA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: 2.5d
 		}
 	]
 	title: "Expert Mode"

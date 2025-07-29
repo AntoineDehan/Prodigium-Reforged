@@ -42,10 +42,6 @@
 	enablePricklyBush = true
 	#Enable generation of reeds
 	enableReeds = true
-	#Enable generation of icicles
-	"enableIcicles " = true
-	#Enable generation of sandy sprouts
-	"enableSandySprouts " = true
 	#Enable generation of extra lilypads in lakes
 	enableExtraLilypads = true
 	#Enable generation of extra seagrass in lakes
@@ -60,6 +56,38 @@
 	enableCaveRoots = true
 	#Enable better ruined nether portals
 	enableBetterRuinedNetherPortals = true
+	#Enable generation of icicles
+	enableIcicles = true
+	#Enable generation of sandy sprouts
+	enableSandySprouts = true
+	#Enable generation of dried beached kelp
+	enableDriedBeachedKelp = true
+	#Enable generation of glowing blue fungus
+	enableGlowingBlueFungus = true
+	#Enable generation of muddy bones
+	enableMuddyBones = true
+	#Enable generation of lotus ponds in cherry groves
+	enableLotusPonds = true
+	#Enable generation of pink lotuses in flower forests
+	enableFloatingPinkLotus = true
+	#Enable generation of hot springs
+	enableHotSprings = true
+	#Enable generation of bushes
+	enableBushes = true
+	#Enable generation of wildflowers
+	enableWildflowers = true
+	#Enable generation of slime nodules
+	enableSlimeNodules = true
+	#Enable generation of pink vines
+	enablePinkVines = true
+	#Enable generation of watergrass
+	enableWatergrass = true
+	#Enable generation of gravel pits
+	enableGravelPits = true
+	#Enable generation of gold pits
+	enableGoldPits = true
+	#Enable generation of beached kelp
+	enableBeachedKelp = true
 
 ["Entity Options"]
 	#Enable spawning of tropical fish in jungles

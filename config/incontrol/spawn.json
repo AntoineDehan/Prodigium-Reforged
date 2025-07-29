@@ -1,12 +1,5 @@
 [
   {
-    "mob": ["terrawhips_and_more:slime_guard"],
-    "result": "allow",
-    "healthmultiply": 1.3,
-    "speedmultiply": 1.3,
-    "when": "onjoin"
-  },
-  {
     "mob": ["conjurer_illager:conjurer"],
     "result": "allow",
     "healthmultiply": 2.4,

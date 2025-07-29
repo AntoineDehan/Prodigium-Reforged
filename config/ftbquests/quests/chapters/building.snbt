@@ -9,74 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["You can then use it to remove/add pixel by pixel on a block "]
-			id: "0519865F33017960"
-			rewards: [{
-				auto: "no_toast"
-				id: "3E4E04538638FFA9"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "2FC68160D304E65C"
-				item: {
-					Count: 1
-					id: "chiselsandbits:chisel_stone"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Craft your first Chisel"
-			x: 8.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0519865F33017960"]
-			description: ["Insert a block in the station and it will transform it entierly in bits"]
-			id: "2559E2941C011938"
-			rewards: [{
-				auto: "no_toast"
-				id: "3EB6E7936B1CD8CF"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "74D76F74EEE888CB"
-				item: "chiselsandbits:chiseled_printer"
-				type: "item"
-			}]
-			title: "Craft a chisel station"
-			x: 9.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2559E2941C011938"]
-			hide_until_deps_visible: true
-			id: "7CAA27F14BD611CA"
-			rewards: [{
-				auto: "no_toast"
-				id: "7C027FA0BAF57E08"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "79F1A1E3E074EC11"
-				item: {
-					Count: 1
-					id: "chiselsandbits:chisel_netherite"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Use a netherite ingot to craft a Netherite Chisel"
-			x: 10.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["37BD72501729B47F"]
 			id: "4557E177412C935E"
 			rewards: [
@@ -504,55 +436,18 @@
 				xp_levels: 2
 			}]
 			tasks: [{
-				id: "4D44B706FA268DF0"
+				id: "25DC0FEF83BA83D4"
 				item: {
 					Count: 1
-					id: "doggytalents:dog_bed"
+					id: "itemfilters:tag"
 					tag: {
-						doggytalents: {
-							beddingId: "minecraft:black_wool"
-							casingId: "minecraft:oak_planks"
-						}
+						value: "domesticationinnovation:pet_beds"
 					}
 				}
 				type: "item"
 			}]
-			title: "Craft a dog bed"
+			title: "Craft a bed for your pet"
 			x: 8.0d
-			y: 3.0d
-		}
-		{
-			id: "6E94C5DC58DB73C5"
-			rewards: [{
-				auto: "no_toast"
-				id: "3A00D70CE071E289"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "71CA2B394DF7F801"
-				item: "doggytalents:dog_bath"
-				type: "item"
-			}]
-			title: "Craft a dog bath"
-			x: 10.0d
-			y: 3.0d
-		}
-		{
-			id: "48C2C7D0D7A76E03"
-			rewards: [{
-				auto: "no_toast"
-				id: "03BA168F0EB851D6"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "4CEE5576F9E13D2C"
-				item: "doggytalents:food_bowl"
-				type: "item"
-			}]
-			title: "Craft a food bowl"
-			x: 9.0d
 			y: 3.0d
 		}
 		{

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:disc_jockey"
+  ]
+}
