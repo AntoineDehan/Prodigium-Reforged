@@ -119,6 +119,7 @@
 			y: -4.5d
 		}
 		{
+			dependency: "625D1BE78D3262AD"
 			height: 1.0d
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 0.0d
@@ -127,6 +128,7 @@
 			y: -7.0d
 		}
 		{
+			dependency: "625D1BE78D3262AD"
 			height: 0.5d
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 0.25d
@@ -135,6 +137,7 @@
 			y: -7.0d
 		}
 		{
+			dependency: "625D1BE78D3262AD"
 			height: 1.25d
 			image: "cofh_core:textures/particle/cloud.png"
 			rotation: 0.0d
@@ -387,6 +390,52 @@
 			x: 24.0d
 			y: -4.0d
 		}
+		{
+			dependency: "476DC0D49480853F"
+			height: 1.25d
+			image: "simpleores:item/onyx_gem"
+			rotation: 20.0d
+			width: 1.25d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependency: "476DC0D49480853F"
+			height: 1.0d
+			image: "simpleores:item/onyx_gem"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependency: "476DC0D49480853F"
+			height: 1.25d
+			image: "stalwart_dungeons:item/raw_tungsten"
+			rotation: 20.0d
+			width: 1.25d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependency: "476DC0D49480853F"
+			height: 1.0d
+			image: "stalwart_dungeons:item/raw_tungsten"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependency: "476DC0D49480853F"
+			height: 1.5d
+			image: "stalwart_dungeons:item/raw_tungsten"
+			order: -80
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.5d
+			y: 0.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -637,7 +686,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -922,7 +971,7 @@
 				type: "kill"
 				value: 15L
 			}]
-			x: 0.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -945,7 +994,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["0EA710182249A301"]
+			dependencies: ["476DC0D49480853F"]
 			description: ["Find it in the nether"]
 			hide_until_deps_visible: true
 			id: "099477E4F8EED634"
@@ -955,12 +1004,19 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			tasks: [{
-				id: "3B4F63376B8890C1"
-				item: "simpleores:onyx_gem"
-				type: "item"
-			}]
-			title: "You now have unlocked &8onyx&r gems"
+			tasks: [
+				{
+					id: "3B4F63376B8890C1"
+					item: "simpleores:onyx_gem"
+					type: "item"
+				}
+				{
+					id: "25EF7BC8301E9847"
+					item: "stalwart_dungeons:raw_tungsten"
+					type: "item"
+				}
+			]
+			title: "You now have unlocked &8Onyx&r gems and &2Tungsten&r"
 			x: 6.5d
 			y: 1.0d
 		}
@@ -1984,7 +2040,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0EA710182249A301"]
+			dependencies: ["78E025D30CD1E607"]
 			description: ["Found in the &2Gauntlet Arena&r."]
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "476DC0D49480853F"
@@ -2001,6 +2057,27 @@
 					item: "irons_spellbooks:blank_rune"
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_3 true"
+					elevate_perms: true
+					id: "0D9CD74F2A212D9D"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p stage_mb true"
+					elevate_perms: true
+					id: "4979AE4D6DF5803E"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"Even though you feel\",\"italic\":\"true\"},{\"text\":\" old spirits rising through the ground\",\"bold\":\"true\"},{\"text\":\", you can now find and mine\"},{\"text\":\" Onyx\",\"bold\":\"true\",\"color\":\"dark_gray\"},{\"text\":\".\"}]"
+					elevate_perms: true
+					id: "64218CCD3D139652"
+					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
@@ -2420,7 +2497,7 @@
 				type: "item"
 			}]
 			title: "Combine your accessories!"
-			x: 1.5d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -2633,7 +2710,9 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["6AC131C918D30C93"]
 			description: ["Found in his &2Monastery&r (in the Aether), challenge it with a &9Sakura Sapling&r."]
+			hide_until_deps_complete: true
 			id: "625D1BE78D3262AD"
 			rewards: [
 				{
@@ -2736,23 +2815,165 @@
 			y: -7.5d
 		}
 		{
-			id: "0EB3E0BFA9725EC9"
-			tasks: [
+			dependencies: ["476DC0D49480853F"]
+			description: [
+				"Found in the &2Keeping Castle&r. Both bosses are waiting for you..."
+				""
+				"&oThose bosses have a rework coming, in the meantime they are not very good, sorry...&r"
+			]
+			hide_until_deps_complete: true
+			icon: "stalwart_dungeons:keeping_castle_spawner"
+			id: "0EA710182249A301"
+			min_required_tasks: 2
+			rewards: [
 				{
-					entity: "stalwart_dungeons:awful_ghast"
-					id: "71982EED0EE6384F"
-					type: "kill"
-					value: 1L
+					auto: "no_toast"
+					id: "450AEA99A43E2657"
+					type: "xp_levels"
+					xp_levels: 6
 				}
 				{
-					entity: "stalwart_dungeons:nether_keeper"
-					id: "1C660AF350D9E0AA"
-					type: "kill"
-					value: 1L
+					count: 8
+					id: "48F6A3B7232BD44D"
+					item: "stalwart_dungeons:tungsten_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 6
+					id: "12B22C3B93175109"
+					item: "stalwart_dungeons:blaze_armor_scrap"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "37870C0B2A497035"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:ancient_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "704BF5919FF82AB9"
+					item: "stalwart_dungeons:awful_crystal"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ED82335A17A3AF4"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1B71CE6DA404AFF6"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1016AC68113E5797"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3FF589D046FB7A76"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1DF36578345CF0DD"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2A1E090D717E9D03"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "237A7ABA6DC858FC"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
 				}
 			]
-			x: 4.0d
-			y: 2.5d
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "stalwart_dungeons:nether_keeper"
+					icon: "stalwart_dungeons:keeping_castle_spawner"
+					id: "7A851329C3F650DB"
+					title: "Kill the &5Nether Keeper&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "stalwart_dungeons:awful_ghast"
+					icon: "stalwart_dungeons:awful_dungeon_spawner"
+					id: "5B443EB49F15C3AB"
+					title: "Kill the &5Awful Ghast&r"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					id: "48B54934F0F9C2B1"
+					item: "prodigium:nether_keeper_treasure_bag"
+					secret: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "10BE3424167CB631"
+					item: "prodigium:awful_ghast_treasure_bag"
+					secret: true
+					type: "item"
+				}
+			]
+			title: "Kill the &5Nether Keeper&r and &5The Awful Ghast&r"
+			x: 5.0d
+			y: 1.875d
 		}
 	]
 	title: "Expert Mode"
