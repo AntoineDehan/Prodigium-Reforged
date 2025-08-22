@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["012", "3 5"],
+  "key": {
+    "0": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    },
+    "1": {
+      "item": "prodigium_reforged:dark_armor_scrap"
+    },
+    "2": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    },
+    "3": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    },
+    "5": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "stalwart_dungeons:tungsten_helmet",
+    "count": 1
+  }
+}

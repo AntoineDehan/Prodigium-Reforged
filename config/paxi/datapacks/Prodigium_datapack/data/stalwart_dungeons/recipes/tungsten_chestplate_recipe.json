@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["0 2", "345", "678"],
+  "key": {
+    "0": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    },
+    "2": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    },
+    "3": {
+      "item": "prodigium_reforged:dark_armor_scrap"
+    },
+    "4": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    },
+    "5": {
+      "item": "prodigium_reforged:dark_armor_scrap"
+    },
+    "6": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    },
+    "7": {
+      "item": "prodigium_reforged:dark_armor_scrap"
+    },
+    "8": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "stalwart_dungeons:tungsten_chestplate",
+    "count": 1
+  }
+}
