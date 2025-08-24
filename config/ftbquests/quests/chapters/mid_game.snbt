@@ -2825,6 +2825,7 @@
 			icon: "stalwart_dungeons:keeping_castle_spawner"
 			id: "0EA710182249A301"
 			min_required_tasks: 2
+			optional: true
 			rewards: [
 				{
 					auto: "no_toast"
@@ -2974,6 +2975,22 @@
 			title: "Kill the &5Nether Keeper&r and &5The Awful Ghast&r"
 			x: 5.0d
 			y: 1.875d
+		}
+		{
+			id: "2012C230E71A6F4E"
+			optional: true
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "prodigium:night_lich_treasure_bag"
+				id: "09F7ACD5E19F8A86"
+				title: "Defeat the &3Night Lich&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.625d
+			y: 0.625d
 		}
 	]
 	title: "Expert Mode"
