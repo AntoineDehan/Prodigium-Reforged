@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BIB", "BCB", " T "],
+  "key": {
+    "B": { "tag": "forge:bones" },
+    "I": { "tag": "forge:ingots/iron" },
+    "T": { "item": "meetyourfight:mossy_tooth" },
+    "C": { "item": "born_in_chaos_v1:bone_heart" }
+  },
+  "result": { "item": "meetyourfight:caged_heart" }
+}

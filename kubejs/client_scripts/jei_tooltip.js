@@ -53,6 +53,12 @@ JEIEvents.information((event) => {
     ["Sold by the Nurse NPC"]
   );
 
+  // Zoologist
+  event.addItem(
+    ["domesticationinnovation:collar_tag"],
+    ["Sold by the Zoologist NPC"]
+  );
+
   // Goblin
   event.addItem(
     [
@@ -134,10 +140,42 @@ JEIEvents.information((event) => {
     ["Obtained in the Conjurer's Treasure Bag"]
   );
 
+  // Eater of World
+  event.addItem(
+    ["confluence:shield_of_cthulhu"],
+    ["Obtained in the Eater of World's Treasure Bag"]
+  );
+
+  // Brain of Chtulhu
+  event.addItem(
+    ["confluence:brain_of_confusion"],
+    ["Obtained in the Brain of Chtulhu's Treasure Bag"]
+  );
+
+  // Queen Bee
+  event.addItem(
+    [
+      "born_in_chaos_v1:sweet_axe",
+      "born_in_chaos_v1:sweet_sword",
+      "confluence:hive_pack",
+    ],
+    ["Obtained in the Queen Bee's Treasure Bag"]
+  );
+
   // Umvuthi
   event.addItem(
-    ["endrem:black_eye", "mowziesmobs:sol_visage", "confluence:hive_pack"],
+    ["endrem:black_eye", "mowziesmobs:sol_visage"],
     ["Obtained in the Umvuthi's Treasure Bag"]
+  );
+
+  // Skeletron
+  event.addItem(
+    [
+      "born_in_chaos_v1:bone_heart",
+      "born_in_chaos_v1:bone_handle",
+      "luminous_beasts:bone_rattle",
+    ],
+    ["Obtained in the Skeletron's Treasure Bag"]
   );
 
   // Dead King
@@ -167,6 +205,9 @@ JEIEvents.information((event) => {
       "mowziesmobs:ice_crystal",
       "confluence:frozen_turtle_shell",
       "endrem:cold_eye",
+      "tameablebeasts:icepop",
+      "tameablebeasts:ice_helmet",
+      "tameablebeasts:ice_chestplate",
     ],
     ["Obtained in the Frostmaw's Treasure Bag"]
   );
