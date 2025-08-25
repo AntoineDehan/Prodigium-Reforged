@@ -1,0 +1,47 @@
+[
+  {
+    "item_a": {
+      "item": "minecraft:baked_potato",
+      "count": 4
+    },
+    "result": "minecraft:emerald",
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:fermented_spider_eye",
+    "result": {
+      "item": "minecraft:emerald",
+      "count": 3
+    },
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:hay_block",
+    "result": "minecraft:emerald",
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:milk_bucket",
+    "result": {
+      "item": "minecraft:emerald",
+      "count": 2
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    "result": "minecraft:emerald",
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:water_bucket",
+    "result": {
+      "item": "minecraft:emerald",
+      "count": 2
+    },
+    "xp": 0
+  }
+]

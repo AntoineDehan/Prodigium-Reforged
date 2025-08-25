@@ -1,0 +1,190 @@
+[
+  {
+    "item_a": "minecraft:emerald",
+    "result": {
+      "item": "minecraft:gunpowder",
+      "count": 4
+    },
+    "max_uses": 2,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "result": {
+      "item": "#minecraft:logs_that_burn",
+      "count": 8
+    },
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": "minecraft:emerald",
+    "result": "minecraft:packed_ice",
+    "max_uses": 6,
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 3
+    },
+    "result": "minecraft:book",
+    "enchant_randomly": {
+      "min_levels": 4,
+      "max_levels": 8,
+      "treasure": false
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 5
+    },
+    "result": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 6
+    },
+    "result": "minecraft:experience_bottle",
+    "max_uses": 4,
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 6
+    },
+    "result": "minecraft:blue_ice",
+    "max_uses": 6,
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 9
+    },
+    "result": "minecraft:book",
+    "enchant_randomly": {
+      "min_levels": 12,
+      "max_levels": 24,
+      "treasure": true
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 8
+    },
+    "result": {
+      "item": "minecraft:map",
+      "nbt": "{display:{Name:\u0027{\"translate\":\"filled_map.desert_pyramid\"}\u0027}}"
+    },
+    "exploration_map": {
+      "destination": "iguanatweaksreborn:desert_pyramid",
+      "skip_existing_chunks": false
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 8
+    },
+    "result": {
+      "item": "minecraft:map",
+      "nbt": "{display:{Name:\u0027{\"translate\":\"filled_map.jungle_pyramid\"}\u0027}}"
+    },
+    "exploration_map": {
+      "destination": "iguanatweaksreborn:jungle_pyramid",
+      "skip_existing_chunks": false
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 8
+    },
+    "result": {
+      "item": "minecraft:map",
+      "nbt": "{display:{Name:\u0027{\"translate\":\"filled_map.igloo\"}\u0027}}"
+    },
+    "exploration_map": {
+      "destination": "iguanatweaksreborn:igloo",
+      "skip_existing_chunks": false
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 8
+    },
+    "result": {
+      "item": "minecraft:map",
+      "nbt": "{display:{Name:\u0027{\"translate\":\"filled_map.trail_ruins\"}\u0027}}"
+    },
+    "exploration_map": {
+      "destination": "iguanatweaksreborn:trail_ruins",
+      "decoration": "target_point",
+      "skip_existing_chunks": false
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 8
+    },
+    "result": {
+      "item": "minecraft:map",
+      "nbt": "{display:{Name:\u0027{\"translate\":\"filled_map.swamp_hut\"}\u0027}}"
+    },
+    "exploration_map": {
+      "destination": "iguanatweaksreborn:swamp_hut",
+      "decoration": "target_point",
+      "skip_existing_chunks": false
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 8
+    },
+    "result": {
+      "item": "minecraft:map",
+      "nbt": "{display:{Name:\u0027{\"translate\":\"filled_map.mansion\"}\u0027}}"
+    },
+    "exploration_map": {
+      "destination": "minecraft:on_woodland_explorer_maps",
+      "search_radius": 100,
+      "skip_existing_chunks": false
+    },
+    "xp": 0
+  },
+  {
+    "item_a": {
+      "item": "minecraft:emerald",
+      "count": 8
+    },
+    "result": {
+      "item": "minecraft:map",
+      "nbt": "{display:{Name:\u0027{\"translate\":\"filled_map.monument\"}\u0027}}"
+    },
+    "exploration_map": {
+      "destination": "minecraft:on_ocean_explorer_maps",
+      "decoration": "monument",
+      "skip_existing_chunks": false
+    },
+    "xp": 0
+  }
+]

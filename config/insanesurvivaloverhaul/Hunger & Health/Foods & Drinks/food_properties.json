@@ -1,0 +1,110 @@
+[
+  {
+    "food": "minecraft:rotten_flesh",
+    "nutrition": 2,
+    "eating_time": 55
+  },
+  {
+    "food": "minecraft:spider_eye",
+    "nutrition": 1,
+    "eating_time": 40
+  },
+  {
+    "food": "minecraft:honey_bottle",
+    "nutrition": 2
+  },
+  {
+    "food": "minecraft:cooked_beef",
+    "nutrition": 6
+  },
+  {
+    "food": "minecraft:cooked_porkchop",
+    "nutrition": 7
+  },
+  {
+    "food": "minecraft:pumpkin_pie",
+    "nutrition": 6,
+    "eating_time": 40
+  },
+  {
+    "food": "minecraft:rabbit_stew",
+    "nutrition": 12
+  },
+  {
+    "food": "minecraft:glow_berries",
+    "can_always_eat": true
+  },
+  {
+    "food": "minecraft:cookie",
+    "nutrition": 1
+  },
+  {
+    "food": "minecraft:golden_apple",
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 100,
+        "amplifier": 1
+      },
+      {
+        "id": "iguanatweaksreborn:regenerating_absorption",
+        "duration": 2400
+      }
+    ]
+  },
+  {
+    "food": "minecraft:enchanted_golden_apple",
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 400,
+        "amplifier": 1
+      },
+      {
+        "id": "minecraft:resistance",
+        "duration": 6000
+      },
+      {
+        "id": "minecraft:fire_resistance",
+        "duration": 6000
+      },
+      {
+        "id": "iguanatweaksreborn:regenerating_absorption",
+        "duration": 2400,
+        "amplifier": 3
+      }
+    ]
+  },
+  {
+    "food": "berry_good:sweet_berry_meatballs",
+    "nutrition": 9
+  },
+  {
+    "food": "berry_good:glowgurt",
+    "nutrition": 8
+  },
+  {
+    "food": "farmersdelight:bone_broth",
+    "nutrition": 6
+  },
+  {
+    "food": "autumnity:pumpkin_bread",
+    "nutrition": 5
+  },
+  {
+    "food": "buzzier_bees:honey_bread",
+    "nutrition": 5
+  },
+  {
+    "food": "farmersdelight:pumpkin_slice",
+    "nutrition": 2
+  },
+  {
+    "food": "tide:cooked_fish",
+    "nutrition": 5
+  },
+  {
+    "food": "environmental:plum",
+    "nutrition": 3
+  }
+]

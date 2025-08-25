@@ -1,0 +1,117 @@
+[
+  {
+    "log": "minecraft:oak_log",
+    "leaves": "#iguanatweaksreborn:oak_log_leaves"
+  },
+  {
+    "log": "minecraft:spruce_log",
+    "leaves": "minecraft:spruce_leaves"
+  },
+  {
+    "log": "minecraft:birch_log",
+    "leaves": "minecraft:birch_leaves"
+  },
+  {
+    "log": "minecraft:jungle_log",
+    "leaves": "minecraft:jungle_leaves"
+  },
+  {
+    "log": "minecraft:dark_oak_log",
+    "leaves": "minecraft:dark_oak_leaves"
+  },
+  {
+    "log": "minecraft:acacia_log",
+    "leaves": "minecraft:acacia_leaves"
+  },
+  {
+    "log": "minecraft:cherry_log",
+    "leaves": "minecraft:cherry_leaves"
+  },
+  {
+    "log": "minecraft:mangrove_log",
+    "leaves": "minecraft:mangrove_leaves"
+  },
+  {
+    "log": "quark:blossom_log",
+    "leaves": "#iguanatweaksreborn:trumpet_leaves",
+    "logs_sideways_ratio": 0.3,
+    "max_distance_from_logs": 15,
+    "decay_percentage": 0.35
+  },
+  {
+    "log": "quark:azalea_log",
+    "leaves": "#iguanatweaksreborn:azalea_leaves"
+  },
+  {
+    "log": "quark:ancient_log",
+    "leaves": "quark:ancient_leaves"
+  },
+  {
+    "log": "autumnity:maple_log",
+    "leaves": "#iguanatweaksreborn:maple_leaves"
+  },
+  {
+    "log": "upgrade_aquatic:river_log",
+    "leaves": "upgrade_aquatic:river_leaves"
+  },
+  {
+    "log": "atmospheric:rosewood_log",
+    "leaves": "atmospheric:rosewood_leaves"
+  },
+  {
+    "log": "atmospheric:yucca_log",
+    "leaves": "atmospheric:yucca_leaves"
+  },
+  {
+    "log": "atmospheric:grimwood_log",
+    "leaves": "atmospheric:grimwood_leaves"
+  },
+  {
+    "log": "atmospheric:kousa_log",
+    "leaves": "atmospheric:kousa_leaves"
+  },
+  {
+    "log": "#iguanatweaksreborn:aspen_logs",
+    "leaves": "#iguanatweaksreborn:aspen_leaves"
+  },
+  {
+    "log": "atmospheric:laurel_log",
+    "leaves": "#iguanatweaksreborn:laurel_leaves"
+  },
+  {
+    "log": "atmospheric:morado_log",
+    "leaves": "#iguanatweaksreborn:morado_leaves"
+  },
+  {
+    "log": "environmental:pine_log",
+    "leaves": "environmental:pine_leaves"
+  },
+  {
+    "log": "environmental:plum_log",
+    "leaves": "#iguanatweaksreborn:plum_leaves"
+  },
+  {
+    "log": "environmental:willow_log",
+    "leaves": "environmental:willow_leaves"
+  },
+  {
+    "log": "environmental:wisteria_log",
+    "leaves": "#iguanatweaksreborn:wisteria_leaves"
+  },
+  {
+    "log": "caverns_and_chasms:azalea_log",
+    "leaves": "#iguanatweaksreborn:azalea_leaves"
+  },
+  {
+    "log": "tconstruct:greenheart_log",
+    "leaves": "tconstruct:earth_slime_leaves"
+  },
+  {
+    "log": "tconstruct:skyroot_log",
+    "leaves": "tconstruct:sky_slime_leaves"
+  },
+  {
+    "log": "tconstruct:enderbark_log",
+    "leaves": "tconstruct:ender_slime_leaves"
+  }
+]

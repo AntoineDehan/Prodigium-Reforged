@@ -1,0 +1,122 @@
+[
+  {
+    "id": "minecraft:speed",
+    "time_cost": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "minecraft:jump_boost",
+    "time_cost": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "iguanatweaksreborn:block_reach",
+    "time_cost": [
+      1,
+      3,
+      9
+    ]
+  },
+  {
+    "id": "minecraft:haste",
+    "height_required": 2,
+    "time_cost": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "minecraft:fire_resistance",
+    "height_required": 2,
+    "time_cost": [
+      3
+    ]
+  },
+  {
+    "id": "stamina:vigour",
+    "height_required": 2,
+    "time_cost": [
+      2,
+      5
+    ]
+  },
+  {
+    "id": "minecraft:invisibility",
+    "height_required": 2,
+    "time_cost": [
+      2
+    ]
+  },
+  {
+    "id": "minecraft:levitation",
+    "height_required": 2,
+    "time_cost": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "minecraft:strength",
+    "height_required": 3,
+    "time_cost": [
+      1,
+      3,
+      9
+    ]
+  },
+  {
+    "id": "minecraft:resistance",
+    "height_required": 3,
+    "time_cost": [
+      1,
+      3,
+      9
+    ]
+  },
+  {
+    "id": "minecraft:night_vision",
+    "height_required": 3,
+    "time_cost": [
+      3
+    ]
+  },
+  {
+    "id": "minecraft:slow_falling",
+    "height_required": 3,
+    "time_cost": [
+      2
+    ]
+  },
+  {
+    "id": "minecraft:regeneration",
+    "height_required": 4,
+    "time_cost": [
+      8
+    ]
+  },
+  {
+    "id": "iguanatweaksreborn:regenerating_absorption",
+    "height_required": 4,
+    "time_cost": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "iguanatweaksreborn:entity_reach",
+    "height_required": 4,
+    "time_cost": [
+      1,
+      3,
+      9
+    ]
+  }
+]

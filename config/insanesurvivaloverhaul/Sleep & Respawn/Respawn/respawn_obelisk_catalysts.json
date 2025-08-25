@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minecraft:iron_block",
+    "value": 0.75
+  },
+  {
+    "id": "minecraft:gold_block",
+    "value": 0.3
+  },
+  {
+    "id": "caverns_and_chasms:silver_block",
+    "value": 0.3
+  },
+  {
+    "id": "caverns_and_chasms:sanguine_block",
+    "value": 0.25
+  },
+  {
+    "id": "iguanatweaksexpanded:durium_block",
+    "value": 0.075
+  },
+  {
+    "id": "minecraft:diamond_block",
+    "value": 0.05
+  },
+  {
+    "id": "iguanatweaksexpanded:keego_block",
+    "value": 0.05
+  },
+  {
+    "id": "iguanatweaksexpanded:quaron_block",
+    "value": 0.25
+  },
+  {
+    "id": "iguanatweaksexpanded:soul_steel_block",
+    "value": 0.05
+  },
+  {
+    "id": "minecraft:emerald_block",
+    "value": 0.35
+  },
+  {
+    "id": "minecraft:netherite_block",
+    "value": 0.0
+  },
+  {
+    "id": "caverns_and_chasms:necromium_block",
+    "value": 0.0
+  }
+]

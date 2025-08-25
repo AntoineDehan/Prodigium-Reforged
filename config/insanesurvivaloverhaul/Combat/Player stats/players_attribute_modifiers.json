@@ -1,0 +1,16 @@
+[
+  {
+    "uuid": "a88ac0d1-e2b3-4cf1-bb0e-9577486c874a",
+    "name": "Player Stats\u0027 Movement Speed modifier",
+    "attribute": "minecraft:generic.movement_speed",
+    "amount": -0.05,
+    "operation": "multiply_base"
+  },
+  {
+    "uuid": "bae34f6a-c58e-4622-b2ab-f1b89b73b781",
+    "name": "Player Stats\u0027 Block reach modifier",
+    "attribute": "forge:block_reach",
+    "amount": -1.0,
+    "operation": "addition"
+  }
+]

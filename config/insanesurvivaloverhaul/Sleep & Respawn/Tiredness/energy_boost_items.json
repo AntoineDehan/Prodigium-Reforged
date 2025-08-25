@@ -1,0 +1,12 @@
+[
+  {
+    "edible": "#iguanatweaksreborn:energy_boost"
+  },
+  {
+    "edible": "#atmospheric:orange_pudding"
+  },
+  {
+    "edible": "farmersdelight:hot_cocoa",
+    "duration": 80
+  }
+]

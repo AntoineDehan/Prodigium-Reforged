@@ -1,7 +1,7 @@
 "Enable Combat" = true
 "Enable Experience" = true
 "Enable Farming" = false
-"Enable Hunger & Health" = false
+"Enable Hunger & Health" = true
 "Enable Items" = false
 "Enable Mining" = false
 "Enable Miscellaneous" = false
@@ -595,44 +595,44 @@
 	#Remove hunger and get back to the Beta 1.7.3 days
 	"Enable No Hunger" = false
 	#Changes to food nourishment and the speed on how food is eaten or how items are consumed. Custom Food Properties are controlled via json in this feature's folder. Removing entries from the json requires a minecraft restart.
-	"Enable Foods & Drinks" = true
+	"Enable Foods & Drinks" = false
 	#Make the player consume more hunger with different actions. If hunger is disabled, still works for Tiredness.
-	"Enable Exhaustion Increase" = true
+	"Enable Exhaustion Increase" = false
 
 	#Makes Health regen work differently, similar to Combat Test snapshots. Can be customized. Hunger related stuff doesn't work (for obvious reasons) if No Hunger feature is enabled
 	["Hunger & Health"."Hunger Health Regen"]
 		#Sets how many ticks between the health regeneration happens (vanilla is 80).
 		#Range: > 0
-		"Health Regen Speed" = 40
+		"Health Regen Speed" = 80
 		#Sets how much hunger the player must have to regen health (vanilla is >17).
 		#Range: > 0
 		"Regen when Hunger Above" = 6
 		#Sets how many ticks between starve damage happens (vanilla is 80).
 		#Range: > 0
-		"Starve Speed" = 640
+		"Starve Speed" = 80
 		#Set how much damage is dealt when starving (vanilla is 1).
 		#Range: > 0
 		"Starve Damage" = 1
 		#The player will start starving at this hunger (Vanilla is 0)
 		#Range: 0 ~ 20
-		"Starve at Hunger" = 4
+		"Starve at Hunger" = 0
 		#If below 'Starve at Hunger' player will starve faster.
 		"Faster Starving when really hungry" = true
 		#Set to true to disable the health regen boost given when max hunger and saturation (false in Vanilla).
-		"Disable Saturation Regen Boost" = true
+		"Disable Saturation Regen Boost" = false
 		#Set to true to consume Hunger only (and not saturation) when regenerating health (false for Vanilla).
-		"Consume Hunger Only" = true
+		"Consume Hunger Only" = false
 		#Vanilla consumes 1 saturation or hunger whenever Exhaustion reaches 4.0. You can change that value with this config option. NOTE that Minecraft caps this value to 40.
 		#Range: 0.0 ~ 40.0
-		"Max Exhaustion" = 4.0
+		"Max Exhaustion" = 6.0
 		#If 'Consume Hunger Only' is true then this is the chance to consume an hunger whenever the player is healed (vanilla ignores this; Combat Test has this set to 0.5).
 		#Range: 0.0 ~ 1.0
 		"Hunger Consumption Chance" = 0.5
 		#If enabled, peaceful difficulty no longer heals and fulfills the player
-		"Peaceful Hunger & Health" = true
+		"Peaceful Hunger & Health" = false
 		#When eating you'll get healed by this percentage of (hunger + saturation) restored.
 		#Range: 0.0 ~ 1.0
-		"Food Heal Multiplier" = 0.0
+		"Food Heal Multiplier" = 0.1
 
 		["Hunger & Health"."Hunger Health Regen".Respawn]
 			#If hunger or saturation were above the values on respawn, they will not be reduced.
@@ -643,27 +643,27 @@
 				#Range: 0.0 ~ 20.0
 				"Easy/Peaceful" = 20.0
 				#Range: 0.0 ~ 20.0
-				Normal = 14.0
+				Normal = 15.0
 				#Range: 0.0 ~ 20.0
-				Hard = 8.0
+				Hard = 15.0
 
 			#Hunger of respawning players
 			["Hunger & Health"."Hunger Health Regen".Respawn.Hunger]
 				#Range: 0.0 ~ 20.0
-				"Easy/Peaceful" = 14.0
+				"Easy/Peaceful" = 20.0
 				#Range: 0.0 ~ 20.0
-				Normal = 10.0
+				Normal = 20.0
 				#Range: 0.0 ~ 20.0
-				Hard = 10.0
+				Hard = 20.0
 
 			#Saturation of respawning players
 			["Hunger & Health"."Hunger Health Regen".Respawn.Saturation]
 				#Range: 0.0 ~ 20.0
-				"Easy/Peaceful" = 10.0
+				"Easy/Peaceful" = 20.0
 				#Range: 0.0 ~ 20.0
-				Normal = 10.0
+				Normal = 20.0
 				#Range: 0.0 ~ 20.0
-				Hard = 6.0
+				Hard = 20.0
 
 	#Remove hunger and get back to the Beta 1.7.3 days
 	["Hunger & Health"."No Hunger"]

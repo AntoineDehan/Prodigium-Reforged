@@ -1,0 +1,23 @@
+[
+  {
+    "id": "minecraft:regeneration",
+    "duration": 900,
+    "hide_particles": true
+  },
+  {
+    "id": "minecraft:absorption",
+    "duration": 1200,
+    "amplifier": 1,
+    "hide_particles": true
+  },
+  {
+    "id": "minecraft:speed",
+    "duration": 1200,
+    "hide_particles": true
+  },
+  {
+    "id": "minecraft:saturation",
+    "duration": 400,
+    "hide_particles": true
+  }
+]
