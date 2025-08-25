@@ -1,4 +1,7 @@
 {
   "effect.kubejs.well_fed": "Well Fed",
-  "effect.kubejs.well_fed.description": "Grants regeneration, extra armor, and combat bonuses while well fed."
+  "effect.kubejs.well_fed.description": "Grants regeneration, extra armor, and combat bonuses while well fed.",
+
+  "effect.kubejs.golden_might": "Golden Might",
+  "effect.kubejs.golden_might.description": "The lower you are, the more regen and mining speed you obtain"
 }
