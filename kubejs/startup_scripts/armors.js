@@ -1,4 +1,6 @@
 ItemEvents.modification((event) => {
+  //// Misc armors
+
   //// Bersekers armors
 
   // Diamond
@@ -16,28 +18,28 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("minecraft:diamond_boots", (item) => {
-    item.armorProtection = 2;
+    item.armorProtection = 3;
     item.armorToughness = 0;
   });
 
   // Adamantium
-  event.modify("simpleores:adamantium_helmet", (item) => {
-    item.armorProtection = 2;
+  event.modify("simpleores:mythril_helmet", (item) => {
+    item.armorProtection = 3;
     item.armorToughness = 0;
   });
 
-  event.modify("simpleores:adamantium_chestplate", (item) => {
+  event.modify("simpleores:mythril_chestplate", (item) => {
     item.armorProtection = 5;
     item.armorToughness = 0;
   });
 
-  event.modify("simpleores:adamantium_leggings", (item) => {
+  event.modify("simpleores:mythril_leggings", (item) => {
     item.armorProtection = 5;
     item.armorToughness = 0;
   });
 
-  event.modify("simpleores:adamantium_boots", (item) => {
-    item.armorProtection = 2;
+  event.modify("simpleores:mythril_boots", (item) => {
+    item.armorProtection = 3;
     item.armorToughness = 0;
   });
 
@@ -148,6 +150,23 @@ ItemEvents.modification((event) => {
   });
 
   //// Crusader armors
+
+  // Mythril
+  event.modify("simpleores:mythril_helmet", (item) => {
+    item.armorProtection = 3;
+  });
+
+  event.modify("simpleores:mythril_chestplate", (item) => {
+    item.armorProtection = 6;
+  });
+
+  event.modify("simpleores:mythril_leggings", (item) => {
+    item.armorProtection = 6;
+  });
+
+  event.modify("simpleores:mythril_boots", (item) => {
+    item.armorProtection = 3;
+  });
 
   // Crusader
   event.modify("paladins:crusader_armor_head", (item) => {

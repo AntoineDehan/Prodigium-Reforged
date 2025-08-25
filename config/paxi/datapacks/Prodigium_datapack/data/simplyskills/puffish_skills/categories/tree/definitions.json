@@ -10900,7 +10900,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.armor",
-          "value": -5,
+          "value": -6,
           "operation": "addition"
         }
       },

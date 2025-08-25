@@ -3,8 +3,8 @@
   "pattern": [" G ", "GSG", "GAG"],
   "key": {
     "G": { "tag": "forge:ingots/gold" },
-    "S": { "item": "minecraft:diamond" },
+    "S": { "item": "minecraft:phantom_membrane" },
     "A": { "item": "simpleores:mythril_block" }
   },
-  "result": { "item": "meetyourfight:haunted_bell" }
+  "result": { "item": "minecraft:copper_block" }
 }

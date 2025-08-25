@@ -1,5 +1,7 @@
 StartupEvents.registry("item", (event) => {
-  // Boss summons
+  //// Boss summons
+
+  // King Slime
   event
     .create("prodigium_reforged:slime_crown")
     .displayName("Slime Crown")
@@ -15,6 +17,28 @@ StartupEvents.registry("item", (event) => {
       let z = Math.floor(entity.z) + 8;
 
       level.runCommandSilent(`summon terra_entity:king_slime ${x} ${y} ${z}`);
+
+      itemstack.shrink(1);
+      return itemstack;
+    });
+
+  // Brain of Chtulhu
+  event
+    .create("prodigium_reforged:bloody_spine")
+    .texture("prodigium_reforged:item/bloody_spine")
+    .use((level, player, hand) => true)
+    .useDuration(() => 40)
+    .useAnimation("bow")
+    .finishUsing((itemstack, level, entity) => {
+      if (!entity.player) return itemstack;
+
+      let x = Math.floor(entity.x) + 10;
+      let y = Math.floor(entity.y) + 3;
+      let z = Math.floor(entity.z) + 8;
+
+      level.runCommandSilent(
+        `summon terra_entity:brain_of_chtulhu ${x} ${y} ${z}`
+      );
 
       itemstack.shrink(1);
       return itemstack;

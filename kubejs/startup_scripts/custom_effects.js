@@ -1,4 +1,5 @@
 StartupEvents.registry("mob_effect", (event) => {
+  // Well fed effect - When hunger is full
   event
     .create("well_fed")
     .color(0xffd27f) // Couleur dorée/orangée façon "nourriture"
@@ -68,4 +69,39 @@ StartupEvents.registry("mob_effect", (event) => {
       0.1,
       "addition"
     );
+
+  // Golden Might - Gold Armor Effect
+  event
+    .create("golden_might")
+    .color(0x4b0082)
+    .beneficial()
+    .effectTick((entity, lvl) => {
+      if (!entity.isPlayer()) return;
+
+      let y = Math.floor(entity.y);
+
+      if (y < 60 && entity.age % 40 === 0) {
+        let regenAmount = 0.5;
+        if (y < 30) regenAmount = 1.5;
+        if (y < 0) regenAmount = 2;
+
+        entity.heal(regenAmount * (lvl + 1));
+      }
+
+      if (y < 0) {
+        entity.modifyAttribute(
+          "attributeslib:mining_speed",
+          "71a5a9be-3a07-41bb-b49c-7c813e7de777",
+          0.25,
+          "addition"
+        );
+      } else {
+        entity.modifyAttribute(
+          "attributeslib:mining_speed",
+          "71a5a9be-3a07-41bb-b49c-7c813e7de777",
+          0,
+          "addition"
+        );
+      }
+    });
 });

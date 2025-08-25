@@ -390,7 +390,7 @@
       "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
-        "armor": 2,
+        "armor": 4,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -401,11 +401,16 @@
             "id": "irons_spellbooks:holy_spell_power",
             "value": 0.01,
             "operation": "ADDITION"
+          },
+          {
+            "id": "irons_spellbooks:max_mana",
+            "value": 50.0,
+            "operation": "ADDITION"
           }
         ]
       },
       "chest": {
-        "armor": 6,
+        "armor": 7,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -420,7 +425,7 @@
         ]
       },
       "legs": {
-        "armor": 5,
+        "armor": 6,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -435,7 +440,7 @@
         ]
       },
       "feet": {
-        "armor": 2,
+        "armor": 4,
         "attributes": [
           {
             "id": "spell_power:healing",
