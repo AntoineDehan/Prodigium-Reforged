@@ -13,12 +13,14 @@ EntityEvents.hurt((event) => {
       event.player.tell("Minions incoming!");
     }
 
+    let dimension = entity.level.dimension.toString()
+
     for (let i = 0; i < 3; i++) {
       let x = entity.x + (Math.random() - 0.5) * 4;
       let y = entity.y;
       let z = entity.z + (Math.random() - 0.5) * 4;
 
-      entity.level.runCommand(`summon aether:sentry ${x} ${y} ${z}`);
+      entity.level.runCommand(`execute in ${dimension} run summon aether:sentry ${x} ${y} ${z}`);
     }
 
     server.scheduleInTicks(800, () => {
