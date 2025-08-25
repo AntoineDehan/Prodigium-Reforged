@@ -1,0 +1,25 @@
+{
+  "armorSetName": "copper",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "simpleores:copper_helmet"
+  },
+  "chest": {
+    "itemKey": "simpleores:copper_chestplate"
+  },
+  "legs": {
+    "itemKey": "simpleores:copper_leggings"
+  },
+  "boots": {
+    "itemKey": "simpleores:copper_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 1,
+      "modifierUUID": "016f381a-87bd-40be-bd0d-b9cc0b51f05a",
+      "description": "+1 Armor Point"
+    }
+  ]
+}

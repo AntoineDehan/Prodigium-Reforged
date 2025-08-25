@@ -1,5 +1,5 @@
 {
-  "armorSetName": "berseker",
+  "armorSetName": "berserker",
   "performanceMode": true,
   "head": {
     "itemKey": "minecraft:diamond_helmet"
@@ -27,6 +27,11 @@
       "value": 4.0,
       "modifierUUID": "c1caf6f5-00c2-475e-8a70-08a7a9f0b5db",
       "description": "+2 Max health"
+    },
+    {
+      "type": "effect",
+      "name": "attributeslib:vitality",
+      "value": 1.0
     }
   ]
 }

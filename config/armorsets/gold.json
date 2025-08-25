@@ -1,0 +1,30 @@
+{
+  "armorSetName": "gold",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:golden_helmet"
+  },
+  "chest": {
+    "itemKey": "minecraft:golden_chestplate"
+  },
+  "legs": {
+    "itemKey": "minecraft:golden_leggings"
+  },
+  "boots": {
+    "itemKey": "minecraft:golden_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 1,
+      "modifierUUID": "36cb121a-decb-467d-8379-74f682b9b68e",
+      "description": "+1 Armor Point"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:gold_might",
+      "value": 0.0
+    }
+  ]
+}

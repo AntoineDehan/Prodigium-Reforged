@@ -17,9 +17,16 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": 1.5,
+      "value": 3,
       "modifierUUID": "24b4b1e5-2a33-441d-98f8-b89f62919e2d",
-      "description": "+1.5 Armor"
+      "description": "+3 Armor"
+    },
+    {
+      "type": "attribute",
+      "name": "knockback_resistance",
+      "value": 90,
+      "modifierUUID": "1f1b487c-b88e-4aae-ae33-4efa187e4172",
+      "description": "Knockback Immunity"
     }
   ]
 }

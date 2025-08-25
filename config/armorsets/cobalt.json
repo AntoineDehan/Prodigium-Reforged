@@ -17,9 +17,9 @@
     {
       "type": "attribute",
       "name": "puffish_attributes:player.ranged_damage",
-      "value": 0.5,
+      "value": 2.0,
       "modifierUUID": "da70305d-c058-4f9d-8b8f-62c27e51a1bb",
-      "description": "+0.5 Ranged damage"
+      "description": "+2.0 Ranged damage"
     },
     {
       "type": "attribute",
