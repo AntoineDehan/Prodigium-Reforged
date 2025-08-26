@@ -2,10 +2,9 @@ StartupEvents.registry("mob_effect", (event) => {
   // Well fed effect - When hunger is full
   event
     .create("well_fed")
-    .color(0xffd27f) // Couleur dorée/orangée façon "nourriture"
+    .color(0xffd27f)
     .beneficial()
     .effectTick((entity, lvl) => {
-      // Heal toutes les secondes (0.5 coeur par niveau)
       if (entity.age % 20 != 0) return;
       entity.heal(0.5 * lvl);
     })
@@ -103,5 +102,25 @@ StartupEvents.registry("mob_effect", (event) => {
           "addition"
         );
       }
+    });
+
+  // Bee Boost - Bee Armor Effect
+
+  event
+    .create("bee_boost")
+    .color(0xffcc33)
+    .beneficial()
+    .displayName("Bee Boost")
+    .effectTick((entity, lvl) => {
+      const honey = entity.getEffect("confluence:honey");
+      if (!honey) return;
+
+      if (honey.amplifier >= 1) return;
+
+      const duration = honey.duration;
+
+      entity.removeEffect("confluence:honey");
+
+      entity.potionEffects.add("confluence:honey", duration, 1, true, true);
     });
 });
