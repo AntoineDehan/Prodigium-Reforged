@@ -129,4 +129,11 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier("luminous_monsters:hollow", "luminous_beasts:mummy")
     .randomChance(0.1)
     .addWeightedLoot([0, 1], [Item.of("confluence:dunerider_boots")]);
+
+  event
+    .addEntityLootModifier("terrara_entity:skeletron")
+    .addWeightedLoot(
+      [1],
+      [Item.of("prodigium:skeletron_skeletron_treasure_bag")]
+    );
 });

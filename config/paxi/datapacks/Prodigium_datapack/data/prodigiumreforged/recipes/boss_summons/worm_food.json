@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" MB", "FBF", "BM "],
+  "key": {
+    "M": {
+      "tag": "forge:mushrooms"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "F": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:worm_food",
+    "count": 1
+  }
+}

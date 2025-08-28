@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" BA", "FBF", " B "],
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:blood_vial"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "F": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:bloody_spine",
+    "count": 1
+  }
+}

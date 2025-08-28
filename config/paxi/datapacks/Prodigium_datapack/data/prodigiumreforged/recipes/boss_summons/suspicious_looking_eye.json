@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" R ", "R R", "RLR"],
+  "key": {
+    "L": {
+      "item": "prodigium_reforged:lens"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:suspicious_looking_eye",
+    "count": 1
+  }
+}
