@@ -6,31 +6,32 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "meetyourfight:mossy_tooth",
+          "name": "born_in_chaos_v1:bone_heart",
           "weight": 1
         }
       ]
     },
     {
-      "rolls": {
-        "min": 3,
-        "max": 5
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:vine",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
+          "name": "irons_spellbooks:rotten_spell_book"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
@@ -39,7 +40,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
+                "min": 5,
                 "max": 8
               }
             }
@@ -47,28 +48,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "irons_spellbooks:frozen_bone",
-          "weight": 8,
+          "name": "born_in_chaos_v1:bone_handle",
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "luminous_nether:soul_bone",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
+                "min": 1,
+                "max": 2
               }
             }
           ]
@@ -86,7 +73,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5,
+                "min": 8,
                 "max": 15
               }
             }

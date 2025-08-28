@@ -6,8 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "confluence:royal_gel",
-          "weight": 1
+          "name": "mowziesmobs:wrought_axe"
         }
       ]
     },
@@ -19,49 +18,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:slime_ball",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:swet_ball",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "gwrexpansions:slime_bullet",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 10,
-                "max": 20
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "archers_paradox:slime_arrow",
+          "name": "minecraft:iron_ingot",
           "weight": 10,
           "functions": [
             {
@@ -72,31 +29,20 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "confluence:tabi",
-          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "confluence:black_belt",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "confluence:climbing_claws",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "confluence:shoe_spikes",
-          "weight": 1
+          "name": "prodigium_reforged:wroughtnaut_plate",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
         }
       ]
     },
@@ -112,7 +58,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 5,
-                "max": 15
+                "max": 20
               }
             }
           ]

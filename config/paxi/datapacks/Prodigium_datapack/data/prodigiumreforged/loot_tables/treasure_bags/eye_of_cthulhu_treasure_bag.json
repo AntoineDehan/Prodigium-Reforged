@@ -6,69 +6,37 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "meetyourfight:mossy_tooth",
+          "name": "endrem:old_eye",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "confluence:shield_of_cthulhu",
           "weight": 1
         }
       ]
     },
     {
       "rolls": {
-        "min": 3,
+        "min": 2,
         "max": 5
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:vine",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bone",
+          "name": "archeryexp:gold_arrow",
           "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "irons_spellbooks:frozen_bone",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "luminous_nether:soul_bone",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
+                "min": 10,
+                "max": 20
               }
             }
           ]

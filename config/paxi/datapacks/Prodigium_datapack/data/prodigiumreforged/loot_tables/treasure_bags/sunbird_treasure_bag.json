@@ -47,11 +47,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "confluence:hive_pack",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
           "name": "earthtojavamobs:fancy_feather",
           "weight": 5,
           "functions": [

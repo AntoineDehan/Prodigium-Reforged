@@ -16,7 +16,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mowziesmobs:ice_crystal"
+          "name": "mowziesmobs:ice_crystal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:frozen_turtle_shell",
+          "weight": 1
         }
       ]
     },
@@ -30,11 +36,6 @@
           "type": "minecraft:item",
           "name": "mowziesmobs:music_disc_petiole",
           "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "confluence:frozen_turtle_shell",
-          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -54,6 +55,26 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tameablebeasts:ice_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tameablebeasts:ice_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tameablebeasts:icepop",
+          "weight": 1
         }
       ]
     },

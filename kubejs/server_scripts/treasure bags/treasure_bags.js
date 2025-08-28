@@ -26,6 +26,12 @@ let treasureBags = [
   "prodigium:rosalynne_treasure_bag",
   "prodigium:king_slime_treasure_bag",
   "prodigium:aerwhale_king_treasure_bag",
+  "prodigium:eye_of_cthulhu_treasure_bag",
+  "prodigium:ferrous_wroughtnaut_treasure_bag",
+  "prodigium:eater_of_worlds_treasure_bag",
+  "prodigium:brain_of_cthulhu_treasure_bag",
+  "prodigium:skeletron_treasure_bag",
+  "prodigium:queen_bee_treasure_bag",
 ];
 
 ServerEvents.tags("item", (event) => {

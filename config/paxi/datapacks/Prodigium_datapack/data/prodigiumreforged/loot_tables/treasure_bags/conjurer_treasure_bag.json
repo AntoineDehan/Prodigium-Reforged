@@ -6,16 +6,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "endrem:old_eye",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "conjurer_illager:conjurer_hat"
         }
       ]
@@ -88,8 +78,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "confluence:shield_of_cthulhu",
-          "weight": 3
+          "name": "irons_spellbooks:arcane_essence",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 22
+              }
+            }
+          ]
         }
       ]
     },

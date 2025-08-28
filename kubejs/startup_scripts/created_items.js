@@ -6,6 +6,12 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:dark_armor_scrap")
     .texture("prodigium_reforged:item/dark_armor_scrap");
+  event
+    .create("prodigium_reforged:lens")
+    .texture("prodigium_reforged:item/lens");
+  event
+    .create("prodigium_reforged:wroughtnaut_plate")
+    .texture("prodigium_reforged:item/wroughtnaut_plate");
 
   //// Boss summons
 

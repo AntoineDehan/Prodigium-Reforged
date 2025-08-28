@@ -32,6 +32,12 @@
       "type": "effect",
       "name": "kubejs:bee_boost",
       "value": 0.0
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
     }
   ]
 }

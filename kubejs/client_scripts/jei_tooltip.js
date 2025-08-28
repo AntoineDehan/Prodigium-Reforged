@@ -158,6 +158,7 @@ JEIEvents.information((event) => {
       "born_in_chaos_v1:sweet_axe",
       "born_in_chaos_v1:sweet_sword",
       "confluence:hive_pack",
+      "prodigium_reforged:bee_wax",
     ],
     ["Obtained in the Queen Bee's Treasure Bag"]
   );
@@ -174,6 +175,7 @@ JEIEvents.information((event) => {
       "born_in_chaos_v1:bone_heart",
       "born_in_chaos_v1:bone_handle",
       "luminous_beasts:bone_rattle",
+      "irons_spellbooks:rotten_spell_book",
     ],
     ["Obtained in the Skeletron's Treasure Bag"]
   );

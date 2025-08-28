@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["BPB", "B B"],
+  "key": {
+    "B": {
+      "item": "prodigium_reforged:bee_wax"
+    },
+    "P": {
+      "item": "prodigium:palladium_ingot"
+    }
+  },
+  "result": {
+    "item": "kubejs:bee_helmet",
+    "count": 1
+  }
+}

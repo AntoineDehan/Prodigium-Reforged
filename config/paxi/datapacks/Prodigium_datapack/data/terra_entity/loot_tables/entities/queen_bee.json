@@ -2,39 +2,13 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "treasure": false
-            }
-          ],
-          "name": "minecraft:bee_spawn_egg"
+          "name": "prodigium:queen_bee_treasure_bag"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:binomial",
-        "n": 1.0,
-        "p": 1.0
-      }
+      ]
     }
-  ],
-  "random_sequence": "terra_entity:entities/queen_bee"
+  ]
 }
