@@ -32,7 +32,7 @@
 			y: 5.5d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -143,16 +143,7 @@
 				type: "loot"
 			}]
 			tasks: [{
-				icon: {
-					Count: 1
-					id: "doggytalents:dog_bed"
-					tag: {
-						doggytalents: {
-							beddingId: "minecraft:green_wool"
-							casingId: "regions_unexplored:purple_painted_planks"
-						}
-					}
-				}
+				icon: "domesticationinnovation:collar_tag"
 				id: "70ABE0C1C74091F0"
 				title: "Zoologist's Block"
 				type: "custom"

@@ -121,6 +121,24 @@
 			x: 24.5d
 			y: -0.5d
 		}
+		{
+			dependency: "53EAB8D1FE264583"
+			height: 1.0d
+			image: "simpleores:item/raw_mythril"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependency: "53EAB8D1FE264583"
+			height: 1.25d
+			image: "simpleores:item/raw_mythril"
+			rotation: -50.0d
+			width: 1.25d
+			x: 12.0d
+			y: -1.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -277,13 +295,6 @@
 					xp_levels: 3
 				}
 				{
-					auto: "invisible"
-					command: "/thitemstages add @p stage_1 true"
-					elevate_perms: true
-					id: "7321FE2BA2A9DFB4"
-					type: "command"
-				}
-				{
 					id: "25F992F84278A591"
 					item: "solcarrot:food_book"
 					type: "item"
@@ -293,20 +304,6 @@
 					id: "49E1B931A5EE5EDE"
 					table_id: 2230653418983874155L
 					type: "loot"
-				}
-				{
-					auto: "invisible"
-					command: "/gamestage add @p stage_g true"
-					elevate_perms: true
-					id: "722636AF2D412EC9"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @p [{\"text\":\"Your world has been blessed with \",\"italic\":\"true\"},{\"text\":\"Palladium \",\"bold\":true,\"color\":\"red\"},{\"text\":\"and \"},{\"text\":\"Adamantium\",\"bold\":\"true\",\"color\":\"green\"},{\"text\":\", but \"},{\"text\":\"beware\"},{\"text\":\" you also feel an horrible chill going down your spine.\",\"bold\":\"true\"}]\""
-					elevate_perms: true
-					id: "79BDDDC7A5565643"
-					type: "command"
 				}
 				{
 					count: 2
@@ -702,7 +699,7 @@
 		{
 			dependencies: ["53EAB8D1FE264583"]
 			description: [
-				"Congratulation! You can now mine and use &2Adamantium&r and &4Palladium&r."
+				"Congratulation! You can now mine and use &2Adamantium&r, &4Palladium&r and even &9Mythril&r."
 				""
 				""
 				"&nTip :&r"
@@ -729,6 +726,11 @@
 					item: "simpleores:raw_adamantium"
 					type: "item"
 				}
+				{
+					id: "14F3ACF40DEBE5CC"
+					item: "simpleores:raw_mythril"
+					type: "item"
+				}
 			]
 			title: "You now have unlocked new ores"
 			x: 12.0d
@@ -736,10 +738,7 @@
 		}
 		{
 			dependencies: ["281435B11C0F1243"]
-			description: [
-				"Congratulation! You can now mine and use &3diamonds&r and &5orichalcum&r to craft armors/tools and a ton of other stuff"
-				"(orichalcum is found in the nether)"
-			]
+			description: ["Congratulation! You can now mine and use &3diamonds&r to craft armors/tools and a ton of other stuff"]
 			hide_until_deps_visible: true
 			id: "67833F35B83C9FE8"
 			min_required_tasks: 1
@@ -749,18 +748,11 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			tasks: [
-				{
-					id: "12797F915FF69B65"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "40CD05FC5F4B1161"
-					item: "prodigium:raw_orichalcum"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "12797F915FF69B65"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			title: "You now have unlocked &3diamonds&r"
 			x: 26.0d
 			y: -1.5d
@@ -916,6 +908,11 @@
 		}
 		{
 			dependencies: ["3941AFCFA581CDB6"]
+			description: [
+				"You will need to protect yourself, without any armor mobs will hit you hard."
+				""
+				"In early game you have a few unrestricted armors available, while progressing further some armors will be wearable only with certain classes."
+			]
 			id: "59B2D8AD613CAD61"
 			rewards: [
 				{
@@ -944,47 +941,51 @@
 			]
 			tasks: [
 				{
-					id: "4106548A7697311B"
+					id: "4094A5D3C5C24735"
 					item: {
 						Count: 1
-						id: "minecraft:iron_helmet"
+						id: "itemfilters:tag"
 						tag: {
-							Damage: 0
+							value: "prodigium_reforged:classless_helmet"
 						}
 					}
+					title: "Pick an helmet"
 					type: "item"
 				}
 				{
-					id: "6D856881E58BBEA4"
+					id: "37C46578341725A6"
 					item: {
 						Count: 1
-						id: "minecraft:iron_chestplate"
+						id: "itemfilters:tag"
 						tag: {
-							Damage: 0
+							value: "prodigium_reforged:classless_chestplate"
 						}
 					}
+					title: "A chestplate"
 					type: "item"
 				}
 				{
-					id: "1E0AC0579376C8FE"
+					id: "1E4429C2934577D9"
 					item: {
 						Count: 1
-						id: "minecraft:iron_leggings"
+						id: "itemfilters:tag"
 						tag: {
-							Damage: 0
+							value: "prodigium_reforged:classless_leggings"
 						}
 					}
+					title: "A leggings"
 					type: "item"
 				}
 				{
-					id: "71311B421925325E"
+					id: "7FDFD3F8F4A4130E"
 					item: {
 						Count: 1
-						id: "minecraft:iron_boots"
+						id: "itemfilters:tag"
 						tag: {
-							Damage: 0
+							value: "prodigium_reforged:classless_boots"
 						}
 					}
+					title: "And the boots!"
 					type: "item"
 				}
 			]
@@ -1371,6 +1372,27 @@
 					type: "loot"
 				}
 				{
+					auto: "invisible"
+					command: "/thitemstages add @p stage_1 true"
+					elevate_perms: true
+					id: "7321FE2BA2A9DFB4"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p stage_g true"
+					elevate_perms: true
+					id: "722636AF2D412EC9"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"Your world has been blessed with \",\"italic\":\"true\"},{\"text\":\"Palladium \",\"bold\":true,\"color\":\"red\"},{\"text\":\"Adamantium \",\"bold\":\"true\",\"color\":\"green\"},{\"text\":\"and \"},{\"text\":\"Mythril\",\"bold\":\"true\",\"color\":\"blue\"},{\"text\":\", but \"},{\"text\":\"beware\"},{\"text\":\" you also feel an horrible chill going down your spine.\",\"bold\":\"true\"}]\""
+					elevate_perms: true
+					id: "79BDDDC7A5565643"
+					type: "command"
+				}
+				{
 					auto: "enabled"
 					command: "/puffish_skills points add @p simplyskills:tree 2"
 					elevate_perms: true
@@ -1511,6 +1533,7 @@
 		}
 		{
 			dependencies: ["53EAB8D1FE264583"]
+			description: ["Summon it using Worm Food"]
 			id: "059DA9E1AF69D4DC"
 			shape: "hexagon"
 			size: 2.0d
@@ -1518,7 +1541,7 @@
 				entity: "terra_entity:eater_of_worlds"
 				icon: "terra_entity:eater_of_world_spawn_egg"
 				id: "6D98D52CF46CA484"
-				title: "Kill the &3Eater of World&r"
+				title: "Kill the &3Eater of Worlds&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -1527,6 +1550,7 @@
 		}
 		{
 			dependencies: ["53EAB8D1FE264583"]
+			description: ["Summon it using the Bloody Spine"]
 			id: "076CA10541A9CDF3"
 			shape: "hexagon"
 			size: 2.0d
@@ -1543,12 +1567,19 @@
 		}
 		{
 			dependencies: ["1A1D4191D9A098E9"]
+			description: ["Summon it using the Suspicious Looking Eye."]
 			id: "41155113EBA75E4E"
+			rewards: [{
+				auto: "no_toast"
+				id: "20AD94E9036FC9BF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				entity: "terra_entity:eye_of_cthulhu"
-				icon: "confluence:shield_of_cthulhu"
+				icon: "prodigium_reforged:suspicious_looking_eye"
 				id: "32F6F8D28EA9586B"
 				title: "Defeat the &3Eye of Cthulhu&r"
 				type: "kill"

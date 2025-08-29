@@ -1,5 +1,61 @@
 ServerEvents.tags("item", (event) => {
-  // // test
-  // event.add("c:bows", "gunswithoutroses:gold_gun");
-  // event.add("forge:tools/bows", "gunswithoutroses:gold_gun");
+  event.add(
+    "prodigium_reforged:classless_armors",
+    "simpleores:copper_boots",
+    "simpleores:copper_leggings",
+    "simpleores:copper_chestplate",
+    "simpleores:copper_helmet",
+    "minecraft:iron_boots",
+    "minecraft:iron_leggings",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_helmet",
+    "minecraft:golden_boots",
+    "minecraft:golden_leggings",
+    "minecraft:golden_chestplate",
+    "minecraft:golden_helmet",
+    "prodigium:cobalt_boots",
+    "prodigium:cobalt_leggings",
+    "prodigium:cobalt_chestplate",
+    "prodigium:cobalt_helmet",
+    "irons_spellbooks:wandering_magician_boots",
+    "irons_spellbooks:wandering_magician_leggings",
+    "irons_spellbooks:wandering_magician_chestplate",
+    "irons_spellbooks:wandering_magician_helmet"
+  );
+
+  event.add(
+    "prodigium_reforged:classless_helmet",
+    "simpleores:copper_helmet",
+    "minecraft:iron_helmet",
+    "minecraft:golden_helmet",
+    "prodigium:cobalt_helmet",
+    "irons_spellbooks:wandering_magician_helmet"
+  );
+
+  event.add(
+    "prodigium_reforged:classless_chestplate",
+    "simpleores:copper_chestplate",
+    "minecraft:iron_chestplate",
+    "minecraft:golden_chestplate",
+    "prodigium:cobalt_chestplate",
+    "irons_spellbooks:wandering_magician_chestplate"
+  );
+
+  event.add(
+    "prodigium_reforged:classless_leggings",
+    "simpleores:copper_leggings",
+    "minecraft:iron_leggings",
+    "minecraft:golden_leggings",
+    "prodigium:cobalt_leggings",
+    "irons_spellbooks:wandering_magician_leggings"
+  );
+
+  event.add(
+    "prodigium_reforged:classless_boots",
+    "simpleores:copper_boots",
+    "minecraft:iron_boots",
+    "minecraft:golden_boots",
+    "prodigium:cobalt_boots",
+    "irons_spellbooks:wandering_magician_boots"
+  );
 });

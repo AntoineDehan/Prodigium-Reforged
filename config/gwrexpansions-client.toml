@@ -1,0 +1,31 @@
+
+#硬币计数器UI设置 / Coin Counter UI Settings
+[coin_counter]
+	#是否启用硬币计数器UI / Enable coin counter UI
+	enabled = true
+	#硬币计数器位置 / Coin counter position
+	#选项 / Options:
+	#- TOP_CENTER: 屏幕上方居中
+	#- TOP_LEFT: 屏幕左上角
+	#- TOP_RIGHT: 屏幕右上角
+	#- BOTTOM_CENTER: 屏幕下方居中
+	#- BOTTOM_LEFT: 屏幕左下角
+	#- BOTTOM_RIGHT: 屏幕右下角
+	#- CUSTOM: 自定义位置（使用offset_x和offset_y）
+	#Allowed Values: TOP_CENTER, TOP_LEFT, TOP_RIGHT, BOTTOM_CENTER, BOTTOM_LEFT, BOTTOM_RIGHT, CUSTOM
+	position = "TOP_CENTER"
+	#硬币计数器X轴偏移 (仅在position为custom时生效) / X offset (only works when position is custom)
+	#Range: -2000 ~ 2000
+	offset_x = 0
+	#硬币计数器Y轴偏移 (仅在position为custom时生效) / Y offset (only works when position is custom)
+	#Range: -2000 ~ 2000
+	offset_y = 8
+	#硬币计数器背景透明度 (0-255, 0为完全透明) / Background alpha (0-255, 0 is fully transparent)
+	#Range: 0 ~ 255
+	background_alpha = 0
+	#硬币计数器缩放百分比 / Scale percentage
+	#Range: 50 ~ 200
+	scale = 100
+	#是否显示连击进度 / Show combo progress
+	show_progress = true
+

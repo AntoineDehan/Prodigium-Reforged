@@ -17,25 +17,25 @@
     {
       "effect": "minecraft:speed",
       "level": 1,
-      "minDifficulty": 50,
+      "minDifficulty": 60,
       "durationInMinutes": 10.0
     },
     {
       "effect": "minecraft:speed",
       "level": 2,
-      "minDifficulty": 120,
+      "minDifficulty": 180,
       "durationInMinutes": 10.0
     },
     {
       "effect": "minecraft:strength",
       "level": 1,
-      "minDifficulty": 80,
+      "minDifficulty": 150,
       "durationInMinutes": 10.0
     },
     {
       "effect": "minecraft:fire_resistance",
       "level": 1,
-      "minDifficulty": 40,
+      "minDifficulty": 80,
       "durationInMinutes": 10.0
     },
     {
@@ -65,7 +65,7 @@
     {
       "effect": "minecraft:resistance",
       "level": 1,
-      "minDifficulty": 100,
+      "minDifficulty": 150,
       "durationInMinutes": 10.0
     }
   ],

@@ -4,9 +4,7 @@
     "list": [
       {
         "id": "normal",
-        "format": [
-          "WHITE"
-        ],
+        "format": ["WHITE"],
         "triggers": {
           "dimensions": [],
           "entities": []
@@ -15,57 +13,37 @@
       },
       {
         "id": "expert",
-        "format": [
-          "RED",
-          "BOLD"
-        ],
+        "format": ["RED", "BOLD"],
         "triggers": {
-          "dimensions": [
-            "{regex}.*"
-          ],
+          "dimensions": ["{regex}.*"],
           "entities": []
         },
         "messages": [
           {
             "id": "majruszsdifficulty.stages.expert.started",
-            "format": [
-              "RED",
-              "BOLD"
-            ]
+            "format": ["RED", "BOLD"]
           },
           {
             "id": "majruszsdifficulty.undead_army.on_expert",
-            "format": [
-              "DARK_PURPLE"
-            ]
+            "format": ["DARK_PURPLE"]
           }
         ]
       },
       {
         "id": "master",
-        "format": [
-          "DARK_PURPLE",
-          "BOLD"
-        ],
+        "format": ["DARK_PURPLE", "BOLD"],
         "triggers": {
           "dimensions": [],
-          "entities": [
-            "minecraft:ender_dragon"
-          ]
+          "entities": ["minecraft:ender_dragon"]
         },
         "messages": [
           {
             "id": "majruszsdifficulty.stages.master.started",
-            "format": [
-              "DARK_PURPLE",
-              "BOLD"
-            ]
+            "format": ["DARK_PURPLE", "BOLD"]
           },
           {
             "id": "majruszsdifficulty.undead_army.on_master",
-            "format": [
-              "DARK_PURPLE"
-            ]
+            "format": ["DARK_PURPLE"]
           }
         ]
       }
@@ -377,9 +355,7 @@
           "majruszsdifficulty:tank",
           "majruszsdifficulty:cerberus"
         ],
-        "expert": [
-          "majruszsdifficulty:cerberus"
-        ],
+        "expert": ["majruszsdifficulty:cerberus"],
         "master": []
       }
     },
@@ -650,15 +626,11 @@
     "cursed_armor": {
       "item_drop_chance": 0.2,
       "custom_name_chance": 0.025,
-      "custom_names": [
-        "Freshah"
-      ],
+      "custom_names": ["Freshah"],
       "locations": [
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_dungeon",
-          "chests": [
-            "minecraft:chests/simple_dungeon"
-          ],
+          "chests": ["minecraft:chests/simple_dungeon"],
           "chance": 0.5
         },
         {
@@ -672,9 +644,7 @@
         },
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_portal",
-          "chests": [
-            "minecraft:chests/ruined_portal"
-          ],
+          "chests": ["minecraft:chests/ruined_portal"],
           "chance": 1.0
         },
         {
@@ -690,9 +660,7 @@
         },
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_end",
-          "chests": [
-            "minecraft:chests/end_city_treasure"
-          ],
+          "chests": ["minecraft:chests/end_city_treasure"],
           "chance": 0.5
         }
       ]
@@ -750,14 +718,8 @@
     "can_be_cured_with_golden_apples": true,
     "is_applicable_to_animals": true,
     "is_applicable_to_pillagers": true,
-    "other_applicable_mobs": [
-      "minecraft:player",
-      "minecraft:villager"
-    ],
-    "immune_mobs": [
-      "minecraft:zombie_horse",
-      "minecraft:skeleton_horse"
-    ],
+    "other_applicable_mobs": ["minecraft:player", "minecraft:villager"],
+    "immune_mobs": ["minecraft:zombie_horse", "minecraft:skeleton_horse"],
     "effect": {
       "__default": {
         "amplifier": 0,
@@ -780,9 +742,7 @@
       "bite": {
         "is_enabled": true,
         "chance": 0.4,
-        "blacklisted_animals": [
-          "minecraft:llama"
-        ]
+        "blacklisted_animals": ["minecraft:llama"]
       },
       "cactus": {
         "is_enabled": true,

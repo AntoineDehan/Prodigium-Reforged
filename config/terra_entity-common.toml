@@ -32,10 +32,10 @@
 	enhance_all_monster = false
 	#Multiplier for monster attributes health.
 	#Range: 0.0625 ~ 100.0
-	monster_attributes_multiplier_health = 0.8
+	monster_attributes_multiplier_health = 0.0625
 	#Multiplier for monster attributes damage.
 	#Range: 0.0625 ~ 100.0
-	monster_attributes_multiplier_damage = 0.7
+	monster_attributes_multiplier_damage = 0.0625
 	#Should the built-in attributes setting be disabled for monsters?
 	#For kjs modify
 	disable_builtin_health_attack_modifier = false

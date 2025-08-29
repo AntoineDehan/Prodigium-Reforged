@@ -230,6 +230,23 @@
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 2.0
 
+		["Guns Without Roses Expansions Config".Pistol.Hellforge]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.2
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 60
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 1.0
+
 	["Guns Without Roses Expansions Config".Bullets]
 
 		["Guns Without Roses Expansions Config".Bullets.Cursium]
@@ -291,4 +308,31 @@
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 0.0
+
+	["Guns Without Roses Expansions Config".Burstgun]
+
+		["Guns Without Roses Expansions Config".Burstgun.Void]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 2
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 25
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Burstgun.Void_Burst]
+			#Burst Size
+			#Range: 1 ~ 10
+			burstSize = 3
+			#Burst Delay
+			#Range: 1 ~ 100
+			burstDelay = 5
 
