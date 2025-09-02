@@ -7,7 +7,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "born_in_chaos_v1:shattered_skull"
 	id: "697C59A489B40BA3"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

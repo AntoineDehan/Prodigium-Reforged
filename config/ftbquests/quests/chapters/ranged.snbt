@@ -575,6 +575,23 @@
 				type: "item"
 			}]
 			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EEBAEA6C5EE0454"]
+			id: "0E64D65BFCC8B576"
+			tasks: [{
+				id: "4DAE9EF423053F5F"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:diamond_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
 			y: -3.5d
 		}
 	]

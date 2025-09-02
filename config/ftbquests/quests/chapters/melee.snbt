@@ -175,14 +175,14 @@
 				id: "21579002B798EA9F"
 				item: {
 					Count: 1
-					id: "simple_weapons:iron_spear"
+					id: "weapon_class:iron_battle_axe"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "You might want more range ?"
+			title: "A battle axe?"
 			x: 2.0d
 			y: 1.0d
 		}
@@ -200,7 +200,7 @@
 				id: "2E876050678F222F"
 				item: {
 					Count: 1
-					id: "simple_weapons:iron_scythe"
+					id: "weapon_class:iron_scythe"
 					tag: {
 						Damage: 0
 					}
@@ -266,7 +266,10 @@
 		}
 		{
 			dependencies: ["50E838001D06D62B"]
-			description: ["A lot of different whips are available, some of them are only obtainable through &3Treasure Bags&r others can be crafted."]
+			description: [
+				"Boomerangs will act as your ranged weapons for melee."
+				"A lot of different boomerangs are available"
+			]
 			id: "3064A22F3AFACAC9"
 			rewards: [{
 				auto: "no_toast"
@@ -278,9 +281,11 @@
 				id: "1AA5A3664B778750"
 				item: {
 					Count: 1
-					id: "terrawhips_and_more:ironwhip"
+					id: "terra_entity:wood_boomerang"
 					tag: {
 						Damage: 0
+						"cafelib:boolean": "true"
+						"terra_entity:effect_strategy": { }
 					}
 				}
 				type: "item"
