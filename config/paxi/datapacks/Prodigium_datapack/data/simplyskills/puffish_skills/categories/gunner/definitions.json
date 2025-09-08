@@ -11871,7 +11871,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "gunswithoutroses:gwr.damage_base",
+          "attribute": "gunswithoutroses:gwr.damage_total",
           "value": 0.05,
           "operation": "addition"
         }
@@ -11891,7 +11891,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "gunswithoutroses:gwr.damage_base",
+          "attribute": "gunswithoutroses:gwr.damage_total",
           "value": 0.1,
           "operation": "addition"
         }
@@ -11904,7 +11904,7 @@
     "icon": {
       "type": "effect",
       "data": {
-        "effect": "gunswithoutroses:gun_damage_up"
+        "effect": "gunswithoutroses:gwr.damage_total"
       }
     },
     "rewards": [
@@ -11932,7 +11932,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "gunswithoutroses:gwr.fire_delay",
-          "value": 0.05,
+          "value": -0.05,
           "operation": "addition"
         }
       }
@@ -11952,7 +11952,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "gunswithoutroses:gwr.fire_delay",
-          "value": 0.15,
+          "value": -0.15,
           "operation": "addition"
         }
       }
@@ -11991,7 +11991,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "gwr.shotgun_projectiles",
+          "attribute": "gunswithoutroses:gwr.shotgun_projectiles",
           "value": 1,
           "operation": "addition"
         }
@@ -12011,8 +12011,88 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "gwr.shotgun_projectiles",
+          "attribute": "gunswithoutroses:gwr.shotgun_projectiles",
           "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sniper_crit_multx025": {
+    "title": "x0.25 Sniper Crit Multiplier",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "sweet_charm_o_mine:sniper_scope"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.sniper_crit_mult",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sniper_crit_multx055": {
+    "title": "x0.50 Sniper Crit Multiplier",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "sweet_charm_o_mine:sniper_scope"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.sniper_crit_mult",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sniper_crit_multx1": {
+    "title": "x1 Sniper Crit Multiplier",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "sweet_charm_o_mine:sniper_scope"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.sniper_crit_mult",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "gun_spread": {
+    "title": "x1 Sniper Crit Multiplier",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "sweet_charm_o_mine:sniper_scope"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.sniper_crit_mult",
+          "value": 1,
           "operation": "addition"
         }
       }
