@@ -32,7 +32,7 @@
 		#Allowed Values: classic, genesis, highlands
 		"Quicksoil Movement System" = "highlands"
 		#Replaces Enchanted Gravitite with Gravitite Ingots. The blocks of this have the original floating behavior.
-		"Gravitite Ingots" = false
+		"Gravitite Ingots" = true
 		#Makes Light Dungeon stones use better recipes
 		"Better Light Dungeon Stone Recipes" = true
 

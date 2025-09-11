@@ -11820,7 +11820,6 @@
   },
   "consume_ammo-5%": {
     "title": "-5% Chance to not Consume Bullet",
-    "frame": "challenge",
     "icon": {
       "type": "effect",
       "data": {
@@ -11860,7 +11859,6 @@
   },
   "gun_dmg+5%": {
     "title": "+5% Gun's Damage",
-    "frame": "challenge",
     "icon": {
       "type": "effect",
       "data": {
@@ -11880,7 +11878,6 @@
   },
   "gun_dmg+10%": {
     "title": "+10% Gun's Damage",
-    "frame": "challenge",
     "icon": {
       "type": "effect",
       "data": {
@@ -11904,7 +11901,7 @@
     "icon": {
       "type": "effect",
       "data": {
-        "effect": "gunswithoutroses:gwr.damage_total"
+        "effect": "gunswithoutroses:gun_damage_up"
       }
     },
     "rewards": [
@@ -11920,7 +11917,6 @@
   },
   "gun_fire_rate+5%": {
     "title": "+5% Gun's Fire Rate",
-    "frame": "challenge",
     "icon": {
       "type": "effect",
       "data": {
@@ -11960,7 +11956,6 @@
   },
   "gun_knockback+10%": {
     "title": "+10% Gun's Knockback",
-    "frame": "challenge",
     "icon": {
       "type": "effect",
       "data": {
@@ -11980,7 +11975,6 @@
   },
   "shotgun_projectile+1": {
     "title": "+1 Shotgun Projectile",
-    "frame": "challenge",
     "icon": {
       "type": "item",
       "data": {
@@ -12020,7 +12014,6 @@
   },
   "sniper_crit_multx025": {
     "title": "x0.25 Sniper Crit Multiplier",
-    "frame": "challenge",
     "icon": {
       "type": "item",
       "data": {
@@ -12040,7 +12033,6 @@
   },
   "sniper_crit_multx055": {
     "title": "x0.50 Sniper Crit Multiplier",
-    "frame": "challenge",
     "icon": {
       "type": "item",
       "data": {
@@ -12079,20 +12071,19 @@
     ]
   },
   "gun_spread": {
-    "title": "x1 Sniper Crit Multiplier",
-    "frame": "challenge",
+    "title": "-10% Bullet Spread",
     "icon": {
-      "type": "item",
+      "type": "effect",
       "data": {
-        "item": "sweet_charm_o_mine:sniper_scope"
+        "effect": "gunswithoutroses:gun_knockback_up"
       }
     },
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "gunswithoutroses:gwr.sniper_crit_mult",
-          "value": 1,
+          "attribute": "gunswithoutroses:gwr.spread",
+          "value": -0.1,
           "operation": "addition"
         }
       }
