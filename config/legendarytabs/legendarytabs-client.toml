@@ -4,9 +4,9 @@
 	# The X and Y offset of the tabs menu. Set both to 0 for no offset.
 	# By default, will be rendered above minecraft menus. Set it to 10000 to disable it completely.
 	#Range: -10000 ~ 10000
-	"Tabs Menu Display X Offset" = 2
+	"Tabs Menu Display X Offset" = 5
 	#Range: -10000 ~ 10000
-	"Tabs Menu Display Y Offset" = 0
+	"Tabs Menu Display Y Offset" = 184
 	# If enabled, show current tab opened in the tabs menu.
 	"Include Opened Screen Tab" = true
 	# If enabled, show the inventory button in the tabs menu.
