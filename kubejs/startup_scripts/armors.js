@@ -1,10 +1,72 @@
 ItemEvents.modification((event) => {
   //// Misc armors
 
+  //// Early Game armors
+
+  // Copper T:10
+  event.modify("simpleores:copper_boots", (item) => {
+    item.armorProtection = 2;
+  });
+  event.modify("simpleores:copper_leggins", (item) => {
+    item.armorProtection = 3;
+  });
+
+  // Iron T:15 B:+2
+  event.modify("minecraft:iron_helmet", (item) => {
+    item.armorProtection = 3;
+  });
+  event.modify("minecraft:iron_boots", (item) => {
+    item.armorProtection = 3;
+  });
+  event.modify("minecraft:iron_leggings", (item) => {
+    item.armorProtection = 6;
+  });
+
+  // Gold T:13 B:+1
+  event.modify("minecraft:golden_helmet", (item) => {
+    item.armorProtection = 3;
+  });
+  event.modify("minecraft:golden_boots", (item) => {
+    item.armorProtection = 2;
+  });
+
+  // Cobalt T:14
+  event.modify("prodigium:cobalt_helmet", (item) => {
+    item.armorProtection = 3;
+  });
+  event.modify("prodigium:cobalt_leggings", (item) => {
+    item.armorProtection = 4;
+  });
+  event.modify("prodigium:cobalt_boots", (item) => {
+    item.armorProtection = 3;
+  });
+
+  // Wandering Magician T:15
+
   //// Bersekers armors
 
-  // Diamond
+  // Adamantium T:18
+  event.modify("simpleores:adamantium_helmet", (item) => {
+    item.armorToughness = 0;
+  });
+
+  event.modify("simpleores:adamantium_chestplate", (item) => {
+    item.armorProtection = 7;
+    item.armorToughness = 0;
+  });
+
+  event.modify("simpleores:adamantium_leggings", (item) => {
+    item.armorProtection = 6;
+    item.armorToughness = 0;
+  });
+
+  event.modify("simpleores:adamantium_boots", (item) => {
+    item.armorToughness = 0;
+  });
+
+  // Diamond T:22
   event.modify("minecraft:diamond_helmet", (item) => {
+    item.armorProtection = 5;
     item.armorToughness = 0;
   });
 
@@ -14,32 +76,12 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("minecraft:diamond_leggings", (item) => {
+    item.armorProtection = 6;
     item.armorToughness = 0;
   });
 
   event.modify("minecraft:diamond_boots", (item) => {
-    item.armorProtection = 3;
-    item.armorToughness = 0;
-  });
-
-  // Adamantium
-  event.modify("simpleores:mythril_helmet", (item) => {
-    item.armorProtection = 3;
-    item.armorToughness = 0;
-  });
-
-  event.modify("simpleores:mythril_chestplate", (item) => {
     item.armorProtection = 5;
-    item.armorToughness = 0;
-  });
-
-  event.modify("simpleores:mythril_leggings", (item) => {
-    item.armorProtection = 5;
-    item.armorToughness = 0;
-  });
-
-  event.modify("simpleores:mythril_boots", (item) => {
-    item.armorProtection = 3;
     item.armorToughness = 0;
   });
 
@@ -128,6 +170,17 @@ ItemEvents.modification((event) => {
 
   //// Ranger armors
 
+  // Archer
+
+  //// Gunner armors
+  // Palladium T:16
+  event.modify("prodigium:palladium_helmet", (item) => {
+    item.armorProtection = 3;
+  });
+  event.modify("prodigium:palladium_leggings", (item) => {
+    item.armorProtection = 5;
+  });
+
   // Neptune
   event.modify("aether:neptune_helmet", (item) => {
     item.armorProtection = 4;
@@ -151,9 +204,9 @@ ItemEvents.modification((event) => {
 
   //// Crusader armors
 
-  // Mythril
+  // Mythril T:20 B:+3
   event.modify("simpleores:mythril_helmet", (item) => {
-    item.armorProtection = 3;
+    item.armorProtection = 4;
   });
 
   event.modify("simpleores:mythril_chestplate", (item) => {
@@ -165,7 +218,25 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("simpleores:mythril_boots", (item) => {
-    item.armorProtection = 3;
+    item.armorProtection = 4;
+  });
+
+  // Paladin T:25 B:+3
+  event.modify("paladins:paladin_armor_head", (item) => {
+    item.armorToughness = 5;
+  });
+
+  event.modify("paladins:paladin_armor_chest", (item) => {
+    item.armorToughness = 8;
+    item.armorToughness = 1;
+  });
+
+  event.modify("paladins:paladin_armor_legs", (item) => {
+    item.armorToughness = 7;
+  });
+
+  event.modify("paladins:paladin_armor_feet", (item) => {
+    item.armorToughness = 5;
   });
 
   // Crusader
@@ -222,27 +293,6 @@ ItemEvents.modification((event) => {
   });
 
   //// Wizard armors
-
-  // Wandering Magician
-  event.modify("irons_spellbooks:wandering_magician_helmet", (item) => {
-    item.armorProtection = 2;
-    item.armorToughness = 0;
-  });
-
-  event.modify("irons_spellbooks:wandering_magician_chestplate", (item) => {
-    item.armorProtection = 3;
-    item.armorToughness = 0;
-  });
-
-  event.modify("irons_spellbooks:wandering_magician_leggings", (item) => {
-    item.armorProtection = 3;
-    item.armorToughness = 0;
-  });
-
-  event.modify("irons_spellbooks:wandering_magician_boots", (item) => {
-    item.armorProtection = 2;
-    item.armorToughness = 0;
-  });
 
   // Scarecrow
   event.modify("irons_spellbooks:pumpkin_helmet", (item) => {
