@@ -1,0 +1,14 @@
+
+#Mobs
+[mobs]
+	#Maximum y level at which Saber Sentries can spawn
+	#They're intended to be found at deepslate layer but you can put them somewhere else if you want
+	#Default: 8
+	#Range: -1024 ~ 1024
+	saberSentryMaxHeight = 8
+	#Maximum y level at which Blaster Sentries can spawn
+	#They're intended to be found at deepslate layer but you can put them somewhere else if you want
+	#Default: 8
+	#Range: -1024 ~ 1024
+	blasterSentryMaxHeight = 8
+

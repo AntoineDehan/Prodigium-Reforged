@@ -1,0 +1,9 @@
+
+#Enchantments
+[enchantment]
+	#Allow Punch (the vanilla Bow enchantment) to be put on guns for bonus knockback
+	#Disabling this only disables applying the enchant, it'll stay on guns already enchanted and keep working
+	#I think as an enchantment it's a bit too strong (I have more isolated knockback sources in addons), but it is very funny
+	#Default: false
+	allowPunch = false
+
