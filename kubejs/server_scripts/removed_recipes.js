@@ -10,6 +10,11 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "irons_spellbooks:netherite_mage_leggings" });
   event.remove({ output: "irons_spellbooks:netherite_mage_boots" });
 
+  event.remove({ output: "prodigium:palladium_helmet" });
+  event.remove({ output: "prodigium:palladium_chestplate" });
+  event.remove({ output: "prodigium:palladium_leggings" });
+  event.remove({ output: "prodigium:palladium_boots" });
+
   // Pets
 
   event.remove({ output: "tameablebeasts:icepop" });
