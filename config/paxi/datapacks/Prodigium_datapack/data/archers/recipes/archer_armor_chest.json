@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "prodigium_reforged:archer_leather_patch"
+    },
+    "p": {
+      "item": "prodigium:palladium_ingot"
+    }
+  },
+  "pattern": ["# #", "#P#", "###"],
+  "result": {
+    "item": "archers:archer_armor_chest"
+  },
+  "show_notification": true
+}

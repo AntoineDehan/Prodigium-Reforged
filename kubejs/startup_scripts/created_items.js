@@ -16,6 +16,10 @@ StartupEvents.registry("item", (event) => {
     .create("prodigium_reforged:palladium_belt")
     .texture("prodigium_reforged:item/palladium_belt");
 
+  event
+    .create("prodigium_reforged:archer_leather_patch")
+    .texture("prodigium_reforged:item/archer_leather_patch");
+
   //// Boss summons
 
   // King Slime

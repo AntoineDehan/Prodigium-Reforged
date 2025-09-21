@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["#B#", "# #", "# #"],
+  "key": {
+    "#": { "item": "bypowderandsteel:marauder_leather_patch" },
+    "B": { "item": "prodigium_reforged:palladium_belt" }
+  },
+  "result": { "item": "bypowderandsteel:marauder_leggings" }
+}

@@ -168,17 +168,23 @@ ItemEvents.modification((event) => {
     item.armorToughness = 0;
   });
 
-  //// Ranger armors
+  //// Archer armors
 
-  // Archer
+  // Archer set T:16
 
   //// Gunner armors
-  // Palladium T:16
-  event.modify("prodigium:palladium_helmet", (item) => {
+  // Marauder T:15
+  event.modify("bypowderandsteel:marauder_helmet", (item) => {
     item.armorProtection = 3;
   });
-  event.modify("prodigium:palladium_leggings", (item) => {
+  event.modify("bypowderandsteel:marauder_chestplate", (item) => {
     item.armorProtection = 5;
+  });
+  event.modify("bypowderandsteel:marauder_leggings", (item) => {
+    item.armorProtection = 4;
+  });
+  event.modify("bypowderandsteel:marauder_boots", (item) => {
+    item.armorProtection = 3;
   });
 
   // Neptune

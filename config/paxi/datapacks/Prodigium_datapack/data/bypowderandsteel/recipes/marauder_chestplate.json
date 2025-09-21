@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["# #", "#P#", "###"],
+  "key": {
+    "#": { "item": "bypowderandsteel:marauder_leather_patch" },
+    "P": { "item": "prodigium:palladium_ingot" }
+  },
+  "result": { "item": "bypowderandsteel:marauder_chestplate" }
+}

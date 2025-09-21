@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "tag": "forge:leather" },
+    { "item": "born_in_chaos_v1:phantom_powder" },
+    { "item": "prodigium:palladium_nugget" },
+    { "tag": "forge:string" }
+  ],
+  "result": { "item": "prodigium_reforged:archer_leather_patch" }
+}

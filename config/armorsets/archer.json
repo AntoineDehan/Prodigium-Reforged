@@ -1,17 +1,17 @@
 {
-  "armorSetName": "ranged",
+  "armorSetName": "archer",
   "performanceMode": true,
   "head": {
-    "itemKey": "prodigium:palladium_helmet"
+    "itemKey": "archers:archer_armor_head"
   },
   "chest": {
-    "itemKey": "prodigium:palladium_chestplate"
+    "itemKey": "archers:archer_armor_chest"
   },
   "legs": {
-    "itemKey": "prodigium:palladium_leggings"
+    "itemKey": "archers:archer_armor_legs"
   },
   "boots": {
-    "itemKey": "prodigium:palladium_boots"
+    "itemKey": "archers:archer_armor_feet"
   },
   "fullSetBonuses": [
     {

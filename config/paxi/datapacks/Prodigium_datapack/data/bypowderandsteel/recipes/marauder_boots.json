@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": { "item": "bypowderandsteel:marauder_leather_patch" }
+	},
+	"result": { "item": "bypowderandsteel:marauder_boots" }
+}

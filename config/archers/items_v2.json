@@ -78,7 +78,7 @@
       "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
-        "armor": 2,
+        "armor": 3,
         "attributes": [
           {
             "id": "puffish_attributes:player.ranged_damage",
@@ -88,7 +88,7 @@
         ]
       },
       "chest": {
-        "armor": 3,
+        "armor": 5,
         "attributes": [
           {
             "id": "puffish_attributes:player.ranged_damage",
@@ -98,7 +98,7 @@
         ]
       },
       "legs": {
-        "armor": 3,
+        "armor": 5,
         "attributes": [
           {
             "id": "puffish_attributes:player.ranged_damage",
@@ -108,7 +108,7 @@
         ]
       },
       "feet": {
-        "armor": 2,
+        "armor": 3,
         "attributes": [
           {
             "id": "puffish_attributes:player.ranged_damage",

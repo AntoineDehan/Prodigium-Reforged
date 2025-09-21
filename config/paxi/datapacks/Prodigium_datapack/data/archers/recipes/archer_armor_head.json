@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "prodigium_reforged:archer_leather_patch"
+    }
+  },
+  "pattern": ["###", "# #"],
+  "result": {
+    "item": "archers:archer_armor_head"
+  },
+  "show_notification": true
+}
