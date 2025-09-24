@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["BBB", "B B"],
+  "key": {
+    "B": {
+      "item": "prodigium_reforged:frostmaw_leather_patch"
+    }
+  },
+  "result": {
+    "item": "kubejs:frost_helmet",
+    "count": 1
+  }
+}
