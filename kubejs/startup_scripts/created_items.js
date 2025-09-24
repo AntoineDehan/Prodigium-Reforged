@@ -15,10 +15,18 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:palladium_belt")
     .texture("prodigium_reforged:item/palladium_belt");
-
   event
     .create("prodigium_reforged:archer_leather_patch")
     .texture("prodigium_reforged:item/archer_leather_patch");
+  event
+    .create("prodigium_reforged:frostmaw_hide")
+    .texture("prodigium_reforged:item/frostmaw_hide");
+  event
+    .create("prodigium_reforged:frostmaw_leather_patch")
+    .texture("prodigium_reforged:item/frostmaw_leather_patch");
+  event
+    .create("prodigium_reforged:diamond_shard")
+    .texture("prodigium_reforged:item/diamond_shard");
 
   //// Boss summons
 
