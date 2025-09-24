@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gunner"
+	group: "52532F5E67425F1C"
+	icon: {
+		Count: 1
+		id: "gunswithoutroses:diamond_gatling"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "775D8D56EB02542A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "43D51238714E5EBC"
+			tasks: [
+				{
+					id: "37A1DAA370BBA968"
+					item: {
+						Count: 1
+						id: "bypowderandsteel:marauder_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C4FE7E0808D5912"
+					item: {
+						Count: 1
+						id: "kubejs:frost_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6EF7C057C65B42AA"
+			tasks: [{
+				id: "301B1B9118246D4F"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:infernal_enforcer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "151534325D82BD9F"
+			tasks: [{
+				id: "6D924B53D85D01E7"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:sentry_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+	title: "Gunner"
+}

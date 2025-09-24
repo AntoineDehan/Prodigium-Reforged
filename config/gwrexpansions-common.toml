@@ -9,7 +9,7 @@
 			bonusDamage = 0
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
-			damageMultiplier = 1.8
+			damageMultiplier = 1.7
 			#Headshot Multiplier
 			#Range: 1.0 ~ 10.0
 			headshotMultiplier = 1.5
@@ -26,10 +26,10 @@
 			bonusDamage = 0
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
-			damageMultiplier = 2.0
+			damageMultiplier = 1.8
 			#Headshot Multiplier
 			#Range: 1.0 ~ 10.0
-			headshotMultiplier = 2.0
+			headshotMultiplier = 1.6
 			#fire Delay
 			#Range: 4 ~ 100
 			fireDelay = 24
@@ -96,13 +96,13 @@
 			bonusDamage = 0
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
-			damageMultiplier = 0.8
+			damageMultiplier = 0.7
 			#Headshot Multiplier
 			#Range: 1.0 ~ 10.0
 			headshotMultiplier = 1.0
 			#fire Delay
 			#Range: 4 ~ 100
-			fireDelay = 20
+			fireDelay = 18
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 4.0
@@ -130,7 +130,7 @@
 			bonusDamage = 0
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
-			damageMultiplier = 1.5
+			damageMultiplier = 1.0
 			#Headshot Multiplier
 			#Range: 1.0 ~ 10.0
 			headshotMultiplier = 1.0
@@ -158,21 +158,21 @@
 			fireDelay = 4
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
-			inaccuracy = 3.0
+			inaccuracy = 4.0
 
 		["Guns Without Roses Expansions Config".Gatling.Ignitium]
 			#Bonus Damage
 			#Range: 0 ~ 100
-			bonusDamage = 4
+			bonusDamage = 1
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
-			damageMultiplier = 1.0
+			damageMultiplier = 1.1
 			#Headshot Multiplier
 			#Range: 1.0 ~ 10.0
 			headshotMultiplier = 1.0
 			#fire Delay
 			#Range: 4 ~ 100
-			fireDelay = 4
+			fireDelay = 8
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 3.0
@@ -242,7 +242,7 @@
 			headshotMultiplier = 1.2
 			#fire Delay
 			#Range: 4 ~ 100
-			fireDelay = 60
+			fireDelay = 80
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 1.0
@@ -252,43 +252,43 @@
 		["Guns Without Roses Expansions Config".Bullets.Cursium]
 			#Phantom Halber Damage
 			#Range: 0.0 ~ 100.0
-			phantomHalberDamage = 10.0
+			phantomHalberDamage = 8.0
 			#Phantom Halberd Range
 			#Range: 0.0 ~ 100.0
-			phantomHalberdRange = 5.0
+			phantomHalberdRange = 4.0
 			#Phantom Halberd Delay
 			#Range: 0 ~ 100
-			phantomHalberdDelay = 20
+			phantomHalberdDelay = 30
 
 		["Guns Without Roses Expansions Config".Bullets.Lavapower]
 			#Flamejet Damage
 			#Range: 0.0 ~ 100.0
-			flamejetDamage = 7.0
+			flamejetDamage = 5.0
 			#Flamejet Count
 			#Range: 0 ~ 20
-			flamejetCount = 5
+			flamejetCount = 3
 
 		["Guns Without Roses Expansions Config".Bullets.Tidal]
 			#Portal damage
 			#Range: 0.0 ~ 100.0
-			"Portal damage" = 10.0
+			"Portal damage" = 8.0
 			#Portal hpdamage
 			#Range: 0.0 ~ 100.0
 			"Portal hpdamage" = 0.0
 			#Golden Nugget Drop Rate
 			#Range: 0.0 ~ 1.0
-			golden_nugget_drop_rate = 0.4
+			golden_nugget_drop_rate = 0.3
 			#Golden Apple Drop Rate
 			#Range: 0.0 ~ 1.0
-			golden_apple_drop_rate = 0.033
+			golden_apple_drop_rate = 0.03
 
 		["Guns Without Roses Expansions Config".Bullets.Gold]
 			#Golden Nugget Drop Rate
 			#Range: 0.0 ~ 1.0
-			golden_nugget_drop_rate = 0.4
+			golden_nugget_drop_rate = 0.3
 			#Golden Apple Drop Rate
 			#Range: 0.0 ~ 1.0
-			golden_apple_drop_rate = 0.033
+			golden_apple_drop_rate = 0.03
 
 	["Guns Without Roses Expansions Config".Launcher]
 
