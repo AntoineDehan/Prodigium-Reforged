@@ -3,6 +3,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "drinkbeer:trade_box_normal" });
   event.remove({ output: "irons_spellbooks:amethyst_rapier" });
   event.remove({ output: "minecraft:saddle" });
+  event.remove({ output: "iguanatweaksreborn:shortbow" });
 
   // Armor
   event.remove({ output: "irons_spellbooks:netherite_mage_helmet" });
@@ -16,7 +17,6 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "prodigium:palladium_boots" });
 
   // Pets
-
   event.remove({ output: "tameablebeasts:icepop" });
   event.remove({ output: "tameablebeasts:ice_helmet" });
   event.remove({ output: "tameablebeasts:ice_chestplate" });
@@ -40,4 +40,10 @@ ServerEvents.recipes((event) => {
 
   // Archery Expansion
   event.remove({ mod: "archeryexp" });
+
+  // GWR Expansion
+  event.remove({ output: "gwrexpansions:skullcrusher_pulverizer" });
+  event.remove({ output: "gwrexpansions:obsidian_launcher" });
+  event.remove({ output: "gwrexpansions:obsidian_core" });
+  event.remove({ output: "gwrexpansions:skull" });
 });
