@@ -123,4 +123,11 @@ StartupEvents.registry("mob_effect", (event) => {
 
       entity.potionEffects.add("confluence:honey", duration, 1, true, true);
     });
+
+  event
+    .create("debilitate")
+    .color(0x550000)
+    .beneficial()
+    .displayName("Debilitate")
+    
 });
