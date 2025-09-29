@@ -11,14 +11,14 @@
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		health = 1.2
+		health = 1.6
 		#Damage multiplier for Swampjaw's charge
 		#eg 2 means x2 damage
 		#Values above ~170 require AttributeFix mod
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		melee = 1.2
+		melee = 1.1
 		#Explosion strength for Swampjaw's mines
 		#eg ghast fireballs are 1, creepers are 3, tnt 4, charged creeper 6
 		#Default: 2.5
@@ -33,7 +33,7 @@
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		health = 2.2
+		health = 2.3
 		#Damage multiplier for Bellringer's projectiles
 		#eg 2 means x2 damage
 		#Default: 1.0
