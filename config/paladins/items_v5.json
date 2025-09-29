@@ -387,10 +387,10 @@
       }
     },
     "paladin_armor": {
-      "armor_toughness": 0.0,
+      "armor_toughness": 1.0,
       "knockback_resistance": 0.0,
       "head": {
-        "armor": 4,
+        "armor": 5,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -410,7 +410,7 @@
         ]
       },
       "chest": {
-        "armor": 7,
+        "armor": 8,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -425,7 +425,7 @@
         ]
       },
       "legs": {
-        "armor": 6,
+        "armor": 7,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -440,7 +440,7 @@
         ]
       },
       "feet": {
-        "armor": 4,
+        "armor": 5,
         "attributes": [
           {
             "id": "spell_power:healing",

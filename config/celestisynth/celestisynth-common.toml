@@ -1,0 +1,7 @@
+
+["Weapon Config"]
+
+	["Weapon Config".Keres]
+		#Should Keres' Carnage Incarnate skill be able to grief blocks?
+		"Carnage Incarnate Griefing" = true
+
