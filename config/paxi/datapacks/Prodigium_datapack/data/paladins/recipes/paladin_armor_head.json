@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "C": {
-      "item": "simpleores:adamantium_ingot"
+      "item": "prodigium_reforged:diamond_plate"
     },
     "I": {
       "item": "minecraft:iron_ingot"

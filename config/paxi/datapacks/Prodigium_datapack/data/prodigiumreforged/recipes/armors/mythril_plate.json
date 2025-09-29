@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["iis", "in ", "s  "],
+  "key": {
+    "i": {
+      "item": "simpleores:mythril_ingot"
+    },
+    "n": {
+      "item": "simpleores:mythril_nugget"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:mythril_plate",
+    "count": 1
+  }
+}

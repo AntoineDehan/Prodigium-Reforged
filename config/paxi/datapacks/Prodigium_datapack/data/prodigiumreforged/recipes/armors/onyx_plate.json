@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["iis", "in ", "s  "],
+  "key": {
+    "i": {
+      "item": "simpleores:onyx_gem"
+    },
+    "n": {
+      "item": "prodigium_reforged:diamond_shard"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:onyx_plate",
+    "count": 1
+  }
+}
