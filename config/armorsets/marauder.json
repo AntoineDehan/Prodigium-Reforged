@@ -1,0 +1,32 @@
+{
+  "armorSetName": "gunner",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "bypowderandsteel:marauder_helmet"
+  },
+  "chest": {
+    "itemKey": "bypowderandsteel:marauder_chestplate"
+  },
+  "legs": {
+    "itemKey": "bypowderandsteel:marauder_leggings"
+  },
+  "boots": {
+    "itemKey": "bypowderandsteel:marauder_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_base",
+      "value": 3.0,
+      "modifierUUID": "4a6a54fb-6466-4719-a138-6ed070435b50",
+      "description": "+3.0 Gun damage"
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.chance_ammo",
+      "value": -0.05,
+      "modifierUUID": "4c409871-4b26-42ff-b335-e8a96f80b56b",
+      "description": "5% Chance to not consume ammo"
+    }
+  ]
+}

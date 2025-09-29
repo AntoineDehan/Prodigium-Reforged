@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "W": {
+      "item": "prodigium_reforged:arcane_infused_cloth"
+    }
+  },
+  "pattern": ["L L", "W W"],
+  "result": {
+    "item": "wizards:wizard_robe_feet"
+  }
+}

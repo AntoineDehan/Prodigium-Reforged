@@ -15,11 +15,14 @@ ItemEvents.modification((event) => {
   event.modify("minecraft:iron_helmet", (item) => {
     item.armorProtection = 3;
   });
-  event.modify("minecraft:iron_boots", (item) => {
-    item.armorProtection = 3;
+  event.modify("minecraft:iron_chesplate", (item) => {
+    item.armorProtection = 5;
   });
   event.modify("minecraft:iron_leggings", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 4;
+  });
+  event.modify("minecraft:iron_boots", (item) => {
+    item.armorProtection = 3;
   });
 
   // Gold T:13 B:+1
@@ -172,6 +175,8 @@ ItemEvents.modification((event) => {
 
   // Archer set T:16
 
+  // Bee T:
+
   //// Gunner armors
   // Marauder T:15
   event.modify("bypowderandsteel:marauder_helmet", (item) => {
@@ -227,22 +232,22 @@ ItemEvents.modification((event) => {
     item.armorProtection = 4;
   });
 
-  // Paladin T:25 B:+3
+  // Paladin T:25 TO:1 B:+3
   event.modify("paladins:paladin_armor_head", (item) => {
-    item.armorToughness = 5;
+    item.armorProtection = 5;
   });
 
   event.modify("paladins:paladin_armor_chest", (item) => {
-    item.armorToughness = 8;
+    item.armorProtection = 8;
     item.armorToughness = 1;
   });
 
   event.modify("paladins:paladin_armor_legs", (item) => {
-    item.armorToughness = 7;
+    item.armorProtection = 7;
   });
 
   event.modify("paladins:paladin_armor_feet", (item) => {
-    item.armorToughness = 5;
+    item.armorProtection = 5;
   });
 
   // Crusader

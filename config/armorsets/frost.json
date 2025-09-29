@@ -1,0 +1,48 @@
+{
+  "armorSetName": "gunner",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:frost_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:frost_chestplate"
+  },
+  "legs": {
+    "itemKey": "kubejs:frost_leggings"
+  },
+  "boots": {
+    "itemKey": "kubejs:frost_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_base",
+      "value": 4.0,
+      "modifierUUID": "f10d0137-a10e-45ae-825f-63dbc3ddb9bd",
+      "description": "+4.0 Gun damage"
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.chance_ammo",
+      "value": -0.05,
+      "modifierUUID": "59a949a3-e346-4249-a5e6-265ab46c7f62",
+      "description": "5% Chance to not consume ammo"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:frostburner",
+      "value": 0.0
+    },
+    {
+      "type": "effect",
+      "name": "cofh_core:cold_resistance",
+      "value": 0.0
+    },
+    {
+      "type": "effect",
+      "name": "mowziesmobs:frozen",
+      "interactionType": "immunity",
+      "description": "Freeze immunity"
+    }
+  ]
+}

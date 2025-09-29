@@ -125,9 +125,8 @@ StartupEvents.registry("mob_effect", (event) => {
     });
 
   event
-    .create("debilitate")
+    .create("frostburner")
     .color(0x550000)
     .beneficial()
-    .displayName("Debilitate")
-    
+    .displayName("Frostburner");
 });

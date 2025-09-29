@@ -16,17 +16,40 @@ StartupEvents.registry("item", (event) => {
     .create("prodigium_reforged:palladium_belt")
     .texture("prodigium_reforged:item/palladium_belt");
   event
-    .create("prodigium_reforged:archer_leather_patch")
-    .texture("prodigium_reforged:item/archer_leather_patch");
-  event
     .create("prodigium_reforged:frostmaw_hide")
     .texture("prodigium_reforged:item/frostmaw_hide");
   event
-    .create("prodigium_reforged:frostmaw_leather_patch")
-    .texture("prodigium_reforged:item/frostmaw_leather_patch");
+    .create("prodigium_reforged:ancient_cloth")
+    .texture("prodigium_reforged:item/ancient_cloth");
+  event
+    .create("prodigium_reforged:arcane_infused_cloth")
+    .texture("prodigium_reforged:item/arcane_infused_cloth");
   event
     .create("prodigium_reforged:diamond_shard")
     .texture("prodigium_reforged:item/diamond_shard");
+
+  // Ranged Leather patches
+  event
+    .create("prodigium_reforged:frostmaw_leather_patch")
+    .texture("prodigium_reforged:item/frostmaw_leather_patch");
+
+  event
+    .create("prodigium_reforged:archer_leather_patch")
+    .texture("prodigium_reforged:item/archer_leather_patch");
+
+  // Crusader Plates
+  event
+    .create("prodigium_reforged:mythril_plate")
+    .texture("prodigium_reforged:item/mythril_plate");
+  event
+    .create("prodigium_reforged:diamond_plate")
+    .texture("prodigium_reforged:item/diamond_plate");
+  event
+    .create("prodigium_reforged:onyx_plate")
+    .texture("prodigium_reforged:item/onyx_plate");
+  event
+    .create("prodigium_reforged:valkyrie_plate")
+    .texture("prodigium_reforged:item/valkyrie_plate");
 
   //// Boss summons
 
