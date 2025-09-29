@@ -179,6 +179,42 @@
     "result": "deny"
   },
   {
+    "mob": ["bypowderandsteel:cowbones_buckaroo"],
+    "gamestage": "stage_desert",
+    "result": "default"
+  },
+  {
+    "mob": ["bypowderandsteel:cowbones_buckaroo"],
+    "result": "deny"
+  },
+  {
+    "mob": ["bypowderandsteel:cowbones_pistolero"],
+    "gamestage": "stage_desert",
+    "result": "default"
+  },
+  {
+    "mob": ["bypowderandsteel:cowbones_pistolero"],
+    "result": "deny"
+  },
+  {
+    "mob": ["luminous_beasts:mummy"],
+    "gamestage": "stage_desert",
+    "result": "default"
+  },
+  {
+    "mob": ["luminous_beasts:mummy"],
+    "result": "deny"
+  },
+  {
+    "mob": ["luminous_beasts:rare_mummy"],
+    "gamestage": "stage_desert",
+    "result": "default"
+  },
+  {
+    "mob": ["luminous_beasts:rare_mummy"],
+    "result": "deny"
+  },
+  {
     "mob": ["enemyexpansion:huntsman"],
     "gamestage": "stage_1",
     "result": "default"
