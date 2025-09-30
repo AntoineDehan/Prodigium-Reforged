@@ -35,6 +35,16 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "gwrexpansions:netherite_shotgun" });
   event.remove({ output: "gwrexpansions:netherite_gatling" });
 
+  event.remove({ output: "sweet_charm_o_mine:gunpowder_bag" });
+
+  ///
+
+  // Sweet Charm o' Mine
+  event.remove({ output: "sweet_charm_o_mine:bullet_shell_charm" });
+  event.remove({ output: "sweet_charm_o_mine:tobacco_pipe" });
+  event.remove({ output: "sweet_charm_o_mine:shotgun_shells" });
+  event.remove({ output: "sweet_charm_o_mine:dunlop_pick" });
+
   // Tom's Simple Storage
   event.remove({ mod: "toms_storage" });
 
