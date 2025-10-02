@@ -1,0 +1,36 @@
+{
+  "school": "PHYSICAL_RANGED",
+  "range": 0,
+  "learn": {
+    "tier": 1
+  },
+  "mode": "ITEM_USE",
+  "item_use": {},
+  "arrow_perks": {
+    "bypass_iframes": true
+  },
+  "impact": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "apply_mode": "ADD",
+          "duration": 5,
+          "amplifier": 3,
+          "effect_id": "archers:hunters_mark",
+          "show_particles": false
+        }
+      },
+      "particles": [
+        {
+          "particle_id": "firework",
+          "shape": "PILLAR",
+          "origin": "CENTER",
+          "count": 3,
+          "min_speed": 0,
+          "max_speed": 0
+        }
+      ]
+    }
+  ]
+}

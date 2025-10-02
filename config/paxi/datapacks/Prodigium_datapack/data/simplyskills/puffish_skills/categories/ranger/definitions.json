@@ -6622,6 +6622,30 @@
         "data": {
           "passive_skill": "rangerSignatureArrowRainElemental"
         }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:frost",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:fire",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:lightning",
+          "value": 2,
+          "operation": "addition"
+        }
       }
     ]
   },
@@ -6653,6 +6677,30 @@
         "type": "puffish_skills:passive_skill",
         "data": {
           "passive_skill": "rangerSignatureArrowRainElementalArtillery"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:frost",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:fire",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:lightning",
+          "value": 1,
+          "operation": "addition"
         }
       }
     ]
@@ -10625,11 +10673,19 @@
           "value": 0.15,
           "operation": "multiply_total"
         }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ranged_weapon:damage",
+          "value": 1,
+          "operation": "addition"
+        }
       }
     ]
   },
   "ranged_damage+5%": {
-    "title": "+6% Ranged Damage",
+    "title": "+5% Ranged Damage",
     "icon": {
       "type": "item",
       "data": {
@@ -10640,9 +10696,17 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:player.ranged_damage",
-          "value": 0.06,
-          "operation": "multiply_total"
+          "attribute": "attributeslib:arrow_damage",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ranged_weapon:damage",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -10659,9 +10723,17 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:player.ranged_damage",
+          "attribute": "attributeslib:arrow_damage",
           "value": 0.1,
-          "operation": "multiply_total"
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ranged_weapon:damage",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -10672,16 +10744,24 @@
     "icon": {
       "type": "item",
       "data": {
-        "item": "gunswithoutroses:gold_gun"
+        "item": "aether:phoenix_bow"
       }
     },
     "rewards": [
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:player.ranged_damage",
+          "attribute": "attributeslib:arrow_damage",
           "value": 0.2,
-          "operation": "multiply_total"
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ranged_weapon:damage",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]

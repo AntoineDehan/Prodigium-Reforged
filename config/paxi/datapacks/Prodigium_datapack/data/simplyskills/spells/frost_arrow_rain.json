@@ -1,6 +1,6 @@
 {
-  "school": "PHYSICAL_RANGED",
-  "range": 120,
+  "school": "FROST",
+  "range": 512,
   "learn": {
     "tier": 1
   },
@@ -8,12 +8,12 @@
     "duration": 0.75,
     "animation": "spell_engine:one_handed_projectile_charge",
     "sound": {
-      "id": "spell_engine:generic_arcane_casting",
+      "id": "spell_engine:generic_frost_casting",
       "randomness": 0
     },
     "particles": [
       {
-        "particle_id": "spell_engine:arcane_spell",
+        "particle_id": "spell_engine:frost_shard",
         "shape": "PIPE",
         "origin": "FEET",
         "count": 1.0,
@@ -27,37 +27,34 @@
       "type": "PROJECTILE",
       "projectile": {
         "projectile": {
-          "velocity": 8.9,
-          "homing_angle": 0,
-          "perks": {
-            "pierce": 1
-          },
+          "velocity": 0.8,
+          "homing_angle": 16,
           "client_data": {
             "travel_particles": [
               {
-                "particle_id": "crit",
+                "particle_id": "spell_engine:frost_shard",
                 "shape": "CIRCLE",
                 "rotation": "LOOK",
                 "origin": "CENTER",
-                "count": 1.0,
+                "count": 2.0,
                 "min_speed": 0.05,
                 "max_speed": 0.1
               }
             ],
             "model": {
-              "model_id": "simplyskills:projectile/arrow",
+              "model_id": "simplyskills:projectile/ice_projectile",
               "render": "DEEP",
-              "light_emission": "NONE",
-              "scale": 0.9
+              "scale": 1
             }
           }
         }
       }
     },
+    "animation": "spell_engine:one_handed_projectile_release",
     "sound": {
-      "id": "minecraft:entity.arrow.shoot",
-      "volume": 1,
-      "pitch": 1.0
+      "id": "simplyskills:soundeffect_16",
+      "volume": 0.2,
+      "pitch": 1.6
     }
   },
   "impact": [
@@ -65,24 +62,23 @@
       "action": {
         "type": "DAMAGE",
         "damage": {
-          "knockback": 0.1,
-          "spell_power_coefficient": 5
+          "knockback": 0.5,
+          "spell_power_coefficient": 6.0
         }
       },
       "particles": [
         {
-          "particle_id": "minecraft:poof",
+          "particle_id": "spell_engine:frost_hit",
           "shape": "SPHERE",
           "origin": "CENTER",
-          "count": 3,
+          "count": 40,
           "min_speed": 0.2,
           "max_speed": 0.7
         }
       ],
       "sound": {
-        "id": "simplyskills:spell_arcane_hit",
-        "volume": 0.05,
-        "pitch": 1.5
+        "id": "simplyskills:soundeffect_32",
+        "volume": 0.2
       }
     }
   ],
