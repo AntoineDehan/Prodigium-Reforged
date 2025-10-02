@@ -10050,7 +10050,7 @@
     ]
   },
   "armor+0.5": {
-    "title": "+0.5 Armor",
+    "title": "+1 Armor",
     "icon": {
       "type": "item",
       "data": {
@@ -10062,7 +10062,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.armor",
-          "value": 1,
+          "value": 2,
           "operation": "addition"
         }
       }

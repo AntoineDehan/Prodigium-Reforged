@@ -1,0 +1,135 @@
+{
+  "school": "PHYSICAL_MELEE",
+  "range": 16,
+  "learn": {
+    "tier": 3
+  },
+  "cast": {
+    "duration": 0.5,
+    "sound": {
+      "id": "simplyskills:soundeffect_32",
+      "volume": 1.5,
+      "randomness": 0
+    },
+    "particles": [
+      {
+        "particle_id": "mycelium",
+        "shape": "PIPE",
+        "origin": "FEET",
+        "count": 1.0,
+        "min_speed": 0.05,
+        "max_speed": 0.1
+      }
+    ]
+  },
+  "release": {
+    "target": {
+      "type": "METEOR",
+      "meteor": {
+        "launch_height": 10,
+        "launch_properties": {
+          "velocity": 1.5
+        },
+        "projectile": {
+          "velocity": 1.0,
+          "homing_angle": 1.0,
+          "client_data": {
+            "travel_particles": [
+              {
+                "particle_id": "mycelium",
+                "shape": "CIRCLE",
+                "rotation": "LOOK",
+                "origin": "CENTER",
+                "count": 5.0,
+                "min_speed": 0.0,
+                "max_speed": 0.1
+              },
+              {
+                "particle_id": "cloud",
+                "shape": "CIRCLE",
+                "rotation": "LOOK",
+                "origin": "CENTER",
+                "count": 4.0,
+                "min_speed": 0.0,
+                "max_speed": 0.1
+              }
+            ],
+            "model": {
+              "model_id": "simplyskills:projectile/swordfall",
+              "render": "DEEP",
+              "light_emission": "NONE",
+              "scale": 1.0
+            }
+          }
+        }
+      }
+    },
+    "animation": "spell_engine:one_handed_area_release",
+    "sound": {
+      "id": "simplyskills:spell_slash",
+      "volume": 0.6,
+      "pitch": 1.2
+    }
+  },
+  "impact": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 2.0
+        }
+      },
+      "particles": [
+        {
+          "particle_id": "firework",
+          "shape": "SPHERE",
+          "origin": "CENTER",
+          "count": 2.0,
+          "min_speed": 0.01,
+          "max_speed": 0.3
+        }
+      ],
+      "sound": {
+        "id": "simplyskills:soundeffect_14",
+        "volume": 0.3
+      }
+    }
+  ],
+  "area_impact": {
+    "radius": 2,
+    "area": {
+      "distance_dropoff": "SQUARED"
+    },
+    "particles": [
+      {
+        "particle_id": "mycelium",
+        "shape": "SPHERE",
+        "origin": "CENTER",
+        "count": 100.0,
+        "min_speed": 0.4,
+        "max_speed": 0.5
+      },
+      {
+        "particle_id": "cloud",
+        "shape": "SPHERE",
+        "origin": "CENTER",
+        "count": 40.0,
+        "min_speed": 0.05,
+        "max_speed": 0.2
+      },
+      {
+        "particle_id": "smoke",
+        "shape": "SPHERE",
+        "origin": "CENTER",
+        "count": 50.0,
+        "min_speed": 0.1,
+        "max_speed": 0.3
+      }
+    ],
+    "sound": {
+      "id": "simplyskills:soundeffect_32",
+      "volume": 1.5
+    }
+  },
+  "cost": {}
+}

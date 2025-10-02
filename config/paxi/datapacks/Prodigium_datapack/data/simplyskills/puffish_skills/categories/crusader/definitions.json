@@ -8190,6 +8190,14 @@
         "data": {
           "passive_skill": "crusaderSignatureConsecration"
         }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 1,
+          "operation": "addition"
+        }
       }
     ]
   },
@@ -8318,6 +8326,14 @@
         "data": {
           "passive_skill": "crusaderSignatureConsecrationMighty"
         }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 4,
+          "operation": "addition"
+        }
       }
     ]
   },
@@ -8413,6 +8429,14 @@
         "type": "puffish_skills:passive_skill",
         "data": {
           "passive_skill": "crusaderSignatureSacredOnslaughtHeal"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:healing",
+          "value": 4,
+          "operation": "addition"
         }
       }
     ]
@@ -10050,7 +10074,7 @@
     ]
   },
   "armor+0.5": {
-    "title": "+0.5 Armor",
+    "title": "+1 Armor",
     "icon": {
       "type": "item",
       "data": {
@@ -10062,7 +10086,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.armor",
-          "value": 1,
+          "value": 2,
           "operation": "addition"
         }
       }

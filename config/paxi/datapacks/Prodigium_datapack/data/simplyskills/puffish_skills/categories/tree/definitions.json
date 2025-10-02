@@ -10282,6 +10282,12 @@
           "value": 4,
           "operation": "addition"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
+        }
       }
     ]
   },
@@ -10667,6 +10673,12 @@
           "value": 0.15,
           "operation": "multiply_total"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
+        }
       }
     ]
   },
@@ -10908,6 +10920,13 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_mage"
+        }
+      },
+
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
         }
       }
     ]
