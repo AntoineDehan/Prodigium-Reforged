@@ -1,5 +1,0 @@
-{
-  "replace": false,
-
-  "values": ["#forge:is_dry/overworld", "#forge:is_desert"]
-}
