@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CCC", "CBC", "CCC"],
+  "key": {
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "gunswithoutroses:bullet_bag"
+    }
+  },
+  "result": {
+    "item": "sweet_charm_o_mine:copper_pocket"
+  }
+}

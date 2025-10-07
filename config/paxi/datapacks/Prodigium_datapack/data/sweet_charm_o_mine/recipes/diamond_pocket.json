@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["DDD", "DBD", "SDS"],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "bypowderandsteel:gunsteel_ingot"
+    },
+    "B": {
+      "item": "sweet_charm_o_mine:gold_pocket"
+    }
+  },
+  "result": {
+    "item": "sweet_charm_o_mine:diamond_pocket"
+  }
+}

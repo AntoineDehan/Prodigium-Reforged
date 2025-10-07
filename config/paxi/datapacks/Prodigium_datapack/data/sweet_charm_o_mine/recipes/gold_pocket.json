@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["GGG", "GBG", "SGS"],
+  "key": {
+    "G": {
+      "item": "prodigium:palladium_ingot"
+    },
+    "S": {
+      "item": "bypowderandsteel:gunsteel_ingot"
+    },
+    "B": {
+      "item": "sweet_charm_o_mine:iron_pocket"
+    }
+  },
+  "result": {
+    "item": "sweet_charm_o_mine:gold_pocket"
+  }
+}
