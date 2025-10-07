@@ -12,3 +12,12 @@
 	#Range: -1024 ~ 1024
 	blasterSentryMaxHeight = 8
 
+#Specific debug and/or packdev related stuff
+#READ THESE CAREFULLY you probably don't need to touch them
+[miscstuffyoushouldntmesswith]
+	#Use the default attribute maps in the armors, which in practice does 2 things:
+	#1) allows KubeJS to actually modify the armor attributes (because it access transformers that map)
+	#2) remove the gun-related attribute from them so you gotta manually add them back with KubeJS (because that's why I went around that map in the first place)
+	#Default: false
+	hackThatMakesArmorsModifiableByKubeJSButMessesWithTheirNormalAttributes = true
+

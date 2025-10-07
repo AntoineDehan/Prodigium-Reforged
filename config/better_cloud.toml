@@ -1,0 +1,44 @@
+#Range: 0.1 ~ 1024.0
+distance = 4.0
+is_enabled = true
+shuffle = false
+usePersistentBuffers = true
+irisSupport = true
+cloudOverride = true
+useIrisFBO = true
+gpuIncompatibleMessageEnabled = true
+#Range: 0.0 ~ 100.0
+windEffectFactor = 1.0
+celestialBodyHalo = false
+#Range: 0.0 ~ 10.0
+randomPlacement = 0.0
+#Range: 0.0 ~ 10.0
+fuzziness = 1.0
+#Range: 0.0 ~ 256.0
+yRange = 64.0
+#Range: -256.0 ~ 256.0
+yOffset = 0.0
+#Range: 0.0 ~ 100.0
+sparsity = 0.0
+#Range: 0.0 ~ 100.0
+spacing = 5.25
+#Range: 0.0 ~ 100.0
+sizeXZ = 16.0
+#Range: 0.0 ~ 10.0
+sizeY = 8.0
+#Range: 0.0 ~ 100.0
+travelSpeed = 0.03
+#Range: 0.0 ~ 100.0
+colorVariationFactor = 1.0
+#Range: 0.0 ~ 100.0
+samplingScale = 1.0
+#Range: 0.0 ~ 100.0
+scaleFalloffMin = 0.25
+#Range: 0.0 ~ 100.0
+fadeEdge = 0.15
+#Range: 1 ~ 1024
+chunkSize = 32
+#Range: 0 ~ 128
+selectedPreset = 0
+blackListedBiomes = ["minecraft:the_end"]
+
