@@ -6,8 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "endrem:cold_eye",
-          "weight": 1
+          "name": "block_factorys_bosses:sandworm_dart"
         }
       ]
     },
@@ -16,13 +15,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mowziesmobs:ice_crystal",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "confluence:frozen_turtle_shell",
-          "weight": 1
+          "name": "bypowderandsteel:gunsteel_scrap",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
         }
       ]
     },
@@ -31,13 +34,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mowziesmobs:music_disc_petiole"
+          "name": "confluence:sandstorm_in_a_bottle"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.5
+          "chance": 0.3
         }
       ]
     },
@@ -49,27 +52,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "prodigium_reforged:frostmaw_hide",
+          "name": "minecraft:sand",
           "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 8,
-                "max": 20
+                "min": 5,
+                "max": 24
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "irons_spellbooks:permafrost_shard",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "irons_spellbooks:frozen_bone",
-          "weight": 4,
+          "name": "bypowderandsteel:cowbones_horn",
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -79,26 +77,20 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "tameablebeasts:ice_helmet",
-          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "tameablebeasts:ice_chestplate",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tameablebeasts:icepop",
-          "weight": 1
+          "name": "minecraft:red_sand",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 24
+              }
+            }
+          ]
         }
       ]
     },
@@ -113,7 +105,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 10,
+                "min": 8,
                 "max": 15
               }
             }
@@ -128,7 +120,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 2
               }
             }
           ]

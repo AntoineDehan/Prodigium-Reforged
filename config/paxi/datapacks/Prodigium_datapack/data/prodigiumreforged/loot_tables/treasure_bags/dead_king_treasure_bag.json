@@ -29,13 +29,31 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "prodigium_reforged:ancient_cloth",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "irons_spellbooks:legendary_ink",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 3
+                "min": 1,
+                "max": 4
               }
             }
           ]
@@ -47,8 +65,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 3
+                "min": 1,
+                "max": 4
               }
             }
           ]

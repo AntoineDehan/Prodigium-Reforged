@@ -16,6 +16,25 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "prodigium_reforged:umvuthi_feather",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "mowziesmobs:sol_visage"
         }
       ]

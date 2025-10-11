@@ -6,8 +6,27 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:bone_heart",
+          "name": "block_factorys_bosses:dragon_skull",
           "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "block_factorys_bosses:dragon_bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 11,
+                "max": 15
+              }
+            }
+          ]
         }
       ]
     },
