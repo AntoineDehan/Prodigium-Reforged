@@ -28,6 +28,14 @@ StartupEvents.registry("item", (event) => {
     .create("prodigium_reforged:diamond_shard")
     .texture("prodigium_reforged:item/diamond_shard");
 
+  event
+    .create("prodigium_reforged:umvuthi_feather")
+    .texture("prodigium_reforged:item/umvuthi_feather");
+
+  event
+    .create("prodigium_reforged:soul_knight")
+    .texture("prodigium_reforged:item/soul_knight");
+
   // Ranged Leather patches
   event
     .create("prodigium_reforged:frostmaw_leather_patch")
@@ -50,6 +58,15 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:valkyrie_plate")
     .texture("prodigium_reforged:item/valkyrie_plate");
+
+  // Treasure Bags (faster than updating the Prodigium mod ngl)
+  event
+    .create("prodigium:infernal_dragon_treasure_bag")
+    .texture("prodigium:item/infernal_dragon_treasure_bag");
+
+  event
+    .create("prodigium:sandworm_treasure_bag")
+    .texture("prodigium:item/sandworm_treasure_bag");
 
   //// Boss summons
 

@@ -124,9 +124,30 @@ StartupEvents.registry("mob_effect", (event) => {
       entity.potionEffects.add("confluence:honey", duration, 1, true, true);
     });
 
+  // Frostburner -- Frost Armor Effect
   event
     .create("frostburner")
     .color(0x550000)
     .beneficial()
     .displayName("Frostburner");
+
+  // Holy Touch
+  event
+    .create("holy_touch")
+    .color(0xffd27f)
+    .beneficial()
+    // Holy Spell Power
+    .modifyAttribute(
+      "irons_spellbooks:holy_spell_power",
+      "dc93ad1a-1760-4b99-9259-bedc817e034e",
+      0.5,
+      "addition"
+    )
+    // Mana Regeneration
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "3f398bb1-fb44-46f6-b3a0-687bdea57ee1",
+      0.4,
+      "addition"
+    );
 });
