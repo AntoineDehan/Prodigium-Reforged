@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["LLL", "PoP", "PPP"],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "o": {
+      "item": "prodigium:orichalcum_ingot"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "domesticationinnovation:drum",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["b b", "aba", "aaa"],
+  "key": {
+    "a": {
+      "item": "block_factorys_bosses:dragon_bone"
+    },
+    "b": {
+      "item": "prodigium_reforged:onyx_plate"
+    }
+  },
+  "result": {
+    "item": "block_factorys_bosses:dragon_bones_chestplate",
+    "count": 1
+  }
+}

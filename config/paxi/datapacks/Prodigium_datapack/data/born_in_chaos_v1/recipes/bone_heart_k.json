@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["a a", "aba", " a "],
+  "key": {
+    "a": {
+      "item": "block_factorys_bosses:dragon_bone"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:bone_heart",
+    "count": 1
+  }
+}
