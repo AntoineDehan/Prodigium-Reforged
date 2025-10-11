@@ -1,0 +1,10 @@
+{
+  "color": "#434244",
+  "level": 5,
+  "icons": {
+    "minecraft:mineable/pickaxe": "simpleores:onyx_pickaxe",
+    "minecraft:mineable/axe": "simpleores:onyx_axe",
+    "minecraft:mineable/shovel": "simpleores:onyx_shovel",
+    "minecraft:mineable/hoe": "simpleores:onyx_hoe"
+  }
+}
