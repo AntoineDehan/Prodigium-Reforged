@@ -1,0 +1,54 @@
+#Basic chance of dropping buffs
+#Range: > 0
+log_buff_chance = 8
+#Extra chance of dropping buffs for each looting level
+#Range: > 0
+looting_extra_chance = 2
+#Extra chance of dropping buffs when luck effect is applied
+#Range: > 0
+luck_extra_chance = 5
+#Dropped buffs can be picked up by every player not only by the one who killed the enemy who dropped the buff
+global_drop = true
+#How long the buff should stay on the ground in seconds
+#Range: > 0
+buff_on_ground_duration = 10
+#Size of the buff (it only change visual model, not the hitbox)
+#Range: 0.0 ~ 3.4028234663852886E38
+buff_size = 0.499999976158142
+#Duration (in seconds) of an effect got from a buff (applies only to buffs that gives effects with a duration)
+#Range: > 0
+buff_effect_duration = 15
+#Absorption Buff active
+absorption_buff = true
+#Haste Buff active
+haste_buff = true
+#Heal Buff active
+heal_buff = true
+#Invisibility Buff active
+invisibility_buff = true
+#Luck Buff active
+luck_buff = true
+#Meat Buff active
+meat_buff = true
+#Resistance Buff active
+resistance_buff = true
+#Speed Buff active
+speed_buff = true
+#Strength Buff active
+strength_buff = true
+#Water Breathing Buff active
+water_breathing_buff = true
+#Night Vision Buff active
+night_vision_buff = true
+#Fire Resistance Buff active
+fire_resistance_buff = true
+#Amount of healing in hp you will get from healing buff
+#Range: > 0
+healing_value = 10
+#Amount of hunger points restored from a meat buff
+#Range: > 0
+food_value = 8
+#Amount of saturation points restored from a meat buff
+#Range: > 0
+saturation_value = 6
+
