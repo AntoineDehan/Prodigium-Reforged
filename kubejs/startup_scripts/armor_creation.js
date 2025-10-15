@@ -10,4 +10,9 @@ StartupEvents.registry("item", (e) => {
   e.create("frost_chestplate", "chestplate").tier("frost");
   e.create("frost_leggings", "leggings").tier("frost");
   e.create("frost_boots", "boots").tier("frost");
+
+  // Priest armor
+  e.create("sol_chestplate", "chestplate").tier("sunbird");
+  e.create("sol_leggings", "leggings").tier("sunbird");
+  e.create("sol_boots", "boots").tier("sunbird");
 });

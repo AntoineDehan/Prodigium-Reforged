@@ -1,3 +1,9 @@
+const $TierSortingRegistry = Java.loadClass(
+  "net.minecraftforge.common.TierSortingRegistry"
+);
+const $Tiers = Java.loadClass("net.minecraft.world.item.Tiers");
+const $ForgeTier = Java.loadClass("net.minecraftforge.common.ForgeTier");
+
 ItemEvents.modification((event) => {
   //// Misc armors
 
@@ -88,30 +94,51 @@ ItemEvents.modification((event) => {
     item.armorToughness = 0;
   });
 
-  // Tungsten
+  // Tungsten T:25
   event.modify("stalwart_dungeons:tungsten_helmet", (item) => {
-    item.armorProtection = 3;
+    item.armorProtection = 5;
     item.armorToughness = 0;
   });
 
   event.modify("stalwart_dungeons:tungsten_chestplate", (item) => {
-    item.armorProtection = 7;
+    item.armorProtection = 8;
     item.armorToughness = 0;
   });
 
   event.modify("stalwart_dungeons:tungsten_leggings", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 7;
     item.armorToughness = 0;
   });
 
   event.modify("stalwart_dungeons:tungsten_boots", (item) => {
+    item.armorProtection = 5;
+    item.armorToughness = 0;
+  });
+
+  // Warped Tungsten (à faire, focus dégats ou quelque chose de spécial?Life Steal?)
+  event.modify("stalwart_dungeons:warped_tungsten_helmet", (item) => {
     item.armorProtection = 3;
     item.armorToughness = 0;
   });
 
-  // Phoenix
+  event.modify("stalwart_dungeons:warped_tungsten_chestplate", (item) => {
+    item.armorProtection = 7;
+    item.armorToughness = 0;
+  });
+
+  event.modify("stalwart_dungeons:warped_tungsten_leggings", (item) => {
+    item.armorProtection = 6;
+    item.armorToughness = 0;
+  });
+
+  event.modify("stalwart_dungeons:warped_tungsten_boots", (item) => {
+    item.armorProtection = 3;
+    item.armorToughness = 0;
+  });
+
+  // Phoenix T:25
   event.modify("aether:phoenix_helmet", (item) => {
-    item.armorProtection = 4;
+    item.armorProtection = 6;
     item.armorToughness = 0;
   });
 
@@ -121,17 +148,17 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("aether:phoenix_leggings", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 8;
     item.armorToughness = 0;
   });
 
   event.modify("aether:phoenix_boots", (item) => {
-    item.armorProtection = 4;
+    item.armorProtection = 6;
     item.armorToughness = 0;
   });
 
   event.modify("aether:obsidian_helmet", (item) => {
-    item.armorProtection = 4;
+    item.armorProtection = 6;
     item.armorToughness = 0;
   });
 
@@ -141,12 +168,12 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("aether:obsidian_leggings", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 8;
     item.armorToughness = 0;
   });
 
   event.modify("aether:obsidian_boots", (item) => {
-    item.armorProtection = 4;
+    item.armorProtection = 6;
     item.armorToughness = 0;
   });
 
@@ -232,61 +259,53 @@ ItemEvents.modification((event) => {
     item.armorProtection = 4;
   });
 
-  // Paladin T:25 TO:1 B:+3
-  event.modify("paladins:paladin_armor_head", (item) => {
-    item.armorProtection = 5;
-  });
+  // Paladin T:25 TO:4 B:+3
 
-  event.modify("paladins:paladin_armor_chest", (item) => {
-    item.armorProtection = 8;
-    item.armorToughness = 1;
-  });
+  // Crusader T:29 TO:5
 
-  event.modify("paladins:paladin_armor_legs", (item) => {
+  // Dragon T:32 TO:8
+  event.modify("block_factorys_bosses:dragon_skull", (item) => {
     item.armorProtection = 7;
-  });
-
-  event.modify("paladins:paladin_armor_feet", (item) => {
-    item.armorProtection = 5;
-  });
-
-  // Crusader
-  event.modify("paladins:crusader_armor_head", (item) => {
-    item.armorToughness = 1;
-  });
-
-  event.modify("paladins:crusader_armor_chest", (item) => {
-    item.armorToughness = 1;
-  });
-
-  event.modify("paladins:crusader_armor_legs", (item) => {
-    item.armorToughness = 1;
-  });
-
-  event.modify("paladins:crusader_armor_feet", (item) => {
-    item.armorToughness = 1;
-  });
-
-  // Valkyrie
-  event.modify("aether:valkyrie_helmet", (item) => {
-    item.armorProtection = 5;
-    item.armorToughness = 3;
-  });
-
-  event.modify("aether:valkyrie_chestplate", (item) => {
-    item.armorProtection = 9;
-  });
-
-  event.modify("aether:valkyrie_leggings", (item) => {
-    item.armorProtection = 7;
-  });
-
-  event.modify("aether:valkyrie_boots", (item) => {
-    item.armorProtection = 4;
     item.armorToughness = 2;
   });
 
-  // Ignitium
+  event.modify("block_factorys_bosses:dragon_bones_chestplate", (item) => {
+    item.armorProtection = 9;
+    item.armorToughness = 3;
+  });
+
+  event.modify("block_factorys_bosses:dragon_bones_leggings", (item) => {
+    item.armorProtection = 9;
+    item.armorToughness = 2;
+  });
+
+  event.modify("block_factorys_bosses:dragon_bones_boots", (item) => {
+    item.armorProtection = 7;
+    item.armorToughness = 2;
+  });
+
+  // Valkyrie T:35 TO:6
+  event.modify("aether:valkyrie_helmet", (item) => {
+    item.armorProtection = 8;
+    item.armorToughness = 1.5;
+  });
+
+  event.modify("aether:valkyrie_chestplate", (item) => {
+    item.armorProtection = 10;
+    item.armorToughness = 1.5;
+  });
+
+  event.modify("aether:valkyrie_leggings", (item) => {
+    item.armorProtection = 9;
+    item.armorToughness = 1.5;
+  });
+
+  event.modify("aether:valkyrie_boots", (item) => {
+    item.armorProtection = 8;
+    item.armorToughness = 1.5;
+  });
+
+  // Ignitium (à faire)
   event.modify("cataclysm:ignitium_helmet", (item) => {
     item.armorProtection = 5;
   });
@@ -324,6 +343,15 @@ ItemEvents.modification((event) => {
   event.modify("irons_spellbooks:pumpkin_boots", (item) => {
     item.armorProtection = 2;
     item.armorToughness = 0;
+  });
+
+  //// Priest armors
+
+  // Priest T:14
+
+  // Sun Bird
+  event.modify("mowziesmobs:sol_visage", (item) => {
+    item.armorProtection = 3;
   });
 
   //// Necromancer armors
