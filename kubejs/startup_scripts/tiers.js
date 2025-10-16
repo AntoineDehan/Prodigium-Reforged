@@ -23,7 +23,7 @@ ItemEvents.armorTierRegistry((event) => {
 
   event.add("sunbird", (tier) => {
     tier.durabilityMultiplier = 30;
-    tier.slotProtections = [3, 6, 5, 3];
+    tier.slotProtections = [3, 5, 6, 3];
     tier.enchantmentValue = 18;
     tier.equipSound = "minecraft:item.armor.equip_leather";
     tier.repairIngredient = "prodigium_reforged:umvuthi_feather";

@@ -202,7 +202,23 @@ ItemEvents.modification((event) => {
 
   // Archer set T:16
 
-  // Bee T:
+  // Bee T:19
+
+  // Ranger T:20
+
+  // Orichalcum T:21
+  event.modify("prodigium:orichalcum_helmet", (item) => {
+    item.armorProtection = 4;
+  });
+  event.modify("prodigium:orichalcum_chestplate", (item) => {
+    item.armorProtection = 7;
+  });
+  event.modify("prodigium:orichalcum_leggings", (item) => {
+    item.armorProtection = 6;
+  });
+  event.modify("prodigium:orichalcum_boots", (item) => {
+    item.armorProtection = 4;
+  });
 
   //// Gunner armors
   // Marauder T:15
@@ -219,7 +235,21 @@ ItemEvents.modification((event) => {
     item.armorProtection = 3;
   });
 
-  // Neptune
+  // Infernal Enforcer T:24
+  event.modify("bypowderandsteel:infernal_enforcer_helmet", (item) => {
+    item.armorProtection = 5;
+  });
+  event.modify("bypowderandsteel:infernal_enforcer_chestplate", (item) => {
+    item.armorProtection = 7;
+  });
+  event.modify("bypowderandsteel:infernal_enforcer_leggings", (item) => {
+    item.armorProtection = 7;
+  });
+  event.modify("bypowderandsteel:infernal_enforcer_boots", (item) => {
+    item.armorProtection = 5;
+  });
+
+  // Neptune (à faire jsp?)
   event.modify("aether:neptune_helmet", (item) => {
     item.armorProtection = 4;
     item.armorToughness = 0;
@@ -263,24 +293,24 @@ ItemEvents.modification((event) => {
 
   // Crusader T:29 TO:5
 
-  // Dragon T:32 TO:8
-  event.modify("block_factorys_bosses:dragon_skull", (item) => {
-    item.armorProtection = 7;
-    item.armorToughness = 2;
-  });
+  // Dragon T:31 TO:9
+  // event.modify("block_factorys_bosses:dragon_skull", (item) => {
+  //   item.armorProtection = 7;
+  //   item.armorToughness = 2;
+  // });
 
   event.modify("block_factorys_bosses:dragon_bones_chestplate", (item) => {
-    item.armorProtection = 9;
+    item.armorProtection = 10;
     item.armorToughness = 3;
   });
 
   event.modify("block_factorys_bosses:dragon_bones_leggings", (item) => {
-    item.armorProtection = 9;
+    item.armorProtection = 10;
     item.armorToughness = 2;
   });
 
   event.modify("block_factorys_bosses:dragon_bones_boots", (item) => {
-    item.armorProtection = 7;
+    item.armorProtection = 8;
     item.armorToughness = 2;
   });
 
