@@ -12,9 +12,13 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:wroughtnaut_plate")
     .texture("prodigium_reforged:item/wroughtnaut_plate");
+
   event
     .create("prodigium_reforged:palladium_belt")
     .texture("prodigium_reforged:item/palladium_belt");
+  event
+    .create("prodigium_reforged:orichalcum_belt")
+    .texture("prodigium_reforged:item/orichalcum_belt");
   event
     .create("prodigium_reforged:frostmaw_hide")
     .texture("prodigium_reforged:item/frostmaw_hide");
@@ -35,6 +39,10 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:soul_knight")
     .texture("prodigium_reforged:item/soul_knight");
+
+  event
+    .create("prodigium_reforged:phoenix_ingot")
+    .texture("prodigium_reforged:item/phoenix_ingot");
 
   // Ranged Leather patches
   event

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "irons_spellbooks:hogskin"
+    },
+    "L": {
+      "item": "prodigium:orichalcum_ingot"
+    },
+    "B": {
+      "item": "prodigium_reforged:orichalcum_belt"
+    }
+  },
+  "pattern": ["H H", "LLL", "HBH"],
+  "result": {
+    "item": "archers:ranger_armor_chest"
+  },
+  "show_notification": true
+}

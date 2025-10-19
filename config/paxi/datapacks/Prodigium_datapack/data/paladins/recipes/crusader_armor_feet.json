@@ -9,13 +9,10 @@
     },
     "I": {
       "item": "minecraft:iron_ingot"
-    },
-    "L": {
-      "item": "minecraft:leather"
     }
   },
-  "pattern": ["G G", "ITI", "LTL"],
+  "pattern": ["GTG", "I I"],
   "result": {
-    "item": "paladins:crusader_armor_chest"
+    "item": "paladins:crusader_armor_feet"
   }
 }

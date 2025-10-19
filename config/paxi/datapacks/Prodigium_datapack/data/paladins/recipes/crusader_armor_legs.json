@@ -5,17 +5,13 @@
       "item": "minecraft:gold_ingot"
     },
     "T": {
-      "item": "minecraft:ghast_tear"
+      "item": "prodigium_reforged:onyx_plate"
     },
     "I": {
       "item": "minecraft:iron_ingot"
     }
   },
-  "pattern": [
-    "ITI",
-    "G G",
-    "I I"
-  ],
+  "pattern": ["ITI", "G G", "I I"],
   "result": {
     "item": "paladins:crusader_armor_legs"
   }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["PPP", "# #", "# #"],
+  "key": {
+    "#": { "item": "prodigium_reforged:valkyrie_plate" },
+    "P": { "item": "aether_redux:veridium_ingot" }
+  },
+  "result": { "item": "aether:valkyrie_leggings" }
+}

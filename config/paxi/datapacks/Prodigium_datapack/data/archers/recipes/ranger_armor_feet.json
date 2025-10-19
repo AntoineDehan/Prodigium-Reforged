@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "irons_spellbooks:hogskin"
+    },
+    "L": {
+      "item": "prodigium:orichalcum_ingot"
+    }
+  },
+  "pattern": ["L L", "H H"],
+  "result": {
+    "item": "archers:ranger_armor_feet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["T T", "B B"],
+  "key": {
+    "B": {
+      "item": "alexsmobs:blood_sac"
+    },
+    "T": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "stalwart_dungeons:warted_tungsten_boots",
+    "count": 1
+  }
+}

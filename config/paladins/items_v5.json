@@ -155,6 +155,90 @@
   },
   "armor_sets": {
     "crusader_armor": {
+      "armor_toughness": 1.25,
+      "knockback_resistance": 0.05,
+      "head": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "spell_power:healing",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "irons_spellbooks:holy_spell_power",
+            "value": 0.02,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "irons_spellbooks:max_mana",
+            "value": 25.0,
+            "operation": "ADDITION"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 9,
+        "attributes": [
+          {
+            "id": "spell_power:healing",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "irons_spellbooks:holy_spell_power",
+            "value": 0.02,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "irons_spellbooks:max_mana",
+            "value": 25.0,
+            "operation": "ADDITION"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 8,
+        "attributes": [
+          {
+            "id": "spell_power:healing",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "irons_spellbooks:holy_spell_power",
+            "value": 0.02,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "irons_spellbooks:max_mana",
+            "value": 25.0,
+            "operation": "ADDITION"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "spell_power:healing",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "irons_spellbooks:holy_spell_power",
+            "value": 0.02,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "irons_spellbooks:max_mana",
+            "value": 25.0,
+            "operation": "ADDITION"
+          }
+        ]
+      }
+    },
+    "prior_robe": {
       "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
@@ -167,70 +251,6 @@
           },
           {
             "id": "irons_spellbooks:holy_spell_power",
-            "value": 0.02,
-            "operation": "ADDITION"
-          }
-        ]
-      },
-      "chest": {
-        "armor": 8,
-        "attributes": [
-          {
-            "id": "spell_power:healing",
-            "value": 1.0,
-            "operation": "ADDITION"
-          },
-          {
-            "id": "irons_spellbooks:holy_spell_power",
-            "value": 0.02,
-            "operation": "ADDITION"
-          }
-        ]
-      },
-      "legs": {
-        "armor": 6,
-        "attributes": [
-          {
-            "id": "spell_power:healing",
-            "value": 1.0,
-            "operation": "ADDITION"
-          },
-          {
-            "id": "irons_spellbooks:holy_spell_power",
-            "value": 0.02,
-            "operation": "ADDITION"
-          }
-        ]
-      },
-      "feet": {
-        "armor": 3,
-        "attributes": [
-          {
-            "id": "spell_power:healing",
-            "value": 1.0,
-            "operation": "ADDITION"
-          },
-          {
-            "id": "irons_spellbooks:holy_spell_power",
-            "value": 0.02,
-            "operation": "ADDITION"
-          }
-        ]
-      }
-    },
-    "prior_robe": {
-      "armor_toughness": 0.0,
-      "knockback_resistance": 0.0,
-      "head": {
-        "armor": 2,
-        "attributes": [
-          {
-            "id": "spell_power:healing",
-            "value": 1.0,
-            "operation": "ADDITION"
-          },
-          {
-            "id": "irons_spellbooks:holy_spell_power",
             "value": 0.04,
             "operation": "ADDITION"
           },
@@ -242,7 +262,7 @@
         ]
       },
       "chest": {
-        "armor": 5,
+        "armor": 7,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -262,7 +282,7 @@
         ]
       },
       "legs": {
-        "armor": 3,
+        "armor": 7,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -282,7 +302,7 @@
         ]
       },
       "feet": {
-        "armor": 2,
+        "armor": 4,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -306,7 +326,7 @@
       "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
-        "armor": 1,
+        "armor": 2,
         "attributes": [
           {
             "id": "spell_power:healing",
@@ -326,7 +346,7 @@
         ]
       },
       "chest": {
-        "armor": 3,
+        "armor": 5,
         "attributes": [
           {
             "id": "irons_spellbooks:holy_spell_power",
@@ -346,7 +366,7 @@
         ]
       },
       "legs": {
-        "armor": 2,
+        "armor": 5,
         "attributes": [
           {
             "id": "irons_spellbooks:holy_spell_power",
@@ -366,7 +386,7 @@
         ]
       },
       "feet": {
-        "armor": 1,
+        "armor": 2,
         "attributes": [
           {
             "id": "irons_spellbooks:holy_spell_power",
