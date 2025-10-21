@@ -11,6 +11,15 @@
       ]
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prodigium_reforged:sun_fragment"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 2,
         "max": 5
@@ -29,31 +38,6 @@
         {
           "type": "minecraft:item",
           "name": "aether:pig_slayer",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:ice_pendant",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:ice_ring",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:phoenix_gloves",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:phoenix_bow",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether_redux:subzero_crossbow",
           "weight": 4
         },
         {
@@ -102,6 +86,21 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether:phoenix_gloves",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:phoenix_bow",
+          "weight": 4
         }
       ]
     },

@@ -25,15 +25,10 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 4,
-                "max": 6
+                "max": 24
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:poison_dart_shooter",
-          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -54,11 +49,6 @@
           "type": "minecraft:item",
           "name": "aether:music_disc_aether_tune",
           "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:valkyrie_gloves",
-          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -148,52 +138,40 @@
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "aether:valkyrie_chestplate",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:valkyrie_helmet",
-          "weight": 1
+          "name": "prodigium_reforged:valkyrie_plate",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 14
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "aether:valkyrie_leggings",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:valkyrie_boots",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 2,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "aether:valkyrie_axe",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "aether:valkyrie_pickaxe",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "aether:valkyrie_shovel",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -203,7 +181,12 @@
         {
           "type": "minecraft:item",
           "name": "aether:valkyrie_lance",
-          "weight": 1
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:valkyrie_gloves",
+          "weight": 2
         }
       ]
     }

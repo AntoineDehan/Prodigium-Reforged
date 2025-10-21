@@ -100,6 +100,24 @@
       ]
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prodigium_reforged:neptune_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 28
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "rolls": 2,
       "entries": [
         {
@@ -129,36 +147,6 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "aether:neptune_chestplate",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:neptune_helmet",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "aether:neptune_leggings",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:neptune_boots",
-          "weight": 1
         }
       ]
     }

@@ -11,17 +11,6 @@
       ]
     },
     {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "expand": true,
-          "name": "lost_aether_content:phoenix_tools",
-          "weight": 5
-        }
-      ]
-    },
-    {
       "rolls": {
         "min": 2,
         "max": 4
@@ -36,12 +25,6 @@
           "type": "minecraft:item",
           "name": "lost_aether_content:power_gloves",
           "weight": 4
-        },
-
-        {
-          "type": "minecraft:item",
-          "name": "lost_aether_content:phoenix_cape",
-          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -62,20 +45,6 @@
           "type": "minecraft:item",
           "name": "lost_aether_content:flaming_gemstone",
           "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether_redux:raw_veridium",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 5
-              }
-            }
-          ]
         },
         {
           "type": "minecraft:item",

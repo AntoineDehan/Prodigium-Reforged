@@ -63,6 +63,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "aether_redux:subzero_crossbow",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
           "name": "irons_spellbooks:permafrost_shard",
           "weight": 4
         },
