@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": ["L L", "W W"],
+  "result": {
+    "item": "paladins:priest_robe_feet"
+  }
+}

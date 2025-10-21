@@ -1,13 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "PAP",
-    "GCG",
-    "OOO"
-    ],
+  "pattern": ["PAP", "GCG", "OOO"],
   "key": {
     "A": {
-      "item": "minecraft:anvil"
+      "item": "aether_redux:veridium_ingot"
     },
     "G": {
       "item": "minecraft:gold_ingot"
@@ -18,10 +14,9 @@
     "O": {
       "item": "minecraft:obsidian"
     },
-	"P": {
-	  "item": "irons_spellbooks:arcane_essence"
-	}
-	
+    "P": {
+      "item": "irons_spellbooks:arcane_essence"
+    }
   },
   "result": {
     "item": "disenchanting:disenchanter"
