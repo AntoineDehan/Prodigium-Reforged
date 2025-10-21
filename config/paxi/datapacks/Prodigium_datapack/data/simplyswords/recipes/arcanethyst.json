@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["DCD", " H "],
+  "key": {
+    "C": {
+      "item": "simpleores:onyx"
+    },
+    "H": {
+      "item": "simplyswords:icewhisper"
+    },
+    "D": {
+      "item": "prodigium_reforged:leviathan_shard"
+    }
+  },
+  "result": {
+    "item": "simplyswords:arcanethyst"
+  }
+}

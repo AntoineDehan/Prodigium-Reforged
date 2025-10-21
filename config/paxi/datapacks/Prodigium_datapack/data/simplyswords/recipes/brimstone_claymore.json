@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" H ", "TST", " E "],
+  "key": {
+    "T": {
+      "item": "block_factorys_bosses:ancient_iron_ingot"
+    },
+    "S": {
+      "item": "block_factorys_bosses:knight_sword"
+    },
+    "H": {
+      "item": "bypowderandsteel:heptacle"
+    },
+    "E": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    }
+  },
+  "result": {
+    "item": "simplyswords:brimstone_claymore"
+  }
+}

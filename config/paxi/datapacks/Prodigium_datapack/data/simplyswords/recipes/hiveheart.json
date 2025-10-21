@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" IC", " HI", "H  "],
+  "key": {
+    "C": {
+      "item": "prodigium_reforged:bee_wax"
+    },
+    "I": {
+      "item": "minecraft:honeycomb"
+    },
+    "H": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "simplyswords:hiveheart"
+  }
+}

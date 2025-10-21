@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" H ", "TST", "TET"],
+  "key": {
+    "T": {
+      "item": "quark:soul_bead"
+    },
+    "S": {
+      "item": "block_factorys_bosses:knight_sword"
+    },
+    "H": {
+      "item": "prodigium_reforged:knight_soul_fragment"
+    },
+    "E": {
+      "item": "block_factorys_bosses:ancient_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "simplyswords:slumbering_lichblade"
+  }
+}

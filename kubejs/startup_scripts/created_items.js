@@ -37,12 +37,20 @@ StartupEvents.registry("item", (event) => {
     .texture("prodigium_reforged:item/umvuthi_feather");
 
   event
-    .create("prodigium_reforged:soul_knight")
+    .create("prodigium_reforged:knight_soul_fragment")
     .texture("prodigium_reforged:item/soul_knight");
+
+  event
+    .create("prodigium_reforged:sun_fragment")
+    .texture("prodigium_reforged:item/sun_fragment");
 
   event
     .create("prodigium_reforged:phoenix_ingot")
     .texture("prodigium_reforged:item/phoenix_ingot");
+
+  event
+    .create("prodigium_reforged:leviathan_scale")
+    .texture("prodigium_reforged:item/leviathan_scale");
 
   // Ranged Leather patches
   event

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" LV", "VL ", " S "],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "V": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    "L": {
+      "item": "bypowderandsteel:living_herb"
+    }
+  },
+  "result": {
+    "item": "simplyswords:bramblethorn"
+  }
+}

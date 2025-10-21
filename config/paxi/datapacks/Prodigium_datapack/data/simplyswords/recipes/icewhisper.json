@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["DCD", "IHI", " H "],
+  "key": {
+    "C": {
+      "item": "mowziesmobs:ice_crystal"
+    },
+    "I": {
+      "item": "minecraft:blue_ice"
+    },
+    "H": {
+      "item": "irons_spellbooks:frosted_helve"
+    },
+    "D": {
+      "item": "prodigium_reforged:diamond_shard"
+    }
+  },
+  "result": {
+    "item": "simplyswords:icewhisper"
+  }
+}
