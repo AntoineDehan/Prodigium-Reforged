@@ -115,12 +115,12 @@
 		#eg 0.25 means 25% chance
 		#Default: 0.16666666666666666
 		#Range: 0.01 ~ 1.0
-		slicerDiceChance = 0.16666666666666666
+		slicerDiceChance = 0.05
 		#Damage multiplier of the Slicer's Dice
 		#eg 2 means x2 damage = +100% damage
 		#Default: 2.0
 		#Range: 1.0 ~ 100.0
-		slicerDiceMultiplier = 2.0
+		slicerDiceMultiplier = 1.9
 		#Whether the Slicer's Dice proc chance is affected by luck
 		#When positive luck, it's (1+luck)/((1/chance)+luck)
 		#When negative luck, it's 1/((1/chance)-3*luck)
@@ -130,7 +130,7 @@
 		#eg 0.25 means 25% chance
 		#Default: 0.16666666666666666
 		#Range: 0.01 ~ 1.0
-		aceOfIronChance = 0.16666666666666666
+		aceOfIronChance = 0.05
 		#Whether the Ace of Iron proc chance is affected by luck
 		#There is a soft cap of 50% chance, so if the base chance exceeds that, positive luck won't do anything either way
 		#When positive luck, it's (1+luck)/((1/chance)+2*luck)
@@ -141,7 +141,7 @@
 		#eg 0.25 means 25% chance
 		#Default: 0.2
 		#Range: 0.01 ~ 1.0
-		cocktailCutlassChance = 0.1
+		cocktailCutlassChance = 0.08
 		#Whether the Cocktail Cutlass proc chance is affected by luck
 		#When positive luck, it's (1+luck)/((1/chance)+0.5*luck)
 		#When negative luck, it's 1/((1/chance)-luck)
@@ -151,7 +151,7 @@
 		#eg 0.25 means 25% chance
 		#Default: 0.3333333333333333
 		#Range: 0.01 ~ 1.0
-		jagershotChance = 0.3333333333333333
+		jagershotChance = 0.2
 		#Whether the Jagershot proc chance is affected by luck
 		#When positive luck, it's (1+luck)/((1/chance)+0.5*luck)
 		#When negative luck, it's 1/((1/chance)-luck)
