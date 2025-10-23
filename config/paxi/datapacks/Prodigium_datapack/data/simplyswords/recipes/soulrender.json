@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": {
+      "item": "bypowderandsteel:heptacle"
+    },
+    "O": {
+      "item": "simpleores:onyx_gem"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "prodigium_reforged:knight_soul_fragment"
+    }
+  },
+  "pattern": ["AOW", " SO", "S A"],
+  "result": {
+    "item": "simplyswords:soulrender"
+  }
+}

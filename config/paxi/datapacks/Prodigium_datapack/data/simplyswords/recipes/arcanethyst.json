@@ -3,13 +3,13 @@
   "pattern": ["DCD", " H "],
   "key": {
     "C": {
-      "item": "simpleores:onyx"
+      "item": "simpleores:onyx_gem"
     },
     "H": {
       "item": "simplyswords:icewhisper"
     },
     "D": {
-      "item": "prodigium_reforged:leviathan_shard"
+      "item": "prodigium_reforged:leviathan_scale"
     }
   },
   "result": {

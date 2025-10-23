@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "O": {
+      "item": "simpleores:onyx_sword"
+    },
+    "S": {
+      "item": "quark:soul_bead"
+    }
+  },
+  "pattern": [" SW", "SWS", "OS "],
+  "result": {
+    "item": "simplyswords:harbinger"
+  }
+}

@@ -52,6 +52,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "simplyswords:soulkeeper",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
           "name": "aether:neptune_gloves",
           "weight": 4
         },

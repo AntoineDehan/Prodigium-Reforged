@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    "P": {
+      "item": "prodigium_reforged:phoenix_ingot"
+    },
+    "I": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "S": {
+      "item": "simpleores:onyx_sword"
+    }
+  },
+  "pattern": [" PI", " IP", "SA "],
+  "result": {
+    "item": "simplyswords:sunfire"
+  }
+}

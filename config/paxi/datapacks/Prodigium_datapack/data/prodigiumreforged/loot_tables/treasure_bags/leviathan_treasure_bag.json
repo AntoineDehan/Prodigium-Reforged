@@ -12,7 +12,7 @@
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 2,
         "max": 3
       },
       "entries": [
@@ -24,12 +24,26 @@
         {
           "type": "minecraft:item",
           "name": "cataclysm:abyssal_egg",
-          "weight": 6
+          "weight": 8
         },
         {
           "type": "minecraft:item",
           "name": "cataclysm:music_disc_the_leviathan",
-          "weight": 6
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "prodigium_reforged:leviathan_scale",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
         }
       ]
     },

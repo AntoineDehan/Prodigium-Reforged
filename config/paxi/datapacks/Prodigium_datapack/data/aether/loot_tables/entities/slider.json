@@ -9,15 +9,6 @@
           "name": "prodigium:slider_treasure_bag"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "aether:bronze_dungeon_key"
-        }
-      ]
     }
   ]
 }
