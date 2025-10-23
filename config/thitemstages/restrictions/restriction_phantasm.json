@@ -26,10 +26,10 @@
     "itemTitle": "Unavailable Item (Unlock it in the Necromancer's Skill Tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
-    "canPickup": false,
+    "canPickup": true,
     "containerListWhitelist": false,
     "checkPlayerInventory": true,
-    "checkPlayerEquipment": false,
+    "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,
     "usableBlocks": false

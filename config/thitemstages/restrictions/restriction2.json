@@ -33,9 +33,6 @@
         "item": "minecraft:diamond_boots"
       },
       {
-        "item": "minecolonies:sifter_mesh_diamond"
-      },
-      {
         "item": "minecraft:diamond_horse_armor"
       },
       {
@@ -103,12 +100,7 @@
     "tagList": [],
     "exceptionList": [],
     "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
-    "dimensionList": [
-      {
-        "dimension": "minecraft:the_nether",
-        "message": "You have to defeat the Dead King before entering this dimension"
-      }
-    ]
+    "dimensionList": []
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",

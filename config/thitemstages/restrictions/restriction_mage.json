@@ -50,10 +50,10 @@
     "itemTitle": "This item can only be used by Mages (Unusable item for your class)",
     "pickupDelay": 15,
     "hideInJEI": true,
-    "canPickup": false,
+    "canPickup": true,
     "containerListWhitelist": false,
     "checkPlayerInventory": true,
-    "checkPlayerEquipment": false,
+    "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,
     "usableBlocks": false

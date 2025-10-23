@@ -98,10 +98,10 @@
     "itemTitle": "Unavailable Item (Unlock it in the Wizard's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
-    "canPickup": false,
+    "canPickup": true,
     "containerListWhitelist": false,
     "checkPlayerInventory": true,
-    "checkPlayerEquipment": false,
+    "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,
     "usableBlocks": false

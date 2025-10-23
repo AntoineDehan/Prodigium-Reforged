@@ -1,21 +1,18 @@
 {
   "Restriction Data": {
-    "stage": "stage_crusader_ignitium",
+    "stage": "stage_crusader_mythril",
     "itemList": [
       {
-        "item": "cataclysm:ignitium_helmet"
+        "item": "simpleores:myhtril_helmet"
       },
       {
-        "item": "cataclysm:ignitium_leggings"
+        "item": "simpleores:myhtril_leggings"
       },
       {
-        "item": "cataclysm:ignitium_chestplate"
+        "item": "simpleores:myhtril_chestplate"
       },
       {
-        "item": "cataclysm:ignitium_boots"
-      },
-      {
-        "item": "cataclysm:ignitium_elytra_chestplate"
+        "item": "simpleores:myhtril_boots"
       }
     ],
     "modList": [],
@@ -26,7 +23,7 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Crusader's skill tree)",
+    "itemTitle": "Unavailable Item (Unlock it in the Melee's skill tree & Defeat Bellringer)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,

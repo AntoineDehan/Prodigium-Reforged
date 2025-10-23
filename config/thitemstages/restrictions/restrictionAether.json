@@ -1,22 +1,16 @@
 {
   "Restriction Data": {
     "stage": "stage_aether",
-    "itemList": [
-    ],
-    "modList": [
-    ],
-    "tagList": [
-    ],
-    "exceptionList": [
-    ],
-    "containerList": [
-      "net.minecraft.inventory.container.WorkbenchContainer"
-    ],
+    "itemList": [],
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
     "dimensionList": [
-	{
-	"dimension": "aether:the_aether",
-	"message": "You have to defeat the Netherite Monstrosity before entering this dimension"
-	}
+      {
+        "dimension": "aether:the_aether",
+        "message": "The Netherie Monstrosity is still protecting this dimension. You have to defeat it first."
+      }
     ]
   },
   "Settings": {

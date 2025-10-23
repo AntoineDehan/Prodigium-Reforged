@@ -3,115 +3,153 @@
     "stage": "stage_1",
     "itemList": [
       {
-		 "item": "simpleores:adamantium_ingot"
-	 }, 
-	 {
-		 "item": "simpleores:adamantium_sword"
-	 },
-	 {
-		 "item": "simpleores:adamantium_pickaxe"
-	 }, 
-	 {	
-		 "item": "simpleores:adamantium_axe"
-	 },
-	 {	
-		 "item": "simpleores:adamantium_shovel"
-	 },
-	 {
-		 "item": "simpleores:adamantium_hoe"
-	 },
-	 {	
-		 "item": "simpleores:adamantium_shears"
-	 },
-	 {
-		 "item": "simpleores:adamantium_helmet"
-	 },
-	 {	
-		 "item": "simpleores:adamantium_leggings"
-	 },
-	 {
-		 "item": "simpleores:adamantium_chestplate"
-	 },
-	 {
-		 "item": "simpleores:adamantium_boots"
-	 },
-	 {
-		 "item": "prodigium:palladium_ingot"
-	 },
-	 {
-		 "item": "prodigium:palladium_nugget"
-	 },
-	 {
-		 "item": "prodigium:palladium_rod"
-	 },
-	 {
-		 "item": "prodigium:palladium_bow"
-	 },
-	 {
-		 "item": "prodigium:palladium_sword"
-	 },
-	 {
-		 "item": "prodigium:palladium_pickaxe"
-	 },
-	 {
-		 "item": "prodigium:palladium_axe"
-	 },
-	 {
-		 "item": "prodigium:palladium_shovel"
-	 },
-	 {
-		 "item": "prodigium:palladium_hoe"
-	 },
-	 {
-	     "item": "prodigium:palladium_helmet"
-	 },
-	 {
-		 "item": "prodigium:palladium_chestplate"
-	 },
-	 {
-		 "item": "prodigium:palladium_leggings"
-	 },
-	 {
-		 "item": "prodigium:palladium_boots"
-	 },
-	 {
-		 "item": "prodigium:raw_palladium"
-	 },
-	 {
-		 "item": "simpleores:adamantium_ore"
-	 },
-	 {
-		 "item": "simpleores:adamantium_block"
-	 },
-	 {
-		 "item": "prodigium:palladium_ore"
-	 },
-	 {
-		 "item": "prodigium:deepslate_palladium_ore"
-	 },
-	 {
-		 "item": "simpleores:deepslate_adamantium_ore"
-	 },
-	 {
-		 "item": "simpleores:raw_adamantium"
-	 }
+        "item": "simpleores:adamantium_ingot"
+      },
+      {
+        "item": "simpleores:adamantium_sword"
+      },
+      {
+        "item": "simpleores:adamantium_pickaxe"
+      },
+      {
+        "item": "simpleores:adamantium_axe"
+      },
+      {
+        "item": "simpleores:adamantium_shovel"
+      },
+      {
+        "item": "simpleores:adamantium_hoe"
+      },
+      {
+        "item": "simpleores:adamantium_shears"
+      },
+      {
+        "item": "simpleores:adamantium_helmet"
+      },
+      {
+        "item": "simpleores:adamantium_leggings"
+      },
+      {
+        "item": "simpleores:adamantium_chestplate"
+      },
+      {
+        "item": "simpleores:adamantium_boots"
+      },
+      {
+        "item": "simpleores:myhtril_ingot"
+      },
+      {
+        "item": "simpleores:myhtril_sword"
+      },
+      {
+        "item": "simpleores:myhtril_pickaxe"
+      },
+      {
+        "item": "simpleores:myhtril_axe"
+      },
+      {
+        "item": "simpleores:myhtril_shovel"
+      },
+      {
+        "item": "simpleores:myhtril_hoe"
+      },
+      {
+        "item": "simpleores:myhtril_shears"
+      },
+      {
+        "item": "simpleores:myhtril_helmet"
+      },
+      {
+        "item": "simpleores:myhtril_leggings"
+      },
+      {
+        "item": "simpleores:myhtril_chestplate"
+      },
+      {
+        "item": "simpleores:myhtril_boots"
+      },
+      {
+        "item": "prodigium:palladium_ingot"
+      },
+      {
+        "item": "prodigium:palladium_nugget"
+      },
+      {
+        "item": "prodigium:palladium_rod"
+      },
+      {
+        "item": "prodigium:palladium_bow"
+      },
+      {
+        "item": "prodigium:palladium_sword"
+      },
+      {
+        "item": "prodigium:palladium_pickaxe"
+      },
+      {
+        "item": "prodigium:palladium_axe"
+      },
+      {
+        "item": "prodigium:palladium_shovel"
+      },
+      {
+        "item": "prodigium:palladium_hoe"
+      },
+      {
+        "item": "prodigium:palladium_helmet"
+      },
+      {
+        "item": "prodigium:palladium_chestplate"
+      },
+      {
+        "item": "prodigium:palladium_leggings"
+      },
+      {
+        "item": "prodigium:palladium_boots"
+      },
+      {
+        "item": "prodigium:raw_palladium"
+      },
+      {
+        "item": "simpleores:adamantium_ore"
+      },
+      {
+        "item": "simpleores:adamantium_block"
+      },
+      {
+        "item": "simpleores:myhtril_ore"
+      },
+      {
+        "item": "simpleores:myhtril_block"
+      },
+      {
+        "item": "prodigium:palladium_ore"
+      },
+      {
+        "item": "prodigium:deepslate_palladium_ore"
+      },
+      {
+        "item": "simpleores:deepslate_adamantium_ore"
+      },
+      {
+        "item": "simpleores:raw_adamantium"
+      },
+      {
+        "item": "simpleores:deepslate_myhtril_ore"
+      },
+      {
+        "item": "simpleores:raw_myhtril"
+      }
     ],
-    "modList": [
-    ],
-    "tagList": [
-    ],
-    "exceptionList": [
-    ],
-    "containerList": [
-      "net.minecraft.inventory.container.WorkbenchContainer"
-    ],
-    "dimensionList": [
-     
-    ]
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Defeat the Slime King)",
+    "itemTitle": "Unavailable Item (Defeat the Bellringer)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": false,

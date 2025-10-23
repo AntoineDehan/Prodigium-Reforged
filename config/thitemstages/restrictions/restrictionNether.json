@@ -1,22 +1,16 @@
 {
   "Restriction Data": {
     "stage": "stage_nether",
-    "itemList": [
-    ],
-    "modList": [
-    ],
-    "tagList": [
-    ],
-    "exceptionList": [
-    ],
-    "containerList": [
-      "net.minecraft.inventory.container.WorkbenchContainer"
-    ],
+    "itemList": [],
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
     "dimensionList": [
-	{
-	"dimension": "minecraft:the_nether",
-	"message": "You have to defeat the Frostmaw before entering this dimension"
-	}
+      {
+        "dimension": "minecraft:the_nether",
+        "message": "The Dead King is still protecting this dimension. You have to defeat it first."
+      }
     ]
   },
   "Settings": {
