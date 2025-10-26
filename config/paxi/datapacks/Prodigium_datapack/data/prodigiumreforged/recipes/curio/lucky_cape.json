@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SAA", "BAA", "BBB"],
+  "key": {
+    "A": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "minecraft:gold_nugget"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:lucky_cape"
+  }
+}

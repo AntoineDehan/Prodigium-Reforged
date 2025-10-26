@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "armor",
+  "pattern": ["B B", "B B"],
+  "key": {
+    "B": {
+      "item": "prodigium_reforged:phoenix_ingot"
+    }
+  },
+  "result": {
+    "item": "aether:phoenix_boots",
+    "count": 1
+  }
+}

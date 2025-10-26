@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", "BAB", " B "],
+  "key": {
+    "A": {
+      "item": "domum_ornamentum:green_cactus_extra"
+    },
+    "B": {
+      "item": "minecraft:cactus"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:cactus_shield"
+  }
+}

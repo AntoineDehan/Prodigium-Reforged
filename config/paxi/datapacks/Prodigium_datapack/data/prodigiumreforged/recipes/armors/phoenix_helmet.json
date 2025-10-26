@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["BBB", "B B"],
+  "key": {
+    "B": {
+      "item": "prodigium_reforged:phoenix_ingot"
+    }
+  },
+  "result": {
+    "item": "aether:phoenix_helmet",
+    "count": 1
+  }
+}

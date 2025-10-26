@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BCB", "ABA", " A "],
+  "key": {
+    "A": {
+      "item": "prodigium_reforged:umvuthi_feather"
+    },
+    "B": {
+      "item": "minecraft:string"
+    },
+    "C": {
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:feather_necklace"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["FAF", "BVB", "FAF"],
+  "key": {
+    "A": {
+      "item": "deep_aether:stratus_ingot"
+    },
+    "B": {
+      "item": "deep_aether:skyjade"
+    },
+    "V": {
+      "item": "aether_redux:veridium_ingot"
+    },
+    "F": {
+      "item": "prodigium_reforged:sun_fragment"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:phoenix_ingot"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" A ", "ARA", " A "],
+  "key": {
+    "A": {
+      "tag": "forge:sand"
+    },
+    "R": {
+      "item": "aether:golden_ring"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:desert_ring"
+  }
+}

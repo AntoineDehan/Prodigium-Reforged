@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "prodigium_reforged:phoenix_ingot"
+    }
+  },
+  "pattern": ["XX", " #", " #"],
+  "result": {
+    "item": "lost_aether_content:phoenix_hoe"
+  },
+  "show_notification": true
+}

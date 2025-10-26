@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["B B", "BBB", "BBB"],
+  "key": {
+    "B": {
+      "item": "prodigium_reforged:phoenix_ingot"
+    }
+  },
+  "result": {
+    "item": "aether:phoenix_chestplate",
+    "count": 1
+  }
+}
