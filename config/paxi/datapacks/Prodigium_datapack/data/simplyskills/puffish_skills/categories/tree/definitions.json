@@ -31,7 +31,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "d50ilyt9mkyatfcc"
+    }
   },
   "pathInitiate": {
     "title": {
@@ -105,7 +108,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "zalab22lxxfarbmc"
+    }
   },
   "spell_fire_damage_additive+1%": {
     "title": {
@@ -143,7 +149,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "actjvg46oic0accg"
+    }
   },
   "spell_fire_damage_additive+0.8%": {
     "title": {
@@ -181,7 +190,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8zcygkj2isly34v6"
+    }
   },
   "spell_fire_damage_multi+1%": {
     "title": {
@@ -219,7 +231,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "k5zwckflpbovxij1"
+    }
   },
   "spell_arcane_damage_additive+1%": {
     "title": {
@@ -257,7 +272,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ulw690lda9o5ge5f"
+    }
   },
   "spell_arcane_damage_additive+0.8%": {
     "title": {
@@ -295,7 +313,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "y5n17nqvw55svp2o"
+    }
   },
   "spell_arcane_damage_multi+1%": {
     "title": {
@@ -333,7 +354,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "y7hnl2kr5z3uovv8"
+    }
   },
   "spell_frost_damage_additive+1%": {
     "title": {
@@ -371,7 +395,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "neijr257lled77e2"
+    }
   },
   "spell_frost_damage_additive+0.8%": {
     "title": {
@@ -409,7 +436,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "aufeyge5qlyu41cz"
+    }
   },
   "spell_frost_damage_multi+1%": {
     "title": {
@@ -447,7 +477,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "345qeh3nkxixet2m"
+    }
   },
   "spell_healing_power_additive+1%": {
     "title": {
@@ -485,7 +518,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "plp20q8dul2rgahg"
+    }
   },
   "spell_healing_power_additive+0.08%": {
     "title": {
@@ -523,7 +559,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "2pev2h74isg5ro5z"
+    }
   },
   "spell_healing_power_multi+1%": {
     "title": {
@@ -561,7 +600,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wu15n07e37quigb5"
+    }
   },
   "spell_lightning_damage_additive+1%": {
     "title": {
@@ -599,7 +641,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "tzihmp8re1bmyjq3"
+    }
   },
   "spell_lightning_damage_additive+0.8%": {
     "title": {
@@ -637,7 +682,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "evyz5v9ndnc0eg27"
+    }
   },
   "spell_lightning_damage_multi+1%": {
     "title": {
@@ -675,7 +723,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "1g8cup6aa5zd6pli"
+    }
   },
   "spell_soul_damage_additive+1%": {
     "title": {
@@ -713,7 +764,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "k1pek1n2uquu9cuk"
+    }
   },
   "spell_soul_damage_additive+0.8%": {
     "title": {
@@ -751,7 +805,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "d519dv02mk73zvwf"
+    }
   },
   "spell_soul_damage_multi+1%": {
     "title": {
@@ -789,7 +846,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "yb1re8ys32g1spxw"
+    }
   },
   "spell_crit_damage_additive+1%": {
     "title": {
@@ -819,7 +879,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "mlng0kujb839k0gm"
+    }
   },
   "spell_crit_damage_additive+0.5%": {
     "title": {
@@ -849,7 +912,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "347tctonn04mgbce"
+    }
   },
   "spell_crit_damage_multi+1%": {
     "title": {
@@ -879,7 +945,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "5731wmkssq9wghtz"
+    }
   },
   "spell_crit_chance_additive+1%": {
     "title": {
@@ -909,7 +978,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "poxh20mw70s4f4p5"
+    }
   },
   "spell_crit_chance_additive+0.1%": {
     "title": {
@@ -939,7 +1011,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "rgx9wpat572cm9x4"
+    }
   },
   "spell_crit_chance_multi+1%": {
     "title": {
@@ -969,7 +1044,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "m92a18odkew4rgv3"
+    }
   },
   "spell_haste_additive+1%": {
     "title": {
@@ -1007,7 +1085,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "n29l3xci22rum3y0"
+    }
   },
   "spell_haste_additive+0.5%": {
     "title": {
@@ -1045,7 +1126,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "6kgonnxomzwkjmv4"
+    }
   },
   "spell_haste_multi+1%": {
     "title": {
@@ -1083,7 +1167,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jpp5n3oetavmgs18"
+    }
   },
   "spell_power_additive": {
     "title": {
@@ -1161,7 +1248,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "96mrnlxx5cwcpf9c"
+    }
   },
   "spell_power_additive+0.5%": {
     "title": {
@@ -1239,7 +1329,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xtavqvjp207zaq2w"
+    }
   },
   "pathWarrior": {
     "title": {
@@ -1273,7 +1366,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "sj7zw7epb1rw3j1b"
+    }
   },
   "health+2": {
     "title": {
@@ -1303,7 +1399,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hlb3gu5zitr0tfyi"
+    }
   },
   "health+0.5%": {
     "title": {
@@ -1333,7 +1432,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "7dicgp7vwo2t0zel"
+    }
   },
   "resistance+1%": {
     "title": {
@@ -1363,7 +1465,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "d3ilxdj9mypug9y1"
+    }
   },
   "resistance+0.5%": {
     "title": {
@@ -1393,7 +1498,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "4v78vgt9e21i5n6b"
+    }
   },
   "resistance_multi+2%": {
     "title": {
@@ -1423,7 +1531,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "snpyd3mjvgu6gn3m"
+    }
   },
   "melee_damage+1%": {
     "title": {
@@ -1453,7 +1564,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "z62oarwm4dpj6iha"
+    }
   },
   "melee_damage+0.5%": {
     "title": {
@@ -1483,7 +1597,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hf65hcfmifswa5m0"
+    }
   },
   "melee_damage_multi+2%": {
     "title": {
@@ -1513,7 +1630,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "nr94eni4o92osg4b"
+    }
   },
   "ranged_damage+1%": {
     "title": {
@@ -1543,7 +1663,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "mp1mftquw7coyr44"
+    }
   },
   "ranged_damage+0.5%": {
     "title": {
@@ -1573,7 +1696,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "fynvdw5687s89ues"
+    }
   },
   "ranged_damage_multi+2%": {
     "title": {
@@ -1603,7 +1729,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xgk9os3tpibvi3bf"
+    }
   },
   "attack_speed+1%": {
     "title": {
@@ -1633,7 +1762,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "o2z46n8pgeowcdow"
+    }
   },
   "attack_speed+0.3%": {
     "title": {
@@ -1663,7 +1795,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "e8p4o062d0p1f71z"
+    }
   },
   "attack_speed_multi+2%": {
     "title": {
@@ -1693,7 +1828,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "chybupxtkwbl6kjk"
+    }
   },
   "movement_speed+1%": {
     "title": {
@@ -1723,7 +1861,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "qv3upk7nqvxapxa6"
+    }
   },
   "movement_speed+0.2%": {
     "title": {
@@ -1753,7 +1894,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "im9mkshicvq9qt67"
+    }
   },
   "movement_speed_multi+1.5%": {
     "title": {
@@ -1783,7 +1927,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "5v54pbh501xn5vtc"
+    }
   },
   "luck+0.25": {
     "title": {
@@ -1804,7 +1951,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "u3s6kqhd1z128jon"
+    }
   },
   "stamina+5%": {
     "title": {
@@ -1834,7 +1984,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8hvyj10gjevahrk3"
+    }
   },
   "stamina+0.5%": {
     "title": {
@@ -1864,7 +2017,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "6ztcwcn4qvekh4yv"
+    }
   },
   "stamina_multi+7%": {
     "title": {
@@ -1894,7 +2050,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "fpm8u7yf9ontjkce"
+    }
   },
   "healing+1%": {
     "title": {
@@ -1915,7 +2074,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "oaezw71z97i4aodx"
+    }
   },
   "jump+1%": {
     "title": {
@@ -1945,7 +2107,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jii7gcp4who9y4xc"
+    }
   },
   "jump+0.2%": {
     "title": {
@@ -1975,7 +2140,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vzi7yuz07p79f8d6"
+    }
   },
   "jump_multi+2%": {
     "title": {
@@ -2005,7 +2173,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "r9bge3pr9vjrwfjd"
+    }
   },
   "hardy": {
     "title": {
@@ -2034,7 +2205,10 @@
           "passive_skill": "hardy"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vataoelrli0ak41r"
+    }
   },
   "initiateSlowfall": {
     "title": {
@@ -2066,7 +2240,10 @@
           "passive_skill": "initiateSlowfall"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "gjoa53e81yi7xbf3"
+    }
   },
   "fervour": {
     "title": {
@@ -2098,7 +2275,10 @@
           "passive_skill": "fervour"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "s26ip2o32xuolzbu"
+    }
   },
   "wayfarerStealth": {
     "title": {
@@ -2130,7 +2310,10 @@
           "passive_skill": "wayfarerStealth"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "lgk2za7ckjx59spb"
+    }
   },
   "wayfarerSneak": {
     "title": {
@@ -2162,7 +2345,10 @@
           "passive_skill": "wayfarerSneak"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "omac9h71t6p2tle5"
+    }
   },
   "wayfarerReflexive": {
     "title": {
@@ -2194,7 +2380,10 @@
           "passive_skill": "wayfarerReflexive"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3q04ufc27m7cv3kp"
+    }
   },
   "wayfarerUnseen": {
     "title": {
@@ -2226,7 +2415,10 @@
           "passive_skill": "wayfarerUnseen"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "s21lds0bwimoo1jf"
+    }
   },
   "wayfarerGuarding": {
     "title": {
@@ -2258,7 +2450,10 @@
           "passive_skill": "wayfarerGuarding"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "6o2nl5xlxlpnx02b"
+    }
   },
   "wayfarerQuickfire": {
     "title": {
@@ -2290,7 +2485,10 @@
           "passive_skill": "wayfarerQuickfire"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "6bpa0hjr6pvop2a8"
+    }
   },
   "initiateNullification": {
     "title": {
@@ -2322,7 +2520,10 @@
           "passive_skill": "initiateNullification"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jxn8cw5bgk7i83rx"
+    }
   },
   "initiateGambit": {
     "title": {
@@ -2404,7 +2605,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vjz3nv01pte3svi2"
+    }
   },
   "initiateEmpower": {
     "title": {
@@ -2436,7 +2640,10 @@
           "passive_skill": "initiateEmpower"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8oyv8ixbr5lunn8m"
+    }
   },
   "initiateAttuned": {
     "title": {
@@ -2468,7 +2675,10 @@
           "passive_skill": "initiateAttuned"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "irvys243zjn2son1"
+    }
   },
   "initiateLightningRod": {
     "title": {
@@ -2500,7 +2710,10 @@
           "passive_skill": "initiateLightningRod"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "h50621alm0mj9vzc"
+    }
   },
   "initiateEldritchEnfeeblement": {
     "title": {
@@ -2582,7 +2795,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "kkxvv70fp23aaadv"
+    }
   },
   "initiateHasty": {
     "title": {
@@ -2616,7 +2832,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "plifu9kv7sahkfpu"
+    }
   },
   "initiatePerilousPrecision": {
     "title": {
@@ -2658,7 +2877,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "y3tu9p2llut23slv"
+    }
   },
   "cleric": {
     "title": {
@@ -2690,7 +2912,10 @@
           "passive_skill": "cleric"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "bisjak60gifzg4ra"
+    }
   },
   "cleansing": {
     "title": {
@@ -2722,7 +2947,10 @@
           "passive_skill": "cleansing"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "4nmq24818mi3yklw"
+    }
   },
   "rangerReveal": {
     "title": {
@@ -2754,7 +2982,10 @@
           "passive_skill": "rangerReveal"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "n31ax3uk6ot6vpuo"
+    }
   },
   "rangerTamer": {
     "title": {
@@ -2786,7 +3017,10 @@
           "passive_skill": "rangerTamer"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "9sqrg4w57406tbf6"
+    }
   },
   "rangerBonded": {
     "title": {
@@ -2818,7 +3052,10 @@
           "passive_skill": "rangerBonded"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "r9i0xs8lr4sfy7mj"
+    }
   },
   "rangerTrained": {
     "title": {
@@ -2850,7 +3087,10 @@
           "passive_skill": "rangerTrained"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "kuwghgmbg8utot2d"
+    }
   },
   "rangerIncognito": {
     "title": {
@@ -2882,7 +3122,10 @@
           "passive_skill": "rangerIncognito"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "u552vk30usivvj3y"
+    }
   },
   "rogueBackstab": {
     "title": {
@@ -2914,7 +3157,10 @@
           "passive_skill": "rogueBackstab"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "p50n1046o5uv0r94"
+    }
   },
   "warriorHeavyArmorMastery": {
     "title": {
@@ -2946,7 +3192,10 @@
           "passive_skill": "warriorHeavyArmorMastery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "sdyk7r8hhf79x6ug"
+    }
   },
   "warriorMediumArmorMastery": {
     "title": {
@@ -2978,7 +3227,10 @@
           "passive_skill": "warriorMediumArmorMastery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "0ucjqchnf53xg2c0"
+    }
   },
   "warriorSpellbreaker": {
     "title": {
@@ -3010,7 +3262,10 @@
           "passive_skill": "warriorSpellbreaker"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xuezo2la8obqrduo"
+    }
   },
   "warriorGoliath": {
     "title": {
@@ -3042,7 +3297,10 @@
           "passive_skill": "warriorGoliath"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jymue5feetv8e7tk"
+    }
   },
   "warriorHeavyWeight": {
     "title": {
@@ -3074,7 +3332,10 @@
           "passive_skill": "warriorHeavyWeight"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "06woa9t0cez6fyzx"
+    }
   },
   "warriorBound": {
     "title": {
@@ -3106,7 +3367,10 @@
           "passive_skill": "warriorBound"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xqeqh0mebp4leiu8"
+    }
   },
   "warriorDeathDefy": {
     "title": {
@@ -3138,7 +3402,10 @@
           "passive_skill": "warriorDeathDefy"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8uqtg47f93wt9aav"
+    }
   },
   "warriorFrenzy": {
     "title": {
@@ -3172,7 +3439,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "h82qr38n8snpx07l"
+    }
   },
   "warriorCarnage": {
     "title": {
@@ -3204,7 +3474,10 @@
           "passive_skill": "warriorCarnage"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "zs688axzvxmdmxgo"
+    }
   },
   "warriorTwinstrike": {
     "title": {
@@ -3236,7 +3509,10 @@
           "passive_skill": "warriorTwinstrike"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "m42kfctumqjdrk2o"
+    }
   },
   "warriorSwordfall": {
     "title": {
@@ -3268,7 +3544,10 @@
           "passive_skill": "warriorSwordfall"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "byptholfu19vdpag"
+    }
   },
   "berserkerPath": {
     "title": {
@@ -3309,7 +3588,10 @@
           "command": "ftbquests change_progress @s complete 78DE64EE0773BEF4"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "bbxkf66d3testkxm"
+    }
   },
   "berserkerSwordMastery": {
     "title": {
@@ -3341,7 +3623,10 @@
           "passive_skill": "berserkerSwordMastery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wswmxixvnhztqus0"
+    }
   },
   "berserkerSwordMasteryProficient": {
     "title": {
@@ -3373,7 +3658,10 @@
           "passive_skill": "berserkerSwordMasteryProficient"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "pcytocrpwzkxfyto"
+    }
   },
   "berserkerSwordMasterySkilled": {
     "title": {
@@ -3405,7 +3693,10 @@
           "passive_skill": "berserkerSwordMasterySkilled"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "c1ia564e6xj1noza"
+    }
   },
   "berserkerAxeMastery": {
     "title": {
@@ -3437,7 +3728,10 @@
           "passive_skill": "berserkerAxeMastery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "x02u552rnen3trvj"
+    }
   },
   "berserkerAxeMasteryProficient": {
     "title": {
@@ -3469,7 +3763,10 @@
           "passive_skill": "berserkerAxeMasteryProficient"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "qnl7rh2ot0ygw9zv"
+    }
   },
   "berserkerAxeMasterySkilled": {
     "title": {
@@ -3501,7 +3798,10 @@
           "passive_skill": "berserkerAxeMasterySkilled"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "zpdf537lmail9puk"
+    }
   },
   "berserkerIgnorePain": {
     "title": {
@@ -3533,7 +3833,10 @@
           "passive_skill": "berserkerIgnorePain"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ut56mrye1a24b2j8"
+    }
   },
   "berserkerIgnorePainProficient": {
     "title": {
@@ -3565,7 +3868,10 @@
           "passive_skill": "berserkerIgnorePainProficient"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "yss62log4ovo9id4"
+    }
   },
   "berserkerIgnorePainSkilled": {
     "title": {
@@ -3597,7 +3903,10 @@
           "passive_skill": "berserkerIgnorePainSkilled"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "p5qsoo44suvcogi4"
+    }
   },
   "berserkerRecklessness": {
     "title": {
@@ -3629,7 +3938,10 @@
           "passive_skill": "berserkerRecklessness"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hkp0sqp3ko5g81h6"
+    }
   },
   "berserkerChallenge": {
     "title": {
@@ -3661,7 +3973,10 @@
           "passive_skill": "berserkerChallenge"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ror3m7sc0d8h4kwh"
+    }
   },
   "berserkerExploit": {
     "title": {
@@ -3693,7 +4008,10 @@
           "passive_skill": "berserkerExploit"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "zvsg42el5dduc1q4"
+    }
   },
   "bulwarkPath": {
     "title": {
@@ -3722,7 +4040,10 @@
           "passive_skill": "bulwarkPath"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "rvihei179xqwe7i1"
+    }
   },
   "bulwarkShieldMastery": {
     "title": {
@@ -3754,7 +4075,10 @@
           "passive_skill": "bulwarkShieldMastery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vuon3dlhpgun67xc"
+    }
   },
   "bulwarkShieldMasteryProficient": {
     "title": {
@@ -3786,7 +4110,10 @@
           "passive_skill": "bulwarkShieldMasteryProficient"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "w56nly8bg8yg5156"
+    }
   },
   "bulwarkShieldMasterySkilled": {
     "title": {
@@ -3818,7 +4145,10 @@
           "passive_skill": "bulwarkShieldMasterySkilled"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "64jss2mwul4497fm"
+    }
   },
   "bulwarkRebuke": {
     "title": {
@@ -3850,7 +4180,10 @@
           "passive_skill": "bulwarkRebuke"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "kfycscak1tmtly5k"
+    }
   },
   "wayfarerSlender": {
     "title": {
@@ -3882,7 +4215,10 @@
           "passive_skill": "wayfarerSlender"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "7q9iucuemfadivol"
+    }
   },
   "roguePath": {
     "title": {
@@ -3917,7 +4253,10 @@
           "command": "puffish_skills category unlock @s simplyskills:rogue"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vwlt6vde85g7d1mw"
+    }
   },
   "rogueSmokeBomb": {
     "title": {
@@ -3949,7 +4288,10 @@
           "passive_skill": "rogueSmokeBomb"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "34g4cykd0mdhn2p1"
+    }
   },
   "rogueOpportunisticMastery": {
     "title": {
@@ -3981,7 +4323,10 @@
           "passive_skill": "rogueOpportunisticMastery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hste7zh2pimu0pc4"
+    }
   },
   "rogueOpportunisticMasteryProficient": {
     "title": {
@@ -4013,7 +4358,10 @@
           "passive_skill": "rogueOpportunisticMasteryProficient"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ke720nck03wzx509"
+    }
   },
   "rogueOpportunisticMasterySkilled": {
     "title": {
@@ -4045,7 +4393,10 @@
           "passive_skill": "rogueOpportunisticMasterySkilled"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "7cxqf6etdoo39r2y"
+    }
   },
   "rogueEvasionMastery": {
     "title": {
@@ -4077,7 +4428,10 @@
           "passive_skill": "rogueEvasionMastery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "6lece5bt5hpsfajg"
+    }
   },
   "rogueEvasionMasteryProficient": {
     "title": {
@@ -4109,7 +4463,10 @@
           "passive_skill": "rogueEvasionMasteryProficient"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "60am6p7qcmjkf7xb"
+    }
   },
   "rogueEvasionMasterySkilled": {
     "title": {
@@ -4141,7 +4498,10 @@
           "passive_skill": "rogueEvasionMasterySkilled"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jabm9o6l5dgofcbk"
+    }
   },
   "rogueExploitation": {
     "title": {
@@ -4173,7 +4533,10 @@
           "passive_skill": "rogueExploitation"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "kiw1xy118rk3y77e"
+    }
   },
   "rogueRecovery": {
     "title": {
@@ -4205,7 +4568,10 @@
           "passive_skill": "rogueRecovery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "nnsvm7gajufqu89t"
+    }
   },
   "rogueShadowVeil": {
     "title": {
@@ -4237,7 +4603,10 @@
           "passive_skill": "rogueShadowVeil"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "r9lwc6ll19ueieiu"
+    }
   },
   "rogueDeflection": {
     "title": {
@@ -4269,7 +4638,10 @@
           "passive_skill": "rogueDeflection"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "fkm1ol157t05t3in"
+    }
   },
   "rogueFleetfooted": {
     "title": {
@@ -4301,7 +4673,10 @@
           "passive_skill": "rogueFleetfooted"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "o421njbckxuweucd"
+    }
   },
   "rangerPath": {
     "title": {
@@ -4342,7 +4717,10 @@
           "command": "ftbquests change_progress @s complete 686B5BA848725480"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "krde4xq1usm3g4fx"
+    }
   },
   "initiateFrail": {
     "title": {
@@ -4374,7 +4752,10 @@
           "passive_skill": "initiateFrail"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "a5ekydzjt7q2exs9"
+    }
   },
   "initiateWhisperedWizardry": {
     "title": {
@@ -4406,7 +4787,10 @@
           "passive_skill": "initiateWhisperedWizardry"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "4yghy3kr9v5cegyy"
+    }
   },
   "initiateSpellcloak": {
     "title": {
@@ -4438,7 +4822,10 @@
           "passive_skill": "initiateSpellcloak"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "1szg1kt3pvot5s3l"
+    }
   },
   "initiateOverload": {
     "title": {
@@ -4470,7 +4857,10 @@
           "passive_skill": "initiateOverload"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "kxhmpzeb2j9s6frr"
+    }
   },
   "crusaderPath": {
     "title": {
@@ -4517,7 +4907,10 @@
           "command": "ftbquests change_progress @s complete 44FCF260737D0785"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "qiwr267n5waspnft"
+    }
   },
   "frostguardPath": {
     "title": {
@@ -4552,7 +4945,10 @@
           "command": "puffish_skills category unlock @s simplyskills:frostguard"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "9wctc05lfjurcg67"
+    }
   },
   "spellbladePath": {
     "title": {
@@ -4587,7 +4983,10 @@
           "command": "puffish_skills category unlock @s simplyskills:spellblade"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vx1yrgodah06xup7"
+    }
   },
   "spellbladeWeaponExpert": {
     "title": {
@@ -4619,7 +5018,10 @@
           "passive_skill": "spellbladeWeaponExpert"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ar2ey0s5vqch9w6a"
+    }
   },
   "spellbladeSpellweaving": {
     "title": {
@@ -4651,7 +5053,10 @@
           "passive_skill": "spellbladeSpellweaving"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "st9n0vqakckkw1jf"
+    }
   },
   "spellbladeSignatureElementalSurge": {
     "title": {
@@ -4683,7 +5088,10 @@
           "passive_skill": "spellbladeSignatureElementalSurge"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8u8ob1f05cxr9c5i"
+    }
   },
   "spellbladeSignatureElementalSurgeNoFrost": {
     "title": {
@@ -4715,7 +5123,10 @@
           "passive_skill": "spellbladeSignatureElementalSurgeNoFrost"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "riidwy9de3nlk2sk"
+    }
   },
   "spellbladeSignatureElementalSurgeNoFire": {
     "title": {
@@ -4747,7 +5158,10 @@
           "passive_skill": "spellbladeSignatureElementalSurgeNoFire"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "q6c2e9dhfzvxl4fa"
+    }
   },
   "spellbladeSignatureElementalSurgeRenewal": {
     "title": {
@@ -4779,7 +5193,10 @@
           "passive_skill": "spellbladeSignatureElementalSurgeRenewal"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hmkwf15zn8ky83g8"
+    }
   },
   "spellbladeSignatureElementalSurgeNoLightning": {
     "title": {
@@ -4811,7 +5228,10 @@
           "passive_skill": "spellbladeSignatureElementalSurgeNoLightning"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "fdon3dzukz1o1djn"
+    }
   },
   "spellbladeSignatureElementalImpact": {
     "title": {
@@ -4843,7 +5263,10 @@
           "passive_skill": "spellbladeSignatureElementalImpact"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "46ly3mcposskcv4p"
+    }
   },
   "spellbladeSignatureElementalImpactMagnet": {
     "title": {
@@ -4875,7 +5298,10 @@
           "passive_skill": "spellbladeSignatureElementalImpactMagnet"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "dgp43temgjwu8pif"
+    }
   },
   "spellbladeSignatureElementalImpactResistance": {
     "title": {
@@ -4907,7 +5333,10 @@
           "passive_skill": "spellbladeSignatureElementalImpactResistance"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3vxw60fpylf6l37b"
+    }
   },
   "spellbladeSignatureSpellweaver": {
     "title": {
@@ -4939,7 +5368,10 @@
           "passive_skill": "spellbladeSignatureSpellweaver"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "11us29q548afszsn"
+    }
   },
   "spellbladeSignatureSpellweaverHaste": {
     "title": {
@@ -4971,7 +5403,10 @@
           "passive_skill": "spellbladeSignatureSpellweaverHaste"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "uacbohlp4g343v5p"
+    }
   },
   "spellbladeSignatureSpellweaverRegeneration": {
     "title": {
@@ -5003,7 +5438,10 @@
           "passive_skill": "spellbladeSignatureSpellweaverRegeneration"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jcufrdlnxspuz5ko"
+    }
   },
   "wizardPath": {
     "title": {
@@ -5044,7 +5482,10 @@
           "command": "ftbquests change_progress @s complete 745FE062B66D6927"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ownjnywfbsdcf2fj"
+    }
   },
   "shamanPath": {
     "title": {
@@ -5079,7 +5520,10 @@
           "command": "puffish_skills category unlock @s simplyskills:shaman"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wctzqny5lwbakvol"
+    }
   },
   "clericPath": {
     "title": {
@@ -5120,7 +5564,10 @@
           "command": "ftbquests change_progress @s complete 525D3BC989CF49D9"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "5siaiol4zhgatk9m"
+    }
   },
   "necromancerPath": {
     "title": {
@@ -5161,7 +5608,10 @@
           "command": "ftbquests change_progress @s complete 004D49788CC0D5FC"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "9cowcw4xee8geui8"
+    }
   },
   "wizardPassiveSpellEcho": {
     "title": {
@@ -5193,7 +5643,10 @@
           "passive_skill": "wizardPassiveSpellEcho"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "amewxhrj774y56xw"
+    }
   },
   "wizardSignatureMeteorShower": {
     "title": {
@@ -5225,7 +5678,10 @@
           "passive_skill": "wizardSignatureMeteorShower"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "uvie3bgtqk9y8xbv"
+    }
   },
   "wizardSignatureMeteorShowerGreater": {
     "title": {
@@ -5257,7 +5713,10 @@
           "passive_skill": "wizardSignatureMeteorShowerGreater"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "gvi3zkdsruxo44mf"
+    }
   },
   "wizardSignatureMeteorShowerWrath": {
     "title": {
@@ -5289,7 +5748,10 @@
           "passive_skill": "wizardSignatureMeteorShowerWrath"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "u4s7ckumaofoktzm"
+    }
   },
   "wizardSignatureMeteorShowerRenewingWrath": {
     "title": {
@@ -5321,7 +5783,10 @@
           "passive_skill": "wizardSignatureMeteorShowerRenewingWrath"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jlt59h64q51texlh"
+    }
   },
   "wizardSignatureMeteorShowerRenewingWrath++": {
     "title": {
@@ -5353,7 +5818,10 @@
           "passive_skill": "wizardSignatureMeteorShowerRenewingWrath++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "lw5mcd5046i0bspq"
+    }
   },
   "wizardSignatureMeteorShowerRenewingWrath+++": {
     "title": {
@@ -5385,7 +5853,10 @@
           "passive_skill": "wizardSignatureMeteorShowerRenewingWrath+++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hnetrs86qqq6s8mi"
+    }
   },
   "wizardSignatureIceComet": {
     "title": {
@@ -5417,7 +5888,10 @@
           "passive_skill": "wizardSignatureIceComet"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jon5jlzeqfvqmuso"
+    }
   },
   "wizardSignatureIceCometLeap": {
     "title": {
@@ -5449,7 +5923,10 @@
           "passive_skill": "wizardSignatureIceCometLeap"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "p8ldeqt0g1ces9zm"
+    }
   },
   "wizardSignatureIceCometVolley": {
     "title": {
@@ -5481,7 +5958,10 @@
           "passive_skill": "wizardSignatureIceCometVolley"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vn8hdtn6jmi232wd"
+    }
   },
   "wizardSignatureIceCometDamage+": {
     "title": {
@@ -5513,7 +5993,10 @@
           "passive_skill": "wizardSignatureIceCometDamage+"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hkjeru3ophytsrtk"
+    }
   },
   "wizardSignatureIceCometDamage++": {
     "title": {
@@ -5545,7 +6028,10 @@
           "passive_skill": "wizardSignatureIceCometDamage++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "m63oy7ipu2f5r0gn"
+    }
   },
   "wizardSignatureIceCometDamage+++": {
     "title": {
@@ -5577,7 +6063,10 @@
           "passive_skill": "wizardSignatureIceCometDamage+++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "g066pdmzbhgzsd88"
+    }
   },
   "wizardSignatureStaticDischarge": {
     "title": {
@@ -5609,7 +6098,10 @@
           "passive_skill": "wizardSignatureStaticDischarge"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "27i5l6epv1zhrdy2"
+    }
   },
   "wizardSignatureStaticDischargeLightningBall": {
     "title": {
@@ -5641,7 +6133,10 @@
           "passive_skill": "wizardSignatureStaticDischargeLightningBall"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "1i51zykiey0j116w"
+    }
   },
   "wizardSignatureStaticDischargeLeap": {
     "title": {
@@ -5673,7 +6168,10 @@
           "passive_skill": "wizardSignatureStaticDischargeLeap"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "gx55oclg3hpblol7"
+    }
   },
   "wizardSignatureStaticDischargeLeap++": {
     "title": {
@@ -5705,7 +6203,10 @@
           "passive_skill": "wizardSignatureStaticDischargeLeap++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3vsa78uh0m9nu0es"
+    }
   },
   "wizardSignatureStaticDischargeLeap+++": {
     "title": {
@@ -5737,7 +6238,10 @@
           "passive_skill": "wizardSignatureStaticDischargeLeap+++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "eifcnshk0u377nae"
+    }
   },
   "wizardSignatureStaticDischargeSpeed": {
     "title": {
@@ -5769,7 +6273,10 @@
           "passive_skill": "wizardSignatureStaticDischargeSpeed"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "mqujq7cvrnwv7seh"
+    }
   },
   "wizardSignatureStaticDischargeSpeed++": {
     "title": {
@@ -5801,7 +6308,10 @@
           "passive_skill": "wizardSignatureStaticDischargeSpeed++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "n4vjrqwdoeiash79"
+    }
   },
   "wizardSignatureStaticDischargeSpeed+++": {
     "title": {
@@ -5833,7 +6343,10 @@
           "passive_skill": "wizardSignatureStaticDischargeSpeed+++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "tp8sgob9nxhdw0qi"
+    }
   },
   "wizardSignatureStaticDischargeLightningOrb": {
     "title": {
@@ -5865,7 +6378,10 @@
           "passive_skill": "wizardSignatureStaticDischargeLightningOrb"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "zznvule8gojm3f7g"
+    }
   },
   "wizardSignatureStaticDischargeLightningOrbOnHit": {
     "title": {
@@ -5897,7 +6413,10 @@
           "passive_skill": "wizardSignatureStaticDischargeLightningOrbOnHit"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "g7jvc2jil7kw41lz"
+    }
   },
   "wizardSignatureArcaneBolt": {
     "title": {
@@ -5929,7 +6448,10 @@
           "passive_skill": "wizardSignatureArcaneBolt"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "0ql5ti1hgn9bsmoq"
+    }
   },
   "wizardSignatureArcaneBoltLesser": {
     "title": {
@@ -5961,7 +6483,10 @@
           "passive_skill": "wizardSignatureArcaneBoltLesser"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "7lnalt2enhfp6s3b"
+    }
   },
   "wizardSignatureArcaneBoltVolley": {
     "title": {
@@ -5993,7 +6518,10 @@
           "passive_skill": "wizardSignatureArcaneBoltVolley"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "pmov7ro33lz091v9"
+    }
   },
   "wizardSignatureArcaneBoltGreater": {
     "title": {
@@ -6025,7 +6553,10 @@
           "passive_skill": "wizardSignatureArcaneBoltGreater"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "y4f6csedfpseaakb"
+    }
   },
   "shamanSignatureAstralTotem": {
     "title": {
@@ -6057,7 +6588,10 @@
           "passive_skill": "shamanSignatureAstralTotem"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "x71qcift339zhtr0"
+    }
   },
   "shamanSignatureNovaTotem": {
     "title": {
@@ -6089,7 +6623,10 @@
           "passive_skill": "shamanSignatureNovaTotem"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "cdegtgerhee3nz5x"
+    }
   },
   "shamanSignatureBoltTotem": {
     "title": {
@@ -6121,7 +6658,10 @@
           "passive_skill": "shamanSignatureBoltTotem"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "77mzruyd22d84w0n"
+    }
   },
   "rogueSignatureEvasion": {
     "title": {
@@ -6153,7 +6693,10 @@
           "passive_skill": "rogueSignatureEvasion"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "istk9ogbu655pia8"
+    }
   },
   "rogueSignatureEvasionFanOfBlades": {
     "title": {
@@ -6185,7 +6728,10 @@
           "passive_skill": "rogueSignatureEvasionFanOfBlades"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "qu5e9is9ilrnoovr"
+    }
   },
   "rogueSignatureEvasionFanOfBladesDisenchantment": {
     "title": {
@@ -6217,7 +6763,10 @@
           "passive_skill": "rogueSignatureEvasionFanOfBladesDisenchantment"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "mmlmlia7asw64vmz"
+    }
   },
   "rogueSignatureEvasionFanOfBladesAssault": {
     "title": {
@@ -6249,7 +6798,10 @@
           "passive_skill": "rogueSignatureEvasionFanOfBladesAssault"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "r62hzpm51bx8jsvi"
+    }
   },
   "rogueSignatureEvasionFanOfBladesRenewal": {
     "title": {
@@ -6281,7 +6833,10 @@
           "passive_skill": "rogueSignatureEvasionFanOfBladesRenewal"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "nuo31ho46ha5wu3h"
+    }
   },
   "rogueSignatureEvasionFanOfBladesBladestorm": {
     "title": {
@@ -6313,7 +6868,10 @@
           "passive_skill": "rogueSignatureEvasionFanOfBladesBladestorm"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "eprpzzmcguvsizu6"
+    }
   },
   "rogueSignatureEvasionFanOfBladesBladestormSiphon": {
     "title": {
@@ -6345,7 +6903,10 @@
           "passive_skill": "rogueSignatureEvasionFanOfBladesBladestormSiphon"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "7c61loc5cp9frvcn"
+    }
   },
   "rogueSignaturePreparation": {
     "title": {
@@ -6377,7 +6938,10 @@
           "passive_skill": "rogueSignaturePreparation"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xfy79j37pkkc3807"
+    }
   },
   "rogueSignaturePreparationShadowstrike": {
     "title": {
@@ -6409,7 +6973,10 @@
           "passive_skill": "rogueSignaturePreparationShadowstrike"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "a0x41403clclz8ud"
+    }
   },
   "rogueSignaturePreparationShadowstrikeVampire": {
     "title": {
@@ -6441,7 +7008,10 @@
           "passive_skill": "rogueSignaturePreparationShadowstrikeVampire"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "fjztwvkcntgg9ngd"
+    }
   },
   "rogueSignaturePreparationShadowstrikeShield": {
     "title": {
@@ -6473,7 +7043,10 @@
           "passive_skill": "rogueSignaturePreparationShadowstrikeShield"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vmixfcu43rib5j4t"
+    }
   },
   "rogueSignatureSiphoningStrikes": {
     "title": {
@@ -6505,7 +7078,10 @@
           "passive_skill": "rogueSignatureSiphoningStrikes"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "o1ufgzyl3dw4qpx2"
+    }
   },
   "rogueSignatureSiphoningStrikesMighty": {
     "title": {
@@ -6537,7 +7113,10 @@
           "passive_skill": "rogueSignatureSiphoningStrikesMighty"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ndkj3squjpk9cx65"
+    }
   },
   "rogueSignatureSiphoningStrikesAura": {
     "title": {
@@ -6569,7 +7148,10 @@
           "passive_skill": "rogueSignatureSiphoningStrikesAura"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "t7qa2tp5ezgezqqj"
+    }
   },
   "rogueSignatureSiphoningStrikesVanish": {
     "title": {
@@ -6601,7 +7183,10 @@
           "passive_skill": "rogueSignatureSiphoningStrikesVanish"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "d4biyw8461k9xugt"
+    }
   },
   "rangerSignatureArrowRain": {
     "title": {
@@ -6633,7 +7218,10 @@
           "passive_skill": "rangerSignatureArrowRain"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3v6b67iwb454h8cr"
+    }
   },
   "rangerSignatureArrowRainElemental": {
     "title": {
@@ -6665,7 +7253,10 @@
           "passive_skill": "rangerSignatureArrowRainElemental"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "p6yeccovxul6t686"
+    }
   },
   "rangerSignatureArrowRainElementalArtillery": {
     "title": {
@@ -6697,7 +7288,10 @@
           "passive_skill": "rangerSignatureArrowRainElementalArtillery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8z8prg1uqih2x9nt"
+    }
   },
   "rangerSignatureArrowRainEplosive": {
     "title": {
@@ -6729,7 +7323,10 @@
           "passive_skill": "rangerSignatureArrowRainEplosive"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hjb9771y4o4h0swh"
+    }
   },
   "rangerSignatureArrowRainVolley+": {
     "title": {
@@ -6761,7 +7358,10 @@
           "passive_skill": "rangerSignatureArrowRainVolley+"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3orcylry4uy7dnm1"
+    }
   },
   "rangerSignatureArrowRainVolley++": {
     "title": {
@@ -6793,7 +7393,10 @@
           "passive_skill": "rangerSignatureArrowRainVolley++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "0nyh4lw43ngk0ey7"
+    }
   },
   "rangerSignatureArrowRainVolley+++": {
     "title": {
@@ -6825,7 +7428,10 @@
           "passive_skill": "rangerSignatureArrowRainVolley+++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "9bh5llxvv127mu7h"
+    }
   },
   "rangerSignatureArrowRainRadius+": {
     "title": {
@@ -6857,7 +7463,10 @@
           "passive_skill": "rangerSignatureArrowRainRadius+"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xqp996er3km2y3ka"
+    }
   },
   "rangerSignatureArrowRainRadius++": {
     "title": {
@@ -6889,7 +7498,10 @@
           "passive_skill": "rangerSignatureArrowRainRadius++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jqa4uk9erm6zbx7p"
+    }
   },
   "rangerSignatureArrowRainRadius+++": {
     "title": {
@@ -6921,7 +7533,10 @@
           "passive_skill": "rangerSignatureArrowRainRadius+++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "o794ub1wnk447j6f"
+    }
   },
   "rangerSignatureDisengage": {
     "title": {
@@ -6953,7 +7568,10 @@
           "passive_skill": "rangerSignatureDisengage"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jbsafv90x3dz5n76"
+    }
   },
   "rangerSignatureDisengageRecuperate": {
     "title": {
@@ -6985,7 +7603,10 @@
           "passive_skill": "rangerSignatureDisengageRecuperate"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "eox8nmbjqxok4l8g"
+    }
   },
   "rangerSignatureDisengageExploitation": {
     "title": {
@@ -7017,7 +7638,10 @@
           "passive_skill": "rangerSignatureDisengageExploitation"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "sr0oyqft57rcai6l"
+    }
   },
   "rangerSignatureDisengageMarksman": {
     "title": {
@@ -7049,7 +7673,10 @@
           "passive_skill": "rangerSignatureDisengageMarksman"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "uf7ny8jy28qsawpz"
+    }
   },
   "rangerSignatureElementalArrows": {
     "title": {
@@ -7081,7 +7708,10 @@
           "passive_skill": "rangerSignatureElementalArrows"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ax2hi5y8rnb7kjnw"
+    }
   },
   "rangerSignatureElementalArrowsFrostAttuned": {
     "title": {
@@ -7113,7 +7743,10 @@
           "passive_skill": "rangerSignatureElementalArrowsFrostAttuned"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "02bs7xa3tq6896sd"
+    }
   },
   "rangerSignatureElementalArrowsFireAttuned": {
     "title": {
@@ -7145,7 +7778,10 @@
           "passive_skill": "rangerSignatureElementalArrowsFireAttuned"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "k3km8p33cnvxq86x"
+    }
   },
   "rangerSignatureElementalArrowsLightningAttuned": {
     "title": {
@@ -7177,7 +7813,10 @@
           "passive_skill": "rangerSignatureElementalArrowsLightningAttuned"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ywh1nvn3l93z14x7"
+    }
   },
   "rangerSignatureElementalArrowsRadius+": {
     "title": {
@@ -7209,7 +7848,10 @@
           "passive_skill": "rangerSignatureElementalArrowsRadius+"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "qk5lyjvdc8k4fvl1"
+    }
   },
   "rangerSignatureElementalArrowsRadius++": {
     "title": {
@@ -7241,7 +7883,10 @@
           "passive_skill": "rangerSignatureElementalArrowsRadius++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "cug1eaxxvhsxvjbi"
+    }
   },
   "rangerSignatureElementalArrowsRadius+++": {
     "title": {
@@ -7273,7 +7918,10 @@
           "passive_skill": "rangerSignatureElementalArrowsRadius+++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "i6h002i7cyjpborm"
+    }
   },
   "rangerSignatureElementalArrowsStacks+": {
     "title": {
@@ -7305,7 +7953,10 @@
           "passive_skill": "rangerSignatureElementalArrowsStacks+"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "cubcpmg2wdkjqpqp"
+    }
   },
   "rangerSignatureElementalArrowsStacks++": {
     "title": {
@@ -7337,7 +7988,10 @@
           "passive_skill": "rangerSignatureElementalArrowsStacks++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "d2rsetf3qjjpkof9"
+    }
   },
   "rangerSignatureElementalArrowsStacks+++": {
     "title": {
@@ -7369,7 +8023,10 @@
           "passive_skill": "rangerSignatureElementalArrowsStacks+++"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xtlxxpmh1jmfqr2o"
+    }
   },
   "rangerSignatureElementalArrowsRenewal": {
     "title": {
@@ -7401,7 +8058,10 @@
           "passive_skill": "rangerSignatureElementalArrowsRenewal"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "idons9ugtkigu2c7"
+    }
   },
   "necromancerSignatureSummoningRitual": {
     "title": {
@@ -7433,7 +8093,10 @@
           "passive_skill": "necromancerSignatureSummoningRitual"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "5nrus4hku8eb290t"
+    }
   },
   "necromancerNecroticFortification": {
     "title": {
@@ -7465,7 +8128,10 @@
           "passive_skill": "necromancerNecroticFortification"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "lu95kmbikfhk6y05"
+    }
   },
   "necromancerUndeadLegion": {
     "title": {
@@ -7497,7 +8163,10 @@
           "passive_skill": "necromancerUndeadLegion"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "d7td0vbfyauytmr2"
+    }
   },
   "necromancerSummonWraith": {
     "title": {
@@ -7529,7 +8198,10 @@
           "passive_skill": "necromancerSummonWraith"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8pqvy9epy8fg7vph"
+    }
   },
   "necromancerWitherWraiths": {
     "title": {
@@ -7561,7 +8233,10 @@
           "passive_skill": "necromancerWitherWraiths"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "80fy0cum2tjdprlj"
+    }
   },
   "necromancerFrostWraiths": {
     "title": {
@@ -7593,7 +8268,10 @@
           "passive_skill": "necromancerFrostWraiths"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "x5u97qqzy2dhya4w"
+    }
   },
   "necromancerBloodHarvest": {
     "title": {
@@ -7625,7 +8303,10 @@
           "passive_skill": "necromancerBloodHarvest"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hpxolzvoeqerz2dp"
+    }
   },
   "necromancerGreaterDreadglare": {
     "title": {
@@ -7657,7 +8338,10 @@
           "passive_skill": "necromancerGreaterDreadglare"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "njvcnatvz9l1gm8r"
+    }
   },
   "necromancerDeathEssence": {
     "title": {
@@ -7689,7 +8373,10 @@
           "passive_skill": "necromancerDeathEssence"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xjffymefya6pgtv9"
+    }
   },
   "necromancerDeathWarden": {
     "title": {
@@ -7721,7 +8408,10 @@
           "passive_skill": "necromancerDeathWarden"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "lt0j5yvtsas96mee"
+    }
   },
   "necromancerEnrage": {
     "title": {
@@ -7753,7 +8443,10 @@
           "passive_skill": "necromancerEnrage"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "bsatd8d1gjfdvq8j"
+    }
   },
   "necromancerWinterborn": {
     "title": {
@@ -7785,7 +8478,10 @@
           "passive_skill": "necromancerWinterborn"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "sq5uixbr1mguvf40"
+    }
   },
   "necromancerPlague": {
     "title": {
@@ -7817,7 +8513,10 @@
           "passive_skill": "necromancerPlague"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "nemxwb75ko9l9yhk"
+    }
   },
   "necromancerPestilence": {
     "title": {
@@ -7849,7 +8548,10 @@
           "passive_skill": "necromancerPestilence"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "sbq759g68w7dgvmc"
+    }
   },
   "necromancerDelightfulSuffering": {
     "title": {
@@ -7881,7 +8583,10 @@
           "passive_skill": "necromancerDelightfulSuffering"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wm3xvf1c43k06ihf"
+    }
   },
   "necromancerShadowAura": {
     "title": {
@@ -7913,7 +8618,10 @@
           "passive_skill": "necromancerShadowAura"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "x4sacohykk2p5pzs"
+    }
   },
   "necromancerShadowCombust": {
     "title": {
@@ -7945,7 +8653,10 @@
           "passive_skill": "necromancerShadowCombust"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8w41sxub5327z7ue"
+    }
   },
   "necromancerEndlessServitude": {
     "title": {
@@ -7977,7 +8688,10 @@
           "passive_skill": "necromancerEndlessServitude"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "n66o3n1wp6ib7zel"
+    }
   },
   "necromancerWraithLegion": {
     "title": {
@@ -8009,7 +8723,10 @@
           "passive_skill": "necromancerWraithLegion"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "lxnlgh3qugqihayd"
+    }
   },
   "frostguardSignatureConjuringStrikes": {
     "title": {
@@ -8041,7 +8758,10 @@
           "passive_skill": "frostguardSignatureConjuringStrikes"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "6xudj170w3bug9oa"
+    }
   },
   "frostguardSignatureFrostNova": {
     "title": {
@@ -8073,7 +8793,10 @@
           "passive_skill": "frostguardSignatureFrostNova"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "9r98ll7mnewmk1ye"
+    }
   },
   "frostguardSignatureIceBlock": {
     "title": {
@@ -8105,7 +8828,10 @@
           "passive_skill": "frostguardSignatureIceBlock"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hketv4maplyb2d4t"
+    }
   },
   "crusaderAegis": {
     "title": {
@@ -8137,7 +8863,10 @@
           "passive_skill": "crusaderAegis"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "a4hkb0frdtk5661y"
+    }
   },
   "crusaderRetribution": {
     "title": {
@@ -8169,7 +8898,10 @@
           "passive_skill": "crusaderRetribution"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "r5mzgpnj87gd2sye"
+    }
   },
   "crusaderExhaustiveRecovery": {
     "title": {
@@ -8201,7 +8933,10 @@
           "passive_skill": "crusaderExhaustiveRecovery"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "gwsjqzj8x6d2cn7m"
+    }
   },
   "crusaderSignatureConsecration": {
     "title": {
@@ -8233,7 +8968,10 @@
           "passive_skill": "crusaderSignatureConsecration"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "2c2fttws6uxx90dl"
+    }
   },
   "crusaderSignatureConsecrationDuration": {
     "title": {
@@ -8265,7 +9003,10 @@
           "passive_skill": "crusaderSignatureConsecrationDuration"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "u0n2nc2e9suqncl6"
+    }
   },
   "crusaderSignatureConsecrationWard": {
     "title": {
@@ -8297,7 +9038,10 @@
           "passive_skill": "crusaderSignatureConsecrationWard"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "mdnceuep1w2ivvxr"
+    }
   },
   "crusaderSignatureConsecrationTaunt": {
     "title": {
@@ -8329,7 +9073,10 @@
           "passive_skill": "crusaderSignatureConsecrationTaunt"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "nltp3evjhxcuehfp"
+    }
   },
   "crusaderSignatureConsecrationMighty": {
     "title": {
@@ -8361,7 +9108,10 @@
           "passive_skill": "crusaderSignatureConsecrationMighty"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "v4qcyzrrpkl88zbo"
+    }
   },
   "crusaderSignatureConsecrationSpellforged": {
     "title": {
@@ -8393,7 +9143,10 @@
           "passive_skill": "crusaderSignatureConsecrationSpellforged"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "kuv1gag2wtj47sjd"
+    }
   },
   "crusaderSignatureSacredOnslaught": {
     "title": {
@@ -8425,7 +9178,10 @@
           "passive_skill": "crusaderSignatureSacredOnslaught"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ejzh8lccwpl8o7dz"
+    }
   },
   "crusaderSignatureSacredOnslaughtHeal": {
     "title": {
@@ -8457,7 +9213,10 @@
           "passive_skill": "crusaderSignatureSacredOnslaughtHeal"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "c4zw7lbn01na3pop"
+    }
   },
   "crusaderSignatureSacredOnslaughtDefend": {
     "title": {
@@ -8489,7 +9248,10 @@
           "passive_skill": "crusaderSignatureSacredOnslaughtDefend"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "nw6gttbpiqo9gc1j"
+    }
   },
   "crusaderSignatureSacredOnslaughtMighty": {
     "title": {
@@ -8521,7 +9283,10 @@
           "passive_skill": "crusaderSignatureSacredOnslaughtMighty"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "67ynmli1q2vgr4rc"
+    }
   },
   "crusaderSignatureSacredOnslaughtStun": {
     "title": {
@@ -8553,7 +9318,10 @@
           "passive_skill": "crusaderSignatureSacredOnslaughtStun"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xpxjqqj65rwgaj6r"
+    }
   },
   "crusaderSignatureHeavensmithsCall": {
     "title": {
@@ -8585,7 +9353,10 @@
           "passive_skill": "crusaderSignatureHeavensmithsCall"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "95tws3l4syd6gfe9"
+    }
   },
   "crusaderSignatureHeavensmithsCallTaunt": {
     "title": {
@@ -8617,7 +9388,10 @@
           "passive_skill": "crusaderSignatureHeavensmithsCallTaunt"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "fsvmob2buvpkljx6"
+    }
   },
   "crusaderSignatureHeavensmithsCallMark": {
     "title": {
@@ -8649,7 +9423,10 @@
           "passive_skill": "crusaderSignatureHeavensmithsCallMark"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wlc4jev4673twgr1"
+    }
   },
   "crusaderSignatureHeavensmithsCallEffect": {
     "title": {
@@ -8681,7 +9458,10 @@
           "passive_skill": "crusaderSignatureHeavensmithsCallEffect"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wwhshchqsx0frbn9"
+    }
   },
   "crusaderSignatureHeavensmithsCallEffectExhaust": {
     "title": {
@@ -8713,7 +9493,10 @@
           "passive_skill": "crusaderSignatureHeavensmithsCallEffectExhaust"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "pdh65dostb9j2c2c"
+    }
   },
   "crusaderSignatureHeavensmithsCallEffectMighty": {
     "title": {
@@ -8745,7 +9528,10 @@
           "passive_skill": "crusaderSignatureHeavensmithsCallEffectMighty"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "4ykarczmj0syi9kh"
+    }
   },
   "clericAltruism": {
     "title": {
@@ -8777,7 +9563,10 @@
           "passive_skill": "clericAltruism"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "nb5tffac6s54lkt8"
+    }
   },
   "clericMutualMending": {
     "title": {
@@ -8809,7 +9598,10 @@
           "passive_skill": "clericMutualMending"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ylsstwpzcpay0xpt"
+    }
   },
   "clericHealingWard": {
     "title": {
@@ -8841,7 +9633,10 @@
           "passive_skill": "clericHealingWard"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "s5jemzdmcrweqypm"
+    }
   },
   "clericSignatureSacredOrb": {
     "title": {
@@ -8873,7 +9668,10 @@
           "passive_skill": "clericSignatureSacredOrb"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "2ksqjo2m2bgxxcxh"
+    }
   },
   "clericSignatureSacredOrbSpeed": {
     "title": {
@@ -8905,7 +9703,10 @@
           "passive_skill": "clericSignatureSacredOrbSpeed"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "q9b8d69l2pvpm2e4"
+    }
   },
   "clericSignatureSacredOrbDebuffs": {
     "title": {
@@ -8937,7 +9738,10 @@
           "passive_skill": "clericSignatureSacredOrbDebuffs"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "x9p9ph561zii964g"
+    }
   },
   "clericSignatureSacredOrbBuffs": {
     "title": {
@@ -8969,7 +9773,10 @@
           "passive_skill": "clericSignatureSacredOrbBuffs"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "pwuf2kkj8uyl4m0z"
+    }
   },
   "clericSignatureDivineIntervention": {
     "title": {
@@ -9001,7 +9808,10 @@
           "passive_skill": "clericSignatureDivineIntervention"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "lp2shkjhzirk975i"
+    }
   },
   "clericSignatureDivineInterventionFireResistance": {
     "title": {
@@ -9033,7 +9843,10 @@
           "passive_skill": "clericSignatureDivineInterventionFireResistance"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "n9d2ctlwcti54arz"
+    }
   },
   "clericSignatureDivineInterventionMight": {
     "title": {
@@ -9065,7 +9878,10 @@
           "passive_skill": "clericSignatureDivineInterventionMight"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vf3qqlbvoykd2enj"
+    }
   },
   "clericSignatureDivineInterventionSpellforged": {
     "title": {
@@ -9097,7 +9913,10 @@
           "passive_skill": "clericSignatureDivineInterventionSpellforged"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "xd6ngf784xsvs27t"
+    }
   },
   "clericSignatureAnointWeapon": {
     "title": {
@@ -9129,7 +9948,10 @@
           "passive_skill": "clericSignatureAnointWeapon"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "kyb30sihlsdd2q15"
+    }
   },
   "clericSignatureAnointWeaponResistance": {
     "title": {
@@ -9161,7 +9983,10 @@
           "passive_skill": "clericSignatureAnointWeaponResistance"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "pvx0nzyo2mm0cjw6"
+    }
   },
   "clericSignatureAnointWeaponUndying": {
     "title": {
@@ -9193,7 +10018,10 @@
           "passive_skill": "clericSignatureAnointWeaponUndying"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wxecb4qqy3qr1k29"
+    }
   },
   "clericSignatureAnointWeaponCleanse": {
     "title": {
@@ -9225,7 +10053,10 @@
           "passive_skill": "clericSignatureAnointWeaponCleanse"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wk8bts91x4gp9jdj"
+    }
   },
   "berserkerSignatureRampage": {
     "title": {
@@ -9257,7 +10088,10 @@
           "passive_skill": "berserkerSignatureRampage"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3okr2f9l2wwzaob8"
+    }
   },
   "berserkerSignatureRampageCharge": {
     "title": {
@@ -9289,7 +10123,10 @@
           "passive_skill": "berserkerSignatureRampageCharge"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "520aj6hasxrn3daz"
+    }
   },
   "berserkerSignatureRampageChargeRelentless": {
     "title": {
@@ -9321,7 +10158,10 @@
           "passive_skill": "berserkerSignatureRampageChargeRelentless"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "61axg1ssjy4wnj8y"
+    }
   },
   "berserkerSignatureRampageChargeImmob": {
     "title": {
@@ -9353,7 +10193,10 @@
           "passive_skill": "berserkerSignatureRampageChargeImmob"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "cbd1fa3gwubl6cs5"
+    }
   },
   "berserkerSignatureBloodthirsty": {
     "title": {
@@ -9385,7 +10228,10 @@
           "passive_skill": "berserkerSignatureBloodthirsty"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "gvlz9chvudyol1uo"
+    }
   },
   "berserkerSignatureBloodthirstyMighty": {
     "title": {
@@ -9417,7 +10263,10 @@
           "passive_skill": "berserkerSignatureBloodthirstyMighty"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hgbvwptkq2sknwi0"
+    }
   },
   "berserkerSignatureBloodthirstyTireless": {
     "title": {
@@ -9449,7 +10298,10 @@
           "passive_skill": "berserkerSignatureBloodthirstyTireless"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ri5fc4tarkdfl7vl"
+    }
   },
   "berserkerSignatureBloodthirstyTremor": {
     "title": {
@@ -9481,7 +10333,10 @@
           "passive_skill": "berserkerSignatureBloodthirstyTremor"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ux8r5bmbd3b12nj2"
+    }
   },
   "berserkerSignatureBerserking": {
     "title": {
@@ -9513,7 +10368,10 @@
           "passive_skill": "berserkerSignatureBerserking"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "faavwdgn9pwldg71"
+    }
   },
   "berserkerSignatureBerserkingLeap": {
     "title": {
@@ -9545,7 +10403,10 @@
           "passive_skill": "berserkerSignatureBerserkingLeap"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "c647tz8yt53pvvd0"
+    }
   },
   "berserkerSignatureBerserkingLeapImmob": {
     "title": {
@@ -9577,7 +10438,10 @@
           "passive_skill": "berserkerSignatureBerserkingLeapImmob"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "d6bwh5jobg9a39z8"
+    }
   },
   "berserkerSignatureBerserkingLeapPull": {
     "title": {
@@ -9609,7 +10473,10 @@
           "passive_skill": "berserkerSignatureBerserkingLeapPull"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "zd1qdoo68hegc2hr"
+    }
   },
   "portalSapphire": {
     "title": {
@@ -9641,7 +10508,10 @@
           "passive_skill": "portalSapphire"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "rdhy2j3kdxsuapn9"
+    }
   },
   "portalRuby": {
     "title": {
@@ -9673,7 +10543,10 @@
           "passive_skill": "portalRuby"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "4xhm13sza9401vcs"
+    }
   },
   "ascendancyRighteousHammers": {
     "title": {
@@ -9705,7 +10578,10 @@
           "passive_skill": "ascendancyRighteousHammers"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "pfgsj9zdnl6ygv1p"
+    }
   },
   "ascendancyBoneArmor": {
     "title": {
@@ -9737,7 +10613,10 @@
           "passive_skill": "ascendancyBoneArmor"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "2b6ptp4k52ezopi3"
+    }
   },
   "ascendancyCyclonicCleave": {
     "title": {
@@ -9769,7 +10648,10 @@
           "passive_skill": "ascendancyCyclonicCleave"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "6jd2hkm8nitqa0q8"
+    }
   },
   "ascendancyMagicCircle": {
     "title": {
@@ -9801,7 +10683,10 @@
           "passive_skill": "ascendancyMagicCircle"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8v7884fiezlh7ghl"
+    }
   },
   "ascendancyArcaneSlash": {
     "title": {
@@ -9833,7 +10718,10 @@
           "passive_skill": "ascendancyArcaneSlash"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "onns04pa20pq7cgz"
+    }
   },
   "ascendancyAgony": {
     "title": {
@@ -9865,7 +10753,10 @@
           "passive_skill": "ascendancyAgony"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "6ji9u4e789m9ir03"
+    }
   },
   "ascendancyTorment": {
     "title": {
@@ -9897,7 +10788,10 @@
           "passive_skill": "ascendancyTorment"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "zcksgvwmka5htai9"
+    }
   },
   "ascendancyRapidfire": {
     "title": {
@@ -9929,7 +10823,10 @@
           "passive_skill": "ascendancyRapidire"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "bqub19iav824ylk8"
+    }
   },
   "ascendancyCataclysm": {
     "title": {
@@ -9961,7 +10858,10 @@
           "passive_skill": "ascendancyCataclysm"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "f7dse304z0xtw6iz"
+    }
   },
   "ascendancyGhostwalk": {
     "title": {
@@ -9993,7 +10893,10 @@
           "passive_skill": "ascendancyGhostwalk"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "g5ddw0klv9e6zw35"
+    }
   },
   "ascendancySkywardSunder": {
     "title": {
@@ -10025,7 +10928,10 @@
           "passive_skill": "ascendancySkywardSunder"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "lgsfby69wpqp26wp"
+    }
   },
   "ascendancyRighteousShield": {
     "title": {
@@ -10057,7 +10963,10 @@
           "passive_skill": "ascendancyRighteousShield"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wtdsnrm0dshloaka"
+    }
   },
   "ascendancyChainbreaker": {
     "title": {
@@ -10089,7 +10998,10 @@
           "passive_skill": "ascendancyChainbreaker"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "h96whulq51tkyr8r"
+    }
   },
   "armor+0.5": {
     "title": "+0.5 Armor",
@@ -10108,7 +11020,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "cdgkkpu05tkzcbju"
+    }
   },
   "melee_damage+5%": {
     "title": "+5% Melee Damage",
@@ -10127,7 +11042,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "w0g18p4f3vktkia0"
+    }
   },
   "melee_damage+10%": {
     "title": "+10% Melee Damage",
@@ -10146,7 +11064,10 @@
           "operation": "multiply_base"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ypfiquey7gm3p6i7"
+    }
   },
   "overheal": {
     "title": "Unlocks overheal",
@@ -10166,7 +11087,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "23dn6mlz06fx18p0"
+    }
   },
   "overheal+2%": {
     "title": "+2% Overheal",
@@ -10185,7 +11109,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "setjod0qlbufbz3q"
+    }
   },
   "resistance+1": {
     "title": "+1% Resistance",
@@ -10204,7 +11131,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "02gsrj5rid6xtndd"
+    }
   },
   "resistance+5%": {
     "title": "+5% Resistance",
@@ -10224,7 +11154,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "rt8xqqaxr0vnaobp"
+    }
   },
   "health2+": {
     "title": "+2 Hearts",
@@ -10243,7 +11176,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "cpy7y1jq20jxifni"
+    }
   },
   "health+4": {
     "title": "+4 Hearts",
@@ -10263,7 +11199,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3tc50d945isfwcn7"
+    }
   },
   "root_health+4": {
     "title": "Chose the Melee class (+4 Hearts)",
@@ -10289,7 +11228,10 @@
           "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "scpc9wvk9p5anmnm"
+    }
   },
   "healing+5%": {
     "title": "+5% Healing",
@@ -10309,7 +11251,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "2kq5hivsfs5p6oqs"
+    }
   },
   "healing+10%": {
     "title": "+10% Healing",
@@ -10328,7 +11273,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "kj8gwml7afex1b29"
+    }
   },
   "crit_damage+5%": {
     "title": "+5% Crit Damage",
@@ -10347,7 +11295,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8lojxxuhwkswaabm"
+    }
   },
   "crit_chance+5%": {
     "title": "+5% Crit Chance",
@@ -10366,7 +11317,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "g9p8toirfwit3j76"
+    }
   },
   "dodge+5%": {
     "title": "+3% Dodge chance",
@@ -10385,7 +11339,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "mu71zuhhipaxksqj"
+    }
   },
   "dodge+10%": {
     "title": "+5% Dodge chance",
@@ -10405,7 +11362,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "civp6z2p7k5y2ekc"
+    }
   },
   "cold_damage+0.5": {
     "title": "+0.5 Cold Damage",
@@ -10424,7 +11384,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "lmwn1kza9ktuvz7m"
+    }
   },
   "cold_damage+1": {
     "title": "+1 Cold Damage",
@@ -10444,7 +11407,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "qoyalestuslcylgy"
+    }
   },
   "fire_damage+0.5": {
     "title": "+0.5 Fire Damage",
@@ -10463,7 +11429,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "564ss1ckne65chzr"
+    }
   },
   "fire_damage+1": {
     "title": "+1 Fire Damage",
@@ -10483,7 +11452,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "efy1oqg77xf22ic6"
+    }
   },
   "armor_toughness+1": {
     "title": "+1 Armor Toughness",
@@ -10503,7 +11475,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "i6oscietipbczo1v"
+    }
   },
   "attack_knockback+5%": {
     "title": "+5% Attack Knockback",
@@ -10522,7 +11497,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "58p36t04edgjxy06"
+    }
   },
   "knockback_resistance+5%": {
     "title": "+5% Knockback Resistance",
@@ -10541,7 +11519,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "k9c353xf0z633q4b"
+    }
   },
   "adamantium": {
     "title": "Unlock Adamantium Gear",
@@ -10559,7 +11540,10 @@
           "command": "thitemstages add @s stage_berserker_adamantium"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "qqed6b32s45jskej"
+    }
   },
   "diamond": {
     "title": "Unlock Diamond Gear",
@@ -10577,7 +11561,10 @@
           "command": "thitemstages add @s stage_berserker_diamond"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jsmd73rplwkcjatg"
+    }
   },
   "roll_count+1": {
     "title": "+1 Max Roll",
@@ -10597,7 +11584,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "4ld5tvwga4km7uvc"
+    }
   },
   "roll_distance+1": {
     "title": "+1 Max Roll Distance",
@@ -10616,7 +11606,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "qeo5yafihz9214hv"
+    }
   },
   "roll_cooldown-10%": {
     "title": "-10% Roll Coolown",
@@ -10635,7 +11628,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "9dhxog4c6sul5u4b"
+    }
   },
   "luck+1": {
     "title": "+1 Luck",
@@ -10654,7 +11650,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "c84twk6h4jd3tyx9"
+    }
   },
   "root_ranged_damage+15%": {
     "title": "Chose the Ranged class (+15% Ranged Damage)",
@@ -10680,7 +11679,10 @@
           "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "6bkrmp0ny1uxh7wy"
+    }
   },
   "ranged_damage+5%": {
     "title": "+5% Ranged Damage",
@@ -10699,7 +11701,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "dg8fbrelwdr9tbyg"
+    }
   },
   "ranged_damage+10%": {
     "title": "+10% Ranged Damage",
@@ -10718,7 +11723,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ch1ifnz4ae6r9ixi"
+    }
   },
   "ranged_damage+20%": {
     "title": "+20% Ranged Damage",
@@ -10738,7 +11746,10 @@
           "operation": "multiply_total"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "t9txdo492y5npl3v"
+    }
   },
   "armor_shred+5%": {
     "title": "+5% Armor Shred",
@@ -10757,7 +11768,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hl0p5nqlrfqu6pu5"
+    }
   },
   "arrow_velocity+2%": {
     "title": "+2% Arrow Velocity",
@@ -10776,7 +11790,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "rpu1h82b4njrqyt7"
+    }
   },
   "current_hp_damage+5%": {
     "title": "+5% Current Ennemy Health Damage",
@@ -10796,7 +11813,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "why8xf1fho6gnofm"
+    }
   },
   "draw_speed+5%": {
     "title": "+5% Draw Speed",
@@ -10815,7 +11835,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "aoggmbf3amumryeb"
+    }
   },
   "prot_shred+5%": {
     "title": "+5% Protection Shred",
@@ -10834,7 +11857,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "y1sg4l44g9vrtati"
+    }
   },
   "palladium": {
     "title": "Unlock Palladium Gear",
@@ -10852,7 +11878,10 @@
           "command": "thitemstages add @s stage_ranged_palladium"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "uw6sxl9o1ba37p6y"
+    }
   },
   "orichalcum": {
     "title": "Unlock Orichalcum Gear",
@@ -10870,7 +11899,10 @@
           "command": "thitemstages add @s stage_ranged_orichalcum"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "iipp354j6qetjtvw"
+    }
   },
   "shroomite": {
     "title": "Unlock Shroomite Gear",
@@ -10888,7 +11920,10 @@
           "command": "thitemstages add @s stage_ranged_shroomite"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "i8xccf4g8121n8gq"
+    }
   },
   "root_mana+75": {
     "title": "Chose the Mage class (+75 Mana)",
@@ -10922,14 +11957,16 @@
           "command": "thitemstages add @s stage_mage"
         }
       },
-
       {
         "type": "puffish_skills:command",
         "data": {
           "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3ptol0c242aoq5wx"
+    }
   },
   "mana+50": {
     "title": "+50 Mana",
@@ -10949,7 +11986,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "sgce3oh8edebwo6a"
+    }
   },
   "mana+25": {
     "title": "+25 Mana",
@@ -10968,7 +12008,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "serb3q7ysys4nwvv"
+    }
   },
   "cast_time_reduction-5%": {
     "title": "-5% Cast Time",
@@ -10987,7 +12030,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "tls4ticix30pwedb"
+    }
   },
   "cooldown_reduction-5%": {
     "title": "-5% Spell Cooldown",
@@ -11006,7 +12052,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "7bap12kvindb82nx"
+    }
   },
   "spell_power+5%": {
     "title": "+5% Spell Power",
@@ -11074,7 +12123,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "kx112xlxw3oyzfwc"
+    }
   },
   "spell_power+10%": {
     "title": "+10% Spell Power",
@@ -11142,7 +12194,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "83n2j6bq0hzn7p62"
+    }
   },
   "spell_power+20%": {
     "title": "+20% Spell Power",
@@ -11210,7 +12265,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3fhsu0lx3hur5r8e"
+    }
   },
   "summon_damage+5%": {
     "title": "+7% Summoning Damage",
@@ -11229,7 +12287,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "rdvjcinitqr96api"
+    }
   },
   "summon_damage+10%": {
     "title": "+15% Summon Damage",
@@ -11249,7 +12310,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "mfo4l5gc55owo262"
+    }
   },
   "lightning_spell_power+5%": {
     "title": "+7% Lightning Spell Power",
@@ -11276,7 +12340,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "87x5biysx7fttl1m"
+    }
   },
   "lightning_spell_power+10%": {
     "title": "+15% Lightning Spell Power",
@@ -11304,7 +12371,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "n03b46pvh4mo1zl6"
+    }
   },
   "lightning_magic_resist+10%": {
     "title": "+10% Lightning Magic Resist",
@@ -11324,7 +12394,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "9c0cxil2q0jhh0iy"
+    }
   },
   "ice_spell_power+5%": {
     "title": "+7% Ice Spell Power",
@@ -11351,7 +12424,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "90igw92tw0j1vmje"
+    }
   },
   "ice_spell_power+10%": {
     "title": "+15% Ice Spell Power",
@@ -11379,7 +12455,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "8fd3dcd4fo5r02dm"
+    }
   },
   "ice_magic_resist+10%": {
     "title": "+10% Ice Magic Resist",
@@ -11399,7 +12478,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "rgrqy9p9qu00348l"
+    }
   },
   "holy_spell_power+5%": {
     "title": "+7% Holy Spell Power",
@@ -11426,7 +12508,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jpctvzr189fs6tr2"
+    }
   },
   "holy_spell_power+10%": {
     "title": "+15% Holy Spell Power",
@@ -11454,7 +12539,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ol3263ax7bgfo8rt"
+    }
   },
   "holy_magic_resist+10%": {
     "title": "+10% Holy Magic Resist",
@@ -11474,7 +12562,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "2kpts8wznr92pveb"
+    }
   },
   "fire_spell_power+5%": {
     "title": "+7% Fire Spell Power",
@@ -11501,7 +12592,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jrdh0z6u5vom1h7i"
+    }
   },
   "fire_spell_power+10%": {
     "title": "+15% Fire Spell Power",
@@ -11529,7 +12623,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "n9n1s9raxf7bj0hq"
+    }
   },
   "fire_magic_resist+10%": {
     "title": "+10% Fire Magic Resist",
@@ -11549,7 +12646,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "hs96463pcwimwlia"
+    }
   },
   "evocation_spell_power+5%": {
     "title": "+7% Evocation Spell Power",
@@ -11568,7 +12668,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "z2ku0wib0hmqz7ce"
+    }
   },
   "evocation_spell_power+10%": {
     "title": "+17% Evocation Spell Power",
@@ -11588,7 +12691,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ljx22alzf5ezpuzr"
+    }
   },
   "evocation_magic_resist+10%": {
     "title": "+10% Evocation Magic Resist",
@@ -11608,7 +12714,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "r72lvuwu9d3jn0b8"
+    }
   },
   "ender_spell_power+5%": {
     "title": "+7% Ender Spell Power",
@@ -11635,7 +12744,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "9xd1c2bbqmpzo3c0"
+    }
   },
   "ender_spell_power+10%": {
     "title": "+15% Ender Spell Power",
@@ -11663,7 +12775,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "ed4q7jpxy5muwn7q"
+    }
   },
   "ender_magic_resist+10%": {
     "title": "+10% Ender Magic Resist",
@@ -11683,7 +12798,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jbd44ivjyedlvktf"
+    }
   },
   "blood_spell_power+5%": {
     "title": "+7% Blood Spell Power",
@@ -11710,7 +12828,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "qo6zqvz8o8eczor5"
+    }
   },
   "blood_spell_power+10%": {
     "title": "+15% Blood Spell Power",
@@ -11738,7 +12859,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "3f0c4mw464rax9uh"
+    }
   },
   "blood_magic_resist+10%": {
     "title": "+10% Blood Magic Resist",
@@ -11758,7 +12882,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "028hvw775lgdkxvq"
+    }
   },
   "spell_resist+10": {
     "title": "+10% Spell Resist",
@@ -11777,7 +12904,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "wrg9yojqrw67g0lz"
+    }
   },
   "pumpkin": {
     "title": "Unlock Scarecrow Gear",
@@ -11795,7 +12925,10 @@
           "command": "thitemstages add @s stage_wizard_pumpkin"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "43jqkp9pwpe8990q"
+    }
   },
   "swim_speed+3%": {
     "title": "+10% Swim Speed",
@@ -11815,7 +12948,10 @@
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "44e43vx7sz4vw8a1"
+    }
   },
   "mining_speed+5%": {
     "title": "+5% Mining Speed",
@@ -11831,11 +12967,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.mining_speed",
-          "value": 5.0,
+          "value": 5,
           "operation": "addition"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "2d1vilvnpb9zygwv"
+    }
   },
   "neptune": {
     "title": "Unlock Neptune Gear",
@@ -11853,7 +12992,10 @@
           "command": "thitemstages add @s stage_ranged_neptune"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "flk6c3hvl1bdizic"
+    }
   },
   "tungsten": {
     "title": "Unlock Tungsten Gear",
@@ -11871,7 +13013,10 @@
           "command": "thitemstages add @s stage_berserker_tungsten"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "1lswigttnrfgrlq6"
+    }
   },
   "phoenix": {
     "title": "Unlock Phoenix Gear",
@@ -11889,7 +13034,10 @@
           "command": "thitemstages add @s stage_berserker_phoenix"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "x4vr0z6wt6127hej"
+    }
   },
   "chorundum": {
     "title": "Unlock Chorundum Gear",
@@ -11907,7 +13055,10 @@
           "command": "thitemstages add @s stage_berserker_chorundum"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "9s5ta5ckhk5apxf5"
+    }
   },
   "paladin": {
     "title": "Unlock Paladin Gear",
@@ -11925,7 +13076,10 @@
           "command": "thitemstages add @s stage_crusader_paladin"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "i3jq3fzwklutzko1"
+    }
   },
   "crusader": {
     "title": "Unlock Crusader Gear",
@@ -11943,7 +13097,10 @@
           "command": "thitemstages add @s stage_crusader_paladin"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "5e34gehp3lu8gbj0"
+    }
   },
   "valkyrie": {
     "title": "Unlock Valkyrie Gear",
@@ -11961,7 +13118,10 @@
           "command": "thitemstages add @s stage_crusader_valkyrie"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "pgq8wc9n5hhwogu0"
+    }
   },
   "ignitium": {
     "title": "Unlock Neptune Gear",
@@ -11979,7 +13139,10 @@
           "command": "thitemstages add @s stage_crusader_ignitium"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "rl31zqqovahx9o03"
+    }
   },
   "tunic": {
     "title": "Unlock Tunic Gear",
@@ -11997,7 +13160,10 @@
           "command": "thitemstages add @s stage_cleric_tunic"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "u470736kv7of53d9"
+    }
   },
   "prior": {
     "title": "Unlock Prior Gear",
@@ -12015,7 +13181,10 @@
           "command": "thitemstages add @s stage_cleric_prior"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "l3pfl3r1v0ndwanb"
+    }
   },
   "priest": {
     "title": "Unlock Priest Gear",
@@ -12033,7 +13202,10 @@
           "command": "thitemstages add @s stage_cleric_priest"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "vyug1fzjnbq8u0fz"
+    }
   },
   "wizard": {
     "title": "Unlock Wizard Gear",
@@ -12051,7 +13223,10 @@
           "command": "thitemstages add @s stage_wizard_robe"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "0psgbxjjf6wv8fd9"
+    }
   },
   "zanite": {
     "title": "Unlock Zanite Gear",
@@ -12069,7 +13244,10 @@
           "command": "thitemstages add @s stage_wizard_zanite"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "jvjjsvqe9oq449b4"
+    }
   },
   "school": {
     "title": "Unlock All School Gear",
@@ -12087,7 +13265,10 @@
           "command": "thitemstages add @s stage_wizard_school"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "r9gofqp0i8klrirp"
+    }
   },
   "tattered": {
     "title": "Unlock Tattered Gear",
@@ -12105,7 +13286,10 @@
           "command": "thitemstages add @s stage_necromancer_tattered"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "g1rfxobnyvl93n7b"
+    }
   },
   "phantasm": {
     "title": "Unlock Phantasm Gear",
@@ -12123,7 +13307,10 @@
           "command": "thitemstages add @s stage_necromancer_phantasm"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "y6mpqun4zatr3849"
+    }
   },
   "cultist": {
     "title": "Unlock Cultist Gear",
@@ -12141,6 +13328,39 @@
           "command": "thitemstages add @s stage_necromancer_cultist"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "rp9p2g461ex9cvgg"
+    }
+  },
+  "gunnerpath": {
+    "title": "Path of the Gunner - WIP",
+    "size": 1.4,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "simplyskills:textures/frames/unlocked.png",
+        "available": "simplyskills:textures/frames/available.png",
+        "locked": "simplyskills:textures/frames/locked.png",
+        "excluded": "simplyskills:textures/frames/excluded.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "gwrexpansions:netherite_shotgun"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @s simplyskills:berserker"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "p1zvdljbyc27mbjh"
+    }
   }
 }

@@ -85,7 +85,7 @@
       "action": {
         "type": "DAMAGE",
         "damage": {
-          "spell_power_coefficient": 2.0,
+          "spell_power_coefficient": 3.0,
           "knockback": 4
         }
       },
@@ -157,7 +157,7 @@
     }
   },
   "cost": {
-    "exhaust" : 0.3,
+    "exhaust": 0.3,
     "durability": 0
   }
 }

@@ -61,8 +61,8 @@
 	},
 	"rlpa0zbspqxpn4vr": {
 		"definition": "rangerPath",
-		"x": -287,
-		"y": 401,
+		"x": -266,
+		"y": 418,
 		"root": false
 	},
 	"seovhlfjsltfbyp7": {
@@ -573,6 +573,12 @@
 		"definition": "tattered",
 		"x": -152,
 		"y": -494,
+		"root": false
+	},
+	"7asgvxqy6m5d2kc0": {
+		"definition": "gunnerpath",
+		"x": -304,
+		"y": 380,
 		"root": false
 	}
 }
