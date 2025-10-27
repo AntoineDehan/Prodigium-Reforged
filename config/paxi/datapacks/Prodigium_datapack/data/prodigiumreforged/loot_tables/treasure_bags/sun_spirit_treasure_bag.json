@@ -136,36 +136,6 @@
           ]
         }
       ]
-    },
-    {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "aether:phoenix_chestplate",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:phoenix_helmet",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "aether:phoenix_leggings",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:phoenix_boots",
-          "weight": 1
-        }
-      ]
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "type": "confluence:workshop",
+  "ingredients": [
+    {
+      "item": "prodigium_reforged:cactus_shield"
+    },
+    {
+      "item": "prodigium_reforged:meat_charm"
+    }
+  ],
+  "result": {
+    "item": "prodigium_reforged:meat_shield"
+  }
+}
