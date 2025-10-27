@@ -1,0 +1,30 @@
+{
+  "armorSetName": "berserker",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "stalwart_dungeons:warted_tungsten_helmet"
+  },
+  "chest": {
+    "itemKey": "stalwart_dungeons:warted_tungsten_chestplate"
+  },
+  "legs": {
+    "itemKey": "stalwart_dungeons:warted_tungsten_leggings"
+  },
+  "boots": {
+    "itemKey": "stalwart_dungeons:warted_tungsten_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 4,
+      "modifierUUID": "893646e0-124c-4576-9a27-38c778741be0",
+      "description": "+4 Attack Damage"
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:soulsteal",
+      "value": 0.0
+    }
+  ]
+}

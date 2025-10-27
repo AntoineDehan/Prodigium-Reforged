@@ -1,0 +1,37 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "archers:ranger_armor_head"
+  },
+  "chest": {
+    "itemKey": "archers:ranger_armor_chest"
+  },
+  "legs": {
+    "itemKey": "archers:ranger_armor_legs"
+  },
+  "boots": {
+    "itemKey": "archers:ranger_armor_feet"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_damage",
+      "value": 1,
+      "modifierUUID": "a8d72e33-754f-42a2-ab28-3644e93eb8cd",
+      "description": "+1 Ranged Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:dodge_chance",
+      "value": 0.1,
+      "modifierUUID": "7aa0610a-b821-4c1e-befd-8d80f98268ee",
+      "description": "10% Dodge Chance"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:archers_protection",
+      "value": 2
+    }
+  ]
+}

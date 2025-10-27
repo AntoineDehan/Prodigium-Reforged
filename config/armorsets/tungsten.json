@@ -1,5 +1,5 @@
 {
-  "armorSetName": "berseker",
+  "armorSetName": "berserker",
   "performanceMode": true,
   "head": {
     "itemKey": "stalwart_dungeons:tungsten_helmet"
@@ -30,7 +30,7 @@
     },
     {
       "type": "effect",
-      "name": "majruszsdifficulty:glass_regeneration",
+      "name": "kubejs:buff_galore",
       "value": 0.0
     }
   ]

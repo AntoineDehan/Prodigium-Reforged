@@ -115,9 +115,9 @@ ItemEvents.modification((event) => {
     item.armorToughness = 0;
   });
 
-  // Warped Tungsten (à faire, focus dégats ou quelque chose de spécial?Life Steal?)
+  // Warped Tungsten T:19 (à faire, focus dégats ou quelque chose de spécial?Life Steal?)
   event.modify("stalwart_dungeons:warped_tungsten_helmet", (item) => {
-    item.armorProtection = 3;
+    item.armorProtection = 4;
     item.armorToughness = 0;
   });
 
@@ -127,12 +127,12 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("stalwart_dungeons:warped_tungsten_leggings", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 7;
     item.armorToughness = 0;
   });
 
   event.modify("stalwart_dungeons:warped_tungsten_boots", (item) => {
-    item.armorProtection = 3;
+    item.armorProtection = 4;
     item.armorToughness = 0;
   });
 

@@ -41,6 +41,14 @@ StartupEvents.registry("item", (event) => {
     .texture("prodigium_reforged:item/soul_knight");
 
   event
+    .create("prodigium_reforged:slider_dust")
+    .texture("prodigium_reforged:item/slider_dust");
+
+  event
+    .create("prodigium_reforged:neptune_ingot")
+    .texture("prodigium_reforged:item/neptune_ingot");
+
+  event
     .create("prodigium_reforged:sun_fragment")
     .texture("prodigium_reforged:item/sun_fragment");
 

@@ -150,4 +150,13 @@ StartupEvents.registry("mob_effect", (event) => {
       0.4,
       "addition"
     );
+
+  // Buff Galore
+  event.create("buff_galore").color(0xffd27f).beneficial();
+
+  // Archer's Protection
+  event.create("archers_protection").color(0xffd27f).beneficial();
+
+  // Crusader Aura
+  event.create("crusader_aura").color(0xffd27f).beneficial();
 });

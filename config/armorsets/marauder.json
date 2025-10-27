@@ -24,9 +24,14 @@
     {
       "type": "attribute",
       "name": "gunswithoutroses:gwr.chance_ammo",
-      "value": -0.05,
+      "value": -0.15,
       "modifierUUID": "4c409871-4b26-42ff-b335-e8a96f80b56b",
-      "description": "5% Chance to not consume ammo"
+      "description": "15% Chance to not consume ammo"
+    },
+    {
+      "type": "effect",
+      "name": "extraalchemy:detection",
+      "value": 0.0
     }
   ]
 }

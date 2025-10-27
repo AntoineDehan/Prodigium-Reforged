@@ -27,9 +27,9 @@ StartupEvents.registry("item", (event) => {
     .maxStackSize(1)
     .tag("curios:necklace");
 
-  // Smoke Bomb
+  // Smoke Bombs
   event
-    .create("prodigium_reforged:smoke_bomb")
+    .create("prodigium_reforged:smoke_bombs")
     .attachCuriosCapability(
       CuriosJSCapabilityBuilder.create().addAttribute(
         "attributeslib:dodge_chance",
@@ -111,8 +111,8 @@ StartupEvents.registry("item", (event) => {
       CuriosJSCapabilityBuilder.create().addAttribute(
         "combatroll:recharge",
         UUID,
-        -0.1,
-        "multiply"
+        0.1,
+        "multiply_base"
       )
     )
     .maxStackSize(1)
