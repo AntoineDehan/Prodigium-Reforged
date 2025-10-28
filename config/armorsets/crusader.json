@@ -15,11 +15,6 @@
   },
   "fullSetBonuses": [
     {
-      "type": "effect",
-      "name": "majruszsdifficulty:bleeding_immunity",
-      "value": 0.0
-    },
-    {
       "type": "attribute",
       "name": "minecraft:generic.armor",
       "value": 2.0,
@@ -32,6 +27,25 @@
       "value": 0.5,
       "modifierUUID": "b06f49fe-df7f-4898-a2bd-fbb1031b060f",
       "description": "+0.5 armor toughness"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 100,
+      "modifierUUID": "08ddc205-c7fc-49f3-a514-6eb36d848fc0",
+      "description": "+100 Mana"
+    },
+    {
+      "type": "attribute",
+      "name": "confluence:aggro",
+      "value": 1,
+      "modifierUUID": "9de9c671-2837-4594-ae28-552c754b5945",
+      "description": "Enemies are more likely to target you"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:crusader_aura",
+      "value": 0.0
     }
   ]
 }

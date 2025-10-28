@@ -1,0 +1,44 @@
+{
+  "armorSetName": "crusader",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "block_factorys_bosses:dragon_skull"
+  },
+  "chest": {
+    "itemKey": "block_factorys_bosses:dragon_bones_chestplate"
+  },
+  "legs": {
+    "itemKey": "block_factorys_bosses:dragon_bones_leggings"
+  },
+  "boots": {
+    "itemKey": "block_factorys_bosses:dragon_bones_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+      "modifierUUID": "4f55b137-7a4f-4783-b10e-57bd4f9c3952",
+      "description": "+2 Armor"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 2,
+      "modifierUUID": "46819e77-a491-4a98-bd03-1a59b670beb0",
+      "description": "+2 armor toughness"
+    },
+    {
+      "type": "attribute",
+      "name": "confluence:aggro",
+      "value": 3,
+      "modifierUUID": "df242385-4d03-4faa-bc08-1dccddcf94da",
+      "description": "Enemies are way more likely to target you"
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:knockback_resistance",
+      "value": 0.0
+    }
+  ]
+}

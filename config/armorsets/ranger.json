@@ -30,8 +30,8 @@
     },
     {
       "type": "effect",
-      "name": "kubejs:archers_protection",
-      "value": 2
+      "name": "simplyskills:focus",
+      "value": 0
     }
   ]
 }

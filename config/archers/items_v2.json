@@ -81,8 +81,8 @@
         "armor": 3,
         "attributes": [
           {
-            "id": "puffish_attributes:player.ranged_damage",
-            "value": 0.05,
+            "id": "attributeslib:arrow_damage",
+            "value": 0.01,
             "operation": "MULTIPLY_TOTAL"
           }
         ]
@@ -91,8 +91,8 @@
         "armor": 5,
         "attributes": [
           {
-            "id": "puffish_attributes:player.ranged_damage",
-            "value": 0.05,
+            "id": "attributeslib:arrow_damage",
+            "value": 0.01,
             "operation": "MULTIPLY_TOTAL"
           }
         ]
@@ -101,8 +101,8 @@
         "armor": 5,
         "attributes": [
           {
-            "id": "puffish_attributes:player.ranged_damage",
-            "value": 0.05,
+            "id": "attributeslib:arrow_damage",
+            "value": 0.01,
             "operation": "MULTIPLY_TOTAL"
           }
         ]
@@ -111,8 +111,8 @@
         "armor": 3,
         "attributes": [
           {
-            "id": "puffish_attributes:player.ranged_damage",
-            "value": 0.05,
+            "id": "attributeslib:arrow_damage",
+            "value": 0.01,
             "operation": "MULTIPLY_TOTAL"
           }
         ]
@@ -122,62 +122,58 @@
       "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
-        "armor": 2,
+        "armor": 4,
         "attributes": [
           {
-            "id": "puffish_attributes:player.ranged_damage",
+            "id": "attributeslib:arrow_damage",
             "value": 0.08,
             "operation": "MULTIPLY_TOTAL"
           },
           {
-            "id": "ranged_weapon:haste",
-            "value": 0.03,
-            "operation": "MULTIPLY_TOTAL"
+            "id": "attributeslib:dodge_chance",
+            "value": 0.03
           }
         ]
       },
       "chest": {
-        "armor": 3,
+        "armor": 6,
         "attributes": [
           {
-            "id": "puffish_attributes:player.ranged_damage",
+            "id": "attributeslib:arrow_damage",
             "value": 0.08,
             "operation": "MULTIPLY_TOTAL"
           },
           {
-            "id": "ranged_weapon:haste",
-            "value": 0.03,
-            "operation": "MULTIPLY_TOTAL"
+            "id": "attributeslib:dodge_chance",
+            "value": 0.03
           }
         ]
       },
       "legs": {
-        "armor": 3,
+        "armor": 6,
         "attributes": [
           {
-            "id": "puffish_attributes:player.ranged_damage",
+            "id": "attributeslib:arrow_damage",
             "value": 0.08,
             "operation": "MULTIPLY_TOTAL"
           },
           {
-            "id": "ranged_weapon:haste",
-            "value": 0.03,
-            "operation": "MULTIPLY_TOTAL"
+            "id": "attributeslib:dodge_chance",
+            "value": 0.03
           }
         ]
       },
       "feet": {
-        "armor": 2,
+        "armor": 4,
         "attributes": [
           {
-            "id": "puffish_attributes:player.ranged_damage",
+            "id": "attributeslib:arrow_damage",
             "value": 0.08,
             "operation": "MULTIPLY_TOTAL"
           },
           {
-            "id": "ranged_weapon:haste",
-            "value": 0.03,
-            "operation": "MULTIPLY_TOTAL"
+            "id": "attributeslib:dodge_chance",
+            "value": 0.03
           }
         ]
       }
