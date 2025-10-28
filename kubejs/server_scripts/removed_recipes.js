@@ -10,6 +10,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "stalwart_dungeons:tungsten_hoe" });
   event.remove({ output: "stalwart_dungeons:tungsten_pickaxe" });
   event.remove({ output: "stalwart_dungeons:tungsten_shovel" });
+  event.remove({ output: "bypowderandsteel:gravitic_engine" });
 
   // Armor
   event.remove({ output: "irons_spellbooks:netherite_mage_helmet" });
@@ -21,6 +22,11 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "prodigium:palladium_chestplate" });
   event.remove({ output: "prodigium:palladium_leggings" });
   event.remove({ output: "prodigium:palladium_boots" });
+
+  event.remove({ output: "block_factorys_bosses:knight_helmet" });
+  event.remove({ output: "block_factorys_bosses:knight_chestplate" });
+  event.remove({ output: "block_factorys_bosses:knight_leggings" });
+  event.remove({ output: "block_factorys_bosses:knight_boots" });
 
   // Pets
   event.remove({ output: "tameablebeasts:icepop" });
@@ -63,11 +69,23 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "gwrexpansions:obsidian_core" });
   event.remove({ output: "gwrexpansions:skull" });
 
+  // Too Many Bows
+  event.remove({ output: "too_many_bows:frostbite" });
+  event.remove({ output: "too_many_bows:ironclad_bow" });
+  event.remove({ output: "too_many_bows:hunter_bow" });
+  event.remove({ output: "too_many_bows:sentinels_wrath" });
+  event.remove({ output: "too_many_bows:ironclad_bow" });
+  event.remove({ output: "too_many_bows:dusk_reaper" });
+  event.remove({ output: "too_many_bows:ethereal_hunter" });
+  event.remove({ output: "too_many_bows:crimson_nexus" });
+  event.remove({ output: "too_many_bows:radiance" });
+  event.remove({ output: "too_many_bows:necro_flame_bow" });
+
   // Simply Swords
   event.remove({ output: "simplyswords:runic_tablet" });
   event.remove({ output: "simplyswords:runefused_gem" });
   event.remove({ output: "simplyswords:netherfused_gem" });
-  event.remove({ output: "simplyswords:powered_remnant" });
+  event.remove({ output: "simplyswords:empowered_remnant" });
   event.remove({ output: "simplyswords:contained_remnant" });
   event.remove({ output: "simplyswords:tampered_remnant" });
 
