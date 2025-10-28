@@ -1,0 +1,16 @@
+{
+  "easyLootEnabled": true,
+  "easyLootDropChance": 0.2,
+  "mediumLootEnabled": false,
+  "mediumLootDropChance": 0.4,
+  "hardLootEnabled": false,
+  "hardLootDropChance": 0.3,
+  "endgameLootEnabled": false,
+  "endgameLootDropChance": 0.2,
+  "emeraldSageXpAmount": 10,
+  "emeraldSageCrimsonNexusBlacklist": [
+    "minecraft:armor_stand",
+    "minecraft:wandering_trader",
+    "dummmmmmy:target_dummy"
+  ]
+}
