@@ -25,6 +25,7 @@ XaeroWorldMap/
 blueprints/
 
 
+.vscode/
 .idea/
 aes/
 config/spawnbalanceutility/AllMobEntities.rpt
