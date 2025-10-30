@@ -58,7 +58,7 @@ StartupEvents.registry("mob_effect", (event) => {
       "irons_spellbooks:mana_regen",
       "4e640627-50eb-4fab-aec1-644ca810b9d8",
       0.1,
-      "addition"
+      "multiply_base"
     )
 
     // Spell Power
@@ -158,5 +158,59 @@ StartupEvents.registry("mob_effect", (event) => {
   event.create("archers_protection").color(0xffd27f).beneficial();
 
   // Crusader Aura
-  event.create("crusader_aura").color(0xffd27f).beneficial();
+  event
+    .create("crusader_aura")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "52c58c14-801d-4497-b5d6-bc1bdd15d1c6",
+      2,
+      "addition"
+    );
+
+  // Crusader Protection
+  event
+    .create("crusader_protection")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "040965a9-bf8d-435e-a06c-391086478ffc",
+      4,
+      "addition"
+    )
+    .modifyAttribute(
+      "minecraft:generic.armor_toughness",
+      "cefe7133-5059-43e7-baba-8fc08b306327",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "36d9f52d-71f9-4e4f-b808-251b185a2c36",
+      0.1,
+      "addition"
+    );
+
+  // Sun's Light
+  event.create("sun_light").color(0xffd27f).beneficial();
+
+  // Prior's Faith
+  event.create("prior_faith").color(0xffd27f).beneficial();
+
+  // Holy Warmth
+  event.create("holy_warmth").color(0xffd27f).beneficial();
+
+  // Mana Regeneration
+  event
+    .create("mana_regeneration")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "a3ee1052-6453-4198-8b16-5139262464f4",
+      0.15,
+      "multiply_base"
+    );
 });

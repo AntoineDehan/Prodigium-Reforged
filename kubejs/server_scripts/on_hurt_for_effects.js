@@ -1,3 +1,6 @@
+/// Handling of different effects or curios
+
+// Frostburner
 EntityEvents.hurt((event) => {
   const entity = event.entity;
   const player = event.source.player;
@@ -14,6 +17,59 @@ EntityEvents.hurt((event) => {
   }
 });
 
+// Crusader Aura
+ServerEvents.tick((event) => {
+  if (event.server.tickCount % 20 !== 0) return;
+
+  for (let player of event.server.players) {
+    if (!player.hasEffect("kubejs:crusader_aura")) continue;
+
+    let box = AABB.of(
+      player.x - 8,
+      player.y - 8,
+      player.z - 8,
+      player.x + 8,
+      player.y + 8,
+      player.z + 8
+    );
+
+    let entities = player.level.getEntitiesWithin(box);
+    let allies = entities.filter((e) => e.isPlayer() && e != player);
+
+    for (let ally of allies) {
+      ally.potionEffects.add("kubejs:crusader_protection", 60, 0, true, true);
+    }
+  }
+});
+
+// Buff Galore
+EntityEvents.death((event) => {
+  const { source, entity } = event;
+  const killer = source.player;
+  if (!killer) return;
+
+  if (killer.hasEffect("kubejs:buff_galore")) {
+    if (Math.random() < 0.3) {
+      const { x, y, z, level } = entity;
+
+      const roll = Math.random();
+
+      if (roll < 0.5) {
+        level.runCommandSilent(`summon droppedbuffs:haste_buff ${x} ${y} ${z}`);
+      } else if (roll < 0.8) {
+        level.runCommandSilent(
+          `summon droppedbuffs:absorption_buff ${x} ${y} ${z}`
+        );
+      } else {
+        level.runCommandSilent(
+          `summon droppedbuffs:strength_buff ${x} ${y} ${z}`
+        );
+      }
+    }
+  }
+});
+
+// Meat Charm and Meat Shield
 EntityEvents.hurt((event) => {
   let entity = event.entity;
   let source = event.source;
