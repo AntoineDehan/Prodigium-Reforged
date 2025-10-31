@@ -94,9 +94,9 @@ ItemEvents.modification((event) => {
     item.armorToughness = 0;
   });
 
-  // Tungsten T:25
+  // Tungsten T:27
   event.modify("stalwart_dungeons:tungsten_helmet", (item) => {
-    item.armorProtection = 5;
+    item.armorProtection = 6;
     item.armorToughness = 0;
   });
 
@@ -111,18 +111,18 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("stalwart_dungeons:tungsten_boots", (item) => {
+    item.armorProtection = 6;
+    item.armorToughness = 0;
+  });
+
+  // Warped Tungsten T:25
+  event.modify("stalwart_dungeons:warped_tungsten_helmet", (item) => {
     item.armorProtection = 5;
     item.armorToughness = 0;
   });
 
-  // Warped Tungsten T:19 (à faire, focus dégats ou quelque chose de spécial?Life Steal?)
-  event.modify("stalwart_dungeons:warped_tungsten_helmet", (item) => {
-    item.armorProtection = 4;
-    item.armorToughness = 0;
-  });
-
   event.modify("stalwart_dungeons:warped_tungsten_chestplate", (item) => {
-    item.armorProtection = 7;
+    item.armorProtection = 8;
     item.armorToughness = 0;
   });
 
@@ -132,18 +132,18 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("stalwart_dungeons:warped_tungsten_boots", (item) => {
-    item.armorProtection = 4;
+    item.armorProtection = 5;
     item.armorToughness = 0;
   });
 
-  // Phoenix T:25
+  // Phoenix T:31
   event.modify("aether:phoenix_helmet", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 7;
     item.armorToughness = 0;
   });
 
   event.modify("aether:phoenix_chestplate", (item) => {
-    item.armorProtection = 8;
+    item.armorProtection = 9;
     item.armorToughness = 0;
   });
 
@@ -153,17 +153,17 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("aether:phoenix_boots", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 7;
     item.armorToughness = 0;
   });
 
   event.modify("aether:obsidian_helmet", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 7;
     item.armorToughness = 0;
   });
 
   event.modify("aether:obsidian_chestplate", (item) => {
-    item.armorProtection = 8;
+    item.armorProtection = 9;
     item.armorToughness = 0;
   });
 
@@ -173,7 +173,7 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("aether:obsidian_boots", (item) => {
-    item.armorProtection = 6;
+    item.armorProtection = 7;
     item.armorToughness = 0;
   });
 
@@ -235,12 +235,12 @@ ItemEvents.modification((event) => {
     item.armorProtection = 3;
   });
 
-  // Infernal Enforcer T:24
+  // Infernal Enforcer T:25
   event.modify("bypowderandsteel:infernal_enforcer_helmet", (item) => {
     item.armorProtection = 5;
   });
   event.modify("bypowderandsteel:infernal_enforcer_chestplate", (item) => {
-    item.armorProtection = 7;
+    item.armorProtection = 8;
   });
   event.modify("bypowderandsteel:infernal_enforcer_leggings", (item) => {
     item.armorProtection = 7;
@@ -294,10 +294,6 @@ ItemEvents.modification((event) => {
   // Crusader T:29 TO:5
 
   // Dragon T:31 TO:9
-  // event.modify("block_factorys_bosses:dragon_skull", (item) => {
-  //   item.armorProtection = 7;
-  //   item.armorToughness = 2;
-  // });
 
   event.modify("block_factorys_bosses:dragon_bones_chestplate", (item) => {
     item.armorProtection = 10;
@@ -354,35 +350,28 @@ ItemEvents.modification((event) => {
 
   //// Wizard armors
 
-  // Scarecrow
-  event.modify("irons_spellbooks:pumpkin_helmet", (item) => {
-    item.armorProtection = 2;
-    item.armorToughness = 0;
-  });
+  // Scarecrow T:20
 
-  event.modify("irons_spellbooks:pumpkin_chestplate", (item) => {
-    item.armorProtection = 5;
-    item.armorToughness = 0;
-  });
+  // Wizard T:23
 
-  event.modify("irons_spellbooks:pumpkin_leggings", (item) => {
-    item.armorProtection = 4;
-    item.armorToughness = 0;
-  });
+  // Skyjade T:27
 
-  event.modify("irons_spellbooks:pumpkin_boots", (item) => {
-    item.armorProtection = 2;
-    item.armorToughness = 0;
-  });
+  // Ignitium T:31
 
   //// Priest armors
 
   // Priest T:14
 
-  // Sun Bird
+  // Sun Bird T:17
   event.modify("mowziesmobs:sol_visage", (item) => {
     item.armorProtection = 3;
   });
+
+  // Prior T:22
+
+  // Holy Marauder T:28 TO:2
+
+  // Nether T:26
 
   //// Necromancer armors
 
