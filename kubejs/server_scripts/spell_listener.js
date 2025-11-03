@@ -1,3 +1,12 @@
+const holySpells = [
+  "irons_spellbooks:blessing_of_life",
+  "irons_spellbooks:fortify",
+  "irons_spellbooks:greater_heal",
+  "irons_spellbooks:healing_circle",
+  "irons_spellbooks:heal",
+  "irons_spellbooks:haste",
+];
+
 PlayerEvents.spellOnCast((event) => {
   function getCuriosItemList(player, slot) {
     let curio = player.nbt.ForgeCaps["curios:inventory"]["Curios"].find(
@@ -17,4 +26,118 @@ PlayerEvents.spellOnCast((event) => {
   if (hasFeatherNecklace && Math.random() < 0.3) {
     player.potionEffects.add("kubejs:holy_touch", 100, 0, true, true);
   }
+});
+
+const manaTracker = {};
+
+PlayerEvents.changeMana((event) => {
+  const player = event.player;
+  const magicData = event.getMagicData();
+
+  if (!magicData || magicData.getCastSource() !== "SPELLBOOK") return;
+
+  if (player.hasEffect("kubejs:skyjade_knowledge")) {
+    const oldMana = event.getOldMana();
+    const newMana = event.getNewMana();
+
+    if (newMana >= oldMana) return;
+
+    const manaSpent = oldMana - newMana;
+
+    if (!manaTracker[player.uuid]) manaTracker[player.uuid] = 0;
+
+    manaTracker[player.uuid] += manaSpent;
+
+    if (manaTracker[player.uuid] >= 250) {
+      player.potionEffects.add("kubejs:skyjade_strength", 200, 0, false, true);
+      Client.player.playSound("minecraft:block.enchantment_table.use");
+      Client.player.playSound("minecraft:block.enchantment_table.use");
+      Client.player.playSound("minecraft:block.enchantment_table.use");
+
+      manaTracker[player.uuid] = 0;
+    }
+  }
+
+  if (player.hasEffect("kubejs:wizard_knowledge")) {
+    const oldMana = event.getOldMana();
+    const newMana = event.getNewMana();
+
+    const manaSpent = oldMana - newMana;
+    const reducedManaSpent = manaSpent * 0.75;
+    event.setNewMana(oldMana - reducedManaSpent);
+  } else return;
+
+  // Handling of Sol armor effect
+  if (player.hasEffect("kubejs:sun_light")) {
+    const spellTarget = magicData.additionalCastData.getTarget(player.level);
+    const spellId = magicData.getCastingSpellId();
+    if (holySpells.includes(spellId)) {
+      spellTarget.potionEffects.add(
+        "minecraft:regeneration",
+        120,
+        1,
+        true,
+        true
+      );
+      spellTarget.potionEffects.add("minecraft:strength", 120, 0, true, true);
+      spellTarget.potionEffects.add("minecraft:luck", 120, 0, true, true);
+      spellTarget.potionEffects.add(
+        "minecraft:health_boost",
+        300,
+        0,
+        true,
+        true
+      );
+    } else return;
+  }
+
+  if (player.hasEffect("kubejs:prior_faith")) {
+    const spellTarget = magicData.additionalCastData.getTarget(player.level);
+    const spellId = magicData.getCastingSpellId();
+    if (holySpells.includes(spellId)) {
+      if (spellTarget.hasEffect("kubejs:holy_warmth")) {
+        spellTarget.removeEffect("kubejs:holy_warmth");
+        spellTarget.potionEffects.add(
+          "kubejs:mana_regeneration",
+          120,
+          0,
+          true,
+          true
+        );
+        spellTarget.potionEffects.add(
+          "minecraft:resistance",
+          50,
+          0,
+          true,
+          true
+        );
+        spellTarget.potionEffects.add(
+          "minecraft:regeneration",
+          120,
+          1,
+          true,
+          true
+        );
+        spellTarget.potionEffects.add("minecraft:luck", 120, 0, true, true);
+        spellTarget.potionEffects.add("minecraft:strength", 120, 0, true, true);
+        spellTarget.potionEffects.add(
+          "minecraft:health_boost",
+          300,
+          1,
+          true,
+          true
+        );
+        spellTarget.heal(2);
+        player.potionEffects.add(
+          "kubejs:mana_regeneration",
+          120,
+          1,
+          true,
+          true
+        );
+        Client.player.playSound("simplyswords:elemental_sword_holy_attack_01");
+      } else
+        spellTarget.potionEffects.add("kubejs:holy_warmth", 150, 0, true, true);
+    }
+  } else return;
 });

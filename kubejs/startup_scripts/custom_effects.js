@@ -177,7 +177,7 @@ StartupEvents.registry("mob_effect", (event) => {
     .modifyAttribute(
       "minecraft:generic.armor",
       "040965a9-bf8d-435e-a06c-391086478ffc",
-      4,
+      5,
       "addition"
     )
     .modifyAttribute(
@@ -189,7 +189,7 @@ StartupEvents.registry("mob_effect", (event) => {
     .modifyAttribute(
       "puffish_attributes:player.healing",
       "36d9f52d-71f9-4e4f-b808-251b185a2c36",
-      0.1,
+      0.15,
       "addition"
     );
 
@@ -212,5 +212,35 @@ StartupEvents.registry("mob_effect", (event) => {
       "a3ee1052-6453-4198-8b16-5139262464f4",
       0.15,
       "multiply_base"
+    );
+
+  // Wizard's Knowledge
+  event.create("wizard_knowledge").color(0xffd27f).beneficial();
+
+  // Skyjade's Knowledge
+  event.create("skyjade_knowledge").color(0xffd27f).beneficial();
+
+  // Skyjade's Strength
+  event
+    .create("skyjade_strength")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "2936e1e2-b1e1-42f5-bec7-2ee9082c1c25",
+      0.2,
+      "addition"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:spell_power",
+      "65e689ee-092f-4644-ae09-69f2e7435e07",
+      0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:cast_time_reduction",
+      "ac1b01d3-e434-4948-9e07-79a13d439817",
+      0.3,
+      "addition"
     );
 });
