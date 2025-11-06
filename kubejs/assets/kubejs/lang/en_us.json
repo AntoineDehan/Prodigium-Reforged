@@ -4,6 +4,20 @@
 
   "effect.kubejs.golden_might": "Golden Might",
   "effect.kubejs.golden_might.description": "Restores health faster in the depths and enhances mining speed below 0",
-
-  "effect.kubejs.bee_boost.description": "Amplifies your Honey effect"
+  "effect.kubejs.bee_boost.description": "Amplifies your Honey effect",
+  "effect.kubejs.frostburner.description": "Grants a chance to Chill struck enemies and a smaller chance to Freeze them briefly.",
+  "effect.kubejs.buff_galore.description": "Enemies killed have a high chance to drop a Buff.",
+  "effect.kubejs.crusader_aura.description": "Grants the Crusader Protection effect to nearby allies.",
+  "effect.kubejs.crusader_protection.description": "Provided by being near a crusader affected by the Crusader Aura.",
+  "effect.kubejs.sun_light": "Sun's Light",
+  "effect.kubejs.sun_light.description": "Casting a Holy Spell on an ally grants them additional defensive effects.",
+  "effect.kubejs.prior_faith": "Prior's Faith",
+  "effect.kubejs.prior_faith.description": "Casting a Holy Spell on an ally applies the Holy Warmth effect. If the target already has Holy Warmth, it is consumed to empower them and increase the caster’s mana regeneration.",
+  "effect.kubejs.holy_warmth.description": "Can be consumed by a spellcaster with the Prior’s Faith effect.",
+  "effect.kubejs.wizard_knowledge": "Wiazrd's Knowledge",
+  "effect.kubejs.wizard_knowledge.description": "Reduces mana costs by 25%.",
+  "effect.kubejs.skyjade_knowledge": "Skyjade's Knowledge",
+  "effect.kubejs.skyjade_knowledge.description": "After spending 250 mana, gain the Skyjade's Strength effect.",
+  "effect.kubejs.skyjade_strength": "Skyjade's Strength",
+  "effect.kubejs.skyjade_strength.description": "Enhances multiple magical attributes."
 }

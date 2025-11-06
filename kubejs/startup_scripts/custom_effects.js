@@ -19,7 +19,7 @@ StartupEvents.registry("mob_effect", (event) => {
     .modifyAttribute(
       "minecraft:generic.movement_speed",
       "c1d7e5b0-3d3f-11ee-be56-0242ac183754",
-      0.2,
+      0.1,
       "multiply_total"
     )
     // Damage
@@ -153,9 +153,6 @@ StartupEvents.registry("mob_effect", (event) => {
 
   // Buff Galore
   event.create("buff_galore").color(0xffd27f).beneficial();
-
-  // Archer's Protection
-  event.create("archers_protection").color(0xffd27f).beneficial();
 
   // Crusader Aura
   event
