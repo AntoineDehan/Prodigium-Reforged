@@ -11762,186 +11762,6 @@
       }
     ]
   },
-  "neptune": {
-    "title": "Unlock Neptune Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "aether:neptune_helmet"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_ranged_neptune"
-        }
-      }
-    ]
-  },
-  "tungsten": {
-    "title": "Unlock Tungsten Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "stalwart_dungeons:tungsten_helmet"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_berseker_tungsten"
-        }
-      }
-    ]
-  },
-  "phoenix": {
-    "title": "Unlock Phoenix Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "aether:phoenix_helmet"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_berseker_phoenix"
-        }
-      }
-    ]
-  },
-  "chorundum": {
-    "title": "Unlock Chorundum Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "stalwart_dungeons:chorundum_armor_helmet"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_berseker_chorundum"
-        }
-      }
-    ]
-  },
-  "paladin": {
-    "title": "Unlock Paladin Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "paladins:paladin_armor_head"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_crusader_paladin"
-        }
-      }
-    ]
-  },
-  "crusader": {
-    "title": "Unlock Crusader Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "paladins:crusader_armor_head"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_crusader_paladin"
-        }
-      }
-    ]
-  },
-  "valkyrie": {
-    "title": "Unlock Valkyrie Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "aether:valkyrie_helmet"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_crusader_valkyrie"
-        }
-      }
-    ]
-  },
-  "ignitium": {
-    "title": "Unlock Neptune Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "cataclysm:ignitium_helmet"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_crusader_ignitium"
-        }
-      }
-    ]
-  },
-  "tunic": {
-    "title": "Unlock Tunic Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "paladins:priest_robe_head"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_cleric_tunic"
-        }
-      }
-    ]
-  },
-  "prior": {
-    "title": "Unlock Prior Gear",
-    "frame": "challenge",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "paladins:prior_robe_head"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "thitemstages add @s stage_cleric_prior"
-        }
-      }
-    ]
-  },
   "priest": {
     "title": "Unlock Priest Gear",
     "frame": "challenge",
@@ -11960,8 +11780,51 @@
       }
     ]
   },
-  "wizard": {
-    "title": "Unlock Wizard Gear",
+  "berserker_normal_gear": {
+    "title": "Unlock Normal Mode Berserker's Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "simpleores:adamantium_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_berserker_normal"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "qqed6b32s45jskej"
+    }
+  },
+  "berserker_expert_gear": {
+    "title": "Unlock Expert Mode Crusader's Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "aether:phoenix_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_berserker_expert"
+        }
+      }
+    ],
+    "cost": 2,
+    "metadata": {
+      "icon": "i3jq3fzwklutzko1"
+    }
+  },
+  "wizard_normal_gear": {
+    "title": "Unlock Normal Mode Wizard's Gear",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11973,99 +11836,205 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_wizard_robe"
+          "command": "thitemstages add @s stage_wizard_normal"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "43jqkp9pwpe8990q"
+    }
   },
-  "zanite": {
-    "title": "Unlock Zanite Gear",
+  "wizard_expert_gear": {
+    "title": "Unlock Expert Mode Wizard's Gear",
     "frame": "challenge",
     "icon": {
       "type": "item",
       "data": {
-        "item": "aether:zanite_helmet"
+        "item": "kubejs:wizard_ignitium_helmet"
       }
     },
     "rewards": [
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_wizard_zanite"
+          "command": "thitemstages add @s stage_wizard_expert"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "43jqkp9pwpe8990q"
+    }
   },
-  "school": {
-    "title": "Unlock All School Gear",
+  "archer_normal_gear": {
+    "title": "Unlock Normal Mode Archer's Gear",
     "frame": "challenge",
     "icon": {
       "type": "item",
       "data": {
-        "item": "irons_spellbooks:legendary_ink"
+        "item": "archers:archer_armor_head"
       }
     },
     "rewards": [
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_wizard_school"
+          "command": "thitemstages add @s stage_archer_normal"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "flk6c3hvl1bdizic"
+    }
   },
-  "tattered": {
-    "title": "Unlock Tattered Gear",
+  "archer_expert_gear": {
+    "title": "Unlock Expert Mode Archer's Gear",
     "frame": "challenge",
     "icon": {
       "type": "item",
       "data": {
-        "item": "majruszsdifficulty:tattered_helmet"
+        "item": "archers:ranger_armor_head"
       }
     },
     "rewards": [
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_necromancer_tattered"
+          "command": "thitemstages add @s stage_archer_expert"
         }
       }
-    ]
+    ],
+    "cost": 2,
+    "metadata": {
+      "icon": "flk6c3hvl1bdizic"
+    }
   },
-  "phantasm": {
-    "title": "Unlock Phantasm Gear",
+  "crusader_normal_gear": {
+    "title": "Unlock Normal Mode Crusader's Gear",
     "frame": "challenge",
     "icon": {
       "type": "item",
       "data": {
-        "item": "enemyexpansion:phantasm_helmet"
+        "item": "paladins:paladin_armor_head"
       }
     },
     "rewards": [
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_necromancer_phantasm"
+          "command": "thitemstages add @s stage_crusader_normal"
         }
       }
-    ]
+    ],
+    "metadata": {
+      "icon": "i3jq3fzwklutzko1"
+    }
   },
-  "cultist": {
-    "title": "Unlock Cultist Gear",
+  "crusader_expert_gear": {
+    "title": "Unlock Expert Mode Cruasder's Gear",
     "frame": "challenge",
     "icon": {
       "type": "item",
       "data": {
-        "item": "irons_spellbooks:cultist_helmet"
+        "item": "aether:valkyrie_helmet"
       }
     },
     "rewards": [
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_necromancer_cultist"
+          "command": "thitemstages add @s stage_crusader_expert"
         }
       }
-    ]
+    ],
+    "cost": 2,
+    "metadata": {
+      "icon": "pgq8wc9n5hhwogu0"
+    }
+  },
+  "priest_expert_gear": {
+    "title": "Unlock Expert Mode Priest's Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "paladins:prior_robe_head"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_cleric_expert"
+        }
+      }
+    ],
+    "cost": 2,
+    "metadata": {
+      "icon": "l3pfl3r1v0ndwanb"
+    }
+  },
+  "priest_normal_gear": {
+    "title": "Unlock Normal Mode Priest's Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "paladins:priest_robe_head"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_cleric_normal"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "vyug1fzjnbq8u0fz"
+    }
+  },
+  "gunner_expert_gear": {
+    "title": "Unlock Expert Mode Gunner's Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bypowderandsteel:infernal_enforcer_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_gunner_expert"
+        }
+      }
+    ],
+    "cost": 2,
+    "metadata": {
+      "icon": "l3pfl3r1v0ndwanb"
+    }
+  },
+  "gunner_normal_gear": {
+    "title": "Unlock Normal Mode Gunner's Gear",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "kubejs:frost_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_gunner_normal"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "vyug1fzjnbq8u0fz"
+    }
   }
 }

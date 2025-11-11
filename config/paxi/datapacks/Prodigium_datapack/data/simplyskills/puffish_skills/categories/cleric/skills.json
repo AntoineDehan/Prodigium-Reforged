@@ -44,19 +44,19 @@
 	"4rmb8nu7b0iogk54": {
 		"definition": "clericAltruism",
 		"x": 0,
-		"y": 646,
+		"y": 570,
 		"root": false
 	},
 	"jx3mz6cj3x6pav5l": {
 		"definition": "clericMutualMending",
 		"x": -76,
-		"y": 684,
+		"y": 608,
 		"root": false
 	},
 	"zv95vb80wc1dysx9": {
 		"definition": "clericHealingWard",
 		"x": 76,
-		"y": 684,
+		"y": 608,
 		"root": false
 	},
 	"4p70f1lw2j9ogrvz": {
@@ -92,7 +92,7 @@
 	"kzj431vrpy8f109q": {
 		"definition": "spell_healing_power_multi+1%",
 		"x": 0,
-		"y": 266,
+		"y": 0,
 		"root": true
 	},
 	"y3fwil0qbnlb3oia": {
@@ -117,12 +117,6 @@
 		"definition": "mana+25",
 		"x": 0,
 		"y": -114,
-		"root": false
-	},
-	"l1jzkslk7k8tjnzc": {
-		"definition": "prior",
-		"x": 0,
-		"y": 0,
 		"root": false
 	},
 	"xr7itvbkpxmon3va": {
@@ -542,115 +536,121 @@
 	"04dy156gvza6xgdi": {
 		"definition": "mana+25",
 		"x": 38,
-		"y": 342,
+		"y": 228,
 		"root": false
 	},
 	"heoolwyvl6jcjy4t": {
 		"definition": "mana+25",
 		"x": 38,
-		"y": 380,
+		"y": 266,
 		"root": false
 	},
 	"jpaulbgid76rmv2k": {
 		"definition": "spell_healing_power_additive+1%",
 		"x": -38,
-		"y": 342,
+		"y": 228,
 		"root": false
 	},
 	"nmhtn03vxbyavcs9": {
 		"definition": "spell_healing_power_additive+1%",
 		"x": -38,
-		"y": 380,
+		"y": 266,
 		"root": false
 	},
 	"awhbt175wn41tcey": {
 		"definition": "movement_speed+1%",
 		"x": -114,
-		"y": 532,
+		"y": 456,
 		"root": false
 	},
 	"wx0y74m3k1cyntzr": {
 		"definition": "movement_speed+1%",
 		"x": -152,
-		"y": 532,
+		"y": 456,
 		"root": false
 	},
 	"h1tjo6as89ge9fas": {
 		"definition": "cooldown_reduction-5%",
 		"x": 114,
-		"y": 532,
+		"y": 456,
 		"root": false
 	},
 	"sjp3od6g76nwbygl": {
 		"definition": "cooldown_reduction-5%",
 		"x": 152,
-		"y": 532,
+		"y": 456,
 		"root": false
 	},
 	"feiyn99q6a47qbpe": {
 		"definition": "cast_time_reduction-5%",
 		"x": 114,
-		"y": 570,
+		"y": 494,
 		"root": false
 	},
 	"cxikn2osmuq861om": {
 		"definition": "cast_time_reduction-5%",
 		"x": 152,
-		"y": 570,
+		"y": 494,
 		"root": false
 	},
 	"w55wgy8kj03b0zng": {
 		"definition": "spell_power+5%",
 		"x": 114,
-		"y": 608,
+		"y": 532,
 		"root": false
 	},
 	"gx3clhxuyi59jun2": {
 		"definition": "spell_power+5%",
 		"x": 152,
-		"y": 608,
+		"y": 532,
 		"root": false
 	},
 	"9rqxmnw5gyrqq4lz": {
 		"definition": "spell_resist+10",
 		"x": -114,
-		"y": 456,
+		"y": 380,
 		"root": false
 	},
 	"hgm2fn4u1m3gxg3i": {
 		"definition": "dodge+10%",
 		"x": 114,
-		"y": 456,
+		"y": 380,
 		"root": false
 	},
 	"3zx648vt7qabzss3": {
 		"definition": "roll_count+1",
 		"x": -114,
-		"y": 570,
+		"y": 494,
 		"root": false
 	},
 	"8l4k4tkshict9aaz": {
 		"definition": "roll_count+1",
 		"x": -152,
-		"y": 570,
+		"y": 494,
 		"root": false
 	},
 	"gtds550ojq503g4q": {
 		"definition": "luck+1",
 		"x": -114,
-		"y": 608,
+		"y": 532,
 		"root": false
 	},
 	"89n9c734zxmfyt0t": {
 		"definition": "luck+1",
 		"x": -152,
-		"y": 608,
+		"y": 532,
 		"root": false
 	},
-	"kix6an3eih602kpc": {
+	"6dcgwmsh8x8h7hsw": {
+		"definition": "priest_expert_gear",
+		"x": 0,
+		"y": 418,
+		"root": false
+	},
+	"4qdsblgqk4hxgymj": {
 		"definition": "priest",
 		"x": 0,
-		"y": 494,
+		"y": 456,
 		"root": false
 	}
 }

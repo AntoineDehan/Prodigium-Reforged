@@ -139,8 +139,8 @@
 	},
 	"vp0tvtnkjc4uqa6a": {
 		"definition": "mana+25",
-		"x": 152,
-		"y": 152,
+		"x": 0,
+		"y": 0,
 		"root": true
 	},
 	"xb9uxi8zv4e1pdzy": {
@@ -321,12 +321,6 @@
 		"definition": "armor_shred+5%",
 		"x": -646,
 		"y": 38,
-		"root": false
-	},
-	"hwonl6rz5w5qcqdb": {
-		"definition": "wizard",
-		"x": 0,
-		"y": 0,
 		"root": false
 	},
 	"ojtf50snftyz3fok": {
@@ -746,139 +740,145 @@
 	"vnjywv0r7gttxe29": {
 		"definition": "mana+25",
 		"x": 152,
-		"y": 228,
+		"y": 190,
 		"root": false
 	},
 	"s7jggjqzdovhm56i": {
 		"definition": "mana+25",
-		"x": 190,
-		"y": 266,
+		"x": 152,
+		"y": 228,
 		"root": false
 	},
 	"cr6bt9hqd1pc7unk": {
 		"definition": "cast_time_reduction-5%",
-		"x": 228,
+		"x": 190,
 		"y": 152,
 		"root": false
 	},
 	"hqzkzfzk9sh6eizi": {
 		"definition": "cast_time_reduction-5%",
-		"x": 266,
-		"y": 190,
+		"x": 228,
+		"y": 152,
 		"root": false
 	},
 	"eztm2vd7mtn9k0r1": {
 		"definition": "spell_resist+10",
-		"x": 228,
-		"y": 342,
+		"x": 190,
+		"y": 304,
 		"root": false
 	},
 	"armdxo307umften5": {
 		"definition": "spell_power+5%",
-		"x": 342,
-		"y": 228,
+		"x": 304,
+		"y": 190,
 		"root": false
 	},
 	"2i5n96631hw4hdjr": {
 		"definition": "cooldown_reduction-5%",
-		"x": 418,
-		"y": 304,
+		"x": 380,
+		"y": 266,
 		"root": false
 	},
 	"1j21qz6hgu1bscqp": {
 		"definition": "cooldown_reduction-5%",
-		"x": 456,
-		"y": 266,
+		"x": 418,
+		"y": 228,
 		"root": false
 	},
 	"6d3lmp8gottedqv3": {
 		"definition": "armor_shred+5%",
-		"x": 456,
-		"y": 342,
+		"x": 418,
+		"y": 304,
 		"root": false
 	},
 	"5c0xtdlcnc1ljxxp": {
 		"definition": "armor_shred+5%",
-		"x": 494,
-		"y": 304,
+		"x": 456,
+		"y": 266,
 		"root": false
 	},
 	"zcfq64kbqm34rj47": {
 		"definition": "luck+1",
-		"x": 304,
-		"y": 418,
+		"x": 266,
+		"y": 380,
 		"root": false
 	},
 	"lxt7s34zypri0y0t": {
 		"definition": "luck+1",
-		"x": 266,
-		"y": 456,
+		"x": 228,
+		"y": 418,
 		"root": false
 	},
 	"4rferqt3737fks6e": {
 		"definition": "dodge+5%",
-		"x": 342,
-		"y": 456,
+		"x": 304,
+		"y": 418,
 		"root": false
 	},
 	"3d0f23s3f8yy61y3": {
 		"definition": "dodge+5%",
-		"x": 304,
-		"y": 494,
+		"x": 266,
+		"y": 456,
 		"root": false
 	},
 	"uy0kj023mcovfwp7": {
 		"definition": "stamina+0.5%",
-		"x": 380,
-		"y": 494,
+		"x": 342,
+		"y": 456,
 		"root": false
 	},
 	"3m2w62zqv3bk9dxb": {
 		"definition": "stamina+0.5%",
-		"x": 342,
-		"y": 532,
+		"x": 304,
+		"y": 494,
 		"root": false
 	},
 	"2tlja24bm3jp461f": {
 		"definition": "luck+1",
-		"x": 494,
-		"y": 380,
+		"x": 456,
+		"y": 342,
 		"root": false
 	},
 	"k5lmvijjc95vjebk": {
 		"definition": "luck+1",
-		"x": 532,
-		"y": 342,
+		"x": 494,
+		"y": 304,
 		"root": false
 	},
 	"i12y0ql3x7r49as5": {
 		"definition": "spell_resist+10",
-		"x": 456,
-		"y": 494,
+		"x": 418,
+		"y": 456,
 		"root": false
 	},
 	"w1dbrox7b3o4zt5j": {
 		"definition": "mana+25",
-		"x": 494,
-		"y": 456,
+		"x": 456,
+		"y": 418,
 		"root": false
 	},
 	"mwy2qur0zk5c0446": {
 		"definition": "spell_power+10%",
-		"x": 456,
-		"y": 456,
-		"root": false
-	},
-	"cgfg6n2eat4e8hel": {
-		"definition": "zanite",
-		"x": 304,
-		"y": 304,
+		"x": 418,
+		"y": 418,
 		"root": false
 	},
 	"ebirnfz31e6sm2q3": {
 		"definition": "school",
-		"x": 342,
-		"y": 342,
+		"x": 304,
+		"y": 304,
+		"root": false
+	},
+	"v8etaa2zdzq4cnx9": {
+		"definition": "health2+",
+		"x": 114,
+		"y": 114,
+		"root": false
+	},
+	"wmv23910n44deta3": {
+		"definition": "wizard_expert_gear",
+		"x": 266,
+		"y": 266,
 		"root": false
 	}
 }

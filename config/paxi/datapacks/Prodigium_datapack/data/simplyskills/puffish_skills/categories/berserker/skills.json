@@ -20,7 +20,7 @@
 	"7ehcxvpa776xcy51": {
 		"definition": "jump+1%",
 		"x": 114,
-		"y": 494,
+		"y": 456,
 		"root": false
 	},
 	"xkwzbexxmoz9tf60": {
@@ -80,73 +80,73 @@
 	"1jxua1ewarhgwsqc": {
 		"definition": "berserkerSwordMastery",
 		"x": -152,
-		"y": 646,
+		"y": 608,
 		"root": false
 	},
 	"xtg8vi8jq27oldaf": {
 		"definition": "berserkerSwordMasteryProficient",
 		"x": -114,
-		"y": 684,
+		"y": 646,
 		"root": false
 	},
 	"332gej0dze54k9e5": {
 		"definition": "berserkerSwordMasterySkilled",
 		"x": 0,
-		"y": 760,
+		"y": 722,
 		"root": false
 	},
 	"lcu7iijs0154p3kn": {
 		"definition": "berserkerAxeMastery",
 		"x": -76,
-		"y": 646,
+		"y": 608,
 		"root": false
 	},
 	"cebgaybo8l8n5ned": {
 		"definition": "berserkerAxeMasteryProficient",
 		"x": -38,
-		"y": 646,
+		"y": 608,
 		"root": false
 	},
 	"f0ccx88f3n1jia44": {
 		"definition": "berserkerAxeMasterySkilled",
 		"x": -38,
-		"y": 722,
+		"y": 684,
 		"root": false
 	},
 	"3lk07z8aix5nre3m": {
 		"definition": "berserkerIgnorePain",
 		"x": 76,
-		"y": 646,
+		"y": 608,
 		"root": false
 	},
 	"7lz4qiw9gyl6jn9f": {
 		"definition": "berserkerIgnorePainProficient",
 		"x": 38,
-		"y": 646,
+		"y": 608,
 		"root": false
 	},
 	"z36r69d3rz8gp9yr": {
 		"definition": "berserkerIgnorePainSkilled",
 		"x": 38,
-		"y": 722,
+		"y": 684,
 		"root": false
 	},
 	"lt43usrmbd29eumq": {
 		"definition": "berserkerChallenge",
 		"x": 152,
-		"y": 646,
+		"y": 608,
 		"root": false
 	},
 	"umngr6xphan4ab80": {
 		"definition": "berserkerExploit",
 		"x": 114,
-		"y": 684,
+		"y": 646,
 		"root": false
 	},
 	"3vjk31efdt0gdohk": {
 		"definition": "melee_damage+5%",
 		"x": 0,
-		"y": 228,
+		"y": 0,
 		"root": true
 	},
 	"nwldvebpiolnf8qh": {
@@ -548,85 +548,85 @@
 	"1uh8baftbxordsde": {
 		"definition": "melee_damage+5%",
 		"x": -38,
-		"y": 304,
+		"y": 228,
 		"root": false
 	},
 	"psvgv829f4nji9op": {
 		"definition": "melee_damage+5%",
 		"x": -38,
-		"y": 342,
+		"y": 266,
 		"root": false
 	},
 	"vs8iml23l37nriau": {
 		"definition": "resistance+1",
 		"x": 114,
-		"y": 418,
+		"y": 380,
 		"root": false
 	},
 	"ijzlf4iz4vran9gs": {
 		"definition": "knockback_resistance+5%",
 		"x": 114,
-		"y": 532,
+		"y": 494,
 		"root": false
 	},
 	"w0w4qc3g7xm5fx1a": {
 		"definition": "knockback_resistance+5%",
 		"x": 152,
-		"y": 532,
+		"y": 494,
 		"root": false
 	},
 	"tozuf2dsqihtvae1": {
 		"definition": "stamina+0.5%",
 		"x": 114,
-		"y": 570,
+		"y": 532,
 		"root": false
 	},
 	"t4s6j4x0xzb5bozd": {
 		"definition": "spell_resist+10",
 		"x": -114,
-		"y": 418,
+		"y": 380,
 		"root": false
 	},
 	"mca1du6j9acpg85j": {
 		"definition": "crit_damage+5%",
 		"x": -114,
-		"y": 494,
+		"y": 456,
 		"root": false
 	},
 	"bxldnu9prnmi8yyi": {
 		"definition": "crit_chance+5%",
 		"x": -114,
-		"y": 532,
+		"y": 494,
 		"root": false
 	},
 	"vcdc5envrl56bx8a": {
 		"definition": "crit_chance+5%",
 		"x": -152,
-		"y": 532,
+		"y": 494,
 		"root": false
 	},
 	"8ydp0alj5mfpmvlg": {
 		"definition": "stamina+0.5%",
 		"x": -114,
-		"y": 570,
+		"y": 532,
 		"root": false
 	},
 	"ut6lyn06swb0uyat": {
 		"definition": "healing+5%",
 		"x": 38,
-		"y": 342,
+		"y": 266,
 		"root": false
 	},
 	"8bwp2fzka3fnkwom": {
 		"definition": "healing+5%",
 		"x": 38,
-		"y": 304,
+		"y": 228,
 		"root": false
 	},
 	"ivsra8npwhe5zonb": {
 		"definition": "luck+1",
 		"x": 0,
-		"y": 684,
+		"y": 646,
 		"root": false
 	},
 	"wbl7j7eg8l0dj9de": {
@@ -671,22 +671,16 @@
 		"y": 38,
 		"root": false
 	},
-	"lvayvoc2hvvqm15r": {
-		"definition": "tungsten",
-		"x": 0,
-		"y": 0,
-		"root": false
-	},
 	"0tryieq7s9pnx8jz": {
-		"definition": "phoenix",
+		"definition": "berserker_expert_gear",
 		"x": 0,
-		"y": 456,
+		"y": 418,
 		"root": false
 	},
-	"vo6t9abtiyjyjhwo": {
+	"ka8r0vx2hh46t4ne": {
 		"definition": "chorundum",
 		"x": 0,
-		"y": 494,
+		"y": 456,
 		"root": false
 	}
 }
