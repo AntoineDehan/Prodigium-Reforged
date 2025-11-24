@@ -36,7 +36,10 @@ PlayerEvents.changeMana((event) => {
 
   if (!magicData || magicData.getCastSource() !== "SPELLBOOK") return;
 
-  if (player.hasEffect("kubejs:skyjade_knowledge")) {
+  if (
+    player.hasEffect("kubejs:skyjade_knowledge") ||
+    player.hasEffect("kubejs:ignitium_magic")
+  ) {
     const oldMana = event.getOldMana();
     const newMana = event.getNewMana();
 
@@ -48,25 +51,123 @@ PlayerEvents.changeMana((event) => {
 
     manaTracker[player.uuid] += manaSpent;
 
-    if (manaTracker[player.uuid] >= 250) {
-      player.potionEffects.add("kubejs:skyjade_strength", 200, 0, false, true);
-      Client.player.playSound("minecraft:block.enchantment_table.use");
-      Client.player.playSound("minecraft:block.enchantment_table.use");
-      Client.player.playSound("minecraft:block.enchantment_table.use");
+    // Skyjade armor effect
+    if (player.hasEffect("kubejs:skyjade_knowledge")) {
+      if (manaTracker[player.uuid] >= 350) {
+        player.potionEffects.add(
+          "kubejs:skyjade_strength",
+          200,
+          0,
+          false,
+          true
+        );
+        Client.player.playSound("minecraft:block.enchantment_table.use");
+        Client.player.playSound("minecraft:block.enchantment_table.use");
+        Client.player.playSound("minecraft:block.enchantment_table.use");
 
-      manaTracker[player.uuid] = 0;
+        manaTracker[player.uuid] = 0;
+      }
+    }
+
+    // Wizard Ignitium effect
+    if (player.hasEffect("kubejs:ignitium_magic")) {
+      if (
+        !player.hasEffect("kubejs:ignitium_protection") &&
+        manaTracker[player.uuid] >= 500
+      ) {
+        {
+          player.potionEffects.add(
+            "kubejs:ignitium_charge",
+            300,
+            0,
+            false,
+            true
+          );
+          Client.player.playSound("minecraft:block.enchantment_table.use");
+          Client.player.playSound("minecraft:block.enchantment_table.use");
+          Client.player.playSound("minecraft:block.enchantment_table.use");
+
+          manaTracker[player.uuid] = 0;
+        }
+      } else if (
+        player.hasEffect("kubejs:ignitium_protection") &&
+        manaTracker[player.uuid] >= 500
+      ) {
+        player.removeEffect("kubejs:ignitium_protection");
+        player.removeEffect("kubejs:ignitium_charge");
+        player.potionEffects.add("kubejs:overcharged", 180, 0, false, true);
+        Client.player.playSound("wizards:fire_wall_ignite");
+        Client.player.playSound("cataclysm:ignis_death");
+        Client.player.playSound("wizards:fire_wall_ignite");
+        manaTracker[player.uuid] = 0;
+      }
     }
   }
 
-  if (player.hasEffect("kubejs:wizard_knowledge")) {
+  // Wizard armor effect
+  if (
+    player.hasEffect("kubejs:wizard_knowledge") ||
+    player.hasEffect("kubejs:super_wizard_knowledge") ||
+    player.hasEffect("kybejs:witherite_magic_knowledge")
+  ) {
     const oldMana = event.getOldMana();
     const newMana = event.getNewMana();
 
     const manaSpent = oldMana - newMana;
-    const reducedManaSpent = manaSpent * 0.75;
-    event.setNewMana(oldMana - reducedManaSpent);
+    if (player.hasEffect("kubejs:wizard_knowledge")) {
+      const reducedManaSpent = manaSpent * 0.75;
+      event.setNewMana(oldMana - reducedManaSpent);
+    }
+    if (player.hasEffect("kubejs:super_wizard_knowledge")) {
+      const reducedManaSpent = manaSpent * 0.65;
+      event.setNewMana(oldMana - reducedManaSpent);
+    }
+
+    if (
+      player.hasEffect("kubejs:witherite_magic_knowledge") &&
+      player.health / player.maxHealth > 0.9
+    ) {
+      const reducedManaSpent = manaSpent * 0.5;
+      event.setNewMana(oldMana - reducedManaSpent);
+    } else if (player.hasEffect("kubejs:witherite_magic_knowledge")) {
+      const reducedManaSpent = manaSpent * 0.6;
+      event.setNewMana(oldMana - reducedManaSpent);
+    }
   } else return;
 
+  // Cleric Nether armor effect
+  if (player.hasEffect("kubejs:nether_embrace")) {
+    const spellTarget = magicData.additionalCastData.getTarget(player.level);
+    const spellId = magicData.getCastingSpellId();
+    if (
+      spellTarget.hasEffect("kubejs:nether_protection") ||
+      spellTarget.hasEffect("kubejs:nether_heat")
+    ) {
+      spellTarget.potionEffects.add(
+        "minecraft:fire_resistance",
+        400,
+        0,
+        true,
+        false
+      );
+      return;
+    } else if (holySpells.includes(spellId)) {
+      spellTarget.potionEffects.add(
+        "minecraft:fire_resistance",
+        400,
+        0,
+        true,
+        false
+      );
+      spellTarget.potionEffects.add(
+        "kubejs:nether_reinforcement",
+        400,
+        0,
+        true,
+        false
+      );
+    }
+  }
   // Handling of Sol armor effect
   if (player.hasEffect("kubejs:sun_light")) {
     const spellTarget = magicData.additionalCastData.getTarget(player.level);

@@ -214,6 +214,18 @@ StartupEvents.registry("mob_effect", (event) => {
   // Wizard's Knowledge
   event.create("wizard_knowledge").color(0xffd27f).beneficial();
 
+  // Placeholder name
+  event
+    .create("super_wizard_knowledge")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "db623a34-49e0-4664-b970-d4e64a88c164",
+      0.1,
+      "multiply_base"
+    );
+
   // Skyjade's Knowledge
   event.create("skyjade_knowledge").color(0xffd27f).beneficial();
 
@@ -239,5 +251,807 @@ StartupEvents.registry("mob_effect", (event) => {
       "ac1b01d3-e434-4948-9e07-79a13d439817",
       0.3,
       "addition"
+    );
+
+  // Infernal Fire
+  event.create("infernal_fire").color(0xffd27f).beneficial();
+
+  // Enforcer's Wrath
+  event
+    .create("enforcer_wrath")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "8348f621-3a38-4be8-8097-090c80b5e562",
+      0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.chance_ammo",
+      "d6568c78-d7eb-424c-923a-633a3f7fc7c6",
+      -0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.fire_delay",
+      "b1fd79b6-7573-49af-8cb7-d959ec728d1a",
+      -0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "bd07556c-e05e-4b42-b148-7e9cb6606b30",
+      0.15,
+      "multiply_total"
+    );
+
+  // Soul Collector
+  event.create("soul_collector").color(0xffd27f).beneficial();
+
+  // Soul Gorged
+  event
+    .create("soul_gorged")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "c2cd6b65-56f0-4d40-ae6a-29c0e3dacd38",
+      0.02,
+      "multiply_base"
+    )
+    .modifyAttribute(
+      "minecraft:generic.luck",
+      "1dcc85ea-7522-4664-931e-53fcdafbedcc",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "41fd5b15-fb09-49d7-b582-48d067f72f18",
+      0.05,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.knockback",
+      "afd6be4a-8f21-4c02-baf5-694a820a8d8e",
+      0.1,
+      "addition"
+    )
+    .modifyAttribute(
+      "sweet_charm_o_mine:bullet_armor_penetration",
+      "05ec89f4-0740-419e-929a-478bdde9917c",
+      0.01,
+      "addition"
+    );
+
+  /// Holy Marauder armor set
+  // Marauder Buff
+  event.create("marauder_buff").color(0xffd27f).beneficial();
+
+  // Marauder's Light
+  event
+    .create("marauder_light")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:holy_spell_power",
+      "ed45e531-d269-48f9-b351-1b6dcff8be27",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:cast_time_reduction",
+      "d8b07366-fbef-431c-8681-3c467d0de73b",
+      0.3,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:cooldown_reduction",
+      "a1159f61-c9f6-4b41-a66b-43de4189a701",
+      0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "16fdfd55-7bb0-4f5f-9bc8-41f6888fdcb5",
+      0.05,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:dodge_chance",
+      "95b14b8f-c91e-4ef8-b7c5-af930bcd70b5",
+      0.3,
+      "addition"
+    );
+
+  /// Dargon armor set
+  // Dragon Protection
+  event.create("dragon_protection").color(0xffd27f).beneficial();
+
+  // Dragon Bones
+  event
+    .create("dragon_bones")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "dc91cb60-3e8c-4283-a974-5e9f6ab5b1b0",
+      3,
+      "addition"
+    )
+    .modifyAttribute(
+      "minecraft:generic.armor_toughness",
+      "631daafd-8506-411f-a535-bc22b35312ae",
+      0.5,
+      "addition"
+    )
+    .modifyAttribute(
+      "minecraft:generic.luck",
+      "27f34463-b57d-48b2-943f-e4fbb169981f",
+      1,
+      "addition"
+    );
+
+  /// Valkyrie armor set
+  // Valkyrie Aura
+  event
+    .create("valkyrie_aura")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "89c222af-5317-4738-bd55-7879ac848f9b",
+      2,
+      "addition"
+    );
+
+  // Valkyrie Protection
+  event
+    .create("valkyrie_protection")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "a9812fc8-ca1e-4067-b1ae-918d31f1881c",
+      8,
+      "addition"
+    )
+    .modifyAttribute(
+      "minecraft:generic.armor_toughness",
+      "3a6f9e1f-7b84-48f2-b15e-eb0e2e7ae9c2",
+      2,
+      "addition"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "58f35cf0-e54b-4ff3-b647-cd4b08022ff9",
+      0.2,
+      "addition"
+    );
+
+  /// Plated Valkyrie armor set
+  // Plated Valkyrie
+  event.create("plated_valkyrie").color(0xffd27f).beneficial();
+
+  // Plated Defense
+  event
+    .create("plated_defense")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "52257bd8-9089-4c66-be1e-ed392cb9daf9",
+      4,
+      "addition"
+    )
+    .modifyAttribute(
+      "minecraft:generic.armor_toughness",
+      "b7fedc14-2973-4226-a835-a528ddec8a79",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "minecraft:generic.luck",
+      "7b15cc24-2d3e-4b03-9145-2e7d5f6692fa",
+      1.5,
+      "addition"
+    );
+
+  /// Phoenix armor set
+  // Phoneix Embrace
+  event.create("phoenix_embrace").color(0xffd27f).beneficial();
+
+  // Pheonix Rage
+  event
+    .create("phoenix_rage")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "puffish_attributes:player.resistance",
+      "5c264b7c-4983-48a0-b540-f295b4875354",
+      0.11,
+      "addition"
+    )
+    .modifyAttribute(
+      "minecraft:generic.attack_damage",
+      "1b37f15d-9761-4cbc-a76e-1aca603bb4a6",
+      0.06,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "e0ba4151-b3da-434b-8379-e0e9a0946f33",
+      0.05,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:crit_chance",
+      "c83f5aeb-3808-41cd-b134-674f2d51a656",
+      0.11,
+      "addition"
+    );
+
+  /// Witherite armor set
+  // Mechanical Mind
+  event.create("mechanical_mind").color(0xffd27f).beneficial();
+
+  // Mechanical Skin
+  event
+    .create("mechanical_skin")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "78b2985e-b9f3-4f7d-9437-8960c0b288d5",
+      2,
+      "addition"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "4018f3b2-1e0e-460a-b20d-97d9af9e2609",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "combatroll:recharge",
+      "ba6a9c64-8a37-478d-b077-69ed98c00cc4",
+      0.25,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.luck",
+      "f0cfd8f5-f19e-4865-b7bd-e41cbda6ed97",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "minecraft:generic.max_health",
+      "fdd49026-3e4d-4222-b2c6-5b8a799a04fe",
+      0.15,
+      "multiply_total"
+    );
+
+  // Mechanical Strength
+  event
+    .create("mechanical_strength")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.attack_damage",
+      "4071533b-c296-45a4-8efa-447518871816",
+      0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.attack_speed",
+      "8f162c61-cb8d-4212-bfdb-ab4b172d78bc",
+      0.35,
+      "addition"
+    )
+    .modifyAttribute(
+      "attributeslib:current_hp_damage",
+      "c5b539c3-0589-483a-9bc1-dba7a46f75c7",
+      0.02,
+      "addition"
+    )
+    .modifyAttribute(
+      "attributeslib:armor_shred",
+      "592c74bb-50a3-4b91-b98c-51deeab641d9",
+      0.2,
+      "addition"
+    );
+
+  /// Void Blossom armor set
+  // Blossom Aura
+  event.create("blossom_aura").color(0xffd27f).beneficial();
+
+  // Thorned
+  event
+    .create("thorned")
+    .color(0xffd27f)
+    .harmful()
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "d694cf7e-8d39-4746-af87-bb3df8640487",
+      -0.3,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.knockback_resistance",
+      "3bfc427b-2fb9-4485-a9ed-bc5b777ed299",
+      0.8,
+      "multiply_total"
+    );
+
+  // Blossom Aroma
+  event
+    .create("blossom_aroma")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "2555ddf3-0842-4722-becd-9c36e7fd4472",
+      0.11,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.chance_ammo",
+      "7a1cdfd7-774d-40a9-853b-daa65b86bcee",
+      -0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "combatroll:count",
+      "0e4cbf4e-ac5e-4c63-8f50-e34d9c06bfcf",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "combatroll:recharge",
+      "736b8ace-1184-4c82-894a-e84914688a28",
+      0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "96c03997-8bf7-4286-82af-c0959fa45418",
+      0.15,
+      "multiply_total"
+    );
+
+  // Blossom Pollen
+  event
+    .create("blossom_pollen")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "0dba627b-972e-44fc-a4d1-15ffc277efcc",
+      0.05,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.chance_ammo",
+      "195022c3-19bf-4bae-b544-34150d929e6c",
+      -0.5,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "combatroll:count",
+      "f62b8975-075d-419a-8951-57548ebaeea2",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "combatroll:recharge",
+      "c60694ad-2790-4131-bc6f-28ddb4de5bb2",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "9d4daac3-80ff-4b3e-8616-6a8ba6049f0b",
+      0.25,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "ff077287-202a-424a-9601-ebe39408da60",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:dodge_chance",
+      "73f2b36e-3b64-44e3-8794-2d0b24009827",
+      0.1,
+      "addition"
+    );
+
+  /// Another Gunner Set
+  // Shotgun Bonus
+  event
+    .create("shotgun_bonus")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "44a63a8d-9f34-4dbb-809a-0de667383bfd",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.shotgun_projectiles",
+      "10128ecc-63c3-470a-8a33-2c4f24a5a290",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "attributeslib:dodge_chance",
+      "48d8bcb7-9349-46e1-b593-6e33ec45480b",
+      0.15,
+      "addition"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "0e4142b3-44b3-483e-b19a-675cea16337e",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.spread",
+      "087cca02-4bfb-489f-b51d-153c38584905",
+      -0.25,
+      "multiply_total"
+    );
+
+  // Gatling Bonus
+  event
+    .create("gatling_bonus")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "eab65fd0-9801-4df1-998c-e09082f1a5d0",
+      0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.chance_ammo",
+      "5980e4aa-f8cf-4a23-8675-f8be716cbdc6",
+      -0.2,
+      "addition"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.fire_delay",
+      "85e634fb-358e-4a4d-9b1e-600411f3f539",
+      -0.05,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.spread",
+      "07468fc9-b495-4f72-9fcf-91896dcea1ef",
+      -0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.max_health",
+      "52661e15-fc4d-40d7-94f6-b47be6205632",
+      0.2,
+      "multiply_total"
+    );
+
+  // Sniper Bonus
+  event
+    .create("sniper_bonus")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "bebe3769-30d6-4db8-ab1e-8b30bfd69064",
+      0.25,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.sniper_crit_mult",
+      "55380606-ed89-462c-ac8a-39a1099199d5",
+      0.5,
+      "addition"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.fire_delay",
+      "c76aa636-4e2e-46d3-818f-e173fb34356d",
+      -0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "combatroll:count",
+      "65d3ed58-9efe-4a5f-bc1b-b902b5070d0e",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "combatroll:recharge",
+      "3a20868c-67ed-4930-aea7-4f06c82d8e73",
+      0.25,
+      "multiply_total"
+    );
+
+  // Pistol Bonus
+  event
+    .create("pistol_bonus")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "c7c6100b-e3db-4739-a437-4b28339cb401",
+      0.3,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.fire_delay",
+      "261f38ad-50c4-4fbd-a90b-0741f5aad1b5",
+      -0.15,
+      "addition"
+    )
+    .modifyAttribute(
+      "gunswithoutroses:gwr.spread",
+      "54be21c3-c23d-461f-8194-9fc7dcf13051",
+      -0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:dodge_chance",
+      "b8197be5-aec5-4971-8af1-1cbb072e0aca",
+      0.05,
+      "addition"
+    )
+    .modifyAttribute(
+      "sweet_charm_o_mine:bullet_armor_penetration",
+      "9d8488f3-fa62-4a5b-bdf0-0b18ca897d5d",
+      0.05,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.luck",
+      "f13a7f29-488a-4f2c-9109-be9c0f151921",
+      2,
+      "addition"
+    );
+
+  /// Cleric Nether set
+  // Nether Embrace
+  event.create("nether_embrace").color(0xffd27f).beneficial();
+
+  // Nether Reinforcement
+  event
+    .create("nether_reinforcement")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "d2bc77bc-dfd2-48fa-9c97-95fcfd4525fb",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "9c708a05-1794-497f-b7a7-cc58d6757ec6",
+      0.2,
+      "multiply_total"
+    );
+
+  // Nether Protection
+  event
+    .create("nether_protection")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "f002aa2d-36ff-4dd5-8cef-76c5ba832fa8",
+      8,
+      "addition"
+    )
+    .modifyAttribute(
+      "attributeslib:dodge_chance",
+      "4f0a825e-8b68-4149-ba65-64008d1470e3",
+      0.1,
+      "addition"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "ea3fe78d-addf-4a4d-8228-68b826a0fabc",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "72fb538c-361b-4b54-9f71-2ba9fd40e5cd",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "combatroll:count",
+      "8575e6e5-d9d4-4d29-8405-9e2d61fb640a",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.resistance",
+      "8aa59537-3764-4310-b84f-3fd7189bb041",
+      0.03,
+      "addition"
+    );
+
+  // Nether Heat
+  event
+    .create("nether_heat")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "34532b0f-f794-42c7-b751-b9703b8497db",
+      0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.attack_damage",
+      "fca8f5df-56d1-4553-af5c-57184e7f13a7",
+      0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:spell_power",
+      "2137d235-e8a7-498d-a301-12ee686ea3dc",
+      0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:arrow_damage",
+      "2d1ba380-8d6e-4834-87b7-764f0b56e440",
+      0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "75789f15-c528-4d72-8b93-c643b14dbd30",
+      0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:armor_shred",
+      "5bdb208c-680d-4f79-bc24-5358154a124d",
+      0.05,
+      "addition"
+    );
+
+  /// Wizard Ignitium set
+  // Ignitium Magic
+  event.create("ignitium_magic").color(0xffd27f).beneficial();
+
+  // Ignitium Protection
+  event
+    .create("ignitium_protection")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "e00cc9b8-9d20-45cd-941b-9597013d9d70",
+      0.3,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "773d5451-8dd5-4373-94eb-c325af743d78",
+      4,
+      "addition"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "00976447-7491-46c0-875c-b6a35a252830",
+      0.25,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "ba9c2829-f187-4401-9ec9-891ffa5a4d30",
+      0.25,
+      "multiply_total"
+    );
+
+  // Ignitium Charge
+  event
+    .create("ignitium_charge")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:cast_time_reduction",
+      "4c312684-8423-454f-8a51-a69073a307ff",
+      0.35,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:cooldown_reduction",
+      "4c312684-8423-454f-8a51-a69073a307ff",
+      0.35,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:spell_power",
+      "658c1739-9457-44a6-ac18-5dde28fae455",
+      0.32,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "eb918dea-b94f-4bd6-8415-bb6b2bc20fc4",
+      0.25,
+      "multiply_total"
+    );
+
+  // Overcharged
+  event
+    .create("overcharged")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:cast_time_reduction",
+      "8c8b0df1-fd38-47e0-81b3-bc1f8989a18b",
+      0.45,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:cooldown_reduction",
+      "0bfb59df-a1a6-48d2-b98b-07cf4a3ee5a6",
+      0.45,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:spell_power",
+      "683f110d-49d8-42c4-b2a1-c5258e591a06",
+      0.5,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "8ce59d9b-d620-4de9-85a8-abd21e3bd6d7",
+      0.5,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "3cad4c69-9268-4c79-b393-b27e686d1097",
+      0.45,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "4b6e8778-0006-48f6-8191-bc5c2f3f1fe3",
+      -6,
+      "addition"
+    );
+
+  // Placeholder name
+  event
+    .create("witherite_magic_knowledge")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "10ecfbbb-bf79-4e33-90fb-80bf4d2fd06d",
+      0.15,
+      "multiply_base"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:cast_time_reduction",
+      "20eb467c-0ea9-4c2f-80c8-18a710b0fb61",
+      0.15,
+      "multiply_base"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:cooldown_reduction",
+      "a39a63f4-7f66-477b-bf4a-f5c3970d284c",
+      0.15,
+      "multiply_base"
     );
 });
