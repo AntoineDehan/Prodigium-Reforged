@@ -197,8 +197,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - immersive_weathering
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -237,8 +237,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - goated
 		# - environmental
+		# - goated
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -246,8 +246,8 @@
 	[building.variant_bookshelves]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - woodster
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -266,8 +266,8 @@
 	[building.variant_ladders]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - woodster
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -369,7 +369,7 @@
 		"Item Quality" = 2
 		"Normal Upgrade Cost" = 10
 		"Limit Break Upgrade Cost" = 30
-		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
+		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing", "tameablebeasts:swarm", "gunswithoutroses:deadeye", "gunswithoutroses:preserving", "gunswithoutroses:sleight_of_hand", "gunswithoutroses:impact", "combatroll:multi_roll", "combatroll:acrobat", "combatroll:longfooted", "gunswithoutroses:bullseye", "tameablebeasts:sting", "domesticationinnovation:frost_fang", "domesticationinnovation:shadow_hands", "allurement:shockwave", "allurement:spread_of_ailments", "allurement:vengeance", "domesticationinnovation:psychic_wall", "archeryexp:scouting", "domesticationinnovation:blazing_protection", "too_many_bows:ricochet", "farmers_delight:backstabbing", "domesticationinnovation:healing_aura", "domesticationinnovation:intimidation", "aggrofix:aggrobaiting", "aggrofix:aggronizing", "majruszsenchantments:magic_protection", "domesticationinnovation:health_boost", "domesticationinnovation:immunity_frame", "domesticationinnovation:speedster", "domesticationinnovation:chain_lightning", "stalwart_dungeons:thunder_strike", "majruszsenchantments:horse_swiftness", "majruszsenchantments:enlightenment", "majruszsenchantments:dodge"]
 		"Overleveled Books Glow Rainbow" = true
 		#When enabled, Efficiency VI Diamond and Netherite pickaxes can instamine Deepslate when under Haste 2
 		"Deepslate Tweak" = true
