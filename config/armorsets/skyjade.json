@@ -1,0 +1,37 @@
+{
+  "armorSetName": "wizard",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:skyjade_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:skyjade_helmet"
+  },
+  "legs": {
+    "itemKey": "kubejs:skyjade_helmet"
+  },
+  "boots": {
+    "itemKey": "kubejs:skyjade_helmet"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "modifierUUID": "5d9ea035-2aaa-40ac-886b-7533c099ef6d",
+      "description": "+5% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 125,
+      "modifierUUID": "0611def9-b32d-4822-ae6c-c3f279735d00",
+      "description": "+125 Max Mana"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:skyjade_knowledge",
+      "value": 0.0
+    }
+  ]
+}

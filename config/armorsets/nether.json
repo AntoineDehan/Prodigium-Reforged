@@ -1,0 +1,37 @@
+{
+  "armorSetName": "cleric",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:nether_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:nether_chestplate"
+  },
+  "legs": {
+    "itemKey": "kubejs:nether_leggings"
+  },
+  "boots": {
+    "itemKey": "kubejs:nether_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:holy_spell_power",
+      "value": 0.08,
+      "modifierUUID": "973ad87f-8ae6-4860-9177-751db0a6f627",
+      "description": "+8% Holy Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 150,
+      "modifierUUID": "6978f508-789a-4288-832a-d504869757dc",
+      "description": "+150 Max Mana"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:nether_embrace",
+      "value": 0.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "armorSetName": "cleric",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "mowziesmobs:sol_visage"
+  },
+  "chest": {
+    "itemKey": "kubejs:sol_chestplate"
+  },
+  "legs": {
+    "itemKey": "kubejs:sol_leggings"
+  },
+  "boots": {
+    "itemKey": "kubejs:sol_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:holy_spell_power",
+      "value": 0.04,
+      "modifierUUID": "80ef5b8f-9d43-4958-a833-eea5ccf392b1",
+      "description": "+4% Holy Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 75,
+      "modifierUUID": "6ba542c9-5644-4f08-b733-c12791a7ab82",
+      "description": "+75 Max Mana"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:sun_light",
+      "value": 0.0
+    }
+  ]
+}

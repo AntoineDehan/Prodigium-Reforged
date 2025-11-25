@@ -1,0 +1,44 @@
+{
+  "armorSetName": "cleric",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:holy_marauder_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:holy_marauder_chestplate"
+  },
+  "legs": {
+    "itemKey": "kubejs:holy_marauder_leggings"
+  },
+  "boots": {
+    "itemKey": "kubejs:holy_marauder_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:holy_spell_power",
+      "value": 0.02,
+      "modifierUUID": "7daaccbd-7326-430e-a57d-21efd42ade1b",
+      "description": "+2% Holy Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 50,
+      "modifierUUID": "e79d0b09-e081-457f-9f66-82886b7f5a22",
+      "description": "+50 Max Mana"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 2,
+      "modifierUUID": "05cc1a71-4cdb-4345-9f63-61da87bd0f11",
+      "description": "+2 Attack Damage"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:marauder_buff",
+      "value": 0.0
+    }
+  ]
+}

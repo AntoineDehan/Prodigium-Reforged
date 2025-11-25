@@ -17,9 +17,9 @@
     {
       "type": "attribute",
       "name": "irons_spellbooks:spell_power",
-      "value": 0.05,
+      "value": 0.04,
       "modifierUUID": "fd83eb39-fa96-4ddb-968a-fb00482eaa69",
-      "description": "+5% Spell Power"
+      "description": "+4% Spell Power"
     },
     {
       "type": "attribute",
@@ -30,7 +30,7 @@
     },
     {
       "type": "effect",
-      "name": "irons_spellbooks:gluttony",
+      "name": "kubejs:wizard_knowledge",
       "value": 0.0
     }
   ]

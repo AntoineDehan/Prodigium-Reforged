@@ -24,13 +24,13 @@
     {
       "type": "attribute",
       "name": "irons_spellbooks:max_mana",
-      "value": 50,
+      "value": 100,
       "modifierUUID": "5d17f7f3-147a-48bc-aa66-0842661f87c8",
-      "description": "+50 Max Mana"
+      "description": "+100 Max Mana"
     },
     {
       "type": "effect",
-      "name": "extraalchemy:photosynthesis",
+      "name": "kubejs:prior_faith",
       "value": 0.0
     }
   ]

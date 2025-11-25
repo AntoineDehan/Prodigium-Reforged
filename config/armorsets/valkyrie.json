@@ -17,9 +17,9 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": 2.5,
+      "value": 3,
       "modifierUUID": "844303b1-dbd9-4b20-b077-ccad75118b6c",
-      "description": "+2.5 Armor"
+      "description": "+3 Armor"
     },
     {
       "type": "attribute",
@@ -29,8 +29,22 @@
       "description": "+1 Armor Toughness"
     },
     {
+      "type": "attribute",
+      "name": "confluence:aggro",
+      "value": 2,
+      "modifierUUID": "f2790c2d-980e-4fee-bf8e-d1dfe6f954d5",
+      "description": "Enemies are more likely to target you"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 100,
+      "modifierUUID": "c6de33e3-843a-4e69-bd87-2f495c22f7d6",
+      "description": "+100 Mana"
+    },
+    {
       "type": "effect",
-      "name": "irons_spellbooks:guided",
+      "name": "kubejs:valkyrie_aura",
       "value": 0.0
     }
   ]

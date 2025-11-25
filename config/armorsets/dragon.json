@@ -37,7 +37,7 @@
     },
     {
       "type": "effect",
-      "name": "alexsmobs:knockback_resistance",
+      "name": "kubejs:dragon_protection",
       "value": 0.0
     }
   ]

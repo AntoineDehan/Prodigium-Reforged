@@ -1,0 +1,44 @@
+{
+  "armorSetName": "crusader",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:plated_valkyrie_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:plated_valkyrie_chestplate"
+  },
+  "legs": {
+    "itemKey": "kubejs:plated_valkyrie_leggings"
+  },
+  "boots": {
+    "itemKey": "kubejs:plated_valkyrie_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4.0,
+      "modifierUUID": "fc7ca277-9a57-4030-951b-7efe095c3413",
+      "description": "+4 Armor"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 3,
+      "modifierUUID": "9e7cb3b7-5865-4489-a14d-1f2d40984baf",
+      "description": "+3 armor toughness"
+    },
+    {
+      "type": "attribute",
+      "name": "confluence:aggro",
+      "value": 4,
+      "modifierUUID": "c1ab6edc-7034-4e24-a97e-ec33e1609f1b",
+      "description": "Enemies are way more likely to target you"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:plated_valkyrie",
+      "value": 0.0
+    }
+  ]
+}

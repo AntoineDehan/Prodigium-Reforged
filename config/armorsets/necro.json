@@ -1,0 +1,37 @@
+{
+  "armorSetName": "gunner",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:necro_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:necro_chestplate"
+  },
+  "legs": {
+    "itemKey": "kubejs:necro_leggings"
+  },
+  "boots": {
+    "itemKey": "kubejs:necro_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_base",
+      "value": 3.0,
+      "modifierUUID": "1cd1a801-4507-4e5d-a21f-b978d322f666",
+      "description": "+3.0 Gun damage"
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.fire_delay",
+      "value": -0.15,
+      "modifierUUID": "d6868913-5e5e-4d64-a859-5bb03d0c8e67",
+      "description": "+15% Rate of Fire"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:soul_collector",
+      "value": 0.0
+    }
+  ]
+}

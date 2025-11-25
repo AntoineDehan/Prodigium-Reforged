@@ -1,0 +1,42 @@
+{
+  "armorSetName": "wizard",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:wizard_ignitium_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:wizard_ignitium_helmet"
+  },
+  "legs": {
+    "itemKey": "kubejs:wizard_ignitium_helmet"
+  },
+  "boots": {
+    "itemKey": "kubejs:wizard_ignitium_helmet"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.08,
+      "modifierUUID": "c120854a-ccc4-43e5-8239-bf8d5d9b5a17",
+      "description": "+8% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 175,
+      "modifierUUID": "d17270ef-d8b6-4141-8faf-741c82bf9b35",
+      "description": "+175 Max Mana"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:ignitium_magic",
+      "value": 0.0
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0
+    }
+  ]
+}
