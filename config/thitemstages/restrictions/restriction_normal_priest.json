@@ -1,18 +1,18 @@
 {
   "Restriction Data": {
-    "stage": "stage_cleric_prior",
+    "stage": "stage_priest_normal",
     "itemList": [
       {
-        "item": "paladins:prior_robe_head"
+        "item": "mowziesmobs:sol_visage"
       },
       {
-        "item": "paladins:prior_robe_chest"
+        "item": "kubejs:sol_chestplate"
       },
       {
-        "item": "paladins:prior_robe_legs"
+        "item": "kubejs:sol_leggins"
       },
       {
-        "item": "paladins:prior_robe_feet"
+        "item": "kubejs:sol_boots"
       }
     ],
     "modList": [],
@@ -23,12 +23,12 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Cleric's skill tree)",
+    "itemTitle": "Unavailable Item (Unlock it in the Mage's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,

@@ -1,18 +1,18 @@
 {
   "Restriction Data": {
-    "stage": "stage_ranged_neptune",
+    "stage": "stage_priest_normal",
     "itemList": [
       {
-        "item": "aether:neptune_helmet"
+        "item": "mowziesmobs:sol_visage"
       },
       {
-        "item": "aether:neptune_leggings"
+        "item": "kubejs:sol_chestplate"
       },
       {
-        "item": "aether:neptune_chestplate"
+        "item": "kubejs:sol_leggins"
       },
       {
-        "item": "aether:neptune_boots"
+        "item": "kubejs:sol_boots"
       }
     ],
     "modList": [],
@@ -23,12 +23,12 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Ranger's skill tree)",
+    "itemTitle": "Unavailable Item (Unlock it in the Priest's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,

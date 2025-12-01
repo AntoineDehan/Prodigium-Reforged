@@ -1,18 +1,18 @@
 {
   "Restriction Data": {
-    "stage": "stage_crusader_valkyrie",
+    "stage": "stage_wizard_normal",
     "itemList": [
       {
-        "item": "aether:valkyrie_helmet"
+        "item": "wizards:wizard_robe_head"
       },
       {
-        "item": "aether:valkyrie_leggings"
+        "item": "wizards:wizard_robe_chest"
       },
       {
-        "item": "aether:valkyrie_chestplate"
+        "item": "wizards:wizard_robe_legs"
       },
       {
-        "item": "aether:valkyrie_boots"
+        "item": "wizards:wizard_robe_boots"
       }
     ],
     "modList": [],
@@ -23,12 +23,12 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Crusaders's skill tree)",
+    "itemTitle": "Unavailable Item (Unlock it in the Mage's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,

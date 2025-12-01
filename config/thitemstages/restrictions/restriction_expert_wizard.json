@@ -1,18 +1,30 @@
 {
   "Restriction Data": {
-    "stage": "stage_berserker_diamond",
+    "stage": "stage_wizard_expert",
     "itemList": [
       {
-        "item": "minecraft:diamond_helmet"
+        "item": "kubejs:skyjade_helmet"
       },
       {
-        "item": "minecraft:diamond_leggings"
+        "item": "kubejs:skyjade_chestplate"
       },
       {
-        "item": "minecraft:diamond_chestplate"
+        "item": "kubejs:skyjade_leggings"
       },
       {
-        "item": "minecraft:diamond_boots"
+        "item": "kubejs:skyjade_boots"
+      },
+      {
+        "item": "kubejs:wizard_ignitium_helmet"
+      },
+      {
+        "item": "kubejs:wizard_ignitium_chest"
+      },
+      {
+        "item": "kubejs:wizard_ignitium_legs"
+      },
+      {
+        "item": "kubejs:wizard_ignitium_boots"
       }
     ],
     "modList": [],
@@ -23,12 +35,12 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Berseker's skill tree & Defeat Frostmaw)",
+    "itemTitle": "Unavailable Item (Unlock it in the Wizard's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,

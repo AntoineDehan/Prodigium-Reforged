@@ -1,18 +1,18 @@
 {
   "Restriction Data": {
-    "stage": "stage_crusader_mythril",
+    "stage": "stage_gunner_expert",
     "itemList": [
       {
-        "item": "simpleores:myhtril_helmet"
+        "item": "bypowderandsteel:infernal_enforcerhelmet"
       },
       {
-        "item": "simpleores:myhtril_leggings"
+        "item": "bypowderandsteel:infernal_enforcerleggings"
       },
       {
-        "item": "simpleores:myhtril_chestplate"
+        "item": "bypowderandsteel:infernal_enforcerchestplate"
       },
       {
-        "item": "simpleores:myhtril_boots"
+        "item": "bypowderandsteel:infernal_enforcerboots"
       }
     ],
     "modList": [],
@@ -23,12 +23,12 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Melee's skill tree & Defeat Bellringer)",
+    "itemTitle": "Unavailable Item (Unlock it in the Gunner's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,

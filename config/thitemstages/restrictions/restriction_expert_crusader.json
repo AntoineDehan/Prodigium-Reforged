@@ -1,18 +1,42 @@
 {
   "Restriction Data": {
-    "stage": "stage_crusader_crusader",
+    "stage": "stage_crusader_expert",
     "itemList": [
       {
-        "item": "paladins:crusader_armor_head"
+        "item": "paladin:crusader_armor_head"
       },
       {
-        "item": "paladins:crusader_armor_chest"
+        "item": "paladin:crusader_armor_chest"
       },
       {
         "item": "paladins:crusader_armor_legs"
       },
       {
         "item": "paladins:crusader_armor_feet"
+      },
+      {
+        "item": "aether:valkyrie_helmet"
+      },
+      {
+        "item": "aether:valkyrie_chestplate"
+      },
+      {
+        "item": "aether:valkyrie_leggings"
+      },
+      {
+        "item": "aether:valkyrie_boots"
+      },
+      {
+        "item": "block_factorys_bosses:dragon_helmet"
+      },
+      {
+        "item": "block_factorys_bosses:dragon_bones_chestplate"
+      },
+      {
+        "item": "block_factorys_bosses:dragon_bones_leggings"
+      },
+      {
+        "item": "block_factorys_bosses:dragon_bones_boots"
       }
     ],
     "modList": [],
@@ -28,7 +52,7 @@
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,

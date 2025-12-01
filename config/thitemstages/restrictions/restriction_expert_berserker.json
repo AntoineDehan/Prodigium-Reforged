@@ -1,6 +1,6 @@
 {
   "Restriction Data": {
-    "stage": "stage_berserker_tungsten",
+    "stage": "stage_berserker_expert",
     "itemList": [
       {
         "item": "stalwart_dungeons:tungsten_helmet"
@@ -13,6 +13,30 @@
       },
       {
         "item": "stalwart_dungeons:tungsten_boots"
+      },
+      {
+        "item": "stalwart_dungeons:warted_tungsten_helmet"
+      },
+      {
+        "item": "stalwart_dungeons:warted_tungsten_leggings"
+      },
+      {
+        "item": "stalwart_dungeons:warted_tungsten_chestplate"
+      },
+      {
+        "item": "stalwart_dungeons:warted_tungsten_boots"
+      },
+      {
+        "item": "aether:phoenix_helmet"
+      },
+      {
+        "item": "aether:phoenix_leggings"
+      },
+      {
+        "item": "aether:phoenix_chestplate"
+      },
+      {
+        "item": "aether:phoenix_boots"
       }
     ],
     "modList": [],
@@ -23,12 +47,12 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Berseker's skill tree)",
+    "itemTitle": "Unavailable Item (Unlock it in the Berserker's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,

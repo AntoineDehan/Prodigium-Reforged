@@ -1,18 +1,18 @@
 {
   "Restriction Data": {
-    "stage": "stage_cleric_priest",
+    "stage": "stage_crusader_normal",
     "itemList": [
       {
-        "item": "irons_spellbooks:priest_helmet"
+        "item": "paladin:paladin_armor_head"
       },
       {
-        "item": "irons_spellbooks:priest_leggings"
+        "item": "paladin:paladin_armor_chest"
       },
       {
-        "item": "irons_spellbooks:priest_chestplate"
+        "item": "paladins:paladin_armor_legs"
       },
       {
-        "item": "irons_spellbooks:priest_boots"
+        "item": "paladins:paladin_armor_feet"
       }
     ],
     "modList": [],
@@ -23,12 +23,12 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Cleric's skill tree)",
+    "itemTitle": "Unavailable Item (Unlock it in the Melee's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,

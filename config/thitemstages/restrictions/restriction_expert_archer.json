@@ -1,15 +1,27 @@
 {
   "Restriction Data": {
-    "stage": "stage_ranged_orichalcum",
+    "stage": "stage_archer_expert",
     "itemList": [
+      {
+        "item": "archers:ranger_armor_head"
+      },
+      {
+        "item": "archers:rannger_armor_chest"
+      },
+      {
+        "item": "archers:rannger_armor_legs"
+      },
+      {
+        "item": "archers:rannger_armor_feet"
+      },
       {
         "item": "prodigium:orichalcum_helmet"
       },
       {
-        "item": "prodigium:orichalcum_leggings"
+        "item": "prodigium:orichalcum_chestplate"
       },
       {
-        "item": "prodigium:orichalcum_chestplate"
+        "item": "prodigium:orichalcum_leggings"
       },
       {
         "item": "prodigium:orichalcum_boots"
@@ -23,12 +35,12 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Ranger's skill tree & Defeat the Dead King)",
+    "itemTitle": "Unavailable Item (Unlock it in the Archer's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,

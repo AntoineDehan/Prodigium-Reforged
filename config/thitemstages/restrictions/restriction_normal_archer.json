@@ -1,18 +1,18 @@
 {
   "Restriction Data": {
-    "stage": "stage_berserker_phoenix",
+    "stage": "stage_archer_normal",
     "itemList": [
       {
-        "item": "aether:phoenix_helmet"
+        "item": "kubejs:bee_helmet"
       },
       {
-        "item": "aether:phoenix_leggings"
+        "item": "kubejs:bee_leggings"
       },
       {
-        "item": "aether:phoenix_chestplate"
+        "item": "kubejs:bee_chestplate"
       },
       {
-        "item": "aether:phoenix_boots"
+        "item": "kubejs:bee_boots"
       }
     ],
     "modList": [],
@@ -23,12 +23,12 @@
   },
   "Settings": {
     "advancedTooltips": "ALWAYS",
-    "itemTitle": "Unavailable Item (Unlock it in the Berseker's skill tree)",
+    "itemTitle": "Unavailable Item (Unlock it in the Ranged's skill tree)",
     "pickupDelay": 15,
     "hideInJEI": true,
     "canPickup": true,
     "containerListWhitelist": false,
-    "checkPlayerInventory": true,
+    "checkPlayerInventory": false,
     "checkPlayerEquipment": true,
     "destroyableBlocks": false,
     "usableItems": false,
