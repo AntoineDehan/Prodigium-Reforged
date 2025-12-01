@@ -1,27 +1,27 @@
 {
-  "minecraft:warden": [
+  "block_factorys_bosses:sandworm": [
     {
-      "attribute": "irons_spellbooks:eldritch_magic_resist",
-      "modify": 0.25,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:evocation_magic_resist",
-      "modify": -0.55,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:nature_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:lightning_magic_resist",
-      "modify": -0.15,
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
     },
@@ -31,12 +31,7 @@
       "operation": "ADDITION"
     },
     {
-      "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:ender_magic_resist",
+      "attribute": "irons_spellbooks:evocation_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
     },
@@ -46,15 +41,10 @@
       "operation": "ADDITION"
     }
   ],
-  "minecraft:ender_dragon": [
+  "block_factorys_bosses:underworld_knight": [
     {
-      "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": 0.25,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": -0.55,
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": 0.15,
       "operation": "ADDITION"
     },
     {
@@ -63,8 +53,13 @@
       "operation": "ADDITION"
     },
     {
-      "attribute": "irons_spellbooks:nature_magic_resist",
+      "attribute": "irons_spellbooks:ice_magic_resist",
       "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.25,
       "operation": "ADDITION"
     },
     {
@@ -74,12 +69,7 @@
     },
     {
       "attribute": "irons_spellbooks:holy_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": -0.15,
+      "modify": -0.25,
       "operation": "ADDITION"
     },
     {
@@ -89,24 +79,14 @@
     },
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": -0.15,
+      "modify": 0.2,
       "operation": "ADDITION"
-    },
-    {
-      "attribute": "minecraft:generic.armor",
-      "modify": 0.35,
-      "operation": "MULTIPLY_TOTAL"
     }
   ],
-  "minecraft:elder_guardian": [
+  "block_factorys_bosses:infernal_dragon": [
     {
-      "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": 0.25,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:lightning_magic_resist",
-      "modify": -0.55,
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": 0.2,
       "operation": "ADDITION"
     },
     {
@@ -115,7 +95,17 @@
       "operation": "ADDITION"
     },
     {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.35,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
     },
@@ -125,28 +115,13 @@
       "operation": "ADDITION"
     },
     {
-      "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
       "attribute": "irons_spellbooks:evocation_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
     },
     {
-      "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "minecraft:generic.armor",
-      "modify": 18,
+      "modify": 0.1,
       "operation": "ADDITION"
     }
   ]

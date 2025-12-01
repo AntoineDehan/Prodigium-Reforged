@@ -44,6 +44,11 @@
       "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "ADDITION"
     }
   ],
   "lost_aether_content:aerwhale_king": [
@@ -91,13 +96,10 @@
       "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
-    }
-  ],
-  "a": [
+    },
     {
-      "attribute": "minecraft:generic.luck",
-      "min": -1,
-      "max": 1,
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
       "operation": "ADDITION"
     }
   ]

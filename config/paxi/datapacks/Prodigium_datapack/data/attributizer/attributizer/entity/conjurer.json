@@ -44,6 +44,11 @@
       "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 10,
+      "operation": "ADDITION"
     }
   ]
 }

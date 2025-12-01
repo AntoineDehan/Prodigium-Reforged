@@ -44,6 +44,11 @@
       "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 10,
+      "operation": "ADDITION"
     }
   ],
   "meetyourfight:bellringer": [
@@ -90,6 +95,11 @@
     {
       "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 14,
       "operation": "ADDITION"
     }
   ],
@@ -138,6 +148,11 @@
       "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 22,
+      "operation": "ADDITION"
     }
   ],
   "meetyourfight:rosalyne": [
@@ -184,6 +199,11 @@
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 35,
       "operation": "ADDITION"
     }
   ]
