@@ -1,10 +1,31 @@
 /// Handling of different effects or curios
 
+// Hit of entities from the Player
 EntityEvents.hurt((event) => {
   const entity = event.entity;
   const player = event.source.player;
 
   if (!player) return;
+
+  if (player.hasEffect("kubejs:neptune_buff")) {
+    if (Math.random() < 0.8) {
+      player.potionEffects.add("kubejs:rapid_healing", 60, 1, true, false);
+    }
+  }
+
+  if (player.hasEffect("kubejs:hunter")) {
+    // const dx = entity.x - player.x;
+    // const dy = entity.y - player.y;
+    // const dz = entity.z - player.z;
+    // const distance = Math.sqrt(dx * dx + dy * dy + dz * dz);
+
+    if (event.source.getType() == "arrow") {
+      if (entity.hasEffect("archers:hunters_mark")) {
+        player.potionEffects.add("kubejs:hunter_readyness", 60, 0, false, true);
+      }
+      entity.potionEffects.add("archers:hunters_mark", 120, 0, false, true);
+    }
+  }
 
   // Cleric Nether armor set
   if (player.hasEffect("kubejs:nether_reinforcement")) {
@@ -13,18 +34,12 @@ EntityEvents.hurt((event) => {
   }
 
   // Witherite armor set
-  if (player.hasEffect("kubejs:mechanical_mind")) {
-    if (player.hasEffect("kubejs:mechanical_skin")) return;
-    if (player.hasEffect("kubejs:mechanical_strength")) {
-      player.potionEffects.add(
-        "kubejs:mechanical_strength",
-        80,
-        1,
-        false,
-        false
-      );
+  if (player.hasEffect("kubejs:bloody_mind")) {
+    if (player.hasEffect("kubejs:bloody_skin")) return;
+    if (player.hasEffect("kubejs:bloody_strength")) {
+      player.potionEffects.add("kubejs:bloody_strength", 80, 1, false, false);
     }
-    player.potionEffects.add("kubejs:mechanical_strength", 80, 0, false, false);
+    player.potionEffects.add("kubejs:bloody_strength", 80, 0, false, false);
   }
 
   // Void Blossom armor set
@@ -81,9 +96,9 @@ const damageStock = {};
 EntityEvents.hurt((event) => {
   const player = event.getEntity();
   const damage = event.getDamage();
-  let uuid = player.uuid;
 
   if (!player.isPlayer()) return;
+  let uuid = player.uuid;
 
   // Wizard Ignitium armor set
   if (player.hasEffect("kubejs:ignitium_magic")) {
@@ -125,13 +140,13 @@ EntityEvents.hurt((event) => {
     player.potionEffects.add("kubejs:nether_protection", 650, 0, true, false);
   }
 
-  // Witherite armor set
-  if (player.hasEffect("kubejs:mechanical_mind")) {
-    if (player.hasEffect("kubejs:mechanical_strength")) return;
-    if (player.hasEffect("kubejs:mechanical_skin")) {
-      player.potionEffects.add("kubejs:mechanical_skin", 80, 1, true, false);
+  // Crystallized Blood armor set
+  if (player.hasEffect("kubejs:bloody_mind")) {
+    if (player.hasEffect("kubejs:bloody_strength")) return;
+    if (player.hasEffect("kubejs:bloody_skin")) {
+      player.potionEffects.add("kubejs:bloody_skin", 80, 1, true, false);
     }
-    player.potionEffects.add("kubejs:mechanical_skin", 80, 0, true, false);
+    player.potionEffects.add("kubejs:bloody_skin", 80, 0, true, false);
   }
 
   // Plated Valkyrie armor set
@@ -301,6 +316,105 @@ ServerEvents.tick((event) => {
 
     for (let ally of allies) {
       ally.potionEffects.add("kubejs:crusader_protection", 60, 0, false, false);
+    }
+  }
+});
+
+const stillTicks = {};
+const lastPos = {};
+
+PlayerEvents.tick((event) => {
+  const player = event.player;
+  const uuid = player.uuid;
+
+  if (!player) return;
+
+  if (player.hasEffect("kubejs:ranger_mind")) {
+    let box = AABB.of(
+      player.x - 12,
+      player.y - 12,
+      player.z - 12,
+      player.x + 12,
+      player.y + 12,
+      player.z + 12
+    );
+
+    let entities = player.level.getEntitiesWithin(box);
+
+    let pets = entities.filter((e) => {
+      if (!e || !e.isLiving()) return false;
+      if (typeof e.owner === "undefined") return false;
+      if (!e.owner) return false;
+      return e.owner === player;
+    });
+
+    for (let pet of pets) {
+      pet.potionEffects.add("kubejs:pet_cozyness", 60, 0, false, false);
+      if (pets.length >= 5) {
+        player.potionEffects.add("kubejs:ranger_cosyness", 60, 0, false, true);
+      }
+    }
+  }
+
+  if (player.hasEffect("kubejs:neptune_buff")) {
+    let ax = Math.floor(player.x);
+    let ay = Math.floor(player.y);
+    let az = Math.floor(player.z);
+
+    if (!lastPos[uuid]) {
+      lastPos[uuid] = { x: ax, y: ay, z: az };
+      stillTicks[uuid] = 0;
+    }
+
+    let sameBlock =
+      ax === lastPos[uuid].x &&
+      ay === lastPos[uuid].y &&
+      az === lastPos[uuid].z;
+
+    if (sameBlock) {
+      stillTicks[uuid]++;
+
+      if (stillTicks[uuid] === 80) {
+        player.potionEffects.add(
+          "kubejs:neptune_blessing",
+          100,
+          0,
+          false,
+          true
+        );
+      }
+
+      if (stillTicks[uuid] === 180) {
+        player.potionEffects.add(
+          "kubejs:neptune_blessing",
+          120,
+          1,
+          false,
+          true
+        );
+      }
+      if (stillTicks[uuid] === 300) {
+        player.potionEffects.add(
+          "kubejs:neptune_blessing",
+          120,
+          2,
+          false,
+          true
+        );
+      }
+      if (stillTicks[uuid] >= 420) {
+        player.potionEffects.add(
+          "kubejs:neptune_blessing",
+          200,
+          2,
+          false,
+          true
+        );
+      }
+    } else {
+      lastPos[uuid] = { x: ax, y: ay, z: az };
+
+      if (stillTicks[uuid] > 0) stillTicks[uuid] = 0;
     }
   }
 });

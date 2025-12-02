@@ -493,12 +493,12 @@ StartupEvents.registry("mob_effect", (event) => {
     );
 
   /// Witherite armor set
-  // Mechanical Mind
-  event.create("mechanical_mind").color(0xffd27f).beneficial();
+  // Bloody Mind
+  event.create("bloody_mind").color(0xffd27f).beneficial();
 
-  // Mechanical Skin
+  // Bloody Skin
   event
-    .create("mechanical_skin")
+    .create("bloody_skin")
     .color(0xffd27f)
     .beneficial()
     .modifyAttribute(
@@ -532,9 +532,9 @@ StartupEvents.registry("mob_effect", (event) => {
       "multiply_total"
     );
 
-  // Mechanical Strength
+  // Bloody Strength
   event
-    .create("mechanical_strength")
+    .create("bloody_strength")
     .color(0xffd27f)
     .beneficial()
     .modifyAttribute(
@@ -1040,7 +1040,7 @@ StartupEvents.registry("mob_effect", (event) => {
       "irons_spellbooks:mana_regen",
       "10ecfbbb-bf79-4e33-90fb-80bf4d2fd06d",
       0.15,
-      "multiply_base"
+      "multiply_total"
     )
     .modifyAttribute(
       "irons_spellbooks:cast_time_reduction",
@@ -1054,4 +1054,170 @@ StartupEvents.registry("mob_effect", (event) => {
       0.15,
       "multiply_base"
     );
+
+  /// Orichalcum armor set
+  // Hunter
+  event.create("hunter").color(0xffd27f).beneficial();
+
+  // Hunter's Readyness
+  event
+    .create("hunter_readyness")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "combatroll:count",
+      "6f2f25dd-6074-48ea-abb6-928171d1286f",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "attributeslib:arrow_damage",
+      "b63a16d7-d3a9-47b5-bea9-5a6419fabb0f",
+      0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:arrow_velocity",
+      "60ce1fdf-0762-4d04-baa6-c51780bcda36",
+      0.05,
+      "multiply_base"
+    )
+    .modifyAttribute(
+      "attributeslib:draw_speed",
+      "a149473d-bad1-47e3-ad14-e6445d876147",
+      0.1,
+      "multiply_base"
+    )
+    .modifyAttribute(
+      "attributeslib:crit_chance",
+      "0521a07f-9723-4201-9ff2-c5ac908d6b91",
+      0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.luck",
+      "812d9a3b-dc49-473e-b1bd-369dd144cd0d",
+      1,
+      "addition"
+    );
+
+  ///Ranger armor set
+  //Ranger Mind
+  event.create("ranger_mind").color(0xffd27f).beneficial();
+
+  //Pet Cozyness
+  event
+    .create("pet_cozyness")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "attributeslib:crit_chance",
+      "3a1b2c0a-a179-4bc1-8533-96bd3bcaff2f",
+      0.15,
+      "addition"
+    )
+    .modifyAttribute(
+      "attributeslib:dodge_chance",
+      "dcc49133-4ae5-4a8e-89e0-1c0200bbd619",
+      0.05,
+      "addition"
+    );
+
+  //Ranger Cozyness
+  event
+    .create("ranger_cosyness")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "combatroll:count",
+      "8a641887-c7bf-4486-acba-9227502c1e48",
+      1,
+      "addition"
+    )
+    .modifyAttribute(
+      "attributeslib:arrow_damage",
+      "d490b754-6587-4b50-9a36-2e62b069899e",
+      0.12,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:draw_speed",
+      "675bb1c1-957e-4c69-bbb4-fc816b715036",
+      0.08,
+      "multiply_base"
+    )
+    .modifyAttribute(
+      "attributeslib:dodge_chance",
+      "822424da-e2c3-4e98-9fdf-b38cc11b1fce",
+      0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "4a5f2ae7-b55d-4ed4-a335-f9a4ff2f6811",
+      0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.luck",
+      "5fe187fb-ab31-4736-8655-a8a89e063cc0",
+      1,
+      "addition"
+    );
+
+  /// Neptune armor set
+  //Placeholder name
+  event.create("neptune_buff").color(0xffd27f).beneficial();
+
+  // Neptune's Blessing
+  event
+    .create("neptune_blessing")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "attributeslib:arrow_damage",
+      "0af972f1-3303-49d0-860e-4ab4e4307f76",
+      0.12,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:draw_speed",
+      "f659b62d-53e0-455d-96e3-eb412810a135",
+      0.08,
+      "multiply_base"
+    )
+    .modifyAttribute(
+      "attributeslib:crit_chance",
+      "f9023938-8fa3-4cef-bcf9-4ab063866790",
+      0.09,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "attributeslib:crit_damage",
+      "319cf852-da62-4ae2-9ff7-a0975a8882d1",
+      0.05,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "204c7c4c-0aaa-4a1f-8521-d296ef98c61b",
+      0.06,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.resistance",
+      "d3d58bb8-3193-4e56-8026-18078d52966f",
+      0.02,
+      "addition"
+    );
+
+  //Rapid Healing
+  event
+    .create("rapid_healing")
+    .color(0xffd27f)
+    .beneficial()
+    .effectTick((entity, lvl) => {
+      if (entity.age % 20 != 0) return;
+      entity.heal(1.25 * lvl);
+    });
 });

@@ -24,9 +24,9 @@
     {
       "type": "attribute",
       "name": "irons_spellbooks:max_mana",
-      "value": 100,
+      "value": 400,
       "modifierUUID": "9f25495a-23bd-4caa-a983-bac1e96eb05f",
-      "description": "+100 Max Mana"
+      "description": "+400 Max Mana"
     },
     {
       "type": "effect",

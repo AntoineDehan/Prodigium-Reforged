@@ -1,0 +1,30 @@
+{
+  "armorSetName": "berserker",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "companions:crystallized_blood_helmet"
+  },
+  "chest": {
+    "itemKey": "companions:crystallized_blood_chestplate"
+  },
+  "legs": {
+    "itemKey": "companions:crystallized_blood_leggings"
+  },
+  "boots": {
+    "itemKey": "companions:crystallized_blood_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 6,
+      "modifierUUID": "e4dfe545-629d-4a5e-a21f-b44bf983e14f",
+      "description": "+6 Attack Damage"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:bloody_mind",
+      "value": 0.0
+    }
+  ]
+}

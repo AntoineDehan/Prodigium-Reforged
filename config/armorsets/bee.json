@@ -16,10 +16,10 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "puffish_attributes:player.ranged_damage",
-      "value": 3.0,
+      "name": "attributeslib:arrow_damage",
+      "value": 4.0,
       "modifierUUID": "dd4b5038-9856-4948-94bd-b38ebbefcef9",
-      "description": "+3.0 Ranged damage"
+      "description": "+4.0 Arrow Damage"
     },
     {
       "type": "attribute",

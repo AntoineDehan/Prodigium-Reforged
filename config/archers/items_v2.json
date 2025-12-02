@@ -128,54 +128,20 @@
             "id": "attributeslib:arrow_damage",
             "value": 0.08,
             "operation": "MULTIPLY_TOTAL"
-          },
-          {
-            "id": "attributeslib:dodge_chance",
-            "value": 0.03
           }
         ]
       },
       "chest": {
         "armor": 6,
-        "attributes": [
-          {
-            "id": "attributeslib:arrow_damage",
-            "value": 0.08,
-            "operation": "MULTIPLY_TOTAL"
-          },
-          {
-            "id": "attributeslib:dodge_chance",
-            "value": 0.03
-          }
-        ]
+        "attributes": []
       },
       "legs": {
         "armor": 6,
-        "attributes": [
-          {
-            "id": "attributeslib:arrow_damage",
-            "value": 0.08,
-            "operation": "MULTIPLY_TOTAL"
-          },
-          {
-            "id": "attributeslib:dodge_chance",
-            "value": 0.03
-          }
-        ]
+        "attributes": []
       },
       "feet": {
         "armor": 4,
-        "attributes": [
-          {
-            "id": "attributeslib:arrow_damage",
-            "value": 0.08,
-            "operation": "MULTIPLY_TOTAL"
-          },
-          {
-            "id": "attributeslib:dodge_chance",
-            "value": 0.03
-          }
-        ]
+        "attributes": []
       }
     }
   }
