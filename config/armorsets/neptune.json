@@ -16,7 +16,7 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "attributeslib:arrow_damagee",
+      "name": "attributeslib:arrow_damage",
       "value": 6,
       "modifierUUID": "94fbc91e-e162-46b6-9726-e74459b97f5d",
       "description": "+6 Arrow Damage"
