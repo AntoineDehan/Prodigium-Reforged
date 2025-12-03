@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "simpleores:adamantium_ingot"
+    },
+    "4": {
+      "item": "simpleores:adamantium_ingot"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "simple_weapons:corinthium_katana",
+    "count": 1
+  }
+}

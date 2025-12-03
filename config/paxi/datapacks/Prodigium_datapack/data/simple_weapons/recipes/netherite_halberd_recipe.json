@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "simple_weapons:diamond_halberd"
+  },
+  "addition": {
+    "item": "simpleores:onyx_gem"
+  },
+  "result": {
+    "item": "simple_weapons:netherite_halberd"
+  }
+}
