@@ -20,7 +20,7 @@
 	"yftatjo9vwzf5vpw": {
 		"definition": "rangerSignatureArrowRainElemental",
 		"x": 0,
-		"y": -544,
+		"y": -576,
 		"root": false
 	},
 	"l6feffzr1kt6i2ds": {
@@ -32,37 +32,37 @@
 	"b9sdl3i5pk4c8yor": {
 		"definition": "rangerSignatureArrowRainVolley+",
 		"x": -64,
-		"y": -480,
+		"y": -512,
 		"root": false
 	},
 	"kj4gdess10vmmu1h": {
 		"definition": "rangerSignatureArrowRainVolley++",
 		"x": -96,
-		"y": -512,
+		"y": -544,
 		"root": false
 	},
 	"67krnm60doqj0ukv": {
 		"definition": "rangerSignatureArrowRainVolley+++",
 		"x": -96,
-		"y": -544,
+		"y": -576,
 		"root": false
 	},
 	"7gtk26uaf6fzugyx": {
 		"definition": "rangerSignatureArrowRainRadius+",
 		"x": 96,
-		"y": -512,
+		"y": -544,
 		"root": false
 	},
 	"12p6g36kjjd9cihs": {
 		"definition": "rangerSignatureArrowRainRadius++",
 		"x": 64,
-		"y": -480,
+		"y": -512,
 		"root": false
 	},
 	"b6ys22j75bek89z8": {
 		"definition": "rangerSignatureArrowRainRadius+++",
 		"x": 96,
-		"y": -544,
+		"y": -576,
 		"root": false
 	},
 	"ov9mp25y08ouk5jj": {
@@ -103,49 +103,49 @@
 	},
 	"jyjchp0ewoqq2n9w": {
 		"definition": "rangerSignatureElementalArrowsRadius+",
-		"x": -480,
+		"x": -512,
 		"y": 128,
 		"root": false
 	},
 	"c27k3khjocrzi77a": {
 		"definition": "rangerSignatureElementalArrowsRadius++",
-		"x": -512,
+		"x": -544,
 		"y": 128,
 		"root": false
 	},
 	"7fcjbknbz80nqnmc": {
 		"definition": "rangerSignatureElementalArrowsRadius+++",
-		"x": -544,
+		"x": -576,
 		"y": 128,
 		"root": false
 	},
 	"nho6njv0e6ngyea0": {
 		"definition": "rangerSignatureElementalArrowsStacks+",
-		"x": -480,
+		"x": -512,
 		"y": -128,
 		"root": false
 	},
 	"jyzyi0dx8elgb4fl": {
 		"definition": "rangerSignatureElementalArrowsStacks++",
-		"x": -512,
+		"x": -544,
 		"y": -128,
 		"root": false
 	},
 	"14riqlyv2efrldoq": {
 		"definition": "rangerSignatureElementalArrowsStacks+++",
-		"x": -544,
+		"x": -576,
 		"y": -128,
 		"root": false
 	},
 	"aizxxvc9fwqnpq60": {
 		"definition": "rangerSignatureElementalArrowsRenewal",
-		"x": -544,
+		"x": -576,
 		"y": 0,
 		"root": false
 	},
 	"t5c5gzcskng8b8cz": {
 		"definition": "rangerSignatureDisengageExploitation",
-		"x": 512,
+		"x": 544,
 		"y": 64,
 		"root": false
 	},
@@ -205,7 +205,7 @@
 	},
 	"fau41sxkpniul48c": {
 		"definition": "rangerSignatureDisengageMarksman",
-		"x": 512,
+		"x": 544,
 		"y": -64,
 		"root": false
 	},
@@ -248,7 +248,7 @@
 	"sgyyljazgqavx43g": {
 		"definition": "rangerSignatureArrowRainElementalArtillery",
 		"x": 0,
-		"y": -576,
+		"y": -608,
 		"root": false
 	},
 	"4i8nukdyw3p3z55v": {
@@ -313,73 +313,73 @@
 	},
 	"bxyapmssug8dbs91": {
 		"definition": "roll_cooldown-10%",
-		"x": 416,
+		"x": 448,
 		"y": -64,
 		"root": false
 	},
 	"3rotl9kxdpapknvz": {
 		"definition": "crit_chance+5%",
-		"x": 416,
+		"x": 448,
 		"y": 64,
 		"root": false
 	},
 	"6fu03xv5g78a5853": {
 		"definition": "crit_chance+5%",
-		"x": 416,
+		"x": 448,
 		"y": 96,
 		"root": false
 	},
 	"xqrwi6bhfxyoiehw": {
 		"definition": "ranged_damage+5%",
-		"x": 480,
+		"x": 512,
 		"y": 32,
 		"root": false
 	},
 	"yfoilgnn2vm2qh9g": {
 		"definition": "crit_damage+5%",
-		"x": 448,
+		"x": 480,
 		"y": 64,
 		"root": false
 	},
 	"edg5cgz4asabvu5e": {
 		"definition": "crit_damage+5%",
-		"x": 448,
+		"x": 480,
 		"y": 96,
 		"root": false
 	},
 	"4cnk6i8enbj8zqeb": {
 		"definition": "current_hp_damage+5%",
-		"x": 448,
+		"x": 480,
 		"y": -64,
 		"root": false
 	},
 	"9nsaoqszckur1wiw": {
 		"definition": "dodge+5%",
-		"x": 480,
+		"x": 512,
 		"y": -32,
 		"root": false
 	},
 	"sa3fbiaxne3eex7x": {
 		"definition": "dodge+5%",
-		"x": 512,
+		"x": 544,
 		"y": -32,
 		"root": false
 	},
 	"a3i01lqnntdlbfh6": {
 		"definition": "roll_cooldown-10%",
-		"x": 416,
+		"x": 448,
 		"y": -96,
 		"root": false
 	},
 	"2n6f2mnf1qsb1esp": {
 		"definition": "current_hp_damage+5%",
-		"x": 448,
+		"x": 480,
 		"y": -96,
 		"root": false
 	},
 	"l0z2uojrdbrxe40m": {
 		"definition": "ranged_damage+5%",
-		"x": 512,
+		"x": 544,
 		"y": 32,
 		"root": false
 	},
@@ -475,73 +475,73 @@
 	},
 	"3kzqeato5enkv2ba": {
 		"definition": "draw_speed+5%",
-		"x": -384,
+		"x": -416,
 		"y": -128,
 		"root": false
 	},
 	"bawbw39nqog5fnhs": {
 		"definition": "draw_speed+5%",
-		"x": -384,
+		"x": -416,
 		"y": -160,
 		"root": false
 	},
 	"u1frgqh744k5a64h": {
 		"definition": "ranged_damage+5%",
-		"x": -416,
+		"x": -448,
 		"y": -128,
 		"root": false
 	},
 	"2sb4x1azahixocq4": {
 		"definition": "ranged_damage+5%",
-		"x": -416,
+		"x": -448,
 		"y": -160,
 		"root": false
 	},
 	"we5o0snhf18wqu8v": {
 		"definition": "spell_power_additive",
-		"x": -512,
+		"x": -544,
 		"y": -96,
 		"root": false
 	},
 	"qzfuhsw11sq34085": {
 		"definition": "spell_power_additive",
-		"x": -448,
+		"x": -480,
 		"y": -96,
 		"root": false
 	},
 	"rxjwcc7m1tpi1chb": {
 		"definition": "roll_cooldown-10%",
-		"x": -416,
+		"x": -448,
 		"y": 128,
 		"root": false
 	},
 	"bi7uzvfu83uq9q9g": {
 		"definition": "roll_cooldown-10%",
-		"x": -416,
+		"x": -448,
 		"y": 160,
 		"root": false
 	},
 	"p8dbdhcw1ij6aqk5": {
 		"definition": "armor_shred+5%",
-		"x": -384,
+		"x": -416,
 		"y": 128,
 		"root": false
 	},
 	"6h83mvs8wevtg7wv": {
 		"definition": "armor_shred+5%",
-		"x": -384,
+		"x": -416,
 		"y": 160,
 		"root": false
 	},
 	"g2pzmtnk3t6mfa0p": {
 		"definition": "crit_chance+5%",
-		"x": -448,
+		"x": -480,
 		"y": 96,
 		"root": false
 	},
 	"k5v86ga7qutbccqe": {
 		"definition": "crit_chance+5%",
-		"x": -512,
+		"x": -544,
 		"y": 96,
 		"root": false
 	},
@@ -566,7 +566,7 @@
 	"w985zf562tjqawnu": {
 		"definition": "prot_shred+5%",
 		"x": 96,
-		"y": -416,
+		"y": -448,
 		"root": false
 	},
 	"h622teemhwllxjzn": {
@@ -584,30 +584,30 @@
 	"c1y2bfjhe88yx18o": {
 		"definition": "crit_chance+5%",
 		"x": -32,
-		"y": -448,
+		"y": -480,
 		"root": false
 	},
 	"3vcrs3ilofobied3": {
 		"definition": "arrow_velocity+2%",
 		"x": -64,
-		"y": -416,
+		"y": -448,
 		"root": false
 	},
 	"ss8qhl05x8g7tn9c": {
 		"definition": "arrow_velocity+2%",
 		"x": -96,
-		"y": -416,
+		"y": -448,
 		"root": false
 	},
 	"0bcswh1uv44t76b2": {
 		"definition": "dodge+10%",
-		"x": 608,
+		"x": 640,
 		"y": 0,
 		"root": false
 	},
 	"gpbyisbrpkyr5kyc": {
-		"definition": "melee_damage+5%",
-		"x": 576,
+		"definition": "luck+1",
+		"x": 608,
 		"y": 32,
 		"root": false
 	},
@@ -620,30 +620,30 @@
 	"rojop8pn3wky8uo0": {
 		"definition": "crit_chance+5%",
 		"x": -32,
-		"y": -480,
+		"y": -512,
 		"root": false
 	},
 	"moqmq8zz5h2nt83v": {
 		"definition": "prot_shred+5%",
 		"x": 64,
-		"y": -416,
+		"y": -448,
 		"root": false
 	},
 	"uw21jvzuyfcfaljp": {
 		"definition": "crit_damage+5%",
 		"x": -64,
-		"y": -384,
+		"y": -416,
 		"root": false
 	},
 	"dvmqichpsne7zk9o": {
 		"definition": "crit_chance+5%",
 		"x": 64,
-		"y": -384,
+		"y": -416,
 		"root": false
 	},
 	"l009dvbbyn24q0lc": {
 		"definition": "movement_speed+1%",
-		"x": 576,
+		"x": 608,
 		"y": -32,
 		"root": false
 	},
@@ -710,25 +710,25 @@
 	"5b0vjw7jpsn2ekqq": {
 		"definition": "crit_damage+5%",
 		"x": -96,
-		"y": -384,
+		"y": -416,
 		"root": false
 	},
 	"wm0m1jzph24hobkt": {
 		"definition": "crit_chance+5%",
 		"x": 96,
-		"y": -384,
+		"y": -416,
 		"root": false
 	},
 	"dw4azx37f9i7jubf": {
 		"definition": "armor_shred+5%",
 		"x": 32,
-		"y": -448,
+		"y": -480,
 		"root": false
 	},
 	"f8y231tpioqvd2ve": {
 		"definition": "armor_shred+5%",
 		"x": 32,
-		"y": -480,
+		"y": -512,
 		"root": false
 	},
 	"u7btgc906v2hrz23": {
@@ -740,13 +740,91 @@
 	"rhbb3rdhu7wuohfi": {
 		"definition": "shroomite",
 		"x": 0,
-		"y": 368,
+		"y": 352,
 		"root": false
 	},
 	"73d310qt62p3asya": {
 		"definition": "archer_expert_gear",
 		"x": 0,
 		"y": 320,
+		"root": false
+	},
+	"8287abmpwwdutt6l": {
+		"definition": "arrow_velocity+2%",
+		"x": -384,
+		"y": -128,
+		"root": false
+	},
+	"5gmya6y2ild7ofrw": {
+		"definition": "arrow_velocity+2%",
+		"x": -384,
+		"y": -160,
+		"root": false
+	},
+	"qm1hlvz9gc2cjwfd": {
+		"definition": "draw_speed+5%",
+		"x": -384,
+		"y": 128,
+		"root": false
+	},
+	"zy0hduwjwjm6for2": {
+		"definition": "draw_speed+5%",
+		"x": -384,
+		"y": 160,
+		"root": false
+	},
+	"3qpg0rreck8xx5wh": {
+		"definition": "dodge+5%",
+		"x": 0,
+		"y": 288,
+		"root": false
+	},
+	"sv12y2z9mnksl365": {
+		"definition": "armor_shred+5%",
+		"x": -64,
+		"y": -384,
+		"root": false
+	},
+	"21nepjy6urm9a9rv": {
+		"definition": "armor_shred+5%",
+		"x": -96,
+		"y": -384,
+		"root": false
+	},
+	"uhmhcjghjilgqq06": {
+		"definition": "dodge+5%",
+		"x": 64,
+		"y": -384,
+		"root": false
+	},
+	"c808eou0ff614nmp": {
+		"definition": "dodge+5%",
+		"x": 96,
+		"y": -384,
+		"root": false
+	},
+	"q50e6wb5q9c42woe": {
+		"definition": "dodge+5%",
+		"x": 416,
+		"y": 64,
+		"root": false
+	},
+	"s84igejxaj7ni42p": {
+		"definition": "dodge+5%",
+		"x": 416,
+		"y": 96,
+		"root": false
+	},
+	"gjf960p8bn9saq11": {
+		"definition": "armor_shred+5%",
+		"x": 416,
+		"y": -64,
+		"root": false
+	},
+	"nvmmuw5e1js3j3s7": {
+		"definition": "armor_shred+5%",
+		"x": 416,
+		"y": -96,
 		"root": false
 	}
 }

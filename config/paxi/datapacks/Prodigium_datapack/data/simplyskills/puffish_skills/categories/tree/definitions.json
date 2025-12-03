@@ -4901,6 +4901,12 @@
       {
         "type": "puffish_skills:command",
         "data": {
+          "command": "thitemstages add @s stage_crusader_books"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
           "command": "ftbquests change_progress @s complete 44FCF260737D0785"
         }
       }
@@ -11865,6 +11871,12 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_mage"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "thitemstages add @s stage_crusader_books"
         }
       },
       {

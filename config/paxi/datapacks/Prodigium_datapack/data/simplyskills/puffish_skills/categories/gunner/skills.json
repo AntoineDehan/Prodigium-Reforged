@@ -31,488 +31,488 @@
 	},
 	"bto1u3pob567yufl": {
 		"definition": "movement_speed_multi+1.5%",
-		"x": -192,
+		"x": -210,
 		"y": 0,
 		"root": false
 	},
 	"ouk4q29wsdrohql9": {
 		"definition": "health2+",
 		"x": 0,
-		"y": -192,
+		"y": -210,
 		"root": false
 	},
 	"8qevng0t6hw87955": {
 		"definition": "dodge+5%",
-		"x": 192,
+		"x": 210,
 		"y": 0,
 		"root": false
 	},
 	"zm7sn2yyqrj7c6eh": {
 		"definition": "gun_dmg+5%",
-		"x": -256,
-		"y": 32,
+		"x": -240,
+		"y": 30,
 		"root": false
 	},
 	"b49zw8u0duaoyu44": {
 		"definition": "gun_dmg+5%",
-		"x": -288,
-		"y": 32,
+		"x": -270,
+		"y": 30,
 		"root": false
 	},
 	"w24d3ptg55lwugyt": {
 		"definition": "gun_dmg+5%",
-		"x": -320,
-		"y": 32,
+		"x": -300,
+		"y": 30,
 		"root": false
 	},
 	"v24lrt2394afhxin": {
 		"definition": "gun_dmg+10%",
-		"x": -320,
-		"y": 64,
+		"x": -300,
+		"y": 60,
 		"root": false
 	},
 	"jz87jnsu6umt5v0q": {
 		"definition": "sniper_crit_multx025",
-		"x": -256,
-		"y": -32,
+		"x": -240,
+		"y": -30,
 		"root": false
 	},
 	"36936pbjnuijfvcb": {
 		"definition": "sniper_crit_multx025",
-		"x": -288,
-		"y": -32,
+		"x": -270,
+		"y": -30,
 		"root": false
 	},
 	"196jehyasxgnac6m": {
 		"definition": "sniper_crit_multx025",
-		"x": -320,
-		"y": -32,
+		"x": -300,
+		"y": -30,
 		"root": false
 	},
 	"hnssac8iei4lyl53": {
 		"definition": "sniper_crit_multx1",
-		"x": -320,
-		"y": -64,
+		"x": -300,
+		"y": -60,
 		"root": false
 	},
 	"bk4pc6x77cpkh2h2": {
 		"definition": "crit_chance+5%",
-		"x": -416,
-		"y": -64,
+		"x": -390,
+		"y": -60,
 		"root": false
 	},
 	"2atm2u6vhc7ad0ch": {
 		"definition": "crit_chance+5%",
-		"x": -416,
-		"y": -96,
+		"x": -390,
+		"y": -90,
 		"root": false
 	},
 	"xxvd6pw8dutqj226": {
 		"definition": "crit_damage+5%",
-		"x": -448,
-		"y": -64,
+		"x": -420,
+		"y": -60,
 		"root": false
 	},
 	"840rrutgtkdsmy8g": {
 		"definition": "crit_damage+5%",
-		"x": -448,
-		"y": -96,
+		"x": -420,
+		"y": -90,
 		"root": false
 	},
 	"u9nb5qx4ldcefbpp": {
 		"definition": "gun_spread",
-		"x": -416,
-		"y": 64,
+		"x": -390,
+		"y": 60,
 		"root": false
 	},
 	"1w13n84ijdhgrvei": {
 		"definition": "gun_spread",
-		"x": -416,
-		"y": 96,
+		"x": -390,
+		"y": 90,
 		"root": false
 	},
 	"7lb1bb5dyybawpb1": {
 		"definition": "gun_fire_rate+5%",
-		"x": -448,
-		"y": 64,
+		"x": -420,
+		"y": 60,
 		"root": false
 	},
 	"wtoww6gpx2bu7gfw": {
 		"definition": "gun_fire_rate+5%",
-		"x": -448,
-		"y": 96,
+		"x": -420,
+		"y": 90,
 		"root": false
 	},
 	"f5j1zw61vtqvly0l": {
 		"definition": "gun_fire_rate+15%",
 		"x": -480,
-		"y": 32,
+		"y": 30,
 		"root": false
 	},
 	"ztwf9402sbhqssez": {
 		"definition": "gun_dmg+5%",
-		"x": -512,
-		"y": 32,
+		"x": -510,
+		"y": 30,
 		"root": false
 	},
 	"gin1jveif3bfowq1": {
 		"definition": "sniper_crit_multx055",
 		"x": -480,
-		"y": -32,
+		"y": -30,
 		"root": false
 	},
 	"cvdrd2vaaiwccx2c": {
 		"definition": "gun_dmg+5%",
-		"x": -512,
-		"y": -32,
+		"x": -510,
+		"y": -30,
 		"root": false
 	},
 	"x9i3lhnvyz8koykx": {
 		"definition": "gun_spread",
-		"x": -576,
-		"y": -32,
+		"x": -570,
+		"y": -30,
 		"root": false
 	},
 	"qh924k1wby4tl9pn": {
 		"definition": "gun_dmg+20%",
-		"x": -608,
+		"x": -600,
 		"y": 0,
 		"root": false
 	},
 	"nzkkjsimrerjzwhw": {
 		"definition": "crit_chance+5%",
-		"x": -576,
-		"y": 32,
+		"x": -570,
+		"y": 30,
 		"root": false
 	},
 	"a80p2es4ly9vaw18": {
 		"definition": "armor_shred+5%",
-		"x": -352,
+		"x": -330,
 		"y": 0,
 		"root": false
 	},
 	"t1wsq9bs3h6syo0t": {
 		"definition": "armor_shred+5%",
-		"x": -512,
-		"y": 64,
+		"x": -510,
+		"y": 60,
 		"root": false
 	},
 	"p0971c9mefhceme7": {
 		"definition": "armor_shred+5%",
-		"x": -512,
-		"y": -64,
+		"x": -510,
+		"y": -60,
 		"root": false
 	},
 	"3tzvel88w5ywfjfj": {
 		"definition": "gun_dmg+5%",
-		"x": -32,
-		"y": -256,
+		"x": -30,
+		"y": -240,
 		"root": false
 	},
 	"b8dxcri5x0htasyg": {
 		"definition": "gun_dmg+5%",
-		"x": -32,
-		"y": -288,
+		"x": -30,
+		"y": -270,
 		"root": false
 	},
 	"bw9xr4z1fxbdq4ii": {
 		"definition": "gun_dmg+5%",
-		"x": -32,
-		"y": -320,
+		"x": -30,
+		"y": -300,
 		"root": false
 	},
 	"tqko3jrerjn7nkpk": {
 		"definition": "gun_dmg+5%",
-		"x": -64,
-		"y": -320,
+		"x": -60,
+		"y": -300,
 		"root": false
 	},
 	"n45n9rvuqdzzcvtp": {
 		"definition": "gun_fire_rate+5%",
-		"x": 32,
-		"y": -256,
+		"x": 30,
+		"y": -240,
 		"root": false
 	},
 	"2u4rthh7rizmbpqm": {
 		"definition": "gun_fire_rate+5%",
-		"x": 32,
-		"y": -288,
+		"x": 30,
+		"y": -270,
 		"root": false
 	},
 	"z9djalr65mnw56z4": {
 		"definition": "gun_fire_rate+5%",
-		"x": 32,
-		"y": -320,
+		"x": 30,
+		"y": -300,
 		"root": false
 	},
 	"lxtaijz502cwzix6": {
 		"definition": "gun_fire_rate+15%",
-		"x": 64,
-		"y": -320,
+		"x": 60,
+		"y": -300,
 		"root": false
 	},
 	"xp17goh3ppj4lbyg": {
 		"definition": "consume_ammo-5%",
 		"x": 0,
-		"y": -352,
+		"y": -330,
 		"root": false
 	},
 	"06rn60c8s8ejib71": {
 		"definition": "gun_spread",
-		"x": -64,
-		"y": -384,
+		"x": -60,
+		"y": -420,
 		"root": false
 	},
 	"qvkcxyliill1ptif": {
 		"definition": "gun_spread",
-		"x": -96,
-		"y": -384,
+		"x": -90,
+		"y": -420,
 		"root": false
 	},
 	"qyiohuyywq19af6x": {
 		"definition": "gun_knockback+10%",
-		"x": 64,
-		"y": -384,
+		"x": 60,
+		"y": -420,
 		"root": false
 	},
 	"isaadokeyfth3zs8": {
 		"definition": "gun_knockback+10%",
-		"x": 96,
-		"y": -384,
+		"x": 90,
+		"y": -420,
 		"root": false
 	},
 	"4vqwlenx1492b04s": {
 		"definition": "healing+5%",
-		"x": 64,
-		"y": -416,
+		"x": 60,
+		"y": -450,
 		"root": false
 	},
 	"k3qnhbaj5j9pf6md": {
 		"definition": "healing+5%",
-		"x": 96,
-		"y": -416,
+		"x": 90,
+		"y": -450,
 		"root": false
 	},
 	"ukb5fj81rjnhyl1w": {
 		"definition": "roll_cooldown-10%",
-		"x": -64,
-		"y": -416,
+		"x": -60,
+		"y": -450,
 		"root": false
 	},
 	"tr6hyhzjctyu4twm": {
 		"definition": "roll_cooldown-10%",
-		"x": -96,
-		"y": -416,
+		"x": -90,
+		"y": -450,
 		"root": false
 	},
 	"2zwq1ynuystyh1hb": {
 		"definition": "gun_dmg+10%",
-		"x": -32,
-		"y": -448,
+		"x": -30,
+		"y": -480,
 		"root": false
 	},
 	"ft6qrmwg2e9qluz0": {
 		"definition": "consume_ammo-5%",
-		"x": 32,
-		"y": -448,
+		"x": 30,
+		"y": -480,
 		"root": false
 	},
 	"lprzjq3ip6fa4wnw": {
 		"definition": "health2+",
-		"x": -32,
-		"y": -480,
+		"x": -30,
+		"y": -510,
 		"root": false
 	},
 	"pb84f45m6qfhuafd": {
 		"definition": "prot_shred+5%",
-		"x": 32,
-		"y": -480,
+		"x": 30,
+		"y": -510,
 		"root": false
 	},
 	"qlj1qwknz6fg2veb": {
 		"definition": "gun_dmg+5%",
-		"x": -32,
-		"y": -544,
+		"x": -30,
+		"y": -570,
 		"root": false
 	},
 	"lfb1s9kdhqe79qbv": {
 		"definition": "gun_dmg+5%",
-		"x": 32,
-		"y": -544,
+		"x": 30,
+		"y": -570,
 		"root": false
 	},
 	"h0gluh0549ej581m": {
 		"definition": "consume_ammo-10%",
 		"x": 0,
-		"y": -576,
+		"y": -600,
 		"root": false
 	},
 	"hc6rkb66eqru9i6x": {
 		"definition": "armor_shred+5%",
-		"x": -64,
-		"y": -480,
+		"x": -60,
+		"y": -510,
 		"root": false
 	},
 	"uv4l01wl87or3vq1": {
 		"definition": "armor_shred+5%",
-		"x": 64,
-		"y": -480,
+		"x": 60,
+		"y": -510,
 		"root": false
 	},
 	"yy8bsthhprmbus3m": {
 		"definition": "dodge+5%",
-		"x": 256,
-		"y": 32,
+		"x": 270,
+		"y": 30,
 		"root": false
 	},
 	"y0vbi4mjmn6eu8b8": {
 		"definition": "dodge+5%",
-		"x": 288,
-		"y": 32,
+		"x": 300,
+		"y": 30,
 		"root": false
 	},
 	"79rqly6lso4v2b2x": {
 		"definition": "dodge+5%",
-		"x": 320,
-		"y": 32,
+		"x": 330,
+		"y": 30,
 		"root": false
 	},
 	"4cz6qchxtg3fhb9m": {
 		"definition": "dodge+10%",
-		"x": 320,
-		"y": 64,
+		"x": 330,
+		"y": 60,
 		"root": false
 	},
 	"z0zprierqtbxlcw7": {
 		"definition": "gun_dmg+5%",
-		"x": 256,
-		"y": -32,
+		"x": 270,
+		"y": -30,
 		"root": false
 	},
 	"ci7cefqo87mfdnbr": {
 		"definition": "gun_dmg+5%",
-		"x": 288,
-		"y": -32,
+		"x": 300,
+		"y": -30,
 		"root": false
 	},
 	"lmvx5tha8x1co9ih": {
 		"definition": "gun_dmg+5%",
-		"x": 320,
-		"y": -32,
+		"x": 330,
+		"y": -30,
 		"root": false
 	},
 	"x1ljm3sai879037g": {
 		"definition": "shotgun_projectile+1",
-		"x": 320,
-		"y": -64,
+		"x": 330,
+		"y": -60,
 		"root": false
 	},
 	"y63201xcv0pt8yu3": {
 		"definition": "gun_spread",
-		"x": 352,
+		"x": 360,
 		"y": 0,
 		"root": false
 	},
 	"x254nrxig615gykx": {
 		"definition": "gun_fire_rate+5%",
-		"x": 384,
-		"y": -64,
+		"x": 420,
+		"y": -60,
 		"root": false
 	},
 	"qjvy08i6r2k5ad0b": {
 		"definition": "gun_fire_rate+5%",
-		"x": 384,
-		"y": -96,
+		"x": 420,
+		"y": -90,
 		"root": false
 	},
 	"fuswutd1bdbinftx": {
 		"definition": "consume_ammo-5%",
-		"x": 384,
-		"y": 64,
+		"x": 420,
+		"y": 60,
 		"root": false
 	},
 	"cxanjoxyge29eshz": {
 		"definition": "consume_ammo-5%",
-		"x": 384,
-		"y": 96,
+		"x": 420,
+		"y": 90,
 		"root": false
 	},
 	"qh5roc2gupz4pj53": {
 		"definition": "dodge+5%",
-		"x": 416,
-		"y": -64,
+		"x": 450,
+		"y": -60,
 		"root": false
 	},
 	"yc1ae1q5v3iwnff1": {
 		"definition": "dodge+5%",
-		"x": 416,
-		"y": -96,
+		"x": 450,
+		"y": -90,
 		"root": false
 	},
 	"9glnq2orkwa6k3z0": {
 		"definition": "roll_count+1",
-		"x": 416,
-		"y": 64,
+		"x": 450,
+		"y": 60,
 		"root": false
 	},
 	"ijsldyo2bt3pmxqi": {
 		"definition": "roll_count+1",
-		"x": 416,
-		"y": 96,
+		"x": 450,
+		"y": 90,
 		"root": false
 	},
 	"iqqkjntks8m8l25f": {
 		"definition": "roll_cooldown-10%",
-		"x": 480,
-		"y": 64,
+		"x": 510,
+		"y": 60,
 		"root": false
 	},
 	"46eattn57ufgxoq3": {
 		"definition": "current_hp_damage+5%",
-		"x": 448,
-		"y": 32,
+		"x": 480,
+		"y": 30,
 		"root": false
 	},
 	"pheufv3yp94yunh6": {
 		"definition": "shotgun_projectile+1",
-		"x": 480,
-		"y": -64,
+		"x": 510,
+		"y": -60,
 		"root": false
 	},
 	"w30nrch5gwt7iq1g": {
 		"definition": "gun_dmg+5%",
-		"x": 448,
-		"y": -32,
+		"x": 480,
+		"y": -30,
 		"root": false
 	},
 	"xqu9kq5mwbv26pzt": {
 		"definition": "shotgun_projectile+2",
-		"x": 576,
+		"x": 600,
 		"y": 0,
 		"root": false
 	},
 	"5z34fpqq4rzv7p0h": {
 		"definition": "roll_distance+1",
-		"x": 480,
-		"y": -32,
+		"x": 510,
+		"y": -30,
 		"root": false
 	},
 	"n0scmkwx88iyjld0": {
 		"definition": "roll_distance+1",
-		"x": 480,
-		"y": 32,
+		"x": 510,
+		"y": 30,
 		"root": false
 	},
 	"4h693snbw0fzdfkp": {
 		"definition": "armor_shred+5%",
-		"x": 544,
-		"y": -32,
+		"x": 570,
+		"y": -30,
 		"root": false
 	},
 	"8cktvx5dgrsp2o5o": {
 		"definition": "crit_chance+5%",
-		"x": 544,
-		"y": 32,
+		"x": 570,
+		"y": 30,
 		"root": false
 	},
 	"lt5t3vyzbwb8ac0x": {
@@ -644,7 +644,85 @@
 	"d0y15n20xatttbsr": {
 		"definition": "gunner_expert_gear",
 		"x": 0,
-		"y": 320,
+		"y": 330,
+		"root": false
+	},
+	"hvi9aarbnf65inuh": {
+		"definition": "roll_cooldown-10%",
+		"x": -360,
+		"y": 60,
+		"root": false
+	},
+	"xzlkjpix5ayhn3e7": {
+		"definition": "roll_cooldown-10%",
+		"x": -360,
+		"y": 90,
+		"root": false
+	},
+	"vvs1cnboygnmsa94": {
+		"definition": "movement_speed+1%",
+		"x": -360,
+		"y": -60,
+		"root": false
+	},
+	"qzlcn7avy87oat1x": {
+		"definition": "movement_speed+1%",
+		"x": -360,
+		"y": -90,
+		"root": false
+	},
+	"nhe7bjh329xhio16": {
+		"definition": "armor_shred+5%",
+		"x": 390,
+		"y": -60,
+		"root": false
+	},
+	"j6ctob98eczu1fdm": {
+		"definition": "armor_shred+5%",
+		"x": 390,
+		"y": -90,
+		"root": false
+	},
+	"or72kr4jqd5pqzck": {
+		"definition": "luck+1",
+		"x": 390,
+		"y": 60,
+		"root": false
+	},
+	"h1o06quojyqk0ots": {
+		"definition": "luck+1",
+		"x": 390,
+		"y": 90,
+		"root": false
+	},
+	"xkxn90a765m63pph": {
+		"definition": "armor_shred+5%",
+		"x": 0,
+		"y": 300,
+		"root": false
+	},
+	"rifhi5p91sgj9ft5": {
+		"definition": "armor_shred+5%",
+		"x": -60,
+		"y": -390,
+		"root": false
+	},
+	"95319pak0cphe1p9": {
+		"definition": "armor_shred+5%",
+		"x": -90,
+		"y": -390,
+		"root": false
+	},
+	"d9bsjw4o4zfj0ru9": {
+		"definition": "roll_distance+1",
+		"x": 60,
+		"y": -390,
+		"root": false
+	},
+	"5hvyaymev6z4f1ze": {
+		"definition": "roll_distance+1",
+		"x": 90,
+		"y": -390,
 		"root": false
 	}
 }

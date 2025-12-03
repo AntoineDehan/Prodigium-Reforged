@@ -10093,7 +10093,7 @@
     ]
   },
   "melee_damage+5%": {
-    "title": "+5% Melee Damage",
+    "title": "+3% Melee Damage",
     "icon": {
       "type": "effect",
       "data": {
@@ -10105,7 +10105,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.melee_damage",
-          "value": 0.05,
+          "value": 0.03,
           "operation": "multiply_base"
         }
       }

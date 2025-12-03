@@ -19,13 +19,13 @@
 	},
 	"xsak3gay0v3z4inb": {
 		"definition": "clericSignatureAnointWeaponCleanse",
-		"x": -570,
+		"x": -608,
 		"y": -76,
 		"root": false
 	},
 	"ipbguvfzpm9nvg8j": {
 		"definition": "clericSignatureAnointWeaponUndying",
-		"x": -570,
+		"x": -608,
 		"y": 76,
 		"root": false
 	},
@@ -61,13 +61,13 @@
 	},
 	"4p70f1lw2j9ogrvz": {
 		"definition": "clericSignatureSacredOrbBuffs",
-		"x": 570,
+		"x": 608,
 		"y": 76,
 		"root": false
 	},
 	"vq2yx5g5wqatozfj": {
 		"definition": "clericSignatureSacredOrbDebuffs",
-		"x": 570,
+		"x": 608,
 		"y": -76,
 		"root": false
 	},
@@ -80,17 +80,17 @@
 	"u2ukao7v37zmiyxe": {
 		"definition": "clericSignatureDivineInterventionMight",
 		"x": -76,
-		"y": -570,
+		"y": -608,
 		"root": false
 	},
 	"tc1tmlw0t5e0ieuw": {
 		"definition": "clericSignatureDivineInterventionSpellforged",
 		"x": 76,
-		"y": -570,
+		"y": -608,
 		"root": false
 	},
 	"kzj431vrpy8f109q": {
-		"definition": "spell_healing_power_multi+1%",
+		"definition": "holy_spell_power+5%",
 		"x": 0,
 		"y": 0,
 		"root": true
@@ -144,139 +144,139 @@
 		"root": false
 	},
 	"pw9lcks4hvzshtj0": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": -304,
 		"y": -38,
 		"root": false
 	},
 	"cwtn3ozvxaftkyjx": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": -342,
 		"y": -38,
 		"root": false
 	},
 	"fyzyvkg49gxv6s00": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": -380,
 		"y": -38,
 		"root": false
 	},
 	"kzx4mkpyfzkp6drv": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": -380,
 		"y": -76,
 		"root": false
 	},
 	"5r5k35vz4ijgkm1p": {
-		"definition": "spell_healing_power_additive+1%",
-		"x": -494,
+		"definition": "holy_spell_power+5%",
+		"x": -532,
 		"y": 76,
 		"root": false
 	},
 	"m5at72uo61qsybh5": {
-		"definition": "spell_healing_power_additive+1%",
-		"x": -494,
+		"definition": "holy_spell_power+5%",
+		"x": -532,
 		"y": 114,
 		"root": false
 	},
 	"ojo780x9kbr4jlti": {
 		"definition": "mana+25",
-		"x": -456,
+		"x": -494,
 		"y": 76,
 		"root": false
 	},
 	"vk4oe1jg65agmw8i": {
 		"definition": "mana+25",
-		"x": -456,
+		"x": -494,
 		"y": 114,
 		"root": false
 	},
 	"9d89p5346fr193og": {
 		"definition": "resistance+1",
-		"x": -532,
+		"x": -570,
 		"y": 38,
 		"root": false
 	},
 	"oko8qwgkq1w9oi56": {
 		"definition": "resistance+1",
-		"x": -570,
+		"x": -608,
 		"y": 38,
 		"root": false
 	},
 	"jvkfr64hlzyk6e1i": {
 		"definition": "armor+0.5",
-		"x": -456,
+		"x": -494,
 		"y": -76,
 		"root": false
 	},
 	"yfwi0msnisw4xybc": {
 		"definition": "armor+0.5",
-		"x": -456,
+		"x": -494,
 		"y": -114,
 		"root": false
 	},
 	"iopv8dtbba5qkwab": {
 		"definition": "cast_time_reduction-5%",
-		"x": -494,
+		"x": -532,
 		"y": -76,
 		"root": false
 	},
 	"ugko0p28xm7m3ic1": {
 		"definition": "cast_time_reduction-5%",
-		"x": -494,
+		"x": -532,
 		"y": -114,
 		"root": false
 	},
 	"pgee63h52ygr8vpo": {
 		"definition": "mana+50",
-		"x": -646,
+		"x": -684,
 		"y": 38,
 		"root": false
 	},
 	"wbj8ddpu4erb57si": {
 		"definition": "holy_spell_power+10%",
-		"x": -684,
+		"x": -722,
 		"y": 0,
 		"root": false
 	},
 	"tfzk7wnwbl1opls6": {
 		"definition": "healing+5%",
-		"x": -532,
+		"x": -570,
 		"y": -38,
 		"root": false
 	},
 	"ciwg3jvj3r6uue8k": {
 		"definition": "healing+5%",
-		"x": -570,
+		"x": -608,
 		"y": -38,
 		"root": false
 	},
 	"9etafz4vsdy09s8e": {
 		"definition": "knockback_resistance+5%",
-		"x": -646,
+		"x": -684,
 		"y": -38,
 		"root": false
 	},
 	"ni682vgzap7ccgi2": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": 38,
 		"y": -304,
 		"root": false
 	},
 	"0xr3yvgeoognxjp8": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": 38,
 		"y": -342,
 		"root": false
 	},
 	"jvcd83zgpu829chm": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": 38,
 		"y": -380,
 		"root": false
 	},
 	"hxxxooh2bjm6msmi": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+10%",
 		"x": 76,
 		"y": -380,
 		"root": false
@@ -308,113 +308,113 @@
 	"xd6qwnqt3yqpctiz": {
 		"definition": "mana+25",
 		"x": 76,
-		"y": -456,
+		"y": -494,
 		"root": false
 	},
 	"9g2p1gs3fao4oebb": {
 		"definition": "mana+25",
 		"x": 114,
-		"y": -456,
+		"y": -494,
 		"root": false
 	},
 	"8hm0hxmohpq8kx82": {
 		"definition": "cast_time_reduction-5%",
 		"x": 76,
-		"y": -494,
+		"y": -532,
 		"root": false
 	},
 	"tdja2x941xcguhm2": {
 		"definition": "cast_time_reduction-5%",
 		"x": 114,
-		"y": -494,
+		"y": -532,
 		"root": false
 	},
 	"mzatzj310vmpatf4": {
 		"definition": "cooldown_reduction-5%",
 		"x": 38,
-		"y": -532,
+		"y": -570,
 		"root": false
 	},
 	"qhndd1gfkg3tyhyg": {
 		"definition": "cooldown_reduction-5%",
 		"x": 38,
-		"y": -570,
+		"y": -608,
 		"root": false
 	},
 	"088qrnwa7jvx1bsg": {
 		"definition": "attack_knockback+5%",
 		"x": -76,
-		"y": -456,
+		"y": -494,
 		"root": false
 	},
 	"djn6r7pxqbg4ojs4": {
 		"definition": "attack_knockback+5%",
 		"x": -114,
-		"y": -456,
+		"y": -494,
 		"root": false
 	},
 	"u06srwxooxhnd8cg": {
 		"definition": "movement_speed+1%",
 		"x": -76,
-		"y": -494,
+		"y": -532,
 		"root": false
 	},
 	"av15naq0ak7vyngh": {
 		"definition": "movement_speed+1%",
 		"x": -114,
-		"y": -494,
-		"root": false
-	},
-	"7vdrsph9o3shamrt": {
-		"definition": "spell_healing_power_additive+1%",
-		"x": -38,
 		"y": -532,
 		"root": false
 	},
-	"04p1viltnga68ipr": {
-		"definition": "spell_healing_power_additive+1%",
+	"7vdrsph9o3shamrt": {
+		"definition": "holy_spell_power+5%",
 		"x": -38,
 		"y": -570,
+		"root": false
+	},
+	"04p1viltnga68ipr": {
+		"definition": "holy_spell_power+5%",
+		"x": -38,
+		"y": -608,
 		"root": false
 	},
 	"a7enp8g9s4gryciv": {
 		"definition": "roll_count+1",
 		"x": -38,
-		"y": -646,
+		"y": -684,
 		"root": false
 	},
 	"9wxccf9ujjogefdm": {
 		"definition": "holy_spell_power+10%",
 		"x": 0,
-		"y": -684,
+		"y": -722,
 		"root": false
 	},
 	"uxoh2cr3o01wvqtl": {
 		"definition": "roll_cooldown-10%",
 		"x": 38,
-		"y": -646,
+		"y": -684,
 		"root": false
 	},
 	"q5qcq3o9cpicihky": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": 304,
 		"y": 38,
 		"root": false
 	},
 	"3bnqs3f99oy96k1l": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": 342,
 		"y": 38,
 		"root": false
 	},
 	"ir0umiw29cx11zkx": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": 380,
 		"y": 38,
 		"root": false
 	},
 	"kb0zxn2yjzb0dpfh": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+10%",
 		"x": 380,
 		"y": 76,
 		"root": false
@@ -445,91 +445,91 @@
 	},
 	"8ekfrppm9iqy782i": {
 		"definition": "spell_power+5%",
-		"x": 456,
+		"x": 494,
 		"y": 76,
 		"root": false
 	},
 	"tmcvo955ue5l5k6w": {
 		"definition": "spell_power+5%",
-		"x": 456,
+		"x": 494,
 		"y": 114,
 		"root": false
 	},
 	"qnhasvh71bcrq8gr": {
 		"definition": "crit_chance+5%",
-		"x": 456,
+		"x": 494,
 		"y": -76,
 		"root": false
 	},
 	"cc2mnsry007dhlp2": {
 		"definition": "crit_chance+5%",
-		"x": 456,
+		"x": 494,
 		"y": -114,
 		"root": false
 	},
 	"c1cdoxzsg06f5gsx": {
 		"definition": "crit_damage+5%",
-		"x": 494,
+		"x": 532,
 		"y": 76,
 		"root": false
 	},
 	"7zw7hcqvjjs0i6b1": {
 		"definition": "crit_damage+5%",
-		"x": 494,
+		"x": 532,
 		"y": 114,
 		"root": false
 	},
 	"cbhvhagxqef025yz": {
 		"definition": "spell_power+10%",
-		"x": 684,
+		"x": 722,
 		"y": 0,
 		"root": false
 	},
 	"ej0hr99ajthvzpqo": {
-		"definition": "spell_healing_power_additive+1%",
-		"x": 532,
+		"definition": "holy_spell_power+5%",
+		"x": 570,
 		"y": 38,
 		"root": false
 	},
 	"ocohim8ihc41hcdg": {
-		"definition": "spell_healing_power_additive+1%",
-		"x": 570,
+		"definition": "holy_spell_power+5%",
+		"x": 608,
 		"y": 38,
 		"root": false
 	},
 	"pbtxvoj88kmq1mgt": {
 		"definition": "cast_time_reduction-5%",
-		"x": 494,
+		"x": 532,
 		"y": -76,
 		"root": false
 	},
 	"nvsdpusftq72u4r3": {
 		"definition": "cast_time_reduction-5%",
-		"x": 494,
+		"x": 532,
 		"y": -114,
 		"root": false
 	},
 	"4ufgz7g1dgtlsmys": {
 		"definition": "prot_shred+5%",
-		"x": 646,
+		"x": 684,
 		"y": -38,
 		"root": false
 	},
 	"muveujidavcq43lb": {
 		"definition": "luck+1",
-		"x": 532,
+		"x": 570,
 		"y": -38,
 		"root": false
 	},
 	"129yoezinee2hxqc": {
 		"definition": "luck+1",
-		"x": 570,
+		"x": 608,
 		"y": -38,
 		"root": false
 	},
 	"yj68bpngkehvs37i": {
 		"definition": "mana+25",
-		"x": 646,
+		"x": 684,
 		"y": 38,
 		"root": false
 	},
@@ -546,13 +546,13 @@
 		"root": false
 	},
 	"jpaulbgid76rmv2k": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": -38,
 		"y": 228,
 		"root": false
 	},
 	"nmhtn03vxbyavcs9": {
-		"definition": "spell_healing_power_additive+1%",
+		"definition": "holy_spell_power+5%",
 		"x": -38,
 		"y": 266,
 		"root": false
@@ -651,6 +651,84 @@
 		"definition": "priest",
 		"x": 0,
 		"y": 456,
+		"root": false
+	},
+	"wcx0c3bwjere78w0": {
+		"definition": "melee_damage+5%",
+		"x": -456,
+		"y": -76,
+		"root": false
+	},
+	"3yeclgyldc4p6oe0": {
+		"definition": "melee_damage+5%",
+		"x": -456,
+		"y": -114,
+		"root": false
+	},
+	"u027ry9e8v9eybkc": {
+		"definition": "movement_speed+1%",
+		"x": -456,
+		"y": 76,
+		"root": false
+	},
+	"bq7c0c35e4wnm7u2": {
+		"definition": "movement_speed+1%",
+		"x": -456,
+		"y": 114,
+		"root": false
+	},
+	"3f3xlp23pe25ufsa": {
+		"definition": "cooldown_reduction-5%",
+		"x": 456,
+		"y": 76,
+		"root": false
+	},
+	"4qk8wwd7jtat79k2": {
+		"definition": "cooldown_reduction-5%",
+		"x": 456,
+		"y": 114,
+		"root": false
+	},
+	"cz7pv733brr1bmw5": {
+		"definition": "roll_cooldown-10%",
+		"x": 456,
+		"y": -76,
+		"root": false
+	},
+	"77c37b8v16dhumxy": {
+		"definition": "roll_cooldown-10%",
+		"x": 456,
+		"y": -114,
+		"root": false
+	},
+	"49yk0iq0pvxdmcmy": {
+		"definition": "holy_spell_power+5%",
+		"x": 76,
+		"y": -456,
+		"root": false
+	},
+	"a5mz9hv0ftl0mzaj": {
+		"definition": "holy_spell_power+5%",
+		"x": 114,
+		"y": -456,
+		"root": false
+	},
+	"1ygy7pwez9yh7ax0": {
+		"definition": "healing+5%",
+		"x": -76,
+		"y": -456,
+		"root": false
+	},
+	"ptpe5134o9i4apoo": {
+		"definition": "healing+5%",
+		"x": -114,
+		"y": -456,
+		"root": false
+	},
+	"agnn744ob1kqcwaj": {
+		"definition": "mana+25",
+		"x": 0,
+		"y": 380,
 		"root": false
 	}
 }
