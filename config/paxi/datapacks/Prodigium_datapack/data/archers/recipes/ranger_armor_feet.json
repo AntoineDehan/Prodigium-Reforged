@@ -2,14 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "H": {
-      "item": "irons_spellbooks:hogskin"
-    },
-    "L": {
-      "item": "prodigium:orichalcum_ingot"
+    "p": {
+      "item": "prodigium_reforged:ranger_leather_patch"
     }
   },
-  "pattern": ["L L", "H H"],
+  "pattern": ["p p", "p p"],
   "result": {
     "item": "archers:ranger_armor_feet"
   },

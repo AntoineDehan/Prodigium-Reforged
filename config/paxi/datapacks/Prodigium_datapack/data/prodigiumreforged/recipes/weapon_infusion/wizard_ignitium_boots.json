@@ -1,0 +1,12 @@
+{
+  "type": "cataclysm:weapon_fusion",
+  "base": {
+    "item": "prodigium_reforged:skyjade_boots"
+  },
+  "addition": {
+    "item": "cataclysm:ignitium_ingot"
+  },
+  "result": {
+    "item": "prodigium_reforged:wizard_ignitium_boots"
+  }
+}

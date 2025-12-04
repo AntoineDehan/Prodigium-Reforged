@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["b b", "a a"],
+  "key": {
+    "a": { "item": "deep_aether:skyjade" }
+  },
+  "result": { "item": "kubejs:skyjade_boots" }
+}

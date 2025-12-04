@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["bab", "b b", "a a"],
+  "key": {
+    "a": { "item": "deep_aether:skyjade" },
+    "b": { "item": "irons_spellbooks:magic_clotch" }
+  },
+  "result": { "item": "kubejs:skyjade_leggings" }
+}

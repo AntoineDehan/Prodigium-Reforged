@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "prodigium_reforged:dark_armor_scrap"
+  },
+  "base": {
+    "item": "paladins:prior_robe_chest"
+  },
+  "result": {
+    "item": "kubejs:holy_marauder_chestplate"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

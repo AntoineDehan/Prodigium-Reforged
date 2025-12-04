@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["a a", "aba", "aaa"],
+  "key": {
+    "a": { "item": "prodigium_reforged:necro_bone" },
+    "b": { "item": "bypowderandsteel:heptacle" }
+  },
+  "result": { "item": "kubejs:necro_chestplate" }
+}

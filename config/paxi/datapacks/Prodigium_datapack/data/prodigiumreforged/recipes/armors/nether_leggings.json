@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "armor",
+  "pattern": ["SWS", "B B", "B B"],
+  "key": {
+    "B": {
+      "item": "minecraft:red_wool"
+    },
+    "S": {
+      "item": "prodigium_reforged:sun_fragment"
+    },
+    "W": {
+      "item": "prodigium_reforged:nether_bone"
+    }
+  },
+  "result": {
+    "item": "kubejs:nether_leggings",
+    "count": 1
+  }
+}

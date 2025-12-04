@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "armor",
+  "pattern": ["A A", "B B"],
+  "key": {
+    "B": {
+      "tag": "forge:wools"
+    },
+    "A": {
+      "item": "prodigium_reforged:umvuthi_feather"
+    }
+  },
+  "result": {
+    "item": "kubejs:sol_boots",
+    "count": 1
+  }
+}

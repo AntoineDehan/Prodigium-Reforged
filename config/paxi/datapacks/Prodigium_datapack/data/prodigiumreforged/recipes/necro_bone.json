@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" N ", "NDN", " N "],
+  "key": {
+    "N": {
+      "item": "prodigium_reforged:nether_bone"
+    },
+    "D": {
+      "item": "block_factorys_bosses:dragon_bone"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:necro_bone",
+    "count": 2
+  }
+}

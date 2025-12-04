@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["A A", "BCB", "BBB"],
+  "key": {
+    "B": {
+      "tag": "forge:wools"
+    },
+    "A": {
+      "item": "prodigium_reforged:umvuthi_feather"
+    },
+    "C": {
+      "item": "irons_spellbooks:arcane_ingot"
+    }
+  },
+  "result": {
+    "item": "kubejs:sol_chestplate",
+    "count": 1
+  }
+}

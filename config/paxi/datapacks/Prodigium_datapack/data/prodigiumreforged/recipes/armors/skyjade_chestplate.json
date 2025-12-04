@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["a a", "ceb", "ceb"],
+  "key": {
+    "a": { "item": "deep_aether:skyjade" },
+    "b": { "item": "aether_redux:veridium_ingot" },
+    "c": { "item": "deep_aether:stratus_ingot" },
+    "e": { "item": "irons_spellbooks:magic_clotch" }
+  },
+  "result": { "item": "kubejs:skyjade_chestplate" }
+}

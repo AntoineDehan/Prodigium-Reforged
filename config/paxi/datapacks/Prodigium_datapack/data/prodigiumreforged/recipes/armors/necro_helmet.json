@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["aaa", "a a"],
+  "key": {
+    "a": { "item": "prodigium_reforged:necro_bone" }
+  },
+  "result": { "item": "kubejs:necro_helmet" }
+}
