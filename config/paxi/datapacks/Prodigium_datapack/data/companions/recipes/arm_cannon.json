@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" i ", " c ", " p "],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "item": "gunswithoutroses:iron_gun"
+    }
+  },
+  "result": {
+    "item": "companions:cannon_arm",
+    "count": 1
+  }
+}

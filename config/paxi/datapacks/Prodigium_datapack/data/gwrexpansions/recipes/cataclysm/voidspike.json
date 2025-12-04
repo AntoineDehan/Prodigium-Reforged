@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SL ", "IVL", " PC"],
+  "key": {
+    "S": { "item": "minecraft:spore_blossom" },
+    "V": { "item": "bosses_of_mass_destruction:void_thorn" },
+    "L": { "item": "deep_aether:skyjade" },
+    "C": { "item": "bosses_of_mass_destruction:crystal_fruit" },
+    "P": { "item": "minecraft:peony" },
+    "I": { "item": "minecraft:lilac" }
+  },
+  "result": { "item": "gwrexpansions:voidspike" },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "bosses_of_mass_destruction" }
+  ]
+}

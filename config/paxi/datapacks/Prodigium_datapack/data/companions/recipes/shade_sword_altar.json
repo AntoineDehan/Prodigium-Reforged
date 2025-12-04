@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["fsa", " c ", " b "],
+  "key": {
+    "b": {
+      "item": "minecraft:bone_block"
+    },
+    "a": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "companions:crystallized_blood"
+    },
+    "f": {
+      "tag": "minecraft:banners"
+    }
+  },
+  "result": {
+    "item": "companions:shade_sword_altar",
+    "count": 1
+  }
+}

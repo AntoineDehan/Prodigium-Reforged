@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" /#", "/#/", "N/ "],
+  "key": {
+    "/": {
+      "item": "minecraft:blaze_rod"
+    },
+    "#": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "N": {
+      "item": "simpleores:onyx_sword"
+    }
+  },
+  "result": {
+    "item": "cataclysm:the_incinerator",
+    "count": 1
+  }
+}

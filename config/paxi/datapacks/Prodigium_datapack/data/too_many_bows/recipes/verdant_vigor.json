@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" E ", "VLV", " B "],
+  "key": {
+    "E": {
+      "item": "stalwart_dungeons:void_crystal"
+    },
+    "V": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    "L": {
+      "item": "minecraft:oak_log"
+    },
+    "B": {
+      "item": "prodigium:shroomite_bow"
+    }
+  },
+  "result": {
+    "item": "too_many_bows:verdant_vigor",
+    "count": 1
+  }
+}

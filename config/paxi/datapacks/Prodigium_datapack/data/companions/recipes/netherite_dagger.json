@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["i", "p"],
+  "key": {
+    "i": {
+      "item": "simpleores:onyx_gem"
+    },
+    "p": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "companions:netherite_dagger",
+    "count": 1
+  }
+}

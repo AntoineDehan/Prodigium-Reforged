@@ -1,0 +1,17 @@
+{
+  "type": "confluence:workshop",
+  "ingredients": [
+    {
+      "item": "confluence:sniper_scope"
+    },
+    {
+      "item": "confluence:putrid_scent"
+    },
+    {
+      "item": "stalwart_dungeons:void_crystal"
+    }
+  ],
+  "result": {
+    "item": "confluence:recon_scope"
+  }
+}

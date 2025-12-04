@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", "NAN", " T "],
+  "key": {
+    "A": {
+      "item": "prodigium:orichalcum_bow"
+    },
+    "B": {
+      "item": "bypowderandsteel:heptacle"
+    },
+    "N": {
+      "item": "simpleores:onyx_gem"
+    },
+    "T": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "too_many_bows:astral_bound",
+    "count": 1
+  }
+}

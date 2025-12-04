@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["php", "sss", "ele"],
+  "key": {
+    "h": {
+      "item": "knightlib:homunculus"
+    },
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "l": {
+      "item": "minecraft:leather_boots"
+    },
+    "e": {
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  },
+  "result": {
+    "item": "companions:empty_puppet_block",
+    "count": 1
+  }
+}

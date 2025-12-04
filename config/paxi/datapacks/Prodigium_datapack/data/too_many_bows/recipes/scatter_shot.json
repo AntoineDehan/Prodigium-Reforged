@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SB ", " AC", "SB "],
+  "key": {
+    "A": {
+      "item": "aether:phoenix_bow"
+    },
+    "B": {
+      "item": "prodigium_reforged:valkyrie_plate"
+    },
+    "S": {
+      "item": "prodigium_reforged:slider_dust"
+    },
+    "C": {
+      "item": "irons_spellbooks:arcane_ingot"
+    }
+  },
+  "result": {
+    "item": "too_many_bows:scatter_bow",
+    "count": 1
+  }
+}

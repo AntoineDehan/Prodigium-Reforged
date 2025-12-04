@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "prodigium_reforged:knight_soul_fragment"
+    }
+  ],
+  "result": {
+    "item": "knightlib:great_essence",
+    "count": 6
+  }
+}

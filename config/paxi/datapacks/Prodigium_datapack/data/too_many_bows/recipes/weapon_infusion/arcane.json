@@ -1,0 +1,12 @@
+{
+  "type": "cataclysm:weapon_fusion",
+  "base": {
+    "item": "too_many_bows:twin_shadows"
+  },
+  "addition": {
+    "item": "prodigium_reforged:leviathan_scale"
+  },
+  "result": {
+    "item": "too_many_bows:arcane_bow"
+  }
+}

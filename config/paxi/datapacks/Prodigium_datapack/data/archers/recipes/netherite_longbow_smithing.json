@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "simpleores:onyx_gem"
+  },
+  "base": {
+    "item": "archers:royal_longbow"
+  },
+  "result": {
+    "item": "archers:netherite_longbow"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

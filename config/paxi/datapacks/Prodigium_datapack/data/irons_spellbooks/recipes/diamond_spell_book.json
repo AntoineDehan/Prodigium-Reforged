@@ -1,32 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "DHH",
-    "TET",
-    "DHH"
-  ],
-  "key":
-  {
-    "D":
-    {
+  "pattern": ["DHH", "TET", "DHH"],
+  "key": {
+    "D": {
       "tag": "forge:gems/diamond"
     },
-    "E":
-    {
-      "item": "aether:zanite_gemstone"
+    "E": {
+      "item": "prodigium_reforged:phoenix_ingot"
     },
-    "T":
-    {
+    "T": {
       "item": "irons_spellbooks:magic_cloth"
     },
-    "H":
-    {
+    "H": {
       "item": "irons_spellbooks:hogskin"
     }
   },
-  "result":
-  {
+  "result": {
     "item": "irons_spellbooks:diamond_spell_book",
     "count": 1
   }

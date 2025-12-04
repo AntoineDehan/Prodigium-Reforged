@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" ca", "bfb", " b "],
+  "key": {
+    "b": {
+      "tag": "minecraft:planks"
+    },
+    "a": {
+      "item": "cataclysm:monstrous_horn"
+    },
+    "c": {
+      "item": "companions:crystallized_blood"
+    },
+    "f": {
+      "tag": "minecraft:banners"
+    }
+  },
+  "result": {
+    "item": "companions:shade_maw_altar",
+    "count": 1
+  }
+}

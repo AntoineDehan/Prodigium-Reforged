@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["LL ", "LO ", "N  "],
+  "key": {
+    "O": { "item": "minecraft:gold_ingot" },
+    "L": { "item": "irons_spellbooks:hogskin" },
+    "N": { "item": "simpleores:onyx_gem" }
+  },
+  "result": {
+    "item": "sweet_charm_o_mine:bullet_shell_charm"
+  }
+}

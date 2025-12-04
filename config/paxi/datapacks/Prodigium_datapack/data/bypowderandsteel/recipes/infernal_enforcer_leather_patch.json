@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    { "item": "prodigium_reforged:frostmaw_leather_patch" },
+    { "item": "irons_spellbooks:hogskin" },
     { "item": "bypowderandsteel:heptacle" },
     { "item": "minecraft:blaze_powder" },
     { "item": "prodigium:orichalcum_nugget" }

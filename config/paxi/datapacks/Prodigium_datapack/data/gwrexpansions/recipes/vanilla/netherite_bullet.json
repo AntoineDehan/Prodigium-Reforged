@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:diamond" },
+    { "item": "simpleores:onyx_gem" },
+    { "item": "simpleores:onyx_gem" },
+    { "item": "simpleores:onyx_gem" },
+    { "tag": "forge:gunpowder" }
+  ],
+  "result": { "item": "gwrexpansions:netherite_bullet", "count": 32 }
+}

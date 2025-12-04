@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BA", "A "],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "confluence:shackle"
+  }
+}
