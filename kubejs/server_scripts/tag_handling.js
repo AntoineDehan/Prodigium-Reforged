@@ -58,4 +58,17 @@ ServerEvents.tags("item", (event) => {
     "prodigium:cobalt_boots",
     "irons_spellbooks:wandering_magician_boots"
   );
+
+  event.add(
+    "prodigium_reforged:soul_mage_books",
+    "companions:book_ice_shard",
+    "companions:book_ice_tornado",
+    "companions:book_fire_mark",
+    "companions:book_brace",
+    "companions:book_heal_ring",
+    "companions:book_stone_spikes",
+    "companions:book_magic_ray",
+    "companions:book_black_hole",
+    "companions:book_naginata"
+  );
 });
