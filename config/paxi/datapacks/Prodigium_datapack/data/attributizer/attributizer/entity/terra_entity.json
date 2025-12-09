@@ -36,9 +36,24 @@
       "operation": "ADDITION"
     },
     {
-      "attribute": "minecraft:generic.armor",
-      "modify": 8,
-      "operation": "ADDITION"
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -0.65,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "modify": -0.1,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "modify": -0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.15,
+      "operation": "MULTIPLY_BASE"
     }
   ],
   "terra_entity:eye_of_cthulhu": [
@@ -86,6 +101,11 @@
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": -0.25,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -0.1,
+      "operation": "MULTIPLY_BASE"
     },
     {
       "attribute": "minecraft:generic.armor",
