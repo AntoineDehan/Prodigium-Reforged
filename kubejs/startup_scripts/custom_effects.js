@@ -669,6 +669,8 @@ StartupEvents.registry("mob_effect", (event) => {
     );
 
   /// Another Gunner Set
+  event.create("placeholder_gunner").color(0xffd27f).beneficial();
+
   // Shotgun Bonus
   event
     .create("shotgun_bonus")

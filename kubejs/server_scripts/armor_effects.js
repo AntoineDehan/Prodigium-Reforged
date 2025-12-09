@@ -521,16 +521,25 @@ PlayerEvents.tick((event) => {
   let player = event.player;
   let item = player.mainHandItem;
 
-  if (guns.includes(item.id)) {
+  if (guns.includes(item.id) && player.hasEffect("kubejs:placeholder_gunner")) {
     player.potionEffects.add("kubejs:pistol_bonus", 40, 0, false, true);
   }
-  if (snipers.includes(item.id)) {
+  if (
+    snipers.includes(item.id) &&
+    player.hasEffect("kubejs:placeholder_gunner")
+  ) {
     player.potionEffects.add("kubejs:sniper_bonus", 40, 0, false, true);
   }
-  if (shotguns.includes(item.id)) {
+  if (
+    shotguns.includes(item.id) &&
+    player.hasEffect("kubejs:placeholder_gunner")
+  ) {
     player.potionEffects.add("kubejs:shotgun_bonus", 40, 0, false, true);
   }
-  if (gatlings.includes(item.id)) {
+  if (
+    gatlings.includes(item.id) &&
+    player.hasEffect("kubejs:placeholder_gunner")
+  ) {
     player.potionEffects.add("kubejs:gatling_bonus", 40, 0, false, true);
   }
 
