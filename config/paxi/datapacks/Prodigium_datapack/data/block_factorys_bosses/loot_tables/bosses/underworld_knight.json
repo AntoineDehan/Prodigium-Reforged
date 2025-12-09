@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prodigium:underworld_knight_treasure_bag",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "block_factorys_bosses:bosses/underworld_knight"
+}

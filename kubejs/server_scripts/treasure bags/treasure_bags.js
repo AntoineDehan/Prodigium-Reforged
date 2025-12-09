@@ -34,6 +34,7 @@ let treasureBags = [
   "prodigium:queen_bee_treasure_bag",
   "prodigium:infernal_dragon_treasure_bag",
   "prodigium:sandworm_treasure_bag",
+  "prodigium:underworld_knight_treasure_bag",
 ];
 
 ServerEvents.tags("item", (event) => {
