@@ -9,12 +9,12 @@ ItemEvents.modification((event) => {
 
   //// Early Game armors
 
-  // Copper T:10
+  // Copper T:11
   event.modify("simpleores:copper_boots", (item) => {
     item.armorProtection = 2;
   });
   event.modify("simpleores:copper_leggins", (item) => {
-    item.armorProtection = 3;
+    item.armorProtection = 4;
   });
 
   // Iron T:15 B:+2
