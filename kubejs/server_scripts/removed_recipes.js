@@ -11,6 +11,33 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "stalwart_dungeons:tungsten_pickaxe" });
   event.remove({ output: "stalwart_dungeons:tungsten_shovel" });
   event.remove({ output: "bypowderandsteel:gravitic_engine" });
+  event.remove({ id: "deep_aether:stratus_ingot" });
+
+  // Stick issue kek
+  event.remove({ output: "simple_weapons:ironwood_dagger" });
+  event.remove({ output: "simple_weapons:ironwood_scythe" });
+  event.remove({ output: "simple_weapons:ironwood_sickle" });
+  event.remove({ output: "simple_weapons:ironwood_greatsword" });
+  event.remove({ output: "simple_weapons:ironwood_katana" });
+  event.remove({ output: "simple_weapons:ironwood_scimitar" });
+  event.remove({ output: "simple_weapons:knightmetal_dagger" });
+  event.remove({ output: "simple_weapons:knightmetal_scythe" });
+  event.remove({ output: "simple_weapons:knightmetal_sickle" });
+  event.remove({ output: "simple_weapons:knightmetal_fist" });
+  event.remove({ output: "simple_weapons:knightmetal_spear" });
+  event.remove({ output: "simple_weapons:knightmetal_greatsword" });
+  event.remove({ output: "simple_weapons:knightmetal_katana" });
+  event.remove({ output: "simple_weapons:knightmetal_scimitar" });
+  event.remove({ output: "simple_weapons:steeleaf_dagger" });
+  event.remove({ output: "simple_weapons:steeleaf_fist" });
+  event.remove({ output: "simple_weapons:steeleaf_scythe" });
+  event.remove({ output: "simple_weapons:steeleaf_sickle" });
+  event.remove({ output: "simple_weapons:steeleaf_spear" });
+  event.remove({ output: "simple_weapons:steeleaf_greatsword" });
+  event.remove({ output: "simple_weapons:steeleaf_katana" });
+  event.remove({ output: "simple_weapons:steeleaf_scimitar" });
+  event.remove({ output: "simple_weapons:ironwood_fist" });
+  event.remove({ output: "simple_weapons:ironwood_spear" });
 
   // Armor
   event.remove({ output: "irons_spellbooks:netherite_mage_helmet" });
@@ -51,7 +78,6 @@ ServerEvents.recipes((event) => {
   ///
 
   // Sweet Charm o' Mine
-  event.remove({ output: "sweet_charm_o_mine:bullet_shell_charm" });
   event.remove({ output: "sweet_charm_o_mine:tobacco_pipe" });
   event.remove({ output: "sweet_charm_o_mine:shotgun_shells" });
   event.remove({ output: "sweet_charm_o_mine:dunlop_pick" });
@@ -80,6 +106,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "too_many_bows:crimson_nexus" });
   event.remove({ output: "too_many_bows:radiance" });
   event.remove({ output: "too_many_bows:necro_flame_bow" });
+  event.remove({ output: "too_many_bows:ancient_sage_bow" });
 
   // Simply Swords
   event.remove({ output: "simplyswords:runic_tablet" });
@@ -164,4 +191,17 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "simplyswords:runic_chakram" });
   event.remove({ output: "simplyswords:runic_scythe" });
   event.remove({ output: "simplyswords:runic_halberd" });
+
+  // Companions
+  event.remove({ output: "companions:recall_platfrom_block" });
+  event.remove({ output: "companions:frog_bonanza_block" });
+  event.remove({ output: "companions:book_ice_shard" });
+  event.remove({ output: "companions:book_ice_tornado" });
+  event.remove({ output: "companions:book_fire_mark" });
+  event.remove({ output: "companions:book_brace" });
+  event.remove({ output: "companions:book_heal_ring" });
+  event.remove({ output: "companions:book_stone_spikes" });
+  event.remove({ output: "companions:book_magic_ray" });
+  event.remove({ output: "companions:book_black_hole" });
+  event.remove({ output: "companions:book_naginata" });
 });

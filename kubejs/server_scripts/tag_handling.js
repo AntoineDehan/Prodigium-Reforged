@@ -72,3 +72,7 @@ ServerEvents.tags("item", (event) => {
     "companions:book_naginata"
   );
 });
+
+ServerEvents.tags("block", (event) => {
+  event.add("minecraft:mineable/pickaxe", "prodigium:tungsten_ore");
+});

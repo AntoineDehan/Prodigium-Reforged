@@ -47,16 +47,33 @@ LootJS.modifiers((event) => {
 
   event
     .addEntityLootModifier(
-      "born_in_chaos_v1:skeleton_thrasher",
       "born_in_chaos_v1:decrepit_skeleton",
       "born_in_chaos_v1:skeleton_demoman",
       "luminous_monsters:miner_skeleton",
       "luminous_monsters:swamp_skeleton",
-      "luminous_monsters:savannah_skeleton",
-      "luminous_monsters:dark_oak_skeleton"
+      "luminous_monsters:savanna_skeleton",
+      "luminous_monsters:dark_oak_skeleton",
+      "quark:forgotten"
     )
-    .randomChance(0.1)
-    .addWeightedLoot([0, 1], [Item.of("confluence:ranger_emblem")]);
+    .randomChance(0.025)
+    .addWeightedLoot([1], [Item.of("confluence:ranger_emblem")]);
+
+  event
+    .addEntityLootModifier(
+      "bypowderandsteel:sunken_pirate",
+      "luminous_monsters:sunken",
+      "born_in_chaos_v1:barrel_zombie"
+    )
+    .randomChance(0.025)
+    .addWeightedLoot([1], [Item.of("confluence:band_of_regneration")]);
+
+  event
+    .addEntityLootModifier(
+      "savage_and_ravage:executioner",
+      "savage_and_ravage:trickster"
+    )
+    .randomChance(0.045)
+    .addWeightedLoot([1], [Item.of("confluence:warrior_emblem")]);
 
   event
     .addEntityLootModifier(

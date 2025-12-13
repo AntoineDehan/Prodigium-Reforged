@@ -45,10 +45,6 @@ StartupEvents.registry("item", (event) => {
     .texture("prodigium_reforged:item/slider_dust");
 
   event
-    .create("prodigium_reforged:neptune_ingot")
-    .texture("prodigium_reforged:item/neptune_ingot");
-
-  event
     .create("prodigium_reforged:sun_fragment")
     .texture("prodigium_reforged:item/sun_fragment");
 
@@ -60,6 +56,14 @@ StartupEvents.registry("item", (event) => {
     .create("prodigium_reforged:leviathan_scale")
     .texture("prodigium_reforged:item/leviathan_scale");
 
+  event
+    .create("prodigium_reforged:nether_bone")
+    .texture("prodigium_reforged:item/nether_bone");
+
+  event
+    .create("prodigium_reforged:necro_bone")
+    .texture("prodigium_reforged:item/necro_bone");
+
   // Ranged Leather patches
   event
     .create("prodigium_reforged:frostmaw_leather_patch")
@@ -68,6 +72,10 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:archer_leather_patch")
     .texture("prodigium_reforged:item/archer_leather_patch");
+
+  event
+    .create("prodigium_reforged:ranger_leather_patch")
+    .texture("prodigium_reforged:item/ranger_leather_patch");
 
   // Crusader Plates
   event
@@ -82,15 +90,6 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:valkyrie_plate")
     .texture("prodigium_reforged:item/valkyrie_plate");
-
-  // Treasure Bags (faster than updating the Prodigium mod ngl)
-  event
-    .create("prodigium:infernal_dragon_treasure_bag")
-    .texture("prodigium:item/infernal_dragon_treasure_bag");
-
-  event
-    .create("prodigium:sandworm_treasure_bag")
-    .texture("prodigium:item/sandworm_treasure_bag");
 
   //// Boss summons
 

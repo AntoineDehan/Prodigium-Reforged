@@ -1,3 +1,5 @@
+// All of this is a bit of a mess but it will be reworked on
+
 let activeNpcBlocks = new Set();
 
 let npcSpawnBlocks = [
