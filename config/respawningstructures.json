@@ -5,7 +5,7 @@
   },
   "minutesUntilRespawn": {
     "desc:": "Sets the time after which a structure can respawn, the timer starts after the last activity within the structure. default:5760 minutes(96h)",
-    "minutesUntilRespawn": 60
+    "minutesUntilRespawn": 35
   },
   "increaseDifficultyWithRespawn": {
     "desc:": "Enables increased difficulty for mobs in respawned dungeons(mobs can get enchanted items/potions effects), default: true",
@@ -13,7 +13,7 @@
   },
   "blockCountMod": {
     "desc:": "Modifies the placed/broken block count, which can prevent respawn. Setting it to zero means respawn will ignore placed/broken blocks. Setting it higher than 1.0 makes it more likely that players breaking/placing things in the structure will prevent its respawn.By default it blocks respawn after 200+(scales slightly with structure size) blocks placed/broken. default: 1.0",
-    "blockCountMod": 1.5
+    "blockCountMod": 1.2
   },
   "playerRespawnDist": {
     "desc:": "Sets the minimum distance from player respawn position(bed e.g.) to allow structure respawning, 0 to disable this. default: 200 blocks",
@@ -34,7 +34,7 @@
   "blacklistedStructures": {
     "desc:": "List of blacklisted structures, those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by , ",
     "blacklistedStructures": [
-      "prodigium_dungeons:the_theatre",
+      "conjurer_illager:theatre",
 
       "mowziesmobs:umvuthana_grove",
 
@@ -69,8 +69,14 @@
       "aether:bronze_dungeon",
 
       "aether:silver_dungeon",
+      "lost_aether_content:platinium_dungeon",
 
-      "aether:gold_dungeon"
+      "aether:gold_dungeon",
+      "block_factorys_bosses:sandworm_nest",
+
+      "block_factorys_bosses:dragon_tower",
+
+      "mowziesmobs:wrought_chamber"
     ]
   },
   "whitelist": {

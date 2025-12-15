@@ -10080,8 +10080,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:player.melee_damage",
-          "value": 0.04,
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.03,
           "operation": "multiply_base"
         }
       }
@@ -10099,8 +10099,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:player.melee_damage",
-          "value": 0.08,
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.06,
           "operation": "multiply_base"
         }
       }
@@ -10185,7 +10185,7 @@
     ]
   },
   "health2+": {
-    "title": "+1 Hearts",
+    "title": "+1 Heart",
     "icon": {
       "type": "effect",
       "data": {

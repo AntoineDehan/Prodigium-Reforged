@@ -10104,7 +10104,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:player.melee_damage",
+          "attribute": "minecraft:generic.attack_damage",
           "value": 0.03,
           "operation": "multiply_base"
         }
@@ -10123,7 +10123,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:player.melee_damage",
+          "attribute": "minecraft:generic.attack_damage",
           "value": 0.1,
           "operation": "multiply_base"
         }
