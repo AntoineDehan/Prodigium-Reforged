@@ -3,7 +3,7 @@
   "pattern": ["aaa", "b b"],
   "key": {
     "a": { "item": "deep_aether:skyjade" },
-    "b": { "item": "irons_spellbooks:magic_clotch" }
+    "b": { "item": "irons_spellbooks:magic_cloth" }
   },
   "result": { "item": "kubejs:skyjade_helmet" }
 }

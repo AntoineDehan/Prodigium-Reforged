@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "prodigium_reforged:phoenix_ingot"
+    },
+    {
+      "item": "stalwart_dungeons:warted_tungsten_helmet"
+    },
+    {
+      "item": "companions:crystallized_blood"
+    },
+    {
+      "item": "companions:crystallized_blood"
+    },
+    {
+      "item": "companions:crystallized_blood"
+    },
+    {
+      "item": "cataclysm:crystallized_coral"
+    }
+  ],
+  "result": {
+    "item": "companions:crystallized_blood_helmet",
+    "count": 1
+  }
+}

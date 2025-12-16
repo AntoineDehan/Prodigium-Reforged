@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["bbb", "b b", "b b"],
+  "key": {
+    "b": { "item": "prodigium_reforged:neptune_ingot" }
+  },
+  "result": { "item": "aether:neptune_leggings" }
+}

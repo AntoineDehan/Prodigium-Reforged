@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "cataclysm:ignitium_ingot"
+  },
+  "base": {
+    "item": "kubejs:skyjade_boots"
+  },
+  "result": {
+    "item": "kubejs:wizard_ignitium_boots"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

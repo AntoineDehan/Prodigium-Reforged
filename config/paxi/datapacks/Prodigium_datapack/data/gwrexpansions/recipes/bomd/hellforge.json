@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["NIT", " BI", " G "],
+  "key": {
+    "N": { "item": "simpleores:onyx_gem" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "T": { "item": "minecraft:tripwire_hook" },
+    "B": { "item": "bosses_of_mass_destruction:blazing_eye" }
+  },
+  "result": { "item": "gwrexpansions:hellforge_revolver" },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "bosses_of_mass_destruction" }
+  ]
+}

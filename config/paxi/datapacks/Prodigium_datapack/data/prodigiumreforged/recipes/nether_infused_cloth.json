@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["dad", "aca", "dad"],
+  "key": {
+    "d": {
+      "item": "prodigium_reforged:sun_fragment"
+    },
+    "c": {
+      "item": "prodigium_reforged:aether_infused_cloth"
+    },
+    "a": {
+      "item": "irons_spellbooks:magic_cloth"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:nether_infused_cloth",
+    "count": 2
+  }
+}

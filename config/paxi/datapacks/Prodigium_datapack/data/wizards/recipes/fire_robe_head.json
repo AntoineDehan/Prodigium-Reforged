@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "prodigium_reforged:sun_fragment"
+    },
+    "W": {
+      "item": "prodigium_reforged:nether_infused_cloth"
+    }
+  },
+  "pattern": ["  W", " W ", "WLW"],
+  "result": {
+    "item": "wizards:fire_robe_head"
+  }
+}

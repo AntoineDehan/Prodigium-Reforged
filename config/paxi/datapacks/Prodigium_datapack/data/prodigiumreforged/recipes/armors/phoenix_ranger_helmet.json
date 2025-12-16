@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["BBB", "B B"],
+  "key": {
+    "B": {
+      "item": "prodigium_reforged:phoenix_ranger_leather_patch"
+    }
+  },
+  "result": {
+    "item": "kubejs:phoenix_ranger_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ABA", " A "],
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:hogskin"
+    },
+    "B": {
+      "item": "prodigium:orichalcum_ingot"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:orichalcum_belt",
+    "count": 1
+  }
+}

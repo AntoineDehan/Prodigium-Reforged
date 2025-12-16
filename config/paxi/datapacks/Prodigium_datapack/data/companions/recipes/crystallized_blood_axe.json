@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "companions:demon_flesh"
+    },
+    {
+      "item": "companions:demon_flesh"
+    },
+    {
+      "item": "companions:demon_flesh"
+    },
+    {
+      "item": "companions:demon_flesh"
+    },
+    {
+      "item": "companions:crystallized_blood"
+    },
+    {
+      "item": "simpleores:onyx_axe"
+    },
+    {
+      "item": "cataclysm:crystallized_coral"
+    }
+  ],
+  "result": {
+    "item": "companions:crystallized_blood_axe",
+    "count": 1
+  }
+}

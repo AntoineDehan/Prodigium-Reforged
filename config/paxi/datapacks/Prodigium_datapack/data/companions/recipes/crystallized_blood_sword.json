@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "companions:antlion_fur"
+    },
+    {
+      "item": "simpleores:onyx_sword"
+    },
+    {
+      "item": "companions:crystallized_blood"
+    },
+    {
+      "item": "companions:crystallized_blood"
+    },
+    {
+      "item": "cataclysm:crystallized_coral"
+    }
+  ],
+  "result": {
+    "item": "companions:crystallized_blood_sword",
+    "count": 1
+  }
+}

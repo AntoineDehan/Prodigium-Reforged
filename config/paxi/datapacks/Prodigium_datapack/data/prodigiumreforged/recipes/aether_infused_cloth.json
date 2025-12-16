@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["dad", "aca", "dad"],
+  "key": {
+    "d": {
+      "item": "aether_redux:veridium_ingot"
+    },
+    "c": {
+      "item": "prodigium_reforged:arcane_infused_cloth"
+    },
+    "a": {
+      "item": "irons_spellbooks:magic_cloth"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:aether_infused_cloth",
+    "count": 2
+  }
+}

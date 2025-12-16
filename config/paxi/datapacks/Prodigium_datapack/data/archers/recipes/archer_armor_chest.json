@@ -5,11 +5,11 @@
     "#": {
       "item": "prodigium_reforged:archer_leather_patch"
     },
-    "p": {
-      "item": "prodigium:palladium_ingot"
+    "P": {
+      "item": "prodigium_reforged:palladium_belt"
     }
   },
-  "pattern": ["# #", "#P#", "###"],
+  "pattern": ["# #", "###", "#P#"],
   "result": {
     "item": "archers:archer_armor_chest"
   },

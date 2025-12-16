@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", "BAB", " B "],
+  "key": {
+    "A": {
+      "item": "aether_redux:veridium_ingot"
+    },
+    "B": {
+      "item": "prodigium_reforged:slider_dust"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:neptune_ingot",
+    "count": 2
+  }
+}

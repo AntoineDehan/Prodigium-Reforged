@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["# #", "###", "#b#"],
+  "key": {
+    "#": { "item": "bypowderandsteel:infernal_enforcer_leather_patch" },
+    "b": { "item": "prodigium:orichalcum_belt" }
+  },
+  "result": { "item": "bypowderandsteel:infernal_enforcer_chestplate" }
+}
