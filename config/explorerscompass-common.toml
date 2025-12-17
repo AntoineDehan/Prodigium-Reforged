@@ -16,4 +16,6 @@
 	cleanCache = false
 	#If this option is enabled, then the compass will search alex cave
 	couldFoundAlexCaves = true
+	#Load config.json
+	customResource = false
 

@@ -12,10 +12,10 @@ configVersion = 2
 	enableInThirdPerson = true
 	# Sensitivity of the camera roll rotation caused by turning around horizontally.
 	# Default: 1.0
-	turningRollAccumulation = 0.5
+	turningRollAccumulation = 0.4
 	# Maximum strength of the camera roll rotation caused by turning around horizontally.
 	# Default: 1.25
-	turningRollIntensity = 1.25
+	turningRollIntensity = 0.9
 	# Smoothness of the decay of the camera roll rotation caused by turning around horizontally.
 	# Default: 1.0
 	turningRollSmoothing = 1.0
@@ -30,37 +30,37 @@ configVersion = 2
 	cameraSwayFadeInDelay = 0.25
 	# Amount of time it takes for smooth random sway to fade-in after the player idles for enough time.
 	# Default: 5.0
-	cameraSwayFadeInLength = 5.0
+	cameraSwayFadeInLength = 10.0
 	# Amount of time it takes for smooth random sway to fade-out when the player starts moving after idling.
 	# Default: 0.75
 	cameraSwayFadeOutLength = 0.75
 	# Maximum strength of all screen shaking effects.
 	# Default: 2.5
-	screenShakesMaxIntensity = 2.0
+	screenShakesMaxIntensity = 0.8
 	# Speed at which screen shaking rotations change direction or oscillate.
 	# Default: 6.0
-	screenShakesMaxFrequency = 5.0
+	screenShakesMaxFrequency = 4.0
 	# A [0..1] value linked to the strength of screen shaking caused by explosions.
 	# Default: 1.0
-	explosionTrauma = 1.0
+	explosionTrauma = 0.8
 	# A [0..1] value linked to the strength of screen shaking caused by lightning bolt-tied thunder.
 	# Default: 0.05
-	thunderTrauma = 0.05
+	thunderTrauma = 0.01
 	# A [0..1] value linked to the strength of screen shaking caused by any actions that swing the player's arm. Best kept very low.
 	# Default: 0.03
-	handSwingTrauma = 0.03
+	handSwingTrauma = 0.02
 
 [walking]
 
 	# Strength of the camera roll rotation caused by strafing, or sideway horizontal velocity.
 	# Default: 10.0
-	strafingRollFactor = 8.0
+	strafingRollFactor = 7.0
 	# Strength of camera pitch rotations caused by moving forward or backwards.
 	# Default: 7.0
-	forwardVelocityPitchFactor = 5.0
+	forwardVelocityPitchFactor = 4.0
 	# Strength of camera pitch rotations caused by vertical velocity.
 	# Default: 2.5
-	verticalVelocityPitchFactor = 2.0
+	verticalVelocityPitchFactor = 1.5
 	# Smoothness of camera pitch & roll rotations caused by moving horizontally.
 	# Default: 1.0
 	horizontalVelocitySmoothingFactor = 1.0

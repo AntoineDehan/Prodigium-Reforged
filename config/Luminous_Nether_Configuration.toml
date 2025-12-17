@@ -1,13 +1,13 @@
 
 ["Legendary Beasts"]
-	#0 means disabled, 1 is normal, 2 is doubled, 3 is tripled
-	"Mushlin Spewer Spawning" = 1.0
 	"Piglin Executioner Spawning" = 1.0
 	"Furnace Spawning" = 1.0
 	#Rare beast spawn configurations need returned true/false values
 	"Rare Furnace Spawning" = true
-	"Rare Mushlin Spitter Spawning" = true
 	"Rare Piglin Executioner Spawning" = true
+	#0 means disabled, 1 is normal, 2 is doubled, 3 is tripled
+	"Mushlin King Spawning" = 1.0
+	"Rare Mushlin king Spawning" = true
 
 ["Legendary Items"]
 	#The value in half hearts recovered after using the spore bundle (default is 6)

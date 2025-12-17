@@ -77,6 +77,17 @@
         "value": 1000
       }
     },
+    "alshanex_familiars:sound_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "doggytalents:generic.crit_bonus": {
       "enabled": false,
       "min": {
@@ -242,6 +253,17 @@
         "value": 20
       }
     },
+    "celestisynth:celestial_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "item_cooling_reduction:reduction": {
       "enabled": false,
       "min": {
@@ -284,6 +306,17 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "alshanex_familiars:sound_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "spell_power:frost": {
@@ -440,6 +473,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "block_factorys_bosses:movement_recovery": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
+      }
+    },
     "irons_spellbooks:evocation_magic_resist": {
       "enabled": false,
       "min": {
@@ -539,6 +583,17 @@
         "value": 1024
       }
     },
+    "celestisynth:celestial_damage_reduction": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "confluence:dodge_chance": {
       "enabled": false,
       "min": {
@@ -616,6 +671,17 @@
         "value": 34
       }
     },
+    "block_factorys_bosses:burning_stability": {
+      "enabled": false,
+      "min": {
+        "default": -10,
+        "value": -10
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
@@ -680,6 +746,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "bettercombatextension:generic.attack_stamina_cost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "minecraft:generic.max_health": {
@@ -823,6 +900,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "block_factorys_bosses:roll_animtime": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "attributeslib:overheal": {
@@ -1056,17 +1144,6 @@
         "value": 100
       }
     },
-    "blazegear:generic.target_burn_time": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "irons_spellbooks:eldritch_spell_power": {
       "enabled": false,
       "min": {
@@ -1076,6 +1153,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "blazegear:generic.target_burn_time": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "combatroll:distance": {

@@ -1,6 +1,6 @@
 
 ["Speed Shoes"]
-	playSound = true
+	playSound = false
 	showParticle = true
 
 ["Information HUD"]

@@ -8,12 +8,12 @@
 	#Show hearths instead of damage dealt? (1 hearth = two damage)
 	show_hearths = false
 	#Show damage numbers on entity
-	damage_numbers = true
+	damage_numbers = false
 	#Display particles fullbright
 	full_bright_damage_numbers = true
 	#How crits should be shown
 	#Allowed Values: OFF, COLOR, COLOR_AND_MULTIPLIER
-	crit_mode = "COLOR_AND_MULTIPLIER"
+	crit_mode = "OFF"
 	#Skin used by the dummy
 	#Allowed Values: DEFAULT, ORIGINAL, ALTERNATIVE, DUNGEONS
 	texture = "DUNGEONS"

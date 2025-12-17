@@ -2,13 +2,13 @@
 enableProgressionSystem = true
 #Number of kills required to unlock spawn locations
 #Range: > 1
-spawnLocationThreshold = 50
+spawnLocationThreshold = 5
 #Number of kills required to unlock loot icons
 #Range: > 1
-lootIconThreshold = 100
+lootIconThreshold = 20
 #Number of kills required to unlock loot drop chances
 #Range: > 1
-lootChanceThreshold = 200
+lootChanceThreshold = 30
 #Hide entities with 0 kills when progression system is enabled (for kill-based progression)
 hideZeroKillEntities = false
 #List of mob categories to be considered as monsters (all categories: "monster", "creature", "water_creature", "underground_water_creature", "ambient", "water_ambient", "axolotls", "misc")
@@ -19,10 +19,10 @@ entityBlacklist = []
 enableKeybind = true
 #Number of kills required to unlock advanced attributes (knockback resistance, armor, movement speed)
 #Range: > 1
-advancedAttributesThreshold = 30
+advancedAttributesThreshold = 10
 #Number of kills required to unlock entity descriptions
 #Range: > 1
-descriptionThreshold = 40
+descriptionThreshold = 15
 #Type of progression system to use: "kills" (original system based on kill count), "ranks" (rank-based system with chance to increase rank), or "sighting" (allows full discovery of entities with a spyglass)
 progressionSystemType = "ranks"
 #Base chance (0.0-1.0) to increase rank when killing an entity

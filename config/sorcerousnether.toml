@@ -1,0 +1,29 @@
+#Whether explosions turn Bucklerine Shards into Budding Bucklerine
+bud_bucklerine_by_explosion = true
+#Probability of a fungus successfully growing on a persimmon wart block when using bonemeal
+#Range: 0.0 ~ 1.0
+persimmon_wart_block_bone_meal_chance = 0.5
+#Whether the Lava Lily block sets entities on fire upon collision
+lava_lily_ignites = true
+#The MINIMUM ammount of plants that spawn in a lava lily patch (Values below 1 behave like 1)
+lava_lily_patch_size_min = 2
+#The MAXIMUM ammount of plants that spawn in a lava lily patch
+lava_lily_patch_size_max = 6
+#The probability of a lava lily plant growing per random tick
+#Range: 0.0 ~ 1.0
+lava_lily_growth_chance = 0.25
+#The total duration of Infused Lava Lily blocks 
+#HALVED - 4 minutes 
+#DEFAULT - 8 minutes 
+#DOUBLED - 16 minutes
+#Allowed Values: HALVED, DEFAULT, DOUBLED
+infused_lava_lily_duration = "DEFAULT"
+#How far from an Infused Lava Lily do entities still obtain its effects
+infused_lava_lily_effect_radius = 10.0
+#Whether Mist Flask clouds should apply negative effects even to their thrower
+mist_flask_affects_thrower = false
+#Whether Sorcerous Vessels activate in the entire inventory instead of just the hotbar
+sorcerous_vessels_work_in_inventory = false
+#Prevents Losts from spawning a Mist Cloud upon death and makes them instead drop mist already in a bottle. Default setting (false) is highly recommended
+disable_lost_death_effects = false
+

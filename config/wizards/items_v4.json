@@ -170,128 +170,40 @@
       "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
-        "armor": 1,
-        "attributes": [
-          {
-            "id": "spell_power:arcane",
-            "value": 0.25,
-            "operation": "MULTIPLY_BASE"
-          },
-          {
-            "id": "spell_power:haste",
-            "value": 0.03,
-            "operation": "MULTIPLY_BASE"
-          }
-        ]
+        "armor": 6,
+        "attributes": []
       },
       "chest": {
-        "armor": 3,
-        "attributes": [
-          {
-            "id": "spell_power:arcane",
-            "value": 0.25,
-            "operation": "MULTIPLY_BASE"
-          },
-          {
-            "id": "spell_power:haste",
-            "value": 0.03,
-            "operation": "MULTIPLY_BASE"
-          }
-        ]
+        "armor": 9,
+        "attributes": []
       },
       "legs": {
-        "armor": 2,
-        "attributes": [
-          {
-            "id": "spell_power:arcane",
-            "value": 0.25,
-            "operation": "MULTIPLY_BASE"
-          },
-          {
-            "id": "spell_power:haste",
-            "value": 0.03,
-            "operation": "MULTIPLY_BASE"
-          }
-        ]
+        "armor": 8,
+        "attributes": []
       },
       "feet": {
-        "armor": 1,
-        "attributes": [
-          {
-            "id": "spell_power:arcane",
-            "value": 0.25,
-            "operation": "MULTIPLY_BASE"
-          },
-          {
-            "id": "spell_power:haste",
-            "value": 0.03,
-            "operation": "MULTIPLY_BASE"
-          }
-        ]
+        "armor": 6,
+        "attributes": []
       }
     },
     "fire_robe": {
       "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
-        "armor": 1,
-        "attributes": [
-          {
-            "id": "spell_power:fire",
-            "value": 0.25,
-            "operation": "MULTIPLY_BASE"
-          },
-          {
-            "id": "spell_power:critical_chance",
-            "value": 0.02,
-            "operation": "MULTIPLY_BASE"
-          }
-        ]
+        "armor": 7,
+        "attributes": []
       },
       "chest": {
-        "armor": 3,
-        "attributes": [
-          {
-            "id": "spell_power:fire",
-            "value": 0.25,
-            "operation": "MULTIPLY_BASE"
-          },
-          {
-            "id": "spell_power:critical_chance",
-            "value": 0.02,
-            "operation": "MULTIPLY_BASE"
-          }
-        ]
+        "armor": 9,
+        "attributes": []
       },
       "legs": {
-        "armor": 2,
-        "attributes": [
-          {
-            "id": "spell_power:fire",
-            "value": 0.25,
-            "operation": "MULTIPLY_BASE"
-          },
-          {
-            "id": "spell_power:critical_chance",
-            "value": 0.02,
-            "operation": "MULTIPLY_BASE"
-          }
-        ]
+        "armor": 9,
+        "attributes": []
       },
       "feet": {
-        "armor": 1,
-        "attributes": [
-          {
-            "id": "spell_power:fire",
-            "value": 0.25,
-            "operation": "MULTIPLY_BASE"
-          },
-          {
-            "id": "spell_power:critical_chance",
-            "value": 0.02,
-            "operation": "MULTIPLY_BASE"
-          }
-        ]
+        "armor": 7,
+        "attributes": []
       }
     },
     "frost_robe": {
@@ -362,64 +274,20 @@
       "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
-        "armor": 3,
-        "attributes": [
-          {
-            "id": "irons_spellbooks:spell_power",
-            "value": 0.05,
-            "operation": "ADDITION"
-          },
-          {
-            "id": "irons_spellbooks:max_mana",
-            "value": 100.0,
-            "operation": "ADDITION"
-          }
-        ]
+        "armor": 4,
+        "attributes": []
       },
       "chest": {
-        "armor": 7,
-        "attributes": [
-          {
-            "id": "irons_spellbooks:spell_power",
-            "value": 0.05,
-            "operation": "ADDITION"
-          },
-          {
-            "id": "irons_spellbooks:max_mana",
-            "value": 100.0,
-            "operation": "ADDITION"
-          }
-        ]
+        "armor": 8,
+        "attributes": []
       },
       "legs": {
-        "armor": 5,
-        "attributes": [
-          {
-            "id": "irons_spellbooks:spell_power",
-            "value": 0.05,
-            "operation": "ADDITION"
-          },
-          {
-            "id": "irons_spellbooks:max_mana",
-            "value": 100.0,
-            "operation": "ADDITION"
-          }
-        ]
+        "armor": 7,
+        "attributes": []
       },
       "feet": {
-        "armor": 3,
-        "attributes": [
-          {
-            "id": "irons_spellbooks:spell_power",
-            "value": 0.05,
-            "operation": "ADDITION"
-          },
-          {
-            "id": "irons_spellbooks:max_mana",
-            "value": 100.0,
-            "operation": "ADDITION"
-          }
-        ]
+        "armor": 4,
+        "attributes": []
       }
     }
   }

@@ -1,0 +1,37 @@
+#Enable low-end mode optimizations for GUI rendering and previews
+lowEndMode = false
+#Reduce cost of 3D entity preview in Bestiary when lowEndMode is enabled
+lowEndEntityPreview = true
+#Maximum scale for entity preview in Bestiary to avoid overdraw on low-end GPUs
+#Range: 40 ~ 200
+guiMaxEntityScale = 100
+#Multiplier for category marquee step interval in lowEndMode (e.g., 1.5 = 50% slower)
+#Range: 1.0 ~ 5.0
+lowEndMarqueeIntervalMultiplier = 1.5
+
+[filter]
+	#Hide entities with 0 kills in the client UI (kill-based progression)
+	hideZeroKillEntities = false
+	#Hide entities with no rank in the client UI (rank-based progression)
+	hideNoRankEntities = false
+	#Force obfuscation of undiscovered entities in the UI
+	forceObfuscation = false
+	#Hide undiscovered entities completely instead of showing obfuscated entries
+	hideUndiscovered = false
+
+[debug]
+	#Enable client debug visuals/logs for Bestiary UI
+	debugMode = false
+	#Show the Challenges page in the Bestiary UI
+	showChallenges = false
+
+[globalProgressBar]
+	#Allow cycling the global progress bar between S and X by clicking it
+	enableGlobalRankProgressBarCycling = true
+	#Which sprite to use for progress bars: 'vanilla' (villager2.png) or 'mod' (bestiary.png). Default: mod
+	progressBarSpriteSource = "mod"
+
+[keybind]
+	#Enable the keybind to open the Bestiary screen
+	enableKeybind = true
+

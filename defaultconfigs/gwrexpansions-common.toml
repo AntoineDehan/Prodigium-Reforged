@@ -1,0 +1,338 @@
+
+["Guns Without Roses Expansions Config"]
+
+	["Guns Without Roses Expansions Config".Sniper]
+
+		["Guns Without Roses Expansions Config".Sniper.Netherite]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.7
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.5
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Sniper.Cursium]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.8
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.6
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Sniper.DragonSteel]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.9
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.8
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Sniper.DestinySeven]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.5
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.5
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+	["Guns Without Roses Expansions Config".Shotgun]
+
+		["Guns Without Roses Expansions Config".Shotgun.Netherite]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.6
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 20
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 5.0
+
+		["Guns Without Roses Expansions Config".Shotgun.NetheriteMonster]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.7
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 18
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 4.0
+
+		["Guns Without Roses Expansions Config".Shotgun.DragonSteel]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.75
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 20
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 4.0
+
+		["Guns Without Roses Expansions Config".Shotgun.Supershotgun]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 40
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 4.0
+
+	["Guns Without Roses Expansions Config".Gatling]
+
+		["Guns Without Roses Expansions Config".Gatling.Netherite]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 1
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 4
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 4.0
+
+		["Guns Without Roses Expansions Config".Gatling.Ignitium]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 1
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.1
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 8
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 3.0
+
+		["Guns Without Roses Expansions Config".Gatling.DragonSteel]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 3
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 4
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 3.0
+
+		["Guns Without Roses Expansions Config".Gatling.Skull]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 6
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 6.0
+
+	["Guns Without Roses Expansions Config".Pistol]
+
+		["Guns Without Roses Expansions Config".Pistol.Tidal]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 18
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 2.0
+
+		["Guns Without Roses Expansions Config".Pistol.Hellforge]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.2
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 80
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 1.0
+
+	["Guns Without Roses Expansions Config".Bullets]
+
+		["Guns Without Roses Expansions Config".Bullets.Cursium]
+			#Phantom Halber Damage
+			#Range: 0.0 ~ 100.0
+			phantomHalberDamage = 8.0
+			#Phantom Halberd Range
+			#Range: 0.0 ~ 100.0
+			phantomHalberdRange = 4.0
+			#Phantom Halberd Delay
+			#Range: 0 ~ 100
+			phantomHalberdDelay = 30
+
+		["Guns Without Roses Expansions Config".Bullets.Lavapower]
+			#Flamejet Damage
+			#Range: 0.0 ~ 100.0
+			flamejetDamage = 5.0
+			#Flamejet Count
+			#Range: 0 ~ 20
+			flamejetCount = 3
+
+		["Guns Without Roses Expansions Config".Bullets.Tidal]
+			#Portal damage
+			#Range: 0.0 ~ 100.0
+			"Portal damage" = 8.0
+			#Portal hpdamage
+			#Range: 0.0 ~ 100.0
+			"Portal hpdamage" = 0.0
+			#Golden Nugget Drop Rate
+			#Range: 0.0 ~ 1.0
+			golden_nugget_drop_rate = 0.3
+			#Golden Apple Drop Rate
+			#Range: 0.0 ~ 1.0
+			golden_apple_drop_rate = 0.03
+
+		["Guns Without Roses Expansions Config".Bullets.Gold]
+			#Golden Nugget Drop Rate
+			#Range: 0.0 ~ 1.0
+			golden_nugget_drop_rate = 0.3
+			#Golden Apple Drop Rate
+			#Range: 0.0 ~ 1.0
+			golden_apple_drop_rate = 0.03
+
+	["Guns Without Roses Expansions Config".Launcher]
+
+		["Guns Without Roses Expansions Config".Launcher.Obsidian]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 30
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 60
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+	["Guns Without Roses Expansions Config".Burstgun]
+
+		["Guns Without Roses Expansions Config".Burstgun.Void]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 2
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 25
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Burstgun.Void_Burst]
+			#Burst Size
+			#Range: 1 ~ 10
+			burstSize = 3
+			#Burst Delay
+			#Range: 1 ~ 100
+			burstDelay = 5
+

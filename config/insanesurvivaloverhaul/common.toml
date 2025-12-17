@@ -6,7 +6,7 @@
 "Enable Mining" = false
 "Enable Miscellaneous" = false
 "Enable Mobs" = false
-"Enable Movement" = false
+"Enable Movement" = true
 "Enable Sleep & Respawn" = false
 "Enable World" = false
 
@@ -1099,7 +1099,7 @@
 	#Slowdown based off the terrain entities walking on. Custom Terrain Slowdown are controlled via json in this feature's folder
 	"Enable Terrain slowdown" = false
 	#Players's slowed down when walking backwards.
-	"Enable Backwards slowdown" = false
+	"Enable Backwards slowdown" = true
 	"Enable Swimming" = false
 	#Armor slows down the player. Enchantment Weights are controlled via json in this feature's folder. Please note that default mods' armor slowdown is done through item definitions within the combat_rework data pack
 	"Enable Weighted armor" = false
@@ -1137,7 +1137,7 @@
 	[Movement."Backwards slowdown"]
 		#How much slower will the player go when walking backwards.
 		#Range: 0.0 ~ 1.0
-		Slowdown = 0.3
+		Slowdown = 0.2
 
 	[Movement.Swimming]
 		#Prevents swimming up really fast if swimming and holding the jump key.
@@ -1159,7 +1159,7 @@
 	[Movement."Elytra nerf"]
 		#How much the player is slowed down when gliding.
 		#Range: 0.0 ~ 1.0
-		"Air resistance" = 0.975
+		"Air resistance" = 0.2
 
 	#Players's slides down climbable blocks faster and stands still when opening an interface
 	[Movement."Better climbable"]
@@ -1461,7 +1461,7 @@
 	["Hunger & Health"."Health Regen & Hunger"]
 		#Sets how many ticks between the health regeneration happens (vanilla is 80).
 		#Range: > 0
-		"Health regen speed" = 80
+		"Health regen speed" = 160
 		#Sets how much hunger the player must have to regen health (vanilla is 17).
 		#Range: > 0
 		"Regen when food above" = 6
@@ -1474,12 +1474,12 @@
 		"Max exhaustion" = 6.0
 		#If 'Consume Hunger Only' is true then this is the chance to consume an hunger whenever the player is healed (vanilla ignores this; Combat Test has this set to 0.5).
 		#Range: 0.0 ~ 1.0
-		"Hunger consumption chance" = 0.5
+		"Hunger consumption chance" = 0.8
 		#If enabled, peaceful difficulty no longer heals and fulfills the player
 		"Peaceful hunger" = false
 		#When eating you'll get healed by this percentage of 'hunger + saturation' restored.
 		#Range: 0.0 ~ 1.0
-		"Food heal multiplier" = 0.1
+		"Food heal multiplier" = 0.0
 
 		["Hunger & Health"."Health Regen & Hunger"."Passive health regen"]
 			#If true, Passive Regeneration is enabled
@@ -1511,7 +1511,7 @@
 			"Min hunger" = 2
 			#Movement speed penalty when below this hunger
 			#Range: 0 ~ 20
-			"Speed penalty below hunger" = 7
+			"Speed penalty below hunger" = 0
 			#How much less movement speed per hunger below 'Speed Penalty below hunger' sprinting players have
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Speed reduction each hunger" = 0.025
@@ -1523,7 +1523,7 @@
 		"Block break exhaustion multiplier" = 0.0
 		#When breaking block you'll get exhaustion every tick during the breaking.
 		#Range: 0.0 ~ 128.0
-		"Exhaustion on block breaking" = 0.005
+		"Exhaustion on block breaking" = 0.0
 		#Every second the player will get this exhaustion.
 		#Range: 0.0 ~ 128.0
 		"Passive exhaustion" = 0.005
@@ -1564,7 +1564,7 @@
 		#If enabled, eating cakes will give 30 seconds of Speed and Haste
 		"Buff cake" = true
 		#Adds a loot table when shearing pumpkins (iguanatweaksreborn:gameplay/pumpkin_shear). This also replaces seeds drop with Pumpkin Pulp
-		"Add pumpkin shear loot table" = true
+		"Add pumpkin shear loot table" = false
 		#Food can no longer be smelted in furnaces and change smokers recipe to require soul sand.
 		#This also enables a change to the smelt_item_function in loot tables to use smoker recipes instead of furnaces (otherwise, mobs wouldn't drop cooked food). Might have unintended side effects.
 		"No furnace food and smoker recipe" = false
