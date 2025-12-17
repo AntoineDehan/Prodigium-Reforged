@@ -13,7 +13,65 @@
 		}
 	}
 	id: "0FBF9F804D930CAF"
-	order_index: 2
+	images: [
+		{
+			dependency: "78DE64EE0773BEF4"
+			height: 0.75d
+			hover: ["Not all Weapons are listed here !"]
+			image: "prodigium_reforged:textures/gui/weapons.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependency: "50E838001D06D62B"
+			height: 0.8d
+			image: "minecraft:item/iron_sword"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependency: "78DE64EE0773BEF4"
+			height: 0.75d
+			hover: ["Not all Curios are listed here !"]
+			image: "prodigium_reforged:textures/gui/curios.png"
+			rotation: 0.0d
+			width: 2.73d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependency: "78DE64EE0773BEF4"
+			height: 0.8d
+			image: "alshanex_familiars:item/complete_soul_curio"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependency: "78DE64EE0773BEF4"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/normal_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependency: "774BCB593AAFAA33"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/expert_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: 1.5d
+			y: 10.5d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,7 +99,8 @@
 					type: "loot"
 				}
 			]
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "603755F3C531414D"
@@ -68,7 +127,7 @@
 					type: "item"
 				}
 			]
-			title: "Berseker armors for the Normal Mode"
+			title: "Berserker armors for the Normal Mode"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -93,7 +152,8 @@
 					type: "loot"
 				}
 			]
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "1934A764DBDE9E7F"
@@ -108,7 +168,19 @@
 					type: "item"
 				}
 				{
-					id: "79110EFE1EAF0AD6"
+					id: "7646F712A6631384"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:warted_tungsten_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Warted Armor"
+					type: "item"
+				}
+				{
+					id: "618446156D378191"
 					item: {
 						Count: 1
 						id: "aether:phoenix_helmet"
@@ -116,12 +188,24 @@
 							Damage: 0
 						}
 					}
-					title: "Phoenix Armor"
+					title: "Pheonix Armor"
+					type: "item"
+				}
+				{
+					id: "31A05066C63407A4"
+					item: {
+						Count: 1
+						id: "companions:crystallized_blood_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Crystallized Armor"
 					type: "item"
 				}
 			]
 			title: "Berseker armors for the Expert Mode"
-			x: 3.0d
+			x: 4.25d
 			y: 0.0d
 		}
 		{
@@ -144,7 +228,8 @@
 					type: "loot"
 				}
 			]
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "3CEAFF4B4E1A0B79"
 				item: {
@@ -158,58 +243,8 @@
 				type: "item"
 			}]
 			title: "Berseker armor for the Master Mode"
-			x: 5.0d
+			x: 7.25d
 			y: 0.0d
-		}
-		{
-			dependencies: ["50E838001D06D62B"]
-			hide_until_deps_visible: true
-			id: "6941F5D15A68E8F3"
-			rewards: [{
-				auto: "no_toast"
-				id: "7B315FA3E138179C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "21579002B798EA9F"
-				item: {
-					Count: 1
-					id: "weapon_class:iron_battle_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "A battle axe?"
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["50E838001D06D62B"]
-			hide_until_deps_visible: true
-			id: "0195CA9DA04CF441"
-			rewards: [{
-				auto: "no_toast"
-				id: "5060803884FF7724"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "2E876050678F222F"
-				item: {
-					Count: 1
-					id: "weapon_class:iron_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Why not using a scynthe ?"
-			x: 1.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["50E838001D06D62B"]
@@ -265,20 +300,321 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["50E838001D06D62B"]
-			description: [
-				"Boomerangs will act as your ranged weapons for melee."
-				"A lot of different boomerangs are available"
-			]
-			id: "3064A22F3AFACAC9"
-			rewards: [{
-				auto: "no_toast"
-				id: "1186B51B61A89D3F"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "2590FE505A8610E9"
 			tasks: [{
-				id: "1AA5A3664B778750"
+				id: "7DC59F413E2BA3FE"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "09458F9C3A3B7535"
+			tasks: [{
+				id: "317B225203A524ED"
+				item: "mowziesmobs:wrought_axe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "6CF810D96C87AD45"
+			tasks: [{
+				id: "5AF38756A5966828"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "208EE5AB3A798386"
+			tasks: [{
+				id: "65DA5C58E6F5E923"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_scimitar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "73DD255DADEB5355"
+			tasks: [{
+				id: "5AAED7C264AC3735"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "15F17ED1495EE075"
+			tasks: [{
+				id: "340143899945F6C0"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "622AD44E1112826A"
+			tasks: [{
+				id: "564B05B3A97B46A1"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "043EA20E455C8280"
+			tasks: [{
+				id: "21C1372F638030F8"
+				item: {
+					Count: 1
+					id: "meetyourfight:depth_star"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "47F7955613205760"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "11A986B931AA9B14"
+				item: {
+					Count: 1
+					id: "simple_weapons:corinthium_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "58E2BA02D42D2095"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "0F88085DD3BED8D5"
+				item: {
+					Count: 1
+					id: "simple_weapons:corinthium_scimitar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "6AB3A45527F413D3"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "0F80FFC19463BE1D"
+				item: {
+					Count: 1
+					id: "simple_weapons:corinthium_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "6B4F65C96AA2BA90"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "7CF909D4EDF44CEF"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:sweet_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "128ED3CF9232A9EE"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "55C118FA32F2C572"
+				item: {
+					Count: 1
+					id: "simplyswords:hiveheart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			description: [""]
+			id: "028C5EA33E101CA8"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "3060AFD9C974DAD1"
+				item: {
+					Count: 1
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "2029A35204EF7B9D"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "610B8EB48F391042"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "1CE967229D45D54B"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "57D855498BD485A9"
+				item: {
+					Count: 1
+					id: "simple_weapons:diamond_scimitar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "555DC7D96DA12C53"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "6DC8A947BB472357"
+				item: {
+					Count: 1
+					id: "simple_weapons:diamond_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "48BBC7D723707759"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "65A39187AAA69AEA"
+				item: {
+					Count: 1
+					id: "simple_weapons:diamond_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "21C14DA06921A1AC"
+			tasks: [{
+				id: "192E3698C487A2D1"
 				item: {
 					Count: 1
 					id: "terra_entity:wood_boomerang"
@@ -290,8 +626,578 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "053CA1E520F6359E"
+			shape: "octagon"
+			tasks: [{
+				id: "790A0B4D615C379F"
+				item: "confluence:warrior_emblem"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "2C5A81AD265BF41A"
+			shape: "octagon"
+			tasks: [{
+				id: "48658996A0D884AA"
+				item: "confluence:feral_claws"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "2BB5F289EAF58F99"
+			shape: "octagon"
+			tasks: [{
+				id: "31C32AA7222DBEB3"
+				item: "confluence:honey_comb"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "5CBF6C62CCCF2FB5"
+			shape: "octagon"
+			tasks: [{
+				id: "175DE022A4ABF7C8"
+				item: "confluence:shark_tooth_necklace"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "51166FC4EFFFBFF0"
+			shape: "octagon"
+			tasks: [{
+				id: "489CC858DDB4E6B9"
+				item: "confluence:band_of_regeneration"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "60B27CDD797A3B15"
+			shape: "octagon"
+			tasks: [{
+				id: "4977E6BFA1BA2812"
+				item: "confluence:shield_of_cthulhu"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "706C1FB8339F3059"
+			shape: "octagon"
+			tasks: [{
+				id: "6E1965A8DE2BCE8A"
+				item: "confluence:brain_of_confusion"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "1847ED5632589C38"
+			shape: "octagon"
+			tasks: [{
+				id: "423A8CF7A1D17105"
+				item: "meetyourfight:bone_raker"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "58B63DF4F3751849"
+			shape: "octagon"
+			tasks: [{
+				id: "3B254F041A960E13"
+				item: "meetyourfight:caged_heart"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["78DE64EE0773BEF4"]
+			id: "5C65C2BA01D3CE84"
+			shape: "octagon"
+			subtitle: "&6Post Umvuthi&r"
+			tasks: [{
+				id: "25A83747CE9038DE"
+				item: "prodigium_reforged:sol_ring"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "20976EC909F6DB8C"
+			subtitle: "&6Post Underworld Knight&r"
+			tasks: [{
+				id: "6B978D51DF625B14"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:knight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "79EF594066875E50"
+			subtitle: "&6Post Nether Gauntlet&r"
+			tasks: [{
+				id: "713D6CCD4F2B5E95"
+				item: {
+					Count: 1
+					id: "simple_weapons:netherite_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "0691AF7DA1647C78"
+			subtitle: "&6Post Nether Gauntlet&r"
+			tasks: [{
+				id: "5604763A13597BE2"
+				item: {
+					Count: 1
+					id: "simple_weapons:netherite_scimitar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "3E5E78163A15DC7E"
+			subtitle: "&6Post Nether Gauntlet&r"
+			tasks: [{
+				id: "409B79807A8A3C31"
+				item: {
+					Count: 1
+					id: "simple_weapons:netherite_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "5A7DDA0782FA1882"
+			subtitle: "&6Post Underworld Knight&r"
+			tasks: [{
+				id: "4A2DC9101ED3E895"
+				item: {
+					Count: 1
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "310B2D9B79089885"
+			subtitle: "&6Post Underworld Knight&r"
+			tasks: [{
+				id: "13538EB7BC25765B"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "758D5731F25C3937"
+			subtitle: "&6Post Underworld Knight&r"
+			tasks: [{
+				id: "1D82A6FAA86DB910"
+				item: {
+					Count: 1
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "6C0A872B603DD416"
+			subtitle: "&6Post Netherite Monstrosity&r"
+			tasks: [{
+				id: "3BF690A7120489B6"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "0E1B59FB76D59EF1"
+			subtitle: "&6Post Slider&r"
+			tasks: [{
+				id: "7B8F05EC16776DF0"
+				item: {
+					Count: 1
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "57E0C7DFBCA4E767"
+			subtitle: "&6Post Void Blossom&r"
+			tasks: [{
+				id: "190457DB11D3A089"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "728B26633870CDDA"
+			subtitle: "&6Post Leviathan&r"
+			tasks: [{
+				id: "703856C7E16E92C5"
+				item: {
+					Count: 1
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "671ED65E5442F9A9"
+			subtitle: "&6Post Witherite&r"
+			tasks: [{
+				id: "6CE46042A69BD9D8"
+				item: {
+					Count: 1
+					id: "meetyourfight:cocktail_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "4D3BBB3CBAF37499"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "0D3CAB4B3C213947"
+				item: {
+					Count: 1
+					id: "simple_weapons:fiery_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "75EDD937E66F586C"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "1586B3133D303813"
+				item: {
+					Count: 1
+					id: "simple_weapons:fiery_scimitar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "75EB4D5FC0838A3A"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "7DB123213AA06141"
+				item: {
+					Count: 1
+					id: "simple_weapons:fiery_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "496279C8210351DC"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "4E037B7F78763F76"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "0CDCE666E532F26D"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "264EFE9B16694942"
+				item: {
+					Count: 1
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "3DA617CB6E0359B8"
+			shape: "octagon"
+			subtitle: "&6Post Dame Fortuna&r"
+			tasks: [{
+				id: "1B51FF014B61C555"
+				item: "meetyourfight:ace_of_iron"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "491124B09BDC2490"
+			shape: "octagon"
+			subtitle: "&6Post Dame Fortuna&r"
+			tasks: [{
+				id: "5906A927941E4F3D"
+				item: "meetyourfight:slicers_dice"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "5822423CC054AB6D"
+			shape: "octagon"
+			tasks: [{
+				id: "3C14A691FA91494C"
+				item: "confluence:stinger_necklace"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "3AD30B9F6F9DF65E"
+			shape: "octagon"
+			tasks: [{
+				id: "5973552F4FDAF648"
+				item: "confluence:magma_stone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "703529A30CFEDE8C"
+			shape: "octagon"
+			tasks: [{
+				id: "65F30800625778C4"
+				item: "confluence:mechanical_glove"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "1F97699DF294DD0C"
+			shape: "octagon"
+			tasks: [{
+				id: "37D1CDFDE015B28D"
+				item: {
+					Count: 1
+					id: "deep_aether:skyjade_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "6298B6E601393CF5"
+			shape: "octagon"
+			tasks: [{
+				id: "7354CCC6A7D7D7B5"
+				item: "confluence:ankh_shield"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "0059F5AC2D4E9D55"
+			shape: "octagon"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "781D3042E09D77C9"
+				item: "cataclysm:blazing_grips"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "6FA35ADF9FEFCE17"
+			tasks: [{
+				id: "59ED566A0F0DD5A6"
+				item: {
+					Count: 1
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.5d
 		}
 	]
 	title: "Berseker"

@@ -511,45 +511,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["0273BBFD0A5BCFA2"]
-			description: ["Use it on a tamed wolf to train him. Then right click with a stick on your friend to see his stats and upgrade him."]
-			id: "3F4D7489BF9B4E66"
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "0EF06E6197EAC109"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "54B2EEBF3D35AD01"
-					item: "doggytalents:throw_stick"
-					type: "item"
-				}
-				{
-					id: "08D13CD6F325C542"
-					item: "doggytalents:throw_bone"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "doggytalents:training_treat"
-				id: "4644B2DEC5AC48DA"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "doggytalents:treats"
-					}
-				}
-				title: "Any #doggytalents:treats"
-				type: "item"
-			}]
-			title: "Craft a treat"
-			x: 5.0d
-			y: -1.5d
-		}
-		{
 			id: "0273BBFD0A5BCFA2"
 			rewards: [{
 				auto: "no_toast"
@@ -563,7 +524,7 @@
 				id: "2EE58AF23A1ECE36"
 				type: "advancement"
 			}]
-			title: "Tame a wild wolf"
+			title: "Tame a pet"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -845,6 +806,17 @@
 			title: "Obtain an accessory"
 			x: 6.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["0273BBFD0A5BCFA2"]
+			id: "33C61236E967CB62"
+			tasks: [{
+				id: "623BEDD08E96AFD5"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
 		}
 	]
 	title: "PVE"

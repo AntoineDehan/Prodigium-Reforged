@@ -447,8 +447,8 @@
 				type: "item"
 			}]
 			title: "Craft a bed for your pet"
-			x: 8.0d
-			y: 3.0d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			id: "37BD72501729B47F"

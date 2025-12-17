@@ -396,7 +396,7 @@
 			image: "simpleores:item/onyx_gem"
 			rotation: 20.0d
 			width: 1.25d
-			x: 5.5d
+			x: 2.5d
 			y: -0.5d
 		}
 		{
@@ -405,7 +405,7 @@
 			image: "simpleores:item/onyx_gem"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -414,7 +414,7 @@
 			image: "stalwart_dungeons:item/raw_tungsten"
 			rotation: 20.0d
 			width: 1.25d
-			x: 6.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -423,7 +423,7 @@
 			image: "stalwart_dungeons:item/raw_tungsten"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -433,7 +433,7 @@
 			order: -80
 			rotation: 0.0d
 			width: 1.5d
-			x: 5.5d
+			x: 2.5d
 			y: 0.5d
 		}
 	]
@@ -441,11 +441,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["14CA102BAD4F6A38"]
+			dependencies: ["64DECE60E0B6FB6D"]
 			description: ["Found in the &2Ocean monument&r."]
 			icon: "majruszsdifficulty:elder_guardian_treasure_bag"
 			id: "3B3B33E6A70E1CAF"
 			min_required_tasks: 1
+			optional: true
 			rewards: [
 				{
 					auto: "no_toast"
@@ -531,8 +532,8 @@
 					type: "command"
 				}
 			]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "octagon"
+			size: 1.25d
 			tasks: [
 				{
 					entity: "minecraft:elder_guardian"
@@ -558,8 +559,8 @@
 					type: "item"
 				}
 			]
-			x: 23.5d
-			y: 0.0d
+			x: 23.125d
+			y: -2.5d
 		}
 		{
 			dependencies: ["774BCB593AAFAA33"]
@@ -686,7 +687,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -863,6 +864,7 @@
 					type: "loot"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "6C28758B7F9ABA01"
 				item: "majruszsdifficulty:undead_army_treasure_bag"
@@ -971,7 +973,7 @@
 				type: "kill"
 				value: 15L
 			}]
-			x: 2.5d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
@@ -1004,24 +1006,17 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			tasks: [
-				{
-					id: "3B4F63376B8890C1"
-					item: "simpleores:onyx_gem"
-					type: "item"
-				}
-				{
-					id: "25EF7BC8301E9847"
-					item: "stalwart_dungeons:raw_tungsten"
-					type: "item"
-				}
-			]
-			title: "You now have unlocked &8Onyx&r gems and &2Tungsten&r"
-			x: 6.5d
+			tasks: [{
+				id: "3B4F63376B8890C1"
+				item: "simpleores:onyx_gem"
+				type: "item"
+			}]
+			title: "You now have unlocked &8Onyx&r and &2Tungsten&r"
+			x: 3.5d
 			y: 1.0d
 		}
 		{
-			dependencies: ["476DC0D49480853F"]
+			dependencies: ["4C893D987E24A8AF"]
 			description: ["Found in his &2Soul Blacksmith&r structure"]
 			icon: {
 				Count: 1
@@ -1160,7 +1155,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3B3B33E6A70E1CAF"]
+			dependencies: ["14CA102BAD4F6A38"]
 			description: ["Found at the last floor of the &2Burning Arena&r. Use &9burning ashes&r dropped from Ignited Revenant onto the Altar of Fire"]
 			icon: "cataclysm:bulwark_of_the_flame"
 			id: "3FDEF8CE2822DEFB"
@@ -1282,7 +1277,7 @@
 			description: [
 				"Found in the &2Ancient Factory&r deep in the overworld."
 				""
-				"Use a nether star to wake him up"
+				"Use a &9Nether Star&r to wake him up"
 			]
 			icon: "cataclysm:emp"
 			id: "14CA102BAD4F6A38"
@@ -2179,7 +2174,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -2474,6 +2469,7 @@
 					type: "item"
 				}
 			]
+			title: "End Eyes"
 			x: 28.5d
 			y: 0.0d
 		}
@@ -2497,7 +2493,7 @@
 				type: "item"
 			}]
 			title: "Combine your accessories!"
-			x: 3.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -2711,9 +2707,14 @@
 		}
 		{
 			dependencies: ["6AC131C918D30C93"]
-			description: ["Found in his &2Monastery&r (in the Aether), challenge it with a &9Sakura Sapling&r."]
+			description: [
+				"Found in his &2Monastery&r (in the Aether), challenge it with a &9Sakura Sapling&r."
+				""
+				"&7If you cannot start the Challenge, it means there are blocks above blocking. It can even be blocked by 1 single block high above...&r"
+			]
 			hide_until_deps_complete: true
 			id: "625D1BE78D3262AD"
+			optional: true
 			rewards: [
 				{
 					auto: "no_toast"
@@ -2832,20 +2833,6 @@
 					id: "450AEA99A43E2657"
 					type: "xp_levels"
 					xp_levels: 6
-				}
-				{
-					count: 8
-					id: "48F6A3B7232BD44D"
-					item: "stalwart_dungeons:tungsten_ingot"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					count: 6
-					id: "12B22C3B93175109"
-					item: "stalwart_dungeons:blaze_armor_scrap"
-					random_bonus: 3
-					type: "item"
 				}
 				{
 					id: "37870C0B2A497035"
@@ -2973,12 +2960,19 @@
 				}
 			]
 			title: "Kill the &5Nether Keeper&r and &5The Awful Ghast&r"
-			x: 5.0d
+			x: 2.0d
 			y: 1.875d
 		}
 		{
+			dependencies: ["0BE51A7B2CF00CE8"]
 			id: "2012C230E71A6F4E"
 			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "1FF01C461B0B540F"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
@@ -2989,8 +2983,73 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.625d
-			y: 0.625d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C742369CC5C8B9E"]
+			description: ["You can use it to remove the enchant of a weapon to then put it in a book."]
+			hide_until_deps_visible: true
+			id: "2851394B90D1E773"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2A24757FDDA08C34"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 10
+					id: "3110B3D155E27500"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28D9AFA467A843F3"
+				item: "disenchanting:disenchanter"
+				type: "item"
+			}]
+			title: "Craft a disenchanter"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["476DC0D49480853F"]
+			description: ["Located in the &2Underworld Arena&r"]
+			id: "4C893D987E24A8AF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0B5FCCF8D4DA4735"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36F71B5EC732CC95"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				icon: {
+					Count: 1
+					id: "block_factorys_bosses:knight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0D557BEB0247D7FC"
+				title: "Defeat the &5Underworld Knight&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
 		}
 	]
 	title: "Expert Mode"

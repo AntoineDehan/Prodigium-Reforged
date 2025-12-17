@@ -13,7 +13,65 @@
 		}
 	}
 	id: "0FADD8D8A96DCBA7"
-	order_index: 3
+	images: [
+		{
+			dependency: "44FCF260737D0785"
+			height: 0.75d
+			hover: ["Not all Weapons are listed here !"]
+			image: "prodigium_reforged:textures/gui/weapons.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependency: "44FCF260737D0785"
+			height: 0.8d
+			image: "quark:item/hammer"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependency: "44FCF260737D0785"
+			height: 0.75d
+			hover: ["Not all Curios are listed here !"]
+			image: "prodigium_reforged:textures/gui/curios.png"
+			rotation: 0.0d
+			width: 2.73d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependency: "44FCF260737D0785"
+			height: 0.8d
+			image: "alshanex_familiars:item/complete_soul_curio"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependency: "44FCF260737D0785"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/normal_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependency: "774BCB593AAFAA33"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/expert_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: 1.5d
+			y: 8.0d
+		}
+	]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,7 +99,8 @@
 					xp_levels: 2
 				}
 			]
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "40A6AA876BEFD3DD"
@@ -69,7 +128,7 @@
 				}
 			]
 			title: "Crusader armors for the Normal Mode"
-			x: 0.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -90,7 +149,8 @@
 					xp_levels: 2
 				}
 			]
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "0BC2CBFD6B76D13B"
@@ -105,20 +165,39 @@
 					type: "item"
 				}
 				{
-					id: "521DFB9908C92A81"
+					id: "048643BF561871DE"
+					item: "block_factorys_bosses:dragon_skull"
+					type: "item"
+				}
+				{
+					id: "5460B7E00FCDBE0E"
 					item: {
 						Count: 1
 						id: "aether:valkyrie_helmet"
 						tag: {
+							Autoreforge: 1b
 							Damage: 0
+							Reforge: "quality_equipment.quality.masterful"
 						}
 					}
 					title: "Valkyrie Armor"
 					type: "item"
 				}
+				{
+					id: "720E29DB568570DA"
+					item: {
+						Count: 1
+						id: "kubejs:plated_valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Plated Valkyrie Armor"
+					type: "item"
+				}
 			]
 			title: "Crusader armors for the Expert Mode"
-			x: 1.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -139,7 +218,8 @@
 					xp_levels: 2
 				}
 			]
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "6993A5BE56E815E4"
 				item: {
@@ -153,21 +233,14 @@
 				type: "item"
 			}]
 			title: "Crusader armors for the Master Mode"
-			x: 3.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4295FD014E3D5800"]
-			hide_until_deps_visible: true
-			id: "470ECEF309E513B7"
-			rewards: [{
-				auto: "no_toast"
-				id: "7D3CA326CCD34891"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			dependencies: ["44FCF260737D0785"]
+			id: "211DD20C9F745966"
 			tasks: [{
-				id: "6B79186D6EED57CD"
+				id: "2927497485FD76F3"
 				item: {
 					Count: 1
 					id: "stalwart_dungeons:iron_hammer"
@@ -177,47 +250,612 @@
 				}
 				type: "item"
 			}]
-			title: "Improved melee weapon"
-			x: 1.0d
-			y: -2.0d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4295FD014E3D5800"]
-			hide_until_deps_visible: true
-			id: "30D9026F9DEED078"
-			rewards: [{
-				auto: "no_toast"
-				id: "4DCBD5474C36FDE6"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			dependencies: ["44FCF260737D0785"]
+			id: "30D616551B2F52C1"
 			tasks: [{
-				id: "267DCE8A252FB68F"
+				id: "6DD2FDE60D7CF101"
 				item: {
 					Count: 1
-					id: "paladins:iron_mace"
+					id: "meetyourfight:depth_star"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "Better gear"
-			x: 1.0d
-			y: 2.0d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4295FD014E3D5800"]
-			id: "4D6543C1B848F5FA"
-			rewards: [{
-				auto: "no_toast"
-				id: "68577C2A61F7FD7B"
-				type: "xp_levels"
-				xp_levels: 2
+			dependencies: ["44FCF260737D0785"]
+			id: "1BEC8AF6131B0697"
+			tasks: [{
+				id: "43120888DA31D8F9"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
-			title: "Longer weapon!"
-			x: 1.5d
-			y: -1.0d
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "27E95575166FA2B1"
+			tasks: [{
+				id: "22BA69E6953E9324"
+				item: "mowziesmobs:wrought_axe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "34C0644DBA585B8A"
+			subtitle: "&6Post Bellrigner&r"
+			tasks: [{
+				id: "2B69CA87991D83F3"
+				item: {
+					Count: 1
+					id: "simplyswords:hiveheart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "39DE7FF3F7410FAE"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "5446D26ABE38CE6D"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:diamond_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "44E5D75E1F291EE9"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "4AA8D96C51F905D6"
+				item: {
+					Count: 1
+					id: "simple_weapons:diamond_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "7954444FCBE32E3D"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "1F5BE6006199D0D5"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "2658C4FBB90B57B8"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "58C269F288A9A338"
+				item: {
+					Count: 1
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "0C5F889DFAB125E7"
+			shape: "octagon"
+			tasks: [{
+				id: "5573879EAE176A36"
+				item: "prodigium_reforged:cactus_shield"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "4A5D5C77CAAF6325"
+			shape: "octagon"
+			tasks: [{
+				id: "74614770689A5D73"
+				item: "prodigium_reforged:meat_charm"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "036C936B4981EE5C"
+			shape: "octagon"
+			tasks: [{
+				id: "666F4DFA6B3D6416"
+				item: "confluence:shield_of_cthulhu"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "0F9B2BC734BFA7C3"
+			shape: "octagon"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "2048BD773E23FDED"
+				item: "confluence:worm_scarf"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "4F733A2A34A0EFF7"
+			shape: "octagon"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "05F3809A9634B616"
+				item: "confluence:brain_of_confusion"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "58CF74A27E2C5E58"
+			shape: "octagon"
+			tasks: [{
+				id: "41DAEB5C6E2913EF"
+				item: "meetyourfight:caged_heart"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "0D5EF10EBF01086F"
+			shape: "octagon"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "19E847F7D4E2983C"
+				item: "confluence:honey_comb"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "7C665B8FB1A1EA9E"
+			shape: "octagon"
+			tasks: [{
+				id: "21994D14904F6280"
+				item: "confluence:star_cloak"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "45CA3DD019C67ED8"
+			shape: "octagon"
+			tasks: [{
+				id: "127AADD6C19CA872"
+				item: "confluence:cross_necklace"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "14FA2FDFF9672D7F"
+			shape: "octagon"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "152919E4979B62A2"
+				item: "confluence:frozen_turtle_shell"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "267C7B362D8A244A"
+			shape: "octagon"
+			tasks: [{
+				id: "128A53D5FE9C7FDC"
+				item: "confluence:warrior_emblem"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "432B3B181ADE4FC8"
+			shape: "octagon"
+			tasks: [{
+				id: "1CF6A30DF5A3149E"
+				item: "confluence:cobalt_shield"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "4B95E205CB0B5587"
+			shape: "octagon"
+			tasks: [{
+				id: "2ED8C5A388C6D453"
+				item: "confluence:flesh_knuckles"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "4D945206421BDDAE"
+			shape: "octagon"
+			tasks: [{
+				id: "029625D1E67E94D9"
+				item: "prodigium_reforged:meat_shield"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "695B0040AF5B379F"
+			shape: "octagon"
+			subtitle: "&6Post Dame Fortuna&r"
+			tasks: [{
+				id: "3460C1022A689FEB"
+				item: "meetyourfight:ace_of_iron"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "327E3E18C467A8DC"
+			subtitle: "&6Post Nether Gauntlet&r"
+			tasks: [{
+				id: "6DCE5BE1FB529D35"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:netherite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "28DEA13C0745FE23"
+			subtitle: "&6Post Nether Gauntlet&r"
+			tasks: [{
+				id: "4D607CC574AE3D32"
+				item: {
+					Count: 1
+					id: "simple_weapons:netherite_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "6AA58E77DF9B734F"
+			subtitle: "&6Post Underworld Knight&r"
+			tasks: [{
+				id: "148E1334B47056D6"
+				item: {
+					Count: 1
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "1202CED8C1B47A67"
+			subtitle: "&6Post Underworld Knight&r"
+			tasks: [{
+				id: "0DFAB4CEFE184313"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "7E45440B495DB5C1"
+			subtitle: "&6Post Underworld Knight&r"
+			tasks: [{
+				id: "70A23653CDE99A70"
+				item: {
+					Count: 1
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "1DCD713FC0F3E3B6"
+			subtitle: "&6Post Netherite Monstrosity&r"
+			tasks: [{
+				id: "2CC463361676C01A"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:nether_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "3C039F5FCF441451"
+			subtitle: "&6Post Netherite Monstrosity&r"
+			tasks: [{
+				id: "235C07117DEFB739"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "5DA0156177FA8DDD"
+			subtitle: "&6Post Slider&r"
+			tasks: [{
+				id: "386D9DA6F0F6ADC9"
+				item: {
+					Count: 1
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "7DA6443883086123"
+			subtitle: "&6Post Void Blossom&r"
+			tasks: [{
+				id: "75552363607B8FBE"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "69BB3611C0B5D15C"
+			subtitle: "&6Post Leviathan&r"
+			tasks: [{
+				id: "27FFB241FFA01E60"
+				item: {
+					Count: 1
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "0F331378A3799B6D"
+			subtitle: "&6Post Harbinger&r"
+			tasks: [{
+				id: "22169A1C641ACFA3"
+				item: {
+					Count: 1
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "21DD839963B4902A"
+			shape: "octagon"
+			tasks: [{
+				id: "1EDC5651FF67B5CA"
+				item: "confluence:ankh_shield"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "2BE092882FB8CE70"
+			shape: "octagon"
+			tasks: [{
+				id: "33D9C50E53D15CCA"
+				item: "confluence:hero_shield"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["44FCF260737D0785"]
+			id: "43D2B950D66AF2A8"
+			tasks: [{
+				id: "5553B83DCEC51E2B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "013EB8B0B53393CE"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "7F3903729C49324E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
 		}
 	]
 	title: "Crusader"

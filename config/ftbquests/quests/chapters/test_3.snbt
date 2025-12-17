@@ -147,24 +147,31 @@
 			description: [
 				"Welcome to &lProdigium Reforged&r."
 				""
-				"By &6defeating bosses&r you will &6unlock&r &3new ores generating&r in the world, &3new mobs spawning&r and &3harder difficulty&r."
+				"By &6defeating bosses&r you will &lunlock&r new ores generating in the world, new mobs spawning and harder difficulty."
 				""
-				"You will also slowly gain &3Experience Points&r by &6killing mobs&7 AND&r by &6completing quests&r, you will then be able to &3choose a class&r in the Skill Tree (&6default key: \"i\"&r). "
+				"You will also slowly gain &6Experience Points&r by killing mobs AND by completing quests, you will then be able to &ochoose a class&r in the &6Skill Tree&r &o(default key: \"i\")&r. "
 				""
-				"There are &6npcs&r that works like in Terraria, check the &2NPC chapter&r in the &2Quest Book&r to know more."
+				"There are also &6NPCs&r that works like in Terraria :"
+				"[\"Check the \", { \"text\": \"NPC chapter\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"403FB403014A738D\" } }, \" in the Questbook to know more.\" ] "
 				""
 				"{@pagebreak}"
-				"&3Three main stages&r are available in Prodigium Reforged. &3New mobs&r will also spawn in the world after defeating certain bosses, messages will appear in the chat to notice you about it.                                                                   "
-				"&3Normal Mode&r : automatically unlocked when you first enter the world."
-				"&4Expert Mode&r : unlocked when entering the nether for the first time. Mobs will have more dmg, spawn in groups, the player will receive Bleeding II and more"
-				"&9Master Mode&r : Mobs will deal even more dmg, players will receive Bleeding III and more..."
+				" &6Three main stages&r are available in Prodigium Reforged. "
+				""
+				" New mobs will also spawn in the world after defeating certain bosses, messages will appear in the chat to notice you about it."
+				"                                                               "
+				"&n&3Normal Mode&r&r : automatically unlocked when you first enter the world."
+				""
+				"&n&4Expert Mode&r&r : unlocked when entering the &lNether&r for the first time. This will come with a &ldifficulty spike&r and a lot of new mobs spawning."
+				""
+				"&n&9Master Mode&r&r : unlocked after defeating the &lEnder Dragon&r, another difficulty spike will occure."
 				"{@pagebreak}"
+				""
 				"&nHelpful info :&r"
 				"With a &6mage spell book&r press &6\"R\"&r to switch your spells."
 				"You can &6roll&r using the &6\"X\"&r key."
 				"Open the &6world map&r with &6\",\"&r key (or \"m\" key, depend on your keyboard layout)"
 				""
-				"You can use &3The Guide&r to learn more about bosses and more. It acts as a wiki if needed."
+				"If you have any question you can come on the Discord."
 			]
 			disable_toast: true
 			id: "3941AFCFA581CDB6"
@@ -189,7 +196,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read me! (it's important and not long)"
+			subtitle: "&5Read me!&r (it's important and not long)"
 			tasks: [{
 				id: "654CD9EEBFFD888B"
 				item: {
@@ -401,6 +408,7 @@
 					type: "loot"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "060DEF4F27A9DD6E"
 				item: "majruszsdifficulty:undead_army_treasure_bag"
@@ -413,11 +421,10 @@
 		{
 			dependencies: ["41155113EBA75E4E"]
 			description: [
-				"Found in &2The Theatre&r."
+				"Found in a &2Theatre&r."
 				""
 				"&nTip :&r"
-				"You can search through the &bExplorer's Compass&r &2The Theatre&r structure to find it!"
-				"You can also ask the guide for a map to the closest &2The Theatre&r structure."
+				"You can search through the &bExplorer's Compass&r a &2Theatre&r structure to find it!"
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -436,11 +443,6 @@
 					id: "5A69EAFFA5588759"
 					type: "xp_levels"
 					xp_levels: 3
-				}
-				{
-					id: "0CC3874458030CA5"
-					item: "golems:guide_book"
-					type: "item"
 				}
 				{
 					count: 5
@@ -476,6 +478,12 @@
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B59DB263CCCCE57"
+					table_id: 8392552378705949885L
+					type: "loot"
 				}
 			]
 			shape: "octagon"
@@ -541,16 +549,25 @@
 				}
 				{
 					auto: "invisible"
-					command: "/thitemstages add @p stage_nether true"
+					command: "/gamestage add @p stage_1 true"
 					elevate_perms: true
-					id: "7A9B8F44ACA5AA99"
+					id: "28D9709F5D0A220F"
+					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @p [{\"text\":\"As the world trembles under your feet you feel a sudden burst of heat. It's time. You can now enter\",\"italic\":\"true\"},{\"text\":\" The Nether\",\"bold\":true,\"color\":\"red\"},{\"text\":\". But be ready for what comes next...\",\"italic\":\"true\"}]\""
+					command: "/thitemstages add @p stage_2 true"
 					elevate_perms: true
-					id: "7AF928A7265F4150"
+					id: "3EA2C636F29ADDE9"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"As the world trembles under your feet you feel a cold embrace.\",\"italic\":\"true\"},{\"text\":\" There are now\"},{\"text\":\" Diamonds\",\"bold\":\"true\",\"color\":\"aqua\"},{\"text\":\" growing in your world.\"}]\""
+					elevate_perms: true
+					id: "35F0822D0D6C7FC6"
 					type: "command"
 				}
 				{
@@ -570,7 +587,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "3AE46320570828AD"
-					team_reward: true
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -624,6 +640,17 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "0E78000F3EE296AE"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:gunner 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "353AE9471E95D2C9"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -759,14 +786,23 @@
 		}
 		{
 			dependencies: ["281435B11C0F1243"]
+			description: ["You will even be able to craft a &eDisenchaner&r in the future."]
 			hide_until_deps_visible: true
 			id: "4D723F25ABA40671"
-			rewards: [{
-				auto: "no_toast"
-				id: "11AFFCF54ED22BFD"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "11AFFCF54ED22BFD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BA0DBA38C0B516D"
+					table_id: 9057004262298788782L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "364D6F7FFC875F41"
 				item: "minecraft:enchanting_table"
@@ -781,7 +817,7 @@
 			description: [
 				"Weapons, tools and armors have randomly attributes attributed to it. You can change the attributes by using the &cReforging Station&r."
 				""
-				"To &6reforge&r the Modifier, use &6the correspondig material&r and/or use an &eAmbrosium Shard&r that acts as a universal reforge item."
+				"To &6reforge&r the Modifier, use the &lcorrespondig material&r and/or use an &lAmbrosium Shard&r that acts as a universal reforge item."
 			]
 			id: "32A453D0E324CFEF"
 			rewards: [
@@ -858,15 +894,25 @@
 		{
 			dependencies: ["59B2D8AD613CAD61"]
 			description: [
-				"Prodigium Reforged has three main classes you can pick from, &6mage&r, &6melee&r and &6ranged&r."
-				"Those classes have subclasses in them as well."
+				"Prodigium Reforged offers three main &lclasses&r to choose from: &6Mage&r, &6Melee&r, and &6Ranged&r."
+				"Each class also has its own &lspecializations&r to further customize your playstyle."
 				""
-				"&6Each class has armors&r for it, you can unlock them in the skill tree AND by progressing."
+				"&lHow to choose your main class:&r"
 				""
-				"Check the details in the \"Classes\" section of the quest book."
+				"- Open your Inventory"
+				""
+				"- Click on the &oSkill Tree&r tab"
+				""
+				"- Spend a point in one of the three starting nodes"
+				""
+				"&6&lSkill Points&r are earned by defeating mobs. Progressing through bosses in order will also reward you with multiple points at once."
+				""
+				"Each class has its own armor sets, which can be unlocked both through the &oSkill Tree&r and by advancing in the game."
+				""
+				"&4->&r On the left side of the quest book, you’ll find a &lClasses&r section containing more detailed explanations."
 				""
 				""
-				"&nTip :&r"
+				"&l&oTip:&r"
 				"You can &7unlock&r new ores by &cdefeating bosses&r!"
 			]
 			id: "7E84A690580422CF"
@@ -885,23 +931,12 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "12B4586961644F73"
-					item: "prodigium:raw_cobalt"
-					type: "item"
-				}
-				{
-					id: "28A8DF150B8C4FE6"
-					item: "simpleores:raw_mythril"
-					type: "item"
-				}
-				{
-					id: "2F462005BC977ADF"
-					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-			]
+			tasks: [{
+				icon: "araxers_bestiary:bestiary_book"
+				id: "1BFA3C9A6A014CED"
+				title: "Chose your path"
+				type: "custom"
+			}]
 			title: "Make a choice"
 			x: 6.5d
 			y: 3.0d
@@ -909,7 +944,7 @@
 		{
 			dependencies: ["3941AFCFA581CDB6"]
 			description: [
-				"You will need to protect yourself, without any armor mobs will hit you hard."
+				"You will need to protect yourself, without any armor &lmobs will hit you hard&r."
 				""
 				"In early game you have a few unrestricted armors available, while progressing further some armors will be wearable only with certain classes."
 			]
@@ -1042,7 +1077,7 @@
 				""
 				"&nTip :&r"
 				"If you're having &ctrouble with the bosses&r, you can always craft some &3custom golems&r to &3help you&r!"
-				"Use the &9Extra Golems Guide&r (rewarded through The Conjurer quest) for more information."
+				"Use the &9Extra Golems Guide&r (rewarded through Eye of Cthulhu quest) for more information."
 			]
 			icon: "minecraft:skeleton_skull"
 			id: "44CABC14818B1DFB"
@@ -1056,9 +1091,10 @@
 				}
 				{
 					auto: "invisible"
-					command: "/thitemstages add @p stage_2 true"
+					command: "/thitemstages add @p stage_nether true"
 					elevate_perms: true
-					id: "3EA2C636F29ADDE9"
+					id: "7A9B8F44ACA5AA99"
+					silent: true
 					type: "command"
 				}
 				{
@@ -1069,16 +1105,9 @@
 				}
 				{
 					auto: "invisible"
-					command: "/gamestage add @p stage_1 true"
+					command: "/tellraw @p [{\"text\":\"As the\",\"italic\":\"true\"},{\"text\":\" Dead King\",\"bold\":\"true\"},{\"text\":\" is finally laid to rest, you hear\"},{\"text\":\" multiple screams echoing around you\",\"bold\":\"true\"},{\"text\":\",  it's time. You can now enter\"},{\"text\":\" The Nether\",\"bold\":true,\"color\":\"red\"},{\"text\":\". But be ready for what comes next...\",\"italic\":\"true\"}]\""
 					elevate_perms: true
-					id: "28D9709F5D0A220F"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/tellraw @p [{\"text\":\"As the\",\"italic\":\"true\"},{\"text\":\" Dead King\",\"bold\":\"true\"},{\"text\":\" is finally laid to rest, you hear\"},{\"text\":\" multiple screams echoing around you\",\"bold\":\"true\"},{\"text\":\", fortunately, you also feel\"},{\"text\":\" Diamond\",\"bold\":\"true\",\"color\":\"aqua\"},{\"text\":\" and\"},{\"text\":\" Orichalcum\",\"bold\":\"true\",\"color\":\"light_purple\"},{\"text\":\" growing in your world.\"}]\""
-					elevate_perms: true
-					id: "35F0822D0D6C7FC6"
+					id: "303EB9461C7DB53C"
 					type: "command"
 				}
 				{
@@ -1092,7 +1121,83 @@
 					command: "/puffish_skills points add @p simplyskills:tree 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "090CFD8E9168D825"
+					id: "45E0F02D079855A6"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1A9EFE2C0DD0D4B7"
+					team_reward: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "26135C4A387788F9"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0B186173E12996F4"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3F86A48226AF5E58"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "08DC06A112BEA4D4"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "48B98CE80F4F6748"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:gunner 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5BBFF87909FDAB5F"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -1128,34 +1233,6 @@
 			]
 			x: 30.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["4D723F25ABA40671"]
-			description: ["You can use it to remove the enchant of a weapon to then put it in a book."]
-			hide_until_deps_visible: true
-			id: "2851394B90D1E773"
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "2A24757FDDA08C34"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					count: 10
-					id: "3110B3D155E27500"
-					item: "minecraft:book"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "28D9AFA467A843F3"
-				item: "disenchanting:disenchanter"
-				type: "item"
-			}]
-			title: "Craft a disenchanter"
-			x: 27.5d
-			y: -0.5d
 		}
 		{
 			dependencies: ["509DBFC46966C6EF"]
@@ -1249,7 +1326,12 @@
 				"076CA10541A9CDF3"
 				"059DA9E1AF69D4DC"
 			]
-			description: ["Found in his village, the &2Umvuthana Grove&r."]
+			description: [
+				"Found in his village, the &2Umvuthana Grove&r."
+				""
+				"&nTip :&r"
+				"You can search through the &bExplorer's Compass&r &2Umvuthana Grove&r structure to find it!"
+			]
 			icon: {
 				Count: 1
 				id: "mowziesmobs:umvuthana_mask_misery"
@@ -1337,13 +1419,13 @@
 			}]
 			secret: true
 			tasks: [{
-				days: 3
+				days: 6
 				disable_toast: true
 				id: "090702E16837BCE0"
 				title: "Make some room in your base!"
 				type: "questsadditions:days"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 4.5d
 		}
 		{
@@ -1496,12 +1578,20 @@
 			description: ["Located in his &2Wrought Chamber&r."]
 			id: "1494480D5013F207"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F4C882807107059"
-				table_id: 7449522933339281626L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F4C882807107059"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "7C9B8D8CED59F00B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
@@ -1517,14 +1607,29 @@
 		}
 		{
 			dependencies: ["281435B11C0F1243"]
+			description: ["Found at the top of a &2Dragon Tower&r."]
 			id: "2F37A0996328D7E5"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "06CC901D55C22A8F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20A57DD57971EE07"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				entity: "terra_entity:skeletron"
-				icon: "terra_entity:skeletron_spawn_egg"
+				entity: "block_factorys_bosses:infernal_dragon"
+				icon: "block_factorys_bosses:dragon_skull"
 				id: "0E798C00DCB02783"
-				title: "Defeat the &3Skeletron&r"
+				title: "Defeat the &3Dragon&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -1533,8 +1638,32 @@
 		}
 		{
 			dependencies: ["53EAB8D1FE264583"]
-			description: ["Summon it using Worm Food"]
+			description: ["Summon it using a &9Worm Food&r."]
 			id: "059DA9E1AF69D4DC"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "24CA6BACF459FE0D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1087AB551E4C0D5B"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					icon: "minecraft:experience_bottle"
+					id: "1B253DC292DE5541"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -1550,8 +1679,32 @@
 		}
 		{
 			dependencies: ["53EAB8D1FE264583"]
-			description: ["Summon it using the Bloody Spine"]
+			description: ["Summon it using the &9Bloody Spine&r."]
 			id: "076CA10541A9CDF3"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "798BB82A526D0F20"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "164C5327BD84B9C4"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					icon: "minecraft:experience_bottle"
+					id: "39B8BEDA020A6C3F"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -1567,14 +1720,37 @@
 		}
 		{
 			dependencies: ["1A1D4191D9A098E9"]
-			description: ["Summon it using the Suspicious Looking Eye."]
+			description: ["Summon it using the &9Suspicious Looking Eye&r."]
 			id: "41155113EBA75E4E"
-			rewards: [{
-				auto: "no_toast"
-				id: "20AD94E9036FC9BF"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "20AD94E9036FC9BF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "428F7540C54E4D0A"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					id: "0A137C0A2116C8BD"
+					item: "golems:guide_book"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					icon: "minecraft:experience_bottle"
+					id: "18A39311E45CBBAB"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -1590,8 +1766,23 @@
 		}
 		{
 			dependencies: ["0B31131A12E42700"]
+			description: ["Found in a &2Bee Hive&r."]
 			id: "3D7985B800B5CB3F"
 			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "02D11B2CE1A5219F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27BD2C8DE96073FC"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
@@ -1604,6 +1795,51 @@
 			}]
 			x: 22.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["53EAB8D1FE264583"]
+			description: ["Found in a &2Sandstorm Nest&r."]
+			id: "480F0F0E710E9095"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamestage add @p stage_desert true"
+					elevate_perms: true
+					id: "1D27109108BE5644"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "5479697CA388880E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09E007C060B9602F"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				icon: {
+					Count: 1
+					id: "block_factorys_bosses:sandworm_dart"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5BBA0C345C2D9F5C"
+				title: "Kill the &3Sandworm&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 0.5d
 		}
 	]
 	title: "Normal Mode"

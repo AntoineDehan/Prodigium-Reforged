@@ -7,7 +7,65 @@
 	hide_quest_until_deps_visible: true
 	icon: "confluence:cross_necklace"
 	id: "55E9F74FAA839A76"
-	order_index: 6
+	images: [
+		{
+			dependency: "525D3BC989CF49D9"
+			height: 0.75d
+			hover: ["Not all Curios are listed here !"]
+			image: "prodigium_reforged:textures/gui/curios.png"
+			rotation: 0.0d
+			width: 2.73d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependency: "525D3BC989CF49D9"
+			height: 0.75d
+			hover: ["Not all Spellbooks are listed here !"]
+			image: "prodigium_reforged:textures/gui/spell_books.png"
+			rotation: 0.0d
+			width: 4.8d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependency: "525D3BC989CF49D9"
+			height: 0.8d
+			image: "irons_spellbooks:item/copper_spell_book"
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.6d
+			y: 2.0d
+		}
+		{
+			dependency: "525D3BC989CF49D9"
+			height: 0.8d
+			image: "alshanex_familiars:item/complete_soul_curio"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependency: "525D3BC989CF49D9"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/normal_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependency: "774BCB593AAFAA33"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/expert_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: 1.0d
+			y: 6.0d
+		}
+	]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -89,8 +147,8 @@
 				type: "item"
 			}]
 			title: "Craft your first Spell Book!"
-			x: 1.0d
-			y: 2.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["167F636BCCA964EA"]
@@ -127,18 +185,6 @@
 			size: 1.25d
 			tasks: [
 				{
-					id: "55252D321592C2ED"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:wandering_magician_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					title: "Wandering Magician Armor"
-					type: "item"
-				}
-				{
 					id: "6430852F5E853F35"
 					item: {
 						Count: 1
@@ -148,6 +194,11 @@
 						}
 					}
 					title: "Tunic Priest Armor"
+					type: "item"
+				}
+				{
+					id: "52433DC92E6D3D51"
+					item: "mowziesmobs:sol_visage"
 					type: "item"
 				}
 			]
@@ -199,7 +250,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5DAEFA87EDF5F96D"]
+			dependencies: ["525D3BC989CF49D9"]
 			id: "063543BC78669DCB"
 			rewards: [
 				{
@@ -221,6 +272,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&6Post Bellringer&r"
 			tasks: [{
 				id: "4519CAC4D0393275"
 				item: {
@@ -237,11 +289,12 @@
 				type: "item"
 			}]
 			title: "Bigger Faster Stronger"
-			x: 2.0d
-			y: 2.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["063543BC78669DCB"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
 			id: "6A8C2DE986B261A9"
 			rewards: [
 				{
@@ -273,11 +326,12 @@
 				type: "item"
 			}]
 			title: "New book, new mage"
-			x: 3.0d
-			y: 2.5d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["6A8C2DE986B261A9"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
 			id: "4C3468FE8D873B68"
 			rewards: [
 				{
@@ -292,6 +346,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&6Post Ignis&r"
 			tasks: [{
 				id: "4E47A7FA2CD4D761"
 				item: {
@@ -309,37 +364,8 @@
 				type: "item"
 			}]
 			title: "Ultimate Cleric weapon"
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4C3468FE8D873B68"]
-			hide_until_deps_visible: true
-			id: "7E667B478AC9D11C"
-			rewards: [{
-				auto: "no_toast"
-				id: "57CCE791D57C8250"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				id: "2E62C8B51B2E0E5F"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:netherite_spell_book"
-					tag: {
-						ISB_spellbook: {
-							activeSpellIndex: -1
-							spellSlots: 10
-							spells: [ ]
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "From the depth"
-			x: 5.0d
-			y: 3.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -399,18 +425,44 @@
 				}
 			]
 			size: 1.25d
-			tasks: [{
-				id: "6741626C3FF47625"
-				item: {
-					Count: 1
-					id: "paladins:prior_robe_head"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6741626C3FF47625"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_head"
+						tag: {
+							Damage: 0
+						}
 					}
+					title: "Prior Armor"
+					type: "item"
 				}
-				title: "Prior Armor"
-				type: "item"
-			}]
+				{
+					id: "7996CFD15D7A34CA"
+					item: {
+						Count: 1
+						id: "kubejs:holy_marauder_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Holy Marauder Armor"
+					type: "item"
+				}
+				{
+					id: "72C7E635F5739DC6"
+					item: {
+						Count: 1
+						id: "kubejs:nether_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Nether Armor"
+					type: "item"
+				}
+			]
 			title: "Cleric armors for the Expert Mode"
 			x: 4.5d
 			y: 0.0d
@@ -431,8 +483,58 @@
 				type: "item"
 			}]
 			title: "Craft a staff"
-			x: 4.5d
-			y: -1.5d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["525D3BC989CF49D9"]
+			id: "3783E54D7DECDB0C"
+			shape: "octagon"
+			tasks: [{
+				id: "7D4E611BD478910E"
+				item: "confluence:sorcerer_emblem"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["525D3BC989CF49D9"]
+			id: "00B41F898D348956"
+			shape: "octagon"
+			subtitle: "&6Post King Slime&r"
+			tasks: [{
+				id: "452E62FA642BD2C2"
+				item: "prodigium_reforged:slimy_scarf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["525D3BC989CF49D9"]
+			id: "7531112E7F914689"
+			shape: "octagon"
+			subtitle: "&6Post Umvuthi&r"
+			tasks: [{
+				id: "5D27AA3B45BAB542"
+				item: "prodigium_reforged:feather_necklace"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["525D3BC989CF49D9"]
+			id: "6D6304C625515011"
+			shape: "octagon"
+			tasks: [{
+				id: "6CC7771F2AFFCC38"
+				item: "confluence:black_belt"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
 		}
 	]
 	title: "Cleric"

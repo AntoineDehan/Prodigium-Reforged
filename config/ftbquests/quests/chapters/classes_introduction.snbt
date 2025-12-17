@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"Prodigium Reforged has &6three main branches&r, &9mage&r, &aranged&r and &dmelee&r."
+				"Prodigium Reforged has three main branches, &6mage&r, &6ranged&r and &6melee&r."
 				""
 				"To &6open the Skill Tree&r, &6press \"i\"&r, you will then need &eSkill Points&r."
 				""
-				"To obtain &eSkill Points&r, you can kill mobs (this will give a little bit of experience) and/or you can defeat bosses which will give you 2 &eSkill Points&r."
+				"To obtain &eSkill Points&r, you can kill mobs (this will give a little bit of experience) and/or you can defeat bosses which will give you &e2&r Skill Points."
 				""
 				"After selecting &6a branch&r, you will be able to &6select a class&r, you can &conly chose one per branch&r."
 				""
@@ -36,7 +36,7 @@
 				"{@pagebreak}"
 				"&l&9&nMage&r&r&r"
 				""
-				"Two classes are available in &9Mage&r :"
+				"Three classes are available in &9Mage&r :"
 				""
 				"&l&1Wizard&r&r"
 				"Your typical mage, aimed at dealing damage and to specialize in the school of your chosing."
@@ -44,13 +44,19 @@
 				"&e&lCleric&r&r"
 				"Healing centered class, heal and buff your friends and yourself, specialized in Holy school."
 				""
+				"&l&8Necromancer&r&r - Removed ATM -"
+				"Armor focused magic class, use summoning spells to help you fight."
+				""
 				"{@pagebreak}"
 				"&l&a&nRanged&r&r&r"
 				""
-				"Only one (atm) class is available in &aRanged&r :"
+				"Two classes are available :"
 				""
-				"&2&lRanger&r&r"
-				"Made to deal with enemies from a safe distance, also specialize in using pets!"
+				"&2&lArcher&r&r"
+				"Made to deal with enemies from a safe distance with bows and his multiple pets!"
+				""
+				"&l&dGunner&r&r"
+				"High DPS class that uses guns as main weapons"
 			]
 			id: "25D1B37A73FB9F53"
 			rewards: [
@@ -135,7 +141,7 @@
 		}
 		{
 			description: [
-				"You now have unlocked &6the Ranger quest chapter&r. Check it out in the quest book!"
+				"You now have unlocked &6the Archer quest chapter&r. Check it out in the quest book!"
 				""
 				"It will help you know which armors and more to craft next!"
 			]
@@ -150,7 +156,7 @@
 					}
 				}
 				id: "41F70500E273E37C"
-				title: "You've chosen the Ranger class!"
+				title: "You've chosen the Archer class!"
 				type: "custom"
 			}]
 			x: -0.5d
@@ -211,9 +217,9 @@
 		{
 			dependencies: ["25D1B37A73FB9F53"]
 			description: [
-				"Used for Mage (wizard, cleric and necromancer)"
+				"Used for Mage (Wizard and Cleric)"
 				""
-				"You will drop&7 Scrolls&r in a chest, those are a one time use spells unless you put them in a spellbook."
+				"You will drop&7 Scrolls&r in chests, those are a one time use spells unless you put them in a spellbook."
 				""
 				"To do that, you will need to craft an &3Inscription Table&r and have a &6Spell Book&r. "
 				"Put the &6Spell Book&r and the &7Scroll&r in the &3Inscription table&r, you will then be able to use the spells as much as you have enough mana."
@@ -278,7 +284,7 @@
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
-			description: ["Used for ranged (ranger)"]
+			description: ["Used for ranged (Archer and Gunner)"]
 			hide_until_deps_visible: true
 			id: "412E0ADC86F7DE20"
 			rewards: [
@@ -314,7 +320,7 @@
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
-			description: ["Used for melee (crusader and berserker)"]
+			description: ["Used for melee (Crusader and Berserker)"]
 			hide_until_deps_visible: true
 			id: "525148F80B756AD6"
 			rewards: [
@@ -336,12 +342,12 @@
 				id: "41B052F3415EDC28"
 				item: {
 					Count: 1
-					id: "simpleores:mythril_helmet"
+					id: "minecraft:iron_helmet"
 					tag: {
 						Damage: 0
 					}
 				}
-				title: "Mythril armor"
+				title: "Iron armor"
 				type: "item"
 			}]
 			title: "Early melee armor"
@@ -368,6 +374,29 @@
 				type: "custom"
 			}]
 			title: "You've chosen the Necromancer class!"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"You now have unlocked &6the Gunner quest chapter&r. Check it out in the quest book!"
+				""
+				"It will help you know which armors and more to craft next!"
+			]
+			id: "51F86D6012A589B2"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gunswithoutroses:gold_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7290D4A54277F76D"
+				title: "You've chosen the Gunner class!"
+				type: "custom"
+			}]
 			x: 1.5d
 			y: 3.5d
 		}

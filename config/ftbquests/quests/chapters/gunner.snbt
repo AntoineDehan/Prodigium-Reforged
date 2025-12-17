@@ -11,11 +11,90 @@
 		}
 	}
 	id: "775D8D56EB02542A"
-	order_index: 7
+	images: [
+		{
+			dependency: "51F86D6012A589B2"
+			height: 0.75d
+			hover: ["Not all Weapons are listed here !"]
+			image: "prodigium_reforged:textures/gui/weapons.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependency: "51F86D6012A589B2"
+			height: 0.8d
+			image: "bypowderandsteel:item/gunsteel_gun"
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.9d
+			y: 2.0d
+		}
+		{
+			dependency: "51F86D6012A589B2"
+			height: 0.75d
+			hover: ["Not all Curios are listed here !"]
+			image: "prodigium_reforged:textures/gui/curios.png"
+			rotation: 0.0d
+			width: 2.73d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependency: "51F86D6012A589B2"
+			height: 0.8d
+			image: "alshanex_familiars:item/complete_soul_curio"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependency: "51F86D6012A589B2"
+			height: 0.75d
+			image: "prodigium_reforged:textures/gui/ammo.png"
+			rotation: 0.0d
+			width: 2.38d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependency: "51F86D6012A589B2"
+			height: 0.9d
+			image: "gunswithoutroses:item/flint_bullet"
+			rotation: 0.0d
+			width: 0.9d
+			x: -0.3d
+			y: 2.5d
+		}
+		{
+			dependency: "51F86D6012A589B2"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/normal_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependency: "774BCB593AAFAA33"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/expert_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: -1.5d
+			y: 8.0d
+		}
+	]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["51F86D6012A589B2"]
 			id: "43D51238714E5EBC"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "37A1DAA370BBA968"
@@ -40,27 +119,49 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			title: "Gunner armors for the Normal Mode"
+			x: 1.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["43D51238714E5EBC"]
 			id: "6EF7C057C65B42AA"
-			tasks: [{
-				id: "301B1B9118246D4F"
-				item: {
-					Count: 1
-					id: "bypowderandsteel:infernal_enforcer_helmet"
-					tag: {
-						Damage: 0
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "301B1B9118246D4F"
+					item: {
+						Count: 1
+						id: "bypowderandsteel:infernal_enforcer_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 3.0d
+				{
+					id: "28BAAA7406A0AB85"
+					item: {
+						Count: 1
+						id: "kubejs:necro_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Necro Armor"
+					type: "item"
+				}
+			]
+			title: "Gunner armors for the Expert Mode"
+			x: 4.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["6EF7C057C65B42AA"]
 			id: "151534325D82BD9F"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "6D924B53D85D01E7"
 				item: {
@@ -72,8 +173,699 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			title: "Gunner armors for the Master Mode"
+			x: 7.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "4BDE3EF434569E91"
+			shape: "octagon"
+			tasks: [{
+				id: "5BFAA49716DE7969"
+				item: "sweet_charm_o_mine:copper_pocket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "034D079A2A3B9935"
+			shape: "octagon"
+			tasks: [{
+				id: "600D179B87D4EF56"
+				item: "sweet_charm_o_mine:gunpowder_bag"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "693AC96AD1B6FC58"
+			tasks: [{
+				id: "7728CCA3B4FFDBB5"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:iron_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "6288C94CF969E748"
+			tasks: [{
+				id: "0A7B8C5B888DD2A2"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:diamond_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "3DF84C92FFA56628"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "6AF4A927FDDD790F"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:desert_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "363F93E5D928A7EC"
+			tasks: [{
+				id: "2A5678951311A731"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:gold_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "41898A9BD45DF796"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "3F4FA4011CE9B223"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:desert_revolver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "7E4D9D68F2446EE8"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "24831296279555EA"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:peashooter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "5B9A558E09EA1F3A"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "1918205669433AA8"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:corn_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "783A3D204743F1B4"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "2ACF904183749F6C"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:buccaneer_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "38DEB999B0523495"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "1C00F2E5139062A8"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:buccaneer_flintlock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "0DAA3C4FF6973B33"
+			shape: "octagon"
+			tasks: [{
+				id: "3804542928F66F4B"
+				item: "prodigium_reforged:smoke_bombs"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "10454C02BAA99C63"
+			shape: "octagon"
+			tasks: [{
+				id: "628B8C4FA0878D9E"
+				item: "prodigium_reforged:comfy_socks"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "4364C6356162E37F"
+			shape: "octagon"
+			tasks: [{
+				id: "29C0C91021B99BEA"
+				item: "sweet_charm_o_mine:magazine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "65C2D42C0E8FFB42"
+			shape: "octagon"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "05374910B3CE544A"
+				item: "sweet_charm_o_mine:dunlop_pick"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "26BE6EA94C0CD50F"
+			shape: "octagon"
+			tasks: [{
+				id: "627AF1EFDD86FFF3"
+				item: "confluence:putrid_scent"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "3BAE16B3A160A168"
+			shape: "octagon"
+			tasks: [{
+				id: "7E658EC557AE8BBF"
+				item: "confluence:black_belt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "6A3549FB32A271D6"
+			shape: "octagon"
+			tasks: [{
+				id: "2B10C6E7A94731E0"
+				item: "sweet_charm_o_mine:iron_pocket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "59952A5250441FD9"
+			shape: "octagon"
+			subtitle: "&6Post Bellringer&r"
+			tasks: [{
+				id: "0783B35048C6041B"
+				item: "sweet_charm_o_mine:gold_pocket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "5FCC38C1ADFAADEF"
+			shape: "octagon"
+			tasks: [{
+				id: "5FAE4EBBCF3DB44E"
+				item: "gunswithoutroses:flint_bullet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "01189F225FC55646"
+			shape: "octagon"
+			tasks: [{
+				id: "1F57F3C9D4419A08"
+				item: "gunswithoutroses:iron_bullet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "1F67FA77E750B67A"
+			shape: "octagon"
+			tasks: [{
+				id: "78BD2B352ADAFCAF"
+				item: "bypowderandsteel:gunsteel_bullet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "68971D8D7053B76B"
+			shape: "octagon"
+			tasks: [{
+				id: "3C9F91637943DB07"
+				item: "gunswithoutroses:amethyst_bullet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "31521D18A795570D"
+			shape: "octagon"
+			tasks: [{
+				id: "70BDA2DED10C796B"
+				item: "gwrexpansions:golden_bullet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "530EC918485DB27E"
+			shape: "octagon"
+			tasks: [{
+				id: "13F4F49BECF09D8A"
+				item: "gunswithoutroses:explosive_bullet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["51F86D6012A589B2"]
+			id: "4391564C5E491FE8"
+			shape: "octagon"
+			tasks: [{
+				id: "782A75AA7BA52081"
+				item: "gwrexpansions:diamond_bullet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "3CB27E3D31176839"
+			shape: "octagon"
+			tasks: [{
+				id: "4F8F2AF4599C0F84"
+				item: "gunswithoutroses:blaze_bullet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "3CE6E47E953797E7"
+			shape: "octagon"
+			tasks: [{
+				id: "125EDA95C658B1FF"
+				item: "gwrexpansions:netherite_bullet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "0EC539C2AAD2B3E8"
+			shape: "octagon"
+			subtitle: "&6Post Sun Spirit&r"
+			tasks: [{
+				id: "6F363AB00904535A"
+				item: "gwrexpansions:lavapower_bullet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "10D4CB14A52B23D9"
+			shape: "octagon"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "5A9ACE56B27BF292"
+				item: "gwrexpansions:ignitium_bullet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "66059AA2D55375B6"
+			tasks: [{
+				id: "0FE0F034B20C77AE"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:diamond_sniper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "7ADDD2000D17388A"
+			tasks: [{
+				id: "5FC87071B18EEE13"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:corn_gatling_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "3F6137656FD5EA2F"
+			tasks: [{
+				id: "78D3B53B59232535"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:desert_shotgun_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "1C9FADFD2B2DD42E"
+			tasks: [{
+				id: "52217C7337E66EA1"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:buccaneer_cannon_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "204E1C23F97A80E0"
+			tasks: [{
+				id: "2F847BFDA1E4F42A"
+				item: {
+					Count: 1
+					id: "bypowderandsteel:bloodfueled_revolver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "1893BB9F8DEE050B"
+			subtitle: "&6Post Nether Gauntlet&r"
+			tasks: [{
+				id: "2E4BB7453C97A9B5"
+				item: {
+					Count: 1
+					id: "gwrexpansions:hellforge_revolver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "7BFE0C16D3B3CC59"
+			subtitle: "&6Post Void Blossom&r"
+			tasks: [{
+				id: "1D9E5759EEBCCDF0"
+				item: {
+					Count: 1
+					id: "gwrexpansions:voidspike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "4DA2156B8EDE1831"
+			subtitle: "&6Post Void Blossom&r"
+			tasks: [{
+				id: "0ED5E621F75F4B5A"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:diamond_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "4C3A53F50233F57E"
+			subtitle: "&6Post Sun Spirit&r"
+			tasks: [{
+				id: "7120CE5136D3D194"
+				item: {
+					Count: 1
+					id: "gwrexpansions:netherite_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "06530557B2C14ED2"
+			subtitle: "&6Post Sun Spirit&r"
+			tasks: [{
+				id: "41D8895E1589D286"
+				item: {
+					Count: 1
+					id: "gwrexpansions:netherite_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "666AA49D7B3FAD5C"
+			subtitle: "&6Post Sun Spirit&r"
+			tasks: [{
+				id: "761130AE8F5D719B"
+				item: {
+					Count: 1
+					id: "gwrexpansions:netherite_sniper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "3CF68B6074182FA6"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "4B905C192FF57D63"
+				item: {
+					Count: 1
+					id: "gwrexpansions:ignitium_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "19626ECD745C90F5"
+			subtitle: "&6Post Leviathan&r"
+			tasks: [{
+				id: "667DF59940FDED5A"
+				item: {
+					Count: 1
+					id: "gwrexpansions:tidal_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "4E316EDD0BD483B5"
+			shape: "octagon"
+			subtitle: "&6Post Nether Gauntlet&r"
+			tasks: [{
+				id: "3A2A0D359410FB15"
+				item: "sweet_charm_o_mine:bullet_shell_charm"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "65411A54A77ABB73"
+			shape: "octagon"
+			tasks: [{
+				id: "4495CB3F58111A9F"
+				item: "confluence:master_ninja_gear"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
 		}
 	]
 	title: "Gunner"

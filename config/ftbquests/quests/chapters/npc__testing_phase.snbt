@@ -131,10 +131,10 @@
 		{
 			dependencies: ["774BCB593AAFAA33"]
 			dependency_requirement: "one_completed"
-			description: ["When the &6furnitures&r are placed, you can place a &bDog Bed&r (any dog bed variant) nearby."]
+			description: ["When the &6furnitures&r are placed, you can place a &bCommand Drum&r nearby."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "doggytalents:dog_plushie_toy_item"
+			icon: "domesticationinnovation:collar_tag"
 			id: "15FFAB3CB126794B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -143,7 +143,7 @@
 				type: "loot"
 			}]
 			tasks: [{
-				icon: "domesticationinnovation:collar_tag"
+				icon: "domesticationinnovation:drum"
 				id: "70ABE0C1C74091F0"
 				title: "Zoologist's Block"
 				type: "custom"

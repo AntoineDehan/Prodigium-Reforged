@@ -13,7 +13,65 @@
 		}
 	}
 	id: "4529A3374C270239"
-	order_index: 4
+	images: [
+		{
+			dependency: "745FE062B66D6927"
+			height: 0.75d
+			hover: ["Not all Spellbooks are listed here !"]
+			image: "prodigium_reforged:textures/gui/spell_books.png"
+			rotation: 0.0d
+			width: 4.8d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependency: "745FE062B66D6927"
+			height: 0.8d
+			image: "irons_spellbooks:item/copper_spell_book"
+			rotation: 0.0d
+			width: 0.8d
+			x: 1.6d
+			y: 2.0d
+		}
+		{
+			dependency: "745FE062B66D6927"
+			height: 0.75d
+			hover: ["Not all Curios are listed here !"]
+			image: "prodigium_reforged:textures/gui/curios.png"
+			rotation: 0.0d
+			width: 2.73d
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependency: "745FE062B66D6927"
+			height: 0.8d
+			image: "alshanex_familiars:item/complete_soul_curio"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependency: "745FE062B66D6927"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/normal_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependency: "774BCB593AAFAA33"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/expert_mode.png"
+			rotation: 0.0d
+			width: 2.25d
+			x: 1.5d
+			y: 5.5d
+		}
+	]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -95,8 +153,8 @@
 				type: "item"
 			}]
 			title: "Craft your first Spell Book!"
-			x: 1.0d
-			y: 2.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["624B188BB0FFB9D9"]
@@ -133,18 +191,6 @@
 			size: 1.25d
 			tasks: [
 				{
-					id: "6A35EAF60735FECA"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:wandering_magician_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					title: "Wandering Magician Armor"
-					type: "item"
-				}
-				{
 					id: "4F3BE7636DE2CBC0"
 					item: {
 						Count: 1
@@ -154,6 +200,17 @@
 						}
 					}
 					title: "Scarecrow Armor"
+					type: "item"
+				}
+				{
+					id: "42AAA1EE057FFDFE"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -268,7 +325,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["18B042EFAA245E8D"]
+			dependencies: ["745FE062B66D6927"]
 			id: "39D61483845902CD"
 			rewards: [
 				{
@@ -290,6 +347,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&6Post Bellringer&r"
 			tasks: [{
 				id: "7D19A09FC562CF85"
 				item: {
@@ -306,11 +364,12 @@
 				type: "item"
 			}]
 			title: "Bigger Faster Stronger"
-			x: 2.0d
-			y: 2.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["39D61483845902CD"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
 			id: "64BC25EF7137C9F9"
 			rewards: [
 				{
@@ -343,10 +402,11 @@
 			}]
 			title: "New book, new mage"
 			x: 3.0d
-			y: 2.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["64BC25EF7137C9F9"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
 			id: "297C650C9443F6AC"
 			rewards: [
 				{
@@ -361,6 +421,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&6Post Slider&r"
 			tasks: [{
 				id: "26172C9B4A8570F0"
 				item: {
@@ -378,10 +439,11 @@
 			}]
 			title: "Ultimate Wizard weapon"
 			x: 4.0d
-			y: 2.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["297C650C9443F6AC"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "457F3B09A012EC52"
 			rewards: [{
@@ -406,11 +468,12 @@
 				type: "item"
 			}]
 			title: "From the depth"
-			x: 5.5d
-			y: 2.0d
+			x: 3.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["297C650C9443F6AC"]
+			dependencies: ["6EB21A5EFC2F6EF2"]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "14858556B512FCA1"
 			rewards: [{
@@ -435,8 +498,8 @@
 				type: "item"
 			}]
 			title: "From the dragon itself"
-			x: 5.5d
-			y: 3.0d
+			x: 4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -518,27 +581,47 @@
 			size: 1.25d
 			tasks: [
 				{
-					id: "1B293FAFD36D6F62"
+					id: "53B53A67280E9D6A"
 					item: {
 						Count: 1
-						id: "aether:zanite_helmet"
+						id: "kubejs:skyjade_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
-					title: "Zanite Armor"
 					type: "item"
 				}
 				{
-					id: "74822A6F9FF25711"
+					id: "19DC0D6A26F8F54E"
 					item: {
 						Count: 1
-						id: "wizards:wizard_robe_head"
+						id: "wizards:arcane_robe_head"
 						tag: {
 							Damage: 0
 						}
 					}
-					title: "Wizard Armor"
+					type: "item"
+				}
+				{
+					id: "1D9F4D66AAD6E8FA"
+					item: {
+						Count: 1
+						id: "kubejs:wizard_ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3792F2F39E60CF93"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -547,7 +630,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["297C650C9443F6AC"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
 			id: "648A557424EC566D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -555,6 +639,7 @@
 				table_id: 7449522933339281626L
 				type: "loot"
 			}]
+			subtitle: "&6Post Void Blossom&r"
 			tasks: [{
 				id: "20F9183BAFABC09C"
 				item: {
@@ -572,11 +657,12 @@
 				type: "item"
 			}]
 			title: "Nature book"
-			x: 4.5d
-			y: 3.5d
+			x: 5.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["297C650C9443F6AC"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
 			id: "0EF134C050A64147"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -584,6 +670,7 @@
 				table_id: 7449522933339281626L
 				type: "loot"
 			}]
+			subtitle: "&6Post Ignis&r"
 			tasks: [{
 				id: "7B9659FF92B22DEC"
 				item: {
@@ -602,7 +689,7 @@
 			}]
 			title: "Fire book"
 			x: 4.5d
-			y: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["624B188BB0FFB9D9"]
@@ -620,8 +707,68 @@
 				type: "item"
 			}]
 			title: "Craft a staff"
-			x: 4.5d
-			y: -1.5d
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["745FE062B66D6927"]
+			id: "658937CDD83B0E34"
+			shape: "octagon"
+			tasks: [{
+				id: "671DB1F7FD97F7E2"
+				item: "prodigium_reforged:slimy_scarf"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["745FE062B66D6927"]
+			id: "7FD3C7027A45A17B"
+			shape: "octagon"
+			tasks: [{
+				id: "68EB714FCE95C643"
+				item: "confluence:sorcerer_emblem"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["745FE062B66D6927"]
+			id: "3636B313C294E680"
+			shape: "octagon"
+			tasks: [{
+				id: "211A1FE37FA18DCA"
+				item: "confluence:black_belt"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["745FE062B66D6927"]
+			id: "75938C00E0EE00F0"
+			subtitle: "&6Post Dead King&r"
+			tasks: [{
+				id: "2DD3727BF5E7DADB"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["745FE062B66D6927"]
+			id: "6FBF018F1564BB57"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "6C712F1768633189"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
 		}
 	]
 	title: "Wizard"

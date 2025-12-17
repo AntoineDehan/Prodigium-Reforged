@@ -13,7 +13,83 @@
 		}
 	}
 	id: "2177D8DE2443A1AF"
-	order_index: 1
+	images: [
+		{
+			dependency: "686B5BA848725480"
+			height: 0.75d
+			hover: ["Not all Weapons are listed here !"]
+			image: "prodigium_reforged:textures/gui/weapons.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependency: "686B5BA848725480"
+			height: 0.8d
+			image: "minecraft:item/bow"
+			rotation: -20.0d
+			width: 0.8d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependency: "686B5BA848725480"
+			height: 0.75d
+			image: "prodigium_reforged:textures/gui/ammo.png"
+			rotation: 0.0d
+			width: 2.38d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependency: "686B5BA848725480"
+			height: 0.8d
+			image: "minecraft:item/arrow"
+			rotation: 0.0d
+			width: 0.8d
+			x: -0.25d
+			y: 2.5d
+		}
+		{
+			dependency: "686B5BA848725480"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/normal_mode.png"
+			rotation: 0.0d
+			width: 2.38d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependency: "686B5BA848725480"
+			height: 0.75d
+			hover: ["Not all Curios are listed here !"]
+			image: "prodigium_reforged:textures/gui/curios.png"
+			rotation: 0.0d
+			width: 2.73d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependency: "686B5BA848725480"
+			height: 0.8d
+			image: "alshanex_familiars:item/complete_soul_curio"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependency: "774BCB593AAFAA33"
+			height: 1.0d
+			image: "prodigium_reforged:textures/gui/expert_mode.png"
+			rotation: 0.0d
+			width: 2.3857142857142857d
+			x: -1.5d
+			y: 7.0d
+		}
+	]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,7 +117,8 @@
 					type: "loot"
 				}
 			]
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "026BBCA987413465"
@@ -56,37 +133,26 @@
 					type: "item"
 				}
 				{
-					id: "0621F5DB651D11F1"
+					id: "1A372CF3D9C6CDFA"
 					item: {
 						Count: 1
-						id: "prodigium:cobalt_helmet"
+						id: "kubejs:bee_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
-					title: "Cobalt Armor"
-					type: "item"
-				}
-				{
-					id: "4A574E19DF8D827E"
-					item: {
-						Count: 1
-						id: "prodigium:palladium_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					title: "Palladium Armor"
 					type: "item"
 				}
 			]
-			title: "Ranged armors for the Normal Mode"
+			title: "Archer's armors for the Normal Mode"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0EEBAEA6C5EE0454"]
-			hide_until_deps_visible: true
+			dependencies: ["686B5BA848725480"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
 			id: "5FEC8279A8C2E462"
 			rewards: [{
 				auto: "no_toast"
@@ -94,7 +160,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			size: 1.25d
+			size: 1.0d
+			subtitle: "&6Post Bellringer&r"
 			tasks: [{
 				id: "6CB78B448DF82681"
 				item: {
@@ -107,11 +174,12 @@
 				type: "item"
 			}]
 			title: "Traditional arsenal"
-			x: 2.0d
-			y: 2.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["5FEC8279A8C2E462"]
+			dependencies: ["686B5BA848725480"]
+			hide_dependency_lines: true
 			id: "104CACCA0684A194"
 			rewards: [{
 				auto: "no_toast"
@@ -119,16 +187,18 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "5035A0ECADED4AF7"
 				item: "archers_paradox:explosive_arrow"
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["5DECF19C4A20F805"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
 			id: "0A760A8F2DC0A847"
 			rewards: [{
 				auto: "no_toast"
@@ -136,16 +206,17 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "2C42F0F9561AB098"
 				item: "archers_paradox:quartz_arrow"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.0d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["5DECF19C4A20F805"]
+			dependencies: ["686B5BA848725480"]
 			id: "715DA9E925411FC4"
 			rewards: [{
 				auto: "no_toast"
@@ -153,16 +224,19 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
+			subtitle: "&6Post Frostmaw&r"
 			tasks: [{
 				id: "556CBB5D99D95AE2"
 				item: "archers_paradox:diamond_arrow"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["3842F25859FA533C"]
+			dependencies: ["049A1A789CCBA808"]
+			hide_until_deps_complete: true
 			id: "25DB715EA2BA4A2B"
 			rewards: [{
 				auto: "no_toast"
@@ -170,16 +244,18 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "65BFB648C35F632C"
 				item: "archers_paradox:prismarine_arrow"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["5FEC8279A8C2E462"]
+			dependencies: ["686B5BA848725480"]
+			hide_dependency_lines: true
 			id: "28CC2513C9AA09B1"
 			rewards: [{
 				auto: "no_toast"
@@ -187,16 +263,18 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "1CEE967CD48EDB61"
 				item: "archers_paradox:slime_arrow"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["5FEC8279A8C2E462"]
+			dependencies: ["686B5BA848725480"]
+			hide_dependency_lines: true
 			id: "37920610232EB15A"
 			rewards: [{
 				auto: "no_toast"
@@ -204,16 +282,21 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "704954F765022C05"
 				item: "archers_paradox:ender_arrow"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["5FEC8279A8C2E462"]
+			dependencies: ["686B5BA848725480"]
+			description: [""]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			id: "4C5D8C951C59F357"
 			rewards: [{
 				auto: "no_toast"
@@ -221,16 +304,19 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
+			subtitle: "&6Post Bellringer&r"
 			tasks: [{
 				id: "03077CE0FE10E7A3"
 				item: "archers_paradox:phantasmal_arrow"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["3842F25859FA533C"]
+			dependencies: ["1E0EF11BC6160E19"]
+			hide_until_deps_complete: true
 			id: "1D4BB24C27A6CA47"
 			rewards: [{
 				auto: "no_toast"
@@ -238,16 +324,18 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "3C193F2A7FCFA4FA"
 				item: "archers_paradox:shulker_arrow"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 0.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["5FEC8279A8C2E462"]
+			dependencies: ["686B5BA848725480"]
+			hide_dependency_lines: true
 			id: "0CC371471916AF28"
 			rewards: [{
 				auto: "no_toast"
@@ -255,16 +343,18 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "2A8675417E65AC69"
 				item: "archers_paradox:frost_arrow"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["5DECF19C4A20F805"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
 			id: "3D080F5C5E1DB4E1"
 			rewards: [{
 				auto: "no_toast"
@@ -272,16 +362,18 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "2270E7DD2621C824"
 				item: "archers_paradox:blaze_arrow"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["3842F25859FA533C"]
+			dependencies: ["1E0EF11BC6160E19"]
+			hide_until_deps_complete: true
 			id: "25642F7F18E8579F"
 			rewards: [{
 				auto: "no_toast"
@@ -289,16 +381,19 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "33AB5FFAB5212B22"
 				item: "archers_paradox:lightning_arrow"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 1.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["5FEC8279A8C2E462"]
+			dependencies: ["774BCB593AAFAA33"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5DECF19C4A20F805"
 			rewards: [{
@@ -307,7 +402,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "40732440204128FC"
 				item: {
@@ -319,11 +414,13 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 4.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["5DECF19C4A20F805"]
+			dependencies: ["1E0EF11BC6160E19"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "3842F25859FA533C"
 			rewards: [{
 				auto: "no_toast"
@@ -331,7 +428,7 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "5C9E7BB28C8F784A"
 				item: {
@@ -343,8 +440,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0EEBAEA6C5EE0454"]
@@ -365,7 +462,8 @@
 					type: "loot"
 				}
 			]
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "1810148AB647EF39"
@@ -380,7 +478,18 @@
 					type: "item"
 				}
 				{
-					id: "30A0B17B5ED6FC4A"
+					id: "0F9EFE6711123A21"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "093E3FA185E88F58"
 					item: {
 						Count: 1
 						id: "aether:neptune_helmet"
@@ -391,9 +500,21 @@
 					title: "Neptune Armor"
 					type: "item"
 				}
+				{
+					id: "632D6CC950479419"
+					item: {
+						Count: 1
+						id: "kubejs:phoenix_ranger_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Phoenix Ranger Armor"
+					type: "item"
+				}
 			]
-			title: "Ranged Armor for the Expert Mode"
-			x: 3.5d
+			title: "Archer's Armor for the Expert Mode"
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -415,7 +536,8 @@
 					type: "loot"
 				}
 			]
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0E6A75E3E1B63059"
 				item: {
@@ -428,12 +550,15 @@
 				title: "Shroomite Armor"
 				type: "item"
 			}]
-			title: "Ranged Armor for the Master Mode"
-			x: 5.5d
+			title: "Archer's Armor for the Master Mode"
+			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0EEBAEA6C5EE0454"]
+			dependencies: ["686B5BA848725480"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "1E4A77FD6D950B55"
 			rewards: [{
 				auto: "no_toast"
@@ -441,6 +566,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "&6Post Bellringer&r"
 			tasks: [{
 				id: "7C8C2198071AD44F"
 				item: {
@@ -452,11 +578,13 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0EEBAEA6C5EE0454"]
+			dependencies: ["686B5BA848725480"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "27563E8EE26B6434"
 			rewards: [{
 				auto: "no_toast"
@@ -464,6 +592,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "&6Post Bellringer&r"
 			tasks: [{
 				id: "6CE9D2D491F40319"
 				item: {
@@ -475,11 +604,13 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0EEBAEA6C5EE0454"]
+			dependencies: ["686B5BA848725480"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "7DA15DEDB89FE330"
 			rewards: [{
 				auto: "no_toast"
@@ -487,6 +618,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "&6Post Bellringer&r"
 			tasks: [{
 				id: "0D4CCEA10C8F8F5F"
 				item: {
@@ -498,11 +630,13 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 5.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["0EEBAEA6C5EE0454"]
+			dependencies: ["686B5BA848725480"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "6FAC083A2D7E898C"
 			rewards: [{
 				auto: "no_toast"
@@ -510,6 +644,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "&6Post Frostmaw&r"
 			tasks: [{
 				id: "51A39758DD373530"
 				item: {
@@ -521,79 +656,1158 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: ["Has a chance to be dropped when taming a mob."]
+			id: "48A6FCA50C63BE67"
+			rewards: [{
+				auto: "invisible"
+				id: "7FC638B6FF834F59"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "74A97D649D806B2C"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:certificate_of_taming"
+					tag: {
+						Bonus: {
+							Boosters: [ ]
+							Value: -0.6f
+						}
+					}
+				}
+				title: "Obtain a Certificate of Taming"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"Spawns on Stony Shores, Frozen Oceans, Snowy Beaches, frozen peaks and beaches."
+				""
+				"Can be tamed with &6Raw Fish&r."
+				""
+				"Bred with Raw Fish."
+			]
+			id: "6C1573E379555B58"
+			rewards: [{
+				auto: "invisible"
+				id: "0A327F760819E1DB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "minecraft:cod"
+				id: "135F0CB52C453389"
+				observe_type: 5
+				timer: 2L
+				title: "Find a Penguin"
+				to_observe: "tameablebeasts:tameable_penguin"
+				type: "observation"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C1573E379555B58"]
+			description: ["Give it to your Penguin!"]
+			hide_until_deps_complete: true
+			id: "7641EF002CAF57C9"
+			rewards: [{
+				auto: "invisible"
+				id: "10F578ADC3FCDE93"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6E3CC3184160DE49"
+				item: "tameablebeasts:icepop"
+				type: "item"
+			}]
+			x: 11.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["0EEBAEA6C5EE0454"]
-			description: ["Check the other guns from Guns Without Roses!"]
-			id: "033E7FA97D9CD1A8"
+			dependencies: ["6C1573E379555B58"]
+			description: ["Give it to your Penguin!"]
+			hide_until_deps_complete: true
+			id: "696C5F90C37AB30C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "63AE61433F9D2DC0"
-				table_id: 7449522933339281626L
-				type: "loot"
+				auto: "invisible"
+				id: "2EFF22E600D88A63"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "16D1D45D69ADD3A9"
-				item: {
-					Count: 1
-					id: "gunswithoutroses:iron_gun"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "7CB0C52B6E2724E2"
+				item: "tameablebeasts:ice_helmet"
 				type: "item"
 			}]
-			title: "More up to date arsenal"
-			x: 4.0d
+			x: 11.5d
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"774BCB593AAFAA33"
-				"0EEBAEA6C5EE0454"
-			]
-			description: ["Dropped by the Void Blossom."]
-			hide_until_deps_visible: true
-			id: "42208C5158426B53"
+			dependencies: ["6C1573E379555B58"]
+			description: ["Give it to your Penguin!"]
+			hide_until_deps_complete: true
+			id: "549F31AD1F60E596"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "56EB8CD1096DF572"
-				table_id: 5533560640127059513L
-				type: "loot"
+				auto: "invisible"
+				id: "6E1EDD2EC2976C67"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "395D9DDC9507F249"
-				item: {
-					Count: 1
-					id: "gunswithoutroses:diamond_gatling"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "57147C9F883F3134"
+				item: "tameablebeasts:ice_chestplate"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 12.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["0EEBAEA6C5EE0454"]
-			id: "0E64D65BFCC8B576"
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"Dropped from &6Illagers&r."
+				""
+				"Use it on a &6Scarecrow Block&r to create a &6Scarecrow Allay&r."
+			]
+			id: "7AD8D3D8DA8E2A0B"
+			rewards: [{
+				auto: "invisible"
+				id: "1330F3BD059B9323"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
-				id: "4DAE9EF423053F5F"
+				id: "3126DBF8D5C51DE1"
+				item: "tameablebeasts:purple_allay"
+				type: "item"
+			}]
+			title: "A small friend"
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AD8D3D8DA8E2A0B"]
+			description: [
+				"Use the &6Puprle Allay&r on the &6Scarecrow Block&r. You can then tame the Scarecrow Allay with &6Wheat&r."
+				""
+				"You can also give a &6Big Iron hoe&r to it and even brush it!"
+			]
+			hide_until_deps_complete: true
+			id: "3710A6744759CC55"
+			rewards: [{
+				auto: "invisible"
+				id: "18865F481CD70AE8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "60455ABC7E45DC9E"
+				item: "tameablebeasts:scarecrow_block"
+				type: "item"
+			}]
+			title: "Get ready for the Scarecrow"
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"Spawns in Mountainous biomes with heights of &6over 120 blocks&r."
+				""
+				"Can be tamed by shooting &6Bird Bait Arrow&r at it."
+				"Be careful to not kill it, one of the strongest mount in Prodigium."
+				""
+				"Bred with &6Quetzal Meat&r."
+			]
+			id: "58DF190D7E91C373"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "3A67F70EB63171A6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7146D711CFB4CCC3"
+					item: "tameablebeasts:big_bird_bait"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "majruszsaccessories:owl_feather"
+				id: "47D0CC05041EDAB4"
+				observe_type: 5
+				timer: 2L
+				title: "Find an Argentavis"
+				to_observe: "tameablebeasts:argentavis"
+				type: "observation"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58DF190D7E91C373"]
+			description: ["Aim well!"]
+			hide_until_deps_complete: true
+			id: "6A5300CB3E409951"
+			rewards: [{
+				auto: "invisible"
+				id: "2E862895C9D9BEF7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "52F25412808082EC"
+				item: "tameablebeasts:bird_bait_arrow"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"Spawn in Savannas and Swamp type briomes."
+				""
+				"Can be tamed with &6Honeycomb&r and bred with &6Honey Bottle&r."
+			]
+			id: "487152DB257F393E"
+			rewards: [{
+				auto: "invisible"
+				id: "0455473D4381BC4A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "lost_aether_content:zanite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "24B05A1CAE9FF46D"
+				observe_type: 5
+				timer: 2L
+				title: "Find a Ground Beetle"
+				to_observe: "tameablebeasts:ground_beetle"
+				type: "observation"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6C1573E379555B58"
+				"7AD8D3D8DA8E2A0B"
+				"487152DB257F393E"
+				"58DF190D7E91C373"
+			]
+			dependency_requirement: "one_completed"
+			description: ["More information on how to tame every mobs can be found on the official wiki : &nhttps://codderg.com/tb_lore.html&r"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "tameablebeasts:argentavis_saddle"
+			id: "45603626E32E83B4"
+			optional: true
+			tasks: [{
+				id: "5FC356323C206441"
+				type: "checkmark"
+			}]
+			title: "Tameable Beast's wiki"
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"The &6Collar Tag&r is an important item for the Archer class if you intend to play with pets."
+				""
+				"It's used to name the pet but more importantly, you can &6Enchant this Collar Tag&r and place it on a tamed pet of yours by interacting with it."
+				"It will grant the enchants to your pet."
+				""
+				"To remove the collar tag, swap it with another collar, you can also view your pet's enchants by sneaking and looking at them."
+				""
+				"&n&9Sold by the Zookeeper NPC&r&r."
+			]
+			id: "028AC1833D128666"
+			rewards: [{
+				auto: "invisible"
+				id: "7B91F6C2A0F7CE4F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "109DA3764D413A74"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			title: "An important item, the &6Collar Tag&r"
+			x: 14.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"If you are ever so far away from your pets in 'follow' mode that they are unloaded from the world, they will be &6teleported&r to the closest &6Wayward Lantern&r to you. "
+				""
+				"This makes it perfectly fine to die far from home and not loose both your pets and your loot."
+			]
+			id: "49BD94E2389BAEB0"
+			rewards: [{
+				auto: "invisible"
+				id: "61C7092FE24CB0AB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "60E3652F7222C8DB"
+				item: "domesticationinnovation:wayward_lantern"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"By moving one of your tamed mobs &6onto a pet bed&r, you enable it to respawn there the &6next morning&r if it somehow dies."
+				""
+				"The visual indication for this is if you see a bunch of ZZZ particles appear above your pet's head: this means it has set its respawn point."
+				""
+				"&6Mobs can only respawn at dawn.&r"
+				""
+				"To move the tamed mobs into the bed more easily you can use a &6Feather on a Stick&r (it will make mobs move where you send the feather)."
+			]
+			id: "2AB6AE4C6D60C315"
+			rewards: [{
+				auto: "invisible"
+				id: "17FDF711E865A74A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1E84FF5E68F26E30"
 				item: {
 					Count: 1
-					id: "gunswithoutroses:diamond_shotgun"
+					id: "itemfilters:tag"
+					tag: {
+						value: "domesticationinnovation:pet_beds"
+					}
+				}
+				title: "Pet beds"
+				type: "item"
+			}]
+			title: "To respawn your pets"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "55833B75FF5E34CB"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "0718B9D67A0ACF88"
+				item: {
+					Count: 1
+					id: "too_many_bows:cyroheart_bow"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"Spawns in desert biomes, will burrows into the sand to shoot at you."
+				""
+				"To tame it, approach it &6slow&r (sneak) and feed it &6Crystalized Blood&r."
+				""
+				"It has 4 different stages, you can also shave his fur."
+			]
+			id: "0D90C35DD8471295"
+			tasks: [{
+				icon: "terra_entity:giant_antlion_spawn_egg"
+				id: "6C54774E70E7AA3E"
+				observe_type: 5
+				timer: 2L
+				title: "Find a Wild Antlion"
+				to_observe: "companions:wild_antlion"
+				type: "observation"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"You can find a &6Broken Dinamo&r after defeating a Dinamo in a Illager Raid or by finding it in the &2Companion Factory&r structure."
+				""
+				"You will need to interact on the Broken Dinamo with &629 Planks&r, &61 Homunculus&r then right click with a &6Wrench&r. "
+			]
+			id: "1B30E18E1D9E81B6"
+			rewards: [{
+				auto: "invisible"
+				id: "2C8FF95F4EF1C9DC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "companions:plasma_lamp_block"
+				id: "4317497BE865ED35"
+				observe_type: 5
+				timer: 2L
+				title: "Is it alive?"
+				to_observe: "companions:broken_dinamo"
+				type: "observation"
+			}]
+			title: "Is it alive?"
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B30E18E1D9E81B6"]
+			description: ["You can &6upgrade your Dinamo&r. To do so, use &629 Iron ingots&r and &61 Tesla Coil&r, then use the &6Wrench&r again."]
+			hide_until_deps_complete: true
+			id: "12AB50692FC2F5C2"
+			tasks: [{
+				id: "776D4A8AFCF4D150"
+				item: "companions:tesla_coil_block"
+				type: "item"
+			}]
+			title: "Time for an upgrade"
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"You can craft a &6Big Brea&rd to make a &6Croissant Egg&r."
+				""
+				"Put the Big Bread in a &6Soul Furnace&r and it will create a Croissant Egg"
+			]
+			id: "0892A14265946E3E"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "7A2948453A6F0AF5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "3331A046753C074D"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28BEC953684E5FC4"
+				item: "companions:big_bread"
+				type: "item"
+			}]
+			title: "Time to cook a Dragon"
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0892A14265946E3E"]
+			description: [
+				"Congrats, your Croissant Dragon has hatched and you now have a new Companion!"
+				""
+				"Feed it some &6Bucket of Milk&r to &6help it grow&r."
+				""
+				"You can give it different Armors to change it's effects."
+			]
+			hide_until_deps_complete: true
+			id: "04346729019A133A"
+			rewards: [{
+				auto: "invisible"
+				id: "47D252CDE69C655A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "companions:croissant_egg_block"
+				id: "59BC4CE07033F6DE"
+				observe_type: 5
+				timer: 0L
+				title: "Hatch your Croissant Dragon"
+				to_observe: "companions:croissant_dragon"
+				type: "observation"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04346729019A133A"]
+			description: ["Gives you the &bSpeed&r effect when walking on the cream."]
+			id: "6DDF910E27621A27"
+			rewards: [{
+				id: "2CB40B7FC92AF6C5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "277DEA27B897FED2"
+				item: "companions:croissant_dragon_chocolate_armor"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04346729019A133A"]
+			description: ["Gives you the &8Resitance&r effect when walking on the cream."]
+			id: "439D231D61F4BE24"
+			tasks: [{
+				id: "06E687F14EFBD8D6"
+				item: "companions:croissant_dragon_vanilla_armor"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04346729019A133A"]
+			description: ["Gives you the &dRegeneration&r effect when walking on the cream."]
+			id: "11A7A689A3DE9523"
+			rewards: [{
+				auto: "invisible"
+				id: "58E50689B79512ED"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6B7BD3972EBC9347"
+				item: "companions:croissant_dragon_strawberry_armor"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"Imps can be found in the &6Nether&r in the &2Companions Tent&r structure."
+				"Use a &6Nether Coin&r to try to tame them. (they might not be happy about it)"
+				""
+				"Imps form will change depending on the dimension it's in."
+			]
+			id: "09CEA104108A1C62"
+			rewards: [{
+				auto: "invisible"
+				id: "3687455F76D8466F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "companions:nether_coin"
+				id: "7611A2C23B1EA737"
+				observe_type: 5
+				timer: 0L
+				title: "A Nether Imp!"
+				to_observe: "companions:hostile_imp"
+				type: "observation"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09CEA104108A1C62"]
+			description: ["You can use it on an Imp to lock it in it's current form."]
+			hide_until_deps_complete: true
+			id: "60EA2B4F4ED2A1B0"
+			rewards: [{
+				auto: "invisible"
+				id: "62DF722F2BFE26D6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "057387ED2B882B53"
+				item: "companions:netherite_chains"
+				type: "item"
+			}]
+			title: "Lock its phase"
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: ["Inside the &2Companions TeddyTower&r (swamp biomes) you will be able to find a &6Teddy&r, use a &2Needle&r on it to tame it."]
+			id: "391E4178D2423310"
+			rewards: [{
+				auto: "invisible"
+				id: "56B17E02BCD6CC38"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "alexsmobs:bear_fur"
+				id: "089F204FE6E17BC1"
+				structure: "companions:companions_teddytower"
+				title: "Discover a Teddy Tower"
+				type: "structure"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["391E4178D2423310"]
+			description: ["You can use the &6Eternal Lighter&r to &6mutate&r your Teddy."]
+			hide_until_deps_complete: true
+			id: "61DD8FBD9D41B3E1"
+			rewards: [{
+				auto: "invisible"
+				id: "280517C4BE067C85"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3A1DFEBAFB020E35"
+				item: {
+					Count: 1
+					id: "companions:eternal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["61DD8FBD9D41B3E1"]
+			description: ["To obtain a &6Mutant Flesh&r you will need to feed a &6Lava Bucket&r to your Teddt."]
+			id: "74C6BF3D331E644F"
+			rewards: [{
+				auto: "invisible"
+				id: "69B4953B2D9D07DC"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "2E138CB53D98A291"
+				item: "companions:mutant_flesh"
+				type: "item"
+			}]
+			title: "Don't ask how to get it..."
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"You can find a &6Puppet Glove&r inside a &2Babayaga&r structure."
+				""
+				"To tame it you will need to play the &6Rock - Paper - Scissors game&r with it."
+				"Right click with an item to start the game, you need to win three rounds in a raw."
+				""
+				"&o&7(rock = cobblestone, paper = paper, scissors = shears)&r&r"
+			]
+			id: "268733A04939C59B"
+			rewards: [{
+				auto: "invisible"
+				id: "065072C7C188CEA1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "confluence:power_glove"
+				id: "79BB2FB393F1A09E"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Puppet Glove"
+				to_observe: "companions:hostile_puppet_glove"
+				type: "observation"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["268733A04939C59B"]
+			description: ["You can craft and give an &6Empty Puppet&r to your Glove companion."]
+			hide_until_deps_complete: true
+			id: "0C54160419C2FA00"
+			rewards: [{
+				auto: "invisible"
+				id: "7790CE02C807FEB4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1201B6DA63597F03"
+				item: "companions:empty_puppet_block"
+				type: "item"
+			}]
+			title: "Craft an Empty Puppet"
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C54160419C2FA00"]
+			description: ["You can add it to your Puppet."]
+			id: "4C3B2A613152355C"
+			rewards: [{
+				auto: "invisible"
+				id: "0E0105301B758F50"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "03C609CA0A7BDF63"
+				item: "companions:cannon_arm"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C54160419C2FA00"]
+			description: ["You can add it to your Puppet."]
+			id: "7CCBA0E55577F54D"
+			rewards: [{
+				auto: "invisible"
+				id: "6E70821F6959A7C8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0DF6AAC9BCED3C00"
+				item: "companions:blade_arm"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C54160419C2FA00"]
+			description: ["You can add it to your Puppet."]
+			id: "10C96444994A11DB"
+			rewards: [{
+				auto: "invisible"
+				id: "2EC65F17E37CF217"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "41B065C593CAFA57"
+				item: "companions:whip_arm"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: [
+				"Spawns in Swamp biomes."
+				""
+				"To tame it, give it a &6Mage Hat&r, &6Mage Coat&r and a &6Magic Staff&r."
+			]
+			id: "4FBFBB06627F0D30"
+			rewards: [{
+				auto: "invisible"
+				id: "394FC6DF95AF3C7C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "alshanex_familiars:illusionist_trinket"
+				id: "2CA6AE8D474040BD"
+				observe_type: 5
+				timer: 0L
+				title: "Observe a Golden Allay"
+				to_observe: "companions:golden_allay"
+				type: "observation"
+			}]
+			title: "Find a Golden Allay"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FBFBB06627F0D30"]
+			description: [
+				"Now that your Golden Allay became a &6Soul Mage&r, you can give it some &6Spell Books&r it can use."
+				""
+				"&n&9All of them are sold by the Zookeeper&r&r."
+			]
+			hide_until_deps_complete: true
+			id: "4478EC9E3F21D3C5"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "78AC366AE9320AE7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FF63370FAF9CE40"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "73230020EDF8E5A0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "prodigium_reforged:soul_mage_books"
+					}
+				}
+				title: "Books for the Soul Mage"
+				type: "item"
+			}]
+			title: "Give it some spells!"
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: ["&6Shade Sword&r is a temporary companion summoned using the &6Shade Sword altar&r and a &6Shadow Bell&r."]
+			id: "639828FF57238E0A"
+			rewards: [{
+				auto: "invisible"
+				id: "014B06A16CB40627"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "529AC960651E1554"
+				item: "companions:shade_sword_altar"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			description: ["&6Shade Maw&r is a temporary companion summoned using the &6Shade Maw altar&r and a &6Shadow Bell&r."]
+			id: "50C24E7A7A52F27B"
+			rewards: [{
+				auto: "invisible"
+				id: "25D138FF7A322E9A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4D9E877DB509A264"
+				item: "companions:shade_maw_altar"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "2D5F7196D965A9C9"
+			subtitle: "&6Post Sun Spirit&r"
+			tasks: [{
+				id: "4B54AC14373FCFB8"
+				item: {
+					Count: 1
+					id: "aether:phoenix_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "761ECEA3B8F76234"
+			shape: "octagon"
+			tasks: [{
+				id: "4ED6A3A1754F7569"
+				item: "confluence:magic_quiver"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "478906F0C424C3B1"
+			shape: "octagon"
+			tasks: [{
+				id: "5DBB78F3AB182A7C"
+				item: "confluence:black_belt"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "544287F76E4ADF92"
+			shape: "octagon"
+			tasks: [{
+				id: "1A877E7781E38D00"
+				item: "confluence:ranger_emblem"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "678D6EAA8DD39B0E"
+			shape: "octagon"
+			tasks: [{
+				id: "24AB62BDF1D4E64B"
+				item: "confluence:rifle_scope"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "709C90D40123A461"
+			shape: "octagon"
+			tasks: [{
+				id: "2E944F08DF286FE2"
+				item: "prodigium_reforged:lucky_cape"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "0CD18FE5E5F064CD"
+			shape: "octagon"
+			tasks: [{
+				id: "2A3777569FD3505D"
+				item: "prodigium_reforged:smoke_bombs"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "5A5FB4345866915C"
+			tasks: [{
+				id: "457444F3F470EBA5"
+				item: {
+					Count: 1
+					id: "too_many_bows:burnt_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "5CAB0F231017602A"
+			tasks: [{
+				id: "5C1B1D98963637AD"
+				item: {
+					Count: 1
+					id: "too_many_bows:emerald_sage_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "7DA6A2139D246465"
+			subtitle: "&6Post Underworld Knigt&r"
+			tasks: [{
+				id: "6178EFCC0AF10CE9"
+				item: {
+					Count: 1
+					id: "too_many_bows:twin_shadows"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "35D7760BABF13D2A"
+			subtitle: "&6Post Leviathan&r"
+			tasks: [{
+				id: "7FB9D5770AC1F748"
+				item: {
+					Count: 1
+					id: "too_many_bows:arcane_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "4C3BE3F0BF63237D"
+			subtitle: "&6Post Ignis&r"
+			tasks: [{
+				id: "34DF18FABD40B7B7"
+				item: {
+					Count: 1
+					id: "too_many_bows:arc_heavens"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "3C15DB2D02BB63D8"
+			subtitle: "&6Post Sun Spirit&r"
+			tasks: [{
+				id: "05A81652B75A739B"
+				item: {
+					Count: 1
+					id: "too_many_bows:scatter_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "49DA5D1A38679EEB"
+			subtitle: "&6Post Netherite Gauntlet&r"
+			tasks: [{
+				id: "446E88B9B998AE40"
+				item: {
+					Count: 1
+					id: "too_many_bows:astral_bound"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["686B5BA848725480"]
+			id: "7981D6DC4327D855"
+			subtitle: "&6Post Frostmaw&r"
+			tasks: [{
+				id: "40609A920B376610"
+				item: {
+					Count: 1
+					id: "aether_redux:subzero_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "5BB6ED8D4F56D1C6"
+			shape: "octagon"
+			tasks: [{
+				id: "45A2D37B037CD478"
+				item: "confluence:molten_quiver"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "0C9D0D47508880E1"
+			shape: "octagon"
+			tasks: [{
+				id: "4ADF085246FCCE9A"
+				item: "confluence:stalkers_quiver"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "1C5EFEFAF3C6C816"
+			shape: "octagon"
+			tasks: [{
+				id: "2701C9E970BDA754"
+				item: "confluence:sniper_scope"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["774BCB593AAFAA33"]
+			hide_until_deps_complete: true
+			id: "7553EE1428B85C0B"
+			shape: "octagon"
+			tasks: [{
+				id: "787C5634D33E7EA0"
+				item: "confluence:master_ninja_gear"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
 		}
 	]
-	title: "Ranged"
+	title: "Archer"
 }
