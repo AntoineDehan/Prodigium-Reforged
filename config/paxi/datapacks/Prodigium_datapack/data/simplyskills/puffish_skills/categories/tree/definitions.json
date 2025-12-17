@@ -11223,6 +11223,22 @@
         }
       },
       {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.damage_base",
+          "value": -0.2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.fire_delay",
+          "value": -0.15,
+          "operation": "addition"
+        }
+      },
+      {
         "type": "puffish_skills:command",
         "data": {
           "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
@@ -11632,6 +11648,22 @@
         }
       },
       {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.damage_base",
+          "value": -0.2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.fire_delay",
+          "value": -0.15,
+          "operation": "addition"
+        }
+      },
+      {
         "type": "puffish_skills:command",
         "data": {
           "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
@@ -11864,6 +11896,22 @@
         "data": {
           "attribute": "generic.armor",
           "value": -3,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.damage_base",
+          "value": -0.2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.fire_delay",
+          "value": -0.15,
           "operation": "addition"
         }
       },
