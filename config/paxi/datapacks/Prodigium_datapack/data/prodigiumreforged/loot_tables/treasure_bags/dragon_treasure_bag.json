@@ -6,7 +6,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "block_factorys_bosses:sandworm_dart"
+          "name": "block_factorys_bosses:dragon_skull",
+          "weight": 1
         }
       ]
     },
@@ -15,17 +16,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "bypowderandsteel:gunsteel_scrap",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          ]
+          "name": "born_in_chaos_v1:bone_handle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "luminous_beasts:bone_ratlle",
+          "weight": 1
         }
       ]
     },
@@ -34,63 +31,72 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "confluence:sandstorm_in_a_bottle"
+          "name": "irons_spellbooks:rotten_spell_book"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.3
+          "chance": 0.6
         }
       ]
     },
     {
-      "rolls": {
-        "min": 1,
-        "max": 3
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:sand",
-          "weight": 10,
+          "name": "block_factorys_bosses:dragon_bone",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5,
-                "max": 24
+                "min": 10,
+                "max": 20
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tameablebeasts:ice_helmet",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "bypowderandsteel:cowbones_horn",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "tameablebeasts:ice_chestplate",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_sand",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 5,
-                "max": 24
-              }
-            }
-          ]
+          "name": "tameablebeasts:icepop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether_redux:subzero_crossbow",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:permafrost_shard",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sweet_charm_o_mine:dunlop_pick",
+          "weight": 6
         }
       ]
     },
@@ -105,7 +111,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 8,
+                "min": 10,
                 "max": 15
               }
             }
@@ -120,7 +126,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               }
             }
           ]

@@ -15,7 +15,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "prodigium_reforged:sun_fragment"
+          "name": "prodigium_reforged:sun_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 34
+              }
+            }
+          ]
         }
       ]
     },
@@ -83,6 +92,20 @@
               "count": {
                 "min": 1,
                 "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gwrexpansions:lavapower_bullet",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 40
               }
             }
           ]

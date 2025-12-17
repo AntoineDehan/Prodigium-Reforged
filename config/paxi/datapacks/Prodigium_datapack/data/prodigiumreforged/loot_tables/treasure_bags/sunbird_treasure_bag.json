@@ -23,7 +23,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 10,
-                "max": 20
+                "max": 24
               }
             }
           ]
@@ -58,6 +58,11 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "prodigium_reforged:sol_ring",
+          "weight": 5
         },
         {
           "type": "minecraft:item",

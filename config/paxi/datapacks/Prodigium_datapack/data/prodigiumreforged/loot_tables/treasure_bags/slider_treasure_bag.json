@@ -109,13 +109,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "prodigium_reforged:neptune_dust",
+          "name": "prodigium_reforged:slider_dust",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 8,
-                "max": 28
+                "max": 48
               }
             }
           ]

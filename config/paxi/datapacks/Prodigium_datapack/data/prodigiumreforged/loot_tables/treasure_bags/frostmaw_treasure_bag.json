@@ -63,16 +63,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "aether_redux:subzero_crossbow",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "name": "irons_spellbooks:permafrost_shard",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
           "name": "irons_spellbooks:frozen_bone",
           "weight": 4,
           "functions": [
@@ -104,6 +94,26 @@
           "type": "minecraft:item",
           "name": "tameablebeasts:icepop",
           "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether_redux:subzero_crossbow",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:permafrost_shard",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sweet_charm_o_mine:dunlop_pick",
+          "weight": 6
         }
       ]
     },
