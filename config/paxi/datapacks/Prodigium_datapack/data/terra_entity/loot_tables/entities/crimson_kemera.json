@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:red_dye",
+          "weight": 500
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 500
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "terra_entity:entities/crimson_kemera"
+}
