@@ -1,0 +1,31 @@
+{
+  "Restriction Data": {
+    "stage": "stage_crusader_books",
+    "itemList": [
+      {
+        "item": "irons_spellbooks:villager_spell_book"
+      },
+      {
+        "item": "irons_spellbooks:mana_ring"
+      }
+    ],
+    "modList": [],
+    "tagList": [],
+    "exceptionList": [],
+    "containerList": ["net.minecraft.inventory.container.WorkbenchContainer"],
+    "dimensionList": []
+  },
+  "Settings": {
+    "advancedTooltips": "ALWAYS",
+    "itemTitle": "This item can only be used by Mages (Unusable item for your class)",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": true,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": true,
+    "checkPlayerEquipment": true,
+    "destroyableBlocks": false,
+    "usableItems": false,
+    "usableBlocks": false
+  }
+}
