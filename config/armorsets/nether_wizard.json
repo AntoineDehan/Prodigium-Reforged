@@ -2,35 +2,35 @@
   "armorSetName": "wizard",
   "performanceMode": true,
   "head": {
-    "itemKey": "kubejs:wizard_ignitium_helmet"
+    "itemKey": "wizards:fire_robe_head"
   },
   "chest": {
-    "itemKey": "kubejs:wizard_ignitium_chestplate"
+    "itemKey": "wizards:fire_robe_chest"
   },
   "legs": {
-    "itemKey": "kubejs:wizard_ignitium_leggings"
+    "itemKey": "wizards:fire_robe_legs"
   },
   "boots": {
-    "itemKey": "kubejs:wizard_ignitium_boots"
+    "itemKey": "wizards:fire_robe_feet"
   },
   "fullSetBonuses": [
     {
       "type": "attribute",
       "name": "irons_spellbooks:spell_power",
       "value": 0.08,
-      "modifierUUID": "c120854a-ccc4-43e5-8239-bf8d5d9b5a17",
+      "modifierUUID": "1a3e6560-9196-4eae-9928-376b0c36a73f",
       "description": "+8% Spell Power"
     },
     {
       "type": "attribute",
       "name": "irons_spellbooks:max_mana",
-      "value": 175,
-      "modifierUUID": "d17270ef-d8b6-4141-8faf-741c82bf9b35",
-      "description": "+175 Max Mana"
+      "value": 700,
+      "modifierUUID": "e68cf240-30f0-4c58-8f4d-3c0840b9808d",
+      "description": "+700 Max Mana"
     },
     {
       "type": "effect",
-      "name": "kubejs:ignitium_magic",
+      "name": "kubejs:nether_wizard_knowledge",
       "value": 0.0
     },
     {

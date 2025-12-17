@@ -17,20 +17,20 @@
     {
       "type": "attribute",
       "name": "attributeslib:arrow_damage",
-      "value": 1,
+      "value": 4,
       "modifierUUID": "a8d72e33-754f-42a2-ab28-3644e93eb8cd",
-      "description": "+6 Arrow Damage"
+      "description": "+4 Arrow Damage"
     },
     {
       "type": "attribute",
       "name": "attributeslib:dodge_chance",
       "value": 0.1,
       "modifierUUID": "7aa0610a-b821-4c1e-befd-8d80f98268ee",
-      "description": "18% Dodge Chance"
+      "description": "10% Dodge Chance"
     },
     {
       "type": "effect",
-      "name": "simplyskills:focus",
+      "name": "kubejs:ranger_mind",
       "value": 0
     }
   ]

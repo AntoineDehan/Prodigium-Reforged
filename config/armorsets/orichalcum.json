@@ -17,9 +17,9 @@
     {
       "type": "attribute",
       "name": "attributeslib:arrow_damage",
-      "value": 4,
+      "value": 5,
       "modifierUUID": "7fab53f7-ba6b-4aa0-8a37-39494621a315",
-      "description": "+4 Arrow Damage"
+      "description": "+5 Arrow Damage"
     },
     {
       "type": "attribute",

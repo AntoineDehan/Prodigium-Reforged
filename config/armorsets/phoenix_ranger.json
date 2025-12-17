@@ -1,0 +1,37 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:phoenix_ranger_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:phoenix_ranger_chestplate"
+  },
+  "legs": {
+    "itemKey": "kubejs:phoenix_ranger_leggings"
+  },
+  "boots": {
+    "itemKey": "kubejs:phoenix_ranger_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_damage",
+      "value": 5,
+      "modifierUUID": "05cfeff1-d973-4b98-af26-65f5ba084bee",
+      "description": "+5 Arrow Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:dodge_chance",
+      "value": 0.15,
+      "modifierUUID": "357648ff-e708-4bb7-af65-d9cce32be2eb",
+      "description": "15% Dodge Chance"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:ranger_mind",
+      "value": 0
+    }
+  ]
+}

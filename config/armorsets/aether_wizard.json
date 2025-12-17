@@ -2,35 +2,35 @@
   "armorSetName": "wizard",
   "performanceMode": true,
   "head": {
-    "itemKey": "kubejs:skyjade_helmet"
+    "itemKey": "wizards:arcane_robe_head"
   },
   "chest": {
-    "itemKey": "kubejs:skyjade_chestplate"
+    "itemKey": "wizards:arcane_robe_chest"
   },
   "legs": {
-    "itemKey": "kubejs:skyjade_leggings"
+    "itemKey": "wizards:arcane_robe_legs"
   },
   "boots": {
-    "itemKey": "kubejs:skyjade_boots"
+    "itemKey": "wizards:arcane_robe_feet"
   },
   "fullSetBonuses": [
     {
       "type": "attribute",
       "name": "irons_spellbooks:spell_power",
       "value": 0.05,
-      "modifierUUID": "5d9ea035-2aaa-40ac-886b-7533c099ef6d",
+      "modifierUUID": "37f4a464-01f9-4486-a56e-2ed7259b5328",
       "description": "+5% Spell Power"
     },
     {
       "type": "attribute",
       "name": "irons_spellbooks:max_mana",
-      "value": 125,
-      "modifierUUID": "0611def9-b32d-4822-ae6c-c3f279735d00",
-      "description": "+125 Max Mana"
+      "value": 550,
+      "modifierUUID": "9f25495a-23bd-4caa-a983-bac1e96eb05f",
+      "description": "+550 Max Mana"
     },
     {
       "type": "effect",
-      "name": "kubejs:skyjade_knowledge",
+      "name": "kubejs:aether_wizard_knowledge",
       "value": 0.0
     }
   ]
