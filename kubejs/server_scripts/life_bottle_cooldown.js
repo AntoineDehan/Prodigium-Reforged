@@ -7,13 +7,13 @@ ItemEvents.rightClicked((event) => {
       (heldItems === "cardiac:life_bottle") &
       !player.cooldowns.isOnCooldown("cardiac:life_bottle")
     ) {
-      event.player.addItemCooldown("cardiac:life_bottle", 240);
+      event.player.addItemCooldown("cardiac:life_bottle", 180);
     }
     if (
       (heldItemoff === "cardiac:life_bottle") &
       !player.cooldowns.isOnCooldown("cardiac:life_bottle")
     ) {
-      event.player.addItemCooldown("cardiac:life_bottle", 240);
+      event.player.addItemCooldown("cardiac:life_bottle", 180);
     }
   });
 });
