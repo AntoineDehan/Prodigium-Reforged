@@ -33,12 +33,12 @@
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		health = 2.3
+		health = 3.0
 		#Damage multiplier for Bellringer's projectiles
 		#eg 2 means x2 damage
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		damage = 1.2
+		damage = 1.4
 
 	#Dame Fortuna
 	[stats.fortuna]
@@ -48,7 +48,7 @@
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		health = 2.9
+		health = 3.2
 		#Damage multiplier for Dame Fortuna's projectiles
 		#eg 2 means x2 damage
 		#Default: 1.0
