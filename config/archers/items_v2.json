@@ -79,43 +79,19 @@
       "knockback_resistance": 0.0,
       "head": {
         "armor": 3,
-        "attributes": [
-          {
-            "id": "attributeslib:arrow_damage",
-            "value": 0.01,
-            "operation": "MULTIPLY_TOTAL"
-          }
-        ]
+        "attributes": []
       },
       "chest": {
         "armor": 5,
-        "attributes": [
-          {
-            "id": "attributeslib:arrow_damage",
-            "value": 0.01,
-            "operation": "MULTIPLY_TOTAL"
-          }
-        ]
+        "attributes": []
       },
       "legs": {
         "armor": 5,
-        "attributes": [
-          {
-            "id": "attributeslib:arrow_damage",
-            "value": 0.01,
-            "operation": "MULTIPLY_TOTAL"
-          }
-        ]
+        "attributes": []
       },
       "feet": {
         "armor": 3,
-        "attributes": [
-          {
-            "id": "attributeslib:arrow_damage",
-            "value": 0.01,
-            "operation": "MULTIPLY_TOTAL"
-          }
-        ]
+        "attributes": []
       }
     },
     "ranger_armor": {
@@ -123,13 +99,7 @@
       "knockback_resistance": 0.0,
       "head": {
         "armor": 4,
-        "attributes": [
-          {
-            "id": "attributeslib:arrow_damage",
-            "value": 0.08,
-            "operation": "MULTIPLY_TOTAL"
-          }
-        ]
+        "attributes": []
       },
       "chest": {
         "armor": 6,
