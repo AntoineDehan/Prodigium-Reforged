@@ -7,6 +7,8 @@ EntityEvents.hurt((event) => {
 
   if (!player) return;
 
+  console.log("source type: ", event.source.getType());
+
   if (player.hasEffect("kubejs:neptune_buff")) {
     if (Math.random() < 0.8) {
       player.potionEffects.add("kubejs:rapid_healing", 60, 1, true, false);
@@ -211,11 +213,10 @@ const killStreak = {};
 EntityEvents.death((event) => {
   const { source, entity } = event;
   const killer = source.player;
-  const uuid = killer.uuid;
-
-  console.log("entity: ", entity);
 
   if (!killer) return;
+
+  const uuid = killer.uuid;
 
   if (
     killer.hasEffect("kubejs:blossom_aura") &&

@@ -214,9 +214,9 @@ StartupEvents.registry("mob_effect", (event) => {
   // Wizard's Knowledge
   event.create("wizard_knowledge").color(0xffd27f).beneficial();
 
-  // Placeholder name
+  // Aether Wizard Knowledge
   event
-    .create("super_wizard_knowledge")
+    .create("aether_wizard_knowledge")
     .color(0xffd27f)
     .beneficial()
     .modifyAttribute(
@@ -1033,9 +1033,9 @@ StartupEvents.registry("mob_effect", (event) => {
       "addition"
     );
 
-  // Placeholder name
+  // Nether Magic Knowledge
   event
-    .create("witherite_magic_knowledge")
+    .create("nether_wizard_knowledge")
     .color(0xffd27f)
     .beneficial()
     .modifyAttribute(

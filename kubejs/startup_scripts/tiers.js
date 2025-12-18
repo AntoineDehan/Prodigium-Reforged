@@ -93,7 +93,7 @@ ItemEvents.armorTierRegistry((event) => {
 
   event.add("phoenix_ranger", (tier) => {
     tier.durabilityMultiplier = 38;
-    tier.slotProtections = [6, 8, 9, 6];
+    tier.slotProtections = [6, 7, 8, 6];
     tier.enchantmentValue = 16;
     tier.equipSound = "minecraft:item.armor.equip_generic";
     tier.repairIngredient = "deep_aether:skyjade";

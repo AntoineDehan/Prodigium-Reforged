@@ -29,8 +29,18 @@ StartupEvents.registry("item", (event) => {
     .create("prodigium_reforged:arcane_infused_cloth")
     .texture("prodigium_reforged:item/arcane_infused_cloth");
   event
+    .create("prodigium_reforged:aether_infused_cloth")
+    .texture("prodigium_reforged:item/aether_infused_cloth");
+  event
+    .create("prodigium_reforged:nether_infused_cloth")
+    .texture("prodigium_reforged:item/nether_infused_cloth");
+  event
     .create("prodigium_reforged:diamond_shard")
     .texture("prodigium_reforged:item/diamond_shard");
+
+  event
+    .create("prodigium_reforged:neptune_ingot")
+    .texture("prodigium_reforged:item/neptune_ingot");
 
   event
     .create("prodigium_reforged:umvuthi_feather")
@@ -68,14 +78,15 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:frostmaw_leather_patch")
     .texture("prodigium_reforged:item/frostmaw_leather_patch");
-
   event
     .create("prodigium_reforged:archer_leather_patch")
     .texture("prodigium_reforged:item/archer_leather_patch");
-
   event
     .create("prodigium_reforged:ranger_leather_patch")
     .texture("prodigium_reforged:item/ranger_leather_patch");
+  event
+    .create("prodigium_reforged:phoenix_ranger_leather_patch")
+    .texture("prodigium_reforged:item/phoenix_ranger_leather_patch");
 
   // Crusader Plates
   event
@@ -90,6 +101,10 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:valkyrie_plate")
     .texture("prodigium_reforged:item/valkyrie_plate");
+
+  event
+    .create("prodigium_reforged:compass_of_time")
+    .texture("prodigium_reforged:item/compass_of_time");
 
   //// Boss summons
 

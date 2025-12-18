@@ -52,7 +52,7 @@ ItemEvents.modification((event) => {
 
   // Wandering Magician T:15
 
-  //// Bersekers armors
+  //// Bersekers armors \\\\
 
   // Adamantium T:18
   event.modify("simpleores:adamantium_helmet", (item) => {
@@ -387,7 +387,7 @@ ItemEvents.modification((event) => {
     item.armorToughness = 0;
   });
 
-  //// Archer armors
+  //// Archer armors \\\\
 
   // Archer set T:16
 
@@ -487,9 +487,7 @@ ItemEvents.modification((event) => {
   });
 
   // Phoenix Ranger T:29
-  event.modify("kubbejs:phoenix_ranger_helmet", (item) => {
-    item.armorProtection = 6;
-    item.armorToughness = 0;
+  event.modify("kubejs:phoenix_ranger_helmet", (item) => {
     item.addAttribute(
       "attributeslib:dodge_chance",
       "32a4804e-e24c-4bad-b96d-48cd8eedaf72",
@@ -499,9 +497,7 @@ ItemEvents.modification((event) => {
     );
   });
 
-  event.modify("kubbejs:phoenix_ranger_chestplate", (item) => {
-    item.armorProtection = 8;
-    item.armorToughness = 0;
+  event.modify("kubejs:phoenix_ranger_chestplate", (item) => {
     item.addAttribute(
       "attributeslib:dodge_chance",
       "9e950e1f-e80e-4667-8ded-e0a702d22bc0",
@@ -511,21 +507,17 @@ ItemEvents.modification((event) => {
     );
   });
 
-  event.modify("kubbejs:phoenix_ranger_leggings", (item) => {
-    item.armorProtection = 7;
-    item.armorToughness = 0;
+  event.modify("kubejs:phoenix_ranger_leggings", (item) => {
     item.addAttribute(
       "attributeslib:dodge_chance",
       "33fc285b-b95f-4dd8-9184-e02ca7313e7c",
       "+3% Dodge Chance",
       0.03,
-      "additio"
+      "addition"
     );
   });
 
-  event.modify("kubbejs:phoenix_ranger_boots", (item) => {
-    item.armorProtection = 6;
-    item.armorToughness = 0;
+  event.modify("kubejs:phoenix_ranger_boots", (item) => {
     item.addAttribute(
       "attributeslib:dodge_chance",
       "9797bcda-87b8-49bf-810f-68156a603efe",
@@ -535,7 +527,7 @@ ItemEvents.modification((event) => {
     );
   });
 
-  //// Gunner armors
+  //// Gunner armors \\\\
   // Marauder T:15
   event.modify("bypowderandsteel:marauder_helmet", (item) => {
     item.armorProtection = 3;
@@ -634,7 +626,7 @@ ItemEvents.modification((event) => {
     );
   });
 
-  //// Crusader armors
+  //// Crusader armors \\\\
 
   // Mythril T:20 B:+3
   event.modify("simpleores:mythril_helmet", (item) => {
@@ -763,7 +755,7 @@ ItemEvents.modification((event) => {
     item.armorProtection = 4;
   });
 
-  //// Wizard armors
+  //// Wizard armors \\\\
 
   // Scarecrow T:20
 
@@ -834,6 +826,8 @@ ItemEvents.modification((event) => {
       "multiply_total"
     );
   });
+
+  // Arcane T: 29
 
   // Wizard Ignitium T:31
   event.modify("kubejs:wizard_ignitium_helmet", (item) => {

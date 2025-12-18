@@ -107,8 +107,8 @@ PlayerEvents.changeMana((event) => {
   // Wizard armor effect
   if (
     player.hasEffect("kubejs:wizard_knowledge") ||
-    player.hasEffect("kubejs:super_wizard_knowledge") ||
-    player.hasEffect("kybejs:witherite_magic_knowledge")
+    player.hasEffect("kubejs:aether_wizard_knowledge") ||
+    player.hasEffect("kybejs:nether_magic_knowledge")
   ) {
     const oldMana = event.getOldMana();
     const newMana = event.getNewMana();
@@ -118,18 +118,18 @@ PlayerEvents.changeMana((event) => {
       const reducedManaSpent = manaSpent * 0.75;
       event.setNewMana(oldMana - reducedManaSpent);
     }
-    if (player.hasEffect("kubejs:super_wizard_knowledge")) {
+    if (player.hasEffect("kubejs:aether_wizard_knowledge")) {
       const reducedManaSpent = manaSpent * 0.65;
       event.setNewMana(oldMana - reducedManaSpent);
     }
 
     if (
-      player.hasEffect("kubejs:witherite_magic_knowledge") &&
+      player.hasEffect("kubejs:nether_wizard_knowledge") &&
       player.health / player.maxHealth > 0.9
     ) {
       const reducedManaSpent = manaSpent * 0.5;
       event.setNewMana(oldMana - reducedManaSpent);
-    } else if (player.hasEffect("kubejs:witherite_magic_knowledge")) {
+    } else if (player.hasEffect("kubejs:nether_wizard_knowledge")) {
       const reducedManaSpent = manaSpent * 0.6;
       event.setNewMana(oldMana - reducedManaSpent);
     }
