@@ -14,6 +14,7 @@
     "cataclysm:tidal_claws",
     "cataclysm:infernal_forge",
     "cataclysm:ancient_spear",
+    "alshanex_familiars:bard_harp",
     "irons_spellbooks:graybeard_staff",
     "irons_spellbooks:artificer_cane",
     "irons_spellbooks:ice_staff",
@@ -23,11 +24,9 @@
     "mowziesmobs:naga_fang_dagger",
     "aether_redux:spear_of_the_blight",
     "farmersdelight:skillet",
-    "savage_and_ravage:cleaver_of_beheading",
-    "weapon_class:gauntlet"
+    "savage_and_ravage:cleaver_of_beheading"
   ],
   "incompatible": [
-    "majruszsenchantments:incompatibility_curse",
-    "weapon_class:exploding"
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

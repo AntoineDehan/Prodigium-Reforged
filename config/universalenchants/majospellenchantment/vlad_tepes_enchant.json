@@ -6,14 +6,14 @@
     "cataclysm:wrath_of_the_desert"
   ],
   "incompatible": [
-    "spell_power:critical_damage",
-    "spell_power:soulfrost",
-    "majruszsenchantments:incompatibility_curse",
     "spell_power:sunfire",
-    "weapon_class:bullet_time",
-    "spell_power:energize",
-    "spell_power:spell_power",
+    "spell_power:soulfrost",
     "spell_power:haste",
+    "majospellenchantment:red_lotus_enchant",
+    "spell_power:spell_power",
+    "spell_power:critical_damage",
+    "spell_power:energize",
+    "majruszsenchantments:incompatibility_curse",
     "spell_power:critical_chance"
   ]
 }

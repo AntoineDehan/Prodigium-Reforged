@@ -1,9 +1,10 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:breakable"
+    "$minecraft:wearable"
   ],
   "incompatible": [
+    "majospellenchantment:daylight_anthem_enchant",
     "majruszsenchantments:incompatibility_curse"
   ]
 }

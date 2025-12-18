@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:wearable"
+  ],
+  "incompatible": [
+    "majospellenchantment:nocturne_aria_enchant",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}
