@@ -27,11 +27,6 @@
       "value": -0.15,
       "modifierUUID": "4c409871-4b26-42ff-b335-e8a96f80b56b",
       "description": "15% Chance to not consume ammo"
-    },
-    {
-      "type": "effect",
-      "name": "extraalchemy:detection",
-      "value": 0.0
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "armorSetName": "gunner",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:scaled_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:scaled_chestplate"
+  },
+  "legs": {
+    "itemKey": "kubejs:scaled_leggings"
+  },
+  "boots": {
+    "itemKey": "kubejs:scaled_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_base",
+      "value": 4.0,
+      "modifierUUID": "96fd0092-f1ec-4f3c-918d-0e179a8e4f5f",
+      "description": "+4.0 Gun damage"
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.fire_delay",
+      "value": -0.2,
+      "modifierUUID": "e845aaaa-8860-4ab7-8bd4-fe09a809bf7f",
+      "description": "+20% Rate of Fire"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:leviathan_call",
+      "value": 0.0
+    }
+  ]
+}
