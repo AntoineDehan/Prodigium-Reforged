@@ -394,15 +394,6 @@
     "result": "deny"
   },
   {
-    "mob": ["undead_revamp2:thebeartamer"],
-    "gamestage": "stage_expert",
-    "result": "default"
-  },
-  {
-    "mob": ["undead_revamp2:thebeartamer"],
-    "result": "deny"
-  },
-  {
     "mob": ["undead_revamp2:theimmortal"],
     "gamestage": "stage_expert",
     "result": "default"
