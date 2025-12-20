@@ -1,0 +1,12 @@
+{
+  "type": "terra_entity:npc_add_spawns",
+  "biomes": [
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves",
+    "minecraft:nether_wastes"
+  ],
+  "delay": 600000,
+  "entityType": "terra_entity:goblin_tinkerer",
+  "excludedBiomes": [],
+  "weight": 0
+}

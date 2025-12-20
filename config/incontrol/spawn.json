@@ -98,12 +98,92 @@
     "when": "onjoin"
   },
   {
+    "gamestage": "stage_expert",
+    "hostile": true,
+    "armoradd": 8,
+    "healthmultiply": 1.2,
+    "result": "allow",
+    "when": "onjoin"
+  },
+  {
+    "gamestage": "stage_g",
+    "hostile": true,
+    "healthmultiply": 1.2,
+    "armoradd": 4,
+    "result": "allow",
+    "when": "onjoin"
+  },
+
+  {
     "mob": ["alexsmobs:skelewag"],
     "gamestage": "stage_expert",
     "result": "default"
   },
   {
     "mob": ["alexsmobs:skelewag"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:goblin_archer"],
+    "gamestage": "stage_g",
+    "result": "default"
+  },
+  {
+    "mob": ["terra_entity:goblin_archer"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:goblin_peon"],
+    "gamestage": "stage_g",
+    "result": "default"
+  },
+  {
+    "mob": ["terra_entity:goblin_peon"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:goblin_warrior"],
+    "gamestage": "stage_g",
+    "result": "default"
+  },
+  {
+    "mob": ["terra_entity:goblin_warrior"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:goblin_thief"],
+    "gamestage": "stage_g",
+    "result": "default"
+  },
+  {
+    "mob": ["terra_entity:goblin_thief"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:goblin_scout"],
+    "gamestage": "stage_g",
+    "result": "default"
+  },
+  {
+    "mob": ["terra_entity:goblin_scout"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:goblin_sorcerer"],
+    "gamestage": "stage_g",
+    "result": "default"
+  },
+  {
+    "mob": ["terra_entity:goblin_sorcerer"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:anger_goblin"],
+    "gamestage": "stage_g",
+    "result": "default"
+  },
+  {
+    "mob": ["terra_entity:anger_goblin"],
     "result": "deny"
   },
   {
@@ -153,7 +233,7 @@
   },
   {
     "mob": ["born_in_chaos_v1:dark_vortex"],
-    "gamestage": "stage_g",
+    "gamestage": "stage_expert",
     "result": "default"
   },
   {
@@ -216,7 +296,7 @@
   },
   {
     "mob": ["enemyexpansion:huntsman"],
-    "gamestage": "stage_1",
+    "gamestage": "stage_g",
     "result": "default"
   },
   {
@@ -225,7 +305,7 @@
   },
   {
     "mob": ["enemyexpansion:tarantula"],
-    "gamestage": "stage_1",
+    "gamestage": "stage_g",
     "result": "default"
   },
   {
@@ -234,7 +314,7 @@
   },
   {
     "mob": ["enemyexpansion:sprinter"],
-    "gamestage": "stage_1",
+    "gamestage": "stage_g",
     "result": "default"
   },
   {
@@ -243,7 +323,7 @@
   },
   {
     "mob": ["enemyexpansion:equestrian"],
-    "gamestage": "stage_1",
+    "gamestage": "stage_g",
     "result": "default"
   },
   {
@@ -252,7 +332,7 @@
   },
   {
     "mob": ["enemyexpansion:flutterfly"],
-    "gamestage": "stage_1",
+    "gamestage": "stage_g",
     "result": "default"
   },
   {
@@ -261,7 +341,7 @@
   },
   {
     "mob": ["enemyexpansion:slugger"],
-    "gamestage": "stage_1",
+    "gamestage": "stage_g",
     "result": "default"
   },
   {
@@ -361,6 +441,15 @@
   },
   {
     "mob": ["born_in_chaos_v1:missioner"],
+    "result": "deny"
+  },
+  {
+    "mob": ["born_in_chaos_v1:mother_spider"],
+    "gamestage": "stage_expert",
+    "result": "default"
+  },
+  {
+    "mob": ["born_in_chaos_v1:mother_spider"],
     "result": "deny"
   },
   {
@@ -736,6 +825,94 @@
   },
   {
     "mob": ["undead_revamp2:neocrorines"],
+    "result": "deny"
+  },
+  {
+    "mob": ["born_in_chaos_v1:nightmare_stalker"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:bunny"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:squirrel"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:duck"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:bird"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:blue_jay"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:cardinal"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:angler"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:arms_dealer"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:clothier"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:demolitionist"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:dryad"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:dye_trader"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:goblin_tinkerer"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:guide"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:merchant"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:nurse"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:painter"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:party_girl"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:traveling_merchant"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:truffle"],
+    "result": "deny"
+  },
+  {
+    "mob": ["terra_entity:witch_doctor"],
     "result": "deny"
   }
 ]

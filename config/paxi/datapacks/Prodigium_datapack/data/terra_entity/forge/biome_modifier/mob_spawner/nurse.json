@@ -1,0 +1,8 @@
+{
+  "type": "terra_entity:npc_add_spawns",
+  "biomes": "minecraft:cherry_grove",
+  "delay": 600000,
+  "entityType": "terra_entity:nurse",
+  "excludedBiomes": [],
+  "weight": 0
+}

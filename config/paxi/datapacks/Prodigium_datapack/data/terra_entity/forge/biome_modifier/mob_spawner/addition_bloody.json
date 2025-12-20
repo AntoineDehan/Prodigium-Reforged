@@ -1,0 +1,30 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_dry/nether",
+  "spawners": [
+    {
+      "type": "terra_entity:blood_zombie",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 40
+    },
+    {
+      "type": "terra_entity:drippler",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 25
+    },
+    {
+      "type": "terra_entity:wandering_eye_fish",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 20
+    },
+    {
+      "type": "terra_entity:bloody_spore",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 25
+    }
+  ]
+}

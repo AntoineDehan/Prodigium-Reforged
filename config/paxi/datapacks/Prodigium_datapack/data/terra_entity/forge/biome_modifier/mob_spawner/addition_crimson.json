@@ -1,0 +1,30 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_dry/nether",
+  "spawners": [
+    {
+      "type": "terra_entity:blood_crawler",
+      "maxCount": 3,
+      "minCount": 1,
+      "weight": 40
+    },
+    {
+      "type": "terra_entity:bloody_spore",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 20
+    },
+    {
+      "type": "terra_entity:crimson_kemera",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 35
+    },
+    {
+      "type": "terra_entity:face_monster",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 20
+    }
+  ]
+}

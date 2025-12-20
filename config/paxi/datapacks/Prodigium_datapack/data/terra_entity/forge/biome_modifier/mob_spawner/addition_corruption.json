@@ -1,0 +1,24 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_dry/nether",
+  "spawners": [
+    {
+      "type": "terra_entity:decayeder",
+      "maxCount": 3,
+      "minCount": 1,
+      "weight": 25
+    },
+    {
+      "type": "terra_entity:devourer",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 10
+    },
+    {
+      "type": "terra_entity:eater_of_souls",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 40
+    }
+  ]
+}

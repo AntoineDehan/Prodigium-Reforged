@@ -1,0 +1,30 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_desert",
+  "spawners": [
+    {
+      "type": "terra_entity:desert_slime",
+      "weight": 50,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "terra_entity:tomb_crawler",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "terra_entity:antlion_swarmer",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "terra_entity:giant_antlion_swarmer",
+      "weight": 20,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

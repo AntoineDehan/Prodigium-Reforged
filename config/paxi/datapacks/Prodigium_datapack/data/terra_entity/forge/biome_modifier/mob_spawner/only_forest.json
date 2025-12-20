@@ -1,0 +1,54 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#minecraft:is_forest",
+  "spawners": [
+    {
+      "type": "terra_entity:bunny",
+      "weight": 0,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "terra_entity:squirrel",
+      "weight": 0,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "terra_entity:duck",
+      "weight": 0,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "terra_entity:bird",
+      "weight": 0,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "terra_entity:blue_jay",
+      "weight": 0,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "terra_entity:cardinal",
+      "weight": 0,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "terra_entity:jewel_bunny",
+      "weight": 0,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "terra_entity:jewel_squirrel",
+      "weight": 0,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "terra_entity:npc_add_spawns",
+  "biomes": "#terra_entity:is_ever_where",
+  "delay": 1200000,
+  "entityType": "terra_entity:traveling_merchant",
+  "excludedBiomes": [],
+  "weight": 0
+}

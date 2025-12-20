@@ -1,0 +1,36 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_plains",
+  "spawners": [
+    {
+      "type": "terra_entity:goblin_warrior",
+      "maxCount": 3,
+      "minCount": 1,
+      "weight": 20
+    },
+    {
+      "type": "terra_entity:goblin_archer",
+      "maxCount": 3,
+      "minCount": 1,
+      "weight": 20
+    },
+    {
+      "type": "terra_entity:goblin_peon",
+      "maxCount": 3,
+      "minCount": 2,
+      "weight": 20
+    },
+    {
+      "type": "terra_entity:goblin_thief",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 20
+    },
+    {
+      "type": "terra_entity:goblin_sorcerer",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 18
+    }
+  ]
+}

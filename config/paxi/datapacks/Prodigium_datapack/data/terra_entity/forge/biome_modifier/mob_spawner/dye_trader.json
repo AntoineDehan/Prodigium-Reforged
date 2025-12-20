@@ -1,0 +1,8 @@
+{
+  "type": "terra_entity:npc_add_spawns",
+  "biomes": "#minecraft:has_structure/village_desert",
+  "delay": 600000,
+  "entityType": "terra_entity:dye_trader",
+  "excludedBiomes": [],
+  "weight": 0
+}
