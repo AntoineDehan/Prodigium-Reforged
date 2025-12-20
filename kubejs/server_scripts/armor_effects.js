@@ -352,7 +352,7 @@ PlayerEvents.tick((event) => {
     for (let pet of pets) {
       pet.potionEffects.add("kubejs:pet_cozyness", 60, 0, false, false);
       if (pets.length >= 5) {
-        player.potionEffects.add("kubejs:ranger_cosyness", 60, 0, false, true);
+        player.potionEffects.add("kubejs:ranger_cozyness", 60, 0, false, true);
       }
     }
   }
@@ -522,25 +522,16 @@ PlayerEvents.tick((event) => {
   let player = event.player;
   let item = player.mainHandItem;
 
-  if (guns.includes(item.id) && player.hasEffect("kubejs:placeholder_gunner")) {
+  if (guns.includes(item.id) && player.hasEffect("kubejs:leviathan_call")) {
     player.potionEffects.add("kubejs:pistol_bonus", 40, 0, false, true);
   }
-  if (
-    snipers.includes(item.id) &&
-    player.hasEffect("kubejs:placeholder_gunner")
-  ) {
+  if (snipers.includes(item.id) && player.hasEffect("kubejs:leviathan_call")) {
     player.potionEffects.add("kubejs:sniper_bonus", 40, 0, false, true);
   }
-  if (
-    shotguns.includes(item.id) &&
-    player.hasEffect("kubejs:placeholder_gunner")
-  ) {
+  if (shotguns.includes(item.id) && player.hasEffect("kubejs:leviathan_call")) {
     player.potionEffects.add("kubejs:shotgun_bonus", 40, 0, false, true);
   }
-  if (
-    gatlings.includes(item.id) &&
-    player.hasEffect("kubejs:placeholder_gunner")
-  ) {
+  if (gatlings.includes(item.id) && player.hasEffect("kubejs:leviathan_call")) {
     player.potionEffects.add("kubejs:gatling_bonus", 40, 0, false, true);
   }
 

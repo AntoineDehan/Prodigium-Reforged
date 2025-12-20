@@ -76,7 +76,7 @@ ItemEvents.armorTierRegistry((event) => {
     tier.slotProtections = [6, 9, 9, 6];
     tier.enchantmentValue = 20;
     tier.equipSound = "minecraft:item.armor.equip_generic";
-    tier.repairIngredient = "deep_aether:skyjade";
+    tier.repairIngredient = "cataclysm:ignitium_ingot";
     tier.toughness = 0.0;
     tier.knockbackResistance = 0.0;
   });
@@ -97,6 +97,16 @@ ItemEvents.armorTierRegistry((event) => {
     tier.enchantmentValue = 16;
     tier.equipSound = "minecraft:item.armor.equip_generic";
     tier.repairIngredient = "deep_aether:skyjade";
+    tier.toughness = 0.0;
+    tier.knockbackResistance = 0.0;
+  });
+
+  event.add("scaled", (tier) => {
+    tier.durabilityMultiplier = 35;
+    tier.slotProtections = [7, 9, 9, 7];
+    tier.enchantmentValue = 15;
+    tier.equipSound = "minecraft:item.armor.equip_leather";
+    tier.repairIngredient = "prodigium_reforged:leaviathan_scale";
     tier.toughness = 0.0;
     tier.knockbackResistance = 0.0;
   });

@@ -669,7 +669,7 @@ StartupEvents.registry("mob_effect", (event) => {
     );
 
   /// Another Gunner Set
-  event.create("placeholder_gunner").color(0xffd27f).beneficial();
+  event.create("leviathan_call").color(0xffd27f).beneficial();
 
   // Shotgun Bonus
   event
@@ -1127,7 +1127,7 @@ StartupEvents.registry("mob_effect", (event) => {
 
   //Ranger Cozyness
   event
-    .create("ranger_cosyness")
+    .create("ranger_cozyness")
     .color(0xffd27f)
     .beneficial()
     .modifyAttribute(
