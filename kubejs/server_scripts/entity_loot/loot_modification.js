@@ -14,7 +14,9 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier(
       "born_in_chaos_v1:fallen_chaos_knight",
       "bygonenether:wither_skeleton_knight",
-      "born_in_chaos_v1:skeleton_thrasher"
+      "born_in_chaos_v1:skeleton_thrasher",
+      "friendsandfoes:wildfire",
+      "sorcerousnether:lost"
     )
     .randomChance(0.25)
     .addWeightedLoot([1], [Item.of("stalwart_dungeons:blaze_armor_scrap")]);
