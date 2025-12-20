@@ -1,0 +1,178 @@
+
+#Majo's Spell Config
+["Vas Mana/Max Mana"]
+	maxManaDisabled = false
+
+["Cantus Celeris/CD Reduction"]
+	cdReductionDisabled = false
+
+["Messor Vitae/Mana Reaper"]
+	manaReaperDisabled = false
+	#[Messor Vitae/Mana Reaper] Mana restoration factor per point of target's max health
+	#Range: 0.0 ~ 100.0
+	manaReaperRegenFactor = 1.0
+	#[Messor Vitae/Mana Reaper] Maximum mana restored per enchantment level
+	#Range: 0.0 ~ 1000.0
+	manaReaperRegenCapPerLevel = 40.0
+
+["Potentia Desperata/Hopeless Power"]
+	hopelessPowerDisabled = false
+	#[Potentia Desperata/Hopeless Power] HP% below this starts increasing spell power (0–1)
+	#Range: 0.0 ~ 1.0
+	hopelessPowerThresholdStart = 0.7
+	#[Potentia Desperata/Hopeless Power] HP% below this reaches maximum spell power bonus (0–1)
+	#Range: 0.0 ~ 1.0
+	hopelessPowerThresholdMax = 0.3
+	#[Potentia Desperata/Hopeless Power] Maximum spell power bonus per enchantment level (ADD_MULTIPLIED_BASE)
+	#Range: 0.0 ~ 10.0
+	hopelessPowerBonusPerLevel = 0.2
+
+["Gratia Oceani/Ocean Grace"]
+	oceanGraceDisabled = false
+	#[Gratia Oceani/Ocean Grace] Mana cost reduction per enchantment level
+	#Range: 0.0 ~ 1.0
+	oceanGraceManaReductionPerLevel = 0.1
+
+["Cor Inferni/Nether Heart"]
+	netherHeartDisabled = false
+
+["Cursus Phasium/Phase Dashed"]
+	phaseDashedDisabled = false
+	phaseDashedTreasureOnly = true
+	#[Cursus Phasium/Phase Dashed] Effect duration in ticks after activation
+	#Range: 0 ~ 114514
+	phaseDashedEffectDuration = 80
+
+["Mortis Impetus/Spell Streak"]
+	spellStreakDisabled = false
+	spellStreakTreasureOnly = true
+	#[Mortis Impetus/Spell Streak] Cooldown reduction percentage per enchantment level (0–1)
+	#Range: 0.0 ~ 1.0
+	spellStreakCDReductionPerLevel = 0.1
+	#[Mortis Impetus/Spell Streak] Minimum entity max health required to trigger cooldown reduction. 
+	#Entities with max health below this threshold will not trigger the effect.
+	#Range: 0.0 ~ 2.147483647E9
+	spellStreakEntityMinHealth = 16.0
+	#[Mortis Impetus/Spell Streak] Entity filtering mode: true = Blacklist mode (entities in blacklist are ignored), false = Whitelist mode (only entities in whitelist are valid)
+	spellStreakBlacklistOrWhitelist = true
+	#[Mortis Impetus/Spell Streak] Entity blacklist (entity IDs in blacklist will not trigger cooldown reduction when killed). Example: ["minecraft:squid", "minecraft:cod"]
+	spellStreakEntityBlacklist = ["minecraft:squid", "minecraft:cod", "minecraft:salmon", "minecraft:horse"]
+	#[Mortis Impetus/Spell Streak] Entity whitelist (only entity IDs in whitelist will trigger cooldown reduction when killed). Example: ["minecraft:zombie", "minecraft:skeleton"]
+	spellStreakEntityWhitelist = ["minecraft:zombie", "minecraft:skeleton", "minecraft:player"]
+
+["Aria Noctis/Nocturne Aria"]
+	nocturneAriaDisabled = false
+	#[Aria Noctis/Nocturne Aria] Cast Time Reduction per level at night with clear sky
+	#Range: 0.0 ~ 1.0
+	nocturneAriaBonusPerLevel = 0.2
+	daylightAnthemDisabled = false
+	#[Hymnus Aurorae/Daylight Anthem] Cast Time Reduction per level during day with clear sky
+	#Range: 0.0 ~ 1.0
+	daylightAnthemBonusPerLevel = 0.2
+
+["Sacramentum Sanguinis/Blood Mana"]
+	bloodManaDisabled = false
+	bloodManaTreasureOnly = true
+	#[Sacramentum Sanguinis/Blood Mana] Mana restored per damage point per level (default tuned to be ~2 Gluttony levels stronger)
+	#Range: 0.0 ~ 114514.0
+	bloodManaRatioPerLevel = 3.0
+	#[Sacramentum Sanguinis/Blood Mana] Max mana restored per enchantment level
+	#Range: 0.0 ~ 1919810.0
+	bloodManaCapPerLevel = 40.0
+
+["Vlad Tepes"]
+	vladTepesDisabled = false
+	vladTepesTreasureOnly = false
+	#[Vlad Tepes] Mana Cost = BaseManaCost + (enchantmentLevel-1) * ManaCostPerLevel
+	#Range: 0.0 ~ 2.147483647E9
+	vladTepesBaseManaCost = 12.5
+	#[Vlad Tepes] Mana Cost = BaseManaCost + (enchantmentLevel-1) * ManaCostPerLevel
+	#Range: 0.0 ~ 2.147483647E9
+	vladTepesManaCostPerLevel = 5.0
+	#[Vlad Tepes] Needle Damage = BaseNeedleDamage + (enchantmentLevel-1) * NeedleDamagePerLevel + BloodSpellPower * PowerScaling
+	#Range: 0.0 ~ 2.147483647E9
+	vladTepesBaseBloodNeedleDamage = 2.0
+	#[Vlad Tepes] Needle Damage = BaseNeedleDamage + (enchantmentLevel-1) * NeedleDamagePerLevel + BloodSpellPower * PowerScaling
+	#Range: 0.0 ~ 2.147483647E9
+	vladTepesBloodNeedleDamagePerLevel = 0.25
+	#[Vlad Tepes] Needle Damage = BaseNeedleDamage + (enchantmentLevel-1) * NeedleDamagePerLevel + BloodSpellPower * PowerScaling
+	#Range: 0.0 ~ 2.147483647E9
+	vladTepesBloodNeedleDamageBloodSpellPowerScaling = 0.25
+	#[Vlad Tepes] Needle Count = BaseNeedleCount + (enchantmentLevel-1) * NeedleCountPerLevel
+	#Range: > 0
+	vladTepesBaseBloodNeedleCount = 1
+	#[Vlad Tepes] Needle Count = BaseNeedleCount + (enchantmentLevel-1) * NeedleCountPerLevel
+	#Range: > 0
+	vladTepesBloodNeedleCountPerLevel = 1
+
+["Lotus Ignis/Red Lotus"]
+	redLotusDisabled = false
+	redLotusTreasureOnly = false
+	#[Lotus Ignis/Red Lotus] AOE Damage = BaseDamage + (enchantmentLevel-1) * DamagePerLevel
+	#Range: 0.0 ~ 2.147483647E9
+	redLotusFireFieldBaseDamage = 1.0
+	#[Lotus Ignis/Red Lotus] AOE Damage = BaseDamage + (enchantmentLevel-1) * DamagePerLevel
+	#Range: 0.0 ~ 2.147483647E9
+	redLotusFireFieldDamagePerLevel = 0.75
+	#[Lotus Ignis/Red Lotus] Radius = BaseRadius + (enchantmentLevel-1) * RadiusPerLevel
+	#Range: 1.0 ~ 2.147483647E9
+	redLotusFireFieldBaseRadius = 2.0
+	#[Lotus Ignis/Red Lotus] Radius = BaseRadius + (enchantmentLevel-1) * RadiusPerLevel
+	#Range: 0.0 ~ 2.147483647E9
+	redLotusFireFieldRadiusPerLevel = 0.5
+	#[Lotus Ignis/Red Lotus] Duration = BaseDuration + (enchantmentLevel-1) * DurationPerLevel
+	#Range: > 20
+	redLotusFireFieldBaseDuration = 40
+	#[Lotus Ignis/Red Lotus] Duration = BaseDuration + (enchantmentLevel-1) * DurationPerLevel
+	#Range: > 0
+	redLotusFireFieldDurationPerLevel = 20
+
+["Mana Mending"]
+	manaMendingDisabled = false
+	manaMendingTreasureOnly = true
+	manaMendingIncompatibleWithMending = true
+	#[Mana Mending] Base Mana Cost to Trigger Mana Mending
+	#Range: -2.147483647E9 ~ 2.147483647E9
+	manaMendingThreshold = 30.0
+
+[Necrovolt]
+	#[Necrovolt] If Disabled, it will not take effect.
+	NecrovoltDisabled = false
+	NecrovoltTreasureOnly = true
+	#[Necrovolt] Damage = BaseDamage + (enchantmentLevel-1) * DamagePerLevel + LightningSpellPower * PowerScaling
+	#Range: 0.0 ~ 2.147483647E9
+	NecrovoltBaseDamage = 3.0
+	#[Necrovolt] Damage = BaseDamage + (enchantmentLevel-1) * DamagePerLevel + LightningSpellPower * PowerScaling
+	#Range: 0.0 ~ 2.147483647E9
+	NecrovoltDamagePerLevel = 0.5
+	#[Necrovolt] Radius = BaseRadius + (enchantmentLevel-1) * RadiusPerLevel
+	#Range: 1.0 ~ 2.147483647E9
+	NecrovoltBaseRadius = 2.0
+	#[Necrovolt] Radius = BaseRadius + (enchantmentLevel-1) * RadiusPerLevel
+	#Range: 0.0 ~ 2.147483647E9
+	NecrovoltRadiusPerLevel = 0.5
+	#[Necrovolt] Damage = BaseDamage + (enchantmentLevel-1) * DamagePerLevel + LightningSpellPower * PowerScaling
+	#Range: 0.0 ~ 2.147483647E9
+	NecrovoltLightningSpellPowerScaling = 0.5
+	#[Necrovolt] Bonus Damage Growth Per Level After Killing One
+	#Range: 0.0 ~ 2.147483647E9
+	NecrovoltBonusDamageGrowth = 1.0
+
+["Dux Festivus/Party Leader"]
+	partyLeaderDisabled = false
+	#[Dux Festivus/Party Leader] Glow chance per enchantment level (0–1)
+	#Range: 0.0 ~ 1.0
+	partyLeaderGlowChancePerLevel = 0.2
+	#[Dux Festivus/Party Leader] Sunday Fever chance per enchantment level (0–1)
+	#Range: 0.0 ~ 1.0
+	partyLeaderFeverChancePerLevel = 0.1
+	#[Dux Festivus/Party Leader] Glowing/Sunday Fever effect duration (ticks)
+	#Range: 0 ~ 1919810
+	partyLeaderEffectDuration = 160
+	#[Dux Festivus/Party Leader] Glowing/Sunday Fever effect duration bonus on Sunday (ticks)
+	#Range: 0 ~ 1919810
+	partyLeaderEffectDurationSundayBonus = 40
+
+[Zoophony]
+	zoophonyDisabled = false
+
