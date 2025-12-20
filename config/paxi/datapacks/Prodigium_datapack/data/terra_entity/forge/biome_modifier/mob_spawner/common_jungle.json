@@ -1,8 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "values": ["#minecraft:is_jungle", "#forge:is_lush"]
-  },
+  "biomes": "#minecraft:is_jungle",
   "spawners": [
     {
       "type": "terra_entity:hornet",

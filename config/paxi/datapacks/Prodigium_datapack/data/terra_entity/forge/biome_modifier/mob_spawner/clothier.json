@@ -1,1 +1,8 @@
-{}
+{
+  "type": "terra_entity:npc_add_spawns",
+  "biomes": "#minecraft:has_structure/village_plains",
+  "delay": 600000,
+  "entityType": "terra_entity:clothier",
+  "excludedBiomes": [],
+  "weight": 0
+}

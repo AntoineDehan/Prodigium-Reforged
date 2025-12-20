@@ -1,1 +1,8 @@
-{}
+{
+  "type": "terra_entity:npc_add_spawns",
+  "biomes": "#minecraft:has_structure/village_desert",
+  "delay": 600000,
+  "entityType": "terra_entity:arms_dealer",
+  "excludedBiomes": [],
+  "weight": 0
+}
