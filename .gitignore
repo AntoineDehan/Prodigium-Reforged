@@ -63,3 +63,5 @@ config/jei/ingredient-list-type-sort-order.ini
 config/jei/recipe-category-sort-order.ini
 kubejs/config/probejs.json
 kubejs/jsconfig.json
+foolproof.json
+user-prefs.json
