@@ -320,4 +320,45 @@ StartupEvents.registry("item", (event) => {
     .rarity("rare")
     .displayName("Frost Boots")
     .tier("frost");
+
+  // Scaled Armor
+  event
+    .create("scaled_helmet", "anim_helmet")
+    .geoModel((geo) => {
+      geo.setSimpleModel("kubejs:geo/armor/scaled_armor.geo.json");
+      geo.setSimpleTexture("kubejs:textures/armor/scaled.png");
+    })
+    .rarity("rare")
+    .displayName("Scaled Helmet")
+    .tier("scaled");
+
+  event
+    .create("kubejs:scaled_chestplate", "anim_chestplate")
+    .geoModel((geo) => {
+      geo.setSimpleModel("kubejs:geo/armor/scaled_armor.geo.json");
+      geo.setSimpleTexture("kubejs:textures/armor/scaled.png");
+    })
+    .rarity("rare")
+    .displayName("Scaled Chestplate")
+    .tier("scaled");
+
+  event
+    .create("kubejs:scaled_leggings", "anim_leggings")
+    .geoModel((geo) => {
+      geo.setSimpleModel("kubejs:geo/armor/scaled_armor.geo.json");
+      geo.setSimpleTexture("kubejs:textures/armor/scaled.png");
+    })
+    .rarity("rare")
+    .displayName("Scaled Leggings")
+    .tier("scaled");
+
+  event
+    .create("kubejs:scaled_boots", "anim_boots")
+    .geoModel((geo) => {
+      geo.setSimpleModel("kubejs:geo/armor/scaled_armor.geo.json");
+      geo.setSimpleTexture("kubejs:textures/armor/scaled.png");
+    })
+    .rarity("rare")
+    .displayName("Scaled Boots")
+    .tier("scaled");
 });
