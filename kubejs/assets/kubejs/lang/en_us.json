@@ -44,7 +44,6 @@
   "effect.kubejs.gatling_bonus.description": "Enhances multiple gatling related attributes",
   "effect.kubejs.sniper_bonus.description": "Enhances multiple sniper related attributes",
   "effect.kubejs.pistol_bonus.description": "Enhances multiple pistol related attributes",
-
   "effect.kubejs.nether_embrace.description": "Using a Holy Spell on an ally grants them Fire Resistance and Nether Reinforcement",
   "effect.kubejs.nether_reinforcement.description": "Hitting an enemy consumes this effect to grant Nether Heat. Taking damage consumes this effect to grant Nether Protection instead",
   "effect.kubejs.nether_protection.description": "Increase your defenses",
@@ -57,6 +56,8 @@
   "effect.kubejs.hunter_readyness.description": "Enhances archers attributes",
   "effect.kubejs.ranger_mind.description": "Nearby pets gain Pet Cozyness. With 5 or more pets nearby, gain Ranger Cozyness",
   "effect.kubejs.ranger_cozyness.description": "Enhances archers attributes",
+  "effect.kubejs.neptune_buff.description": "Remaining immobile for a few seconds grants Neptune’s Blessing. The longer you stay still, the stronger the effect. Shooting mobs while active has a high chance to trigger Rapid Healing",
+  "effect.kubejs.leviathan_call.description": "Holding a compatible weapon in the main hand grants its corresponding bonus effect",
 
   "tooltip.translation.spacecatasb.settitle.berserker": "Berserker",
   "tooltip.translation.spacecatasb.settitle.berseker": "Berserker",
