@@ -27,16 +27,10 @@
         "item": "irons_spellbooks:dragonskin_spell_book"
       },
       {
-        "item": "irons_spellbooks:villager_spell_book"
-      },
-      {
         "item": "irons_spellbooks:blaze_spell_book"
       },
       {
         "item": "irons_spellbooks:druidic_spell_book"
-      },
-      {
-        "item": "irons_spellbooks:mana_ring"
       }
     ],
     "modList": [],
