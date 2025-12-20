@@ -152,6 +152,18 @@
 					title: "Necro Armor"
 					type: "item"
 				}
+				{
+					id: "7CC58212487E3F9C"
+					item: {
+						Count: 1
+						id: "kubejs:scaled_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Scaled Armor"
+					type: "item"
+				}
 			]
 			title: "Gunner armors for the Expert Mode"
 			x: 4.5d

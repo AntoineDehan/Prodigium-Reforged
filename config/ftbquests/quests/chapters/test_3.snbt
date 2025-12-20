@@ -169,7 +169,8 @@
 				"&nHelpful info :&r"
 				"With a &6mage spell book&r press &6\"R\"&r to switch your spells."
 				"You can &6roll&r using the &6\"X\"&r key."
-				"Open the &6world map&r with &6\",\"&r key (or \"m\" key, depend on your keyboard layout)"
+				"Open the &6world map&r with &6\",\"&r key."
+				"Open the &6Bestiary&r with the &6\"/\"&r key,"
 				""
 				"If you have any question you can come on the Discord."
 			]
@@ -575,7 +576,7 @@
 					command: "/puffish_skills points add @p simplyskills:tree 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "34CE74069813827E"
+					id: "7A5C45B9053E6546"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -586,7 +587,7 @@
 					command: "/puffish_skills points add @p simplyskills:berserker 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "3AE46320570828AD"
+					id: "1256A82A1F509B60"
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -595,7 +596,7 @@
 					command: "/puffish_skills points add @p simplyskills:crusader 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "0105925823BAB23B"
+					id: "2B527BD465AA6F35"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -606,7 +607,7 @@
 					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "4DE335BD2510A7AC"
+					id: "588BB9AF6099341A"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -617,7 +618,7 @@
 					command: "/puffish_skills points add @p simplyskills:wizard 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "5FDA3C9274418ACE"
+					id: "76D0F8F22387BDFE"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -628,7 +629,7 @@
 					command: "/puffish_skills points add @p simplyskills:cleric 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "4DE5EF8C75AD5FC7"
+					id: "4AC0E6C52FBE79D8"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -639,7 +640,7 @@
 					command: "/puffish_skills points add @p simplyskills:necromancer 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "0E78000F3EE296AE"
+					id: "391C25579928E8D4"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -650,7 +651,7 @@
 					command: "/puffish_skills points add @p simplyskills:gunner 2"
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
-					id: "353AE9471E95D2C9"
+					id: "20C8E33968AA9F31"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -1591,6 +1592,16 @@
 					type: "xp_levels"
 					xp_levels: 3
 				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					icon: "minecraft:experience_bottle"
+					id: "18A39311E45CBBAB"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
 			]
 			shape: "octagon"
 			size: 1.25d
@@ -1621,6 +1632,92 @@
 					id: "20A57DD57971EE07"
 					table_id: 7449522933339281626L
 					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "10CB393C8C5DE472"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "35EB4C545E1A5A46"
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0430F96D31191CE7"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "288245283910ADE9"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1DE0004EEEEAE00D"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "77F98F04F3658BE7"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "53BEA2E8DCC2DD18"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:gunner 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "01B3423F33AA860D"
+					silent: true
+					team_reward: false
+					title: "&6+2 Skill Points&r"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -1744,7 +1841,7 @@
 					auto: "enabled"
 					command: "/puffish_skills points add @p simplyskills:tree 2"
 					icon: "minecraft:experience_bottle"
-					id: "18A39311E45CBBAB"
+					id: "1A5C14187D87DAD6"
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
@@ -1766,7 +1863,11 @@
 		}
 		{
 			dependencies: ["0B31131A12E42700"]
-			description: ["Found in a &2Bee Hive&r."]
+			description: [
+				"Can be summoned with an &9Abeemination&r"
+				""
+				"&oWill be found in a &2Bee Hive&r &oin later updates!&r"
+			]
 			id: "3D7985B800B5CB3F"
 			optional: true
 			rewards: [
@@ -1781,6 +1882,15 @@
 					id: "27BD2C8DE96073FC"
 					table_id: 7449522933339281626L
 					type: "loot"
+				}
+				{
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5F7D51121CB553F4"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
 				}
 			]
 			shape: "octagon"
