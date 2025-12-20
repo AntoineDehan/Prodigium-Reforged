@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" B ", "BAB", " B "],
+  "key": {
+    "A": {
+      "item": "prodigium:palladium_ingot"
+    },
+    "B": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:abeemination",
+    "count": 1
+  }
+}

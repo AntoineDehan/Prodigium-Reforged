@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["a a", "b b"],
+  "key": {
+    "a": { "item": "prodigium_reforged:leviathan_scale" },
+    "b": { "item": "cataclysm:crystallized_coral_fragments" }
+  },
+  "result": { "item": "kubejs:scaled_boots" }
+}

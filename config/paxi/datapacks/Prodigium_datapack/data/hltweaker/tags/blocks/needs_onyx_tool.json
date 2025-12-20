@@ -2,6 +2,7 @@
   "values": [
     "minecraft:ancient_debris",
     "irons_spellbooks:arcane_debris",
-    "bygonenether:withered_debris"
+    "bygonenether:withered_debris",
+    "prodigium:tungsten_ore"
   ]
 }

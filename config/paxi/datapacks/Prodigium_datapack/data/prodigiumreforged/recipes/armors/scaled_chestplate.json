@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["c c", "aba", "aba"],
+  "key": {
+    "a": { "item": "prodigium_reforged:leviathan_scale" },
+    "b": { "item": "cataclysm:crystallized_coral_fragments" },
+    "c": { "item": "simpleores:onyx_gem" }
+  },
+  "result": { "item": "kubejs:scaled_chestplate" }
+}
