@@ -1,6 +1,6 @@
 {
   "modpackMode": false,
-  "fullScreen": "BORDERLESS",
+  "fullScreen": "WINDOWED",
   "fpsDisplayMode": "OFF",
   "fpsDisplayAlign": "LEFT",
   "fpsDisplayVAlign": "TOP",
@@ -36,7 +36,7 @@
   "fontShadows": true,
   "leavesCulling": "ALL",
   "fastChests": false,
-  "fastBeds": true,
+  "fastBeds": false,
   "rainParticles": true,
   "rainDropParticles": true,
   "crackingBlockParticles": true,
