@@ -1,0 +1,189 @@
+{
+  "pools": [
+    {
+      "type": "minecraft:chest",
+      "rolls": 9,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "majruszsdifficulty:bandage",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "majruszsdifficulty:golden_bandage",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "farmersdelight:barbecue_stick"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 14,
+          "name": "farmersdelight:apple_cider"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "prodigium:cobalt_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 17,
+          "name": "farmersdelight:tomato_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 17,
+          "name": "minecraft:wheat_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "majruszsaccessories:idol_of_fertility"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "majruszsaccessories:secret_ingredient"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "confluence:cloud_in_a_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "confluence:aglet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "confluence:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "confluence:black_belt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "irons_spellbooks:arcane_essence",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:gold_coin",
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}
