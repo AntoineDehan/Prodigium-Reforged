@@ -84,7 +84,7 @@
 		}
 		{
 			dependencies: ["41B97054DF4728A4"]
-			description: ["Use what you crafted to build awesome furnitures"]
+			description: ["Because why not ?!"]
 			id: "36C28F5BEB3A60A2"
 			rewards: [
 				{
@@ -100,19 +100,19 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "0DADC795CC680D6E"
-					item: "mcwfurnitures:cabinet_door"
-					type: "item"
+			tasks: [{
+				id: "6A2D916DDA72601F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "valhelsia_furniture:desks"
+					}
 				}
-				{
-					id: "7EBC1AD8F1FE4D1F"
-					item: "mcwfurnitures:cabinet_drawer"
-					type: "item"
-				}
-			]
-			title: "Craft a furniture"
+				title: "Desks"
+				type: "item"
+			}]
+			title: "Craft a desk!"
 			x: 10.5d
 			y: 0.0d
 		}
