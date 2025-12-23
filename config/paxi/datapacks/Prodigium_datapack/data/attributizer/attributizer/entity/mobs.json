@@ -1200,5 +1200,22 @@
       "modify": 34,
       "operation": "ADDITION"
     }
+  ],
+  "artifacts:mimic": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 0.6,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 6,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:life_steal",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    }
   ]
 }

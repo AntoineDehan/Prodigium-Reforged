@@ -101,4 +101,10 @@ LootJS.modifiers((event) => {
     )
     .randomChance(0.7)
     .addWeightedLoot([1, 3], [Item.of("bypowderandsteel:gunsteel_nugget")]);
+
+  // Ender Nacre
+  event
+    .addEntityLootModifier("terra_entity:demon_eye")
+    .randomChance(0.15)
+    .addWeightedLoot([1], [Item.of("wormhole_artifact:ender_nacre")]);
 });
