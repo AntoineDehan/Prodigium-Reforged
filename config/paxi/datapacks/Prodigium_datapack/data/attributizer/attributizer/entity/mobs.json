@@ -2,7 +2,7 @@
   "terra_entity:anger_bones": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -19,7 +19,7 @@
   "terra_entity:anger_goblin": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -36,7 +36,7 @@
   "terra_entity:antlion_swarmer": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -53,7 +53,7 @@
   "terra_entity:base_bones": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -70,7 +70,7 @@
   "terra_entity:big_anger_bones": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -87,7 +87,7 @@
   "terra_entity:big_bones": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -104,7 +104,7 @@
   "terra_entity:big_helmet_anger_bones": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -121,7 +121,7 @@
   "terra_entity:big_muscle_anger_bones": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -138,7 +138,7 @@
   "terra_entity:black_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -155,7 +155,7 @@
   "terra_entity:blood_crawler": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -172,7 +172,7 @@
   "terra_entity:blood_tumors": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -189,7 +189,7 @@
   "terra_entity:blood_zombie": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -206,7 +206,7 @@
   "terra_entity:bloody_spire": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -235,7 +235,7 @@
   "terra_entity:cave_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -252,7 +252,7 @@
   "terra_entity:corrupted_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -269,7 +269,7 @@
   "terra_entity:crimson_kemera": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -286,7 +286,7 @@
   "terra_entity:crimson_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -303,7 +303,7 @@
   "terra_entity:cursed_skull": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -320,7 +320,7 @@
   "terra_entity:dark_caster": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -337,7 +337,7 @@
   "terra_entity:decayeder": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -354,7 +354,7 @@
   "terra_entity:demon": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -371,7 +371,7 @@
   "terra_entity:demon_eye": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -388,7 +388,7 @@
   "terra_entity:desert_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -405,7 +405,7 @@
   "terra_entity:devourer": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -422,7 +422,7 @@
   "terra_entity:drippler": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -439,7 +439,7 @@
   "terra_entity:dungeon_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -456,7 +456,7 @@
   "terra_entity:eater_of_souls": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -473,7 +473,7 @@
   "terra_entity:evil_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -490,7 +490,7 @@
   "terra_entity:face_monster": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -507,7 +507,7 @@
   "terra_entity:fire_imp": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -524,7 +524,7 @@
   "terra_entity:flying_fish": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -541,7 +541,7 @@
   "terra_entity:giant_antlion_swarmer": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -558,7 +558,7 @@
   "terra_entity:giant_shelly": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -575,7 +575,7 @@
   "terra_entity:giant_worm": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -592,7 +592,7 @@
   "terra_entity:goblin_archer": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -609,7 +609,7 @@
   "terra_entity:goblin_peon": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -626,7 +626,7 @@
   "terra_entity:goblin_scout": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -643,7 +643,7 @@
   "terra_entity:goblin_sorcerer": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -660,7 +660,7 @@
   "terra_entity:goblin_thief": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -677,7 +677,7 @@
   "terra_entity:goblin_warrior": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -694,7 +694,7 @@
   "terra_entity:golden_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -711,7 +711,7 @@
   "terra_entity:green_dumpling_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -728,7 +728,7 @@
   "terra_entity:green_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -745,7 +745,7 @@
   "terra_entity:harpy": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -762,7 +762,7 @@
   "terra_entity:hat_spore_zombie": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -779,7 +779,7 @@
   "terra_entity:hell_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -796,7 +796,7 @@
   "terra_entity:honey_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -813,7 +813,7 @@
   "terra_entity:hornet_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -830,7 +830,7 @@
   "terra_entity:ice_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -847,7 +847,7 @@
   "terra_entity:ice_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -864,7 +864,7 @@
   "terra_entity:jungle_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -881,7 +881,7 @@
   "terra_entity:lava_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -898,7 +898,7 @@
   "terra_entity:leech": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -915,7 +915,7 @@
   "terra_entity:luminous_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -932,7 +932,7 @@
   "terra_entity:pink_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -949,7 +949,7 @@
   "terra_entity:piranha": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -966,7 +966,7 @@
   "terra_entity:purple_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -983,7 +983,7 @@
   "terra_entity:sculk_wisp": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1000,7 +1000,7 @@
   "terra_entity:short_bones": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1017,7 +1017,7 @@
   "terra_entity:snatcher": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1034,7 +1034,7 @@
   "terra_entity:snow_flinx": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1051,7 +1051,7 @@
   "terra_entity:spore_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1068,7 +1068,7 @@
   "terra_entity:spore_skeleton": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1085,7 +1085,7 @@
   "terra_entity:spore_zombie": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1102,7 +1102,7 @@
   "terra_entity:swamp_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1119,7 +1119,7 @@
   "terra_entity:tomb_crawler": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1136,7 +1136,7 @@
   "terra_entity:tropic_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1153,7 +1153,7 @@
   "terra_entity:undead_viking": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1170,7 +1170,7 @@
   "terra_entity:yellow_slime": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1187,7 +1187,7 @@
   "terra_entity:wandering_eye_fish": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 20,
+      "modify": 17,
       "operation": "MULTIPLY_BASE"
     },
     {
