@@ -11,6 +11,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "stalwart_dungeons:tungsten_pickaxe" });
   event.remove({ output: "stalwart_dungeons:tungsten_shovel" });
   event.remove({ output: "bypowderandsteel:gravitic_engine" });
+  event.remove({ output: "iguanatweaksreborn:over_easy_egg" });
   event.remove({ id: "deep_aether:stratus_ingot" });
 
   // Stick issue kek
