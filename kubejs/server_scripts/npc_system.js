@@ -4,7 +4,7 @@ let activeNpcBlocks = new Set();
 
 let npcSpawnBlocks = [
   "minecraft:loom",
-  "doggytalents:dog_bed",
+  "domesticationinnovation:drum",
   "irons_spellbooks:alchemist_cauldron",
   "drinkbeer:bartending_table_normal",
   "minecraft:red_bed",
@@ -21,7 +21,7 @@ let NPC_COMMANDS = {
     "easy_npc preset import data prodigiumreforged:preset/terraria/guide.npc.nbt ~ ~ ~",
   "drinkbeer:bartending_table_normal":
     "easy_npc preset import data prodigiumreforged:preset/terraria/tavernkeep.npc.nbt ~ ~ ~",
-  "doggytalents:dog_bed":
+  "domesticationinnovation:drum":
     "easy_npc preset import data prodigiumreforged:preset/terraria/zoologist.npc.nbt ~ ~ ~",
   "irons_spellbooks:alchemist_cauldron":
     "easy_npc preset import data prodigiumreforged:preset/terraria/wizard.npc.nbt ~ ~ ~",
@@ -46,7 +46,7 @@ let NPC_HOME_COMMANDS = {
     "easy_npc navigation set home 3bd2ab72-41d7-4472-a480-5d849f76298c ~ ~ ~",
   "drinkbeer:bartending_table_normal":
     "easy_npc navigation set home 407a8d48-2853-486f-85e0-b6a6abc04f63 ~ ~ ~",
-  "doggytalents:dog_bed":
+  "domesticationinnovation:drum":
     "easy_npc navigation set home 3d380f27-8f30-4daa-aaf1-f720c34afb86 ~ ~ ~",
   "irons_spellbooks:alchemist_cauldron":
     "easy_npc navigation set home f5be7dde-967f-4b27-8b50-7e6a9ddb35ce ~ ~ ~",
@@ -70,7 +70,7 @@ let NPC_QUEST_COMMANDS = {
   "minecraft:loom": "ftbquests change_progress @p complete 384F487E612876CC",
   "drinkbeer:bartending_table_normal":
     "ftbquests change_progress @p complete 6F79F027D77C3DAD",
-  "doggytalents:dog_bed":
+  "domesticationinnovation:drum":
     "ftbquests change_progress @p complete 70ABE0C1C74091F0",
   "irons_spellbooks:alchemist_cauldron":
     "ftbquests change_progress @p complete 47E990C188715ECC",
@@ -813,7 +813,7 @@ let categoryBlocks = {
 let npcRequirements = {
   "minecraft:loom": ["chairs", "tables", "doors", "light"],
   "drinkbeer:bartending_table_normal": ["chairs", "tables", "doors", "light"],
-  "doggytalents:dog_bed": ["chairs", "tables", "doors", "light"],
+  "domesticationinnovation:drum": ["chairs", "tables", "doors", "light"],
   "irons_spellbooks:alchemist_cauldron": ["chairs", "tables", "doors", "light"],
   "minecraft:red_bed": ["chairs", "tables", "doors", "light"],
   "numismatic-overhaul:shop": ["chairs", "tables", "doors", "light"],
