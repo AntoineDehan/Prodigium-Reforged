@@ -123,7 +123,9 @@ StartupEvents.registry("item", (event) => {
       let y = Math.floor(entity.y);
       let z = Math.floor(entity.z) + 8;
 
-      level.runCommandSilent(`summon terra_entity:king_slime ${x} ${y} ${z}`);
+      entity.server.runCommandSilent(
+        `summon terra_entity:king_slime ${x} ${y} ${z}`
+      );
 
       itemstack.shrink(1);
       return itemstack;
@@ -143,7 +145,7 @@ StartupEvents.registry("item", (event) => {
       let y = Math.floor(entity.y) + 3;
       let z = Math.floor(entity.z) + 8;
 
-      level.runCommandSilent(
+      entity.server.runCommandSilent(
         `summon terra_entity:eye_of_cthulhu ${x} ${y} ${z}`
       );
 
@@ -165,7 +167,7 @@ StartupEvents.registry("item", (event) => {
       let y = Math.floor(entity.y);
       let z = Math.floor(entity.z) + 8;
 
-      level.runCommandSilent(
+      entity.server.runCommandSilent(
         `summon terra_entity:eater_of_worlds ${x} ${y} ${z}`
       );
 
@@ -187,7 +189,7 @@ StartupEvents.registry("item", (event) => {
       let y = Math.floor(entity.y) + 3;
       let z = Math.floor(entity.z) + 8;
 
-      level.runCommandSilent(
+      entity.server.runCommandSilent(
         `summon terra_entity:brain_of_cthulhu ${x} ${y} ${z}`
       );
 
@@ -209,7 +211,9 @@ StartupEvents.registry("item", (event) => {
       let y = Math.floor(entity.y) + 3;
       let z = Math.floor(entity.z) + 8;
 
-      level.runCommandSilent(`summon terra_entity:queen_bee ${x} ${y} ${z}`);
+      entity.server.runCommandSilent(
+        `summon terra_entity:queen_bee ${x} ${y} ${z}`
+      );
 
       itemstack.shrink(1);
       return itemstack;
