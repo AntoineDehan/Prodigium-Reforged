@@ -1,7 +1,7 @@
 {
   "armorFormula": {
     "desc:": "Armor damage reduction formula. Input values: armor,damage Default formula:damage*(15/(armor+15))",
-    "armorFormula": "damage * (19 / (armor + 10))"
+    "armorFormula": "damage * (20 / (armor + 10))"
   },
   "toughnessFormula": {
     "desc:": "Armor toughness reduces damage in relation to percent health lost.Input values:hitpct(0-1), toughness, damage. Default: damage*(1/(toughness/10+1)*hitpct+(1-hitpct))",
