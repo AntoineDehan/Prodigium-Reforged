@@ -380,7 +380,7 @@
 
 [Mobs]
 	#Change how mobs target players. Use the enhancedai:use_target_changes and enhancedai:use_follow_range_changes entity type tag to whitelist mobs. Add mobs to enhancedai:allow_target_switch entity type tag to allow these mobs to be able to switch targets when hit (e.g. Creepers can't normally do that).
-	"Enable Targeting" = true
+	"Enable Targeting" = false
 	#Makes mobs be able to move in more ways, like climbing or swim. Only mobs in the enhancedai:allow_climbing entity type tag are allowed to climb.
 	"Enable Movement" = false
 	"Enable Spawning" = false
@@ -393,25 +393,25 @@
 	#Endermen will make the player's item fall from his hands. Add/remove mobs via the enhancedai:can_disrupt_item entity type tag
 	"Enable Item disruption" = true
 	#Changes mobs attack range to use the 1.20.2 mechanic
-	"Enable Melee attacking" = true
+	"Enable Melee attacking" = false
 	#Let mobs use Fishing Rods, reeling players in. Either put a Fishing Rod in main or off hand and when near enough from the target they will use it. Only mobs in enhancedai:can_be_fisher entity type tag are affected by this feature.
 	"Enable Fisher mobs" = true
 	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	"Enable Avoid explosions" = true
 	#Mobs can bite if are attacked with non-weapons. Only mobs in the enhancedai:can_bite entity type tag can bite.
-	"Enable Biting mobs" = true
+	"Enable Biting mobs" = false
 	#Makes mobs be able to jump in place when target is a few blocks above the mob.
 	"Enable Jump" = true
 	#Mobs can mine blocks to reach the target. Uses offhand item to mine. Only mobs in the entity type tag enhancedai:can_be_miner can spawn with the ability to mine and blocks in the tag enhancedai:miner_block_blacklist cannot be mined.
-	"Enable Miner mobs" = true
+	"Enable Miner mobs" = false
 	#Mobs can flee or attack Wardens. Use the entity type tag enhancedai:ignore_warden_interaction to blacklist mobs.
-	"Enable Warden interactions" = true
+	"Enable Warden interactions" = false
 	#Use `enhancedai:can_open_doors` to add more mobs that can open doors.
-	"Enable Open doors" = true
+	"Enable Open doors" = false
 	#Let mobs use ender pearls. Either put ender pearls in main or off hand and when far enough from the target they will throw it. Only mobs in the enhancedai:can_be_pearler entity type tag can be pearler.
-	"Enable Pearler mobs" = true
+	"Enable Pearler mobs" = false
 	#Make mobs angry when a block is broken. Check the mod's config folder Mobs/Break Anger/break_anger_config.json to change blocks and entities triggered.
-	"Enable Break anger" = true
+	"Enable Break anger" = false
 
 	#Change how mobs target players. Use the enhancedai:use_target_changes and enhancedai:use_follow_range_changes entity type tag to whitelist mobs. Add mobs to enhancedai:allow_target_switch entity type tag to allow these mobs to be able to switch targets when hit (e.g. Creepers can't normally do that).
 	[Mobs.Targeting]
@@ -507,16 +507,16 @@
 	[Mobs."Item disruption"]
 		#Cooldown (in ticks) before being able to use the ability again.
 		#Range: > -2147483648
-		Cooldown = 200
+		Cooldown = 350
 
 		#Chance can be changed within entity data's ForgeData."enhancedai:item_disruption_chance"
 		[Mobs."Item disruption".Chance]
 			#Range: 0.0 ~ 1.0
-			"Easy/Peaceful" = 0.25
+			"Easy/Peaceful" = 0.0
 			#Range: 0.0 ~ 1.0
-			Normal = 0.25
+			Normal = 0.1
 			#Range: 0.0 ~ 1.0
-			Hard = 0.35
+			Hard = 0.2
 
 	#Changes mobs attack range to use the 1.20.2 mechanic
 	[Mobs."Melee attacking"]
@@ -571,7 +571,7 @@
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 			Normal = 80.0
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-			Hard = 60.0
+			Hard = 80.0
 
 	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	[Mobs."Avoid explosions"]
