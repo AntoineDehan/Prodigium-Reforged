@@ -228,7 +228,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": 34,
+      "modify": 2,
       "operation": "ADDITION"
     }
   ],
