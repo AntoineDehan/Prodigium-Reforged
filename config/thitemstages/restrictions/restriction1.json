@@ -36,37 +36,37 @@
         "item": "simpleores:adamantium_boots"
       },
       {
-        "item": "simpleores:myhtril_ingot"
+        "item": "simpleores:mythril_ingot"
       },
       {
-        "item": "simpleores:myhtril_sword"
+        "item": "simpleores:mythril_sword"
       },
       {
-        "item": "simpleores:myhtril_pickaxe"
+        "item": "simpleores:mythril_pickaxe"
       },
       {
-        "item": "simpleores:myhtril_axe"
+        "item": "simpleores:mythril_axe"
       },
       {
-        "item": "simpleores:myhtril_shovel"
+        "item": "simpleores:mythril_shovel"
       },
       {
-        "item": "simpleores:myhtril_hoe"
+        "item": "simpleores:mythril_hoe"
       },
       {
-        "item": "simpleores:myhtril_shears"
+        "item": "simpleores:mythril_shears"
       },
       {
-        "item": "simpleores:myhtril_helmet"
+        "item": "simpleores:mythril_helmet"
       },
       {
-        "item": "simpleores:myhtril_leggings"
+        "item": "simpleores:mythril_leggings"
       },
       {
-        "item": "simpleores:myhtril_chestplate"
+        "item": "simpleores:mythril_chestplate"
       },
       {
-        "item": "simpleores:myhtril_boots"
+        "item": "simpleores:mythril_boots"
       },
       {
         "item": "prodigium:palladium_ingot"
@@ -117,10 +117,10 @@
         "item": "simpleores:adamantium_block"
       },
       {
-        "item": "simpleores:myhtril_ore"
+        "item": "simpleores:mythril_ore"
       },
       {
-        "item": "simpleores:myhtril_block"
+        "item": "simpleores:mythril_block"
       },
       {
         "item": "prodigium:palladium_ore"
@@ -135,10 +135,10 @@
         "item": "simpleores:raw_adamantium"
       },
       {
-        "item": "simpleores:deepslate_myhtril_ore"
+        "item": "simpleores:deepslate_mythril_ore"
       },
       {
-        "item": "simpleores:raw_myhtril"
+        "item": "simpleores:raw_mythril"
       }
     ],
     "modList": [],
