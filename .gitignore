@@ -65,3 +65,14 @@ kubejs/config/probejs.json
 kubejs/jsconfig.json
 foolproof.json
 user-prefs.json
+config/bobby.toml
+config/voicechat-client.toml
+config/voicechat/
+config/voicechat/voicechat-server.properties
+config/voicechat/voicechat-client.properties
+config/voicechat/player-volumes.properties
+config/voicechat/category-volumes.properties
+config/voicechat/translations.properties
+.bobby/
+.bobby/91.197.6.216_25572/9125255282137232465/minecraft/overworld/last_access
+.bobby
