@@ -7,7 +7,7 @@ EntityEvents.hurt((event) => {
 
   if (!player) return;
 
-  console.log("source type: ", event.source.getType());
+  // console.log("source type: ", event.source.getType());
 
   if (player.hasEffect("kubejs:neptune_buff")) {
     if (Math.random() < 0.8) {
@@ -223,8 +223,7 @@ EntityEvents.death((event) => {
     entity.hasEffect("kubejs:thorned")
   ) {
     if (killer.hasEffect("kubejs:blossom_aroma")) {
-      // killer.potionEffects.add("kubejs:blossom_aroma", 200, 2, true, false);
-      console.log("ici lvl 2 c'est true");
+      killer.potionEffects.add("kubejs:blossom_aroma", 200, 2, true, false);
     }
     killer.potionEffects.add("kubejs:blossom_aroma", 200, 1, true, false);
   }
