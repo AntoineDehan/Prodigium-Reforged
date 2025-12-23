@@ -100,7 +100,7 @@
   {
     "gamestage": "stage_expert",
     "hostile": true,
-    "armoradd": 8,
+    "armoradd": 10,
     "healthmultiply": 1.2,
     "result": "allow",
     "when": "onjoin"
@@ -109,11 +109,17 @@
     "gamestage": "stage_g",
     "hostile": true,
     "healthmultiply": 1.2,
-    "armoradd": 4,
+    "armoradd": 6,
     "result": "allow",
     "when": "onjoin"
   },
-
+  {
+    "hostile": true,
+    "healthmultiply": 1.2,
+    "result": "allow",
+    "armoradd": 2,
+    "when": "onjoin"
+  },
   {
     "mob": ["alexsmobs:skelewag"],
     "gamestage": "stage_expert",
