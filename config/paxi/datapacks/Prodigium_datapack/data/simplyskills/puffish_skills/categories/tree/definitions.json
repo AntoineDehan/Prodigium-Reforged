@@ -11241,7 +11241,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
+          "command": "ftbquests change_progress @s complete 7E84A690580422CF"
         }
       }
     ],
@@ -11666,7 +11666,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
+          "command": "ftbquests change_progress @s complete 7E84A690580422CF"
         }
       }
     ],
@@ -11930,7 +11930,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "ftbquests change_progress @s complete 1BFA3C9A6A014CED"
+          "command": "ftbquests change_progress @s complete 7E84A690580422CF"
         }
       }
     ],
