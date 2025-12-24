@@ -9,7 +9,7 @@
   },
   "playerdamageFormula": {
     "desc:": "Player damage normalization, scales player damage caused to better balance modded weapons and combat. Input values:damage . To disable put just: damage",
-    "playerdamageFormula": "damage*(100/(damage+100))"
+    "playerdamageFormula": "damage*(95/(damage+100))"
   },
   "debugprint": {
     "desc:": "Set to true to enable log debug output, default: false.",
