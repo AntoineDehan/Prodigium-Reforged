@@ -80,7 +80,7 @@
 			y: 2.5d
 		}
 		{
-			dependency: "774BCB593AAFAA33"
+			dependency: "4A96E3EADCF0C191"
 			height: 1.0d
 			image: "prodigium_reforged:textures/gui/expert_mode.png"
 			rotation: 0.0d
@@ -197,7 +197,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0A760A8F2DC0A847"
 			rewards: [{
@@ -235,7 +236,8 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["049A1A789CCBA808"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "25DB715EA2BA4A2B"
 			rewards: [{
@@ -353,7 +355,8 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3D080F5C5E1DB4E1"
 			rewards: [{
@@ -391,7 +394,7 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1519,7 +1522,8 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "2D5F7196D965A9C9"
 			subtitle: "&6Post Sun Spirit&r"
@@ -1644,7 +1648,8 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7DA6A2139D246465"
 			subtitle: "&6Post Underworld Knigt&r"
@@ -1663,7 +1668,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "35D7760BABF13D2A"
 			subtitle: "&6Post Leviathan&r"
@@ -1682,7 +1688,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4C3BE3F0BF63237D"
 			subtitle: "&6Post Ignis&r"
@@ -1701,7 +1708,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3C15DB2D02BB63D8"
 			subtitle: "&6Post Sun Spirit&r"
@@ -1720,7 +1728,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "49DA5D1A38679EEB"
 			subtitle: "&6Post Netherite Gauntlet&r"
@@ -1757,7 +1766,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5BB6ED8D4F56D1C6"
 			shape: "octagon"
@@ -1770,7 +1780,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0C9D0D47508880E1"
 			shape: "octagon"
@@ -1783,7 +1794,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1C5EFEFAF3C6C816"
 			shape: "octagon"
@@ -1796,7 +1808,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7553EE1428B85C0B"
 			shape: "octagon"

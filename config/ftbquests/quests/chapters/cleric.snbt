@@ -245,7 +245,7 @@
 				title: "Holy School Armor"
 				type: "item"
 			}]
-			title: "Cleric armors for the Expert Mode"
+			title: "Cleric armors for the Master Mode"
 			x: 6.25d
 			y: 0.0d
 		}
@@ -293,8 +293,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
-			hide_until_deps_complete: true
+			dependencies: ["2D2E7F73862AF301"]
+			hide_dependency_lines: true
 			id: "6A8C2DE986B261A9"
 			rewards: [
 				{
@@ -330,7 +330,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["2D2E7F73862AF301"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4C3468FE8D873B68"
 			rewards: [
@@ -399,7 +400,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1A9AB70D43851B41"]
+			dependencies: [
+				"1A9AB70D43851B41"
+				"774BCB593AAFAA33"
+			]
 			description: ["The other armors are the school armors."]
 			hide_until_deps_visible: true
 			id: "2D2E7F73862AF301"

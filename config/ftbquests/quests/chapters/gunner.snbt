@@ -78,7 +78,7 @@
 			y: 3.5d
 		}
 		{
-			dependency: "774BCB593AAFAA33"
+			dependency: "6EF7C057C65B42AA"
 			height: 1.0d
 			image: "prodigium_reforged:textures/gui/expert_mode.png"
 			rotation: 0.0d
@@ -202,7 +202,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "034D079A2A3B9935"
 			shape: "octagon"
@@ -232,7 +233,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6288C94CF969E748"
 			tasks: [{
@@ -557,7 +559,8 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3CB27E3D31176839"
 			shape: "octagon"
@@ -570,7 +573,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3CE6E47E953797E7"
 			shape: "octagon"
@@ -583,7 +587,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0EC539C2AAD2B3E8"
 			shape: "octagon"
@@ -597,7 +602,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "10D4CB14A52B23D9"
 			shape: "octagon"
@@ -611,7 +617,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "66059AA2D55375B6"
 			tasks: [{
@@ -629,7 +636,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7ADDD2000D17388A"
 			tasks: [{
@@ -647,7 +655,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3F6137656FD5EA2F"
 			tasks: [{
@@ -665,7 +674,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1C9FADFD2B2DD42E"
 			tasks: [{
@@ -683,7 +693,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "204E1C23F97A80E0"
 			tasks: [{
@@ -701,7 +712,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1893BB9F8DEE050B"
 			subtitle: "&6Post Nether Gauntlet&r"
@@ -720,7 +732,8 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7BFE0C16D3B3CC59"
 			subtitle: "&6Post Void Blossom&r"
@@ -739,7 +752,8 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4DA2156B8EDE1831"
 			subtitle: "&6Post Void Blossom&r"
@@ -758,7 +772,8 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4C3A53F50233F57E"
 			subtitle: "&6Post Sun Spirit&r"
@@ -777,7 +792,8 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "06530557B2C14ED2"
 			subtitle: "&6Post Sun Spirit&r"
@@ -796,7 +812,8 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "666AA49D7B3FAD5C"
 			subtitle: "&6Post Sun Spirit&r"
@@ -815,7 +832,8 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3CF68B6074182FA6"
 			subtitle: "&6Post Ignis&r"
@@ -834,7 +852,8 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "19626ECD745C90F5"
 			subtitle: "&6Post Leviathan&r"
@@ -853,7 +872,8 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4E316EDD0BD483B5"
 			shape: "octagon"
@@ -867,7 +887,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["6EF7C057C65B42AA"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "65411A54A77ABB73"
 			shape: "octagon"

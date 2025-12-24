@@ -332,6 +332,7 @@
 				{
 					auto: "enabled"
 					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "07D00BF50D810090"
 					silent: true
@@ -588,6 +589,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1256A82A1F509B60"
+					silent: true
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -1595,6 +1597,7 @@
 				{
 					auto: "enabled"
 					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "18A39311E45CBBAB"
 					silent: true
@@ -1650,6 +1653,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "35EB4C545E1A5A46"
+					silent: true
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -1753,6 +1757,7 @@
 				{
 					auto: "enabled"
 					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1B253DC292DE5541"
 					silent: true
@@ -1794,6 +1799,7 @@
 				{
 					auto: "enabled"
 					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "39B8BEDA020A6C3F"
 					silent: true
@@ -1840,6 +1846,7 @@
 				{
 					auto: "enabled"
 					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1A5C14187D87DAD6"
 					silent: true
@@ -1930,6 +1937,16 @@
 					id: "09E007C060B9602F"
 					table_id: 7449522933339281626L
 					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C934573A39C172F"
+					silent: true
+					title: "&6+2 Skill Points&r"
+					type: "command"
 				}
 			]
 			shape: "octagon"

@@ -62,7 +62,7 @@
 			y: 3.0d
 		}
 		{
-			dependency: "774BCB593AAFAA33"
+			dependency: "01C7F36A07D993DB"
 			height: 1.0d
 			image: "prodigium_reforged:textures/gui/expert_mode.png"
 			rotation: 0.0d
@@ -132,7 +132,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["50E838001D06D62B"]
+			dependencies: [
+				"50E838001D06D62B"
+				"774BCB593AAFAA33"
+			]
 			dependency_requirement: "one_completed"
 			description: ["You need to unlock the armor in the &6Skill Tree&r."]
 			hide_until_deps_visible: true
@@ -204,7 +207,7 @@
 					type: "item"
 				}
 			]
-			title: "Berseker armors for the Expert Mode"
+			title: "Berserker armors for the Expert Mode"
 			x: 4.25d
 			y: 0.0d
 		}
@@ -242,7 +245,7 @@
 				title: "Chorundum Armor"
 				type: "item"
 			}]
-			title: "Berseker armor for the Master Mode"
+			title: "Berserker armor for the Master Mode"
 			x: 7.25d
 			y: 0.0d
 		}
@@ -751,7 +754,8 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "20976EC909F6DB8C"
 			subtitle: "&6Post Underworld Knight&r"
@@ -770,7 +774,8 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "79EF594066875E50"
 			subtitle: "&6Post Nether Gauntlet&r"
@@ -789,8 +794,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
 			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0691AF7DA1647C78"
 			subtitle: "&6Post Nether Gauntlet&r"
@@ -809,7 +815,8 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3E5E78163A15DC7E"
 			subtitle: "&6Post Nether Gauntlet&r"
@@ -828,7 +835,8 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5A7DDA0782FA1882"
 			subtitle: "&6Post Underworld Knight&r"
@@ -847,7 +855,8 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "310B2D9B79089885"
 			subtitle: "&6Post Underworld Knight&r"
@@ -866,7 +875,8 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "758D5731F25C3937"
 			subtitle: "&6Post Underworld Knight&r"
@@ -885,7 +895,9 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6C0A872B603DD416"
 			subtitle: "&6Post Netherite Monstrosity&r"
@@ -904,7 +916,8 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0E1B59FB76D59EF1"
 			subtitle: "&6Post Slider&r"
@@ -923,7 +936,8 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "57E0C7DFBCA4E767"
 			subtitle: "&6Post Void Blossom&r"
@@ -942,7 +956,8 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "728B26633870CDDA"
 			subtitle: "&6Post Leviathan&r"
@@ -961,7 +976,8 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "671ED65E5442F9A9"
 			subtitle: "&6Post Witherite&r"
@@ -980,7 +996,8 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4D3BBB3CBAF37499"
 			subtitle: "&6Post Ignis&r"
@@ -999,7 +1016,8 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "75EDD937E66F586C"
 			subtitle: "&6Post Ignis&r"
@@ -1018,7 +1036,8 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "75EB4D5FC0838A3A"
 			subtitle: "&6Post Ignis&r"
@@ -1037,7 +1056,8 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "496279C8210351DC"
 			subtitle: "&6Post Ignis&r"
@@ -1050,7 +1070,8 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0CDCE666E532F26D"
 			subtitle: "&6Post Ignis&r"
@@ -1069,7 +1090,8 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3DA617CB6E0359B8"
 			shape: "octagon"
@@ -1083,7 +1105,8 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "491124B09BDC2490"
 			shape: "octagon"
@@ -1097,7 +1120,8 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5822423CC054AB6D"
 			shape: "octagon"
@@ -1110,7 +1134,8 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3AD30B9F6F9DF65E"
 			shape: "octagon"
@@ -1123,7 +1148,8 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "703529A30CFEDE8C"
 			shape: "octagon"
@@ -1136,7 +1162,8 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1F97699DF294DD0C"
 			shape: "octagon"
@@ -1155,7 +1182,8 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6298B6E601393CF5"
 			shape: "octagon"
@@ -1168,7 +1196,8 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0059F5AC2D4E9D55"
 			shape: "octagon"
@@ -1182,7 +1211,8 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["01C7F36A07D993DB"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6FA35ADF9FEFCE17"
 			tasks: [{

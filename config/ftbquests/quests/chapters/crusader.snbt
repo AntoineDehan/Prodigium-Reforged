@@ -62,7 +62,7 @@
 			y: 3.0d
 		}
 		{
-			dependency: "774BCB593AAFAA33"
+			dependency: "3A908ED8568C4279"
 			height: 1.0d
 			image: "prodigium_reforged:textures/gui/expert_mode.png"
 			rotation: 0.0d
@@ -537,7 +537,8 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4B95E205CB0B5587"
 			shape: "octagon"
@@ -550,7 +551,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4D945206421BDDAE"
 			shape: "octagon"
@@ -563,7 +565,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "695B0040AF5B379F"
 			shape: "octagon"
@@ -577,7 +580,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "327E3E18C467A8DC"
 			subtitle: "&6Post Nether Gauntlet&r"
@@ -596,7 +600,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "28DEA13C0745FE23"
 			subtitle: "&6Post Nether Gauntlet&r"
@@ -615,7 +620,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6AA58E77DF9B734F"
 			subtitle: "&6Post Underworld Knight&r"
@@ -634,7 +640,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1202CED8C1B47A67"
 			subtitle: "&6Post Underworld Knight&r"
@@ -653,7 +660,9 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7E45440B495DB5C1"
 			subtitle: "&6Post Underworld Knight&r"
@@ -672,7 +681,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1DCD713FC0F3E3B6"
 			subtitle: "&6Post Netherite Monstrosity&r"
@@ -691,8 +701,9 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
-			hide_until_deps_complete: true
+			dependencies: ["3A908ED8568C4279"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
 			id: "3C039F5FCF441451"
 			subtitle: "&6Post Netherite Monstrosity&r"
 			tasks: [{
@@ -710,7 +721,8 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5DA0156177FA8DDD"
 			subtitle: "&6Post Slider&r"
@@ -729,7 +741,8 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7DA6443883086123"
 			subtitle: "&6Post Void Blossom&r"
@@ -748,7 +761,8 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "69BB3611C0B5D15C"
 			subtitle: "&6Post Leviathan&r"
@@ -767,7 +781,8 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0F331378A3799B6D"
 			subtitle: "&6Post Harbinger&r"
@@ -786,7 +801,8 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "21DD839963B4902A"
 			shape: "octagon"
@@ -799,7 +815,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "2BE092882FB8CE70"
 			shape: "octagon"
@@ -834,7 +851,8 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: ["3A908ED8568C4279"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "013EB8B0B53393CE"
 			subtitle: "&6Post Ignis&r"
