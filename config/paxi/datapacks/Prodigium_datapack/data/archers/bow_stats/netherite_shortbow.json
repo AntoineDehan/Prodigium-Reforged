@@ -1,5 +1,5 @@
 {
-  "cooldown": 5,
+  "cooldown": 0,
   "base_damage": 5.8,
   "draw_time": 7,
   "range": 3,
