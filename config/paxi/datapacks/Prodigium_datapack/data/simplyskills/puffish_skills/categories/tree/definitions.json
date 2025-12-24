@@ -4893,6 +4893,14 @@
         }
       },
       {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": -2,
+          "operation": "addition"
+        }
+      },
+      {
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_crusader_weapons"
@@ -11217,6 +11225,14 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
+          "attribute": "generic.attack_damage",
+          "value": -2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
           "attribute": "generic.max_health",
           "value": 4,
           "operation": "addition"
@@ -11650,6 +11666,14 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
+          "attribute": "generic.attack_damage",
+          "value": -2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
           "attribute": "gunswithoutroses:gwr.damage_base",
           "value": -0.2,
           "operation": "addition"
@@ -11888,6 +11912,14 @@
         "data": {
           "attribute": "irons_spellbooks:max_mana",
           "value": 75,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": -2,
           "operation": "addition"
         }
       },
