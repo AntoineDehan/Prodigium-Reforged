@@ -37,6 +37,18 @@
       },
       {
         "item": "aether:phoenix_boots"
+      },
+      {
+        "item": "companions:crystallized_blood__helmet"
+      },
+      {
+        "item": "companions:crystallized_blood__leggings"
+      },
+      {
+        "item": "companions:crystallized_blood__chestplate"
+      },
+      {
+        "item": "companions:crystallized_blood__boots"
       }
     ],
     "modList": [],

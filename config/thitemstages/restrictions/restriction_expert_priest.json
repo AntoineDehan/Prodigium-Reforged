@@ -3,7 +3,7 @@
     "stage": "stage_priest_normal",
     "itemList": [
       {
-        "item": "mowziesmobs:sol_visage"
+        "item": "mowziesmobs:sol_helmet"
       },
       {
         "item": "kubejs:sol_chestplate"
@@ -13,6 +13,30 @@
       },
       {
         "item": "kubejs:sol_boots"
+      },
+      {
+        "item": "kubejs:holy_marauder_helmet"
+      },
+      {
+        "item": "kubejs:holy_marauder_chestplate"
+      },
+      {
+        "item": "kubejs:holy_marauder_leggins"
+      },
+      {
+        "item": "kubejs:holy_marauder_boots"
+      },
+      {
+        "item": "kubejs:nether_helmet"
+      },
+      {
+        "item": "kubejs:nether_chestplate"
+      },
+      {
+        "item": "kubejs:nether_leggins"
+      },
+      {
+        "item": "kubejs:nether_boots"
       }
     ],
     "modList": [],

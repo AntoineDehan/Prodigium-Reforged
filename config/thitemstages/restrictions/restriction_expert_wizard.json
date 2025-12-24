@@ -18,13 +18,37 @@
         "item": "kubejs:wizard_ignitium_helmet"
       },
       {
-        "item": "kubejs:wizard_ignitium_chest"
+        "item": "kubejs:wizard_ignitium_chestplate"
       },
       {
-        "item": "kubejs:wizard_ignitium_legs"
+        "item": "kubejs:wizard_ignitium_leggings"
       },
       {
         "item": "kubejs:wizard_ignitium_boots"
+      },
+      {
+        "item": "wizards:arcane_robe_head"
+      },
+      {
+        "item": "wizards:arcane_robe_chest"
+      },
+      {
+        "item": "wizards:arcane_robe_legs"
+      },
+      {
+        "item": "wizards:arcane_robe_feet"
+      },
+      {
+        "item": "wizards:fire_robe_head"
+      },
+      {
+        "item": "wizards:fire_robe_chest"
+      },
+      {
+        "item": "wizards:fire_robe_legs"
+      },
+      {
+        "item": "wizards:fire_robe_feet"
       }
     ],
     "modList": [],

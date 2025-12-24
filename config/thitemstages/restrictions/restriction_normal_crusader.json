@@ -3,10 +3,10 @@
     "stage": "stage_crusader_normal",
     "itemList": [
       {
-        "item": "paladin:paladin_armor_head"
+        "item": "paladins:paladin_armor_head"
       },
       {
-        "item": "paladin:paladin_armor_chest"
+        "item": "paladins:paladin_armor_chest"
       },
       {
         "item": "paladins:paladin_armor_legs"

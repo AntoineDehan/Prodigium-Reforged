@@ -31,7 +31,7 @@
         },
         "experience": [
           {
-            "expression": "dropped_xp / 3.8"
+            "expression": "dropped_xp / 4"
           }
         ],
         "anti_farming": {

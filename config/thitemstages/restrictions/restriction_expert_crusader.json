@@ -3,10 +3,10 @@
     "stage": "stage_crusader_expert",
     "itemList": [
       {
-        "item": "paladin:crusader_armor_head"
+        "item": "paladins:crusader_armor_head"
       },
       {
-        "item": "paladin:crusader_armor_chest"
+        "item": "paladins:crusader_armor_chest"
       },
       {
         "item": "paladins:crusader_armor_legs"
@@ -37,6 +37,18 @@
       },
       {
         "item": "block_factorys_bosses:dragon_bones_boots"
+      },
+      {
+        "item": "kubejs:plated_valkyrie_helmet"
+      },
+      {
+        "item": "kubejs:plated_valkyrie_bones_chestplate"
+      },
+      {
+        "item": "kubejs:plated_valkyrie_bones_leggings"
+      },
+      {
+        "item": "kubejs:plated_valkyrie_bones_boots"
       }
     ],
     "modList": [],

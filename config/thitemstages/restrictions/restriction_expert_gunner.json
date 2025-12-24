@@ -3,16 +3,40 @@
     "stage": "stage_gunner_expert",
     "itemList": [
       {
-        "item": "bypowderandsteel:infernal_enforcerhelmet"
+        "item": "bypowderandsteel:infernal_enforcer_helmet"
       },
       {
-        "item": "bypowderandsteel:infernal_enforcerleggings"
+        "item": "bypowderandsteel:infernal_enforcer_leggings"
       },
       {
-        "item": "bypowderandsteel:infernal_enforcerchestplate"
+        "item": "bypowderandsteel:infernal_enforcer_chestplate"
       },
       {
-        "item": "bypowderandsteel:infernal_enforcerboots"
+        "item": "bypowderandsteel:infernal_enforcer_boots"
+      },
+      {
+        "item": "kubejs:necro_helmet"
+      },
+      {
+        "item": "kubejs:necro_leggings"
+      },
+      {
+        "item": "kubejs:necro_chestplate"
+      },
+      {
+        "item": "kubejs:necro_boots"
+      },
+      {
+        "item": "kubejs:scaled_helmet"
+      },
+      {
+        "item": "kubejs:scaled_leggings"
+      },
+      {
+        "item": "kubejs:scaled_chestplate"
+      },
+      {
+        "item": "kubejs:scaled_boots"
       }
     ],
     "modList": [],

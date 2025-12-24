@@ -25,6 +25,30 @@
       },
       {
         "item": "prodigium:orichalcum_boots"
+      },
+      {
+        "item": "kubejs:phoenix_ranger_helmet"
+      },
+      {
+        "item": "kubejs:phoenix_ranger_chestplate"
+      },
+      {
+        "item": "kubejs:phoenix_ranger_leggings"
+      },
+      {
+        "item": "kubejs:phoenix_ranger_boots"
+      },
+      {
+        "item": "aether:neptune_helmet"
+      },
+      {
+        "item": "aether:neptune_chestplate"
+      },
+      {
+        "item": "aether:neptune_leggings"
+      },
+      {
+        "item": "aether:neptune_boots"
       }
     ],
     "modList": [],
