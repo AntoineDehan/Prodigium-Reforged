@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" ll", " i ", "lxl"],
+  "key": {
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "i": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "x": {
+      "item": "simpleores:onyx_gem"
+    }
+  },
+  "result": {
+    "item": "companions:mage_hat",
+    "count": 1
+  }
+}
