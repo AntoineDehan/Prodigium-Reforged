@@ -132,5 +132,5 @@ StartupEvents.registry("item", (event) => {
         )
     )
     .maxStackSize(1)
-    .tag("curios:ring");
+    .tag("curios:necklace");
 });
