@@ -13312,6 +13312,12 @@
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:gunner"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 51F86D6012A589B2"
+        }
       }
     ],
     "metadata": {
