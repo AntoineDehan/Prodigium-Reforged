@@ -54,9 +54,9 @@
 		"anvilAttackExplosionStrength": 5.0
 	},
 	"gauntletConfig": {
-		"health": 1415.0,
-		"armor": 12.0,
-		"attack": 10.0,
+		"health": 1700.0,
+		"armor": 14.0,
+		"attack": 11.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnAncientDebrisOnDeath": false,
@@ -66,7 +66,7 @@
 	"voidBlossomConfig": {
 		"health": 2150.0,
 		"armor": 10.0,
-		"attack": 15.0,
+		"attack": 17.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000
 	},

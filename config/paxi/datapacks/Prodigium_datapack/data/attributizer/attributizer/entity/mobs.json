@@ -235,7 +235,7 @@
   "terra_entity:cave_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 17,
+      "modify": 18,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -245,7 +245,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": 34,
+      "modify": 45,
       "operation": "ADDITION"
     }
   ],
@@ -779,7 +779,7 @@
   "terra_entity:hell_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 17,
+      "modify": 18,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -789,7 +789,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": 34,
+      "modify": 45,
       "operation": "ADDITION"
     }
   ],
@@ -830,7 +830,7 @@
   "terra_entity:ice_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 17,
+      "modify": 18,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -840,7 +840,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": 34,
+      "modify": 45,
       "operation": "ADDITION"
     }
   ],
@@ -864,7 +864,7 @@
   "terra_entity:jungle_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 17,
+      "modify": 18,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -874,7 +874,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": 34,
+      "modify": 45,
       "operation": "ADDITION"
     }
   ],
@@ -1051,7 +1051,7 @@
   "terra_entity:spore_bat": [
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": 17,
+      "modify": 18,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -1061,7 +1061,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": 34,
+      "modify": 45,
       "operation": "ADDITION"
     }
   ],

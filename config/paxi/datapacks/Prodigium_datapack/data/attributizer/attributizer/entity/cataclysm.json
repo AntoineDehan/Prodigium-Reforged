@@ -49,6 +49,16 @@
       "attribute": "minecraft:generic.armor",
       "modify": 0.25,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "cataclysm:the_harbinger": [
@@ -101,6 +111,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 0.2,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
     }
   ],
   "cataclysm:the_leviathan": [
@@ -153,6 +168,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 0.15,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
     }
   ],
   "cataclysm:ignis": [
@@ -205,6 +225,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 0.25,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
     }
   ],
   "cataclysm:ancient_remnant": [
@@ -257,6 +282,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 0.3,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.15,
+      "operation": "ADDITION"
     }
   ],
   "cataclysm:ender_golem": [
@@ -361,6 +391,16 @@
       "attribute": "minecraft:generic.armor",
       "modify": 0.35,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 4,
+      "operation": "ADDITION"
     }
   ]
 }

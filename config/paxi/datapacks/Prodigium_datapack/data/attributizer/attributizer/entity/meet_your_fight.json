@@ -101,6 +101,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 14,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 4,
+      "operation": "ADDITION"
     }
   ],
   "meetyourfight:dame_fortuna": [
@@ -153,6 +158,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 22,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
     }
   ],
   "meetyourfight:rosalyne": [
@@ -204,6 +214,11 @@
     {
       "attribute": "minecraft:generic.armor",
       "modify": 35,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
       "operation": "ADDITION"
     }
   ]

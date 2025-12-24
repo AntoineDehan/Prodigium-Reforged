@@ -44,6 +44,16 @@
       "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 2,
+      "operation": "ADDITION"
     }
   ],
   "bosses_of_mass_destruction:lich": [
@@ -138,6 +148,11 @@
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
     }
   ],
   "bosses_of_mass_destruction:void_blossom": [
@@ -185,13 +200,15 @@
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
-    }
-  ],
-  "a": [
+    },
     {
-      "attribute": "minecraft:generic.luck",
-      "min": -1,
-      "max": 1,
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:life_steal",
+      "modify": 0.05,
       "operation": "ADDITION"
     }
   ]

@@ -4,6 +4,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 0.5,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
     }
   ],
   "stalwart_dungeons:awful_ghast": [
@@ -50,6 +55,11 @@
     {
       "attribute": "minecraft:generic.armor",
       "modify": 16,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
       "operation": "ADDITION"
     }
   ],
@@ -98,46 +108,9 @@
       "attribute": "minecraft:generic.armor",
       "modify": 16,
       "operation": "ADDITION"
-    }
-  ],
-  "block_factorys_bosses:infernal_dragon": [
-    {
-      "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": 0.2,
-      "operation": "ADDITION"
     },
     {
-      "attribute": "irons_spellbooks:eldritch_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": -0.35,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:nature_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:lightning_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:holy_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:evocation_magic_resist",
-      "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "irons_spellbooks:blood_magic_resist",
+      "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
     }

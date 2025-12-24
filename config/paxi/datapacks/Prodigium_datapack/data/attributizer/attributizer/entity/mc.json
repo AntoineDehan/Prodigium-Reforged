@@ -96,6 +96,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 0.35,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.15,
+      "operation": "ADDITION"
     }
   ],
   "minecraft:elder_guardian": [
@@ -147,6 +152,11 @@
     {
       "attribute": "minecraft:generic.armor",
       "modify": 18,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
       "operation": "ADDITION"
     }
   ]

@@ -49,6 +49,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 16,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
     }
   ],
   "mowziesmobs:umvuthi": [
@@ -101,6 +106,11 @@
       "attribute": "minecraft:generic.armor",
       "modify": 14,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.05,
+      "operation": "ADDITION"
     }
   ],
   "mowziesmobs:ferrous_wroughtnaut": [
@@ -152,6 +162,11 @@
     {
       "attribute": "minecraft:generic.armor",
       "modify": 14,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.15,
       "operation": "ADDITION"
     }
   ]

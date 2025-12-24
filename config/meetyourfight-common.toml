@@ -11,19 +11,19 @@
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		health = 1.6
+		health = 3.3
 		#Damage multiplier for Swampjaw's charge
 		#eg 2 means x2 damage
 		#Values above ~170 require AttributeFix mod
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		melee = 1.1
+		melee = 1.4
 		#Explosion strength for Swampjaw's mines
 		#eg ghast fireballs are 1, creepers are 3, tnt 4, charged creeper 6
 		#Default: 2.5
 		#Range: 0.1 ~ 20.0
-		explosion = 2.5
+		explosion = 2.4
 
 	#Bellringer
 	[stats.bellringer]
@@ -33,12 +33,12 @@
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		health = 3.0
+		health = 3.3
 		#Damage multiplier for Bellringer's projectiles
 		#eg 2 means x2 damage
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		damage = 1.4
+		damage = 1.6
 
 	#Dame Fortuna
 	[stats.fortuna]

@@ -39,6 +39,11 @@
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 4,
+      "operation": "ADDITION"
     }
   ],
   "block_factorys_bosses:underworld_knight": [
@@ -81,6 +86,11 @@
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": 0.2,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.25,
+      "operation": "ADDITION"
     }
   ],
   "block_factorys_bosses:infernal_dragon": [
@@ -121,6 +131,11 @@
     },
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
     }

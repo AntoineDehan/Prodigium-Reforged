@@ -2,10 +2,10 @@ Warning = ["All number values need to include decimals !", "Use 10.0 instead of 
 
 ["Boss Health"]
 	#Max Health : 1024.0 (Use mods like AttributeFix to use higher values)
-	"Sandworm Health" = 800.0
+	"Sandworm Health" = 900.0
 	"Yeti Health" = 250.0
 	"Dragon Health" = 1200.0
-	"Knight Health" = 1100.0
+	"Knight Health" = 1450.0
 
 ["Boss Armor"]
 	#Max Armor : 30

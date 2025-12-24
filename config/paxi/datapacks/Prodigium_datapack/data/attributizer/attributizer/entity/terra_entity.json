@@ -37,22 +37,17 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": -0.65,
+      "modify": -0.85,
       "operation": "MULTIPLY_BASE"
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.2,
-      "operation": "MULTIPLY_BASE"
-    },
-    {
-      "attribute": "minecraft:generic.max_health",
-      "modify": -0.15,
+      "modify": -0.3,
       "operation": "MULTIPLY_BASE"
     },
     {
       "attribute": "minecraft:generic.movement_speed",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "MULTIPLY_BASE"
     }
   ],
@@ -173,6 +168,11 @@
       "attribute": "minecraft:generic.max_health",
       "modify": -0.1,
       "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.05,
+      "operation": "ADDITION"
     }
   ],
   "terra_entity:brain_fake": [
@@ -230,6 +230,11 @@
       "attribute": "minecraft:generic.max_health",
       "modify": -0.1,
       "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.05,
+      "operation": "ADDITION"
     }
   ],
   "terra_entity:eater_of_worlds": [
@@ -287,6 +292,11 @@
       "attribute": "minecraft:generic.max_health",
       "modify": -0.15,
       "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.05,
+      "operation": "ADDITION"
     }
   ],
   "terra_entity:queen_bee": [
@@ -344,6 +354,11 @@
       "attribute": "minecraft:generic.max_health",
       "modify": -0.1,
       "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.05,
+      "operation": "ADDITION"
     }
   ]
 }
