@@ -2,7 +2,7 @@
   {
     "mob": ["conjurer_illager:conjurer"],
     "result": "allow",
-    "healthmultiply": 2.4,
+    "healthmultiply": 5.4,
     "damagemultiply": 1.7,
     "when": "onjoin"
   },
