@@ -55,6 +55,37 @@ ItemEvents.modification((event) => {
     item.attackSpeed = -2.95;
   });
 
+  // Katar
+  event.modify("simple_weapons:iron_fist", (item) => {
+    item.attackDamage = 4.5;
+    item.attackSpeed = -2.7;
+  });
+
+  event.modify("simple_weapons:iron_fist", (item) => {
+    item.attackDamage = 5;
+    item.attackSpeed = -2.7;
+  });
+
+  event.modify("simple_weapons:stone_fist", (item) => {
+    item.attackDamage = 3.5;
+    item.attackSpeed = -2.7;
+  });
+
+  event.modify("simple_weapons:diamond_fist", (item) => {
+    item.attackDamage = 6;
+    item.attackSpeed = -2.7;
+  });
+
+  event.modify("simple_weapons:netherite_fist", (item) => {
+    item.attackDamage = 7;
+    item.attackSpeed = -2.7;
+  });
+
+  event.modify("simple_weapons:fiery_fist", (item) => {
+    item.attackDamage = 7.5;
+    item.attackSpeed = -2.7;
+  });
+
   // Other
 
   event.modify("born_in_chaos_v1:sweet_sword", (item) => {
