@@ -301,7 +301,7 @@
 		{
 			dependencies: ["44FCF260737D0785"]
 			id: "34C0644DBA585B8A"
-			subtitle: "&6Post Bellrigner&r"
+			subtitle: "&6Post Bellringer&r"
 			tasks: [{
 				id: "2B69CA87991D83F3"
 				item: {

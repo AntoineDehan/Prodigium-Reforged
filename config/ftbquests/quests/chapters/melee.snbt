@@ -138,6 +138,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["You need to unlock the armor in the &6Skill Tree&r."]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "01C7F36A07D993DB"
 			min_required_tasks: 1
