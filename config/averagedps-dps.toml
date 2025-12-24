@@ -1,0 +1,15 @@
+
+#HUD Settings
+[hud]
+	#Scale factor for the Boss DPS overlay (1.0 = default, <1 smaller, >1 bigger)
+	#Range: 0.5 ~ 2.0
+	hud_scale = 0.5
+	#Show DPS during boss fights
+	show_bossbar_dps = true
+	#Extra X offset applied to the Boss DPS overlay (draggable)
+	#Range: -10000 ~ 10000
+	hud_offset_x = 500
+	#Extra Y offset applied to the Boss DPS overlay (draggable)
+	#Range: -10000 ~ 10000
+	hud_offset_y = 11
+

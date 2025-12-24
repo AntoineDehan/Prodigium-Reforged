@@ -1,0 +1,6 @@
+
+#Configure which entities are considered bosses
+[bosses]
+	#List of entity IDs (namespace:name) to track as bosses
+	boss_entities = ["mowziesmobs:ferrous_wroughtnaut", "terra_entity:skeletron", "terra_entity:queen_bee", "terra_entity:brain_of_cthulhu", "terra_entity:eater_of_worlds", "terra_entity:eye_of_cthulhu", "lost_aether_content:aerwhale_king", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "meetyourfight:swampjaw", "aether:valkyrie_queen", "aether:sun_spirit", "terra_entity:king_slime", "aether:slider", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith", "minecraft:wither", "minecraft:ender_dragon", "conjurer_illager:conjurer", "minecraft:elder_guardian", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:awful_ghast", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "minecraft:warden", "cataclysm:the_harbinger", "alexsmobs:void_worm", "stalwart_dungeons:shelterer", "cataclysm:ender_guardian", "cataclysm:ender_golem", "cataclysm:ancient_remnant", "irons_spellbooks:dead_king", "cataclysm:the_leviathan", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw"]
+
