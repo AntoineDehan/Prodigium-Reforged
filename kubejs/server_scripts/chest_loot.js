@@ -21,6 +21,30 @@ LootJS.modifiers((event) => {
     .removeLoot("too_many_bows:torchbearer")
     .removeLoot("too_many_bows:demons_grasp")
     .removeLoot("too_many_bows:aethers_call");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/shiraz_palace/shiraz_palace_normal"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/shiraz_palace/shiraz_palace_supply"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/shiraz_palace/shiraz_palace_gardens"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
 
   event
     .addLootTableModifier(
@@ -157,6 +181,101 @@ LootJS.modifiers((event) => {
     .removeLoot("too_many_bows:torchbearer")
     .removeLoot("too_many_bows:demons_grasp")
     .removeLoot("too_many_bows:aethers_call");
+  event
+    .addLootTableModifier("dungeons_arise:chests/foundry/foundry_lava_pit")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier("dungeons_arise:chests/foundry/foundry_treasure")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier("dungeons_arise:chests/foundry/foundry_normal")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_challenger/heavenly_challenger"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_theater"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_rider/heavenly_rider_barrels"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_rider/heavenly_rider_normal"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_rider/heavenly_rider_treasure"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_barrels"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_treasure"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/ceryneian_hind/ceryneian_hind_treasure"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/foundry/foundry_passage_normal"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
 
   event
     .addLootTableModifier(
@@ -189,6 +308,12 @@ LootJS.modifiers((event) => {
     .removeLoot("too_many_bows:torchbearer")
     .removeLoot("too_many_bows:demons_grasp")
     .removeLoot("too_many_bows:aethers_call");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_treasure"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
 
   event
     .addLootTableModifier(
@@ -229,6 +354,70 @@ LootJS.modifiers((event) => {
     .removeLoot("too_many_bows:demons_grasp")
     .removeLoot("too_many_bows:aethers_call");
 
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/plague_asylum/plague_asylum_potions"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/bandit_village/bandit_village_tents"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/bandit_village/bandit_village_normal"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/bandit_village/bandit_village_barrels"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/bandit_towers/bandit_towers_rooms"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/bandit_towers/bandit_towers_treasure"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/bandit_towers/bandit_towers_normal"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier(
+      "dungeons_arise:chests/bandit_towers/bandit_towers_barrels"
+    )
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier("dungeons_arise:chests/aviary/aviary_treasure")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier("dungeons_arise:chests/aviary/aviary_normal")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+  event
+    .addLootTableModifier("dungeons_arise:chests/aviary/aviary_barrels")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
   //// Minecraft \\\\
   event
     .addLootTableModifier("minecraft:chests/abandoned_mineshaft")
@@ -247,4 +436,25 @@ LootJS.modifiers((event) => {
     .removeLoot("too_many_bows:torchbearer")
     .removeLoot("too_many_bows:demons_grasp")
     .removeLoot("too_many_bows:aethers_call");
+
+  event
+    .addLootTableModifier("minecraft:chests/jungle_temple")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier("minecraft:chests/ruined_portal")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  event
+    .addLootTableModifier("minecraft:chests/desert_pyramid")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
+
+  //// Loot Integrations \\\\
+  event
+    .addLootTableModifier("lootintegrations:chests/easy")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem");
 });
