@@ -59,7 +59,7 @@
 	#true if fireproof enchant is enabled, false if disabled
 	fireproof_enabled = true
 	#true if immunity frame enchant is enabled, false if disabled
-	immunity_frame_enabled = true
+	immunity_frame_enabled = false
 	#true if deflection enchant is enabled, false if disabled
 	deflection_enabled = true
 	#true if poison resistance enchant is enabled, false if disabled
