@@ -9,6 +9,11 @@
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "modify": 0.15,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "stalwart_dungeons:awful_ghast": [

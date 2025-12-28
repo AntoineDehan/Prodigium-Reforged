@@ -47,7 +47,7 @@
     },
     {
       "attribute": "minecraft:generic.armor",
-      "modify": 0.25,
+      "modify": 0.5,
       "operation": "MULTIPLY_TOTAL"
     },
     {

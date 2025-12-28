@@ -29,7 +29,7 @@
 	"signatureBerserkerBullrushRelentlessExhaustPerStrength": 20,
 	"signatureBerserkerBullrushRelentlessDuration": 200,
 	"signatureBerserkerBloodthirstyDuration": 380,
-	"signatureBerserkerBloodthirstyHealPercent": 0.2,
+	"signatureBerserkerBloodthirstyHealPercent": 0.20000000298023224,
 	"signatureBerserkerBloodthirstyTirelessChance": 85,
 	"signatureBerserkerBloodthirstyTremorChance": 15,
 	"signatureBerserkerBloodthirstyMightyStacks": 1,
