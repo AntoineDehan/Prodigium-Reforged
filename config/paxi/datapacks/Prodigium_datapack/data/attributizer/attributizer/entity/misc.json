@@ -114,5 +114,17 @@
       "modify": 0.1,
       "operation": "ADDITION"
     }
+  ],
+  "confluence:bee_projectile": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -0.7,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.8,
+      "operation": "MULTIPLY_TOTAL"
+    }
   ]
 }

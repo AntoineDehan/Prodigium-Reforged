@@ -104,7 +104,7 @@
     },
     {
       "attribute": "minecraft:generic.armor",
-      "modify": 14,
+      "modify": 25,
       "operation": "ADDITION"
     },
     {
