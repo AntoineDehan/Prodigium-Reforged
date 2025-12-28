@@ -10705,7 +10705,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "ranged_weapon:damage",
-          "value": 0.25,
+          "value": 0.1,
           "operation": "addition"
         }
       }
@@ -10732,7 +10732,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "ranged_weapon:damage",
-          "value": 0.25,
+          "value": 0.1,
           "operation": "addition"
         }
       }
@@ -10760,7 +10760,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "ranged_weapon:damage",
-          "value": 0.25,
+          "value": 0.1,
           "operation": "addition"
         }
       }
