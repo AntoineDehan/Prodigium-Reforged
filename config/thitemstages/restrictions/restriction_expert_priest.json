@@ -1,18 +1,18 @@
 {
   "Restriction Data": {
-    "stage": "stage_priest_normal",
+    "stage": "stage_priest_expert",
     "itemList": [
       {
-        "item": "mowziesmobs:sol_helmet"
+        "item": "paladins:prior_robe_head"
       },
       {
-        "item": "kubejs:sol_chestplate"
+        "item": "paladins:prior_robe_chest"
       },
       {
-        "item": "kubejs:sol_leggins"
+        "item": "paladins:prior_robe_legs"
       },
       {
-        "item": "kubejs:sol_boots"
+        "item": "paladins:prior_robe_feet"
       },
       {
         "item": "kubejs:holy_marauder_helmet"
