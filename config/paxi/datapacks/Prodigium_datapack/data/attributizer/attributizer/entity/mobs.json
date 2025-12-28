@@ -152,6 +152,18 @@
       "operation": "ADDITION"
     }
   ],
+  "terra_entity:slime_baby": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 15,
+      "operation": "ADDITION"
+    }
+  ],
   "terra_entity:blood_crawler": [
     {
       "attribute": "minecraft:generic.max_health",
