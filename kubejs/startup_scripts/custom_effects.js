@@ -33,7 +33,7 @@ StartupEvents.registry("mob_effect", (event) => {
     .modifyAttribute(
       "attributeslib:crit_chance",
       "1cf62d2c-c47f-4cee-998e-6a93ebb3874f",
-      2,
+      0.2,
       "addition"
     )
 
@@ -1033,7 +1033,7 @@ StartupEvents.registry("mob_effect", (event) => {
       "addition"
     );
 
-  // Nether Magic Knowledge
+  // Nether Wizard Knowledge
   event
     .create("nether_wizard_knowledge")
     .color(0xffd27f)

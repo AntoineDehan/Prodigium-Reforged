@@ -108,7 +108,7 @@ PlayerEvents.changeMana((event) => {
   if (
     player.hasEffect("kubejs:wizard_knowledge") ||
     player.hasEffect("kubejs:aether_wizard_knowledge") ||
-    player.hasEffect("kubejs:nether_magic_knowledge")
+    player.hasEffect("kubejs:nether_wizard_knowledge")
   ) {
     const oldMana = event.getOldMana();
     const newMana = event.getNewMana();
