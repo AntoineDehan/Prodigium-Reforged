@@ -10120,7 +10120,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:overheal",
-          "value": 0.1,
+          "value": 0.03,
           "operation": "addition"
         }
       }
@@ -10140,7 +10140,7 @@
         "data": {
           "attribute": "attributeslib:overheal",
           "value": 0.01,
-          "operation": "multiply_total"
+          "operation": "addition"
         }
       }
     ]
@@ -10244,7 +10244,7 @@
     ]
   },
   "healing+5%": {
-    "title": "+4% Healing",
+    "title": "+2% Healing",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10257,7 +10257,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.healing",
-          "value": 0.04,
+          "value": 0.02,
           "operation": "multiply_total"
         }
       }

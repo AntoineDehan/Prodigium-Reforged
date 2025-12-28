@@ -380,7 +380,7 @@
 
 [Mobs]
 	#Change how mobs target players. Use the enhancedai:use_target_changes and enhancedai:use_follow_range_changes entity type tag to whitelist mobs. Add mobs to enhancedai:allow_target_switch entity type tag to allow these mobs to be able to switch targets when hit (e.g. Creepers can't normally do that).
-	"Enable Targeting" = false
+	"Enable Targeting" = true
 	#Makes mobs be able to move in more ways, like climbing or swim. Only mobs in the enhancedai:allow_climbing entity type tag are allowed to climb.
 	"Enable Movement" = false
 	"Enable Spawning" = false
@@ -421,7 +421,7 @@
 		#By default, the new targeting AI only changes for targeting players. Setting this to true allows overriding target AI for entities other than players. Please note this might break specific AIs
 		"Targeting override for non players" = false
 		#Mobs will no longer take random time to target a player.
-		"Instant target" = false
+		"Instant target" = true
 		#Chance for a mob to be able to forget about it's target. If the mob can forget the target it will forget about it after 'Unseen forgot ticks' have passed.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		"Forget target chance" = 0.1
@@ -452,7 +452,7 @@
 			"Prefer players" = true
 			#Change for a mob to not attack other mobs when hit.
 			#Range: 0.0 ~ 1.0
-			"Prevent infighting" = 0.9
+			"Prevent infighting" = 0.8
 
 		#Chances for a mob to spawn neutral
 		[Mobs.Targeting."Neutral chances"]
@@ -544,10 +544,10 @@
 		#Chance for a mob in the entity type tag enhancedai:can_be_fisher to spawn with a Fishing Rod in the offhand.
 		#I recommend Mobs Properties Randomness to have more control over mobs equipment.
 		#Range: 0.0 ~ 1.0
-		"Equip fishing rod chance" = 0.07
+		"Equip fishing rod chance" = 0.1
 		#Chance for a fisher mob to steal an entity item in the hands instead of reeling the player.
 		#Range: 0.0 ~ 1.0
-		"Hook hands chance" = 0.4
+		"Hook hands chance" = 0.0
 		#The max distance mobs will use the fishing rod. Above this distance they will try to get closer.
 		#Range: > -2147483648
 		"Max distance" = 24

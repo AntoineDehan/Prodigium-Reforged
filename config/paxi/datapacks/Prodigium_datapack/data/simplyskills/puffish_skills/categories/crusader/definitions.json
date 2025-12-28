@@ -10268,7 +10268,7 @@
     ]
   },
   "healing+5%": {
-    "title": "+5% Healing",
+    "title": "+3% Healing",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10281,14 +10281,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.healing",
-          "value": 0.05,
+          "value": 0.03,
           "operation": "multiply_total"
         }
       }
     ]
   },
   "healing+10%": {
-    "title": "+10% Healing",
+    "title": "+5% Healing",
     "icon": {
       "type": "effect",
       "data": {
@@ -10300,7 +10300,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.healing",
-          "value": 0.1,
+          "value": 0.05,
           "operation": "multiply_total"
         }
       }

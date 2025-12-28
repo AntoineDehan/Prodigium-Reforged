@@ -4896,7 +4896,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.attack_damage",
-          "value": -2,
+          "value": -0.1,
           "operation": "addition"
         }
       },
@@ -11226,7 +11226,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.attack_damage",
-          "value": -2,
+          "value": -0.5,
           "operation": "addition"
         }
       },
@@ -11667,7 +11667,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.attack_damage",
-          "value": -2,
+          "value": -0.5,
           "operation": "addition"
         }
       },
@@ -11919,7 +11919,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.attack_damage",
-          "value": -2,
+          "value": -0.5,
           "operation": "addition"
         }
       },
