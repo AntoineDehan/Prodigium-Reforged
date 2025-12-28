@@ -1,0 +1,9 @@
+{
+  "minecraft:crossbow": [
+    {
+      "attribute": "ranged_weapon:damage",
+      "modify": -9,
+      "operation": "ADDITION"
+    }
+  ]
+}

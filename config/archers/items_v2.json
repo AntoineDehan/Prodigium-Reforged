@@ -12,22 +12,22 @@
     },
     "archers:royal_longbow": {
       "pull_time": 30,
-      "damage": 2.0,
+      "damage": 0.0,
       "velocity": 0.0
     },
     "archers:netherite_rapid_crossbow": {
       "pull_time": 20,
-      "damage": 9.5,
+      "damage": 0.0,
       "velocity": 0.0
     },
     "archers:heavy_crossbow": {
       "pull_time": 35,
-      "damage": 13.0,
+      "damage": 0.0,
       "velocity": 0.0
     },
     "archers:netherite_longbow": {
       "pull_time": 30,
-      "damage": 2.0,
+      "damage": 0.0,
       "velocity": 0.0
     },
     "archers:composite_longbow": {

@@ -1,7 +1,7 @@
 {
   "cooldown": 0,
-  "base_damage": 5.8,
-  "draw_time": 7,
+  "base_damage": 5,
+  "draw_time": 15,
   "range": 3,
   "player_speed": 0.9,
   "break_resist": 0.6,
