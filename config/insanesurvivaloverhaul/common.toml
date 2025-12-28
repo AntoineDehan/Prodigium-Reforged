@@ -1487,7 +1487,7 @@
 	#Prevents the player from placing blocks below him when in mid air.
 	"Enable No pillaring" = false
 	#Makes flying with elytra outside the end dimension have stronger "air resistance"
-	"Enable Elytra nerf" = true
+	"Enable Elytra nerf" = false
 	#Players's slowed down for a brief moment when hit.
 	"Enable Tagging" = false
 	#Armor slows down the player. Enchantment Weights are controlled via json in this feature's folder. Please note that default mods' armor slowdown is done through item definitions within the combat_rework data pack
@@ -1530,7 +1530,7 @@
 	[Movement."Elytra nerf"]
 		#How much the player is slowed down when gliding.
 		#Range: 0.0 ~ 1.0
-		"Air resistance" = 0.2
+		"Air resistance" = 0.1
 
 	#Players's slowed down for a brief moment when hit.
 	[Movement.Tagging]
