@@ -240,7 +240,7 @@
 234, forest, regions_unexplored:alpha_grove, MONSTER, terra_entity:red_slime, 50, 1, 3
 235, forest, regions_unexplored:alpha_grove, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 236, forest, regions_unexplored:alpha_grove, MONSTER, terra_entity:demon_eye, 50, 1, 2
-237, forest, regions_unexplored:alpha_grove, MONSTER, terra_entity:flying_fish, 50, 1, 2
+237, forest, regions_unexplored:alpha_grove, MONSTER, terra_entity:flying_fish, 38, 1, 2
 238, forest, regions_unexplored:alpha_grove, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 239, forest, regions_unexplored:alpha_grove, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 240, forest, regions_unexplored:alpha_grove, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -668,7 +668,7 @@
 662, forest, terralith:alpine_grove, MONSTER, terra_entity:red_slime, 50, 1, 3
 663, forest, terralith:alpine_grove, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 664, forest, terralith:alpine_grove, MONSTER, terra_entity:demon_eye, 50, 1, 2
-665, forest, terralith:alpine_grove, MONSTER, terra_entity:flying_fish, 50, 1, 2
+665, forest, terralith:alpine_grove, MONSTER, terra_entity:flying_fish, 38, 1, 2
 666, forest, terralith:alpine_grove, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 667, forest, terralith:alpine_grove, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 668, forest, terralith:alpine_grove, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -874,7 +874,7 @@
 868, none, terralith:alpine_highlands, MONSTER, terra_entity:red_slime, 50, 1, 3
 869, none, terralith:alpine_highlands, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 870, none, terralith:alpine_highlands, MONSTER, terra_entity:demon_eye, 50, 1, 2
-871, none, terralith:alpine_highlands, MONSTER, terra_entity:flying_fish, 50, 1, 2
+871, none, terralith:alpine_highlands, MONSTER, terra_entity:flying_fish, 38, 1, 2
 872, none, terralith:alpine_highlands, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 873, none, terralith:alpine_highlands, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 874, none, terralith:alpine_highlands, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -2251,7 +2251,7 @@
 2245, forest, regions_unexplored:autumnal_maple_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 2246, forest, regions_unexplored:autumnal_maple_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 2247, forest, regions_unexplored:autumnal_maple_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-2248, forest, regions_unexplored:autumnal_maple_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+2248, forest, regions_unexplored:autumnal_maple_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 2249, forest, regions_unexplored:autumnal_maple_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 2250, forest, regions_unexplored:autumnal_maple_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 2251, forest, regions_unexplored:autumnal_maple_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -2572,7 +2572,7 @@
 2566, forest, regions_unexplored:bamboo_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 2567, forest, regions_unexplored:bamboo_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 2568, forest, regions_unexplored:bamboo_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-2569, forest, regions_unexplored:bamboo_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+2569, forest, regions_unexplored:bamboo_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 2570, forest, regions_unexplored:bamboo_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 2571, forest, regions_unexplored:bamboo_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 2572, forest, regions_unexplored:bamboo_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -2907,7 +2907,7 @@
 2901, savanna, regions_unexplored:baobab_savanna, MONSTER, terra_entity:red_slime, 50, 1, 3
 2902, savanna, regions_unexplored:baobab_savanna, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 2903, savanna, regions_unexplored:baobab_savanna, MONSTER, terra_entity:demon_eye, 50, 1, 2
-2904, savanna, regions_unexplored:baobab_savanna, MONSTER, terra_entity:flying_fish, 50, 1, 2
+2904, savanna, regions_unexplored:baobab_savanna, MONSTER, terra_entity:flying_fish, 38, 1, 2
 2905, savanna, regions_unexplored:baobab_savanna, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 2906, savanna, regions_unexplored:baobab_savanna, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 2907, savanna, regions_unexplored:baobab_savanna, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -3072,7 +3072,7 @@
 3066, none, regions_unexplored:barley_fields, MONSTER, terra_entity:red_slime, 50, 1, 3
 3067, none, regions_unexplored:barley_fields, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 3068, none, regions_unexplored:barley_fields, MONSTER, terra_entity:demon_eye, 50, 1, 2
-3069, none, regions_unexplored:barley_fields, MONSTER, terra_entity:flying_fish, 50, 1, 2
+3069, none, regions_unexplored:barley_fields, MONSTER, terra_entity:flying_fish, 38, 1, 2
 3070, none, regions_unexplored:barley_fields, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 3071, none, regions_unexplored:barley_fields, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 3072, none, regions_unexplored:barley_fields, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -3330,8 +3330,8 @@
 3324, nether, minecraft:basalt_deltas, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 3325, nether, minecraft:basalt_deltas, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 3326, nether, minecraft:basalt_deltas, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-3327, nether, minecraft:basalt_deltas, MONSTER, terra_entity:drippler, 25, 1, 2
-3328, nether, minecraft:basalt_deltas, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+3327, nether, minecraft:basalt_deltas, MONSTER, terra_entity:drippler, 18, 1, 2
+3328, nether, minecraft:basalt_deltas, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 3329, nether, minecraft:basalt_deltas, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 3330, nether, minecraft:basalt_deltas, MONSTER, terra_entity:decayeder, 25, 1, 3
 3331, nether, minecraft:basalt_deltas, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -3448,7 +3448,7 @@
 3442, swamp, regions_unexplored:bayou, MONSTER, terra_entity:red_slime, 50, 1, 3
 3443, swamp, regions_unexplored:bayou, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 3444, swamp, regions_unexplored:bayou, MONSTER, terra_entity:demon_eye, 50, 1, 2
-3445, swamp, regions_unexplored:bayou, MONSTER, terra_entity:flying_fish, 50, 1, 2
+3445, swamp, regions_unexplored:bayou, MONSTER, terra_entity:flying_fish, 38, 1, 2
 3446, swamp, regions_unexplored:bayou, MONSTER, terra_entity:swamp_slime, 50, 1, 3
 3447, swamp, regions_unexplored:bayou, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 3448, swamp, regions_unexplored:bayou, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
@@ -3839,7 +3839,7 @@
 3833, forest, minecraft:birch_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 3834, forest, minecraft:birch_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 3835, forest, minecraft:birch_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-3836, forest, minecraft:birch_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+3836, forest, minecraft:birch_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 3837, forest, minecraft:birch_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 3838, forest, minecraft:birch_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 3839, forest, minecraft:birch_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -4031,7 +4031,7 @@
 4025, forest, terralith:birch_taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 4026, forest, terralith:birch_taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 4027, forest, terralith:birch_taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-4028, forest, terralith:birch_taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+4028, forest, terralith:birch_taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 4029, forest, terralith:birch_taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 4030, forest, terralith:birch_taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 4031, forest, terralith:birch_taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -4191,8 +4191,8 @@
 4185, nether, regions_unexplored:blackstone_basin, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 4186, nether, regions_unexplored:blackstone_basin, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 4187, nether, regions_unexplored:blackstone_basin, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-4188, nether, regions_unexplored:blackstone_basin, MONSTER, terra_entity:drippler, 25, 1, 2
-4189, nether, regions_unexplored:blackstone_basin, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+4188, nether, regions_unexplored:blackstone_basin, MONSTER, terra_entity:drippler, 18, 1, 2
+4189, nether, regions_unexplored:blackstone_basin, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 4190, nether, regions_unexplored:blackstone_basin, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 4191, nether, regions_unexplored:blackstone_basin, MONSTER, terra_entity:decayeder, 25, 1, 3
 4192, nether, regions_unexplored:blackstone_basin, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -4302,7 +4302,7 @@
 4296, taiga, regions_unexplored:blackwood_taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 4297, taiga, regions_unexplored:blackwood_taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 4298, taiga, regions_unexplored:blackwood_taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-4299, taiga, regions_unexplored:blackwood_taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+4299, taiga, regions_unexplored:blackwood_taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 4300, taiga, regions_unexplored:blackwood_taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 4301, taiga, regions_unexplored:blackwood_taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 4302, taiga, regions_unexplored:blackwood_taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -4822,7 +4822,7 @@
 4816, taiga, regions_unexplored:boreal_taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 4817, taiga, regions_unexplored:boreal_taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 4818, taiga, regions_unexplored:boreal_taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-4819, taiga, regions_unexplored:boreal_taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+4819, taiga, regions_unexplored:boreal_taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 4820, taiga, regions_unexplored:boreal_taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 4821, taiga, regions_unexplored:boreal_taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 4822, taiga, regions_unexplored:boreal_taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -7337,7 +7337,7 @@
 7331, forest, terralith:cloud_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 7332, forest, terralith:cloud_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 7333, forest, terralith:cloud_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-7334, forest, terralith:cloud_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+7334, forest, terralith:cloud_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 7335, forest, terralith:cloud_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 7336, forest, terralith:cloud_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 7337, forest, terralith:cloud_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -7619,7 +7619,7 @@
 7613, none, regions_unexplored:clover_plains, MONSTER, terra_entity:red_slime, 50, 1, 3
 7614, none, regions_unexplored:clover_plains, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 7615, none, regions_unexplored:clover_plains, MONSTER, terra_entity:demon_eye, 50, 1, 2
-7616, none, regions_unexplored:clover_plains, MONSTER, terra_entity:flying_fish, 50, 1, 2
+7616, none, regions_unexplored:clover_plains, MONSTER, terra_entity:flying_fish, 38, 1, 2
 7617, none, regions_unexplored:clover_plains, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 7618, none, regions_unexplored:clover_plains, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 7619, none, regions_unexplored:clover_plains, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -8415,8 +8415,8 @@
 8409, nether, minecraft:crimson_forest, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 8410, nether, minecraft:crimson_forest, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 8411, nether, minecraft:crimson_forest, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-8412, nether, minecraft:crimson_forest, MONSTER, terra_entity:drippler, 25, 1, 2
-8413, nether, minecraft:crimson_forest, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+8412, nether, minecraft:crimson_forest, MONSTER, terra_entity:drippler, 18, 1, 2
+8413, nether, minecraft:crimson_forest, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 8414, nether, minecraft:crimson_forest, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 8415, nether, minecraft:crimson_forest, MONSTER, terra_entity:decayeder, 25, 1, 3
 8416, nether, minecraft:crimson_forest, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -8540,7 +8540,7 @@
 8534, forest, minecraft:dark_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 8535, forest, minecraft:dark_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 8536, forest, minecraft:dark_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-8537, forest, minecraft:dark_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+8537, forest, minecraft:dark_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 8538, forest, minecraft:dark_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 8539, forest, minecraft:dark_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 8540, forest, minecraft:dark_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -8729,7 +8729,7 @@
 8723, forest, regions_unexplored:deciduous_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 8724, forest, regions_unexplored:deciduous_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 8725, forest, regions_unexplored:deciduous_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-8726, forest, regions_unexplored:deciduous_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+8726, forest, regions_unexplored:deciduous_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 8727, forest, regions_unexplored:deciduous_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 8728, forest, regions_unexplored:deciduous_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 8729, forest, regions_unexplored:deciduous_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -9041,7 +9041,7 @@
 9035, none, minecraft:deep_dark, MONSTER, terra_entity:red_slime, 50, 1, 3
 9036, none, minecraft:deep_dark, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 9037, none, minecraft:deep_dark, MONSTER, terra_entity:demon_eye, 50, 1, 2
-9038, none, minecraft:deep_dark, MONSTER, terra_entity:flying_fish, 50, 1, 2
+9038, none, minecraft:deep_dark, MONSTER, terra_entity:flying_fish, 38, 1, 2
 9039, none, minecraft:deep_dark, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 9040, none, minecraft:deep_dark, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 9041, none, minecraft:deep_dark, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -10211,7 +10211,7 @@
 10205, none, minecraft:dripstone_caves, MONSTER, terra_entity:red_slime, 50, 1, 3
 10206, none, minecraft:dripstone_caves, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 10207, none, minecraft:dripstone_caves, MONSTER, terra_entity:demon_eye, 50, 1, 2
-10208, none, minecraft:dripstone_caves, MONSTER, terra_entity:flying_fish, 50, 1, 2
+10208, none, minecraft:dripstone_caves, MONSTER, terra_entity:flying_fish, 38, 1, 2
 10209, none, minecraft:dripstone_caves, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 10210, none, minecraft:dripstone_caves, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 10211, none, minecraft:dripstone_caves, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -10355,7 +10355,7 @@
 10349, savanna, regions_unexplored:dry_bushland, MONSTER, terra_entity:red_slime, 50, 1, 3
 10350, savanna, regions_unexplored:dry_bushland, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 10351, savanna, regions_unexplored:dry_bushland, MONSTER, terra_entity:demon_eye, 50, 1, 2
-10352, savanna, regions_unexplored:dry_bushland, MONSTER, terra_entity:flying_fish, 50, 1, 2
+10352, savanna, regions_unexplored:dry_bushland, MONSTER, terra_entity:flying_fish, 38, 1, 2
 10353, savanna, regions_unexplored:dry_bushland, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 10354, savanna, regions_unexplored:dry_bushland, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 10355, savanna, regions_unexplored:dry_bushland, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -11419,7 +11419,7 @@
 11413, swamp, regions_unexplored:fen, MONSTER, terra_entity:red_slime, 50, 1, 3
 11414, swamp, regions_unexplored:fen, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 11415, swamp, regions_unexplored:fen, MONSTER, terra_entity:demon_eye, 50, 1, 2
-11416, swamp, regions_unexplored:fen, MONSTER, terra_entity:flying_fish, 50, 1, 2
+11416, swamp, regions_unexplored:fen, MONSTER, terra_entity:flying_fish, 38, 1, 2
 11417, swamp, regions_unexplored:fen, MONSTER, terra_entity:swamp_slime, 50, 1, 3
 11418, swamp, regions_unexplored:fen, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 11419, swamp, regions_unexplored:fen, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
@@ -11663,7 +11663,7 @@
 11657, none, regions_unexplored:flower_fields, MONSTER, terra_entity:red_slime, 50, 1, 3
 11658, none, regions_unexplored:flower_fields, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 11659, none, regions_unexplored:flower_fields, MONSTER, terra_entity:demon_eye, 50, 1, 2
-11660, none, regions_unexplored:flower_fields, MONSTER, terra_entity:flying_fish, 50, 1, 2
+11660, none, regions_unexplored:flower_fields, MONSTER, terra_entity:flying_fish, 38, 1, 2
 11661, none, regions_unexplored:flower_fields, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 11662, none, regions_unexplored:flower_fields, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 11663, none, regions_unexplored:flower_fields, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -11825,7 +11825,7 @@
 11819, forest, minecraft:flower_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 11820, forest, minecraft:flower_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 11821, forest, minecraft:flower_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-11822, forest, minecraft:flower_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+11822, forest, minecraft:flower_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 11823, forest, minecraft:flower_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 11824, forest, minecraft:flower_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 11825, forest, minecraft:flower_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -12016,7 +12016,7 @@
 12010, forest, minecraft:forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 12011, forest, minecraft:forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 12012, forest, minecraft:forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-12013, forest, minecraft:forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+12013, forest, minecraft:forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 12014, forest, minecraft:forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 12015, forest, minecraft:forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 12016, forest, minecraft:forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -12211,7 +12211,7 @@
 12205, forest, terralith:forested_highlands, MONSTER, terra_entity:red_slime, 50, 1, 3
 12206, forest, terralith:forested_highlands, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 12207, forest, terralith:forested_highlands, MONSTER, terra_entity:demon_eye, 50, 1, 2
-12208, forest, terralith:forested_highlands, MONSTER, terra_entity:flying_fish, 50, 1, 2
+12208, forest, terralith:forested_highlands, MONSTER, terra_entity:flying_fish, 38, 1, 2
 12209, forest, terralith:forested_highlands, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 12210, forest, terralith:forested_highlands, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 12211, forest, terralith:forested_highlands, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -12415,7 +12415,7 @@
 12409, savanna, terralith:fractured_savanna, MONSTER, terra_entity:red_slime, 50, 1, 3
 12410, savanna, terralith:fractured_savanna, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 12411, savanna, terralith:fractured_savanna, MONSTER, terra_entity:demon_eye, 50, 1, 2
-12412, savanna, terralith:fractured_savanna, MONSTER, terra_entity:flying_fish, 50, 1, 2
+12412, savanna, terralith:fractured_savanna, MONSTER, terra_entity:flying_fish, 38, 1, 2
 12413, savanna, terralith:fractured_savanna, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 12414, savanna, terralith:fractured_savanna, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 12415, savanna, terralith:fractured_savanna, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -13605,7 +13605,7 @@
 13599, swamp, regions_unexplored:fungal_fen, MONSTER, terra_entity:red_slime, 50, 1, 3
 13600, swamp, regions_unexplored:fungal_fen, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 13601, swamp, regions_unexplored:fungal_fen, MONSTER, terra_entity:demon_eye, 50, 1, 2
-13602, swamp, regions_unexplored:fungal_fen, MONSTER, terra_entity:flying_fish, 50, 1, 2
+13602, swamp, regions_unexplored:fungal_fen, MONSTER, terra_entity:flying_fish, 38, 1, 2
 13603, swamp, regions_unexplored:fungal_fen, MONSTER, terra_entity:swamp_slime, 50, 1, 3
 13604, swamp, regions_unexplored:fungal_fen, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 13605, swamp, regions_unexplored:fungal_fen, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
@@ -14339,8 +14339,8 @@
 14333, nether, regions_unexplored:glistering_meadow, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 14334, nether, regions_unexplored:glistering_meadow, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 14335, nether, regions_unexplored:glistering_meadow, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-14336, nether, regions_unexplored:glistering_meadow, MONSTER, terra_entity:drippler, 25, 1, 2
-14337, nether, regions_unexplored:glistering_meadow, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+14336, nether, regions_unexplored:glistering_meadow, MONSTER, terra_entity:drippler, 18, 1, 2
+14337, nether, regions_unexplored:glistering_meadow, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 14338, nether, regions_unexplored:glistering_meadow, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 14339, nether, regions_unexplored:glistering_meadow, MONSTER, terra_entity:decayeder, 25, 1, 3
 14340, nether, regions_unexplored:glistering_meadow, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -14463,7 +14463,7 @@
 14457, taiga, regions_unexplored:golden_boreal_taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 14458, taiga, regions_unexplored:golden_boreal_taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 14459, taiga, regions_unexplored:golden_boreal_taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-14460, taiga, regions_unexplored:golden_boreal_taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+14460, taiga, regions_unexplored:golden_boreal_taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 14461, taiga, regions_unexplored:golden_boreal_taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 14462, taiga, regions_unexplored:golden_boreal_taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 14463, taiga, regions_unexplored:golden_boreal_taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -14919,7 +14919,7 @@
 14913, plains, regions_unexplored:grassland, MONSTER, terra_entity:red_slime, 50, 1, 3
 14914, plains, regions_unexplored:grassland, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 14915, plains, regions_unexplored:grassland, MONSTER, terra_entity:demon_eye, 50, 1, 2
-14916, plains, regions_unexplored:grassland, MONSTER, terra_entity:flying_fish, 50, 1, 2
+14916, plains, regions_unexplored:grassland, MONSTER, terra_entity:flying_fish, 38, 1, 2
 14917, plains, regions_unexplored:grassland, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 14918, plains, regions_unexplored:grassland, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 14919, plains, regions_unexplored:grassland, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -15559,7 +15559,7 @@
 15553, forest, minecraft:grove, MONSTER, terra_entity:red_slime, 50, 1, 3
 15554, forest, minecraft:grove, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 15555, forest, minecraft:grove, MONSTER, terra_entity:demon_eye, 50, 1, 2
-15556, forest, minecraft:grove, MONSTER, terra_entity:flying_fish, 50, 1, 2
+15556, forest, minecraft:grove, MONSTER, terra_entity:flying_fish, 38, 1, 2
 15557, forest, minecraft:grove, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 15558, forest, minecraft:grove, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 15559, forest, minecraft:grove, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -16062,7 +16062,7 @@
 16056, none, terralith:highlands, MONSTER, terra_entity:red_slime, 50, 1, 3
 16057, none, terralith:highlands, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 16058, none, terralith:highlands, MONSTER, terra_entity:demon_eye, 50, 1, 2
-16059, none, terralith:highlands, MONSTER, terra_entity:flying_fish, 50, 1, 2
+16059, none, terralith:highlands, MONSTER, terra_entity:flying_fish, 38, 1, 2
 16060, none, terralith:highlands, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 16061, none, terralith:highlands, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 16062, none, terralith:highlands, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -16611,7 +16611,7 @@
 16605, swamp, terralith:ice_marsh, MONSTER, terra_entity:red_slime, 50, 1, 3
 16606, swamp, terralith:ice_marsh, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 16607, swamp, terralith:ice_marsh, MONSTER, terra_entity:demon_eye, 50, 1, 2
-16608, swamp, terralith:ice_marsh, MONSTER, terra_entity:flying_fish, 50, 1, 2
+16608, swamp, terralith:ice_marsh, MONSTER, terra_entity:flying_fish, 38, 1, 2
 16609, swamp, terralith:ice_marsh, MONSTER, terra_entity:swamp_slime, 50, 1, 3
 16610, swamp, terralith:ice_marsh, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 16611, swamp, terralith:ice_marsh, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
@@ -17037,8 +17037,8 @@
 17031, nether, regions_unexplored:infernal_holt, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 17032, nether, regions_unexplored:infernal_holt, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 17033, nether, regions_unexplored:infernal_holt, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-17034, nether, regions_unexplored:infernal_holt, MONSTER, terra_entity:drippler, 25, 1, 2
-17035, nether, regions_unexplored:infernal_holt, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+17034, nether, regions_unexplored:infernal_holt, MONSTER, terra_entity:drippler, 18, 1, 2
+17035, nether, regions_unexplored:infernal_holt, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 17036, nether, regions_unexplored:infernal_holt, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 17037, nether, regions_unexplored:infernal_holt, MONSTER, terra_entity:decayeder, 25, 1, 3
 17038, nether, regions_unexplored:infernal_holt, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -17780,7 +17780,7 @@
 17774, forest, terralith:lavender_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 17775, forest, terralith:lavender_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 17776, forest, terralith:lavender_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-17777, forest, terralith:lavender_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+17777, forest, terralith:lavender_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 17778, forest, terralith:lavender_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 17779, forest, terralith:lavender_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 17780, forest, terralith:lavender_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -17974,7 +17974,7 @@
 17968, forest, terralith:lavender_valley, MONSTER, terra_entity:red_slime, 50, 1, 3
 17969, forest, terralith:lavender_valley, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 17970, forest, terralith:lavender_valley, MONSTER, terra_entity:demon_eye, 50, 1, 2
-17971, forest, terralith:lavender_valley, MONSTER, terra_entity:flying_fish, 50, 1, 2
+17971, forest, terralith:lavender_valley, MONSTER, terra_entity:flying_fish, 38, 1, 2
 17972, forest, terralith:lavender_valley, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 17973, forest, terralith:lavender_valley, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 17974, forest, terralith:lavender_valley, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -18646,7 +18646,7 @@
 18640, forest, terralith:lush_valley, MONSTER, terra_entity:red_slime, 50, 1, 3
 18641, forest, terralith:lush_valley, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 18642, forest, terralith:lush_valley, MONSTER, terra_entity:demon_eye, 50, 1, 2
-18643, forest, terralith:lush_valley, MONSTER, terra_entity:flying_fish, 50, 1, 2
+18643, forest, terralith:lush_valley, MONSTER, terra_entity:flying_fish, 38, 1, 2
 18644, forest, terralith:lush_valley, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 18645, forest, terralith:lush_valley, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 18646, forest, terralith:lush_valley, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -18845,7 +18845,7 @@
 18839, forest, regions_unexplored:magnolia_woodland, MONSTER, terra_entity:red_slime, 50, 1, 3
 18840, forest, regions_unexplored:magnolia_woodland, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 18841, forest, regions_unexplored:magnolia_woodland, MONSTER, terra_entity:demon_eye, 50, 1, 2
-18842, forest, regions_unexplored:magnolia_woodland, MONSTER, terra_entity:flying_fish, 50, 1, 2
+18842, forest, regions_unexplored:magnolia_woodland, MONSTER, terra_entity:flying_fish, 38, 1, 2
 18843, forest, regions_unexplored:magnolia_woodland, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 18844, forest, regions_unexplored:magnolia_woodland, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 18845, forest, regions_unexplored:magnolia_woodland, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -19032,7 +19032,7 @@
 19026, swamp, minecraft:mangrove_swamp, MONSTER, terra_entity:red_slime, 50, 1, 3
 19027, swamp, minecraft:mangrove_swamp, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 19028, swamp, minecraft:mangrove_swamp, MONSTER, terra_entity:demon_eye, 50, 1, 2
-19029, swamp, minecraft:mangrove_swamp, MONSTER, terra_entity:flying_fish, 50, 1, 2
+19029, swamp, minecraft:mangrove_swamp, MONSTER, terra_entity:flying_fish, 38, 1, 2
 19030, swamp, minecraft:mangrove_swamp, MONSTER, terra_entity:swamp_slime, 50, 1, 3
 19031, swamp, minecraft:mangrove_swamp, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 19032, swamp, minecraft:mangrove_swamp, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
@@ -19198,7 +19198,7 @@
 19192, forest, regions_unexplored:maple_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 19193, forest, regions_unexplored:maple_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 19194, forest, regions_unexplored:maple_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-19195, forest, regions_unexplored:maple_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+19195, forest, regions_unexplored:maple_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 19196, forest, regions_unexplored:maple_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 19197, forest, regions_unexplored:maple_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 19198, forest, regions_unexplored:maple_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -19379,7 +19379,7 @@
 19373, swamp, regions_unexplored:marsh, MONSTER, terra_entity:red_slime, 50, 1, 3
 19374, swamp, regions_unexplored:marsh, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 19375, swamp, regions_unexplored:marsh, MONSTER, terra_entity:demon_eye, 50, 1, 2
-19376, swamp, regions_unexplored:marsh, MONSTER, terra_entity:flying_fish, 50, 1, 2
+19376, swamp, regions_unexplored:marsh, MONSTER, terra_entity:flying_fish, 38, 1, 2
 19377, swamp, regions_unexplored:marsh, MONSTER, terra_entity:swamp_slime, 50, 1, 3
 19378, swamp, regions_unexplored:marsh, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 19379, swamp, regions_unexplored:marsh, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
@@ -19538,7 +19538,7 @@
 19532, forest, regions_unexplored:mauve_hills, MONSTER, terra_entity:red_slime, 50, 1, 3
 19533, forest, regions_unexplored:mauve_hills, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 19534, forest, regions_unexplored:mauve_hills, MONSTER, terra_entity:demon_eye, 50, 1, 2
-19535, forest, regions_unexplored:mauve_hills, MONSTER, terra_entity:flying_fish, 50, 1, 2
+19535, forest, regions_unexplored:mauve_hills, MONSTER, terra_entity:flying_fish, 38, 1, 2
 19536, forest, regions_unexplored:mauve_hills, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 19537, forest, regions_unexplored:mauve_hills, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 19538, forest, regions_unexplored:mauve_hills, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -19723,7 +19723,7 @@
 19717, plains, minecraft:meadow, MONSTER, terra_entity:red_slime, 50, 1, 3
 19718, plains, minecraft:meadow, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 19719, plains, minecraft:meadow, MONSTER, terra_entity:demon_eye, 50, 1, 2
-19720, plains, minecraft:meadow, MONSTER, terra_entity:flying_fish, 50, 1, 2
+19720, plains, minecraft:meadow, MONSTER, terra_entity:flying_fish, 38, 1, 2
 19721, plains, minecraft:meadow, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 19722, plains, minecraft:meadow, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 19723, plains, minecraft:meadow, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -19897,7 +19897,7 @@
 19891, forest, terralith:mirage_isles, MONSTER, terra_entity:red_slime, 50, 1, 3
 19892, forest, terralith:mirage_isles, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 19893, forest, terralith:mirage_isles, MONSTER, terra_entity:demon_eye, 50, 1, 2
-19894, forest, terralith:mirage_isles, MONSTER, terra_entity:flying_fish, 50, 1, 2
+19894, forest, terralith:mirage_isles, MONSTER, terra_entity:flying_fish, 38, 1, 2
 19895, forest, terralith:mirage_isles, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 19896, forest, terralith:mirage_isles, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 19897, forest, terralith:mirage_isles, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -20097,7 +20097,7 @@
 20091, forest, terralith:moonlight_grove, MONSTER, terra_entity:red_slime, 50, 1, 3
 20092, forest, terralith:moonlight_grove, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 20093, forest, terralith:moonlight_grove, MONSTER, terra_entity:demon_eye, 50, 1, 2
-20094, forest, terralith:moonlight_grove, MONSTER, terra_entity:flying_fish, 50, 1, 2
+20094, forest, terralith:moonlight_grove, MONSTER, terra_entity:flying_fish, 38, 1, 2
 20095, forest, terralith:moonlight_grove, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 20096, forest, terralith:moonlight_grove, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 20097, forest, terralith:moonlight_grove, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -20289,7 +20289,7 @@
 20283, forest, terralith:moonlight_valley, MONSTER, terra_entity:red_slime, 50, 1, 3
 20284, forest, terralith:moonlight_valley, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 20285, forest, terralith:moonlight_valley, MONSTER, terra_entity:demon_eye, 50, 1, 2
-20286, forest, terralith:moonlight_valley, MONSTER, terra_entity:flying_fish, 50, 1, 2
+20286, forest, terralith:moonlight_valley, MONSTER, terra_entity:flying_fish, 38, 1, 2
 20287, forest, terralith:moonlight_valley, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 20288, forest, terralith:moonlight_valley, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 20289, forest, terralith:moonlight_valley, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -20960,8 +20960,8 @@
 20954, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 20955, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 20956, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-20957, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, terra_entity:drippler, 25, 1, 2
-20958, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+20957, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, terra_entity:drippler, 18, 1, 2
+20958, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 20959, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 20960, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, terra_entity:decayeder, 25, 1, 3
 20961, nether, regions_unexplored:mycotoxic_undergrowth, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -21147,8 +21147,8 @@
 21141, nether, minecraft:nether_wastes, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 21142, nether, minecraft:nether_wastes, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 21143, nether, minecraft:nether_wastes, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-21144, nether, minecraft:nether_wastes, MONSTER, terra_entity:drippler, 25, 1, 2
-21145, nether, minecraft:nether_wastes, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+21144, nether, minecraft:nether_wastes, MONSTER, terra_entity:drippler, 18, 1, 2
+21145, nether, minecraft:nether_wastes, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 21146, nether, minecraft:nether_wastes, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 21147, nether, minecraft:nether_wastes, MONSTER, terra_entity:decayeder, 25, 1, 3
 21148, nether, minecraft:nether_wastes, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -21382,7 +21382,7 @@
 21376, swamp, regions_unexplored:old_growth_bayou, MONSTER, terra_entity:red_slime, 50, 1, 3
 21377, swamp, regions_unexplored:old_growth_bayou, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 21378, swamp, regions_unexplored:old_growth_bayou, MONSTER, terra_entity:demon_eye, 50, 1, 2
-21379, swamp, regions_unexplored:old_growth_bayou, MONSTER, terra_entity:flying_fish, 50, 1, 2
+21379, swamp, regions_unexplored:old_growth_bayou, MONSTER, terra_entity:flying_fish, 38, 1, 2
 21380, swamp, regions_unexplored:old_growth_bayou, MONSTER, terra_entity:swamp_slime, 50, 1, 3
 21381, swamp, regions_unexplored:old_growth_bayou, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 21382, swamp, regions_unexplored:old_growth_bayou, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
@@ -21541,7 +21541,7 @@
 21535, forest, minecraft:old_growth_birch_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 21536, forest, minecraft:old_growth_birch_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 21537, forest, minecraft:old_growth_birch_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-21538, forest, minecraft:old_growth_birch_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+21538, forest, minecraft:old_growth_birch_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 21539, forest, minecraft:old_growth_birch_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 21540, forest, minecraft:old_growth_birch_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 21541, forest, minecraft:old_growth_birch_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -21731,7 +21731,7 @@
 21725, taiga, minecraft:old_growth_pine_taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 21726, taiga, minecraft:old_growth_pine_taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 21727, taiga, minecraft:old_growth_pine_taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-21728, taiga, minecraft:old_growth_pine_taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+21728, taiga, minecraft:old_growth_pine_taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 21729, taiga, minecraft:old_growth_pine_taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 21730, taiga, minecraft:old_growth_pine_taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 21731, taiga, minecraft:old_growth_pine_taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -21894,7 +21894,7 @@
 21888, taiga, minecraft:old_growth_spruce_taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 21889, taiga, minecraft:old_growth_spruce_taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 21890, taiga, minecraft:old_growth_spruce_taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-21891, taiga, minecraft:old_growth_spruce_taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+21891, taiga, minecraft:old_growth_spruce_taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 21892, taiga, minecraft:old_growth_spruce_taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 21893, taiga, minecraft:old_growth_spruce_taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 21894, taiga, minecraft:old_growth_spruce_taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -22053,7 +22053,7 @@
 22047, forest, regions_unexplored:orchard, MONSTER, terra_entity:red_slime, 50, 1, 3
 22048, forest, regions_unexplored:orchard, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 22049, forest, regions_unexplored:orchard, MONSTER, terra_entity:demon_eye, 50, 1, 2
-22050, forest, regions_unexplored:orchard, MONSTER, terra_entity:flying_fish, 50, 1, 2
+22050, forest, regions_unexplored:orchard, MONSTER, terra_entity:flying_fish, 38, 1, 2
 22051, forest, regions_unexplored:orchard, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 22052, forest, regions_unexplored:orchard, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 22053, forest, regions_unexplored:orchard, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -22239,7 +22239,7 @@
 22233, swamp, terralith:orchid_swamp, MONSTER, terra_entity:red_slime, 50, 1, 3
 22234, swamp, terralith:orchid_swamp, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 22235, swamp, terralith:orchid_swamp, MONSTER, terra_entity:demon_eye, 50, 1, 2
-22236, swamp, terralith:orchid_swamp, MONSTER, terra_entity:flying_fish, 50, 1, 2
+22236, swamp, terralith:orchid_swamp, MONSTER, terra_entity:flying_fish, 38, 1, 2
 22237, swamp, terralith:orchid_swamp, MONSTER, terra_entity:swamp_slime, 50, 1, 3
 22238, swamp, terralith:orchid_swamp, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 22239, swamp, terralith:orchid_swamp, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
@@ -22963,7 +22963,7 @@
 22957, taiga, regions_unexplored:pine_taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 22958, taiga, regions_unexplored:pine_taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 22959, taiga, regions_unexplored:pine_taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-22960, taiga, regions_unexplored:pine_taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+22960, taiga, regions_unexplored:pine_taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 22961, taiga, regions_unexplored:pine_taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 22962, taiga, regions_unexplored:pine_taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 22963, taiga, regions_unexplored:pine_taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -23118,7 +23118,7 @@
 23112, plains, minecraft:plains, MONSTER, terra_entity:red_slime, 50, 1, 3
 23113, plains, minecraft:plains, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 23114, plains, minecraft:plains, MONSTER, terra_entity:demon_eye, 50, 1, 2
-23115, plains, minecraft:plains, MONSTER, terra_entity:flying_fish, 50, 1, 2
+23115, plains, minecraft:plains, MONSTER, terra_entity:flying_fish, 38, 1, 2
 23116, plains, minecraft:plains, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 23117, plains, minecraft:plains, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 23118, plains, minecraft:plains, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -23314,7 +23314,7 @@
 23308, none, regions_unexplored:poppy_fields, MONSTER, terra_entity:red_slime, 50, 1, 3
 23309, none, regions_unexplored:poppy_fields, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 23310, none, regions_unexplored:poppy_fields, MONSTER, terra_entity:demon_eye, 50, 1, 2
-23311, none, regions_unexplored:poppy_fields, MONSTER, terra_entity:flying_fish, 50, 1, 2
+23311, none, regions_unexplored:poppy_fields, MONSTER, terra_entity:flying_fish, 38, 1, 2
 23312, none, regions_unexplored:poppy_fields, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 23313, none, regions_unexplored:poppy_fields, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 23314, none, regions_unexplored:poppy_fields, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -23472,7 +23472,7 @@
 23466, plains, regions_unexplored:prairie, MONSTER, terra_entity:red_slime, 50, 1, 3
 23467, plains, regions_unexplored:prairie, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 23468, plains, regions_unexplored:prairie, MONSTER, terra_entity:demon_eye, 50, 1, 2
-23469, plains, regions_unexplored:prairie, MONSTER, terra_entity:flying_fish, 50, 1, 2
+23469, plains, regions_unexplored:prairie, MONSTER, terra_entity:flying_fish, 38, 1, 2
 23470, plains, regions_unexplored:prairie, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 23471, plains, regions_unexplored:prairie, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 23472, plains, regions_unexplored:prairie, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -23751,7 +23751,7 @@
 23745, none, regions_unexplored:pumpkin_fields, MONSTER, terra_entity:red_slime, 50, 1, 3
 23746, none, regions_unexplored:pumpkin_fields, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 23747, none, regions_unexplored:pumpkin_fields, MONSTER, terra_entity:demon_eye, 50, 1, 2
-23748, none, regions_unexplored:pumpkin_fields, MONSTER, terra_entity:flying_fish, 50, 1, 2
+23748, none, regions_unexplored:pumpkin_fields, MONSTER, terra_entity:flying_fish, 38, 1, 2
 23749, none, regions_unexplored:pumpkin_fields, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 23750, none, regions_unexplored:pumpkin_fields, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 23751, none, regions_unexplored:pumpkin_fields, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -24162,8 +24162,8 @@
 24156, nether, regions_unexplored:redstone_abyss, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 24157, nether, regions_unexplored:redstone_abyss, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 24158, nether, regions_unexplored:redstone_abyss, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-24159, nether, regions_unexplored:redstone_abyss, MONSTER, terra_entity:drippler, 25, 1, 2
-24160, nether, regions_unexplored:redstone_abyss, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+24159, nether, regions_unexplored:redstone_abyss, MONSTER, terra_entity:drippler, 18, 1, 2
+24160, nether, regions_unexplored:redstone_abyss, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 24161, nether, regions_unexplored:redstone_abyss, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 24162, nether, regions_unexplored:redstone_abyss, MONSTER, terra_entity:decayeder, 25, 1, 3
 24163, nether, regions_unexplored:redstone_abyss, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -24390,7 +24390,7 @@
 24384, taiga, regions_unexplored:redwoods, MONSTER, terra_entity:red_slime, 50, 1, 3
 24385, taiga, regions_unexplored:redwoods, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 24386, taiga, regions_unexplored:redwoods, MONSTER, terra_entity:demon_eye, 50, 1, 2
-24387, taiga, regions_unexplored:redwoods, MONSTER, terra_entity:flying_fish, 50, 1, 2
+24387, taiga, regions_unexplored:redwoods, MONSTER, terra_entity:flying_fish, 38, 1, 2
 24388, taiga, regions_unexplored:redwoods, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 24389, taiga, regions_unexplored:redwoods, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 24390, taiga, regions_unexplored:redwoods, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -24841,7 +24841,7 @@
 24835, plains, regions_unexplored:rocky_meadow, MONSTER, terra_entity:red_slime, 50, 1, 3
 24836, plains, regions_unexplored:rocky_meadow, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 24837, plains, regions_unexplored:rocky_meadow, MONSTER, terra_entity:demon_eye, 50, 1, 2
-24838, plains, regions_unexplored:rocky_meadow, MONSTER, terra_entity:flying_fish, 50, 1, 2
+24838, plains, regions_unexplored:rocky_meadow, MONSTER, terra_entity:flying_fish, 38, 1, 2
 24839, plains, regions_unexplored:rocky_meadow, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 24840, plains, regions_unexplored:rocky_meadow, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 24841, plains, regions_unexplored:rocky_meadow, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -25261,7 +25261,7 @@
 25255, none, terralith:rocky_shrubland, MONSTER, terra_entity:red_slime, 50, 1, 3
 25256, none, terralith:rocky_shrubland, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 25257, none, terralith:rocky_shrubland, MONSTER, terra_entity:demon_eye, 50, 1, 2
-25258, none, terralith:rocky_shrubland, MONSTER, terra_entity:flying_fish, 50, 1, 2
+25258, none, terralith:rocky_shrubland, MONSTER, terra_entity:flying_fish, 38, 1, 2
 25259, none, terralith:rocky_shrubland, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 25260, none, terralith:rocky_shrubland, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 25261, none, terralith:rocky_shrubland, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -25573,7 +25573,7 @@
 25567, forest, terralith:sakura_grove, MONSTER, terra_entity:red_slime, 50, 1, 3
 25568, forest, terralith:sakura_grove, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 25569, forest, terralith:sakura_grove, MONSTER, terra_entity:demon_eye, 50, 1, 2
-25570, forest, terralith:sakura_grove, MONSTER, terra_entity:flying_fish, 50, 1, 2
+25570, forest, terralith:sakura_grove, MONSTER, terra_entity:flying_fish, 38, 1, 2
 25571, forest, terralith:sakura_grove, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 25572, forest, terralith:sakura_grove, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 25573, forest, terralith:sakura_grove, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -25856,7 +25856,7 @@
 25850, forest, terralith:sakura_valley, MONSTER, terra_entity:red_slime, 50, 1, 3
 25851, forest, terralith:sakura_valley, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 25852, forest, terralith:sakura_valley, MONSTER, terra_entity:demon_eye, 50, 1, 2
-25853, forest, terralith:sakura_valley, MONSTER, terra_entity:flying_fish, 50, 1, 2
+25853, forest, terralith:sakura_valley, MONSTER, terra_entity:flying_fish, 38, 1, 2
 25854, forest, terralith:sakura_valley, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 25855, forest, terralith:sakura_valley, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 25856, forest, terralith:sakura_valley, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -26219,7 +26219,7 @@
 26213, savanna, minecraft:savanna, MONSTER, terra_entity:red_slime, 50, 1, 3
 26214, savanna, minecraft:savanna, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 26215, savanna, minecraft:savanna, MONSTER, terra_entity:demon_eye, 50, 1, 2
-26216, savanna, minecraft:savanna, MONSTER, terra_entity:flying_fish, 50, 1, 2
+26216, savanna, minecraft:savanna, MONSTER, terra_entity:flying_fish, 38, 1, 2
 26217, savanna, minecraft:savanna, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 26218, savanna, minecraft:savanna, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 26219, savanna, minecraft:savanna, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -26547,7 +26547,7 @@
 26541, savanna, minecraft:savanna_plateau, MONSTER, terra_entity:red_slime, 50, 1, 3
 26542, savanna, minecraft:savanna_plateau, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 26543, savanna, minecraft:savanna_plateau, MONSTER, terra_entity:demon_eye, 50, 1, 2
-26544, savanna, minecraft:savanna_plateau, MONSTER, terra_entity:flying_fish, 50, 1, 2
+26544, savanna, minecraft:savanna_plateau, MONSTER, terra_entity:flying_fish, 38, 1, 2
 26545, savanna, minecraft:savanna_plateau, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 26546, savanna, minecraft:savanna_plateau, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 26547, savanna, minecraft:savanna_plateau, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -26737,7 +26737,7 @@
 26731, savanna, terralith:savanna_slopes, MONSTER, terra_entity:red_slime, 50, 1, 3
 26732, savanna, terralith:savanna_slopes, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 26733, savanna, terralith:savanna_slopes, MONSTER, terra_entity:demon_eye, 50, 1, 2
-26734, savanna, terralith:savanna_slopes, MONSTER, terra_entity:flying_fish, 50, 1, 2
+26734, savanna, terralith:savanna_slopes, MONSTER, terra_entity:flying_fish, 38, 1, 2
 26735, savanna, terralith:savanna_slopes, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 26736, savanna, terralith:savanna_slopes, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 26737, savanna, terralith:savanna_slopes, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -27199,7 +27199,7 @@
 27193, forest, terralith:shield, MONSTER, terra_entity:red_slime, 50, 1, 3
 27194, forest, terralith:shield, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 27195, forest, terralith:shield, MONSTER, terra_entity:demon_eye, 50, 1, 2
-27196, forest, terralith:shield, MONSTER, terra_entity:flying_fish, 50, 1, 2
+27196, forest, terralith:shield, MONSTER, terra_entity:flying_fish, 38, 1, 2
 27197, forest, terralith:shield, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 27198, forest, terralith:shield, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 27199, forest, terralith:shield, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -27528,7 +27528,7 @@
 27522, none, regions_unexplored:shrubland, MONSTER, terra_entity:red_slime, 50, 1, 3
 27523, none, regions_unexplored:shrubland, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 27524, none, regions_unexplored:shrubland, MONSTER, terra_entity:demon_eye, 50, 1, 2
-27525, none, regions_unexplored:shrubland, MONSTER, terra_entity:flying_fish, 50, 1, 2
+27525, none, regions_unexplored:shrubland, MONSTER, terra_entity:flying_fish, 38, 1, 2
 27526, none, regions_unexplored:shrubland, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 27527, none, regions_unexplored:shrubland, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 27528, none, regions_unexplored:shrubland, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -27836,7 +27836,7 @@
 27830, forest, terralith:siberian_grove, MONSTER, terra_entity:red_slime, 50, 1, 3
 27831, forest, terralith:siberian_grove, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 27832, forest, terralith:siberian_grove, MONSTER, terra_entity:demon_eye, 50, 1, 2
-27833, forest, terralith:siberian_grove, MONSTER, terra_entity:flying_fish, 50, 1, 2
+27833, forest, terralith:siberian_grove, MONSTER, terra_entity:flying_fish, 38, 1, 2
 27834, forest, terralith:siberian_grove, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 27835, forest, terralith:siberian_grove, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 27836, forest, terralith:siberian_grove, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -28046,7 +28046,7 @@
 28040, forest, terralith:siberian_taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 28041, forest, terralith:siberian_taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 28042, forest, terralith:siberian_taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-28043, forest, terralith:siberian_taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+28043, forest, terralith:siberian_taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 28044, forest, terralith:siberian_taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 28045, forest, terralith:siberian_taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 28046, forest, terralith:siberian_taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -28245,7 +28245,7 @@
 28239, forest, regions_unexplored:silver_birch_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 28240, forest, regions_unexplored:silver_birch_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 28241, forest, regions_unexplored:silver_birch_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-28242, forest, regions_unexplored:silver_birch_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+28242, forest, regions_unexplored:silver_birch_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 28243, forest, regions_unexplored:silver_birch_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 28244, forest, regions_unexplored:silver_birch_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 28245, forest, regions_unexplored:silver_birch_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -30176,7 +30176,7 @@
 30170, forest, terralith:snowy_cherry_grove, MONSTER, terra_entity:red_slime, 50, 1, 3
 30171, forest, terralith:snowy_cherry_grove, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 30172, forest, terralith:snowy_cherry_grove, MONSTER, terra_entity:demon_eye, 50, 1, 2
-30173, forest, terralith:snowy_cherry_grove, MONSTER, terra_entity:flying_fish, 50, 1, 2
+30173, forest, terralith:snowy_cherry_grove, MONSTER, terra_entity:flying_fish, 38, 1, 2
 30174, forest, terralith:snowy_cherry_grove, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 30175, forest, terralith:snowy_cherry_grove, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 30176, forest, terralith:snowy_cherry_grove, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -30381,7 +30381,7 @@
 30375, forest, terralith:snowy_maple_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 30376, forest, terralith:snowy_maple_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 30377, forest, terralith:snowy_maple_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-30378, forest, terralith:snowy_maple_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+30378, forest, terralith:snowy_maple_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 30379, forest, terralith:snowy_maple_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 30380, forest, terralith:snowy_maple_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 30381, forest, terralith:snowy_maple_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -30582,7 +30582,7 @@
 30576, icy, minecraft:snowy_plains, MONSTER, terra_entity:red_slime, 50, 1, 3
 30577, icy, minecraft:snowy_plains, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 30578, icy, minecraft:snowy_plains, MONSTER, terra_entity:demon_eye, 50, 1, 2
-30579, icy, minecraft:snowy_plains, MONSTER, terra_entity:flying_fish, 50, 1, 2
+30579, icy, minecraft:snowy_plains, MONSTER, terra_entity:flying_fish, 38, 1, 2
 30580, icy, minecraft:snowy_plains, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 30581, icy, minecraft:snowy_plains, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 30582, icy, minecraft:snowy_plains, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -30751,7 +30751,7 @@
 30745, forest, terralith:snowy_shield, MONSTER, terra_entity:red_slime, 50, 1, 3
 30746, forest, terralith:snowy_shield, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 30747, forest, terralith:snowy_shield, MONSTER, terra_entity:demon_eye, 50, 1, 2
-30748, forest, terralith:snowy_shield, MONSTER, terra_entity:flying_fish, 50, 1, 2
+30748, forest, terralith:snowy_shield, MONSTER, terra_entity:flying_fish, 38, 1, 2
 30749, forest, terralith:snowy_shield, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 30750, forest, terralith:snowy_shield, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 30751, forest, terralith:snowy_shield, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -31100,7 +31100,7 @@
 31094, taiga, minecraft:snowy_taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 31095, taiga, minecraft:snowy_taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 31096, taiga, minecraft:snowy_taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-31097, taiga, minecraft:snowy_taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+31097, taiga, minecraft:snowy_taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 31098, taiga, minecraft:snowy_taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 31099, taiga, minecraft:snowy_taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 31100, taiga, minecraft:snowy_taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -31240,8 +31240,8 @@
 31234, nether, minecraft:soul_sand_valley, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 31235, nether, minecraft:soul_sand_valley, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 31236, nether, minecraft:soul_sand_valley, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-31237, nether, minecraft:soul_sand_valley, MONSTER, terra_entity:drippler, 25, 1, 2
-31238, nether, minecraft:soul_sand_valley, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+31237, nether, minecraft:soul_sand_valley, MONSTER, terra_entity:drippler, 18, 1, 2
+31238, nether, minecraft:soul_sand_valley, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 31239, nether, minecraft:soul_sand_valley, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 31240, nether, minecraft:soul_sand_valley, MONSTER, terra_entity:decayeder, 25, 1, 3
 31241, nether, minecraft:soul_sand_valley, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -31336,8 +31336,8 @@
 31330, nether, gardens_of_the_dead:soulblight_forest, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 31331, nether, gardens_of_the_dead:soulblight_forest, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 31332, nether, gardens_of_the_dead:soulblight_forest, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-31333, nether, gardens_of_the_dead:soulblight_forest, MONSTER, terra_entity:drippler, 25, 1, 2
-31334, nether, gardens_of_the_dead:soulblight_forest, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+31333, nether, gardens_of_the_dead:soulblight_forest, MONSTER, terra_entity:drippler, 18, 1, 2
+31334, nether, gardens_of_the_dead:soulblight_forest, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 31335, nether, gardens_of_the_dead:soulblight_forest, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 31336, nether, gardens_of_the_dead:soulblight_forest, MONSTER, terra_entity:decayeder, 25, 1, 3
 31337, nether, gardens_of_the_dead:soulblight_forest, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -31745,7 +31745,7 @@
 31739, taiga, regions_unexplored:sparse_redwoods, MONSTER, terra_entity:red_slime, 50, 1, 3
 31740, taiga, regions_unexplored:sparse_redwoods, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 31741, taiga, regions_unexplored:sparse_redwoods, MONSTER, terra_entity:demon_eye, 50, 1, 2
-31742, taiga, regions_unexplored:sparse_redwoods, MONSTER, terra_entity:flying_fish, 50, 1, 2
+31742, taiga, regions_unexplored:sparse_redwoods, MONSTER, terra_entity:flying_fish, 38, 1, 2
 31743, taiga, regions_unexplored:sparse_redwoods, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 31744, taiga, regions_unexplored:sparse_redwoods, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 31745, taiga, regions_unexplored:sparse_redwoods, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -32033,7 +32033,7 @@
 32027, savanna, regions_unexplored:steppe, MONSTER, terra_entity:red_slime, 50, 1, 3
 32028, savanna, regions_unexplored:steppe, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 32029, savanna, regions_unexplored:steppe, MONSTER, terra_entity:demon_eye, 50, 1, 2
-32030, savanna, regions_unexplored:steppe, MONSTER, terra_entity:flying_fish, 50, 1, 2
+32030, savanna, regions_unexplored:steppe, MONSTER, terra_entity:flying_fish, 38, 1, 2
 32031, savanna, regions_unexplored:steppe, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 32032, savanna, regions_unexplored:steppe, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 32033, savanna, regions_unexplored:steppe, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -32337,7 +32337,7 @@
 32331, extreme_hills, minecraft:stony_peaks, MONSTER, terra_entity:red_slime, 50, 1, 3
 32332, extreme_hills, minecraft:stony_peaks, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 32333, extreme_hills, minecraft:stony_peaks, MONSTER, terra_entity:demon_eye, 50, 1, 2
-32334, extreme_hills, minecraft:stony_peaks, MONSTER, terra_entity:flying_fish, 50, 1, 2
+32334, extreme_hills, minecraft:stony_peaks, MONSTER, terra_entity:flying_fish, 38, 1, 2
 32335, extreme_hills, minecraft:stony_peaks, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 32336, extreme_hills, minecraft:stony_peaks, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 32337, extreme_hills, minecraft:stony_peaks, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -32492,7 +32492,7 @@
 32486, none, minecraft:stony_shore, MONSTER, terra_entity:red_slime, 50, 1, 3
 32487, none, minecraft:stony_shore, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 32488, none, minecraft:stony_shore, MONSTER, terra_entity:demon_eye, 50, 1, 2
-32489, none, minecraft:stony_shore, MONSTER, terra_entity:flying_fish, 50, 1, 2
+32489, none, minecraft:stony_shore, MONSTER, terra_entity:flying_fish, 38, 1, 2
 32490, none, minecraft:stony_shore, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 32491, none, minecraft:stony_shore, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 32492, none, minecraft:stony_shore, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -32854,7 +32854,7 @@
 32848, none, minecraft:sunflower_plains, MONSTER, terra_entity:red_slime, 50, 1, 3
 32849, none, minecraft:sunflower_plains, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 32850, none, minecraft:sunflower_plains, MONSTER, terra_entity:demon_eye, 50, 1, 2
-32851, none, minecraft:sunflower_plains, MONSTER, terra_entity:flying_fish, 50, 1, 2
+32851, none, minecraft:sunflower_plains, MONSTER, terra_entity:flying_fish, 38, 1, 2
 32852, none, minecraft:sunflower_plains, MONSTER, terra_entity:goblin_archer, 25, 1, 2
 32853, none, minecraft:sunflower_plains, MONSTER, terra_entity:goblin_peon, 20, 1, 2
 32854, none, minecraft:sunflower_plains, MONSTER, terra_entity:goblin_warrior, 25, 1, 2
@@ -33037,7 +33037,7 @@
 33031, swamp, minecraft:swamp, MONSTER, terra_entity:red_slime, 50, 1, 3
 33032, swamp, minecraft:swamp, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 33033, swamp, minecraft:swamp, MONSTER, terra_entity:demon_eye, 50, 1, 2
-33034, swamp, minecraft:swamp, MONSTER, terra_entity:flying_fish, 50, 1, 2
+33034, swamp, minecraft:swamp, MONSTER, terra_entity:flying_fish, 38, 1, 2
 33035, swamp, minecraft:swamp, MONSTER, terra_entity:swamp_slime, 50, 1, 3
 33036, swamp, minecraft:swamp, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 33037, swamp, minecraft:swamp, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
@@ -33202,7 +33202,7 @@
 33196, taiga, minecraft:taiga, MONSTER, terra_entity:red_slime, 50, 1, 3
 33197, taiga, minecraft:taiga, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 33198, taiga, minecraft:taiga, MONSTER, terra_entity:demon_eye, 50, 1, 2
-33199, taiga, minecraft:taiga, MONSTER, terra_entity:flying_fish, 50, 1, 2
+33199, taiga, minecraft:taiga, MONSTER, terra_entity:flying_fish, 38, 1, 2
 33200, taiga, minecraft:taiga, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 33201, taiga, minecraft:taiga, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 33202, taiga, minecraft:taiga, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -33367,7 +33367,7 @@
 33361, forest, regions_unexplored:temperate_grove, MONSTER, terra_entity:red_slime, 50, 1, 3
 33362, forest, regions_unexplored:temperate_grove, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 33363, forest, regions_unexplored:temperate_grove, MONSTER, terra_entity:demon_eye, 50, 1, 2
-33364, forest, regions_unexplored:temperate_grove, MONSTER, terra_entity:flying_fish, 50, 1, 2
+33364, forest, regions_unexplored:temperate_grove, MONSTER, terra_entity:flying_fish, 38, 1, 2
 33365, forest, regions_unexplored:temperate_grove, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 33366, forest, regions_unexplored:temperate_grove, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 33367, forest, regions_unexplored:temperate_grove, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -33556,7 +33556,7 @@
 33550, forest, terralith:temperate_highlands, MONSTER, terra_entity:red_slime, 50, 1, 3
 33551, forest, terralith:temperate_highlands, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 33552, forest, terralith:temperate_highlands, MONSTER, terra_entity:demon_eye, 50, 1, 2
-33553, forest, terralith:temperate_highlands, MONSTER, terra_entity:flying_fish, 50, 1, 2
+33553, forest, terralith:temperate_highlands, MONSTER, terra_entity:flying_fish, 38, 1, 2
 33554, forest, terralith:temperate_highlands, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 33555, forest, terralith:temperate_highlands, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 33556, forest, terralith:temperate_highlands, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -35142,8 +35142,8 @@
 35136, nether, minecraft:warped_forest, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 35137, nether, minecraft:warped_forest, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 35138, nether, minecraft:warped_forest, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-35139, nether, minecraft:warped_forest, MONSTER, terra_entity:drippler, 25, 1, 2
-35140, nether, minecraft:warped_forest, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+35139, nether, minecraft:warped_forest, MONSTER, terra_entity:drippler, 18, 1, 2
+35140, nether, minecraft:warped_forest, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 35141, nether, minecraft:warped_forest, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 35142, nether, minecraft:warped_forest, MONSTER, terra_entity:decayeder, 25, 1, 3
 35143, nether, minecraft:warped_forest, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -35381,8 +35381,8 @@
 35375, nether, gardens_of_the_dead:whistling_woods, MONSTER, born_in_chaos_v1:lifestealer, 5, 1, 1
 35376, nether, gardens_of_the_dead:whistling_woods, MONSTER, born_in_chaos_v1:missioner, 5, 1, 1
 35377, nether, gardens_of_the_dead:whistling_woods, MONSTER, terra_entity:blood_zombie, 40, 1, 2
-35378, nether, gardens_of_the_dead:whistling_woods, MONSTER, terra_entity:drippler, 25, 1, 2
-35379, nether, gardens_of_the_dead:whistling_woods, MONSTER, terra_entity:wandering_eye_fish, 20, 1, 2
+35378, nether, gardens_of_the_dead:whistling_woods, MONSTER, terra_entity:drippler, 18, 1, 2
+35379, nether, gardens_of_the_dead:whistling_woods, MONSTER, terra_entity:wandering_eye_fish, 15, 1, 2
 35380, nether, gardens_of_the_dead:whistling_woods, MONSTER, terra_entity:bloody_spore, 25, 1, 2
 35381, nether, gardens_of_the_dead:whistling_woods, MONSTER, terra_entity:decayeder, 25, 1, 3
 35382, nether, gardens_of_the_dead:whistling_woods, MONSTER, terra_entity:devourer, 10, 1, 1
@@ -35502,7 +35502,7 @@
 35496, forest, terralith:white_cliffs, MONSTER, terra_entity:red_slime, 50, 1, 3
 35497, forest, terralith:white_cliffs, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 35498, forest, terralith:white_cliffs, MONSTER, terra_entity:demon_eye, 50, 1, 2
-35499, forest, terralith:white_cliffs, MONSTER, terra_entity:flying_fish, 50, 1, 2
+35499, forest, terralith:white_cliffs, MONSTER, terra_entity:flying_fish, 38, 1, 2
 35500, forest, terralith:white_cliffs, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 35501, forest, terralith:white_cliffs, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 35502, forest, terralith:white_cliffs, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -35816,7 +35816,7 @@
 35810, forest, regions_unexplored:willow_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 35811, forest, regions_unexplored:willow_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 35812, forest, regions_unexplored:willow_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-35813, forest, regions_unexplored:willow_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+35813, forest, regions_unexplored:willow_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 35814, forest, regions_unexplored:willow_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 35815, forest, regions_unexplored:willow_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 35816, forest, regions_unexplored:willow_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -36001,7 +36001,7 @@
 35995, none, minecraft:windswept_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 35996, none, minecraft:windswept_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 35997, none, minecraft:windswept_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-35998, none, minecraft:windswept_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+35998, none, minecraft:windswept_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 35999, none, minecraft:windswept_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 36000, none, minecraft:windswept_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 36001, none, minecraft:windswept_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -36156,7 +36156,7 @@
 36150, none, minecraft:windswept_gravelly_hills, MONSTER, terra_entity:red_slime, 50, 1, 3
 36151, none, minecraft:windswept_gravelly_hills, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 36152, none, minecraft:windswept_gravelly_hills, MONSTER, terra_entity:demon_eye, 50, 1, 2
-36153, none, minecraft:windswept_gravelly_hills, MONSTER, terra_entity:flying_fish, 50, 1, 2
+36153, none, minecraft:windswept_gravelly_hills, MONSTER, terra_entity:flying_fish, 38, 1, 2
 36154, none, minecraft:windswept_gravelly_hills, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 36155, none, minecraft:windswept_gravelly_hills, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 36156, none, minecraft:windswept_gravelly_hills, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -36310,7 +36310,7 @@
 36304, none, minecraft:windswept_hills, MONSTER, terra_entity:red_slime, 50, 1, 3
 36305, none, minecraft:windswept_hills, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 36306, none, minecraft:windswept_hills, MONSTER, terra_entity:demon_eye, 50, 1, 2
-36307, none, minecraft:windswept_hills, MONSTER, terra_entity:flying_fish, 50, 1, 2
+36307, none, minecraft:windswept_hills, MONSTER, terra_entity:flying_fish, 38, 1, 2
 36308, none, minecraft:windswept_hills, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 36309, none, minecraft:windswept_hills, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 36310, none, minecraft:windswept_hills, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -36467,7 +36467,7 @@
 36461, savanna, minecraft:windswept_savanna, MONSTER, terra_entity:red_slime, 50, 1, 3
 36462, savanna, minecraft:windswept_savanna, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 36463, savanna, minecraft:windswept_savanna, MONSTER, terra_entity:demon_eye, 50, 1, 2
-36464, savanna, minecraft:windswept_savanna, MONSTER, terra_entity:flying_fish, 50, 1, 2
+36464, savanna, minecraft:windswept_savanna, MONSTER, terra_entity:flying_fish, 38, 1, 2
 36465, savanna, minecraft:windswept_savanna, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 36466, savanna, minecraft:windswept_savanna, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 36467, savanna, minecraft:windswept_savanna, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -36765,7 +36765,7 @@
 36759, forest, terralith:wintry_forest, MONSTER, terra_entity:red_slime, 50, 1, 3
 36760, forest, terralith:wintry_forest, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 36761, forest, terralith:wintry_forest, MONSTER, terra_entity:demon_eye, 50, 1, 2
-36762, forest, terralith:wintry_forest, MONSTER, terra_entity:flying_fish, 50, 1, 2
+36762, forest, terralith:wintry_forest, MONSTER, terra_entity:flying_fish, 38, 1, 2
 36763, forest, terralith:wintry_forest, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 36764, forest, terralith:wintry_forest, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 36765, forest, terralith:wintry_forest, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -36968,7 +36968,7 @@
 36962, forest, terralith:wintry_lowlands, MONSTER, terra_entity:red_slime, 50, 1, 3
 36963, forest, terralith:wintry_lowlands, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 36964, forest, terralith:wintry_lowlands, MONSTER, terra_entity:demon_eye, 50, 1, 2
-36965, forest, terralith:wintry_lowlands, MONSTER, terra_entity:flying_fish, 50, 1, 2
+36965, forest, terralith:wintry_lowlands, MONSTER, terra_entity:flying_fish, 38, 1, 2
 36966, forest, terralith:wintry_lowlands, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 36967, forest, terralith:wintry_lowlands, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 36968, forest, terralith:wintry_lowlands, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -37679,7 +37679,7 @@
 37673, taiga, terralith:yellowstone, MONSTER, terra_entity:red_slime, 50, 1, 3
 37674, taiga, terralith:yellowstone, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 37675, taiga, terralith:yellowstone, MONSTER, terra_entity:demon_eye, 50, 1, 2
-37676, taiga, terralith:yellowstone, MONSTER, terra_entity:flying_fish, 50, 1, 2
+37676, taiga, terralith:yellowstone, MONSTER, terra_entity:flying_fish, 38, 1, 2
 37677, taiga, terralith:yellowstone, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 37678, taiga, terralith:yellowstone, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 37679, taiga, terralith:yellowstone, MONSTER, terra_entity:big_bones, 40, 1, 2
@@ -37981,7 +37981,7 @@
 37975, forest, terralith:yosemite_lowlands, MONSTER, terra_entity:red_slime, 50, 1, 3
 37976, forest, terralith:yosemite_lowlands, MONSTER, terra_entity:yellow_slime, 50, 1, 3
 37977, forest, terralith:yosemite_lowlands, MONSTER, terra_entity:demon_eye, 50, 1, 2
-37978, forest, terralith:yosemite_lowlands, MONSTER, terra_entity:flying_fish, 50, 1, 2
+37978, forest, terralith:yosemite_lowlands, MONSTER, terra_entity:flying_fish, 38, 1, 2
 37979, forest, terralith:yosemite_lowlands, MONSTER, terra_entity:big_helmet_anger_bones, 20, 1, 1
 37980, forest, terralith:yosemite_lowlands, MONSTER, terra_entity:big_muscle_anger_bones, 20, 1, 1
 37981, forest, terralith:yosemite_lowlands, MONSTER, terra_entity:big_bones, 40, 1, 2
