@@ -1,0 +1,10 @@
+{
+  "too_many_bows:cyroheart_bow": [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "modify": -0.45,
+      "uuid": "02074837-30f5-4572-b175-0e37d12cd86e",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}
