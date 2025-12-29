@@ -47,7 +47,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "aether_redux:slider_music_disc",
+          "name": "aether:music_disc_sliders_wrath",
           "weight": 3
         },
         {
