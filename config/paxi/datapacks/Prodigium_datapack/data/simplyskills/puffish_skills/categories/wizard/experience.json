@@ -3,7 +3,7 @@
   "experience_per_level": {
     "type": "expression",
     "data": {
-      "expression": "50 * level + 60"
+      "expression": "100 * level + 75"
     }
   },
   "sources": [
