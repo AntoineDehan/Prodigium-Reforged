@@ -1,7 +1,7 @@
 
 [Materials]
 	#This material will be used to reforge an item that does not have a material override or repair item
-	Fallback = "aether:ambrosium_shard"
+	Fallback = "prodigium_reforged:wroughtnaut_plate"
 	#In this list you can define different reforge items for specific equipment.
 	#This can override repair items and will be used instead of the fallback item in case no repair item exists.
 	#The left item is the equipment and right is the material.

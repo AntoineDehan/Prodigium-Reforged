@@ -820,7 +820,7 @@
 			description: [
 				"Weapons, tools and armors have randomly attributes attributed to it. You can change the attributes by using the &cReforging Station&r."
 				""
-				"To &6reforge&r the Modifier, use the &lcorrespondig material&r and/or use an &lAmbrosium Shard&r that acts as a universal reforge item."
+				"To &6reforge&r the Modifier, use the &lcorrespondig material&r and/or use a &6&lWroughtnaut Plate&r&r that act as a universal reforge item."
 			]
 			id: "32A453D0E324CFEF"
 			rewards: [

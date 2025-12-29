@@ -18,4 +18,7 @@ ItemEvents.tooltip((event) => {
       "Right click while in a Boss structure to check it's respawning status"
     ),
   ]);
+  event.add("prodigium_reforged:wroughtnaut_plate", [
+    Text.gold("Can be used to reforge any item"),
+  ]);
 });
