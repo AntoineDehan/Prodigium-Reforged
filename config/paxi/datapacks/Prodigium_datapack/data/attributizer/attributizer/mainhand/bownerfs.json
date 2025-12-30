@@ -2,8 +2,28 @@
   "too_many_bows:cyroheart_bow": [
     {
       "attribute": "attributeslib:arrow_damage",
-      "modify": -0.45,
+      "modify": -0.5,
       "uuid": "02074837-30f5-4572-b175-0e37d12cd86e",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "modify": -0.35,
+      "uuid": "b926efc4-bf9d-45fc-a142-3b248cd936c2",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "too_many_bows:twin_shadows": [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "modify": -0.25,
+      "uuid": "04286aaf-975f-4c07-824d-9b7c96ad84d8",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "modify": -0.1,
+      "uuid": "5583531a-2733-4295-be7a-a223345b1ab9",
       "operation": "MULTIPLY_TOTAL"
     }
   ]

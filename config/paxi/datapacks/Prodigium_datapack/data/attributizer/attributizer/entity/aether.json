@@ -54,6 +54,11 @@
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
     }
   ],
   "lost_aether_content:aerwhale_king": [

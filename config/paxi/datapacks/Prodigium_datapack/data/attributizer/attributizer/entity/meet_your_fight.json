@@ -163,6 +163,11 @@
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
     }
   ],
   "meetyourfight:rosalyne": [
@@ -219,6 +224,11 @@
     {
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
       "operation": "ADDITION"
     }
   ]

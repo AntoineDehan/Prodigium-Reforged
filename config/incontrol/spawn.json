@@ -9,7 +9,8 @@
   {
     "mob": ["confluence:bee_projectile"],
     "result": "allow",
-    "damagemultiply": 0.5,
+    "damagemultiply": 0.1,
+    "speedmultiply": 0.25,
     "when": "onjoin"
   },
   {
@@ -21,7 +22,7 @@
   {
     "mob": ["irons_spellbooks:dead_king"],
     "result": "allow",
-    "healthmultiply": 2.4,
+    "healthmultiply": 2.8,
     "damagemultiply": 1.1,
     "when": "onjoin"
   },

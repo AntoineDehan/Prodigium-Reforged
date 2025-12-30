@@ -2,18 +2,23 @@
   "irons_spellbooks:dead_king": [
     {
       "attribute": "minecraft:generic.armor",
-      "modify": 0.5,
+      "modify": 0.6,
       "operation": "MULTIPLY_TOTAL"
     },
     {
       "attribute": "attributeslib:armor_shred",
-      "modify": 0.1,
+      "modify": 0.2,
       "operation": "ADDITION"
     },
     {
       "attribute": "irons_spellbooks:spell_power",
-      "modify": 0.15,
+      "modify": 0.2,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
     }
   ],
   "stalwart_dungeons:awful_ghast": [
@@ -65,6 +70,11 @@
     {
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
       "operation": "ADDITION"
     }
   ],
@@ -118,18 +128,43 @@
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
     }
   ],
   "confluence:bee_projectile": [
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": -0.7,
+      "modify": -0.85,
       "operation": "MULTIPLY_TOTAL"
     },
     {
       "attribute": "minecraft:generic.movement_speed",
-      "modify": -0.8,
+      "modify": -0.9,
       "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "confluence:magic_damage",
+      "modify": -0.85,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "confluence:ranged_damage",
+      "modify": -0.85,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "modify": -0.85,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": -2,
+      "operation": "ADDITION"
     }
   ]
 }

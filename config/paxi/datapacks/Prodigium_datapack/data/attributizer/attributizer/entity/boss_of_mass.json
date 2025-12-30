@@ -51,6 +51,11 @@
       "operation": "ADDITION"
     },
     {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "attributeslib:fire_damage",
       "modify": 2,
       "operation": "ADDITION"
@@ -153,6 +158,11 @@
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
     }
   ],
   "bosses_of_mass_destruction:void_blossom": [
@@ -204,6 +214,11 @@
     {
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
       "operation": "ADDITION"
     },
     {

@@ -56,6 +56,11 @@
       "operation": "ADDITION"
     },
     {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "minecraft:generic.movement_speed",
       "modify": 0.1,
       "operation": "MULTIPLY_TOTAL"
@@ -116,6 +121,11 @@
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
     }
   ],
   "cataclysm:the_leviathan": [
@@ -173,6 +183,11 @@
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
     }
   ],
   "cataclysm:ignis": [
@@ -229,6 +244,11 @@
     {
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
       "operation": "ADDITION"
     }
   ],
