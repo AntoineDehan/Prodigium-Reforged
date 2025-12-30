@@ -10189,7 +10189,7 @@
     ]
   },
   "resistance+5%": {
-    "title": "+5% Resistance",
+    "title": "+4% Resistance",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10202,7 +10202,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.resistance",
-          "value": 0.05,
+          "value": 0.04,
           "operation": "multiply_total"
         }
       }
@@ -10228,7 +10228,7 @@
     ]
   },
   "health+4": {
-    "title": "+4 Hearts",
+    "title": "+3 Hearts",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10241,7 +10241,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.max_health",
-          "value": 4,
+          "value": 3,
           "operation": "addition"
         }
       }
@@ -10268,7 +10268,7 @@
     ]
   },
   "healing+5%": {
-    "title": "+3% Healing",
+    "title": "+2% Healing",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10281,14 +10281,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.healing",
-          "value": 0.03,
+          "value": 0.02,
           "operation": "multiply_total"
         }
       }
     ]
   },
   "healing+10%": {
-    "title": "+5% Healing",
+    "title": "+4% Healing",
     "icon": {
       "type": "effect",
       "data": {
@@ -10300,7 +10300,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.healing",
-          "value": 0.05,
+          "value": 0.04,
           "operation": "multiply_total"
         }
       }

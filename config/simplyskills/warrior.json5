@@ -21,8 +21,8 @@
 	"passiveWarriorDeathDefyFrequency": 20,
 	"passiveWarriorDeathDefyHealthThreshold": 30,
 	"passiveWarriorDeathDefyAmplifierPerTenPercentHealth": 1,
-	"passiveWarriorFrenzyExhaustionDuration": 600,
-	"passiveWarriorFrenzyExhaustionStacks": 3,
+	"passiveWarriorFrenzyExhaustionDuration": 180,
+	"passiveWarriorFrenzyExhaustionStacks": 2,
 	"passiveWarriorTwinstrikeChance": 10,
 	"passiveWarriorSwordfallChance": 6
 }

@@ -4901,6 +4901,22 @@
         }
       },
       {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": -0.4,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": -1,
+          "operation": "addition"
+        }
+      },
+      {
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_crusader_weapons"
@@ -11056,7 +11072,7 @@
     }
   },
   "melee_damage+10%": {
-    "title": "+10% Melee Damage",
+    "title": "+5% Melee Damage",
     "icon": {
       "type": "effect",
       "data": {
@@ -11068,7 +11084,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 0.1,
+          "value": 0.05,
           "operation": "multiply_base"
         }
       }
@@ -11927,7 +11943,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.armor",
-          "value": -3,
+          "value": -1,
           "operation": "addition"
         }
       },

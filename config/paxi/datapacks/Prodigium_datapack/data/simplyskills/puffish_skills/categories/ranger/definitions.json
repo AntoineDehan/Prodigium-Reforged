@@ -10685,7 +10685,7 @@
     ]
   },
   "ranged_damage+5%": {
-    "title": "+10% Ranged Damage",
+    "title": "+8% Ranged Damage",
     "icon": {
       "type": "item",
       "data": {
@@ -10697,7 +10697,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:arrow_damage",
-          "value": 0.1,
+          "value": 0.08,
           "operation": "multiply_base"
         }
       },
@@ -10712,7 +10712,7 @@
     ]
   },
   "ranged_damage+10%": {
-    "title": "+20% Ranged Damage",
+    "title": "+16% Ranged Damage",
     "icon": {
       "type": "item",
       "data": {
@@ -10724,7 +10724,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:arrow_damage",
-          "value": 0.2,
+          "value": 0.16,
           "operation": "multiply_base"
         }
       },
