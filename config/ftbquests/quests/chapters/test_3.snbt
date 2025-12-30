@@ -578,7 +578,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "7A5C45B9053E6546"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -589,7 +588,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1256A82A1F509B60"
-					silent: true
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -599,7 +597,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "2B527BD465AA6F35"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -610,7 +607,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "588BB9AF6099341A"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -621,7 +617,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "76D0F8F22387BDFE"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -632,7 +627,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "4AC0E6C52FBE79D8"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -643,7 +637,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "391C25579928E8D4"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -654,7 +647,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "20C8E33968AA9F31"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1125,7 +1117,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "45E0F02D079855A6"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1146,7 +1137,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "26135C4A387788F9"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1157,7 +1147,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "0B186173E12996F4"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1168,7 +1157,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "3F86A48226AF5E58"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1179,7 +1167,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "08DC06A112BEA4D4"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1190,7 +1177,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "48B98CE80F4F6748"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1201,7 +1187,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "5BBFF87909FDAB5F"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1642,7 +1627,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "10CB393C8C5DE472"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1653,7 +1637,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "35EB4C545E1A5A46"
-					silent: true
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -1663,7 +1646,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "0430F96D31191CE7"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1674,7 +1656,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "288245283910ADE9"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1685,7 +1666,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1DE0004EEEEAE00D"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1696,7 +1676,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "77F98F04F3658BE7"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1707,7 +1686,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "53BEA2E8DCC2DD18"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1718,7 +1696,6 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "01B3423F33AA860D"
-					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
