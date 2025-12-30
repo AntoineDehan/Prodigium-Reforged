@@ -14,5 +14,5 @@ gamerule artifacts.powerGlove.attackDamageBonus 0
 gamerule artifacts.fireGauntlet.fireDuration 0
 gamerule artifacts.vampiricGlove.maxHealingPerHit 4
 gamerule artifacts.vampiricGlove.absorptionChance 40
-gamerule artifacts.vampiricGlove.aborptionRatio 15
+gamerule artifacts.vampiricGlove.absorptionRatio 15
 gamerule maxSaturation 60
