@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CBC", "BAB", "CBC"],
+  "key": {
+    "A": {
+      "item": "block_factorys_bosses:dragon_guard_shield"
+    },
+    "B": {
+      "item": "prodigium:cobalt_ingot"
+    },
+    "C": {
+      "item": "simpleores:mythril_block"
+    }
+  },
+  "result": {
+    "item": "confluence:cobalt_shield"
+  }
+}
