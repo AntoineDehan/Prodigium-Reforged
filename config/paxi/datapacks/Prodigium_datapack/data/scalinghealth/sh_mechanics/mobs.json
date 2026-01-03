@@ -1,15 +1,15 @@
 {
   "healthMode": {
     "operation": "MULTIPLY_BASE",
-    "scaling_reduction": 0.4
+    "scaling_reduction": 0.2
   },
   "general": {
     "passiveMultiplier": 0.002,
-    "hostileMultiplier": 0.036,
-    "hostilePotionChance": 0.05,
+    "hostileMultiplier": 0.025,
+    "hostilePotionChance": 0.07,
     "peacefulPotionChance": 0.0025,
-    "damageBoostScale": 0.04,
-    "maxDamageBoost": 14,
+    "damageBoostScale": 0.038,
+    "maxDamageBoost": 13,
     "spawnerModifier": 0.3,
     "xpBoost": 0.02
   },
@@ -17,55 +17,55 @@
     {
       "effect": "minecraft:speed",
       "level": 1,
-      "minDifficulty": 60,
+      "minDifficulty": 150,
       "durationInMinutes": 10.0
     },
     {
       "effect": "minecraft:speed",
       "level": 2,
-      "minDifficulty": 180,
+      "minDifficulty": 250,
       "durationInMinutes": 10.0
     },
     {
       "effect": "minecraft:strength",
       "level": 1,
-      "minDifficulty": 150,
+      "minDifficulty": 350,
       "durationInMinutes": 10.0
     },
     {
       "effect": "minecraft:fire_resistance",
       "level": 1,
-      "minDifficulty": 80,
+      "minDifficulty": 350,
       "durationInMinutes": 10.0
     },
     {
       "effect": "minecraft:invisibility",
       "level": 1,
-      "minDifficulty": 260,
+      "minDifficulty": 600,
       "durationInMinutes": 3.0
     },
     {
       "effect": "aether_redux:adrenaline_rush",
       "level": 1,
-      "minDifficulty": 250,
+      "minDifficulty": 350,
       "durationInMinutes": 10.0
     },
     {
       "effect": "irons_spellbooks:oakskin",
       "level": 1,
-      "minDifficulty": 250,
+      "minDifficulty": 400,
       "durationInMinutes": 10.0
     },
     {
       "effect": "irons_spellbooks:oakskin",
       "level": 2,
-      "minDifficulty": 380,
+      "minDifficulty": 615,
       "durationInMinutes": 10.0
     },
     {
       "effect": "minecraft:resistance",
       "level": 1,
-      "minDifficulty": 150,
+      "minDifficulty": 350,
       "durationInMinutes": 10.0
     }
   ],

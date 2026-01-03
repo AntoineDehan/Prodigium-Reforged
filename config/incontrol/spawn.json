@@ -99,10 +99,28 @@
     "when": "onjoin"
   },
   {
+    "gamestage": "stage_5",
+    "hostile": true,
+    "armoradd": 20,
+    "healthmultiply": 1.35,
+    "speedmultiply": 1.2,
+    "result": "allow",
+    "when": "onjoin"
+  },
+  {
+    "gamestage": "stage_mb",
+    "hostile": true,
+    "armoradd": 15,
+    "healthmultiply": 1.3,
+    "speedmultiply": 1.1,
+    "result": "allow",
+    "when": "onjoin"
+  },
+  {
     "gamestage": "stage_expert",
     "hostile": true,
     "armoradd": 10,
-    "healthmultiply": 1.2,
+    "healthmultiply": 1.3,
     "result": "allow",
     "when": "onjoin"
   },

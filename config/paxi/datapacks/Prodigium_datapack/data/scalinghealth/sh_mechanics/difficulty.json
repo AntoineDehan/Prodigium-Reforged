@@ -1,8 +1,8 @@
 {
   "startingValue": 2,
   "minValue": 0,
-  "maxValue": 615,
-  "changePerSecond": 0.0008,
+  "maxValue": 1015,
+  "changePerSecond": 0.00085,
   "mode": {
     "type": "distance_and_time",
     "distance": {
@@ -53,6 +53,10 @@
           "terra_entity:eater_of_worlds",
           "terra_entity:eye_of_cthulhu",
           "lost_aether_content:aerwhale_king",
+          "meetyourfight:bellringer",
+          "meetyourfight:dame_fortuna",
+          "meetyourfight:rosalyne",
+          "meetyourfight:swampjaw",
           "aether:valkyrie_queen",
           "aether:sun_spirit",
           "terra_entity:king_slime",
@@ -79,13 +83,9 @@
           "irons_spellbooks:dead_king",
           "cataclysm:the_leviathan",
           "mowziesmobs:umvuthi",
-          "mowziesmobs:frostmaw",
-          "meetyourfight:swampjaw",
-          "meetyourfight:bellringer",
-          "meetyourfight:dame_fortuna",
-          "meetyourfight:rosalyne"
+          "mowziesmobs:frostmaw"
         ],
-        "onKilled": "difficulty + 10"
+        "onKilled": "difficulty + 20"
       }
     ]
   }
