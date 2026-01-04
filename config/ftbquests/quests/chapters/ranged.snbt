@@ -447,7 +447,10 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["0EEBAEA6C5EE0454"]
+			dependencies: [
+				"0EEBAEA6C5EE0454"
+				"774BCB593AAFAA33"
+			]
 			description: ["You need to unlock the armor in the &6Skill Tree&r."]
 			hide_until_deps_visible: true
 			id: "4A96E3EADCF0C191"

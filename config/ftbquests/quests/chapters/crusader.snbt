@@ -79,6 +79,7 @@
 			description: ["You need to unlock the armors in the &6Skill Tree&r."]
 			hide_dependency_lines: false
 			id: "4295FD014E3D5800"
+			min_required_tasks: 1
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -132,7 +133,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4295FD014E3D5800"]
+			dependencies: [
+				"4295FD014E3D5800"
+				"774BCB593AAFAA33"
+			]
 			hide_until_deps_visible: true
 			id: "3A908ED8568C4279"
 			rewards: [

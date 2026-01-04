@@ -294,21 +294,12 @@
 		}
 		{
 			id: "3E9020FDB9AC5F9D"
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "29EC46D132F099A2"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					count: 2
-					id: "48C8DD22AE1DC29F"
-					item: "doggytalents:master_treat"
-					random_bonus: 2
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				id: "29EC46D132F099A2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "7C66CB933260BA48"
 				item: "farmersdelight:dog_food"

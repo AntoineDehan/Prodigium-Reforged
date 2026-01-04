@@ -93,6 +93,7 @@
 		{
 			dependencies: ["51F86D6012A589B2"]
 			id: "43D51238714E5EBC"
+			min_required_tasks: 1
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -124,7 +125,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["43D51238714E5EBC"]
+			dependencies: [
+				"43D51238714E5EBC"
+				"774BCB593AAFAA33"
+			]
 			id: "6EF7C057C65B42AA"
 			shape: "rsquare"
 			size: 1.5d

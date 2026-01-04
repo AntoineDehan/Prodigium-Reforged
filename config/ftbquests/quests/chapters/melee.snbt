@@ -136,7 +136,6 @@
 				"50E838001D06D62B"
 				"774BCB593AAFAA33"
 			]
-			dependency_requirement: "one_completed"
 			description: ["You need to unlock the armor in the &6Skill Tree&r."]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
