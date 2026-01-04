@@ -3,6 +3,8 @@
     "minecraft:bow",
     "minecraft:crossbow",
     "#archers:bows",
-    "#archers:crossbows"
+    "#archers:crossbows",
+    "#archeryexp:ae_bows",
+    "#too_many_bows:bows"
   ]
 }

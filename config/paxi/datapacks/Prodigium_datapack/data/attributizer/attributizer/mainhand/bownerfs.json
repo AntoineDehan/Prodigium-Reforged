@@ -16,14 +16,94 @@
   "too_many_bows:twin_shadows": [
     {
       "attribute": "attributeslib:arrow_damage",
-      "modify": -0.25,
+      "modify": -0.5,
       "uuid": "04286aaf-975f-4c07-824d-9b7c96ad84d8",
       "operation": "MULTIPLY_TOTAL"
     },
     {
       "attribute": "attributeslib:draw_speed",
-      "modify": -0.1,
+      "modify": -0.5,
       "uuid": "5583531a-2733-4295-be7a-a223345b1ab9",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:arrow_velocity",
+      "modify": -0.1,
+      "uuid": "b9ca205c-ae9a-41dc-a1cb-593cab5d2317",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "too_many_bows:astral_bound": [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "modify": -0.25,
+      "uuid": "0c670805-e084-4227-a49f-177db784972b",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "modify": -0.3,
+      "uuid": "2c1abe94-1af6-4f90-9ed0-fc9fec34d4a6",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "too_many_bows:arcane_bow": [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "modify": -0.6,
+      "uuid": "0bc12a01-8003-4ee7-bdf1-1ed0629e2f80",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "modify": -0.5,
+      "uuid": "e99d4009-95b2-4ad3-90ab-35933bea6dca",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:arrow_velocity",
+      "modify": -0.1,
+      "uuid": "3a6189f1-3b18-4d7a-918a-c4b5fdf6db4a",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "too_many_bows:arc_heavens": [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "modify": -0.35,
+      "uuid": "10854845-b33c-4fa6-a4ce-b4a634ceee2a",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "modify": -0.3,
+      "uuid": "b2b3d5e8-3276-4401-a2e1-9e99aae97fa9",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "too_many_bows:scatter_bow": [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "modify": -0.35,
+      "uuid": "d8a1f4e8-7605-40e2-82e4-d627bca59035",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "modify": -0.5,
+      "uuid": "8837bda4-1937-4aa5-a013-17252d75a86d",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:arrow_velocity",
+      "modify": -0.35,
+      "uuid": "1f16eff2-4718-4b47-bb2d-ab41cca9236a",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.25,
+      "uuid": "6e056a3c-8899-46e9-8f6a-64387a83cbf0",
       "operation": "MULTIPLY_TOTAL"
     }
   ]
