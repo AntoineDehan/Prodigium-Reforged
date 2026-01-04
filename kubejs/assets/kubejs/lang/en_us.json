@@ -58,6 +58,9 @@
   "effect.kubejs.ranger_cozyness.description": "Enhances archers attributes",
   "effect.kubejs.neptune_buff.description": "Remaining immobile for a few seconds grants Neptune’s Blessing. The longer you stay still, the stronger the effect. Shooting mobs while active has a high chance to trigger Rapid Healing",
   "effect.kubejs.leviathan_call.description": "Holding a compatible weapon in the main hand grants its corresponding bonus effect",
+  "effect.kubejs.armor_heavy.description": "Activates between 50 and 64 armor points",
+  "effect.kubejs.super_armor_heavy.description": "Activates between 65 and 79 armor points",
+  "effect.kubejs.over_armored.description": "Activates from 80 armor points",
 
   "tooltip.translation.spacecatasb.settitle.berserker": "Berserker",
   "tooltip.translation.spacecatasb.settitle.berseker": "Berserker",

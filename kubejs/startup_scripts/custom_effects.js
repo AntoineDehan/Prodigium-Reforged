@@ -1222,4 +1222,107 @@ StartupEvents.registry("mob_effect", (event) => {
       if (entity.age % 20 != 0) return;
       entity.heal(1.25 * lvl);
     });
+
+  // Too much armor nerfs
+  //Armor Heavy
+  event
+    .create("armor_heavy")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.attack_speed",
+      "a810e722-b672-46cf-9c7a-25407ec4defb",
+      -0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.attack_damage",
+      "9c3cb5ec-5581-452d-94c1-c9d80283a480",
+      -0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "1fdfab1d-e7af-4211-82da-3f3882afdf56",
+      -0.05,
+      "multiply_total"
+    );
+
+  //Super Armor Heavy
+  event
+    .create("super_armor_heavy")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.attack_speed",
+      "c849e16d-1902-4ae5-96ee-2e989434c607",
+      -0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.attack_damage",
+      "d750283b-fb4a-4e8f-b83d-8c1decc0ba3c",
+      -0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "84a78f92-1a11-40bd-bad5-f025cb31fb70",
+      -0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "forge:attack_range",
+      "9d2269c0-63ee-4425-a17f-a7b4efafd81f",
+      -0.05,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "3bc84d9c-8395-4d6a-ae17-3d6b640ef49a",
+      -0.1,
+      "multiply_total"
+    );
+
+  //Over Armored
+  event
+    .create("over_armored")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.attack_speed",
+      "693ddad0-3c6a-44ad-ac84-91d109eaa846",
+      -0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.attack_damage",
+      "c73e313e-0b0e-4c68-ac8d-260fbe523683",
+      -0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.healing",
+      "bd27a923-bfeb-4078-a273-b79b5584287b",
+      -0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "forge:attack_range",
+      "f2337ce4-98fe-473d-87d5-a0efca0d2f43",
+      -0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "6200400b-048c-4cfe-a5ff-7c7b75cc5dff",
+      -0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "combatroll:recharge",
+      "df68021d-17f9-494d-b21a-ca0707c93ee5",
+      -0.25,
+      "multiply_total"
+    );
 });

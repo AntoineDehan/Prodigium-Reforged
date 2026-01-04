@@ -520,6 +520,19 @@ const snipers = [
 PlayerEvents.tick((event) => {
   let player = event.player;
   let item = player.mainHandItem;
+  let armorValue = player.getArmorValue();
+
+  if (armorValue >= 50 && armorValue <= 64) {
+    player.potionEffects.add("kubejs:armor_heavy", 80, 0, true, false);
+  }
+
+  if (armorValue >= 65 && armorValue <= 79) {
+    player.potionEffects.add("kubejs:super_armor_heavy", 80, 0, true, false);
+  }
+
+  if (armorValue >= 80) {
+    player.potionEffects.add("kubejs:over_armored", 80, 0, true, false);
+  }
 
   if (guns.includes(item.id) && player.hasEffect("kubejs:leviathan_call")) {
     player.potionEffects.add("kubejs:pistol_bonus", 40, 0, false, true);
