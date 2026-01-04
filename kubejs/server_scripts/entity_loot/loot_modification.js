@@ -24,10 +24,17 @@ LootJS.modifiers((event) => {
   event
     .addEntityLootModifier(
       "piglinproliferation:piglin_traveler",
+      "piglinproliferation:piglin_alchemist",
       "luminous_nether:piglin_cultist_leader",
-      "luminous_beasts:piglin_executioner"
+      "luminous_beasts:piglin_executioner",
+      "bygonenether:piglin_hunter",
+      "bygonenether:piglin_prisoner",
+      "luminous_nether:piglin_cultist",
+      "luminous_nether:piglin_executioner_2",
+      "luminous_nether:piglin_executioner_3",
+      "luminous_nether:piglin_executioner"
     )
-    .randomChance(0.15)
+    .randomChance(0.2)
     .addWeightedLoot([1], [Item.of("irons_spellbooks:hogskin")]);
 
   // Blood Sac

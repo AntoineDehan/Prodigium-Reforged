@@ -442,7 +442,9 @@ LootJS.modifiers((event) => {
     .removeLoot("too_many_bows:ancient_sage_bow")
     .removeLoot("too_many_bows:torchbearer")
     .removeLoot("too_many_bows:demons_grasp")
-    .removeLoot("too_many_bows:aethers_call");
+    .removeLoot("too_many_bows:aethers_call")
+    .randomChance(0.15)
+    .addLoot("confluence:lucky_horseshoe");
 
   event
     .addLootTableModifier("minecraft:chests/simple_dungeon")
@@ -456,7 +458,9 @@ LootJS.modifiers((event) => {
   event
     .addLootTableModifier("minecraft:chests/jungle_temple")
     //Onyx
-    .removeLoot("simpleores:onyx_gem");
+    .removeLoot("simpleores:onyx_gem")
+    .randomChance(0.15)
+    .addLoot("confluence:lucky_horseshoe");
 
   event
     .addLootTableModifier("minecraft:chests/ruined_portal")
@@ -468,11 +472,30 @@ LootJS.modifiers((event) => {
     //Onyx
     .removeLoot("simpleores:onyx_gem");
 
+  event
+    .addLootTableModifier("minecraft:chests/bastion_other")
+    .randomChance(0.1)
+    .addLoot("confluence:lucky_horseshoe");
+
+  event
+    .addLootTableModifier("minecraft:chests/bastion_treasure")
+    .randomChance(0.15)
+    .addLoot("confluence:lucky_horseshoe");
+
   //// Loot Integrations \\\\
   event
     .addLootTableModifier("lootintegrations:chests/easy")
     //Onyx
-    .removeLoot("simpleores:onyx_gem");
+    .removeLoot("simpleores:onyx_gem")
+    .randomChance(0.1)
+    .addLoot("confluence:hermes_boots");
+
+  event
+    .addLootTableModifier("lootintegrations:chests/medium")
+    //Onyx
+    .removeLoot("simpleores:onyx_gem")
+    .randomChance(0.15)
+    .addLoot("confluence:hermes_boots");
 
   event
     .addLootTableModifier("lootintegrations:chests/hard")
