@@ -87,7 +87,7 @@
   {
     "mob": ["minecraft:wither"],
     "result": "allow",
-    "healthmultiply": 1.3,
+    "healthmultiply": 2.5,
     "when": "onjoin"
   },
   {

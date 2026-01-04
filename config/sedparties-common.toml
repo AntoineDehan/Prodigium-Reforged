@@ -55,7 +55,7 @@
 	#false - Disables the boss module.
 	bossModuleEnabled = true
 	#A list of entity IDs that the Parties mod treats as bosses. These entities will utilize the scaling of the Boss Module. Changes to this list require a restart.
-	markBosses = ["mowziesmobs:ferrous_wroughtnaut", "terra_entity:skeletron", "terra_entity:queen_bee", "terra_entity:brain_of_cthulhu", "terra_entity:eater_of_worlds", "terra_entity:eye_of_cthulhu", "lost_aether_content:aerwhale_king", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "meetyourfight:swampjaw", "aether:valkyrie_queen", "aether:sun_spirit", "terra_entity:king_slime", "aether:slider", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith", "minecraft:wither", "minecraft:ender_dragon", "conjurer_illager:conjurer", "minecraft:elder_guardian", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:awful_ghast", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "minecraft:warden", "cataclysm:the_harbinger", "alexsmobs:void_worm", "stalwart_dungeons:shelterer", "cataclysm:ender_guardian", "cataclysm:ender_golem", "cataclysm:ancient_remnant", "irons_spellbooks:dead_king", "cataclysm:the_leviathan", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw"]
+	markBosses = ["mowziesmobs:ferrous_wroughtnaut", "terra_entity:skeletron", "terra_entity:queen_bee", "terra_entity:brain_of_cthulhu", "terra_entity:eater_of_worlds", "terra_entity:eye_of_cthulhu", "lost_aether_content:aerwhale_king", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "meetyourfight:swampjaw", "aether:valkyrie_queen", "aether:sun_spirit", "terra_entity:king_slime", "aether:slider", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith", "minecraft:wither", "minecraft:ender_dragon", "conjurer_illager:conjurer", "minecraft:elder_guardian", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:awful_ghast", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "minecraft:warden", "cataclysm:the_harbinger", "alexsmobs:void_worm", "stalwart_dungeons:shelterer", "cataclysm:ender_guardian", "cataclysm:ender_golem", "cataclysm:ancient_remnant", "irons_spellbooks:dead_king", "cataclysm:the_leviathan", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw", "block_factorys_bosses:sandworm", "block_factorys_bosses:infernal_dragon", "block_factorys_bosses:underworld_knight"]
 	#Changes the way the player count is calculated to adjust the attributes and loot drops of bosses.
 	#SERVER - Counts all online players.
 	#DIMENSION - Counts all players in the same dimension.
@@ -69,11 +69,11 @@
 	#The health mod per player count defined above, as a total multiplier. (0.5 = 150%)
 	#A value of 0 disables health modifiers.
 	#Range: 0.0 ~ 2.147483647E9
-	healthMod = 0.3
+	healthMod = 0.35
 	#The damage mod per player count defined above, as a total multiplier. (0.5 = 150%)
 	#A value of 0 disables damage modifiers.
 	#Range: 0.0 ~ 2.147483647E9
-	damageMod = 0.15
+	damageMod = 0.17
 	#If true, scales the loot to the amount of players from the player count above.
 	#Setting this value to false disables this feature.
 	scaleLoot = true

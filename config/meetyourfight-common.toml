@@ -48,12 +48,12 @@
 		#Will not apply to already spawned bosses
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		health = 3.2
+		health = 4.5
 		#Damage multiplier for Dame Fortuna's projectiles
 		#eg 2 means x2 damage
 		#Default: 1.0
 		#Range: 0.1 ~ 1000.0
-		damage = 1.5
+		damage = 1.8
 
 	#Rosalyne
 	[stats.rosalyne]
