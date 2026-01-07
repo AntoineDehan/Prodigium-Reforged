@@ -1866,9 +1866,9 @@
       }
     ]
   },
-  "stamina_multi+7%": {
+  "stamina_multi+8%": {
     "title": {
-      "translate": "text.skills.stamina_multi+7%.title"
+      "translate": "text.skills.stamina_multi+8%.title"
     },
     "icon": {
       "type": "texture",
@@ -11138,7 +11138,7 @@
     ]
   },
   "summon_damage+5%": {
-    "title": "+7% Summoning Damage",
+    "title": "+8% Summoning Damage",
     "icon": {
       "type": "effect",
       "data": {
@@ -11150,7 +11150,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:summon_damage",
-          "value": 0.07,
+          "value": 0.08,
           "operation": "addition"
         }
       }
@@ -11177,7 +11177,7 @@
     ]
   },
   "lightning_spell_power+5%": {
-    "title": "+7% Lightning Spell Power",
+    "title": "+8% Lightning Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11189,7 +11189,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:lightning_spell_power",
-          "value": 0.07,
+          "value": 0.08,
           "operation": "addition"
         }
       },
@@ -11252,7 +11252,7 @@
     ]
   },
   "ice_spell_power+5%": {
-    "title": "+7% Ice Spell Power",
+    "title": "+8% Ice Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11264,7 +11264,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:ice_spell_power",
-          "value": 0.07,
+          "value": 0.08,
           "operation": "addition"
         }
       },
@@ -11327,7 +11327,7 @@
     ]
   },
   "holy_spell_power+5%": {
-    "title": "+7% Holy Spell Power",
+    "title": "+8% Holy Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11339,7 +11339,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:holy_spell_power",
-          "value": 0.07,
+          "value": 0.08,
           "operation": "addition"
         }
       },
@@ -11402,7 +11402,7 @@
     ]
   },
   "fire_spell_power+5%": {
-    "title": "+7% Fire Spell Power",
+    "title": "+8% Fire Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11414,7 +11414,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:fire_spell_power",
-          "value": 0.07,
+          "value": 0.08,
           "operation": "addition"
         }
       },
@@ -11456,6 +11456,61 @@
       }
     ]
   },
+  "nature_spell_power+5%": {
+    "title": "+8% Nature Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:nature_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:fire",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "nature_spell_power+10%": {
+    "title": "+15% Nature Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:nature_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:fire",
+          "value": 17,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "fire_magic_resist+10%": {
     "title": "+10% Fire Magic Resist",
     "frame": "challenge",
@@ -11477,7 +11532,7 @@
     ]
   },
   "evocation_spell_power+5%": {
-    "title": "+7% Evocation Spell Power",
+    "title": "+8% Evocation Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11489,14 +11544,22 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:evocation_spell_power",
-          "value": 0.07,
+          "value": 0.08,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:lightning",
+          "value": 8,
           "operation": "addition"
         }
       }
     ]
   },
   "evocation_spell_power+10%": {
-    "title": "+17% Evocation Spell Power",
+    "title": "+15% Evocation Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11509,7 +11572,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:evocation_spell_power",
-          "value": 0.17,
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:lightning",
+          "value": 17,
           "operation": "addition"
         }
       }
@@ -11536,7 +11607,7 @@
     ]
   },
   "ender_spell_power+5%": {
-    "title": "+7% Ender Spell Power",
+    "title": "+8% Ender Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11548,7 +11619,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:ender_spell_power",
-          "value": 0.07,
+          "value": 0.08,
           "operation": "addition"
         }
       },
@@ -11590,6 +11661,61 @@
       }
     ]
   },
+  "sound_spell_power+5%": {
+    "title": "+8% Sound Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "alshanex_familiars:sound_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "alshanex_familiars:sound_spell_power",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:arcane",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sound_spell_power+10%": {
+    "title": "+15% Sound Spell Power",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "alshanex_familiars:sound_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "alshanex_familiars:sound_spell_power",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "spell_power:arcane",
+          "value": 17,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "ender_magic_resist+10%": {
     "title": "+10% Ender Magic Resist",
     "frame": "challenge",
@@ -11611,7 +11737,7 @@
     ]
   },
   "blood_spell_power+5%": {
-    "title": "+7% Blood Spell Power",
+    "title": "+8% Blood Spell Power",
     "icon": {
       "type": "item",
       "data": {
@@ -11623,14 +11749,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:blood_spell_power",
-          "value": 0.07,
+          "value": 0.08,
           "operation": "addition"
         }
       },
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "spell_power:soul",
+          "attribute": "spell_power:frost",
           "value": 8,
           "operation": "addition"
         }
@@ -11658,7 +11784,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "spell_power:soul",
+          "attribute": "spell_power:frost",
           "value": 17,
           "operation": "addition"
         }
