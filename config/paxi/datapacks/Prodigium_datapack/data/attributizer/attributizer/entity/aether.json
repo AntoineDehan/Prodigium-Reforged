@@ -1,8 +1,13 @@
 {
   "aether:valkyrie_queen": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:holy_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -63,8 +68,13 @@
   ],
   "lost_aether_content:aerwhale_king": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:holy_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {

@@ -1,8 +1,13 @@
 {
   "cataclysm:netherite_monstrosity": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -68,8 +73,13 @@
   ],
   "cataclysm:the_harbinger": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": 0.35,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -129,6 +139,11 @@
     }
   ],
   "cataclysm:the_leviathan": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
     {
       "attribute": "irons_spellbooks:fire_magic_resist",
       "modify": -0.05,
@@ -192,8 +207,13 @@
   ],
   "cataclysm:ignis": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -254,8 +274,13 @@
   ],
   "cataclysm:ancient_remnant": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -311,8 +336,13 @@
   ],
   "cataclysm:ender_golem": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -363,8 +393,13 @@
   ],
   "cataclysm:ender_guardian": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {

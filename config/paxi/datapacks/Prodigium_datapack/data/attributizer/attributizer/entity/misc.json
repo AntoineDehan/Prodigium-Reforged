@@ -1,6 +1,11 @@
 {
   "irons_spellbooks:dead_king": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "minecraft:generic.armor",
       "modify": 0.6,
       "operation": "MULTIPLY_TOTAL"
@@ -23,8 +28,13 @@
   ],
   "stalwart_dungeons:awful_ghast": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": 0.2,
+      "modify": 0.05,
       "operation": "ADDITION"
     },
     {
@@ -80,8 +90,13 @@
   ],
   "stalwart_dungeons:nether_keeper": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:fire_magic_resist",
-      "modify": 0.2,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {

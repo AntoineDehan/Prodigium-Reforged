@@ -1,8 +1,13 @@
 {
   "bosses_of_mass_destruction:gauntlet": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -63,8 +68,13 @@
   ],
   "bosses_of_mass_destruction:lich": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:evocation_magic_resist",
-      "modify": 0.25,
+      "modify": 0.05,
       "operation": "ADDITION"
     },
     {
@@ -110,8 +120,13 @@
   ],
   "bosses_of_mass_destruction:obsidilith": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:ender_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -167,8 +182,13 @@
   ],
   "bosses_of_mass_destruction:void_blossom": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:nature_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {

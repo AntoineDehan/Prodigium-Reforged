@@ -1,6 +1,11 @@
 {
   "terra_entity:king_slime": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:fire_magic_resist",
       "modify": -0.55,
       "operation": "ADDITION"
@@ -42,7 +47,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.3,
+      "modify": -0.35,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -52,6 +57,11 @@
     }
   ],
   "terra_entity:eye_of_cthulhu": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
     {
       "attribute": "irons_spellbooks:holy_magic_resist",
       "modify": -0.15,
@@ -115,6 +125,11 @@
   ],
   "terra_entity:brain_of_cthulhu": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:holy_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
@@ -176,6 +191,11 @@
     }
   ],
   "terra_entity:brain_fake": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
     {
       "attribute": "irons_spellbooks:holy_magic_resist",
       "modify": -0.15,
@@ -239,6 +259,11 @@
   ],
   "terra_entity:eater_of_worlds": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:holy_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
@@ -270,7 +295,7 @@
     },
     {
       "attribute": "irons_spellbooks:evocation_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -301,6 +326,11 @@
   ],
   "terra_entity:queen_bee": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:holy_magic_resist",
       "modify": -0.15,
       "operation": "ADDITION"
@@ -317,7 +347,7 @@
     },
     {
       "attribute": "irons_spellbooks:nature_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {

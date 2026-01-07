@@ -1,8 +1,13 @@
 {
   "meetyourfight:swampjaw": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -52,6 +57,11 @@
     }
   ],
   "meetyourfight:bellringer": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
     {
       "attribute": "irons_spellbooks:holy_magic_resist",
       "modify": -0.35,
@@ -109,6 +119,11 @@
     }
   ],
   "meetyourfight:dame_fortuna": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": -0.35,
@@ -171,6 +186,11 @@
     }
   ],
   "meetyourfight:rosalyne": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
     {
       "attribute": "irons_spellbooks:ender_magic_resist",
       "modify": -0.35,

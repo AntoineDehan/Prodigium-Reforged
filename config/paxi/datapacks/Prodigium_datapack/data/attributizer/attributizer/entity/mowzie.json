@@ -1,8 +1,13 @@
 {
   "mowziesmobs:frostmaw": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -58,8 +63,13 @@
   ],
   "mowziesmobs:umvuthi": [
     {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
       "attribute": "irons_spellbooks:holy_magic_resist",
-      "modify": 0.25,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
@@ -115,13 +125,13 @@
   ],
   "mowziesmobs:ferrous_wroughtnaut": [
     {
-      "attribute": "irons_spellbooks:holy_magic_resist",
-      "modify": -0.35,
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.15,
       "operation": "ADDITION"
     },
     {
-      "attribute": "irons_spellbooks:ice_magic_resist",
-      "modify": 0.15,
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.35,
       "operation": "ADDITION"
     },
     {
@@ -156,7 +166,7 @@
     },
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
-      "modify": 0.3,
+      "modify": 0.1,
       "operation": "ADDITION"
     },
     {
