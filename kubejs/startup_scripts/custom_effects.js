@@ -1168,7 +1168,7 @@ StartupEvents.registry("mob_effect", (event) => {
     );
 
   /// Neptune armor set
-  //Placeholder name
+  //Neptune's Buff
   event.create("neptune_buff").color(0xffd27f).beneficial();
 
   // Neptune's Blessing
@@ -1323,6 +1323,26 @@ StartupEvents.registry("mob_effect", (event) => {
       "combatroll:recharge",
       "df68021d-17f9-494d-b21a-ca0707c93ee5",
       -0.25,
+      "multiply_total"
+    );
+
+  ///// Skill Tree \\\\
+
+  //Spell Booster
+  event
+    .create("spell_boosted")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "52d91d38-fcf8-4f5a-93b7-177876bf468e",
+      0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:spell_power",
+      "f6aaa4e9-a2d7-441b-80ea-a9b54afbd3f0",
+      0.05,
       "multiply_total"
     );
 });

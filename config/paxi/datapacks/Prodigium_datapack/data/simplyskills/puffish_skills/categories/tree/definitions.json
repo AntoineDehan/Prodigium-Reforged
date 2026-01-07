@@ -12076,7 +12076,7 @@
     }
   },
   "spell_power+5%": {
-    "title": "+5% Spell Power",
+    "title": "+7% Spell Power",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -12089,7 +12089,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_power",
-          "value": 0.05,
+          "value": 0.07,
           "operation": "addition"
         }
       },
@@ -12925,6 +12925,41 @@
     ],
     "metadata": {
       "icon": "wrg9yojqrw67g0lz"
+    }
+  },
+  "spell_precision": {
+    "title": {
+      "translate": "text.skills.initiateSpellPrecision.title"
+    },
+    "description": {
+      "translate": "text.skills.initiateSpellPrecision.description"
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "simplyskills:textures/icons/alternate_reduced/initiate_gambit.png"
+      }
+    },
+    "size": 1.4,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "simplyskills:textures/frames/unlocked.png",
+        "available": "simplyskills:textures/frames/available.png",
+        "locked": "simplyskills:textures/frames/locked.png",
+        "excluded": "simplyskills:textures/frames/excluded.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "spell_precision"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "rl31zqqovahx9o03"
     }
   },
   "swim_speed+3%": {

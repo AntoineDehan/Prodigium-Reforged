@@ -306,19 +306,19 @@
 		"root": false
 	},
 	"5szlbq51n1uy8bg6": {
-		"definition": "ice_spell_power+10%",
+		"definition": "ice_spell_power+25%",
 		"x": -779,
 		"y": 205,
 		"root": false
 	},
 	"rnwz26v0splt2udj": {
-		"definition": "prot_shred+5%",
+		"definition": "ice_spell_power+5%",
 		"x": -738,
 		"y": 164,
 		"root": false
 	},
 	"8bgf7047ugsdz56a": {
-		"definition": "armor_shred+5%",
+		"definition": "ice_spell_power+5%",
 		"x": -738,
 		"y": 246,
 		"root": false
@@ -432,19 +432,19 @@
 		"root": false
 	},
 	"rsoz8xa51hwpo2kc": {
-		"definition": "healing+5%",
+		"definition": "fire_spell_power+5%",
 		"x": 615,
 		"y": -123,
 		"root": false
 	},
 	"0dbg9h2md8p7h9yv": {
-		"definition": "healing+5%",
+		"definition": "fire_spell_power+5%",
 		"x": 615,
 		"y": -82,
 		"root": false
 	},
 	"rvp2oxobvapx6wv1": {
-		"definition": "fire_spell_power+10%",
+		"definition": "fire_spell_power+25%",
 		"x": 861,
 		"y": -205,
 		"root": false
@@ -558,13 +558,13 @@
 		"root": false
 	},
 	"aq38wixzzh0z83u1": {
-		"definition": "attack_knockback+5%",
+		"definition": "lightning_spell_power+5%",
 		"x": -287,
 		"y": -574,
 		"root": false
 	},
 	"ioskkymgkcxlhfzi": {
-		"definition": "attack_knockback+5%",
+		"definition": "lightning_spell_power+5%",
 		"x": -328,
 		"y": -574,
 		"root": false
@@ -582,7 +582,7 @@
 		"root": false
 	},
 	"v4w0dcbx8xlg3p4m": {
-		"definition": "lightning_spell_power+10%",
+		"definition": "lightning_spell_power+25%",
 		"x": -205,
 		"y": -779,
 		"root": false
@@ -648,13 +648,13 @@
 		"root": false
 	},
 	"1jbwqg1fiyoihcuj": {
-		"definition": "roll_count+1",
+		"definition": "ender_spell_power+5%",
 		"x": -123,
 		"y": 533,
 		"root": false
 	},
 	"wrafwmdoq7s8cz45": {
-		"definition": "roll_count+1",
+		"definition": "ender_spell_power+5%",
 		"x": -82,
 		"y": 533,
 		"root": false
@@ -720,7 +720,7 @@
 		"root": false
 	},
 	"3sbiyrcmejgdsk5a": {
-		"definition": "ender_spell_power+10%",
+		"definition": "ender_spell_power+25%",
 		"x": -205,
 		"y": 779,
 		"root": false
@@ -762,7 +762,7 @@
 		"root": false
 	},
 	"eztm2vd7mtn9k0r1": {
-		"definition": "spell_resist+10",
+		"definition": "spell_power+5%",
 		"x": 451,
 		"y": 533,
 		"root": false
@@ -811,26 +811,26 @@
 	},
 	"4rferqt3737fks6e": {
 		"definition": "dodge+5%",
-		"x": 574,
-		"y": 656,
-		"root": false
-	},
-	"3d0f23s3f8yy61y3": {
-		"definition": "dodge+5%",
-		"x": 533,
-		"y": 697,
-		"root": false
-	},
-	"uy0kj023mcovfwp7": {
-		"definition": "stamina+0.5%",
 		"x": 615,
 		"y": 697,
 		"root": false
 	},
-	"3m2w62zqv3bk9dxb": {
-		"definition": "stamina+0.5%",
+	"3d0f23s3f8yy61y3": {
+		"definition": "dodge+5%",
 		"x": 574,
 		"y": 738,
+		"root": false
+	},
+	"uy0kj023mcovfwp7": {
+		"definition": "armor_shred+5%",
+		"x": 574,
+		"y": 656,
+		"root": false
+	},
+	"3m2w62zqv3bk9dxb": {
+		"definition": "armor_shred+5%",
+		"x": 533,
+		"y": 697,
 		"root": false
 	},
 	"2tlja24bm3jp461f": {
@@ -858,7 +858,7 @@
 		"root": false
 	},
 	"mwy2qur0zk5c0446": {
-		"definition": "spell_power+10%",
+		"definition": "spell_power+20%",
 		"x": 697,
 		"y": 656,
 		"root": false
@@ -955,14 +955,14 @@
 	},
 	"viqetjxujd1zwtua": {
 		"definition": "spell_power+5%",
-		"x": -126,
-		"y": -480,
+		"x": -123,
+		"y": -492,
 		"root": false
 	},
 	"5hx17mb716n2thrm": {
 		"definition": "spell_power+5%",
-		"x": -88,
-		"y": -480,
+		"x": -82,
+		"y": -492,
 		"root": false
 	},
 	"n2ru1ze4euhzjxnc": {
@@ -1068,13 +1068,13 @@
 		"root": false
 	},
 	"nm3aez69xkwwhlvi": {
-		"definition": "health2+",
+		"definition": "blood_spell_power+5%",
 		"x": -492,
 		"y": -123,
 		"root": false
 	},
 	"4z99c5qdw7d1nmx3": {
-		"definition": "health2+",
+		"definition": "blood_spell_power+5%",
 		"x": -492,
 		"y": -82,
 		"root": false
@@ -1140,7 +1140,7 @@
 		"root": false
 	},
 	"m2gks7vxxmvewa7w": {
-		"definition": "blood_spell_power+10%",
+		"definition": "blood_spell_power+25%",
 		"x": -779,
 		"y": -205,
 		"root": false
@@ -1254,13 +1254,13 @@
 		"root": false
 	},
 	"jtancy0t44uqcv1d": {
-		"definition": "healing+5%",
+		"definition": "health2+",
 		"x": 287,
 		"y": -574,
 		"root": false
 	},
 	"qhw0rkxgwkylal0j": {
-		"definition": "healing+5%",
+		"definition": "health2+",
 		"x": 328,
 		"y": -574,
 		"root": false
@@ -1278,13 +1278,13 @@
 		"root": false
 	},
 	"x0wn9qrt2s41vdtb": {
-		"definition": "health2+",
+		"definition": "evocation_spell_power+5%",
 		"x": 246,
 		"y": -615,
 		"root": false
 	},
 	"zjxunc5ubjevxaus": {
-		"definition": "health2+",
+		"definition": "evocation_spell_power+5%",
 		"x": 246,
 		"y": -656,
 		"root": false
@@ -1314,7 +1314,7 @@
 		"root": false
 	},
 	"wm4tdpl99792erfx": {
-		"definition": "evocation_spell_power+10%",
+		"definition": "evocation_spell_power+25%",
 		"x": 205,
 		"y": -779,
 		"root": false
@@ -1404,13 +1404,13 @@
 		"root": false
 	},
 	"2bnbhtuk7xw6vz21": {
-		"definition": "luck+1",
+		"definition": "nature_spell_power+5%",
 		"x": 615,
 		"y": 287,
 		"root": false
 	},
 	"u369rxxts0p6bage": {
-		"definition": "luck+1",
+		"definition": "nature_spell_power+5%",
 		"x": 615,
 		"y": 328,
 		"root": false
@@ -1485,12 +1485,6 @@
 		"definition": "roll_cooldown-10%",
 		"x": 820,
 		"y": 246,
-		"root": false
-	},
-	"iszulorjqx3liksf": {
-		"definition": "nature_spell_power+10%",
-		"x": 861,
-		"y": 205,
 		"root": false
 	},
 	"xp3atz4105hup7yz": {
@@ -1614,13 +1608,13 @@
 		"root": false
 	},
 	"n3l2rk6mc5kql2ee": {
-		"definition": "healing+5%",
+		"definition": "sound_spell_power+5%",
 		"x": 287,
 		"y": 574,
 		"root": false
 	},
 	"5jrzhks9f70s37mx": {
-		"definition": "healing+5%",
+		"definition": "sound_spell_power+5%",
 		"x": 328,
 		"y": 574,
 		"root": false
@@ -1661,12 +1655,6 @@
 		"y": 656,
 		"root": false
 	},
-	"hq29snc0xf9qrsf3": {
-		"definition": "sound_spell_power+10%",
-		"x": 205,
-		"y": 779,
-		"root": false
-	},
 	"eytr4bzos1ptojn3": {
 		"definition": "ender_spell_power+5%",
 		"x": -205,
@@ -1677,6 +1665,18 @@
 		"definition": "sound_spell_power+5%",
 		"x": 205,
 		"y": 287,
+		"root": false
+	},
+	"0l32rjfw11wu9l5t": {
+		"definition": "sound_spell_power+25%",
+		"x": 205,
+		"y": 779,
+		"root": false
+	},
+	"vh2ww29fmyejt0m0": {
+		"definition": "nature_spell_power+25%",
+		"x": 861,
+		"y": 205,
 		"root": false
 	}
 }

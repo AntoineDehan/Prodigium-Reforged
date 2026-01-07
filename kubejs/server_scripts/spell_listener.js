@@ -17,6 +17,10 @@ PlayerEvents.spellOnCast((event) => {
   const player = event.player;
   if (!player) return;
 
+  if (player.tags.contains("spell_precision") && Math.random() < 0.2) {
+    player.potionEffects.add("kubejs:spell_boosted", 120, 0, true, false);
+  }
+
   // Feather Necklace granting the Holy Touch
   const curios = getCuriosItemList(player, "necklace");
   const hasFeatherNecklace = curios.some(
