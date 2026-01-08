@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CVC", "CRC", "C C"],
+  "key": {
+    "C": {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    "R": {
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    "V": {
+      "item": "stalwart_dungeons:void_crystal"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:electromancer_leggings",
+    "count": 1
+  }
+}

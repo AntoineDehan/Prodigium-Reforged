@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CVC", "CRC"],
+  "key": {
+    "C": {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    "R": {
+      "item": "irons_spellbooks:ender_rune"
+    },
+    "V": {
+      "item": "stalwart_dungeons:void_crystal"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:shadowwalker_boots",
+    "count": 1
+  }
+}
