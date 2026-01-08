@@ -2,7 +2,7 @@
   "minecraft:warden": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -54,7 +54,7 @@
   "minecraft:ender_dragon": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -116,7 +116,7 @@
   "minecraft:elder_guardian": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {

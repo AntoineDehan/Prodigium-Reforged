@@ -2,7 +2,7 @@
   "irons_spellbooks:dead_king": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -29,7 +29,7 @@
   "stalwart_dungeons:awful_ghast": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -91,7 +91,7 @@
   "stalwart_dungeons:nether_keeper": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {

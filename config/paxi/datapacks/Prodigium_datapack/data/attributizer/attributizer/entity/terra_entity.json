@@ -2,7 +2,7 @@
   "terra_entity:king_slime": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -59,7 +59,7 @@
   "terra_entity:eye_of_cthulhu": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -126,7 +126,7 @@
   "terra_entity:brain_of_cthulhu": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -193,7 +193,7 @@
   "terra_entity:brain_fake": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -260,7 +260,7 @@
   "terra_entity:eater_of_worlds": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -327,7 +327,7 @@
   "terra_entity:queen_bee": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {

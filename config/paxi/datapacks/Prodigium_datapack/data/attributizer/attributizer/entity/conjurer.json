@@ -2,7 +2,7 @@
   "conjurer_illager:conjurer": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {

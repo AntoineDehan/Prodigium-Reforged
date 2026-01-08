@@ -2,7 +2,7 @@
   "mowziesmobs:frostmaw": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -64,7 +64,7 @@
   "mowziesmobs:umvuthi": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -126,7 +126,7 @@
   "mowziesmobs:ferrous_wroughtnaut": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {

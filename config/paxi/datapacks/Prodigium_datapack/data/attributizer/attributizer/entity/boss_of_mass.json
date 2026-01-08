@@ -2,7 +2,7 @@
   "bosses_of_mass_destruction:gauntlet": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -69,7 +69,7 @@
   "bosses_of_mass_destruction:lich": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -121,7 +121,7 @@
   "bosses_of_mass_destruction:obsidilith": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
@@ -183,7 +183,7 @@
   "bosses_of_mass_destruction:void_blossom": [
     {
       "attribute": "irons_spellbooks:spell_resist",
-      "modify": -0.15,
+      "modify": -0.2,
       "operation": "ADDITION"
     },
     {
