@@ -1326,6 +1326,24 @@ StartupEvents.registry("mob_effect", (event) => {
       "multiply_total"
     );
 
+  // Bow Pulling Effect
+  event
+    .create("pulling_weakness")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "367e37c4-b82b-4b79-a6cc-7b5e058127d7",
+      -0.1,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "puffish_attributes:player.resistance",
+      "ab0a7c83-b3e5-47f4-a8d2-244b1ecc7de1",
+      -0.15,
+      "multiply_total"
+    );
+
   ///// Skill Tree \\\\
 
   //Spell Booster
