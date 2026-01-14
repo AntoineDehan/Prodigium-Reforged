@@ -82,7 +82,7 @@
         "type": "DAMAGE",
         "damage": {
           "knockback": 0.5,
-          "spell_power_coefficient": 3.8
+          "spell_power_coefficient": 5.3
         }
       },
       "particles": [
