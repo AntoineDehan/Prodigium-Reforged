@@ -1,3 +1,50 @@
+function shootProjectileCone(
+  player,
+  level,
+  projectileEntity,
+  count,
+  spreadAngle,
+  vel,
+  damage
+) {
+  let lookAngle = player.getLookAngle();
+
+  let startAngle = 0;
+  let angleStep = 0;
+
+  if (count > 1) {
+    startAngle = -(spreadAngle / 2);
+    angleStep = spreadAngle / (count - 1);
+  }
+
+  for (let i = 0; i < count; i++) {
+    let currentAngle = startAngle + i * angleStep;
+
+    let rad = currentAngle * (3.141592653 / 180);
+    let cos = Math.cos(rad);
+    let sin = Math.sin(rad);
+
+    let motionX = lookAngle.x() * cos - lookAngle.z() * sin;
+    let motionZ = lookAngle.x() * sin + lookAngle.z() * cos;
+    let motionY = lookAngle.y();
+
+    let projectile = level.createEntity(projectileEntity);
+    projectile.setPosition(
+      player.x,
+      player.y + player.eyeHeight * 0.85,
+      player.z
+    );
+    projectile.setMotion(motionX * vel, motionY * vel, motionZ * vel);
+    projectile.setOwner(player);
+    projectile.setNoGravity(false);
+    projectile.mergeNbt({
+      Damage: damage,
+    });
+
+    level.addFreshEntity(projectile);
+  }
+}
+
 StartupEvents.registry("item", (event) => {
   // Tests
   event.create("test_bow", "bow").bow((bow) => {
@@ -19,6 +66,74 @@ StartupEvents.registry("item", (event) => {
       });
   });
 
+  event
+    .create("arcanethyst_bow", "bow")
+    .bow((bow) => {
+      bow
+        .modifyBow((attributes) => {
+          attributes.arrowSpeed(7).baseDamage(25).fullChargeTick(40);
+        })
+        .onUse((use) => {
+          use.release((event) => {
+            const { player, level } = event;
+            shootProjectileCone(
+              player,
+              level,
+              "irons_spellbooks:small_magic_arrow",
+              2,
+              8,
+              6.0,
+              12.0
+            );
+          });
+          use.pullTick((event) => {
+            const { player } = event;
+            player.potionEffects.add(
+              "kubejs:pulling_weakness",
+              40,
+              0,
+              true,
+              false
+            );
+          });
+        });
+    })
+    .maxDamage(2850);
+
+  event
+    .create("twin_shadows", "bow")
+    .bow((bow) => {
+      bow
+        .modifyBow((attributes) => {
+          attributes.arrowSpeed(7).baseDamage(20).fullChargeTick(40);
+        })
+        .onUse((use) => {
+          use.release((event) => {
+            const { player, level } = event;
+            shootProjectileCone(
+              player,
+              level,
+              "minecraft:arrow",
+              1,
+              7,
+              6.0,
+              3.0
+            );
+          });
+          use.pullTick((event) => {
+            const { player } = event;
+            player.potionEffects.add(
+              "kubejs:pulling_weakness",
+              40,
+              0,
+              true,
+              false
+            );
+          });
+        });
+    })
+    .maxDamage(2000);
+
   // Chest drop
   event
     .create("ancient_cobalt_bow", "bow")
@@ -28,6 +143,16 @@ StartupEvents.registry("item", (event) => {
           attribute.arrowSpeed(7).baseDamage(8).fullChargeTick(35).infinity();
         })
         .onUse((use) => {
+          use.pullTick((event) => {
+            const { player } = event;
+            player.potionEffects.add(
+              "kubejs:pulling_weakness",
+              40,
+              0,
+              true,
+              false
+            );
+          });
           use.pullTick((event) => {
             const { player } = event;
             player.potionEffects.add(
@@ -79,7 +204,7 @@ StartupEvents.registry("item", (event) => {
     .bow((bow) => {
       bow
         .modifyBow((attribute) => {
-          attribute.arrowSpeed(7).baseDamage(8).fullChargeTick(35).pierce(1);
+          attribute.arrowSpeed(7).baseDamage(25).fullChargeTick(35).pierce(1);
         })
         .onArrowHit((arrow) => {
           arrow.hitBlock((event) => {
@@ -261,6 +386,18 @@ ItemEvents.modification((event) => {
                 0,
                 true,
                 false
+              );
+            });
+            use.release((event) => {
+              const { player, level } = event;
+              shootProjectileCone(
+                player,
+                level,
+                "irons_spellbooks:firebolt",
+                2,
+                18,
+                2.0,
+                8.0
               );
             });
           });
