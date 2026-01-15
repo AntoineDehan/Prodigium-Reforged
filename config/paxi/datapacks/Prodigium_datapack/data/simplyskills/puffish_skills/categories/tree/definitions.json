@@ -3581,12 +3581,6 @@
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:berserker"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 78DE64EE0773BEF4"
-        }
       }
     ],
     "metadata": {
@@ -4710,12 +4704,6 @@
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:ranger"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 686B5BA848725480"
-        }
       }
     ],
     "metadata": {
@@ -4926,12 +4914,6 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_crusader_books"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 44FCF260737D0785"
         }
       }
     ],
@@ -5502,12 +5484,6 @@
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:wizard"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 745FE062B66D6927"
-        }
       }
     ],
     "metadata": {
@@ -5580,12 +5556,6 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:cleric"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 525D3BC989CF49D9"
         }
       }
     ],
@@ -11269,12 +11239,6 @@
           "value": -0.15,
           "operation": "addition"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 7E84A690580422CF"
-        }
       }
     ],
     "metadata": {
@@ -13044,6 +13008,12 @@
         "data": {
           "command": "thitemstages add @s stage_berserker_normal"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 78DE64EE0773BEF4"
+        }
       }
     ],
     "metadata": {
@@ -13087,6 +13057,12 @@
         "data": {
           "command": "thitemstages add @s stage_wizard_normal"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 745FE062B66D6927"
+        }
       }
     ],
     "metadata": {
@@ -13128,6 +13104,12 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_archer_normal"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 686B5BA848725480"
         }
       }
     ],
@@ -13172,6 +13154,12 @@
         "data": {
           "command": "thitemstages add @s stage_crusader_normal"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 44FCF260737D0785"
+        }
       }
     ],
     "metadata": {
@@ -13201,7 +13189,7 @@
     }
   },
   "priest_expert_gear": {
-    "title": "Unlock Expert Mode Priest's Gear",
+    "title": "Unlock Expert Mode Cleric's Gear",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -13214,6 +13202,12 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_priest_expert"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 525D3BC989CF49D9"
         }
       }
     ],
@@ -13257,6 +13251,12 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_gunner_expert"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 51F86D6012A589B2"
         }
       }
     ],
@@ -13394,12 +13394,6 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:gunner"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 51F86D6012A589B2"
         }
       }
     ],
