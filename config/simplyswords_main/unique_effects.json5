@@ -40,7 +40,7 @@
 	"stormDuration": 200.0,
 	"plagueChance": 55.0,
 	"brimstoneChance": 15.0,
-	"brambleChance": 45.0,
+	"brambleChance": 2.0,
 	"soultetherRange": 32.0,
 	"soultetherRadius": 8.0,
 	"soultetherDuration": 120.0,
