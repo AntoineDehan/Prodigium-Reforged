@@ -7,7 +7,7 @@ const holySpells = [
   "irons_spellbooks:haste",
 ];
 
-PlayerEvents.spellOnCast((event) => {
+(event) => {
   function getCuriosItemList(player, slot) {
     let curio = player.nbt.ForgeCaps["curios:inventory"]["Curios"].find(
       (curio) => curio["Identifier"] === slot
@@ -16,10 +16,6 @@ PlayerEvents.spellOnCast((event) => {
   }
   const player = event.player;
   if (!player) return;
-
-  if (player.tags.contains("spell_precision") && Math.random() < 0.2) {
-    player.potionEffects.add("kubejs:spell_boosted", 120, 0, true, false);
-  }
 
   // Feather Necklace granting the Holy Touch
   const curios = getCuriosItemList(player, "necklace");
@@ -30,7 +26,7 @@ PlayerEvents.spellOnCast((event) => {
   if (hasFeatherNecklace && Math.random() < 0.3) {
     player.potionEffects.add("kubejs:holy_touch", 100, 0, true, true);
   }
-});
+};
 
 const manaTracker = {};
 
