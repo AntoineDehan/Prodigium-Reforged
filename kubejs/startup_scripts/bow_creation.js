@@ -1,12 +1,5 @@
-function shootProjectileCone(
-  player,
-  level,
-  projectileEntity,
-  count,
-  spreadAngle,
-  vel,
-  damage
-) {
+// Thanks to Andrezinh0 for the help with this function
+function shootProjectileCone(player, level, projectileEntity, count, spreadAngle, vel, damage) {
   let lookAngle = player.getLookAngle();
 
   let startAngle = 0;
@@ -32,7 +25,7 @@ function shootProjectileCone(
     projectile.setPosition(
       player.x,
       player.y + player.eyeHeight * 0.85,
-      player.z
+      player.z,
     );
     projectile.setMotion(motionX * vel, motionY * vel, motionZ * vel);
     projectile.setOwner(player);
@@ -55,13 +48,7 @@ StartupEvents.registry("item", (event) => {
       .onUse((use) => {
         use.pullTick((event) => {
           const { player } = event;
-          player.potionEffects.add(
-            "kubejs:pulling_weakness",
-            40,
-            0,
-            true,
-            false
-          );
+          player.potionEffects.add("kubejs:tunnel_vision", 40, 0, true, false);
         });
       });
   });
@@ -83,17 +70,17 @@ StartupEvents.registry("item", (event) => {
               2,
               8,
               6.0,
-              12.0
+              12.0,
             );
           });
           use.pullTick((event) => {
             const { player } = event;
             player.potionEffects.add(
-              "kubejs:pulling_weakness",
+              "kubejs:tunnel_vision",
               40,
               0,
               true,
-              false
+              false,
             );
           });
         });
@@ -116,18 +103,18 @@ StartupEvents.registry("item", (event) => {
               "minecraft:arrow",
               1,
               7,
-              6.0,
-              3.0
+              10.0,
+              3.0,
             );
           });
           use.pullTick((event) => {
             const { player } = event;
             player.potionEffects.add(
-              "kubejs:pulling_weakness",
+              "kubejs:tunnel_vision",
               40,
               0,
               true,
-              false
+              false,
             );
           });
         });
@@ -146,21 +133,11 @@ StartupEvents.registry("item", (event) => {
           use.pullTick((event) => {
             const { player } = event;
             player.potionEffects.add(
-              "kubejs:pulling_weakness",
+              "kubejs:tunnel_vision",
               40,
               0,
               true,
-              false
-            );
-          });
-          use.pullTick((event) => {
-            const { player } = event;
-            player.potionEffects.add(
-              "kubejs:pulling_weakness",
-              40,
-              0,
-              true,
-              false
+              false,
             );
           });
         });
@@ -186,11 +163,11 @@ StartupEvents.registry("item", (event) => {
           use.pullTick((event) => {
             const { player } = event;
             player.potionEffects.add(
-              "kubejs:pulling_weakness",
+              "kubejs:tunnel_vision",
               40,
               0,
               true,
-              false
+              false,
             );
           });
         });
@@ -215,11 +192,11 @@ StartupEvents.registry("item", (event) => {
           use.pullTick((event) => {
             const { player } = event;
             player.potionEffects.add(
-              "kubejs:pulling_weakness",
+              "kubejs:tunnel_vision",
               40,
               0,
               true,
-              false
+              false,
             );
           });
         });
@@ -228,7 +205,7 @@ StartupEvents.registry("item", (event) => {
     .repairWith(Ingredient.of("aether_redux:veridium_ingot"));
 });
 
-// Bows Modification
+/// Bow Modification \\\
 
 ItemEvents.modification((event) => {
   const $BowItem = Java.loadClass("net.minecraft.world.item.BowItem");
@@ -243,11 +220,11 @@ ItemEvents.modification((event) => {
             use.pullTick((event) => {
               const { player } = event;
               player.potionEffects.add(
-                "kubejs:pulling_weakness",
+                "kubejs:tunnel_vision",
                 40,
                 0,
                 true,
-                false
+                false,
               );
             });
           });
@@ -266,11 +243,11 @@ ItemEvents.modification((event) => {
             use.pullTick((event) => {
               const { player } = event;
               player.potionEffects.add(
-                "kubejs:pulling_weakness",
+                "kubejs:tunnel_vision",
                 40,
                 0,
                 true,
-                false
+                false,
               );
             });
           });
@@ -289,11 +266,11 @@ ItemEvents.modification((event) => {
             use.pullTick((event) => {
               const { player } = event;
               player.potionEffects.add(
-                "kubejs:pulling_weakness",
+                "kubejs:tunnel_vision",
                 40,
                 0,
                 true,
-                false
+                false,
               );
             });
           });
@@ -312,11 +289,11 @@ ItemEvents.modification((event) => {
             use.pullTick((event) => {
               const { player } = event;
               player.potionEffects.add(
-                "kubejs:pulling_weakness",
+                "kubejs:tunnel_vision",
                 40,
                 0,
                 true,
-                false
+                false,
               );
             });
           });
@@ -335,11 +312,11 @@ ItemEvents.modification((event) => {
             use.pullTick((event) => {
               const { player } = event;
               player.potionEffects.add(
-                "kubejs:pulling_weakness",
+                "kubejs:tunnel_vision",
                 40,
                 0,
                 true,
-                false
+                false,
               );
             });
           });
@@ -358,11 +335,11 @@ ItemEvents.modification((event) => {
             use.pullTick((event) => {
               const { player } = event;
               player.potionEffects.add(
-                "kubejs:pulling_weakness",
+                "kubejs:tunnel_vision",
                 40,
                 0,
                 true,
-                false
+                false,
               );
             });
           });
@@ -381,11 +358,11 @@ ItemEvents.modification((event) => {
             use.pullTick((event) => {
               const { player } = event;
               player.potionEffects.add(
-                "kubejs:pulling_weakness",
+                "kubejs:tunnel_vision",
                 40,
                 0,
                 true,
-                false
+                false,
               );
             });
             use.release((event) => {
@@ -396,8 +373,8 @@ ItemEvents.modification((event) => {
                 "irons_spellbooks:firebolt",
                 2,
                 18,
-                2.0,
-                8.0
+                4.0,
+                8.0,
               );
             });
           });
@@ -416,11 +393,11 @@ ItemEvents.modification((event) => {
             use.pullTick((event) => {
               const { player } = event;
               player.potionEffects.add(
-                "kubejs:pulling_weakness",
+                "kubejs:tunnel_vision",
                 40,
                 0,
                 true,
-                false
+                false,
               );
             });
           });
@@ -439,11 +416,11 @@ ItemEvents.modification((event) => {
             use.pullTick((event) => {
               const { player } = event;
               player.potionEffects.add(
-                "kubejs:pulling_weakness",
+                "kubejs:tunnel_vision",
                 40,
                 0,
                 true,
-                false
+                false,
               );
             });
           });
