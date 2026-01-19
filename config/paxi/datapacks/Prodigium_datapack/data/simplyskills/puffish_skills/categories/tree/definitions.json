@@ -12926,6 +12926,84 @@
       "icon": "rl31zqqovahx9o03"
     }
   },
+  "eldritch_enfeeblement": {
+    "title": {
+      "translate": "text.skills.initiateEldritchEnfeeblement.title"
+    },
+    "description": {
+      "translate": "text.skills.initiateEldritchEnfeeblement.description"
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "simplyskills:textures/icons/alternate_reduced/initiate_eldritch_enfeeblement.png"
+      }
+    },
+    "size": 1.4,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "simplyskills:textures/frames/unlocked.png",
+        "available": "simplyskills:textures/frames/available.png",
+        "locked": "simplyskills:textures/frames/locked.png",
+        "excluded": "simplyskills:textures/frames/excluded.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "eldritch_enfeeblement"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "rl31zqqovahx9o03"
+    }
+  },
+  "magic_defense": {
+    "title": {
+      "translate": "text.skills.initiateMagicDefense.title"
+    },
+    "description": {
+      "translate": "text.skills.initiateMagicDefense.description"
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "simplyskills:textures/icons/alternate_reduced/initiate_hasty.png"
+      }
+    },
+    "size": 1.4,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "simplyskills:textures/frames/unlocked.png",
+        "available": "simplyskills:textures/frames/available.png",
+        "locked": "simplyskills:textures/frames/locked.png",
+        "excluded": "simplyskills:textures/frames/excluded.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "magic_defense"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "rl31zqqovahx9o03"
+    }
+  },
   "swim_speed+3%": {
     "title": "+10% Swim Speed",
     "frame": "challenge",

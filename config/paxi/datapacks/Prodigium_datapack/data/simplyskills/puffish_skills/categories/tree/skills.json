@@ -96,13 +96,13 @@
 		"root": false
 	},
 	"pudmdza96cel9knj": {
-		"definition": "initiateHasty",
+		"definition": "magic_defense",
 		"x": 0,
 		"y": -380,
 		"root": false
 	},
 	"x0eke7vbrvrb116p": {
-		"definition": "initiateEldritchEnfeeblement",
+		"definition": "eldritch_enfeeblement",
 		"x": -114,
 		"y": -190,
 		"root": false
