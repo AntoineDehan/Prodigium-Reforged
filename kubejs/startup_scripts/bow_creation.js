@@ -127,7 +127,7 @@ StartupEvents.registry("item", (event) => {
     .bow((bow) => {
       bow
         .modifyBow((attribute) => {
-          attribute.arrowSpeed(7).baseDamage(8).fullChargeTick(35).infinity();
+          attribute.arrowSpeed(7).baseDamage(9).fullChargeTick(35).infinity();
         })
         .onUse((use) => {
           use.pullTick((event) => {
@@ -214,7 +214,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(35).baseDamage(8).arrowSpeed(7);
+            attributes.fullChargeTick(35).baseDamage(12).arrowSpeed(7);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -283,7 +283,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(50).baseDamage(19).arrowSpeed(8);
+            attributes.fullChargeTick(50).baseDamage(12).arrowSpeed(8);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -306,7 +306,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(25).baseDamage(10).arrowSpeed(7);
+            attributes.fullChargeTick(25).baseDamage(3).arrowSpeed(7);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -387,7 +387,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(25).baseDamage(17).arrowSpeed(7);
+            attributes.fullChargeTick(25).baseDamage(14).arrowSpeed(7);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -410,7 +410,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(50).baseDamage(32).arrowSpeed(8);
+            attributes.fullChargeTick(50).baseDamage(30).arrowSpeed(8);
           })
           .onUse((use) => {
             use.pullTick((event) => {

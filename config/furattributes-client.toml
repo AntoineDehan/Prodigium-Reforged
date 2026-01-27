@@ -1,0 +1,22 @@
+#If true, disables render of runic hearts
+disableHearts = false
+#If true, enables render of shield numbers
+runicNumberCount = false
+#If true, enables render of shield number text
+runicTextNumber = true
+#X coordinates for shield numbers
+#Range: 0 ~ 1920
+numberX = 150
+#Y coordinates for shield numbers
+#Range: 0 ~ 1080
+numberY = 35
+#X coordinates for heart offset.
+#Range: -1920 ~ 1920
+heartOffsetX = 0
+#Y coordinates for heart offset.
+#Range: -1080 ~ 1080
+heartOffsetY = 0
+#Scale for a shield numbers
+#Range: 0.1 ~ 5.0
+scaleNumber = 0.8
+
