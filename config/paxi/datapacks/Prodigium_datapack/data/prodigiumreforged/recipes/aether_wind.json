@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["OB ", "CAC", " BO"],
+  "key": {
+    "A": {
+      "item": "aether:phoenix_bow"
+    },
+    "B": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "C": {
+      "item": "prodigium_reforged:phoenix_ingot"
+    },
+    "O": {
+      "item": "simpleores:onyx_gem"
+    }
+  },
+  "result": {
+    "item": "kubejs:aether_wind",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "cataclysm:weapon_fusion",
+  "base": {
+    "item": "kubejs:twin_shadows"
+  },
+  "addition": {
+    "item": "prodigium_reforged:leviathan_scale"
+  },
+  "result": {
+    "item": "kubejs:arcanethyst_bow"
+  }
+}

@@ -15,10 +15,12 @@ ItemEvents.tooltip((event) => {
   //Misc
   event.add("prodigium_reforged:compass_of_time", [
     Text.darkAqua(
-      "Right click while in a Boss structure to check it's respawning status"
+      "Right click while in a Boss structure to check it's respawning status",
     ),
   ]);
   event.add("prodigium_reforged:wroughtnaut_plate", [
     Text.gold("Can be used to reforge any item"),
   ]);
+
+  event.add("kybejs:ancient_cobalt_bow", [Text.gold("Infinite Arrows")]);
 });

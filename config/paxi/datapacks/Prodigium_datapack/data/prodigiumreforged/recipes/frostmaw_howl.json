@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", "SAB", " B "],
+  "key": {
+    "B": {
+      "item": "irons_spellbooks:frosted_helve"
+    },
+    "A": {
+      "item": "mowziesmobs:ice_crystal"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "kubejs:frostmaw_howl",
+    "count": 1
+  }
+}

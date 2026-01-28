@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["NCN", " A ", "QBQ"],
+  "key": {
+    "A": {
+      "item": "prodigium:orichalcum_bow"
+    },
+    "B": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "item": "prodigium_reforged:knight_soul_fragment"
+    },
+    "N": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "kubejs:twin_shadows",
+    "count": 1
+  }
+}

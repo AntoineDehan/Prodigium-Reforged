@@ -1,47 +1,47 @@
 {
   "ranged_weapons": {
     "archers:netherite_heavy_crossbow": {
-      "pull_time": 35,
+      "pull_time": 1,
       "damage": 0.0,
       "velocity": 0.0
     },
     "archers:netherite_shortbow": {
-      "pull_time": 16,
+      "pull_time": 1,
       "damage": 0.0,
       "velocity": 0.0
     },
     "archers:royal_longbow": {
-      "pull_time": 30,
+      "pull_time": 1,
       "damage": 0.0,
       "velocity": 0.0
     },
     "archers:netherite_rapid_crossbow": {
-      "pull_time": 20,
+      "pull_time": 1,
       "damage": 0.0,
       "velocity": 0.0
     },
     "archers:heavy_crossbow": {
-      "pull_time": 35,
+      "pull_time": 1,
       "damage": 0.0,
       "velocity": 0.0
     },
     "archers:netherite_longbow": {
-      "pull_time": 30,
+      "pull_time": 1,
       "damage": 0.0,
       "velocity": 0.0
     },
     "archers:composite_longbow": {
-      "pull_time": 30,
+      "pull_time": 1,
       "damage": 1.0,
       "velocity": 0.0
     },
     "archers:rapid_crossbow": {
-      "pull_time": 20,
+      "pull_time": 1,
       "damage": 0.0,
       "velocity": 0.0
     },
     "archers:mechanic_shortbow": {
-      "pull_time": 16,
+      "pull_time": 1,
       "damage": 0.0,
       "velocity": 0.0
     }
