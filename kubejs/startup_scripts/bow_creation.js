@@ -39,20 +39,6 @@ function shootProjectileCone(player, level, projectileEntity, count, spreadAngle
 }
 
 StartupEvents.registry("item", (event) => {
-  // Tests
-  event.create("test_bow", "bow").bow((bow) => {
-    bow
-      .modifyBow((attribute) => {
-        attribute.baseDamage(20);
-      })
-      .onUse((use) => {
-        use.pullTick((event) => {
-          const { player } = event;
-          player.potionEffects.add("kubejs:tunnel_vision", 40, 0, true, false);
-        });
-      });
-  });
-
   event
     .create("arcanethyst_bow", "bow")
     .bow((bow) => {
