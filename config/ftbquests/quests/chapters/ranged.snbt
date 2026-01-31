@@ -417,7 +417,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 8.0d
 		}
 		{
@@ -636,7 +636,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 5.0d
 		}
 		{
@@ -1025,10 +1025,10 @@
 			id: "55833B75FF5E34CB"
 			subtitle: "&6Post Frostmaw&r"
 			tasks: [{
-				id: "0718B9D67A0ACF88"
+				id: "5664CA9C051B9CAA"
 				item: {
 					Count: 1
-					id: "too_many_bows:cyroheart_bow"
+					id: "kubejs:frostmaw_howl"
 					tag: {
 						Damage: 0
 					}
@@ -1620,34 +1620,17 @@
 			dependencies: ["686B5BA848725480"]
 			id: "5A5FB4345866915C"
 			tasks: [{
-				id: "457444F3F470EBA5"
+				id: "2CE51751B0CE750C"
 				item: {
 					Count: 1
-					id: "too_many_bows:burnt_relic"
+					id: "kubejs:ancient_cobalt_bow"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["686B5BA848725480"]
-			id: "5CAB0F231017602A"
-			tasks: [{
-				id: "5C1B1D98963637AD"
-				item: {
-					Count: 1
-					id: "too_many_bows:emerald_sage_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
+			x: 4.0d
 			y: 5.0d
 		}
 		{
@@ -1657,17 +1640,17 @@
 			id: "7DA6A2139D246465"
 			subtitle: "&6Post Underworld Knigt&r"
 			tasks: [{
-				id: "6178EFCC0AF10CE9"
+				id: "3F90FFAC32683644"
 				item: {
 					Count: 1
-					id: "too_many_bows:twin_shadows"
+					id: "kubejs:twin_shadows"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
@@ -1677,17 +1660,17 @@
 			id: "35D7760BABF13D2A"
 			subtitle: "&6Post Leviathan&r"
 			tasks: [{
-				id: "7FB9D5770AC1F748"
+				id: "3DCC0B7094F8A1CF"
 				item: {
 					Count: 1
-					id: "too_many_bows:arcane_bow"
+					id: "kubejs:arcanethyst_bow"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 10.0d
 		}
 		{
@@ -1697,58 +1680,18 @@
 			id: "4C3BE3F0BF63237D"
 			subtitle: "&6Post Ignis&r"
 			tasks: [{
-				id: "34DF18FABD40B7B7"
+				id: "42CC134592C5BAB3"
 				item: {
 					Count: 1
-					id: "too_many_bows:arc_heavens"
+					id: "kubejs:aether_wind"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 10.0d
-		}
-		{
-			dependencies: ["4A96E3EADCF0C191"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "3C15DB2D02BB63D8"
-			subtitle: "&6Post Sun Spirit&r"
-			tasks: [{
-				id: "05A81652B75A739B"
-				item: {
-					Count: 1
-					id: "too_many_bows:scatter_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["4A96E3EADCF0C191"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "49DA5D1A38679EEB"
-			subtitle: "&6Post Netherite Gauntlet&r"
-			tasks: [{
-				id: "446E88B9B998AE40"
-				item: {
-					Count: 1
-					id: "too_many_bows:astral_bound"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: 8.0d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
@@ -1850,7 +1793,7 @@
 				id: "42E1AB15D5F79A57"
 				item: {
 					Count: 1
-					id: "archeryexp:wooden_bow"
+					id: "minecraft:bow"
 					tag: {
 						Damage: 0
 					}

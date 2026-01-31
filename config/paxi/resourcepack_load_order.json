@@ -1,15 +1,13 @@
 {
   "loadOrder": [
     "Visual Titles.zip",
-    "MandalasGUI+Darkmode_1.20.5.zip",
-    "MandalasGUI+Dakmode_1.21.6_v2.0.zip",
     "GWR3D v3.2.0",
     "Aether Regenerated v1.2.1.zip",
     "Stay_True_1.20.zip",
     "Stay True Compats v7 [1.19].zip",
     "SE Vanilla Consistency 1.20.1.zip",
     "NoBushyLeaves.zip",
-    "Prodigium+Textures.zip",
+    "Prodigium Textures 4.2+.zip",
     "Icon Xaero's 1.21.zip",
     "Better Fitting XP Mana Bar for Iron's Spells 'n Spellbooks",
     "3D Armors",
@@ -18,11 +16,13 @@
     "[Moonsu] Better GUI for Sophisticated Backpacks 2.0 1.20-1",
     "WDA-NoFlyingStructures-1.18.2-1.19.2.zip",
     "WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip",
-    "MCA_resourcepack-V3.zip",
+    "MCA_resourcepack-V3.1.1.zip",
     "OSQuestTheme",
     "Simply Swords Reforged v1",
     "Angel's_Weather_v1.8.1hf",
     "Serified Font v1.1 f1-34",
-    "[1.4.1] Enhanced Boss Bars"
+    "[1.4.1] Enhanced Boss Bars",
+    "MandalasGUI+Dakmode_1.21.6_v2.0.zip",
+    "MandalasGUI+Modded_Dakmode_v4.6.zip"
   ]
 }

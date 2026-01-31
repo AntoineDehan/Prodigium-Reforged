@@ -196,6 +196,14 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/function prodigiumreforged:attributes"
+					elevate_perms: true
+					id: "7F6B82B362555FC8"
+					silent: true
+					type: "command"
+				}
 			]
 			subtitle: "&5Read me!&r (it's important and not long)"
 			tasks: [{
@@ -283,7 +291,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Craft a &9Slime Crown&r to invoke the boss"
+				"Craft a &9Slime Crown&r to invoke the boss."
 				""
 				""
 				"As a reward, you will get an &bExplorer Compass&r to help you explore."
@@ -1314,6 +1322,7 @@
 				"076CA10541A9CDF3"
 				"059DA9E1AF69D4DC"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Found in his village, the &2Umvuthana Grove&r."
 				""
