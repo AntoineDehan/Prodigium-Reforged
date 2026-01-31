@@ -49,6 +49,18 @@
       },
       {
         "item": "wizards:fire_robe_feet"
+      },      
+      {
+        "item": "irons_spellbooks:cultist_helmet"
+      },
+      {
+        "item": "irons_spellbooks:cultist_leggings"
+      },
+      {
+        "item": "irons_spellbooks:cultist_chestplate"
+      },
+      {
+        "item": "irons_spellbooks:cultist_boots"
       }
     ],
     "modList": [],
