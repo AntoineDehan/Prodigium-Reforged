@@ -5,7 +5,7 @@
   },
   "crystalRespawnTimeModifier": {
     "desc:": "Modifies crystal respawn time, 0.5 = spawns twice as fast, 2 = twice as slow. default:1.0",
-    "crystalRespawnTimeModifier": 4
+    "crystalRespawnTimeModifier": 4.0
   },
   "lightningExplosionDensity": {
     "desc:": "Modifies lightning and explosion density, 0.5 = half as many, 2 = twice as many. default:1.0",
@@ -18,6 +18,10 @@
   "antiflightAbility": {
     "desc:": "Enables anti-flight ability: default:true",
     "antiflightAbility": false
+  },
+  "explosionImmunity": {
+    "desc:": "Enables explosion damage immunity for the dragon, note that beds are always immune regardless of this setting: default:true",
+    "explosionImmunity": true
   },
   "dragonHealthModifier": {
     "desc:": "Sets the dragon health modifier: default:1.0",
@@ -46,18 +50,20 @@
   "descSpawnEntries": "Below are configuration options for entity spawning, when trying to use nbt append it right after the entity type, e.g. minecraft:zombie{}. Put a backslash in front of all quotation marks",
   "spawnoncrystaldestroy": {
     "desc:": "List of mobs spawning when a crystal is destroyed at range, intended to be flying or ranged to close the gap: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
-    "spawnoncrystaldestroy": ["minecraft:blaze"]
+    "spawnoncrystaldestroy": [
+      "minecraft:blaze"
+    ]
   },
   "spawnoncrystalrespawn": {
     "desc:": "List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
-    "spawnoncrystalrespawn": ["minecraft:blaze"]
+    "spawnoncrystalrespawn": [
+      "minecraft:blaze"
+    ]
   },
   "spawnwhilelanded": {
     "desc:": "List of mobs spawning while the dragon is sitting in the middle, intended to be melee and not vulnerable to ranged: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
-    "spawnwhilelanded": ["born_in_chaos_v1:zombie_bruiser"]
-  },
-  "crystalPendingRespawns": {
-    "desc:": "List of crystal respawn locations for the end crystals, filled automatically on destroy recommended to not touch. XYZ coords seperated by semicolon",
-    "crystalPendingRespawns": []
+    "spawnwhilelanded": [
+      "born_in_chaos_v1:zombie_bruiser"
+    ]
   }
 }
