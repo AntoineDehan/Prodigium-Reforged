@@ -42,7 +42,7 @@
 		# If Horizontally Center Title is enabled, this number is relative to the center of the screen.
 		# If Horizontally Center Title is disabled, this number is relative to the left side of the screen.
 		# Default: 0.0
-		"Text X Offset" = -320
+		"Text X Offset" = 0
 		# Biomes that should not have any title displayed when the player enters them.
 		# Example: "[minecraft:plains, minecraft:desert]"
 		# Default: "[minecraft:the_end, minecraft:river, minecraft:frozen_river]"
