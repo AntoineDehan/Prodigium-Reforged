@@ -154,6 +154,8 @@
 				"There are also &6NPCs&r that works like in Terraria :"
 				"[\"Check the \", { \"text\": \"NPC chapter\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"403FB403014A738D\" } }, \" in the Questbook to know more.\" ] "
 				""
+				"&4If you play in multiplayer&r use the &l\"/party\"&r command to create a party &o(to move the hud, press left-alt, a button on the left side of the hotbar will appear)&r"
+				""
 				"{@pagebreak}"
 				" &6Three main stages&r are available in Prodigium Reforged. "
 				""
@@ -201,6 +203,14 @@
 					command: "/function prodigiumreforged:attributes"
 					elevate_perms: true
 					id: "7F6B82B362555FC8"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages popup @a 9 Important If you play Multiplayer do not use FTBteams, use \"/party help\" to learn more."
+					elevate_perms: true
+					id: "788C3645A042BF20"
 					silent: true
 					type: "command"
 				}
@@ -664,6 +674,14 @@
 					id: "773E139DDB4B486D"
 					table_id: 7449522933339281626L
 					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages sendcustom @a { wrap:1, anchor:3, y:-55 } 15 Diamond is now available in your world."
+					elevate_perms: true
+					id: "1CD5DAC3FFFA6449"
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -1427,7 +1445,13 @@
 		}
 		{
 			dependencies: ["41155113EBA75E4E"]
-			description: ["Summon it by crafting a &9Haunted Bell&r."]
+			description: [
+				"Summon it by crafting a &9Haunted Bell&r."
+				""
+				""
+				"&nTip:&r"
+				"You can place a &lCampfire&r to obtain the &lRegeneration&r effect while nearby."
+			]
 			icon: "meetyourfight:haunted_bell"
 			id: "53EAB8D1FE264583"
 			min_required_tasks: 1
@@ -1480,6 +1504,14 @@
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages sendcustom @a { wrap:1, anchor:3, y:-55 } 15 Your world has now generated Adamantium, Palladium and Mythril!"
+					elevate_perms: true
+					id: "381D7A837AC2A59A"
+					silent: true
 					type: "command"
 				}
 			]
@@ -1809,7 +1841,13 @@
 		}
 		{
 			dependencies: ["1A1D4191D9A098E9"]
-			description: ["Summon it using the &9Suspicious Looking Eye&r."]
+			description: [
+				"Summon it using the &9Suspicious Looking Eye&r."
+				""
+				"&nTip:&r"
+				"You can &lOvereat&r. Even if your &lHunger and Saturation&r are full you  can still stack Saturation up to &63x the vanilla amount&r."
+				"Super useful before Boss fights!"
+			]
 			id: "41155113EBA75E4E"
 			rewards: [
 				{
@@ -1932,6 +1970,14 @@
 					id: "5C934573A39C172F"
 					silent: true
 					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages sendcustom @a { wrap:1, anchor:3, y:-55, color:orange } 15 The Desert rises..."
+					elevate_perms: true
+					id: "2ED744CD73F674F8"
+					silent: true
 					type: "command"
 				}
 			]

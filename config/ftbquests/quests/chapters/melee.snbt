@@ -128,7 +128,7 @@
 				}
 			]
 			title: "Berserker armors for the Normal Mode"
-			x: 1.0d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -246,7 +246,7 @@
 				type: "item"
 			}]
 			title: "Berserker armor for the Master Mode"
-			x: 7.25d
+			x: 8.25d
 			y: 0.0d
 		}
 		{
@@ -280,7 +280,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Potion Injector"
-			x: 1.0d
+			x: 0.5d
 			y: -1.5d
 		}
 		{
@@ -299,7 +299,7 @@
 				type: "item"
 			}]
 			title: "Why not coat your weapons?"
-			x: 2.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{

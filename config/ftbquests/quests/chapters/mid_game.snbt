@@ -1383,6 +1383,14 @@
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages sendcustom @a { wrap:1, anchor:3, y:-55 } 15 Netherite is now available in the Nether."
+					elevate_perms: true
+					id: "3A69FBDF2C97AAA3"
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -1627,6 +1635,14 @@
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages sendcustom @a { wrap:1, anchor:3, y:-55 } 15 Veridium is now available in the Aether."
+					elevate_perms: true
+					id: "317C8DB53F37B061"
+					silent: true
 					type: "command"
 				}
 			]
@@ -2144,6 +2160,14 @@
 					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages sendcustom @a { wrap:1, anchor:3, y:-55 } 15 Onyx is now available in the Nether."
+					elevate_perms: true
+					id: "7E7DFC43F52BCFC1"
+					silent: true
 					type: "command"
 				}
 			]

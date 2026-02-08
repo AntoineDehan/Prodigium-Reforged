@@ -392,7 +392,7 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.1
 		#Range: 0.0 ~ 10.0
-		rangedDamage = 0.1
+		rangedDamage = 0.0
 
 	[Attributes."Ancient Chisel"]
 		#Range: 0.0 ~ 10.0
@@ -408,17 +408,17 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		#Range: 0.0 ~ 10.0
 		rangedDamage = 0.1
 		#Range: 0.0 ~ 10.0
-		rangedVelocity = 0.2
+		rangedVelocity = 0.0
 
 	[Attributes."Molten Quiver"]
 		#Range: 0.0 ~ 10.0
-		rangedDamage = 0.1
+		rangedDamage = 0.0
 		#Range: 0.0 ~ 10.0
 		rangedVelocity = 0.2
 
 	[Attributes."Ranger Emblem"]
 		#Range: 0.0 ~ 10.0
-		rangedDamage = 0.15
+		rangedDamage = 0.0
 
 	[Attributes."Shark Tooth Necklace"]
 		#Range: 0 ~ 10000
@@ -430,7 +430,7 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 
 	[Attributes."Stalker Quiver"]
 		#Range: 0.0 ~ 10.0
-		rangedDamage = 0.1
+		rangedDamage = 0.0
 		#Range: 0.0 ~ 10.0
 		rangedVelocity = 0.2
 		#Range: -10000 ~ 10000

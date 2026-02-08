@@ -100,6 +100,14 @@
 				"It will help you know which armors and more to craft!"
 			]
 			id: "78DE64EE0773BEF4"
+			rewards: [{
+				auto: "invisible"
+				command: "/immersivemessages popup @s 8 \"Check your Quests!\" You now have unlocked a new Quest Chapter about your class weapons & gear, check it out!"
+				elevate_perms: true
+				id: "141D5CD1E7401A44"
+				silent: true
+				type: "command"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
@@ -123,6 +131,14 @@
 				"It will help you know which armors and more to craft next!"
 			]
 			id: "44FCF260737D0785"
+			rewards: [{
+				auto: "invisible"
+				command: "/immersivemessages popup @s 8 \"Check your Quests!\" You now have unlocked a new Quest Chapter about your class weapons & gear, check it out!"
+				elevate_perms: true
+				id: "1768A455F11555FD"
+				silent: true
+				type: "command"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
@@ -146,6 +162,14 @@
 				"It will help you know which armors and more to craft next!"
 			]
 			id: "686B5BA848725480"
+			rewards: [{
+				auto: "invisible"
+				command: "/immersivemessages popup @s 8 \"Check your Quests!\" You now have unlocked a new Quest Chapter about your class weapons & gear, check it out!"
+				elevate_perms: true
+				id: "185C365924287B74"
+				silent: true
+				type: "command"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
@@ -169,12 +193,22 @@
 				"It will help you know which armors and more to craft next!"
 			]
 			id: "745FE062B66D6927"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7811ABFA60B5931B"
-				table_id: 9057004262298788782L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7811ABFA60B5931B"
+					table_id: 9057004262298788782L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages popup @s 8 \"Check your Quests!\" You now have unlocked a new Quest Chapter about your class weapons & gear, check it out!"
+					elevate_perms: true
+					id: "53D7A3ED39A201E6"
+					silent: true
+					type: "command"
+				}
+			]
 			secret: true
 			tasks: [{
 				icon: {
@@ -198,12 +232,22 @@
 				"It will help you know which armors and more to craft next!"
 			]
 			id: "525D3BC989CF49D9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4DC913972774FD63"
-				table_id: 9057004262298788782L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DC913972774FD63"
+					table_id: 9057004262298788782L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages popup @s 8 \"Check your Quests!\" You now have unlocked a new Quest Chapter about your class weapons & gear, check it out!"
+					elevate_perms: true
+					id: "10D200EF4AC8C4B9"
+					silent: true
+					type: "command"
+				}
+			]
 			secret: true
 			tasks: [{
 				icon: "runes:healing_stone"
@@ -361,12 +405,22 @@
 				"It will help you know which armors and more to craft next!"
 			]
 			id: "004D49788CC0D5FC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "375608D699D16B77"
-				table_id: 9057004262298788782L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "375608D699D16B77"
+					table_id: 9057004262298788782L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/immersivemessages popup @s 8 \"Check your Quests!\" You now have unlocked a new Quest Chapter about your class weapons & gear, check it out!"
+					elevate_perms: true
+					id: "696F1DE0FC5E67EA"
+					silent: true
+					type: "command"
+				}
+			]
 			secret: true
 			tasks: [{
 				icon: "born_in_chaos_v1:shattered_skull"
@@ -384,6 +438,14 @@
 				"It will help you know which armors and more to craft next!"
 			]
 			id: "51F86D6012A589B2"
+			rewards: [{
+				auto: "invisible"
+				command: "/immersivemessages popup @s 8 \"Check your Quests!\" You now have unlocked a new Quest Chapter about your class weapons & gear, check it out!"
+				elevate_perms: true
+				id: "57D2103C50F91517"
+				silent: true
+				type: "command"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
