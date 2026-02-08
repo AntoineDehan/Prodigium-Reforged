@@ -10685,7 +10685,7 @@
     ]
   },
   "ranged_damage+5%": {
-    "title": "+8% Arrow Damage",
+    "title": "+4% Arrow Damage",
     "icon": {
       "type": "item",
       "data": {
@@ -10697,7 +10697,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "furattributes:proj_damage",
-          "value": 8,
+          "value": 4,
           "operation": "addition"
         }
       },
@@ -10705,14 +10705,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "ranged_weapon:damage",
-          "value": 0.25,
+          "value": 0.2,
           "operation": "addition"
         }
       }
     ]
   },
   "ranged_damage+10%": {
-    "title": "+16% Arrow Damage",
+    "title": "+10% Arrow Damage",
     "icon": {
       "type": "item",
       "data": {
@@ -10724,7 +10724,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "furattributes:proj_damage",
-          "value": 16,
+          "value": 10,
           "operation": "addition"
         }
       },
@@ -10732,14 +10732,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "ranged_weapon:damage",
-          "value": 0.25,
+          "value": 0.2,
           "operation": "addition"
         }
       }
     ]
   },
   "ranged_damage+20%": {
-    "title": "+20% Arrow Damage",
+    "title": "+15% Arrow Damage",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10752,7 +10752,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "furattributes:proj_damage",
-          "value": 20,
+          "value": 15,
           "operation": "addition"
         }
       },
@@ -10760,7 +10760,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "ranged_weapon:damage",
-          "value": 0.25,
+          "value": 0.2,
           "operation": "addition"
         }
       }
