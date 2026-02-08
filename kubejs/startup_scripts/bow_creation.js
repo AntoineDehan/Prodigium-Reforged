@@ -44,7 +44,7 @@ StartupEvents.registry("item", (event) => {
     .bow((bow) => {
       bow
         .modifyBow((attributes) => {
-          attributes.arrowSpeed(7).baseDamage(25).fullChargeTick(40);
+          attributes.arrowSpeed(5).baseDamage(11).fullChargeTick(40);
         })
         .onUse((use) => {
           use.release((event) => {
@@ -69,7 +69,8 @@ StartupEvents.registry("item", (event) => {
               false,
             );
           });
-        });
+        })
+
     })
     .maxDamage(2850);
 
@@ -78,7 +79,7 @@ StartupEvents.registry("item", (event) => {
     .bow((bow) => {
       bow
         .modifyBow((attributes) => {
-          attributes.arrowSpeed(7).baseDamage(20).fullChargeTick(40);
+          attributes.arrowSpeed(5).baseDamage(7).fullChargeTick(40);
         })
         .onUse((use) => {
           use.release((event) => {
@@ -113,7 +114,7 @@ StartupEvents.registry("item", (event) => {
     .bow((bow) => {
       bow
         .modifyBow((attribute) => {
-          attribute.arrowSpeed(7).baseDamage(9).fullChargeTick(35).infinity();
+          attribute.arrowSpeed(4).baseDamage(3).fullChargeTick(35).infinity();
         })
         .onUse((use) => {
           use.pullTick((event) => {
@@ -137,7 +138,7 @@ StartupEvents.registry("item", (event) => {
     .bow((bow) => {
       bow
         .modifyBow((attribute) => {
-          attribute.arrowSpeed(8).baseDamage(15).fullChargeTick(40).pierce(2);
+          attribute.arrowSpeed(5).baseDamage(5.5).fullChargeTick(40).pierce(2);
         })
         .onArrowHit((arrow) => {
           arrow.hitEntity((event) => {
@@ -167,7 +168,7 @@ StartupEvents.registry("item", (event) => {
     .bow((bow) => {
       bow
         .modifyBow((attribute) => {
-          attribute.arrowSpeed(7).baseDamage(25).fullChargeTick(35).pierce(1);
+          attribute.arrowSpeed(5).baseDamage(7).fullChargeTick(35).pierce(1);
         })
         .onArrowHit((arrow) => {
           arrow.hitBlock((event) => {
@@ -200,7 +201,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(35).baseDamage(12).arrowSpeed(7);
+            attributes.fullChargeTick(35).baseDamage(14);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -223,7 +224,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(50).baseDamage(12).arrowSpeed(8);
+            attributes.fullChargeTick(50).baseDamage(15).arrowSpeed(6);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -246,7 +247,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(35).baseDamage(13).arrowSpeed(7);
+            attributes.fullChargeTick(35).baseDamage(3).arrowSpeed(5);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -269,7 +270,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(50).baseDamage(12).arrowSpeed(8);
+            attributes.fullChargeTick(50).baseDamage(5).arrowSpeed(6);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -292,7 +293,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(25).baseDamage(3).arrowSpeed(7);
+            attributes.fullChargeTick(25).baseDamage(3).arrowSpeed(4);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -315,7 +316,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(35).baseDamage(18).arrowSpeed(7);
+            attributes.fullChargeTick(35).baseDamage(8).arrowSpeed(5);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -338,7 +339,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(35).baseDamage(25).arrowSpeed(7);
+            attributes.fullChargeTick(35).baseDamage(12).arrowSpeed(5);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -373,7 +374,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(25).baseDamage(14).arrowSpeed(7);
+            attributes.fullChargeTick(25).baseDamage(7.5).arrowSpeed(5);
           })
           .onUse((use) => {
             use.pullTick((event) => {
@@ -396,7 +397,7 @@ ItemEvents.modification((event) => {
       item.bow((bow) => {
         bow
           .modifyBow((attributes) => {
-            attributes.fullChargeTick(50).baseDamage(30).arrowSpeed(8);
+            attributes.fullChargeTick(50).baseDamage(20).arrowSpeed(6);
           })
           .onUse((use) => {
             use.pullTick((event) => {

@@ -30,11 +30,17 @@ const holySpells = [
 
 const manaTracker = {};
 
+
 PlayerEvents.changeMana((event) => {
   const player = event.player;
   const magicData = event.getMagicData();
+  const spellId = magicData.getCastingSpellId();
 
   if (!magicData || magicData.getCastSource() !== "SPELLBOOK") return;
+
+  // console.log("ici spellid", spellId)
+  // if (spellId = "irons_spellbooks:acupuncture") {
+  // }
 
   if (
     player.hasEffect("kubejs:skyjade_knowledge") ||
@@ -138,7 +144,6 @@ PlayerEvents.changeMana((event) => {
   // Cleric Nether armor effect
   if (player.hasEffect("kubejs:nether_embrace")) {
     const spellTarget = magicData.additionalCastData.getTarget(player.level);
-    const spellId = magicData.getCastingSpellId();
     if (
       spellTarget.hasEffect("kubejs:nether_protection") ||
       spellTarget.hasEffect("kubejs:nether_heat")
@@ -171,7 +176,6 @@ PlayerEvents.changeMana((event) => {
   // Handling of Sol armor effect
   if (player.hasEffect("kubejs:sun_light")) {
     const spellTarget = magicData.additionalCastData.getTarget(player.level);
-    const spellId = magicData.getCastingSpellId();
     if (holySpells.includes(spellId)) {
       spellTarget.potionEffects.add(
         "minecraft:regeneration",
@@ -194,7 +198,6 @@ PlayerEvents.changeMana((event) => {
 
   if (player.hasEffect("kubejs:prior_faith")) {
     const spellTarget = magicData.additionalCastData.getTarget(player.level);
-    const spellId = magicData.getCastingSpellId();
     if (holySpells.includes(spellId)) {
       if (spellTarget.hasEffect("kubejs:holy_warmth")) {
         spellTarget.removeEffect("kubejs:holy_warmth");
