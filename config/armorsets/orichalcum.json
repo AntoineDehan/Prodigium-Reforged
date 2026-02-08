@@ -16,7 +16,7 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "attributeslib:arrow_damage",
+      "name": "furattributes:proj_damage",
       "value": 0.05,
       "attributeOperation": 1,
       "modifierUUID": "7fab53f7-ba6b-4aa0-8a37-39494621a315",

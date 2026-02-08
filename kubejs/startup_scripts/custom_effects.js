@@ -909,7 +909,7 @@ StartupEvents.registry("mob_effect", (event) => {
       "multiply_total",
     )
     .modifyAttribute(
-      "attributeslib:arrow_damage",
+      "furattributes:proj_damage",
       "2d1ba380-8d6e-4834-87b7-764f0b56e440",
       0.1,
       "multiply_total",
@@ -1073,7 +1073,7 @@ StartupEvents.registry("mob_effect", (event) => {
       "addition",
     )
     .modifyAttribute(
-      "attributeslib:arrow_damage",
+      "furattributes:proj_damage",
       "b63a16d7-d3a9-47b5-bea9-5a6419fabb0f",
       0.2,
       "multiply_total",
@@ -1137,7 +1137,7 @@ StartupEvents.registry("mob_effect", (event) => {
       "addition",
     )
     .modifyAttribute(
-      "attributeslib:arrow_damage",
+      "furattributes:proj_damage",
       "d490b754-6587-4b50-9a36-2e62b069899e",
       0.12,
       "multiply_total",
@@ -1177,7 +1177,7 @@ StartupEvents.registry("mob_effect", (event) => {
     .color(0xffd27f)
     .beneficial()
     .modifyAttribute(
-      "attributeslib:arrow_damage",
+      "furattributes:proj_damage",
       "0af972f1-3303-49d0-860e-4ab4e4307f76",
       0.12,
       "multiply_total",

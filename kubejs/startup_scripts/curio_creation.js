@@ -7,8 +7,8 @@ StartupEvents.registry("item", (event) => {
         "minecraft:generic.armor",
         UUID,
         4,
-        "addition"
-      )
+        "addition",
+      ),
     )
     .maxStackSize(1)
     .tag("curios:accessory");
@@ -21,8 +21,8 @@ StartupEvents.registry("item", (event) => {
         "irons_spellbooks:mana_regen",
         UUID,
         0.05,
-        "addition"
-      )
+        "addition",
+      ),
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -35,8 +35,8 @@ StartupEvents.registry("item", (event) => {
         "attributeslib:dodge_chance",
         UUID,
         0.05,
-        "addition"
-      )
+        "addition",
+      ),
     )
     .maxStackSize(1)
     .tag("curios:charm");
@@ -49,8 +49,8 @@ StartupEvents.registry("item", (event) => {
         "irons_spellbooks:holy_spell_power",
         UUID,
         0.05,
-        "addition"
-      )
+        "addition",
+      ),
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -63,8 +63,8 @@ StartupEvents.registry("item", (event) => {
         "attributeslib:life_steal",
         UUID,
         0.02,
-        "addition"
-      )
+        "addition",
+      ),
     )
     .maxStackSize(1)
     .tag("curios:ring");
@@ -84,8 +84,8 @@ StartupEvents.registry("item", (event) => {
         "minecraft:generic.armor",
         UUID,
         6,
-        "addition"
-      )
+        "addition",
+      ),
     )
     .maxStackSize(1)
     .tag("curios:accessory");
@@ -98,8 +98,8 @@ StartupEvents.registry("item", (event) => {
         "combatroll:count",
         UUID,
         1,
-        "addition"
-      )
+        "addition",
+      ),
     )
     .maxStackSize(1)
     .tag("curios:feet");
@@ -112,8 +112,8 @@ StartupEvents.registry("item", (event) => {
         "combatroll:recharge",
         UUID,
         0.1,
-        "multiply_base"
-      )
+        "multiply_base",
+      ),
     )
     .maxStackSize(1)
     .tag("curios:ring");
@@ -128,9 +128,88 @@ StartupEvents.registry("item", (event) => {
           "attributeslib:arrow_velocity",
           UUID,
           0.05,
-          "multiply_base"
-        )
+          "multiply_base",
+        ),
     )
     .maxStackSize(1)
     .tag("curios:necklace");
+});
+
+ItemEvents.modification((event) => {
+  event.modify("confluence:ranger_emblem", (item) => {
+    item.attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "furattributes:proj_damage",
+        UUID,
+        0.15,
+        "multiply_total",
+      ),
+    );
+  });
+
+  event.modify("confluence:magic_quiver", (item) => {
+    item.attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "furattributes:proj_damage",
+        UUID,
+        0.1,
+        "multiply_total",
+      ),
+    );
+  });
+
+  event.modify("confluence:molten_quiver", (item) => {
+    item.attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "furattributes:proj_damage",
+        UUID,
+        0.12,
+        "multiply_total",
+      ),
+    );
+  });
+
+  event.modify("confluence:stalkers_quiver", (item) => {
+    item.attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "furattributes:proj_damage",
+        UUID,
+        0.12,
+        "multiply_total",
+      ),
+    );
+  });
+
+  event.modify("confluence:sniper_scope", (item) => {
+    item.attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "furattributes:proj_damage",
+        UUID,
+        0.1,
+        "multiply_total",
+      ),
+    );
+  });
+
+  event.modify("confluence:avenger_emblem", (item) => {
+    item.attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "furattributes:proj_damage",
+        UUID,
+        0.12,
+        "multiply_total",
+      ),
+    );
+  });
+
+  event.modify("confluence:destroyer_emblem", (item) => {
+    item.attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "furattributes:proj_damage",
+        UUID,
+        0.1,
+        "multiply_total",
+      ),
+    );
+  });
 });
