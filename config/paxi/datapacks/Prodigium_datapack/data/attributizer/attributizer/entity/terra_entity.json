@@ -54,6 +54,11 @@
       "attribute": "minecraft:generic.movement_speed",
       "modify": -0.35,
       "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "forge:attack_range",
+      "modify": -1,
+      "operation": "ADDITION"
     }
   ],
   "terra_entity:eye_of_cthulhu": [
