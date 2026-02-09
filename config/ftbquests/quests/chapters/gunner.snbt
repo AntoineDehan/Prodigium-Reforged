@@ -129,7 +129,9 @@
 				"43D51238714E5EBC"
 				"774BCB593AAFAA33"
 			]
+			hide_until_deps_complete: true
 			id: "6EF7C057C65B42AA"
+			min_required_tasks: 1
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -175,6 +177,7 @@
 		}
 		{
 			dependencies: ["6EF7C057C65B42AA"]
+			hide_until_deps_complete: true
 			id: "151534325D82BD9F"
 			shape: "rsquare"
 			size: 1.5d
