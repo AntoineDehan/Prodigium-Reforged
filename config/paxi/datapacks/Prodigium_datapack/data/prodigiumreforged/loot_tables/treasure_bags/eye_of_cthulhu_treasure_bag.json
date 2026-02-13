@@ -29,7 +29,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "archeryexp:gold_arrow",
+          "name": "archers_paradox:explosive_arrow",
           "weight": 10,
           "functions": [
             {
