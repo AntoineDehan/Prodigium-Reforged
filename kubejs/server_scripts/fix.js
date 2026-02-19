@@ -12,9 +12,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 1900) {
-            entity.setMaxHealth(1800);
-            entity.setHealth(1800);
+          if (entity.getMaxHealth() > 1300) {
+            entity.setMaxHealth(1300);
+            entity.setHealth(1300);
           }
         }
 
@@ -24,14 +24,16 @@ ServerEvents.tick((event) => {
           entity.z - 30,
           entity.x + 30,
           entity.y + 30,
-          entity.z + 30
+          entity.z + 30,
         );
 
         let adds = level
           .getEntitiesWithin(box)
           .filter(
             (e) =>
-              e.isLiving() && e.isAlive() && e.type === "terra_entity:demon_eye"
+              e.isLiving() &&
+              e.isAlive() &&
+              e.type === "terra_entity:demon_eye",
           );
 
         for (let add of adds) {
@@ -44,9 +46,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 1300) {
-            entity.setMaxHealth(1300);
-            entity.setHealth(1300);
+          if (entity.getMaxHealth() > 800) {
+            entity.setMaxHealth(800);
+            entity.setHealth(800);
           }
         }
       }
@@ -56,9 +58,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 2600) {
-            entity.setMaxHealth(2600);
-            entity.setHealth(2600);
+          if (entity.getMaxHealth() > 1500) {
+            entity.setMaxHealth(1500);
+            entity.setHealth(1500);
           }
         }
       }
@@ -66,9 +68,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 2600) {
-            entity.setMaxHealth(2600);
-            entity.setHealth(2600);
+          if (entity.getMaxHealth() > 1500) {
+            entity.setMaxHealth(1500);
+            entity.setHealth(1500);
           }
         }
       }
@@ -78,9 +80,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 1800) {
-            entity.setMaxHealth(1800);
-            entity.setHealth(1800);
+          if (entity.getMaxHealth() > 1400) {
+            entity.setMaxHealth(1400);
+            entity.setHealth(1400);
           }
         }
       }
