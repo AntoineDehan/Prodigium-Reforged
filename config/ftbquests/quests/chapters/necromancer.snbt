@@ -94,7 +94,7 @@
 		}
 		{
 			dependencies: ["5D0510B00777D444"]
-			description: ["You need to unlock the armors in the &6Skill Tree&r."]
+			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			id: "3B238A48B76B39DF"
 			min_required_tasks: 1
 			rewards: [
@@ -157,7 +157,7 @@
 		}
 		{
 			dependencies: ["3A04AB7E1B7075F3"]
-			description: ["Pick your Magic School armor!"]
+			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "0E705333D6CD256A"
 			min_required_tasks: 1
@@ -423,7 +423,7 @@
 		}
 		{
 			dependencies: ["3B238A48B76B39DF"]
-			description: [""]
+			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "3A04AB7E1B7075F3"
 			rewards: [

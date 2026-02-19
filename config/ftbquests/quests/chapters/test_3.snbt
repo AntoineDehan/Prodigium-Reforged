@@ -1440,8 +1440,8 @@
 				title: "Make some room in your base!"
 				type: "questsadditions:days"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["41155113EBA75E4E"]
@@ -1999,6 +1999,32 @@
 			}]
 			x: 14.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["3941AFCFA581CDB6"]
+			description: [
+				"Used for Multiplayer only!"
+				""
+				"You will be able to &lteleport to other&r players as long as they &l&6currently have another Wormhole Artifact in their inventory&r&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "20C79E213C162BAC"
+			optional: true
+			tasks: [{
+				id: "1CCA5B3BA1DD5DE3"
+				item: {
+					Count: 1
+					id: "wormhole_artifact:wormhole_artifact"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Teleport to your friends!"
+			x: 3.5d
+			y: 5.0d
 		}
 	]
 	title: "Normal Mode"

@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["167F636BCCA964EA"]
-			description: ["You need to unlock the armors in the &6Skill Tree&r."]
+			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			id: "1A9AB70D43851B41"
 			min_required_tasks: 1
 			rewards: [
@@ -208,6 +208,7 @@
 		}
 		{
 			dependencies: ["2D2E7F73862AF301"]
+			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "0F8B2C405921526F"
 			min_required_tasks: 1
@@ -404,7 +405,7 @@
 				"1A9AB70D43851B41"
 				"774BCB593AAFAA33"
 			]
-			description: ["The other armors are the school armors."]
+			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "2D2E7F73862AF301"
 			rewards: [

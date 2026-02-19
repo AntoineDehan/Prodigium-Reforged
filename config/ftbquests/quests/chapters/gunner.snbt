@@ -92,6 +92,7 @@
 	quests: [
 		{
 			dependencies: ["51F86D6012A589B2"]
+			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			id: "43D51238714E5EBC"
 			min_required_tasks: 1
 			shape: "rsquare"
@@ -129,6 +130,7 @@
 				"43D51238714E5EBC"
 				"774BCB593AAFAA33"
 			]
+			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_complete: true
 			id: "6EF7C057C65B42AA"
 			min_required_tasks: 1
@@ -177,6 +179,7 @@
 		}
 		{
 			dependencies: ["6EF7C057C65B42AA"]
+			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_complete: true
 			id: "151534325D82BD9F"
 			shape: "rsquare"
