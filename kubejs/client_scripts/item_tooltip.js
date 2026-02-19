@@ -23,4 +23,15 @@ ItemEvents.tooltip((event) => {
   ]);
 
   event.add("kybejs:ancient_cobalt_bow", [Text.gold("Infinite Arrows")]);
+
+  // Bows
+  event.add("kubejs:arcanethyst_bow", [Text.gold("Shoots two magic arrows")]);
+  event.add("kubejs:twin_shadows", [Text.gold("Shoots a bonus arrow")]);
+  event.add("kubejs:ancient_cobalt_bow", [Text.gold("Infinity included")]);
+  event.add("kubejs:frostmaw_howl", [
+    Text.gold("Chill and Pierce up to 2 entities"),
+  ]);
+  event.add("kubejs:aaether_wind", [
+    Text.gold("Summon a Lightning Bolt when hitting a block. Pierce 1 entity"),
+  ]);
 });
