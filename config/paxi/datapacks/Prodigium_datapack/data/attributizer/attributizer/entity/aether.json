@@ -64,6 +64,11 @@
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
     }
   ],
   "lost_aether_content:aerwhale_king": [
@@ -120,6 +125,11 @@
     {
       "attribute": "minecraft:generic.armor",
       "modify": 24,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
       "operation": "ADDITION"
     }
   ]

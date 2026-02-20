@@ -49,6 +49,11 @@
       "attribute": "attributeslib:armor_pierce",
       "modify": 4,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
     }
   ],
   "block_factorys_bosses:underworld_knight": [
@@ -101,6 +106,11 @@
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
     }
   ],
   "block_factorys_bosses:infernal_dragon": [
@@ -152,6 +162,11 @@
     {
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
       "operation": "ADDITION"
     }
   ]

@@ -59,6 +59,11 @@
       "attribute": "attributeslib:armor_shred",
       "modify": 0.1,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
     }
   ],
   "mowziesmobs:umvuthi": [
@@ -121,6 +126,11 @@
       "attribute": "attributeslib:armor_shred",
       "modify": 0.05,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
     }
   ],
   "mowziesmobs:ferrous_wroughtnaut": [
@@ -177,6 +187,11 @@
     {
       "attribute": "attributeslib:armor_shred",
       "modify": 0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
       "operation": "ADDITION"
     }
   ]

@@ -64,6 +64,11 @@
       "attribute": "attributeslib:fire_damage",
       "modify": 2,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
     }
   ],
   "bosses_of_mass_destruction:lich": [
@@ -115,6 +120,11 @@
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
       "operation": "ADDITION"
     }
   ],
@@ -177,6 +187,11 @@
     {
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
       "operation": "ADDITION"
     }
   ],
@@ -244,6 +259,11 @@
     {
       "attribute": "attributeslib:life_steal",
       "modify": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
       "operation": "ADDITION"
     }
   ]

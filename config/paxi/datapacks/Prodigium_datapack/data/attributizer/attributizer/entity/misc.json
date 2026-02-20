@@ -24,6 +24,11 @@
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
     }
   ],
   "stalwart_dungeons:awful_ghast": [
@@ -85,6 +90,11 @@
     {
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
       "operation": "ADDITION"
     }
   ],
@@ -148,6 +158,11 @@
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
     }
   ],
   "confluence:bee_projectile": [
@@ -179,6 +194,11 @@
     {
       "attribute": "attributeslib:armor_pierce",
       "modify": -2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
       "operation": "ADDITION"
     }
   ]
