@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["gmg", "GDG", "gGg"],
+  "key": {
+    "g": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "m": {
+      "item": "simpleores:mythril_ingot"
+    }
+  },
+  "result": {
+    "item": "confluence:magic_mirror"
+  }
+}
