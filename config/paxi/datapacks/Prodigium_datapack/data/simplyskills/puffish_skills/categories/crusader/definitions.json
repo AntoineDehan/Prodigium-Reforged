@@ -11786,6 +11786,41 @@
       }
     ]
   },
+  "paladin_hammer": {
+    "title": {
+      "translate": "text.skills.PaladinHammer.title"
+    },
+    "description": {
+      "translate": "text.skills.PaladinHammer.description"
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "simplyskills:textures/icons/alternate_reduced/crusader_retribution.png"
+      }
+    },
+    "size": 1.4,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "simplyskills:textures/frames/unlocked.png",
+        "available": "simplyskills:textures/frames/available.png",
+        "locked": "simplyskills:textures/frames/locked.png",
+        "excluded": "simplyskills:textures/frames/excluded.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "paladin_hammer"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "rl31zqqovahx9o03"
+    }
+  },
   "ignitium": {
     "title": "Unlock Ignitium Gear",
     "frame": "challenge",

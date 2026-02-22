@@ -4,10 +4,9 @@
 EntityEvents.hurt((event) => {
   const entity = event.entity;
   const player = event.source.player;
+  const mainHand = player.getMainHandItem().getId();
 
   if (!player) return;
-
-  // console.log("source type: ", event.source.getType());
 
   if (player.hasEffect("kubejs:neptune_buff")) {
     if (Math.random() < 0.8) {
@@ -55,7 +54,7 @@ EntityEvents.hurt((event) => {
         player.z - 12,
         player.x + 12,
         player.y + 12,
-        player.z + 12
+        player.z + 12,
       );
 
       let entities = player.level.getEntitiesWithin(box);
@@ -76,7 +75,7 @@ EntityEvents.hurt((event) => {
         120,
         3,
         true,
-        false
+        false,
       );
     }
   }
@@ -117,7 +116,7 @@ EntityEvents.hurt((event) => {
         320,
         0,
         false,
-        true
+        true,
       );
       Client.player.playSound("cataclysm:ignis_hurt");
       Client.player.playSound("cataclysm:ignis_hurt");
@@ -173,7 +172,7 @@ EntityEvents.hurt((event) => {
       player.z - 12,
       player.x + 12,
       player.y + 12,
-      player.z + 12
+      player.z + 12,
     );
 
     let entities = player.level.getEntitiesWithin(box);
@@ -188,7 +187,7 @@ EntityEvents.hurt((event) => {
           250,
           0,
           false,
-          false
+          false,
         );
       }
     }
@@ -263,11 +262,11 @@ EntityEvents.death((event) => {
         level.runCommandSilent(`summon droppedbuffs:haste_buff ${x} ${y} ${z}`);
       } else if (roll < 0.8) {
         level.runCommandSilent(
-          `summon droppedbuffs:absorption_buff ${x} ${y} ${z}`
+          `summon droppedbuffs:absorption_buff ${x} ${y} ${z}`,
         );
       } else {
         level.runCommandSilent(
-          `summon droppedbuffs:strength_buff ${x} ${y} ${z}`
+          `summon droppedbuffs:strength_buff ${x} ${y} ${z}`,
         );
       }
     }
@@ -285,10 +284,10 @@ ServerEvents.tick((event) => {
       const player = Utils.server.getPlayer(uuid);
       if (player) {
         Client.player.playSound(
-          "irons_rpg_tweaks:item.identification_scroll.identify"
+          "irons_rpg_tweaks:item.identification_scroll.identify",
         );
         Client.player.playSound(
-          "irons_rpg_tweaks:item.identification_scroll.identify"
+          "irons_rpg_tweaks:item.identification_scroll.identify",
         );
       }
     }
@@ -308,7 +307,7 @@ ServerEvents.tick((event) => {
       player.z - 12,
       player.x + 12,
       player.y + 12,
-      player.z + 12
+      player.z + 12,
     );
 
     let entities = player.level.getEntitiesWithin(box);
@@ -336,7 +335,7 @@ PlayerEvents.tick((event) => {
       player.z - 12,
       player.x + 12,
       player.y + 12,
-      player.z + 12
+      player.z + 12,
     );
 
     let entities = player.level.getEntitiesWithin(box);
@@ -380,7 +379,7 @@ PlayerEvents.tick((event) => {
           100,
           0,
           false,
-          true
+          true,
         );
       }
 
@@ -390,7 +389,7 @@ PlayerEvents.tick((event) => {
           120,
           1,
           false,
-          true
+          true,
         );
       }
       if (stillTicks[uuid] === 300) {
@@ -399,7 +398,7 @@ PlayerEvents.tick((event) => {
           120,
           2,
           false,
-          true
+          true,
         );
       }
       if (stillTicks[uuid] >= 420) {
@@ -408,7 +407,7 @@ PlayerEvents.tick((event) => {
           200,
           2,
           false,
-          true
+          true,
         );
       }
     } else {
@@ -429,14 +428,14 @@ EntityEvents.hurt((event) => {
 
   function getCuriosItemList(player, slot) {
     let curio = player.nbt.ForgeCaps["curios:inventory"]["Curios"].find(
-      (curio) => curio["Identifier"] === slot
+      (curio) => curio["Identifier"] === slot,
     );
     return curio ? curio.StacksHandler.Stacks.Items : [];
   }
 
   let curios = getCuriosItemList(player, "necklace");
   let hasNecklace = curios.some(
-    (i) => i.id === "prodigium_reforged:meat_charm"
+    (i) => i.id === "prodigium_reforged:meat_charm",
   );
 
   if (hasNecklace && Math.random() < 0.5) {
@@ -447,14 +446,14 @@ EntityEvents.hurt((event) => {
         160,
         5,
         true,
-        true
+        true,
       );
     }
   }
 
   let curiosAccessory = getCuriosItemList(player, "accessory");
   let hasShield = curiosAccessory.some(
-    (i) => i.id === "prodigium_reforged:meat_shield"
+    (i) => i.id === "prodigium_reforged:meat_shield",
   );
 
   if (hasShield && Math.random() < 0.5) {
@@ -465,7 +464,7 @@ EntityEvents.hurt((event) => {
         180,
         6,
         true,
-        true
+        true,
       );
     }
   }
