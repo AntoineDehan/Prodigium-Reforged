@@ -20,7 +20,7 @@ ServerEvents.tags("item", (event) => {
     "irons_spellbooks:wandering_magician_boots",
     "irons_spellbooks:wandering_magician_leggings",
     "irons_spellbooks:wandering_magician_chestplate",
-    "irons_spellbooks:wandering_magician_helmet"
+    "irons_spellbooks:wandering_magician_helmet",
   );
 
   event.add(
@@ -29,7 +29,7 @@ ServerEvents.tags("item", (event) => {
     "minecraft:iron_helmet",
     "minecraft:golden_helmet",
     "prodigium:cobalt_helmet",
-    "irons_spellbooks:wandering_magician_helmet"
+    "irons_spellbooks:wandering_magician_helmet",
   );
 
   event.add(
@@ -38,7 +38,7 @@ ServerEvents.tags("item", (event) => {
     "minecraft:iron_chestplate",
     "minecraft:golden_chestplate",
     "prodigium:cobalt_chestplate",
-    "irons_spellbooks:wandering_magician_chestplate"
+    "irons_spellbooks:wandering_magician_chestplate",
   );
 
   event.add(
@@ -47,7 +47,7 @@ ServerEvents.tags("item", (event) => {
     "minecraft:iron_leggings",
     "minecraft:golden_leggings",
     "prodigium:cobalt_leggings",
-    "irons_spellbooks:wandering_magician_leggings"
+    "irons_spellbooks:wandering_magician_leggings",
   );
 
   event.add(
@@ -56,7 +56,7 @@ ServerEvents.tags("item", (event) => {
     "minecraft:iron_boots",
     "minecraft:golden_boots",
     "prodigium:cobalt_boots",
-    "irons_spellbooks:wandering_magician_boots"
+    "irons_spellbooks:wandering_magician_boots",
   );
 
   event.add(
@@ -69,7 +69,24 @@ ServerEvents.tags("item", (event) => {
     "companions:book_stone_spikes",
     "companions:book_magic_ray",
     "companions:book_black_hole",
-    "companions:book_naginata"
+    "companions:book_naginata",
+  );
+
+  event.add(
+    "prodigium_reforged:hammers",
+    "stalwart_dungeons:wooden_hammer",
+    "stalwart_dungeons:stone_hammer",
+    "stalwart_dungeons:iron_hammer",
+    "stalwart_dungeons:golden_hammer",
+    "stalwart_dungeons:diamond_hammer",
+    "stalwart_dungeons:netherite_hammer",
+    "stalwart_dungeons:tungsten_hammer",
+    "stalwart_dungeons:nether_hammer",
+    "aether:hammer_of_kingbdogz",
+    "simplyswords:frostfall",
+    "simplyswords:soulkeeper",
+    "cataclysm:infernal_forge",
+    "simplyswords:hearthflame",
   );
 });
 
