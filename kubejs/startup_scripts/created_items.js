@@ -106,6 +106,10 @@ StartupEvents.registry("item", (event) => {
     .create("prodigium_reforged:compass_of_time")
     .texture("prodigium_reforged:item/compass_of_time");
 
+  event
+    .create("prodigium_reforged:demon_heart")
+    .texture("prodigium_reforged:item/demon_heart");
+
   //// Boss summons
 
   // King Slime
@@ -124,7 +128,7 @@ StartupEvents.registry("item", (event) => {
       let z = Math.floor(entity.z) + 8;
 
       entity.server.runCommandSilent(
-        `summon terra_entity:king_slime ${x} ${y} ${z}`
+        `summon terra_entity:king_slime ${x} ${y} ${z}`,
       );
 
       itemstack.shrink(1);
@@ -146,7 +150,7 @@ StartupEvents.registry("item", (event) => {
       let z = Math.floor(entity.z) + 8;
 
       entity.server.runCommandSilent(
-        `summon terra_entity:eye_of_cthulhu ${x} ${y} ${z}`
+        `summon terra_entity:eye_of_cthulhu ${x} ${y} ${z}`,
       );
 
       itemstack.shrink(1);
@@ -168,7 +172,7 @@ StartupEvents.registry("item", (event) => {
       let z = Math.floor(entity.z) + 8;
 
       entity.server.runCommandSilent(
-        `summon terra_entity:eater_of_worlds ${x} ${y} ${z}`
+        `summon terra_entity:eater_of_worlds ${x} ${y} ${z}`,
       );
 
       itemstack.shrink(1);
@@ -190,7 +194,7 @@ StartupEvents.registry("item", (event) => {
       let z = Math.floor(entity.z) + 8;
 
       entity.server.runCommandSilent(
-        `summon terra_entity:brain_of_cthulhu ${x} ${y} ${z}`
+        `summon terra_entity:brain_of_cthulhu ${x} ${y} ${z}`,
       );
 
       itemstack.shrink(1);
@@ -212,7 +216,7 @@ StartupEvents.registry("item", (event) => {
       let z = Math.floor(entity.z) + 8;
 
       entity.server.runCommandSilent(
-        `summon terra_entity:queen_bee ${x} ${y} ${z}`
+        `summon terra_entity:queen_bee ${x} ${y} ${z}`,
       );
 
       itemstack.shrink(1);

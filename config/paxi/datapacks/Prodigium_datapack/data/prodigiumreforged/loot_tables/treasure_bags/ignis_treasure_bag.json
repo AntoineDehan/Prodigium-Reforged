@@ -15,15 +15,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "confluence:demon_heart"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "irons_spellbooks:blaze_spell_book"
         }
       ],
