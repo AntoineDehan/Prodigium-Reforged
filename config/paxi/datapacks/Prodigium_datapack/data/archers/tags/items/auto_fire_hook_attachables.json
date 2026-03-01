@@ -4,7 +4,6 @@
     "minecraft:crossbow",
     "#archers:bows",
     "#archers:crossbows",
-    "#archeryexp:ae_bows",
-    "#too_many_bows:bows"
+    "#prodigium_reforged:bows"
   ]
 }

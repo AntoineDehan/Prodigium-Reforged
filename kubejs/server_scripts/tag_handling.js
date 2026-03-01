@@ -88,6 +88,19 @@ ServerEvents.tags("item", (event) => {
     "cataclysm:infernal_forge",
     "simplyswords:hearthflame",
   );
+
+  event.add(
+    "prodigium_reforged:bows",
+    "prodigium:adamantium_bow",
+    "prodigium:orichalcum_bow",
+    "prodigium:shroomite_bow",
+    "kubejs:ancient_cobalt_bow",
+    "kubejs:frostmaw_howl",
+    "kubejs:twin_shadows",
+    "kubejs:arcanethyst_bow",
+    "kubejs:aether_wind",
+    "kubejs:void_petal",
+  );
 });
 
 ServerEvents.tags("block", (event) => {
