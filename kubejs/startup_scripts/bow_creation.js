@@ -1,5 +1,6 @@
 // Thanks to Andrezinh0 for the help with this function
-function shootProjectileCone(player, level, projectileEntity, count, spreadAngle, vel, damage) {
+// prettier-ignore
+function shootProjectileCone( player, level, projectileEntity, count, spreadAngle, vel, damage) {
   let lookAngle = player.getLookAngle();
 
   let startAngle = 0;
@@ -69,8 +70,7 @@ StartupEvents.registry("item", (event) => {
               false,
             );
           });
-        })
-
+        });
     })
     .maxDamage(2850);
 
@@ -190,6 +190,61 @@ StartupEvents.registry("item", (event) => {
     })
     .maxDamage(2500)
     .repairWith(Ingredient.of("aether_redux:veridium_ingot"));
+
+  // Void Blossom drop
+  event
+    .create("void_petal", "bow")
+    .bow((bow) => {
+      bow
+        .modifyBow((attributes) => {
+          attributes.arrowSpeed(5).baseDamage(8).fullChargeTick(40);
+        })
+        .onArrowHit((arrow) => {
+          arrow.hitEntity((event) => {
+            const { player, entity } = event;
+            let owner = event.arrow.getOwner();
+            if (owner && owner.isPlayer() && Math.random() < 0.4) {
+              owner.potionEffects.add(
+                "minecraft:absorption",
+                80,
+                0,
+                true,
+                false,
+              );
+            }
+
+            if (Math.random() < 0.45) {
+              entity.potionEffects.add("kubejs:thorned", 100, 0, true, false);
+            }
+          });
+        })
+
+        .onUse((use) => {
+          use.release((event) => {
+            const { player, level } = event;
+            shootProjectileCone(
+              player,
+              level,
+              "minecraft:arrow",
+              1,
+              10,
+              2.0,
+              2.0,
+            );
+          });
+          use.pullTick((event) => {
+            const { player } = event;
+            player.potionEffects.add(
+              "kubejs:tunnel_vision",
+              40,
+              0,
+              true,
+              false,
+            );
+          });
+        });
+    })
+    .maxDamage(2200);
 });
 
 /// Bow Modification \\\

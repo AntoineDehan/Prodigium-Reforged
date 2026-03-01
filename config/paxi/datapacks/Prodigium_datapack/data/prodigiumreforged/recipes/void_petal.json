@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" BA", "BVA", " BA"],
+  "key": {
+    "A": {
+      "item": "bypowderandsteel:living_herb"
+    },
+    "V": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    "B": {
+      "item": "aether_redux:veridium_ingot"
+    }
+  },
+  "result": {
+    "item": "kubejs:void_petal",
+    "count": 1
+  }
+}

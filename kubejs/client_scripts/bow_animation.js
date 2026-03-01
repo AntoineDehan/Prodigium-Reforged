@@ -4,4 +4,5 @@ ClientEvents.highPriorityAssets((event) => {
   event.easyBowModel("kubejs:ancient_cobalt_bow");
   event.easyBowModel("kubejs:twin_shadows");
   event.easyBowModel("kubejs:aether_wind");
+  event.easyBowModel("kubejs:void_petal");
 });

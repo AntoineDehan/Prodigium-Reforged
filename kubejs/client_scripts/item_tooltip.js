@@ -31,7 +31,12 @@ ItemEvents.tooltip((event) => {
   event.add("kubejs:frostmaw_howl", [
     Text.gold("Chill and Pierce up to 2 entities"),
   ]);
-  event.add("kubejs:aaether_wind", [
+  event.add("kubejs:aether_wind", [
     Text.gold("Summon a Lightning Bolt when hitting a block. Pierce 1 entity"),
+  ]);
+  event.add("kubejs:void_petal", [
+    Text.gold(
+      "Grants absorption on hit and has a chance to afflict Thorned. +1 bonus arrow",
+    ),
   ]);
 });

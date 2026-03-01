@@ -4,7 +4,6 @@
 EntityEvents.hurt((event) => {
   const entity = event.entity;
   const player = event.source.player;
-  const mainHand = player.getMainHandItem().getId();
 
   if (!player) return;
 
