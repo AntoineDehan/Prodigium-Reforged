@@ -4,9 +4,7 @@
     "list": [
       {
         "id": "normal",
-        "format": [
-          "WHITE"
-        ],
+        "format": ["WHITE"],
         "triggers": {
           "dimensions": [],
           "entities": []
@@ -15,57 +13,37 @@
       },
       {
         "id": "expert",
-        "format": [
-          "RED",
-          "BOLD"
-        ],
+        "format": ["RED", "BOLD"],
         "triggers": {
-          "dimensions": [
-            "{regex}.*"
-          ],
+          "dimensions": ["{regex}.*"],
           "entities": []
         },
         "messages": [
           {
             "id": "majruszsdifficulty.stages.expert.started",
-            "format": [
-              "RED",
-              "BOLD"
-            ]
+            "format": ["RED", "BOLD"]
           },
           {
             "id": "majruszsdifficulty.undead_army.on_expert",
-            "format": [
-              "DARK_PURPLE"
-            ]
+            "format": ["DARK_PURPLE"]
           }
         ]
       },
       {
         "id": "master",
-        "format": [
-          "DARK_PURPLE",
-          "BOLD"
-        ],
+        "format": ["DARK_PURPLE", "BOLD"],
         "triggers": {
           "dimensions": [],
-          "entities": [
-            "minecraft:ender_dragon"
-          ]
+          "entities": ["minecraft:ender_dragon"]
         },
         "messages": [
           {
             "id": "majruszsdifficulty.stages.master.started",
-            "format": [
-              "DARK_PURPLE",
-              "BOLD"
-            ]
+            "format": ["DARK_PURPLE", "BOLD"]
           },
           {
             "id": "majruszsdifficulty.undead_army.on_master",
-            "format": [
-              "DARK_PURPLE"
-            ]
+            "format": ["DARK_PURPLE"]
           }
         ]
       }
@@ -98,8 +76,8 @@
     },
     "creeper_spawn_charged": {
       "is_enabled": true,
-      "required_game_stage": "normal",
-      "chance": 0.125,
+      "required_game_stage": "expert",
+      "chance": 0.155,
       "is_scaled_by_crd": true
     },
     "creeper_spawn_debuffed": {
@@ -133,11 +111,11 @@
     "creeper_split_into_creeperlings": {
       "is_enabled": true,
       "count": {
-        "__default": 1,
-        "expert": 2,
+        "__default": 2,
+        "expert": 3,
         "master": 6
       },
-      "chance": 0.45,
+      "chance": 0.55,
       "is_scaled_by_crd": true
     },
     "deadlier_explosions": {
@@ -151,12 +129,48 @@
       "is_enabled": true,
       "chance": {
         "__default": 0.0,
-        "expert": 0.1,
-        "master": 0.2
+        "expert": 0.2,
+        "master": 0.25
       },
       "blacklisted_items": [
         "minecraft:nether_star",
-        "minecraft:totem_of_undying"
+        "minecraft:totem_of_undying",
+        "prodigium:conjurer_treasure_bag",
+        "prodigium:nether_gauntlet_treasure_bag",
+        "prodigium:ancient_remnant_treasure_bag",
+        "prodigium:awful_ghast_treasure_bag",
+        "prodigium:dead_king_treasure_bag",
+        "prodigium:ender_guardian_treasure_bag",
+        "prodigium:frostmaw_treasure_bag",
+        "prodigium:gautlet_treasure_bag",
+        "prodigium:harbinger_treasure_bag",
+        "prodigium:ignis_treasure_bag",
+        "prodigium:leviathan_treasure_bag",
+        "prodigium:nether_keeper_treasure_bag",
+        "prodigium:netherite_monstrosity_treasure_bag",
+        "prodigium:night_lich_treasure_bag",
+        "prodigium:obsidilith_treasure_bag",
+        "prodigium:sunbird_treasure_bag",
+        "prodigium:void_blossom_treasure_bag",
+        "prodigium:void_worm_treasure_bag",
+        "prodigium:valkyrie_queen_treasure_bag",
+        "prodigium:slider_treasure_bag",
+        "prodigium:sun_spirit_treasure_bag",
+        "prodigium:swampjaw_treasure_bag",
+        "prodigium:bellringer_treasure_bag",
+        "prodigium:dame_fortuna_treasure_bag",
+        "prodigium:rosalynne_treasure_bag",
+        "prodigium:king_slime_treasure_bag",
+        "prodigium:aerwhale_king_treasure_bag",
+        "prodigium:eye_of_cthulhu_treasure_bag",
+        "prodigium:ferrous_wroughtnaut_treasure_bag",
+        "prodigium:eater_of_worlds_treasure_bag",
+        "prodigium:brain_of_cthulhu_treasure_bag",
+        "prodigium:skeletron_treasure_bag",
+        "prodigium:queen_bee_treasure_bag",
+        "prodigium:infernal_dragon_treasure_bag",
+        "prodigium:sandworm_treasure_bag",
+        "prodigium:underworld_knight_treasure_bag"
       ]
     },
     "drowned_lightning_bolt": {
@@ -173,7 +187,7 @@
     },
     "evoker_with_totem": {
       "is_enabled": true,
-      "required_game_stage": "normal",
+      "required_game_stage": "expert",
       "chance": 1.0,
       "is_scaled_by_crd": true
     },
@@ -181,14 +195,14 @@
       "is_enabled": true,
       "extra_multiplier": {
         "__default": 0.0,
-        "expert": 0.2,
-        "master": 0.4
+        "expert": 0.25,
+        "master": 0.45
       }
     },
     "jockey_spawn": {
       "is_enabled": true,
       "required_game_stage": "expert",
-      "chance": 0.125,
+      "chance": 0.2,
       "is_scaled_by_crd": false
     },
     "mob_groups": {
@@ -210,6 +224,9 @@
           {
             "type": "minecraft:piglin",
             "equipment": "majruszsdifficulty:mob_groups/piglin_sidekick"
+          },
+          {
+            "type": "luminous_monsters:cultist_archer"
           }
         ]
       },
@@ -230,6 +247,14 @@
         "sidekick_types": [
           {
             "type": "minecraft:skeleton",
+            "equipment": "majruszsdifficulty:mob_groups/skeleton_sidekick"
+          },
+          {
+            "type": "born_in_chaos_v1:baby_skeleton",
+            "equipment": "majruszsdifficulty:mob_groups/skeleton_sidekick"
+          },
+          {
+            "type": "born_in_chaos_v1:decrepit_skeleton",
             "equipment": "majruszsdifficulty:mob_groups/skeleton_sidekick"
           }
         ]
@@ -290,12 +315,20 @@
           }
         ],
         "sidekicks_count": {
-          "min": 1,
-          "max": 3
+          "min": 2,
+          "max": 4
         },
         "sidekick_types": [
           {
             "type": "minecraft:zombie",
+            "equipment": "majruszsdifficulty:mob_groups/zombie_sidekick"
+          },
+          {
+            "type": "luminous_monsters:miner_zombie",
+            "equipment": "majruszsdifficulty:mob_groups/zombie_sidekick"
+          },
+          {
+            "type": "luminous_monsters:miner_skeleton",
             "equipment": "majruszsdifficulty:mob_groups/zombie_sidekick"
           }
         ]
@@ -351,13 +384,13 @@
       "is_enabled": true,
       "health_bonus": {
         "__default": 0.0,
-        "expert": 0.1,
-        "master": 0.2
+        "expert": 0.12,
+        "master": 0.22
       },
       "damage_bonus": {
         "__default": 0.0,
-        "expert": 0.1,
-        "master": 0.2
+        "expert": 0.15,
+        "master": 0.25
       },
       "excluded_mobs": []
     },
@@ -377,9 +410,7 @@
           "majruszsdifficulty:tank",
           "majruszsdifficulty:cerberus"
         ],
-        "expert": [
-          "majruszsdifficulty:cerberus"
-        ],
+        "expert": ["majruszsdifficulty:cerberus"],
         "master": []
       }
     },
@@ -445,6 +476,11 @@
             "type": "minecraft:skeleton",
             "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
             "count": 2
+          },
+          {
+            "type": "born_in_chaos_v1:baby_skeleton",
+            "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
+            "count": 2
           }
         ],
         "game_stage": "normal",
@@ -463,12 +499,22 @@
             "count": 3
           },
           {
+            "type": "born_in_chaos_v1:zombie_lumberjack",
+            "equipment": "majruszsdifficulty:undead_army/wave_1_mob",
+            "count": 3
+          },
+          {
             "type": "minecraft:zombie",
             "equipment": "majruszsdifficulty:undead_army/wave_2_mob",
             "count": 3
           },
           {
             "type": "minecraft:skeleton",
+            "equipment": "majruszsdifficulty:undead_army/wave_2_mob",
+            "count": 2
+          },
+          {
+            "type": "born_in_chaos_v1:decaying_zombie",
             "equipment": "majruszsdifficulty:undead_army/wave_2_mob",
             "count": 2
           }
@@ -524,6 +570,11 @@
             "count": 2
           },
           {
+            "type": "born_in_chaos_v1:door_knight",
+            "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
+            "count": 3
+          },
+          {
             "type": "minecraft:wither_skeleton",
             "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
             "count": 1
@@ -548,7 +599,7 @@
             "count": 3
           },
           {
-            "type": "minecraft:wither_skeleton",
+            "type": "born_in_chaos_v1:skeleton_thrasher",
             "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
             "count": 1
           }
@@ -577,6 +628,11 @@
             "type": "minecraft:wither_skeleton",
             "equipment": "majruszsdifficulty:undead_army/wave_5_mob",
             "count": 2
+          },
+          {
+            "type": "born_in_chaos_v1:door_knight",
+            "equipment": "majruszsdifficulty:undead_army/wave_4_mob",
+            "count": 3
           },
           {
             "type": "majruszsdifficulty:tank",
@@ -648,33 +704,31 @@
   },
   "mobs": {
     "cursed_armor": {
-      "item_drop_chance": 0.2,
+      "item_drop_chance": 0,
       "custom_name_chance": 0.025,
-      "custom_names": [
-        "Freshah"
-      ],
+      "custom_names": ["Freshah"],
       "locations": [
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_dungeon",
           "chests": [
-            "minecraft:chests/simple_dungeon"
+            "minecraft:chests/simple_dungeon",
+            "lootintegrations:chests/easy"
           ],
-          "chance": 0.5
+          "chance": 0.38
         },
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_stronghold",
           "chests": [
             "minecraft:chests/stronghold_corridor",
             "minecraft:chests/stronghold_crossing",
-            "minecraft:chests/stronghold_library"
+            "minecraft:chests/stronghold_library",
+            "lootintegrations:chests/medium"
           ],
-          "chance": 0.4
+          "chance": 0.38
         },
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_portal",
-          "chests": [
-            "minecraft:chests/ruined_portal"
-          ],
+          "chests": ["minecraft:chests/ruined_portal"],
           "chance": 1.0
         },
         {
@@ -684,15 +738,14 @@
             "minecraft:chests/bastion_hoglin_stable",
             "minecraft:chests/bastion_other",
             "minecraft:chests/bastion_treasure",
-            "minecraft:chests/nether_bridge"
+            "minecraft:chests/nether_bridge",
+            "lootintegrations:chests/nether"
           ],
-          "chance": 0.25
+          "chance": 0.38
         },
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_end",
-          "chests": [
-            "minecraft:chests/end_city_treasure"
-          ],
+          "chests": ["minecraft:chests/end_city_treasure"],
           "chance": 0.5
         }
       ]
@@ -750,14 +803,8 @@
     "can_be_cured_with_golden_apples": true,
     "is_applicable_to_animals": true,
     "is_applicable_to_pillagers": true,
-    "other_applicable_mobs": [
-      "minecraft:player",
-      "minecraft:villager"
-    ],
-    "immune_mobs": [
-      "minecraft:zombie_horse",
-      "minecraft:skeleton_horse"
-    ],
+    "other_applicable_mobs": ["minecraft:player", "minecraft:villager"],
+    "immune_mobs": ["minecraft:zombie_horse", "minecraft:skeleton_horse"],
     "effect": {
       "__default": {
         "amplifier": 0,
@@ -780,9 +827,7 @@
       "bite": {
         "is_enabled": true,
         "chance": 0.4,
-        "blacklisted_animals": [
-          "minecraft:llama"
-        ]
+        "blacklisted_animals": ["minecraft:llama"]
       },
       "cactus": {
         "is_enabled": true,
