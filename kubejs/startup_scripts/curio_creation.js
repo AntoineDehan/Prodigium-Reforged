@@ -193,23 +193,33 @@ ItemEvents.modification((event) => {
 
   event.modify("confluence:avenger_emblem", (item) => {
     item.attachCuriosCapability(
-      CuriosJSCapabilityBuilder.create().addAttribute(
-        "furattributes:proj_damage",
-        UUID,
-        0.12,
-        "multiply_total",
-      ),
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("furattributes:proj_damage", UUID, 0.12, "multiply_total")
+        .addAttribute(
+          "minecraft:generic.attack_damage",
+          UUID,
+          0.12,
+          "multiply_total",
+        )
+        .addAttribute(
+          "irons_spellbooks:spell_power",
+          UUID,
+          0.12,
+          "multiply_total",
+        ),
     );
   });
 
   event.modify("confluence:destroyer_emblem", (item) => {
     item.attachCuriosCapability(
-      CuriosJSCapabilityBuilder.create().addAttribute(
-        "furattributes:proj_damage",
-        UUID,
-        0.1,
-        "multiply_total",
-      ),
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("furattributes:proj_damage", UUID, 0.1, "multiply_total")
+        .addAttribute(
+          "attributeslib:crit_chance",
+          UUID,
+          0.15,
+          "multiply_total",
+        ),
     );
   });
 });
