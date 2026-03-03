@@ -4,7 +4,7 @@
   "renderModeChoice": "NORMAL",
   "vanillaModelHologramRenderMode_2": "OFF",
   "modelExportMode": "NONE",
-  "modelUpdateFrequency": "Average",
+  "modelUpdateFrequency": "Fast",
   "entityRenderModeOverrides": {},
   "entityVanillaHologramOverrides": {},
   "modelsNamesDisabled": [],

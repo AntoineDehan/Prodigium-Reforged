@@ -9,7 +9,7 @@
 	render_rarity_color = false
 	#How close the player has to be to see the beam. (note: in vanill ItemEntities stop rendering at 24 blocks.)
 	#Range: 0.0 ~ 1024.0
-	render_distance = 48.0
+	render_distance = 24.0
 	#Overrides an item's beam color with hex color. Must follow the specific format: (registryname=hexcolor) Or (#tagname=hexcolor). Example: "minecraft:stone=0xFFFFFF". This also accepts modids.
 	color_overrides = []
 
@@ -66,7 +66,7 @@
 		randomness_intensity = 0.05
 		#The amount of particles to spawn per second.
 		#Range: 1.0 ~ 20.0
-		particle_count = 15.0
+		particle_count = 10.0
 		#The lifetime of the particles in ticks.
 		#Range: 1 ~ 100
 		particle_lifetime = 15

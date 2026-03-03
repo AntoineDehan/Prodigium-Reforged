@@ -57,21 +57,21 @@
 				dailyRandom = [0.0, 0.0, 0.0, 0.33, 0.66, 1.0]
 				#Frequency modifier for grass
 				#Range: 0.0 ~ 1.0
-				grass = 0.16666666666666666
+				grass = 0.08333333333333333
 				#Frequency modifier for tall grass
 				#Range: 0.0 ~ 1.0
-				tallGrass = 0.08333333333333333
+				tallGrass = 0.04166666666666666
 				#Frequency modifier for flowers
 				#Range: 0.0 ~ 1.0
-				flowers = 1.0
+				flowers = 0.5
 				#Frequency modifier for tall flowers
 				#Range: 0.0 ~ 1.0
-				tallFlowers = 0.5
+				tallFlowers = 0.25
 
 		[general.advancedSettings.fallingLeavesSettings]
 			#Chance of spawning falling leaves (higher = less frequent)
 			#Range: > 1
-			spawnChance = 120
+			spawnChance = 240
 			#Whether falling leaves create ripples when landing on water
 			spawnRipples = true
 			#Whether falling leaves lay flat on the ground
@@ -82,22 +82,22 @@
 		[general.advancedSettings.caveDustSettings]
 			#Chance of spawning cave dust (higher = less frequent)
 			#Range: > 1
-			spawnChance = 850
+			spawnChance = 1700
 			#Base maximum age of cave dust particles
 			#Range: > 1
-			baseMaxAge = 200
+			baseMaxAge = 100
 			#OwOColor of cave dust particles (RGB hex)
 			#Range: 0 ~ 16777215
 			color = 8421504
 			#Duration of fade effect for cave dust particles
 			#Range: > 0
-			fadeDuration = 20
+			fadeDuration = 16
 			#Maximum acceleration of cave dust particles
 			#Range: 0.0 ~ 1.0
-			maxAcceleration = 0.029999999329447746
+			maxAcceleration = 0.024
 			#Chance of changing acceleration for cave dust particles
 			#Range: > 1
-			accelChangeChance = 180
+			accelChangeChance = 216
 			#Biomes where cave dust won't spawn
 			excludeBiomes = ["minecraft:lush_caves", "minecraft:dripstone_caves", "minecraft:deep_dark"]
 
