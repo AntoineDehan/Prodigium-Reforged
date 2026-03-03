@@ -38,8 +38,8 @@ EntityEvents.hurt((event) => {
     if (player.hasEffect("kubejs:bloody_skin")) return;
     if (player.hasEffect("kubejs:bloody_strength")) {
       player.potionEffects.add("kubejs:bloody_strength", 80, 1, false, false);
-    }
-    player.potionEffects.add("kubejs:bloody_strength", 80, 0, false, false);
+    } else
+      player.potionEffects.add("kubejs:bloody_strength", 80, 0, false, false);
   }
 
   // Void Blossom armor set
@@ -117,8 +117,8 @@ EntityEvents.hurt((event) => {
         false,
         true,
       );
-      Client.player.playSound("cataclysm:ignis_hurt");
-      Client.player.playSound("cataclysm:ignis_hurt");
+      player.playSound("cataclysm:ignis_hurt");
+      player.playSound("cataclysm:ignis_hurt");
       damageStock[uuid] = 0;
     } else if (
       damageStock[uuid] >= 80 &&
@@ -127,9 +127,9 @@ EntityEvents.hurt((event) => {
       player.removeEffect("kubejs:ignitium_protection");
       player.removeEffect("kubejs:ignitium_charge");
       player.potionEffects.add("kubejs:overcharged", 180, 0, false, true);
-      Client.player.playSound("wizards:fire_wall_ignite");
-      Client.player.playSound("cataclysm:ignis_death");
-      Client.player.playSound("wizards:fire_wall_ignite");
+      player.playSound("wizards:fire_wall_ignite");
+      player.playSound("cataclysm:ignis_death");
+      player.playSound("wizards:fire_wall_ignite");
       damageStock[uuid] = 0;
     }
   }
@@ -145,8 +145,7 @@ EntityEvents.hurt((event) => {
     if (player.hasEffect("kubejs:bloody_strength")) return;
     if (player.hasEffect("kubejs:bloody_skin")) {
       player.potionEffects.add("kubejs:bloody_skin", 80, 1, true, false);
-    }
-    player.potionEffects.add("kubejs:bloody_skin", 80, 0, true, false);
+    } else player.potionEffects.add("kubejs:bloody_skin", 80, 0, true, false);
   }
 
   // Plated Valkyrie armor set
@@ -200,7 +199,7 @@ EntityEvents.hurt((event) => {
     damageStock[uuid] = damageStock[uuid] + damage;
     if (damageStock[uuid] >= 70) {
       player.potionEffects.add("kubejs:marauder_light", 320, 0, false, false);
-      Client.player.playSound("alshanex_familiars:healing_aura");
+      player.playSound("alshanex_familiars:healing_aura");
       damageStock[uuid] = 0;
     }
   }
@@ -282,10 +281,10 @@ ServerEvents.tick((event) => {
 
       const player = Utils.server.getPlayer(uuid);
       if (player) {
-        Client.player.playSound(
+        player.playSound(
           "irons_rpg_tweaks:item.identification_scroll.identify",
         );
-        Client.player.playSound(
+        player.playSound(
           "irons_rpg_tweaks:item.identification_scroll.identify",
         );
       }
@@ -327,7 +326,7 @@ PlayerEvents.tick((event) => {
 
   if (!player) return;
 
-  if (player.hasEffect("kubejs:ranger_mind")) {
+  if (event.server.tickCount % 20 === 0 && player.hasEffect("kubejs:ranger_mind")) {
     let box = AABB.of(
       player.x - 12,
       player.y - 12,
@@ -515,49 +514,42 @@ const snipers = [
   "gunswithoutroses:diamond_sniper",
 ];
 
+const gunBonusMap = {};
+for (const id of guns) gunBonusMap[id] = "kubejs:pistol_bonus";
+for (const id of snipers) gunBonusMap[id] = "kubejs:sniper_bonus";
+for (const id of shotguns) gunBonusMap[id] = "kubejs:shotgun_bonus";
+for (const id of gatlings) gunBonusMap[id] = "kubejs:gatling_bonus";
+
 PlayerEvents.tick((event) => {
+  if (event.server.tickCount % 20 !== 0) return;
+
   let player = event.player;
   let item = player.mainHandItem;
   let armorValue = player.getArmorValue();
 
   if (armorValue >= 50 && armorValue <= 64) {
     player.potionEffects.add("kubejs:armor_heavy", 80, 0, true, false);
-  }
-
-  if (armorValue >= 65 && armorValue <= 79) {
+  } else if (armorValue >= 65 && armorValue <= 79) {
     player.potionEffects.add("kubejs:super_armor_heavy", 80, 0, true, false);
-  }
-
-  if (armorValue >= 80) {
+  } else if (armorValue >= 80) {
     player.potionEffects.add("kubejs:over_armored", 80, 0, true, false);
   }
 
-  if (guns.includes(item.id) && player.hasEffect("kubejs:leviathan_call")) {
-    player.potionEffects.add("kubejs:pistol_bonus", 40, 0, false, true);
-  }
-  if (snipers.includes(item.id) && player.hasEffect("kubejs:leviathan_call")) {
-    player.potionEffects.add("kubejs:sniper_bonus", 40, 0, false, true);
-  }
-  if (shotguns.includes(item.id) && player.hasEffect("kubejs:leviathan_call")) {
-    player.potionEffects.add("kubejs:shotgun_bonus", 40, 0, false, true);
-  }
-  if (gatlings.includes(item.id) && player.hasEffect("kubejs:leviathan_call")) {
-    player.potionEffects.add("kubejs:gatling_bonus", 40, 0, false, true);
+  if (player.hasEffect("kubejs:leviathan_call")) {
+    const bonus = gunBonusMap[item.id];
+    if (bonus) {
+      player.potionEffects.add(bonus, 60, 0, false, true);
+    }
   }
 
   // Dragon armor set
-  if (
-    player.hasEffect("kubejs:dragon_protection") &&
-    player.health / player.maxHealth < 0.45
-  ) {
-    player.potionEffects.add("kubejs:dragon_bones", 40, 0, false, false);
-  }
-
-  if (
-    player.hasEffect("kubejs:dragon_protection") &&
-    player.health / player.maxHealth < 0.2
-  ) {
-    player.potionEffects.add("kubejs:dragon_bones", 40, 2, false, false);
+  if (player.hasEffect("kubejs:dragon_protection")) {
+    let healthRatio = player.health / player.maxHealth;
+    if (healthRatio < 0.2) {
+      player.potionEffects.add("kubejs:dragon_bones", 60, 2, false, false);
+    } else if (healthRatio < 0.45) {
+      player.potionEffects.add("kubejs:dragon_bones", 60, 0, false, false);
+    }
   }
 
   // Infernal Enforcer armor set
@@ -565,7 +557,7 @@ PlayerEvents.tick((event) => {
     player.hasEffect("kubejs:infernal_fire") &&
     player.health / player.maxHealth > 0.85
   ) {
-    player.potionEffects.add("kubejs:enforcer_wrath", 40, 0, false, false);
+    player.potionEffects.add("kubejs:enforcer_wrath", 60, 0, false, false);
   }
 
   // Plated Valkyrie armor set
@@ -573,28 +565,27 @@ PlayerEvents.tick((event) => {
     player.hasEffect("kubejs:plated_valkyrie") &&
     player.health / player.maxHealth < 0.25
   ) {
-    player.potionEffects.add("kubejs:plated_defense", 40, 2, false, false);
+    player.potionEffects.add("kubejs:plated_defense", 60, 2, false, false);
   }
 
   // Phoenix armor set
-  if (
-    player.hasEffect("kubejs:phoenix_embrace") &&
-    player.health / player.maxHealth < 0.6
-  ) {
-    player.potionEffects.add("kubejs:phoenix_rage", 40, 0, false, false);
+  if (player.hasEffect("kubejs:phoenix_embrace")) {
+    let healthRatio = player.health / player.maxHealth;
+    if (healthRatio < 0.2) {
+      player.potionEffects.add("kubejs:phoenix_rage", 60, 3, false, false);
+    } else if (healthRatio < 0.4) {
+      player.potionEffects.add("kubejs:phoenix_rage", 60, 2, false, false);
+    } else if (healthRatio < 0.6) {
+      player.potionEffects.add("kubejs:phoenix_rage", 60, 0, false, false);
+    }
   }
+});
 
-  if (
-    player.hasEffect("kubejs:phoenix_embrace") &&
-    player.health / player.maxHealth < 0.4
-  ) {
-    player.potionEffects.add("kubejs:phoenix_rage", 40, 2, false, false);
-  }
-
-  if (
-    player.hasEffect("kubejs:phoenix_embrace") &&
-    player.health / player.maxHealth < 0.2
-  ) {
-    player.potionEffects.add("kubejs:phoenix_rage", 40, 3, false, false);
-  }
+// Cleanup on player disconnect
+PlayerEvents.loggedOut((event) => {
+  const uuid = event.player.uuid;
+  delete damageStock[uuid];
+  delete killStreak[uuid];
+  delete stillTicks[uuid];
+  delete lastPos[uuid];
 });

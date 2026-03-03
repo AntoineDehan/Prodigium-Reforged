@@ -7,10 +7,10 @@ const holySpells = [
   "irons_spellbooks:haste",
 ];
 
-(event) => {
+PlayerEvents.changeMana((event) => {
   function getCuriosItemList(player, slot) {
     let curio = player.nbt.ForgeCaps["curios:inventory"]["Curios"].find(
-      (curio) => curio["Identifier"] === slot
+      (curio) => curio["Identifier"] === slot,
     );
     return curio ? curio.StacksHandler.Stacks.Items : [];
   }
@@ -20,16 +20,15 @@ const holySpells = [
   // Feather Necklace granting the Holy Touch
   const curios = getCuriosItemList(player, "necklace");
   const hasFeatherNecklace = curios.some(
-    (i) => i.id === "prodigium_reforged:feather_necklace"
+    (i) => i.id === "prodigium_reforged:feather_necklace",
   );
 
   if (hasFeatherNecklace && Math.random() < 0.3) {
     player.potionEffects.add("kubejs:holy_touch", 100, 0, true, true);
   }
-};
+});
 
 const manaTracker = {};
-
 
 PlayerEvents.changeMana((event) => {
   const player = event.player;
@@ -65,7 +64,7 @@ PlayerEvents.changeMana((event) => {
           200,
           0,
           false,
-          true
+          true,
         );
         Client.player.playSound("minecraft:block.enchantment_table.use");
         Client.player.playSound("minecraft:block.enchantment_table.use");
@@ -87,7 +86,7 @@ PlayerEvents.changeMana((event) => {
             300,
             0,
             false,
-            true
+            true,
           );
           Client.player.playSound("minecraft:block.enchantment_table.use");
           Client.player.playSound("minecraft:block.enchantment_table.use");
@@ -139,7 +138,7 @@ PlayerEvents.changeMana((event) => {
       const reducedManaSpent = manaSpent * 0.6;
       event.setNewMana(oldMana - reducedManaSpent);
     }
-  } else return;
+  }
 
   // Cleric Nether armor effect
   if (player.hasEffect("kubejs:nether_embrace")) {
@@ -153,7 +152,7 @@ PlayerEvents.changeMana((event) => {
         400,
         0,
         true,
-        false
+        false,
       );
       return;
     } else if (holySpells.includes(spellId)) {
@@ -162,14 +161,14 @@ PlayerEvents.changeMana((event) => {
         400,
         0,
         true,
-        false
+        false,
       );
       spellTarget.potionEffects.add(
         "kubejs:nether_reinforcement",
         400,
         0,
         true,
-        false
+        false,
       );
     }
   }
@@ -182,7 +181,7 @@ PlayerEvents.changeMana((event) => {
         120,
         1,
         true,
-        true
+        true,
       );
       spellTarget.potionEffects.add("minecraft:strength", 120, 0, true, true);
       spellTarget.potionEffects.add("minecraft:luck", 120, 0, true, true);
@@ -191,7 +190,7 @@ PlayerEvents.changeMana((event) => {
         300,
         0,
         true,
-        true
+        true,
       );
     } else return;
   }
@@ -206,21 +205,21 @@ PlayerEvents.changeMana((event) => {
           120,
           0,
           true,
-          true
+          true,
         );
         spellTarget.potionEffects.add(
           "minecraft:resistance",
           50,
           0,
           true,
-          true
+          true,
         );
         spellTarget.potionEffects.add(
           "minecraft:regeneration",
           120,
           1,
           true,
-          true
+          true,
         );
         spellTarget.potionEffects.add("minecraft:luck", 120, 0, true, true);
         spellTarget.potionEffects.add("minecraft:strength", 120, 0, true, true);
@@ -229,7 +228,7 @@ PlayerEvents.changeMana((event) => {
           300,
           1,
           true,
-          true
+          true,
         );
         spellTarget.heal(2);
         player.potionEffects.add(
@@ -237,11 +236,16 @@ PlayerEvents.changeMana((event) => {
           120,
           1,
           true,
-          true
+          true,
         );
         Client.player.playSound("simplyswords:elemental_sword_holy_attack_01");
       } else
         spellTarget.potionEffects.add("kubejs:holy_warmth", 150, 0, true, true);
     }
   } else return;
+});
+
+// Cleanup on player disconnect
+PlayerEvents.loggedOut((event) => {
+  delete manaTracker[event.player.uuid];
 });
