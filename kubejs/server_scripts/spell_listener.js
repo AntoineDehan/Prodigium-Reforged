@@ -238,7 +238,7 @@ PlayerEvents.changeMana((event) => {
           true,
           true,
         );
-        Client.player.playSound("simplyswords:elemental_sword_holy_attack_01");
+        player.playSound("simplyswords:elemental_sword_holy_attack_01");
       } else
         spellTarget.potionEffects.add("kubejs:holy_warmth", 150, 0, true, true);
     }
