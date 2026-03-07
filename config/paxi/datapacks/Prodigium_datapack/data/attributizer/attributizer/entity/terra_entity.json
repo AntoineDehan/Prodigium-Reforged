@@ -47,12 +47,12 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.6,
+      "modify": -0.885,
       "operation": "MULTIPLY_BASE"
     },
     {
       "attribute": "minecraft:generic.movement_speed",
-      "modify": -0.35,
+      "modify": -0.4,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -124,17 +124,17 @@
     },
     {
       "attribute": "minecraft:generic.armor",
-      "modify": 10,
+      "modify": 5,
       "operation": "ADDITION"
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.4,
+      "modify": -0.7,
       "operation": "MULTIPLY_BASE"
     },
     {
       "attribute": "minecraft:generic.movement_speed",
-      "modify": -0.2,
+      "modify": -0.35,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.35,
+      "modify": -0.45,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -273,7 +273,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.35,
+      "modify": -0.45,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -345,7 +345,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.35,
+      "modify": -0.45,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -355,7 +355,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": -0.3,
+      "modify": -0.4,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -422,7 +422,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.35,
+      "modify": -0.4,
       "operation": "MULTIPLY_BASE"
     },
     {

@@ -12,9 +12,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 1300) {
-            entity.setMaxHealth(1300);
-            entity.setHealth(1300);
+          if (entity.getMaxHealth() > 1000) {
+            entity.setMaxHealth(1000);
+            entity.setHealth(1000);
           }
         }
 
@@ -46,9 +46,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 800) {
-            entity.setMaxHealth(800);
-            entity.setHealth(800);
+          if (entity.getMaxHealth() > 600) {
+            entity.setMaxHealth(600);
+            entity.setHealth(600);
           }
         }
       }
@@ -58,9 +58,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 1500) {
-            entity.setMaxHealth(1500);
-            entity.setHealth(1500);
+          if (entity.getMaxHealth() > 1000) {
+            entity.setMaxHealth(1000);
+            entity.setHealth(1000);
           }
         }
       }
@@ -68,9 +68,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 1500) {
-            entity.setMaxHealth(1500);
-            entity.setHealth(1500);
+          if (entity.getMaxHealth() > 1000) {
+            entity.setMaxHealth(1000);
+            entity.setHealth(1000);
           }
         }
       }
@@ -80,9 +80,9 @@ ServerEvents.tick((event) => {
         if (!entity.persistentData.scaled) {
           entity.persistentData.scaled = true;
 
-          if (entity.getMaxHealth() > 1400) {
-            entity.setMaxHealth(1400);
-            entity.setHealth(1400);
+          if (entity.getMaxHealth() > 900) {
+            entity.setMaxHealth(900);
+            entity.setHealth(900);
           }
         }
       }
