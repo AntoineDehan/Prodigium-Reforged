@@ -20,7 +20,7 @@
     "use_block_face_culling": true,
     "use_compact_vertex_format": true,
     "use_translucent_face_sorting_v2": true,
-    "use_no_error_g_l_context": true
+    "use_no_error_g_l_context": false
   },
   "notifications": {
     "force_disable_donation_prompts": false,

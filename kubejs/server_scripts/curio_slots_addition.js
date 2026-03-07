@@ -2,8 +2,6 @@ ItemEvents.rightClicked((event) => {
   const item = event.item;
   const player = event.player;
 
-  console.log(item);
-
   if (
     !player.tags.contains("demon_heart") &&
     item === "prodigium_reforged:demon_heart"

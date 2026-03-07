@@ -85,20 +85,6 @@
     "when": "onjoin"
   },
   {
-    "mob": ["minecraft:wither"],
-    "result": "allow",
-    "healthmultiply": 2.5,
-    "when": "onjoin"
-  },
-  {
-    "mob": ["progressivebosses:wither_minion"],
-    "result": "allow",
-    "healthmultiply": 0.4,
-    "damagemultiply": 0.8,
-    "speedmultiply": 0.8,
-    "when": "onjoin"
-  },
-  {
     "gamestage": "stage_5",
     "hostile": true,
     "armoradd": 20,

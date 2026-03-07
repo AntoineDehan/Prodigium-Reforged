@@ -44,6 +44,17 @@
         "value": 10
       }
     },
+    "furattributes:runic_recharge_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "minecraft:generic.follow_range": {
       "enabled": true,
       "min": {
@@ -64,6 +75,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "furattributes:runic_shield": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "spell_power:critical_chance": {
@@ -108,6 +130,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "furattributes:debuff_time": {
+      "enabled": false,
+      "min": {
+        "default": -1000,
+        "value": -1000
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "irons_spellbooks:nature_spell_power": {
@@ -264,6 +297,17 @@
         "value": 1024
       }
     },
+    "furattributes:proj_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 500,
+        "value": 500
+      }
+    },
     "item_cooling_reduction:reduction": {
       "enabled": false,
       "min": {
@@ -291,6 +335,17 @@
       "min": {
         "default": -100,
         "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "furattributes:damage_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,
@@ -328,6 +383,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "furattributes:global_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "terra_entity:player.sentry_capacity": {
@@ -405,6 +471,17 @@
       "max": {
         "default": 100,
         "value": 1000000
+      }
+    },
+    "furattributes:duplex": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 400,
+        "value": 400
       }
     },
     "doggytalents:generic.crit_chance": {
@@ -627,6 +704,17 @@
         "value": 2048
       }
     },
+    "furattributes:proj_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 200,
+        "value": 200
+      }
+    },
     "irons_spellbooks:evocation_spell_power": {
       "enabled": false,
       "min": {
@@ -691,6 +779,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "furattributes:evasion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "furattributes:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 200,
+        "value": 200
       }
     },
     "irons_spellbooks:lightning_spell_power": {
@@ -825,6 +935,28 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "furattributes:loot_luck": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "furattributes:cleave": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 50,
+        "value": 50
+      }
+    },
     "minecraft:horse.jump_strength": {
       "enabled": true,
       "min": {
@@ -845,6 +977,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "furattributes:buff_time": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "irons_spellbooks:max_mana": {
@@ -878,6 +1021,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "furattributes:hunger_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "confluence:ranged_velocity": {
@@ -935,6 +1089,17 @@
         "value": 1000
       }
     },
+    "furattributes:heal_amplifier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "blazegear:generic.attacker_burn_time": {
       "enabled": false,
       "min": {
@@ -946,6 +1111,28 @@
         "value": 1024
       }
     },
+    "furattributes:crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "furattributes:life_steal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -955,6 +1142,17 @@
       "max": {
         "default": 8,
         "value": 8
+      }
+    },
+    "furattributes:mana_leech": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "piglinproliferation:turning_speed": {
@@ -999,6 +1197,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "furattributes:sprint_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "gunswithoutroses:gwr.shotgun_projectiles": {
@@ -1065,6 +1274,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "furattributes:crit_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "quality_equipment:dig_speed": {
@@ -1188,6 +1408,17 @@
         "value": 1024
       }
     },
+    "furattributes:armor_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "puffish_attributes:player.shovel_speed": {
       "enabled": false,
       "min": {
@@ -1263,6 +1494,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "furattributes:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 500,
+        "value": 500
       }
     },
     "blazegear:player.flammable_block_break_speed_bonus": {
@@ -1496,6 +1738,28 @@
         "value": 4
       }
     },
+    "furattributes:passive_regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 25,
+        "value": 25
+      }
+    },
+    "furattributes:runic_recharge_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 20
+      }
+    },
     "irons_spellbooks:ender_magic_resist": {
       "enabled": false,
       "min": {
@@ -1560,6 +1824,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "furattributes:bow_draw_speed": {
+      "enabled": false,
+      "min": {
+        "default": -50,
+        "value": -50
+      },
+      "max": {
+        "default": 200,
+        "value": 200
       }
     },
     "spell_power:soul": {
