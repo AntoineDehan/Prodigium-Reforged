@@ -131,7 +131,7 @@
 	EnderGuardianDamageMultiplier = 3.1
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageCap = 21.0
+	EnderGuardianDamageCap = 150.0
 	#EnderGuardian's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianNatureHealing = 8.0
@@ -169,7 +169,7 @@
 	"EnderGuardianBlockBreaking Z" = 15
 	#EnderGuardian's DamageTime
 	#Range: 0 ~ 100
-	EnderGuardianDamageTime = 30
+	EnderGuardianDamageTime = 0
 
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
@@ -192,7 +192,7 @@
 	MonstrosityNatureHealing = 10.0
 	#Monstrosity's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageCap = 20.0
+	MonstrosityDamageCap = 150.0
 	#Monstrosity's bodyBlocking verdict
 	NetheritemonstrosityBodyBloking = true
 	#Monstrosity's attack Hp Damage
@@ -203,7 +203,7 @@
 	"Monstrosity's prevent attacks from far away Range" = 23.0
 	#Monstrosity's DamageTime
 	#Range: 0 ~ 100
-	MonstrosityDamageTime = 10
+	MonstrosityDamageTime = 0
 	#Monstrosity's block breaking ignore the MobGriefing
 	monstrosityBlockBreaking = true
 
@@ -226,24 +226,24 @@
 	IgnisHealthMultiplier = 3.8
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 2.7
+	IgnisDamageMultiplier = 2.6
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
-	IgnisNatureHealing = 7.0
+	IgnisNatureHealing = 6.0
 	#Ignis's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealingMultiplier = 1.0
+	IgnisHealingMultiplier = 0.5
 	#Ignis's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Ignis's prevent attacks from far away Range" = 24.0
 	#Ignis's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageCap = 20.0
+	IgnisDamageCap = 200.0
 	#Ignis's cracked block breaking ignore the MobGriefing
 	IgnisBlockBreaking = true
 	#Ignis's DamageTime
 	#Range: 0 ~ 100
-	IgnisDamageTime = 15
+	IgnisDamageTime = 0
 
 [revenant]
 	#Revenant's Health Multiplier
@@ -285,7 +285,7 @@
 	"The Harbinger's prevent attacks from far away Range" = 38.0
 	#Harbinger's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	"The Harbinger DamageCap" = 18.0
+	"The Harbinger DamageCap" = 150.0
 	#Harbinger's lasers can light a fire in MobGriefing
 	"The Harbinger Light A Fire" = true
 	#The Harbinger's charge attack Hp Damage
@@ -293,7 +293,7 @@
 	"The Harbinger's charge attack Hp Damage" = 0.06
 	#Harbinger's DamageTime
 	#Range: 0 ~ 100
-	"The Harbinger DamageTime" = 12
+	"The Harbinger DamageTime" = 0
 
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
@@ -322,14 +322,14 @@
 	"Leviathan's Tentacle Hp Damage" = 0.04
 	#Leviathan's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageCap = 25.0
+	LeviathanDamageCap = 150.0
 	#Leviathan's block breaking ignore the MobGriefing
 	LeviathanBlockBreaking = true
 	#Leviathan Immune Out of Water
 	LeviathanImmuneOutofWater = true
 	#Leviathan's DamageTime
 	#Range: 0 ~ 100
-	"Leviathan DamageTime" = 15
+	"Leviathan DamageTime" = 0
 
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
@@ -373,7 +373,7 @@
 	"Ancient Remnant's prevent attacks from far away Range" = 18.0
 	#Ancient Remnant's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantCap = 20.0
+	AncientRemnantCap = 1500.0
 	#Ancient Remnant's block breaking ignore the MobGriefing
 	AncientRemnantBlockBreaking = true
 	#Remnant's Charge Hp Damage
@@ -390,7 +390,7 @@
 	"Remnant's EarthQuakeDamage" = 8.0
 	#Ancient Remnant's DamageTime
 	#Range: 0 ~ 100
-	"Ancient Remnant DamageTime" = 12
+	"Ancient Remnant DamageTime" = 0
 
 [Koboleton]
 	#Cause Koboleton to Drop Item In Hand Percent
@@ -416,7 +416,7 @@
 	MaledictusDamageMultiplier = 1.3
 	#Maledictus's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageCap = 23.0
+	MaledictusDamageCap = 150.0
 	#Maledictus's melee Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Maledictus's melee Hp Damage" = 0.05
@@ -443,7 +443,7 @@
 	"Maledictus' Phantom Halberd Damage'" = 11.0
 	#Maledictus's DamageTime
 	#Range: 0 ~ 100
-	"Maledictus DamageTime" = 30
+	"Maledictus DamageTime" = 0
 	#Maledictus's Phantom Arrow's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Maledictus's Phantom Arrow Damage" = 5.0
