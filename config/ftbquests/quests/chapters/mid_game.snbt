@@ -436,6 +436,33 @@
 			x: 2.5d
 			y: 0.5d
 		}
+		{
+			dependency: "3C652834876CF66B"
+			height: 1.0d
+			image: "aether_redux:item/materials/veridium_ingot"
+			rotation: -25.0d
+			width: 1.0d
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependency: "3C652834876CF66B"
+			height: 1.0d
+			image: "aether_redux:item/materials/veridium_ingot"
+			rotation: 40.0d
+			width: 1.0d
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependency: "3C652834876CF66B"
+			height: 1.0d
+			image: "aether_redux:item/materials/raw_veridium"
+			rotation: 40.0d
+			width: 1.0d
+			x: 7.5d
+			y: -5.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -579,13 +606,6 @@
 					id: "4A351B089ACB26D6"
 					type: "xp_levels"
 					xp_levels: 4
-				}
-				{
-					count: 3
-					id: "2913551A2D470366"
-					item: "progressivebosses:nether_star_shard"
-					random_bonus: 30
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -889,12 +909,6 @@
 				{
 					id: "22C57E4C3B2A33D3"
 					item: "minecraft:nether_star"
-					type: "item"
-				}
-				{
-					id: "667175D9AFE4F79A"
-					item: "progressivebosses:nether_star_shard"
-					random_bonus: 32
 					type: "item"
 				}
 				{
@@ -3012,7 +3026,11 @@
 		}
 		{
 			dependencies: ["7C742369CC5C8B9E"]
-			description: ["You can use it to remove the enchant of a weapon to then put it in a book."]
+			description: [
+				"You can use it to remove the enchant of a weapon to then put it in a book."
+				""
+				"&8&o(you will need to unlock Veridium by defeating the Slider)&r&r"
+			]
 			hide_until_deps_visible: true
 			id: "2851394B90D1E773"
 			rewards: [
@@ -3160,6 +3178,19 @@
 			}]
 			x: 5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3C652834876CF66B"]
+			hide_dependency_lines: false
+			id: "0CE6A9DABD83333C"
+			tasks: [{
+				id: "6748D7807E86BDAE"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			title: "You have unlocked &9Veridium&r"
+			x: 5.5d
+			y: -6.0d
 		}
 	]
 	title: "Expert Mode"

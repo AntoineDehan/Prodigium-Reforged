@@ -1541,7 +1541,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 9.0d
 		}
 		{
@@ -1802,6 +1802,27 @@
 			}]
 			x: 5.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["4A96E3EADCF0C191"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "59BD32C5B6F0FE5E"
+			subtitle: "&6Post Void Blossom&r"
+			tasks: [{
+				id: "244C4C3D64267AF0"
+				item: {
+					Count: 1
+					id: "kubejs:void_petal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
 		}
 	]
 	title: "Archer"

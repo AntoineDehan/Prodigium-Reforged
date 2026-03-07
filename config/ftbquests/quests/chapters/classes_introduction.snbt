@@ -5,6 +5,15 @@
 	group: "52532F5E67425F1C"
 	icon: "minecraft:amethyst_cluster"
 	id: "59B899949D512C6D"
+	images: [{
+		height: 1.0d
+		hover: ["Just some good early game acessories. A lot more are available"]
+		image: "prodigium_reforged:textures/gui/curios.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: 0.0d
+		y: 7.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -121,8 +130,8 @@
 				title: "You've chosen the Berserker class!"
 				type: "custom"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -152,8 +161,8 @@
 				title: "You've chosen the Crusader class!"
 				type: "custom"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -183,8 +192,8 @@
 				title: "You've chosen the Archer class!"
 				type: "custom"
 			}]
-			x: -0.5d
-			y: 3.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -222,8 +231,8 @@
 				title: "You've chosen the Wizard class!"
 				type: "custom"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -255,8 +264,8 @@
 				title: "You've chosen the Cleric class!"
 				type: "custom"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
@@ -290,41 +299,23 @@
 					type: "loot"
 				}
 			]
+			size: 1.5d
 			subtitle: "Read me!"
-			tasks: [
-				{
-					id: "7C1794DE4816E2EC"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:wandering_magician_helmet"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "7C1794DE4816E2EC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wandering_magician_helmet"
+					tag: {
+						Damage: 0
 					}
-					title: "Wandering Magician armor"
-					type: "item"
 				}
-				{
-					id: "5EA1D5A61D3F1051"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:copper_spell_book"
-						tag: {
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 5
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-						}
-					}
-					title: "Early game Spell book"
-					type: "item"
-				}
-			]
+				title: "Wandering Magician armor"
+				type: "item"
+			}]
 			title: "Early mage armor"
-			x: 1.0d
-			y: 2.5d
+			x: 3.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
@@ -345,6 +336,7 @@
 					xp_levels: 2
 				}
 			]
+			size: 1.5d
 			subtitle: "Read me!"
 			tasks: [{
 				id: "284806BB280CB458"
@@ -360,7 +352,7 @@
 			}]
 			title: "Early ranged armor"
 			x: 0.0d
-			y: 2.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
@@ -381,6 +373,7 @@
 					xp_levels: 2
 				}
 			]
+			size: 1.5d
 			subtitle: "Read me!"
 			tasks: [{
 				id: "41B052F3415EDC28"
@@ -395,8 +388,8 @@
 				type: "item"
 			}]
 			title: "Early melee armor"
-			x: -1.0d
-			y: 2.5d
+			x: -3.5d
+			y: 0.75d
 		}
 		{
 			description: [
@@ -428,7 +421,7 @@
 				type: "custom"
 			}]
 			title: "You've chosen the Necromancer class!"
-			x: 4.0d
+			x: 13.0d
 			y: 3.5d
 		}
 		{
@@ -450,7 +443,7 @@
 			tasks: [{
 				icon: {
 					Count: 1
-					id: "gunswithoutroses:gold_gun"
+					id: "gwrexpansions:netherite_monster_shotgun"
 					tag: {
 						Damage: 0
 					}
@@ -459,8 +452,400 @@
 				title: "You've chosen the Gunner class!"
 				type: "custom"
 			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0613243385C3015B"]
+			description: ["Put the &6Spell Book&r and the &7Scroll&r in the &3Inscription table&r, you will then be able to use the spells as much as you have enough mana."]
+			id: "7C35851A571E1DAB"
+			tasks: [{
+				id: "661B18D921ACDB98"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0613243385C3015B"]
+			id: "10618BE48C878CC0"
+			tasks: [{
+				id: "6BEF1D6203B0659A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["412E0ADC86F7DE20"]
+			id: "721C0A0C5D1650A5"
+			tasks: [{
+				id: "1C4DE8465C9C3911"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["412E0ADC86F7DE20"]
+			id: "01DC60D228F91C57"
+			tasks: [{
+				id: "0ADC67D2605FC7A4"
+				item: {
+					Count: 1
+					id: "kubejs:ancient_cobalt_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["412E0ADC86F7DE20"]
+			id: "2293887FCC03A8F3"
+			tasks: [{
+				id: "0F0EB4C67E6B347C"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:iron_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["412E0ADC86F7DE20"]
+			id: "2DE973AB32AE1F9E"
+			tasks: [{
+				id: "2C85B66F60224C40"
+				item: {
+					Count: 1
+					id: "gunswithoutroses:gold_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["412E0ADC86F7DE20"]
+			id: "2A17A12B8C94316B"
+			tasks: [{
+				id: "2F0A76651D41BEAD"
+				item: "confluence:black_belt"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["412E0ADC86F7DE20"]
+			id: "05832A22AE1DD61B"
+			tasks: [{
+				id: "24F5E36B215A24B2"
+				item: "prodigium_reforged:comfy_socks"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["525148F80B756AD6"]
+			id: "72A5CB3F7956BE8D"
+			tasks: [{
+				id: "40ACC7A5455963A0"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["525148F80B756AD6"]
+			id: "2302F7C329C608F6"
+			tasks: [{
+				id: "23A46519719D8BC5"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["525148F80B756AD6"]
+			id: "1B4F5B51CA3C9546"
+			tasks: [{
+				id: "392164FC49D1AA59"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["525148F80B756AD6"]
+			id: "6A55B2F28D2A9C19"
+			tasks: [{
+				icon: "prodigium_reforged:cactus_shield"
+				id: "1EB45BADD6D0EA2A"
+				item: "prodigium_reforged:cactus_shield"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["525148F80B756AD6"]
+			id: "7004A092B04383F5"
+			tasks: [{
+				id: "5950B915D9BC94D5"
+				item: "confluence:band_of_regeneration"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0613243385C3015B"]
+			id: "0790D677B60D3121"
+			tasks: [{
+				id: "65C13DC57E353C77"
+				item: "confluence:black_belt"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0613243385C3015B"]
+			id: "784ECFA509DC9A8A"
+			tasks: [{
+				id: "0C0750943098BA56"
+				item: "prodigium_reforged:slimy_scarf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "6EBDFECA552F8526"
+			tasks: [{
+				id: "6A2E82949C65AA78"
+				item: "confluence:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			id: "47766DE0D6BBC9A0"
+			tasks: [{
+				id: "45D9BD0BA275A0E4"
+				item: "confluence:blizzard_in_a_bottle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			id: "3760112F53AFB7C1"
+			tasks: [{
+				id: "18F463BE3814AA0C"
+				item: "confluence:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "0125F9A805346303"
+			tasks: [{
+				id: "67E76C65B3860296"
+				item: "confluence:tsunami_in_a_bottle"
+				type: "item"
+			}]
 			x: 1.5d
-			y: 3.5d
+			y: 8.0d
+		}
+		{
+			id: "3FC4DEF68C5CD411"
+			tasks: [{
+				id: "733862A21D12711A"
+				item: "confluence:aglet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			id: "15A2F319A24D2B28"
+			tasks: [{
+				id: "5144A430A79FF60D"
+				item: {
+					Count: 1
+					id: "confluence:hermes_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			id: "6E49EDFCD8CC2AD1"
+			tasks: [{
+				id: "76D154BB96DD9269"
+				item: {
+					Count: 1
+					id: "confluence:flurry_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			id: "25B591EC9FE2C29D"
+			tasks: [{
+				id: "0EB34BEBD2A86BBB"
+				item: {
+					Count: 1
+					id: "confluence:sailfish_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			id: "76903CCBBC9A6A49"
+			tasks: [{
+				id: "38289A61498836B0"
+				item: {
+					Count: 1
+					id: "confluence:dunerider_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "1A244019F73A2EA4"
+			tasks: [{
+				id: "109FA42D167AD995"
+				item: "confluence:shackle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "7C6970268E8B8976"
+			tasks: [{
+				id: "6D9A03A20BA65873"
+				item: {
+					Count: 1
+					id: "aether:iron_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			id: "611FF0F3D2C40AF7"
+			tasks: [{
+				id: "674EEF900B17D98D"
+				item: "prodigium_reforged:smoke_bombs"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "6E6F43AC027FE544"
+			tasks: [{
+				id: "0AFE8E0D36F36844"
+				item: "sweet_charm_o_mine:copper_pocket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			id: "37B3C433C8D0778E"
+			tasks: [{
+				id: "190CB86CDD7E13FA"
+				item: "prodigium_reforged:desert_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			id: "107B59738F6FC295"
+			tasks: [{
+				id: "134E0C91AE671193"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
 		}
 	]
 	title: "Classes introduction"
