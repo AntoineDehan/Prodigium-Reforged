@@ -1,4 +1,4 @@
-{
+0{
 	"isHoldToAttackEnabled": true,
 	"isMiningWithWeaponsEnabled": true,
 	"isSwingThruGrassEnabled": true,
@@ -12,5 +12,6 @@
 	"weaponSwingSoundVolume": 90,
 	"isDebugOBBEnabled": true,
 	"swingThruGrassBlacklist": "farmersdelight",
-	"mineWithWeaponBlacklist": ""
+	"mineWithWeaponBlacklist": "",
+	"firstPersonAnimations": "AUTO"
 }
