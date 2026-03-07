@@ -95,6 +95,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "gwrexpansions:obsidian_launcher" });
   event.remove({ output: "gwrexpansions:obsidian_core" });
   event.remove({ output: "gwrexpansions:skull" });
+  event.remove({ id: "gwrexpansions:bomd/voidspike" });
 
   // Too Many Bows
   event.remove({ output: "too_many_bows:frostbite" });
