@@ -42,58 +42,49 @@ EntityEvents.hurt((event) => {
   }
 });
 
+let thirdHitCounter = {};
 // Entity getting hurt by Player
 EntityEvents.hurt((event) => {
   const entity = event.getEntity();
+
+  if (!event.source.player) return;
+  const player = event.source.player;
+  let uuid = player.uuid;
+
+  /// Gunner \\\
+  if (event.source.getType() !== "gwrgun") return;
+
+  if (player.tags.contains("armor_piercing_rounds")) {
+    if (!thirdHitCounter[uuid]) {
+      thirdHitCounter[uuid] = 0;
+    }
+    thirdHitCounter[uuid]++;
+    if (thirdHitCounter[uuid] === 3) {
+      entity.potionEffects.add("irons_spellbooks:rend", 80, 1, true, false);
+      thirdHitCounter[uuid] = 0;
+    }
+  }
+});
+
+EntityEvents.death((event) => {
+  const entity = event.getEntity();
+
   if (!event.source.player) return;
   const player = event.source.player;
 
-  /// Crusader \\\
+  /// Gunner \\\
+  if (event.source.getType() !== "gwrgun") return;
 
-  if (!player.getMainHandItem()) return;
-  const mainHand = player.getMainHandItem();
-  if (
-    player.tags.contains("paladin_hammer") &&
-    mainHand.hasTag("prodigium_reforged:hammers") &&
-    Math.random() < 0.16
-  ) {
-    entity.level.spawnParticles(
-      "born_in_chaos_v1:stunstars",
-      true,
-      entity.x,
-      entity.y + 2,
-      entity.z,
-      0.0,
-      0.0,
-      0.0,
-      1,
-      0.1,
-    );
-    entity.level.spawnParticles(
-      "born_in_chaos_v1:stunstars",
-      true,
-      entity.x - 0.5,
-      entity.y + 1.75,
-      entity.z - 0.5,
-      0.0,
-      0.0,
-      0.0,
-      25,
-      0.1,
-    );
-
-    entity.level.spawnParticles(
-      "born_in_chaos_v1:stunstars",
-      true,
-      entity.x + 0.5,
-      entity.y + 1.75,
-      entity.z + 0.5,
-      0.0,
-      0.0,
-      0.0,
-      25,
-      0.1,
-    );
-    entity.potionEffects.add("cataclysm:stun", 40, 0, false, true);
+  if (player.tags.contains("scavenger") && Math.random() < 0.33) {
+    if (Math.random() < 0.55) {
+      let count = Math.floor(Math.random() * 7) + 6;
+      entity.block.popItem(Item.of("gunswithoutroses:flint_bullet", count));
+    } else {
+      let slot = player.inventory.find(Item.of("minecraft:gunpowder"));
+      if (slot !== -1) {
+        player.inventory.extractItem(slot, 1, false);
+        player.potionEffects.add("kubejs:fresh_reload", 100, 0, true, false);
+      }
+    }
   }
 });

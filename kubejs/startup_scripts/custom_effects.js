@@ -1375,4 +1375,28 @@ StartupEvents.registry("mob_effect", (event) => {
       0.1,
       "addition",
     );
+
+  // Scavenger
+  event
+    .create("fresh_reload")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "gunswithoutroses:gwr.damage_total",
+      "716ff786-6086-44c2-b30e-d479e0a9b1b3",
+      0.15,
+      "multiply_total",
+    )
+    .modifyAttribute(
+      "sweet_charm_o_mine:bullet_armor_penetration",
+      "13e49301-c5c3-4e54-a3ea-b46eb04f011d",
+      0.1,
+      "addition",
+    )
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "356c84d2-b840-4882-bd71-8a0ec6a4e9f7",
+      0.05,
+      "multiply_total",
+    );
 });
