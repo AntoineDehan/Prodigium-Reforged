@@ -1,20 +1,14 @@
-// All of this is a bit of a mess but it will be reworked on
+// TODO: rework into proper room detection (flood fill)
 
-let activeNpcBlocks = new Set();
+console.info("[NPC System] Loading npc_system.js...");
 
-let npcSpawnBlocks = [
-  "minecraft:loom",
-  "domesticationinnovation:drum",
-  "irons_spellbooks:alchemist_cauldron",
-  "drinkbeer:bartending_table_normal",
-  "minecraft:red_bed",
-  "numismatic-overhaul:shop",
-  "quark:crafter",
-  "minecraft:flower_pot",
-  "quark:gunpowder_sack",
-  "aquaculture:tackle_box",
-  "sophisticatedstorage:decoration_table",
-];
+const REQUIRED_CATEGORIES = ["chairs", "tables", "doors", "light"];
+
+function toLookup(arr) {
+  let obj = {};
+  for (let i = 0; i < arr.length; i++) obj[arr[i]] = 1;
+  return obj;
+}
 
 let NPC_COMMANDS = {
   "minecraft:loom":
@@ -89,7 +83,7 @@ let NPC_QUEST_COMMANDS = {
 };
 
 let categoryBlocks = {
-  chairs: [
+  chairs: toLookup([
     "valhelsia_furniture:oak_chair",
     "valhelsia_furniture:spruce_chair",
     "valhelsia_furniture:birch_chair",
@@ -430,8 +424,8 @@ let categoryBlocks = {
     "valhelsia_furniture:green_upholstered_warped_chair",
     "valhelsia_furniture:red_upholstered_warped_chair",
     "valhelsia_furniture:black_upholstered_warped_chair",
-  ],
-  tables: [
+  ]),
+  tables: toLookup([
     "valhelsia_furniture:oak_table",
     "valhelsia_furniture:spruce_table",
     "valhelsia_furniture:birch_table",
@@ -602,8 +596,8 @@ let categoryBlocks = {
     "valhelsia_furniture:green_warped_table",
     "valhelsia_furniture:red_warped_table",
     "valhelsia_furniture:black_warped_table",
-  ],
-  doors: [
+  ]),
+  doors: toLookup([
     "minecraft:oak_door",
     "minecraft:spruce_door",
     "minecraft:birch_door",
@@ -793,8 +787,8 @@ let categoryBlocks = {
     "gardens_of_the_dead:whistlecane_door",
     "born_in_chaos_v1:mesh_door",
     "born_in_chaos_v1:scorched_planks_door",
-  ],
-  light: [
+  ]),
+  light: toLookup([
     "minecraft:torch",
     "minecraft:lantern",
     "decorative_blocks:soul_chandelier",
@@ -807,119 +801,94 @@ let categoryBlocks = {
     "minecraft:sea_lantern",
     "aether:ambrosium_torch",
     "minecraft:wall_torch",
-  ],
+  ]),
 };
 
-let npcRequirements = {
-  "minecraft:loom": ["chairs", "tables", "doors", "light"],
-  "drinkbeer:bartending_table_normal": ["chairs", "tables", "doors", "light"],
-  "domesticationinnovation:drum": ["chairs", "tables", "doors", "light"],
-  "irons_spellbooks:alchemist_cauldron": ["chairs", "tables", "doors", "light"],
-  "minecraft:red_bed": ["chairs", "tables", "doors", "light"],
-  "numismatic-overhaul:shop": ["chairs", "tables", "doors", "light"],
-  "quark:crafter": ["chairs", "tables", "doors", "light"],
-  "minecraft:flower_pot": ["chairs", "tables", "doors", "light"],
-  "quark:gunpowder_sack": ["chairs", "tables", "doors", "light"],
-  "aquaculture:tackle_box": ["chairs", "tables", "doors", "light"],
-  "sophisticatedstorage:decoration_table": [
-    "chairs",
-    "tables",
-    "doors",
-    "light",
-  ],
+const MISSING_MESSAGES = {
+  doors: "Looks like it's missing a door.",
+  light: "Looks like it's missing a light source.",
+  tables: "Looks like it's missing a table.",
+  chairs: "Looks like it's missing a chair.",
 };
+
+console.info("[NPC System] categoryBlocks loaded - chairs: " + Object.keys(categoryBlocks.chairs).length + ", tables: " + Object.keys(categoryBlocks.tables).length + ", doors: " + Object.keys(categoryBlocks.doors).length + ", light: " + Object.keys(categoryBlocks.light).length);
+
+// tracks which NPC types have been spawned: blockId -> "x,y,z"
+let spawnedNpcs = {};
 
 BlockEvents.placed((event) => {
   let block = event.block;
+  if (!(block.id in NPC_COMMANDS)) return;
+
+  if (spawnedNpcs[block.id]) {
+    console.info("[NPC System] " + block.id + " NPC already spawned, skipping");
+    return;
+  }
+
+  console.info("[NPC System] NPC block detected: " + block.id);
   let player = event.player;
   let level = event.level;
   let pos = block.pos;
-
-  if (!(block.id in NPC_COMMANDS)) return;
-
-  activeNpcBlocks.add(`${pos.x},${pos.y},${pos.z}`);
-
   let searchRadius = 13;
-  let foundConditions = {};
+  let radiusSq = searchRadius * searchRadius;
 
-  let requiredCategories = npcRequirements[block.id] || [];
-  requiredCategories.forEach((category) => {
-    foundConditions[category] = false;
-  });
+  let found = {};
+  let foundCount = 0;
+  let totalRequired = REQUIRED_CATEGORIES.length;
 
-  for (let x = -searchRadius; x <= searchRadius; x++) {
-    for (let y = -searchRadius; y <= searchRadius; y++) {
-      for (let z = -searchRadius; z <= searchRadius; z++) {
-        if (Math.sqrt(x * x + y * y + z * z) > searchRadius) continue;
+  for (let cat of REQUIRED_CATEGORIES) found[cat] = false;
 
-        let nearbyPos = pos.offset(x, y, z);
-        let nearbyBlock = level.getBlock(nearbyPos);
+  for (let x = -searchRadius; x <= searchRadius && foundCount < totalRequired; x++) {
+    for (let y = -searchRadius; y <= searchRadius && foundCount < totalRequired; y++) {
+      for (let z = -searchRadius; z <= searchRadius && foundCount < totalRequired; z++) {
+        if (x * x + y * y + z * z > radiusSq) continue;
 
-        for (let category of requiredCategories) {
-          if (
-            !foundConditions[category] &&
-            categoryBlocks[category].includes(nearbyBlock.id)
-          ) {
-            foundConditions[category] = true;
+        let blockId = level.getBlock(pos.offset(x, y, z)).id;
+
+        for (let cat of REQUIRED_CATEGORIES) {
+          if (!found[cat] && categoryBlocks[cat][blockId]) {
+            found[cat] = true;
+            foundCount++;
+            console.info("[NPC System] Found " + cat + ": " + blockId);
+            break;
           }
         }
-
-        if (Object.values(foundConditions).every(Boolean)) break;
       }
-      if (Object.values(foundConditions).every(Boolean)) break;
     }
-    if (Object.values(foundConditions).every(Boolean)) break;
   }
 
-  if (Object.values(foundConditions).every(Boolean)) {
-    let command = NPC_COMMANDS[block.id].replace(
-      "~ ~ ~",
-      `${pos.x} ${pos.y} ${pos.z}`
-    );
-    player.server.runCommand(command);
+  console.info("[NPC System] Scan complete - found " + foundCount + "/" + totalRequired + " categories");
+
+  if (foundCount === totalRequired) {
+    spawnedNpcs[block.id] = pos.x + "," + pos.y + "," + pos.z;
+    let coords = `${pos.x} ${pos.y} ${pos.z}`;
+    let cmd = NPC_COMMANDS[block.id].replace("~ ~ ~", coords);
+    console.info("[NPC System] Spawning NPC - command: " + cmd);
+    player.server.runCommand(cmd);
 
     if (block.id in NPC_HOME_COMMANDS) {
-      let homeCommand = NPC_HOME_COMMANDS[block.id].replace(
-        "~ ~ ~",
-        `${pos.x} ${pos.y} ${pos.z}`
-      );
-      let questCommand = NPC_QUEST_COMMANDS[block.id];
-      player.server.runCommand(homeCommand);
-      player.server.runCommand(questCommand);
+      let homeCmd = NPC_HOME_COMMANDS[block.id].replace("~ ~ ~", coords);
+      console.info("[NPC System] Setting home - command: " + homeCmd);
+      player.server.runCommand(homeCmd);
+      player.server.runCommand(NPC_QUEST_COMMANDS[block.id]);
       player.tell("This housing is suitable.");
     }
   } else {
-    let missing = requiredCategories.filter((cat) => !foundConditions[cat]);
-    let atLeastOnePresent = requiredCategories.some(
-      (cat) => foundConditions[cat]
-    );
-
-    if (missing.length > 0 && atLeastOnePresent) {
-      for (let cat of missing) {
-        switch (cat) {
-          case "doors":
-            player.tell("Looks like it's missing a door.");
-            break;
-          case "light":
-            player.tell("Looks like it's missing a light source.");
-            break;
-          case "tables":
-            player.tell("Looks like it's missing a table.");
-            break;
-          case "chairs":
-            player.tell("Looks like it's missing a chair.");
-            break;
-        }
-      }
+    let missing = REQUIRED_CATEGORIES.filter((cat) => !found[cat]);
+    console.info("[NPC System] Missing categories: " + missing.join(", "));
+    if (missing.length < totalRequired) {
+      for (let cat of missing) player.tell(MISSING_MESSAGES[cat]);
     }
   }
 });
 
 BlockEvents.broken((event) => {
   let block = event.block;
-  let pos = block.pos;
-
-  if (npcSpawnBlocks.includes(block.id)) {
-    activeNpcBlocks.delete(`${pos.x},${pos.y},${pos.z}`);
+  let posKey = block.pos.x + "," + block.pos.y + "," + block.pos.z;
+  if (spawnedNpcs[block.id] && spawnedNpcs[block.id] === posKey) {
+    console.info("[NPC System] NPC block broken: " + block.id + " at " + posKey + ", allowing re-spawn");
+    delete spawnedNpcs[block.id];
   }
 });
+
+console.info("[NPC System] npc_system.js loaded successfully.");
