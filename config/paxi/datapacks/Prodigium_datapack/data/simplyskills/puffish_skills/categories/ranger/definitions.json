@@ -10712,7 +10712,7 @@
     ]
   },
   "ranged_damage+10%": {
-    "title": "+10% Arrow Damage",
+    "title": "+8% Arrow Damage",
     "icon": {
       "type": "item",
       "data": {
@@ -10724,7 +10724,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "furattributes:proj_damage",
-          "value": 10,
+          "value": 8,
           "operation": "addition"
         }
       },
