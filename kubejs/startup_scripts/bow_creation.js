@@ -45,7 +45,7 @@ StartupEvents.registry("item", (event) => {
     .bow((bow) => {
       bow
         .modifyBow((attributes) => {
-          attributes.arrowSpeed(5).baseDamage(9).fullChargeTick(40);
+          attributes.arrowSpeed(5).baseDamage(10).fullChargeTick(40);
         })
         .onUse((use) => {
           use.release((event) => {
@@ -53,11 +53,11 @@ StartupEvents.registry("item", (event) => {
             shootProjectileCone(
               player,
               level,
-              "irons_spellbooks:small_magic_arrow",
+              "archers_paradox:phantasmal_arrow",
               2,
               8,
               6.0,
-              12.0,
+              8.0,
             );
           });
           use.pullTick((event) => {

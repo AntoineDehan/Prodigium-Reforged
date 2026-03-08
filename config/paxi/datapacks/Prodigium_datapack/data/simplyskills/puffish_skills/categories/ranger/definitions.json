@@ -10697,7 +10697,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "furattributes:proj_damage",
-          "value": 4,
+          "value": 3,
           "operation": "addition"
         }
       },
@@ -10724,7 +10724,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "furattributes:proj_damage",
-          "value": 8,
+          "value": 6,
           "operation": "addition"
         }
       },
@@ -10752,7 +10752,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "furattributes:proj_damage",
-          "value": 15,
+          "value": 10,
           "operation": "addition"
         }
       },
