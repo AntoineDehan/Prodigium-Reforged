@@ -47,7 +47,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.885,
+      "modify": -0.8,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -129,7 +129,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.7,
+      "modify": -0.65,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.45,
+      "modify": -0.55,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -273,7 +273,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.45,
+      "modify": -0.55,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -345,7 +345,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.45,
+      "modify": -0.55,
       "operation": "MULTIPLY_BASE"
     },
     {
