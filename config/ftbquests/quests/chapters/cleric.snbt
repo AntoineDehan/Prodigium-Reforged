@@ -207,7 +207,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2D2E7F73862AF301"]
+			dependencies: [
+				"2D2E7F73862AF301"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "0F8B2C405921526F"
@@ -294,7 +298,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2D2E7F73862AF301"]
+			dependencies: [
+				"2D2E7F73862AF301"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "6A8C2DE986B261A9"
 			rewards: [
@@ -331,7 +339,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2D2E7F73862AF301"]
+			dependencies: [
+				"2D2E7F73862AF301"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4C3468FE8D873B68"

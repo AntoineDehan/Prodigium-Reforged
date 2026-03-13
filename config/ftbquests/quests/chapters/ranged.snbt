@@ -197,7 +197,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0A760A8F2DC0A847"
@@ -236,7 +240,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "25DB715EA2BA4A2B"
@@ -355,7 +363,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3D080F5C5E1DB4E1"
@@ -394,7 +406,11 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -524,7 +540,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "5F83D1C077915E7E"
@@ -1525,7 +1545,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "2D5F7196D965A9C9"
@@ -1634,7 +1658,11 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7DA6A2139D246465"
@@ -1654,7 +1682,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "35D7760BABF13D2A"
@@ -1674,7 +1706,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4C3BE3F0BF63237D"
@@ -1712,7 +1748,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5BB6ED8D4F56D1C6"
@@ -1726,7 +1766,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0C9D0D47508880E1"
@@ -1740,7 +1784,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1C5EFEFAF3C6C816"
@@ -1754,7 +1802,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7553EE1428B85C0B"
@@ -1804,7 +1856,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4A96E3EADCF0C191"]
+			dependencies: [
+				"4A96E3EADCF0C191"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: true

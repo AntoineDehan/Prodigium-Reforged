@@ -206,7 +206,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "17E89E220CD2DACA"
@@ -543,7 +547,11 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4B95E205CB0B5587"
@@ -557,7 +565,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4D945206421BDDAE"
@@ -571,7 +583,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "695B0040AF5B379F"
@@ -586,7 +602,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "327E3E18C467A8DC"
@@ -606,7 +626,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "28DEA13C0745FE23"
@@ -626,7 +650,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6AA58E77DF9B734F"
@@ -646,7 +674,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1202CED8C1B47A67"
@@ -666,8 +698,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
-			dependency_requirement: "all_started"
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7E45440B495DB5C1"
@@ -687,7 +722,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1DCD713FC0F3E3B6"
@@ -707,8 +746,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
-			dependency_requirement: "all_started"
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "3C039F5FCF441451"
 			subtitle: "&6Post Netherite Monstrosity&r"
@@ -727,7 +769,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5DA0156177FA8DDD"
@@ -747,7 +793,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7DA6443883086123"
@@ -767,7 +817,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "69BB3611C0B5D15C"
@@ -787,7 +841,11 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0F331378A3799B6D"
@@ -807,7 +865,11 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "21DD839963B4902A"
@@ -821,7 +883,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "2BE092882FB8CE70"
@@ -857,7 +923,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3A908ED8568C4279"]
+			dependencies: [
+				"3A908ED8568C4279"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "013EB8B0B53393CE"

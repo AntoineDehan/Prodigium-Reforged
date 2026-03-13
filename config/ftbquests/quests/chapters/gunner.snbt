@@ -178,7 +178,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_complete: true
 			id: "151534325D82BD9F"
@@ -212,7 +216,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "034D079A2A3B9935"
@@ -243,7 +251,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6288C94CF969E748"
@@ -569,7 +581,11 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3CB27E3D31176839"
@@ -583,7 +599,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3CE6E47E953797E7"
@@ -597,7 +617,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0EC539C2AAD2B3E8"
@@ -612,7 +636,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "10D4CB14A52B23D9"
@@ -627,7 +655,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "66059AA2D55375B6"
@@ -646,7 +678,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7ADDD2000D17388A"
@@ -665,7 +701,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3F6137656FD5EA2F"
@@ -684,7 +724,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1C9FADFD2B2DD42E"
@@ -703,7 +747,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "204E1C23F97A80E0"
@@ -722,7 +770,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1893BB9F8DEE050B"
@@ -742,7 +794,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7BFE0C16D3B3CC59"
@@ -762,7 +818,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4DA2156B8EDE1831"
@@ -782,7 +842,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4C3A53F50233F57E"
@@ -802,7 +866,11 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "06530557B2C14ED2"
@@ -822,7 +890,11 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "666AA49D7B3FAD5C"
@@ -842,7 +914,11 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3CF68B6074182FA6"
@@ -862,7 +938,11 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "19626ECD745C90F5"
@@ -882,7 +962,11 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4E316EDD0BD483B5"
@@ -897,7 +981,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6EF7C057C65B42AA"]
+			dependencies: [
+				"6EF7C057C65B42AA"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "65411A54A77ABB73"

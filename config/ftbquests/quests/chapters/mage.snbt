@@ -219,7 +219,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["32C900436B8BA216"]
+			dependencies: [
+				"32C900436B8BA216"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			description: ["Pick your Magic School armor!"]
 			hide_until_deps_visible: true
 			id: "6AEDFC7887701A98"
@@ -368,7 +372,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["32C900436B8BA216"]
+			dependencies: [
+				"32C900436B8BA216"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "64BC25EF7137C9F9"
@@ -406,7 +414,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["32C900436B8BA216"]
+			dependencies: [
+				"32C900436B8BA216"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "297C650C9443F6AC"
@@ -444,7 +456,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["32C900436B8BA216"]
+			dependencies: [
+				"32C900436B8BA216"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -640,7 +656,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["32C900436B8BA216"]
+			dependencies: [
+				"32C900436B8BA216"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "648A557424EC566D"
@@ -672,8 +692,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["32C900436B8BA216"]
-			dependency_requirement: "all_started"
+			dependencies: [
+				"32C900436B8BA216"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0EF134C050A64147"

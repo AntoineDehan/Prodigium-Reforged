@@ -212,7 +212,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			description: ["You need to unlock the armor in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "39E4AEC53761A7A1"
@@ -754,7 +758,11 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "20976EC909F6DB8C"
@@ -774,7 +782,11 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "79EF594066875E50"
@@ -794,8 +806,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
-			dependency_requirement: "one_completed"
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0691AF7DA1647C78"
@@ -815,7 +830,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3E5E78163A15DC7E"
@@ -835,7 +854,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5A7DDA0782FA1882"
@@ -855,7 +878,11 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "310B2D9B79089885"
@@ -875,7 +902,11 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "758D5731F25C3937"
@@ -895,8 +926,11 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
-			dependency_requirement: "all_started"
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6C0A872B603DD416"
@@ -916,7 +950,11 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0E1B59FB76D59EF1"
@@ -936,7 +974,11 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "57E0C7DFBCA4E767"
@@ -956,7 +998,11 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "728B26633870CDDA"
@@ -976,7 +1022,11 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "671ED65E5442F9A9"
@@ -996,7 +1046,11 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4D3BBB3CBAF37499"
@@ -1016,7 +1070,11 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "75EDD937E66F586C"
@@ -1036,7 +1094,11 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "75EB4D5FC0838A3A"
@@ -1056,7 +1118,11 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "496279C8210351DC"
@@ -1070,7 +1136,11 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0CDCE666E532F26D"
@@ -1090,7 +1160,11 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3DA617CB6E0359B8"
@@ -1105,7 +1179,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "491124B09BDC2490"
@@ -1120,7 +1198,11 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5822423CC054AB6D"
@@ -1134,7 +1216,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3AD30B9F6F9DF65E"
@@ -1148,7 +1234,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "703529A30CFEDE8C"
@@ -1162,7 +1252,11 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1F97699DF294DD0C"
@@ -1182,7 +1276,11 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6298B6E601393CF5"
@@ -1196,7 +1294,11 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0059F5AC2D4E9D55"
@@ -1211,7 +1313,11 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["01C7F36A07D993DB"]
+			dependencies: [
+				"01C7F36A07D993DB"
+				"78E025D30CD1E607"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6FA35ADF9FEFCE17"
