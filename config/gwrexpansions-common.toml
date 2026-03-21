@@ -102,10 +102,10 @@
 			headshotMultiplier = 1.0
 			#fire Delay
 			#Range: 4 ~ 100
-			fireDelay = 18
+			fireDelay = 30
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
-			inaccuracy = 4.0
+			inaccuracy = 4.5
 
 		["Guns Without Roses Expansions Config".Shotgun.DragonSteel]
 			#Bonus Damage
@@ -263,10 +263,10 @@
 		["Guns Without Roses Expansions Config".Bullets.Lavapower]
 			#Flamejet Damage
 			#Range: 0.0 ~ 100.0
-			flamejetDamage = 5.0
+			flamejetDamage = 4.5
 			#Flamejet Count
 			#Range: 0 ~ 20
-			flamejetCount = 3
+			flamejetCount = 2
 
 		["Guns Without Roses Expansions Config".Bullets.Tidal]
 			#Portal damage

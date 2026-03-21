@@ -1,0 +1,58 @@
+{
+  "gunswithoutroses:diamond_shotgun": [
+    {
+      "attribute": "gunswithoutroses:gwr.knockback",
+      "modify": -0.75,
+      "uuid": "de4bfbb8-f90e-420a-bb12-8e1cb43736bc",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "gwrexpansions:netherite_shotgun": [
+    {
+      "attribute": "gunswithoutroses:gwr.knockback",
+      "modify": -0.75,
+      "uuid": "2d677078-f2d8-4ddc-a782-f5b804b51f42",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "gwrexpansions:netherite_monster_shotgun": [
+    {
+      "attribute": "gunswithoutroses:gwr.knockback",
+      "modify": -0.75,
+      "uuid": "f14c0dc0-cac4-4474-8675-d1ff1aa9e072",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "bypowderandsteel:desert_shotgun": [
+    {
+      "attribute": "gunswithoutroses:gwr.knockback",
+      "modify": -0.75,
+      "uuid": "5afdb1b1-e997-4a71-8f64-0bd5e15049c7",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "bypowderandsteel:desert_shotgun_diamond": [
+    {
+      "attribute": "gunswithoutroses:gwr.knockback",
+      "modify": -0.75,
+      "uuid": "498143ea-c1ea-4bd7-b5e3-ab5c4ad74d0c",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "bypowderandsteel:densgsten_shotgun": [
+    {
+      "attribute": "gunswithoutroses:gwr.knockback",
+      "modify": -0.75,
+      "uuid": "51227140-dc84-4128-92ed-1566411a46a3",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "bypowderandsteel:densgsten_shotgun_diamond": [
+    {
+      "attribute": "gunswithoutroses:gwr.knockback",
+      "modify": -0.75,
+      "uuid": "472101a2-05d9-4cca-b940-3872e52226fb",
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}
