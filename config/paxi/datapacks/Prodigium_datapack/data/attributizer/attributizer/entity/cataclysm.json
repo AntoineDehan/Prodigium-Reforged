@@ -74,6 +74,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "cataclysm:the_harbinger": [
@@ -146,6 +151,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "cataclysm:the_leviathan": [
@@ -218,6 +228,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "cataclysm:ignis": [
@@ -290,6 +305,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "cataclysm:ancient_remnant": [
@@ -357,6 +377,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "cataclysm:ender_golem": [
@@ -419,6 +444,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "cataclysm:ender_guardian": [
@@ -491,6 +521,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ]
 }

@@ -29,6 +29,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "stalwart_dungeons:awful_ghast": [
@@ -96,6 +101,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "stalwart_dungeons:nether_keeper": [
@@ -163,6 +173,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "confluence:bee_projectile": [

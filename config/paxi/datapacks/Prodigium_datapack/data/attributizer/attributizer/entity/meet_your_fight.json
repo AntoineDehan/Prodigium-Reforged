@@ -59,6 +59,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "meetyourfight:bellringer": [
@@ -126,6 +131,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "meetyourfight:dame_fortuna": [
@@ -198,6 +208,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "meetyourfight:rosalyne": [
@@ -270,6 +285,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ]
 }

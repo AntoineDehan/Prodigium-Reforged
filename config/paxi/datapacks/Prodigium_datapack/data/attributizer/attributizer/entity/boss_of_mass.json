@@ -69,6 +69,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "bosses_of_mass_destruction:lich": [
@@ -126,6 +131,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "bosses_of_mass_destruction:obsidilith": [
@@ -193,6 +203,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ],
   "bosses_of_mass_destruction:void_blossom": [
@@ -265,6 +280,11 @@
       "attribute": "furattributes:debuff_time",
       "modify": 20,
       "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
     }
   ]
 }
