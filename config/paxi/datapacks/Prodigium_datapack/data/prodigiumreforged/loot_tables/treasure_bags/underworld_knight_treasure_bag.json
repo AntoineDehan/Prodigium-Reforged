@@ -30,20 +30,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "block_factorys_bosses:ancient_iron_ingot",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 5,
           "functions": [
