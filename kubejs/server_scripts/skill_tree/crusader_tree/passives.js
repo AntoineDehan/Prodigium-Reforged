@@ -8,6 +8,8 @@ EntityEvents.hurt((event) => {
 
   if (!player.getMainHandItem()) return;
   const mainHand = player.getMainHandItem();
+
+  // Paladin's Hammer
   if (
     player.tags.contains("paladin_hammer") &&
     mainHand.hasTag("prodigium_reforged:hammers") &&
@@ -51,5 +53,22 @@ EntityEvents.hurt((event) => {
       0.1,
     );
     entity.potionEffects.add("cataclysm:stun", 40, 0, false, true);
+  }
+});
+
+PlayerEvents.tick((event) => {
+  const player = event.getEntity();
+  if (!player) return;
+  if (!player.getMainHandItem()) return;
+
+  const mainHand = player.getMainHandItem();
+
+  // Crusader Strength
+  if (
+    event.server.tickCount % 20 === 0 &&
+    player.tags.contains("crusader_strength") &&
+    mainHand.hasTag("prodigium_reforged:hammers")
+  ) {
+    player.potionEffects.add("kubejs:crusader_strength", 40, 0, false, true);
   }
 });

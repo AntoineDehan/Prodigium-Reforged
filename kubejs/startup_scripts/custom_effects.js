@@ -1364,7 +1364,7 @@ StartupEvents.registry("mob_effect", (event) => {
       "multiply_total",
     );
 
-  // Magic Defense"
+  // Magic Defense
   event
     .create("magic_defense")
     .color(0xffd27f)
@@ -1397,6 +1397,24 @@ StartupEvents.registry("mob_effect", (event) => {
       "minecraft:generic.movement_speed",
       "356c84d2-b840-4882-bd71-8a0ec6a4e9f7",
       0.05,
+      "multiply_total",
+    );
+
+  // Crusader's Strength
+  event
+    .create("crusader_strength")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.attack_speed",
+      "6e35979e-2b9d-4641-acff-1f59115e14db",
+      0.35,
+      "multiply_total",
+    )
+    .modifyAttribute(
+      "minecraft:generic.attack_damage",
+      "79f72705-56d8-48d3-b00d-823548974a6b",
+      0.25,
       "multiply_total",
     );
 });
