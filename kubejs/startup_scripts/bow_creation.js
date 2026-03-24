@@ -72,7 +72,8 @@ StartupEvents.registry("item", (event) => {
           });
         });
     })
-    .maxDamage(2850);
+    .maxDamage(2850)
+    .repairWith(Ingredient.of("prodigium_reforged:leviathan_scale"));
 
   event
     .create("twin_shadows", "bow")
@@ -106,7 +107,8 @@ StartupEvents.registry("item", (event) => {
           });
         });
     })
-    .maxDamage(2000);
+    .maxDamage(2000)
+    .repairWith(Ingredient.of("prodigium:orichalcum_ingot"));
 
   // Chest drop
   event
@@ -244,7 +246,8 @@ StartupEvents.registry("item", (event) => {
           });
         });
     })
-    .maxDamage(2200);
+    .maxDamage(2200)
+    .repairWith(Ingredient.of("bypowderandsteel:living_herb"));
 });
 
 /// Bow Modification \\\
