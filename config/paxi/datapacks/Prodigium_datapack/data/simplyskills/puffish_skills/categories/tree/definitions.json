@@ -11239,6 +11239,18 @@
           "value": -0.15,
           "operation": "addition"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 7E84A690580422CF"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 7E84A690580422CF"
+        }
       }
     ],
     "metadata": {
@@ -13112,6 +13124,12 @@
           "attribute": "forge:swim_speed",
           "value": 0.1,
           "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 7E84A690580422CF"
         }
       }
     ],
