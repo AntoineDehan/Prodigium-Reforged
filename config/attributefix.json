@@ -550,17 +550,6 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
-    "block_factorys_bosses:movement_recovery": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 5,
-        "value": 5
-      }
-    },
     "irons_spellbooks:evocation_magic_resist": {
       "enabled": false,
       "min": {
@@ -570,6 +559,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "block_factorys_bosses:movement_recovery": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
       }
     },
     "unionlib:generic.arrow_damage": {
@@ -656,8 +656,8 @@
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 6,
+        "value": 6
       }
     },
     "celestisynth:celestial_damage_reduction": {
@@ -1043,6 +1043,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "block_factorys_bosses:roll_count": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 9,
+        "value": 9
       }
     },
     "spell_power:arcane": {
@@ -1994,8 +2005,8 @@
     "unionlib:generic.draw_speed": {
       "enabled": false,
       "min": {
-        "default": 0.00010,
-        "value": 0.00010
+        "default": 0.0001,
+        "value": 0.0001
       },
       "max": {
         "default": 1024,
