@@ -63,7 +63,7 @@
     "#minecraft:is_deep_ocean",
     "#minecraft:is_beach",
     "#minecraft:is_badlands",
-    "#ancient_aether:is_elevated",
+    "#minecraft:is_savanna",
     {
       "id": "#forge:is_overworld",
       "required": false

@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "block_factorys_bosses:underworld_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 38,
+    "salt": 565960105,
+    "exclusion_zone": {
+      "chunk_count": 7,
+      "other_set": "minecraft:nether_complexes"
+    }
+  }
+}

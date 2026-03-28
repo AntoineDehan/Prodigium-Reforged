@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bosses_of_mass_destruction:lich_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1230784,
+    "spacing": 50,
+    "separation": 35,
+    "type": "minecraft:random_spread"
+  }
+}
