@@ -333,14 +333,18 @@ LootJS.modifiers((event) => {
     .randomChance(0.1)
     .addLoot("confluence:hermes_boots")
     .randomChance(0.12)
-    .addLoot("kubejs:ancient_cobalt_bow");
+    .addLoot("kubejs:ancient_cobalt_bow")
+    .randomChance(0.15)
+    .addLoot("majruuszsdifficulty:recall_potion");
 
   event
     .addLootTableModifier("lootintegrations:chests/medium")
     //Onyx
     .removeLoot("simpleores:onyx_gem")
     .randomChance(0.15)
-    .addLoot("confluence:hermes_boots");
+    .addLoot("confluence:hermes_boots")
+    .randomChance(0.05)
+    .addLoot("majruuszsdifficulty:recall_potion");
 
   event
     .addLootTableModifier("lootintegrations:chests/hard")
