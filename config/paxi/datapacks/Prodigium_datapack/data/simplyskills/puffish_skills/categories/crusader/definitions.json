@@ -11821,6 +11821,41 @@
       "icon": "rl31zqqovahx9o03"
     }
   },
+  "crusader_strength": {
+    "title": {
+      "translate": "text.skills.CrusaderStrength.title"
+    },
+    "description": {
+      "translate": "text.skills.CrusaderStrength.description"
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "simplyskills:textures/icons/alternate_reduced/crusader_exhaustive_recovery.png"
+      }
+    },
+    "size": 1.4,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "simplyskills:textures/frames/unlocked.png",
+        "available": "simplyskills:textures/frames/available.png",
+        "locked": "simplyskills:textures/frames/locked.png",
+        "excluded": "simplyskills:textures/frames/excluded.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "crusader_strength"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "rl31zqqovahx9o03"
+    }
+  },
   "ignitium": {
     "title": "Unlock Ignitium Gear",
     "frame": "challenge",
