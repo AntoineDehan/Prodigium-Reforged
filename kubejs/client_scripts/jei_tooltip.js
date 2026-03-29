@@ -8,7 +8,7 @@ JEIEvents.information((event) => {
       "aether_redux:raw_veridium",
       "aether_redux:veridium_ingot",
     ],
-    ["Found at the top of the Aether (generate above y=165)"]
+    ["Found at the top of the Aether (generate above y=155)"],
   );
   //// NPC items
   // Arms Dealer
@@ -23,7 +23,7 @@ JEIEvents.information((event) => {
       "gwrexpansions:netherite_gatling",
       "sweet_charm_o_mine:gunpowder_bag",
     ],
-    ["Sold by the Arms Dealer NPC"]
+    ["Sold by the Arms Dealer NPC"],
   );
 
   // Merchant
@@ -33,8 +33,9 @@ JEIEvents.information((event) => {
       "numismatic-overhaul:piggy_bank",
       "dummmmmmy:target_dummy",
       "minecraft:phantom_membrane",
+      "prodigium_reforged:compass_of_time",
     ],
-    ["Sold by the Merchant NPC"]
+    ["Sold by the Merchant NPC"],
   );
 
   // Tavernkeep
@@ -50,7 +51,7 @@ JEIEvents.information((event) => {
       "simplyskills:malevolent_manuscript",
       "drinkbeer:recipe_board_package",
     ],
-    ["Sold by the Tavernkeep NPC"]
+    ["Sold by the Tavernkeep NPC"],
   );
 
   // Nurse
@@ -60,7 +61,7 @@ JEIEvents.information((event) => {
       "confluence:band_of_regeneration",
       "confluence:cross_necklace",
     ],
-    ["Sold by the Nurse NPC"]
+    ["Sold by the Nurse NPC"],
   );
 
   // Zoologist
@@ -77,7 +78,7 @@ JEIEvents.information((event) => {
       "companions:book_black_hole",
       "companions:book_naginata",
     ],
-    ["Sold by the Zoologist NPC"]
+    ["Sold by the Zoologist NPC"],
   );
 
   // Goblin
@@ -90,7 +91,7 @@ JEIEvents.information((event) => {
       "confluence:dps_meter",
       "minecraft:firework_rocket",
     ],
-    ["Sold by the Goblin Tinkerer NPC"]
+    ["Sold by the Goblin Tinkerer NPC"],
   );
 
   // Wizard
@@ -105,7 +106,7 @@ JEIEvents.information((event) => {
       "irons_spellbooks:rare_ink",
       "irons_spellbooks:epic_ink",
     ],
-    ["Sold by the Wizard NPC"]
+    ["Sold by the Wizard NPC"],
   );
 
   // Steampunker
@@ -129,6 +130,6 @@ JEIEvents.information((event) => {
       "sophisticatedstorage:stack_upgrade_tier_4",
       "sophisticatedbackpacks:stack_upgrade_tier_4",
     ],
-    ["Sold by Steampunker NPC"]
+    ["Sold by Steampunker NPC"],
   );
 });
