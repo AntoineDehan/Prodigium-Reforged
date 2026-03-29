@@ -1941,7 +1941,7 @@
 		}
 		{
 			dependencies: ["53EAB8D1FE264583"]
-			description: ["Found in a &2Sandstorm Nest&r."]
+			description: ["Found in a &2Sandworm Nest&r."]
 			id: "480F0F0E710E9095"
 			rewards: [
 				{
@@ -1989,7 +1989,7 @@
 				entity: "block_factorys_bosses:sandworm"
 				icon: {
 					Count: 1
-					id: "block_factorys_bosses:sandworm_dart"
+					id: "block_factorys_bosses:sandworm_gauntlet"
 					tag: {
 						Damage: 0
 					}

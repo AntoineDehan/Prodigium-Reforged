@@ -137,6 +137,7 @@
 				"4295FD014E3D5800"
 				"774BCB593AAFAA33"
 			]
+			dependency_requirement: "all_started"
 			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "3A908ED8568C4279"
@@ -210,7 +211,7 @@
 				"3A908ED8568C4279"
 				"78E025D30CD1E607"
 			]
-			dependency_requirement: "one_started"
+			dependency_requirement: "all_started"
 			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
 			hide_until_deps_visible: true
 			id: "17E89E220CD2DACA"

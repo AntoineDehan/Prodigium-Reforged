@@ -534,7 +534,11 @@
 		}
 		{
 			dependencies: ["2F2E994C5099612A"]
-			description: ["Summon it by crafting a &9Dusk Key&r."]
+			description: [
+				"Summon it by crafting a &9Dusk Key&r."
+				""
+				"You can find &dChorundum&r in the &2Shelterer Dungeon&r."
+			]
 			icon: "meetyourfight:dusk_key"
 			id: "20DC0659957F6560"
 			min_required_tasks: 1

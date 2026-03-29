@@ -11,7 +11,7 @@
 			image: "bettericons:textures/items/tile037.png"
 			rotation: 0.0d
 			width: 3.5d
-			x: 33.5d
+			x: 30.0d
 			y: -0.5d
 		}
 		{
@@ -215,7 +215,7 @@
 			image: "cataclysm:textures/particle/cursed_flame.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 34.5d
+			x: 31.0d
 			y: -2.0d
 		}
 		{
@@ -225,7 +225,7 @@
 			image: "cataclysm:textures/particle/cursed_flame.png"
 			rotation: 0.0d
 			width: 1.25d
-			x: 34.5d
+			x: 31.0d
 			y: -0.5d
 		}
 		{
@@ -234,7 +234,7 @@
 			image: "endertrigon:textures/entity/dragon_flame.png"
 			rotation: 5.0d
 			width: 0.9d
-			x: 32.5d
+			x: 29.0d
 			y: -0.5d
 		}
 		{
@@ -243,7 +243,7 @@
 			image: "endertrigon:textures/entity/dragon_flame.png"
 			rotation: -10.0d
 			width: 2.0d
-			x: 32.5d
+			x: 29.0d
 			y: 0.5d
 		}
 		{
@@ -252,7 +252,7 @@
 			image: "cataclysm:textures/particle/cursed_flame.png"
 			rotation: -5.0d
 			width: 0.45d
-			x: 33.0d
+			x: 29.5d
 			y: -2.5d
 		}
 		{
@@ -261,7 +261,7 @@
 			image: "endertrigon:textures/entity/dragon_flame.png"
 			rotation: 10.0d
 			width: 1.0d
-			x: 34.5d
+			x: 31.0d
 			y: 0.5d
 		}
 		{
@@ -846,7 +846,7 @@
 					type: "item"
 				}
 			]
-			x: 33.5d
+			x: 30.0d
 			y: 0.0d
 		}
 		{
@@ -1283,7 +1283,7 @@
 					type: "item"
 				}
 			]
-			x: 26.5d
+			x: 24.5d
 			y: 0.0d
 		}
 		{
@@ -1432,9 +1432,6 @@
 			dependencies: ["0BE51A7B2CF00CE8"]
 			description: [
 				"&nTip :&r"
-				""
-				"In the &eAether&r you can mine &eAmbrosium&r."
-				"&eAmbrosium Shards&r can be used to &7reforge the quality&r of every items."
 				""
 				"Every bosses in the Aether category can be fought &oin&r the Aether dimension."
 			]
@@ -2508,7 +2505,7 @@
 				}
 			]
 			title: "End Eyes"
-			x: 28.5d
+			x: 26.5d
 			y: 0.0d
 		}
 		{
