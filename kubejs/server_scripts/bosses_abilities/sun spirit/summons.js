@@ -27,7 +27,7 @@ EntityEvents.hurt((event) => {
       const x = bossRef.x + (Math.random() - 0.5) * 4;
       const y = bossRef.y;
       const z = bossRef.z + (Math.random() - 0.5) * 4;
-      bossRef.level.runCommandSilent(
+      server.runCommandSilent(
         `execute in ${dimension} run summon aether:fire_minion ${x} ${y} ${z}`
       );
     }

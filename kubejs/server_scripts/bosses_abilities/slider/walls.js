@@ -9,6 +9,7 @@ EntityEvents.hurt((event) => {
 
   wallCooldown = true;
 
+  const dimension = entity.level.dimension.toString();
   const x = Math.floor(entity.x);
   const y = Math.floor(entity.y);
   const z = Math.floor(entity.z);
@@ -24,8 +25,8 @@ EntityEvents.hurt((event) => {
 
     for (let dy = 0; dy <= 3; dy++) {
       for (let dx = -2; dx <= 2; dx++) {
-        entity.level.runCommandSilent(
-          `setblock ${bx + dx} ${y + dy} ${bz} minecraft:cobblestone`
+        server.runCommandSilent(
+          `execute in ${dimension} run setblock ${bx + dx} ${y + dy} ${bz} minecraft:cobblestone`
         );
       }
     }
@@ -38,8 +39,8 @@ EntityEvents.hurt((event) => {
 
       for (let dy = 0; dy <= 3; dy++) {
         for (let dx = -2; dx <= 2; dx++) {
-          entity.level.runCommandSilent(
-            `setblock ${bx + dx} ${y + dy} ${bz} air`
+          server.runCommandSilent(
+            `execute in ${dimension} run setblock ${bx + dx} ${y + dy} ${bz} air`
           );
         }
       }

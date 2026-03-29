@@ -20,7 +20,7 @@ EntityEvents.hurt((event) => {
       let y = entity.y;
       let z = entity.z + (Math.random() - 0.5) * 4;
 
-      entity.level.runCommandSilent(
+      server.runCommandSilent(
         `execute in ${dimension} run summon aether:sentry ${x} ${y} ${z}`
       );
     }

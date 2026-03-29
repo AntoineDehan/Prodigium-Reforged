@@ -27,7 +27,7 @@ EntityEvents.hurt((event) => {
       const x = bossRef.x + (Math.random() - 0.5) * 3;
       const y = bossRef.y;
       const z = bossRef.z + (Math.random() - 0.5) * 5;
-      bossRef.level.runCommandSilent(
+      server.runCommandSilent(
         `execute in ${dimension} run summon block_factorys_bosses:poison_area ${x} ${y} ${z}`
       );
     }
