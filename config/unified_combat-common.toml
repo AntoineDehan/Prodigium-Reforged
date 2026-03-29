@@ -1,0 +1,62 @@
+
+["Unified Combat"]
+	#Allows rolling to cancel spell casting
+	enableRollCancel = true
+	#Deduct mana when cancelling a spell via roll
+	panicRollPenalty = true
+	#Apply backlash effects when cancelling unstable magic
+	enableBacklashEffects = true
+	#Apply cooldown to cancelled spells
+	antiSpamCast = true
+	#Spell IDs that are allowed to continue casting during a roll
+	allowedRollSpells = ["irons_spellbooks:magic_arrow", "irons_spellbooks:root"]
+
+	["Unified Combat".Mana]
+		#Minimum flat mana deducted when panic rolling
+		#Range: 0.0 ~ 1000.0
+		manaDeductMinFlat = 5.0
+		#Maximum percentage of spell mana cost deducted (scaled by cast progress)
+		#Range: 0.0 ~ 1.0
+		manaDeductMaxPercent = 0.2
+
+	["Unified Combat".Cooldowns]
+		#Minimum cooldown applied when cancelling near completion
+		#Range: 0 ~ 1200
+		minRollCancelCooldown = 2
+		#Maximum cooldown applied when cancelling instantly
+		#Range: 0 ~ 1200
+		maxRollCancelCooldown = 5
+
+	["Unified Combat"."Visuals & Effects"]
+		#Chance for backlash effects to occur
+		#Range: 0.0 ~ 1.0
+		backlashEffectChance = 0.75
+		#Number of particles spawned when cancelling a cast
+		#Range: 0 ~ 128
+		rollParticleCount = 16
+
+	["Unified Combat"."Spell Roll Lock"]
+		#Prevent rolling while casting spells
+		enableRollLock = false
+		#Play sound/text when roll is blocked while casting
+		enableRollLockFeedback = true
+		#Ticks before spell ends where rolling can be buffered (0 = disabled)
+		#Range: 0 ~ 20
+		rollLockBufferWindow = 5
+		#Spells allowed to roll while casting even with roll lock enabled
+		rollLockWhitelist = ["irons_spellbooks:magic_arrow", "irons_spellbooks:poison_arrow"]
+
+	["Unified Combat"."Attack Roll Lock"]
+		#Prevent rolling while a Better Combat weapon swing is in progress
+		enableAttackRollLock = false
+		#Ticks before attack ends where rolling can be buffered (0 = disabled)
+		#If you press roll within this window, it will execute automatically when the attack finishes
+		#Range: 0 ~ 20
+		attackBufferWindowTicks = 5
+		#Play sound/text when roll is blocked during an attack
+		enableAttackRollFeedback = true
+
+	["Unified Combat"."Roll Cancel Attack"]
+		#When you roll, automatically cancel any in-progress attack swing
+		enableRollCancelAttack = true
+

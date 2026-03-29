@@ -1,7 +1,7 @@
 
 [Overlapless]
 	#These will always generate even if there are existing structures that occupy the chunk sections.
-	UnskippableStructures = []
+	UnskippableStructures = ["conjurer_illager:theatre", "mowziesmobs:umvuthana_grove", "irons_spellbooks:catacombs", "prodigium_dungeons:frostmaw_cavern", "prodigium_dungeons:keeping_castle", "prodigium_dungeons:blossom_arena", "bosses_of_mass_destruction:gauntlet_arena", "bosses_of_mass_destruction:lich_tower", "bosses_of_mass_destruction:obsidilith_arena", "cataclysm:cursed_pyramid", "cataclysm:soul_black_smith", "cataclysm:ruined_citadel", "cataclysm:sunken_city", "cataclysm:ancient_factory", "cataclysm:burning_arena", "minecraft:ocean_monument", "aether:bronze_dungeon", "aether:silver_dungeon", "lost_aether_content:platinium_dungeon", "aether:gold_dungeon", "block_factorys_bosses:sandworm_nest", "block_factorys_bosses:dragon_tower", "mowziesmobs:wrought_chamber"]
 	#If you still find overlapping generated structures in your world, they are most likely Features rather than Structures. For example, Desert Well and Amethyst Geode
 	#You can write down the features' registry names here so they will not get overlapped with existing structures.
 	#It's not acceptable to prevent all the features from getting overlapped with structures. Because trees/ores/flowers/etc small things are also features lol.

@@ -11,6 +11,9 @@
 	#Default: 8
 	#Range: -1024 ~ 1024
 	blasterSentryMaxHeight = 8
+	#Make natural Zombunny Gunners spawn with a few Zombunny Slashers
+	#Default: true
+	zombunnySquad = true
 
 #Specific debug and/or packdev related stuff
 #READ THESE CAREFULLY you probably don't need to touch them
