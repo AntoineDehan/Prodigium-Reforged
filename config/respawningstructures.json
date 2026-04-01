@@ -35,48 +35,29 @@
     "desc:": "List of blacklisted structures, those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by , ",
     "blacklistedStructures": [
       "conjurer_illager:theatre",
-
       "mowziesmobs:umvuthana_grove",
-
       "irons_spellbooks:catacombs",
-
       "prodigium_dungeons:frostmaw_cavern",
-
       "prodigium_dungeons:keeping_castle",
-
       "prodigium_dungeons:blossom_arena",
-
       "bosses_of_mass_destruction:gauntlet_arena",
-
       "bosses_of_mass_destruction:lich_tower",
-
       "bosses_of_mass_destruction:obsidilith_arena",
-
       "cataclysm:cursed_pyramid",
-
       "cataclysm:soul_black_smith",
-
       "cataclysm:ruined_citadel",
-
       "cataclysm:sunken_city",
-
       "cataclysm:ancient_factory",
-
       "cataclysm:burning_arena",
-
       "minecraft:ocean_monument",
-
       "aether:bronze_dungeon",
-
       "aether:silver_dungeon",
       "lost_aether_content:platinium_dungeon",
-
       "aether:gold_dungeon",
       "block_factorys_bosses:sandworm_nest",
-
       "block_factorys_bosses:dragon_tower",
-
-      "mowziesmobs:wrought_chamber"
+      "mowziesmobs:wrought_chamber",
+      "block_factorys_bosses:underworld_arena"
     ]
   },
   "whitelist": {
