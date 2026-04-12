@@ -10321,7 +10321,7 @@
     ]
   },
   "dodge+5%": {
-    "title": "+3% Dodge chance",
+    "title": "+2% Dodge chance",
     "icon": {
       "type": "effect",
       "data": {
@@ -10333,14 +10333,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:dodge_chance",
-          "value": 0.03,
+          "value": 0.02,
           "operation": "addition"
         }
       }
     ]
   },
   "dodge+10%": {
-    "title": "+8% Dodge chance",
+    "title": "+5% Dodge chance",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10353,7 +10353,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:dodge_chance",
-          "value": 0.08,
+          "value": 0.05,
           "operation": "addition"
         }
       }
