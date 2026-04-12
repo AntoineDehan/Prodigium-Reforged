@@ -3,6 +3,13 @@
     "minecraft:ancient_debris",
     "irons_spellbooks:arcane_debris",
     "bygonenether:withered_debris",
-    "prodigium:tungsten_ore"
+    "prodigium:tungsten_ore",
+    "aether:ambrosium_ore",
+    "aether:zanite_ore",
+    "aether:gravitite_ore",
+    "aether_redux:veridium_ore",
+    "deep_aether:skyjade_ore",
+    "ancient_aether:aether_quartz_ore",
+    "ancient_aether:valkyrum_ore"
   ]
 }
