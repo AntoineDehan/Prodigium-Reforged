@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["FAF", "BVB", "FAF"],
+  "pattern": ["FAF", "BVB", " F "],
   "key": {
     "A": {
       "item": "deep_aether:stratus_ingot"
@@ -16,6 +16,7 @@
     }
   },
   "result": {
-    "item": "prodigium_reforged:phoenix_ingot"
+    "item": "prodigium_reforged:phoenix_ingot",
+    "count": 2
   }
 }
