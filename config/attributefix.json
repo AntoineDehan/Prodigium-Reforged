@@ -1086,7 +1086,7 @@
       },
       "max": {
         "default": 10,
-        "value": 10
+        "value": 5
       }
     },
     "attributeslib:healing_received": {
@@ -1097,7 +1097,7 @@
       },
       "max": {
         "default": 1000,
-        "value": 1000
+        "value": 10
       }
     },
     "furattributes:heal_amplifier": {
@@ -1108,7 +1108,7 @@
       },
       "max": {
         "default": 1000,
-        "value": 1000
+        "value": 50
       }
     },
     "blazegear:generic.attacker_burn_time": {
@@ -2005,8 +2005,8 @@
     "unionlib:generic.draw_speed": {
       "enabled": false,
       "min": {
-        "default": 0.0001,
-        "value": 0.0001
+        "default": 0.00010,
+        "value": 0.00010
       },
       "max": {
         "default": 1024,
