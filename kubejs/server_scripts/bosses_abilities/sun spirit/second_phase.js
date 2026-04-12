@@ -12,7 +12,7 @@ EntityEvents.hurt((event) => {
   ) {
     entity.persistentData.phase2BuffGiven = true;
     entity.level.runCommand(
-      `tellraw @a [{"text":"I will not go down so easily !","color":"red"}]`
+      `tellraw @a [{"text":"I will not go down so easily !","color":"red"}]`,
     );
 
     const speedAttr = entity.getAttribute("minecraft:generic.movement_speed");

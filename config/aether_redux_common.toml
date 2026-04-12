@@ -19,7 +19,7 @@
 
 	["Gameplay Changes"."Mob Spawns"]
 		#Allows Endermen to spawn in the Aether
-		"Enderman Spawns" = false
+		"Enderman Spawns" = true
 		#Allows Vanilla Swets to spawn in the Aether
 		"Vanilla Swet Spawns" = true
 

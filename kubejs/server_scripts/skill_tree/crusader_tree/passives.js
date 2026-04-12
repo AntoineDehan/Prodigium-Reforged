@@ -1,11 +1,11 @@
 // Entity getting hurt by Player
+
 EntityEvents.hurt((event) => {
   const entity = event.getEntity();
   if (!event.source.player) return;
   const player = event.source.player;
 
   /// Crusader \\\
-
   if (!player.getMainHandItem()) return;
   const mainHand = player.getMainHandItem();
 
