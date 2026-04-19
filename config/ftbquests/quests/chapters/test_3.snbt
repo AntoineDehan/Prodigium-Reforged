@@ -208,14 +208,6 @@
 					silent: true
 					type: "command"
 				}
-				{
-					auto: "invisible"
-					command: "/immersivemessages popup @a 9 Important If you play Multiplayer do not use FTBteams, use \"/party help\" to learn more."
-					elevate_perms: true
-					id: "788C3645A042BF20"
-					silent: true
-					type: "command"
-				}
 			]
 			subtitle: "&5Read me!&r (it's important and not long)"
 			tasks: [{
@@ -995,6 +987,14 @@
 					item: "majruszsdifficulty:recall_potion"
 					random_bonus: 1
 					type: "item"
+				},
+				{
+					auto: "invisible"
+					command: "/immersivemessages popup @a 9 Important If you play Multiplayer do not use FTBteams, use \"/party help\" to learn more."
+					elevate_perms: true
+					id: "788C3645A042BF20"
+					silent: true
+					type: "command"
 				}
 			]
 			tasks: [
