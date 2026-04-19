@@ -8,9 +8,6 @@ import crafttweaker.api.item.type.sword.SwordItem;
 <item:aether:zanite_leggings>.addGlobalAttributeModifier(<attribute:irons_spellbooks:max_mana>, "More Mana", 75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:aether:zanite_boots>.addGlobalAttributeModifier(<attribute:irons_spellbooks:max_mana>, "More Mana", 75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 
-
-craftingTable.removeByName("wstweaks:lava_blade");
-craftingTable.removeByName("wstweaks:blaze_blade");
 craftingTable.removeByName("waystones:return_scroll");
 craftingTable.removeByName("waystones:bound_scroll");
 craftingTable.removeByName("waystones:warp_scroll");
