@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AAA", "AAA", "AAA"],
+  "key": {
+    "A": {
+      "item": "prodigium_reforged:wither_skull_fragment"
+    }
+  },
+  "result": {
+    "item": "minecraft:wither_skeleton_skull"
+  }
+}

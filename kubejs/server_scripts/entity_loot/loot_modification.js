@@ -9,6 +9,19 @@ LootJS.modifiers((event) => {
     .randomChance(0.6)
     .addWeightedLoot([1], [Item.of("quark:soul_bead")]);
 
+  event
+    .addEntityLootModifier(
+      "minecraft:wither_skeleton",
+      "bygonenether:wither_skeleton_knight",
+      "bygonenether:corpor",
+      "bygonenether:wraither",
+    )
+    .randomChance(0.08)
+    .addWeightedLoot(
+      [1],
+      [Item.of("prodigium_reforged:wither_skull_fragment")],
+    );
+
   // Armor Scrap
   event
     .addEntityLootModifier(
