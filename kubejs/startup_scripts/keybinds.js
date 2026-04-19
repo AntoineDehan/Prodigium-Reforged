@@ -1,9 +1,9 @@
 KeyBindEvents.register((event) => {
   event.create(
     "kubejs:toggle_shake",
-    "key.keyboard.k",
-    "Prodigium Reforged",
     "Toggle Screen Shake",
+    GLFW.GLFW_KEY_K,
+    "Prodigium Reforged",
   );
 });
 
@@ -19,7 +19,6 @@ KeyBindEvents.modify((event) => {
   event.remove("dropoff.key.dump");
   event.remove("dropoff.key.deposit");
   event.remove("key.advancements");
-  event.remove("key_quark.keybind.lock_rotation");
 
   event.addHideKey("key.block_factorys_bosses.dodge_roll");
   event.addHideKey("dropoff.key.dump");
