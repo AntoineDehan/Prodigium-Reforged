@@ -11,6 +11,6 @@ EntityEvents.hurt((event) => {
   attacker.tags.add("seen_shake_hint");
 
   event.server.runCommandSilent(
-    `immersivemessages popup ${attacker.name.getString()} 7 ScreenShake Press 'K' to toggle screen shake effects.`,
+    `immersivemessages popup ${attacker.name.getString()} 7 ScreenShake Press 'J' to toggle screen shake effects.`,
   );
 });

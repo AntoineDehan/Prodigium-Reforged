@@ -2,7 +2,7 @@ KeyBindEvents.register((event) => {
   event.create(
     "kubejs:toggle_shake",
     "Toggle Screen Shake",
-    GLFW.GLFW_KEY_K,
+    GLFW.GLFW_KEY_J,
     "Prodigium Reforged",
   );
 });
