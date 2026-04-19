@@ -13444,7 +13444,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "ftbquests change_progress @s complete 51F86D6012A589B2"
+          "command": "ftbquests change_progress @s complete 7290D4A54277F76D"
         }
       }
     ],
