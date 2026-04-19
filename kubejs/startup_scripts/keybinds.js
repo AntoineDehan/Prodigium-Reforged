@@ -1,3 +1,12 @@
+KeyBindEvents.register((event) => {
+  event.create(
+    "kubejs:toggle_shake",
+    "key.keyboard.k",
+    "Prodigium Reforged",
+    "Toggle Screen Shake",
+  );
+});
+
 KeyBindEvents.modify((event) => {
   event.modifyKey("key.simplyskills.ability1", GLFW.GLFW_KEY_F);
   event.modifyKey("key.bestiary.open", GLFW.GLFW_KEY_H);
@@ -10,6 +19,7 @@ KeyBindEvents.modify((event) => {
   event.remove("dropoff.key.dump");
   event.remove("dropoff.key.deposit");
   event.remove("key.advancements");
+  event.remove("key_quark.keybind.lock_rotation");
 
   event.addHideKey("key.block_factorys_bosses.dodge_roll");
   event.addHideKey("dropoff.key.dump");
