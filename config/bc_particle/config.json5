@@ -1,0 +1,19 @@
+{
+	// Particle Settings
+	"triggerOwnParticle": true,
+	"showOtherPlayerParticle": true,
+	// Better Mobs Combat Particle Settings Only if BMC Installed
+	"showBMCParticle": false,
+	// Particle Plane Settings
+	"tripleLayerParticlePlane": true,
+	"particleLayerOffsetFromMiddle": 0.014999999664723873,
+	"particle_alpha": 0.5,
+	"light_particle_alpha": 0.800000011920929,
+	// Camera Swing and Shake Effect (Max ShakeFloat is 4.0f
+	"cameraShakeFPP": false,
+	"cameraFPPSwingStrength": 6.0,
+	"cameraFPPShakeFloat": 1.600000023841858,
+	"cameraShakeTPP": false,
+	"cameraTPPSwingStrength": 1.0,
+	"cameraTPPShakeFloat": 1.0
+}
