@@ -779,12 +779,12 @@
 	[Spells."irons_spellbooks:angel_wing"]
 		Enabled = true
 		School = "irons_spellbooks:holy"
-		MaxLevel = 5
+		MaxLevel = 4
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.95
+		ManaCostMultiplier = 2.25
 		SpellPowerMultiplier = 0.8
-		CooldownInSeconds = 120.0
+		CooldownInSeconds = 210.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:sunbeam"]
