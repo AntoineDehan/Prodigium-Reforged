@@ -124,18 +124,20 @@ if (Platform.isClientEnvironment()) {
 		},
 	);
 
+	// --- TICK COUNTER: decrements remaining ticks each client tick ---
+	ForgeEvents.onEvent(
+		"net.minecraftforge.event.TickEvent$ClientTickEvent",
+		(event) => {
+			if (event.phase.toString() !== "END") return;
+			if (shakeTicksRemaining > 0) shakeTicksRemaining--;
+		},
+	);
+
 	// --- CAMERA SHAKE RENDERER ---
 	ForgeEvents.onEvent(
 		"net.minecraftforge.client.event.ViewportEvent$ComputeCameraAngles",
 		(event) => {
 			if (shakeTicksRemaining <= 0) return;
-			if (!Client.player) return;
-
-			let tickCount = Client.player.tickCount;
-			if (tickCount !== lastTickCount) {
-				shakeTicksRemaining--;
-				lastTickCount = tickCount;
-			}
 
 			let decay = shakeTicksRemaining / shakeTotalTicks;
 			let shakeT = decay * decay * decay;
