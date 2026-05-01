@@ -3,7 +3,7 @@
   "pattern": ["AAA", "AAA", "AAA"],
   "key": {
     "A": {
-      "item": "prodigium_reforged:wither_skull_fragment"
+      "item": "kubejs:wither_skull_fragment"
     }
   },
   "result": {

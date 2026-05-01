@@ -17,10 +17,7 @@ LootJS.modifiers((event) => {
       "bygonenether:wraither",
     )
     .randomChance(0.08)
-    .addWeightedLoot(
-      [1],
-      [Item.of("prodigium_reforged:wither_skull_fragment")],
-    );
+    .addWeightedLoot([1], [Item.of("kubejs:wither_skull_fragment")]);
 
   // Armor Scrap
   event
