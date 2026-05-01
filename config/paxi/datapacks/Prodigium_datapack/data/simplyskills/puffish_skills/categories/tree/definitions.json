@@ -13440,12 +13440,6 @@
         "data": {
           "command": "thitemstages add @s stage_gunner_expert"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 7290D4A54277F76D"
-        }
       }
     ],
     "cost": 2,
@@ -13467,6 +13461,12 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_gunner_normal"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 7290D4A54277F76D"
         }
       }
     ],
