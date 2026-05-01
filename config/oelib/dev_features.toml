@@ -1,0 +1,14 @@
+#测试 Double 用
+testDouble = 50.0
+#测试 Int 用
+testInt = 50
+#测试 Enum 用
+testEnum = "TEST"
+#是否启用示例/测试内容
+enableExampleContent = false
+#测试 List 用
+testList = ["test1", "test2"]
+#测试 String 用
+testString = "test"
+__cfg_version = 0
+

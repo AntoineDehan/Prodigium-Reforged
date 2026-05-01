@@ -10,4 +10,6 @@
 "Vertical position" = 0.05
 #If enabled and Jade is installed, will use its overlay instead of the built-in overlay.
 "Jade Overlay" = true
+#If enabled the namespace of blocks and entities will be displayed
+"Display namespace" = true
 

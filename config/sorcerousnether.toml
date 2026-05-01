@@ -26,4 +26,7 @@ mist_flask_affects_thrower = false
 sorcerous_vessels_work_in_inventory = false
 #Prevents Losts from spawning a Mist Cloud upon death and makes them instead drop mist already in a bottle. Default setting (false) is highly recommended
 disable_lost_death_effects = false
+#The probability of a lost pearl breaking upon use
+#Range: 0.0 ~ 1.0
+lost_pearl_break_chance = 0.1
 

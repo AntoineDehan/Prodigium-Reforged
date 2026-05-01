@@ -7,7 +7,6 @@
 	"Vile Gator Spawning" = true
 	"Bone Stalker Spawning" = true
 	"Piglin Executioner Spawning" = true
-	"Mushlin Spitter Spawning" = true
 	"Furnace Spawning" = true
 	"Horseless Headsman Spawning" = true
 	#1 is normal, 2 is doubled, 3 is tripled
@@ -15,6 +14,8 @@
 	#1 is normal, 2 is doubled, 3 is tripled
 	"Sea Viper Egg Rarity" = 1.0
 	"Witch Doctor Spawning" = true
+	"Yeti Spawning" = true
+	"Mushlin King Spawning" = true
 
 ["Beast Items Configuration"]
 	#Determines the slowness level applied by the root
@@ -31,8 +32,6 @@
 	"Vile Gator Tooth Poison Level" = 1.0
 	#Determines the amount of time a mob is effected with the gator tooth's poison
 	"Vile Gator Tooth Timer" = 5.0
-	#Determines how long a spawned phantom stalker will stay alive for (in seconds)
-	"Tamer Stalker Timer" = 300.0
 	#Sets the amount of seconds the player receives strength for after killing a mob (default is 2)
 	"Executioner Cowl Strength" = 2.0
 	#Sets the amount of health using the Spore Bundle will replenish your health to (default is 6)
@@ -47,6 +46,8 @@
 	"Jungle Pendant Resistance" = 1.0
 	#Determines the duration of resistance granted to the player
 	"Jungle Pendant Timer" = 6.0
+	#Determines how long a spawned phantom stalker will stay alive for (in seconds)
+	"Tamed Stalker Timer" = 300.0
 
 ["Rare Beasts Configuration"]
 	#true means spawns are on, false means they are not
@@ -57,13 +58,14 @@
 	"Rare Vile Gator Spawning" = true
 	"Rare Bone Stalker Spawning" = true
 	"Rare Piglin Executioner Spawning" = true
-	"Rare Mushlin Spitter Spawning" = true
 	"Rare Furnace Spawning" = true
 	"Scarecrow Spawning" = true
 	#1 is normal, 2 is doubled, 3 is tripled
 	"Rare Phoenix Egg Rarity" = 1.0
+	#1 is normal, 2 is doubled, 3 is tripled
 	"Rare Sea Viper Egg Rarity" = 1.0
 	"Rare Witchdoctor Rarity" = true
+	"Rare Mushlin King Spawning" = true
 
 ["Beast Pit Configuration"]
 	#Determines the max number of Beast pits that can be lit at any given time per world
@@ -76,4 +78,6 @@
 [Other]
 	#Determines if beasts can spawn in modded biomes based off of temperature
 	"Modded Biomes Support" = true
+	#determines if Tree Ents will grief leaves
+	Disable_Treeent_Griefing = true
 

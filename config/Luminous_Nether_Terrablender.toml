@@ -1,0 +1,6 @@
+
+["Biome Settings"]
+	#Frequency of Luminous Nether biomes. Default weight is 2. Higher = more common. Requires a game restart to take effect
+	#Range: 0 ~ 1000
+	nether_region_weight = 3
+

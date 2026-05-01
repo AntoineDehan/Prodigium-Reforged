@@ -56,6 +56,9 @@
     "fg_color": "WHITE",
     "jade_entity_provider": true
   },
+  "aether_redux": {
+    "logicator": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

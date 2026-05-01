@@ -1,0 +1,17 @@
+
+#HUD Settings
+[hud]
+	#Scale factor for the Boss DPS overlay (0.25 = 25%, 1.0 = 100%, 2.0 = 200%)
+	#Range: 0.25 ~ 2.0
+	hud_scale = 0.4
+	#Show DPS during boss fights
+	show_bossbar_dps = true
+	#X position as percentage of screen width (0.0 to 1.0)
+	#0.0 = left edge, 0.5 = center, 1.0 = right edge
+	#Range: 0.0 ~ 1.0
+	hud_offset_x = 0.02
+	#Y position as percentage of screen height (0.0 to 1.0)
+	#0.0 = top edge, 0.5 = center, 1.0 = bottom edge
+	#Range: 0.0 ~ 1.0
+	hud_offset_y = 0.03
+

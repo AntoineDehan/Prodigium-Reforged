@@ -473,6 +473,17 @@
         "value": 1000000
       }
     },
+    "wizard_terra_cuiros:natural_life_regeneration": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
+      }
+    },
     "furattributes:duplex": {
       "enabled": false,
       "min": {
@@ -1210,6 +1221,17 @@
         "value": 2048
       }
     },
+    "wizard_terra_cuiros:summon_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
+      }
+    },
     "furattributes:sprint_speed": {
       "enabled": false,
       "min": {
@@ -1230,6 +1252,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "wizard_terra_cuiros:goety_soul_absorb": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
       }
     },
     "minecolonies:mc_mob_damage": {
@@ -1540,6 +1573,17 @@
         "value": 10000
       }
     },
+    "wizard_terra_cuiros:damage_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "attributeslib:fire_damage": {
       "enabled": false,
       "min": {
@@ -1648,6 +1692,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "wizard_terra_cuiros:true_melee_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
       }
     },
     "irons_spellbooks:ender_spell_power": {
@@ -1846,6 +1901,17 @@
       "max": {
         "default": 200,
         "value": 200
+      }
+    },
+    "wizard_terra_cuiros:gotey_potency_amplifier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
       }
     },
     "spell_power:soul": {

@@ -16,6 +16,8 @@
 		#When their shield runs out, evokers cannot use totems for another 90 seconds
 		"Evokers use totems" = true
 		"Vex health is reduced to 2" = true
+		#Illagers have a smarter AI when using Crossbows, making them more of a threat in combat
+		"Improved Illager behavior" = true
 
 [compat]
 

@@ -1,27 +1,65 @@
 
 ["Tameable Beasts Configs"]
-	#Spawn Chikote
-	"Chikotes enabled:" = true
-	#Spawn Flying Beetle
-	"Flying Beetles enabled:" = true
-	#Spawn Roly Poly
-	"Roly Polys enabled:" = true
-	#Spawn Grasshopper
-	"Grasshoppers enabled:" = true
-	#Spawn Ground Beetle
-	"Ground Beetles enabled:" = true
-	#Spawn Penguin
-	"Penguins enabled:" = true
-	#Spawn QuetzalCoatulus
-	"QuetzalCoatuluss enabled:" = true
-	#Spawn Racoon
-	"Racoons enabled:" = true
-	#Spawn Crested Gecko
-	"Crested Geckos enabled:" = true
-	#Spawn Argentavis
-	"Argentavis enabled:" = true
-	#Spawn Grapteranodons
-	"Grapteranodons enabled:" = true
 	#Argentavis Spawn Height
 	"Argentavis minimum spawn height:" = 100
+	#Spawn Argentavis
+	"Argentavis natural spawning enabled:" = true
+	#Spawn Chikote
+	"Chikote natural spawning enabled:" = true
+	#Spawn Crested Gecko
+	"CrestedGecko natural spawning enabled:" = true
+	#Spawn Grapteranodon
+	"Grapteranodon natural spawning enabled:" = true
+	#Spawn Grasshopper
+	"Grasshopper natural spawning enabled:" = true
+	#Spawn Flying Beetle
+	"FlyingBeetle natural spawning enabled:" = true
+	#Spawn Ground Beetle
+	"GroundBeetle natural spawning enabled:" = true
+	#Spawn Metal Ground Beetle
+	"MetalGroundBeetle natural spawning enabled:" = true
+	#Spawn Penguin
+	"Penguin natural spawning enabled:" = true
+	#Spawn QuetzalCoatulus
+	"QuetzalCoatulus natural spawning enabled:" = true
+	#Spawn Racoon
+	"Racoon natural spawning enabled:" = true
+	#Spawn Roly Poly
+	"RolyPoly natural spawning enabled:" = true
+	#Extra HP for tamed Argentavis
+	"Argentavis added HP when tamed:" = 15.0
+	#Extra HP for tamed Chikote
+	"Chikote added HP when tamed:" = 15.0
+	#Extra HP for tamed Crested Gecko
+	"CrestedGecko added HP when tamed:" = 10.0
+	#Extra HP for tamed Grapteranodon
+	"Grapteranodon added HP when tamed:" = 20.0
+	#Extra HP for tamed Grasshopper
+	"Grasshopper added HP when tamed:" = 20.0
+	#Extra HP for tamed Flying Beetle
+	"FlyingBeetle added HP when tamed:" = 10.0
+	#Extra HP for tamed Ground Beetle
+	"GroundBeetle added HP when tamed:" = 15.0
+	#Extra HP for tamed Metal Ground Beetle
+	"MetalGroundBeetle added HP when tamed:" = 15.0
+	#Extra HP for tamed Penguin
+	"Penguin added HP when tamed:" = 15.0
+	#Extra HP for tamed QuetzalCoatulus
+	"QuetzalCoatulus added HP when tamed:" = 30.0
+	#Extra HP for tamed Racoon
+	"Racoon added HP when tamed:" = 25.0
+	#Extra HP for tamed Roly Poly
+	"RolyPoly added HP when tamed:" = 20.0
+	#Quetzal Spawn Height
+	"Quetzal minimum spawn height:" = 140
+	#Graptera Spawn Height
+	"Graptera minimum spawn height:" = 100
+	#Raw Iron to Transform Ground Beetle to Metal Beetle
+	"Minimum amount of Raw Iron that transforms Ground Beetle:" = 64
+	#Arthropod Trim Drop Chance
+	"Chance (over 100) all arthropods have of dropping Arthropod Upgrade Smithing Template upon defeat:" = 2
+	#Egg Go Bad Timer
+	"Seconds Eggs Take To Go Bad In The Cold:" = 300
+	#Egg Hatching Timer
+	"Seconds Eggs Take To Mature And Hatch:" = 24000
 

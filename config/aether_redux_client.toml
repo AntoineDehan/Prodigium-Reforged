@@ -23,6 +23,8 @@
 		"Phyg Model Upgrade" = true
 		#Gives the Flying Cow's model some touchups and improvements
 		"Flying Cow Model Upgrade" = true
+		#Gives Whirlwinds a new design, based on Minecraft 1.21's new Breeze mob
+		"Improved Whirlwinds" = true
 
 	[Rendering.GUI]
 
@@ -56,5 +58,5 @@
 	#Internal value to change an Aether config, giving a nicer lightmap in the dimension.
 	"First Startup - Lightmap Change" = false
 	#Value used to track the version of the Aether: Redux most recently used.
-	"Version ID" = "2.0.18"
+	"Version ID" = "2.0.19"
 

@@ -43,8 +43,8 @@
 	["Gameplay Changes".Misc]
 		#Changes the hitboxes of vanilla double plants. Disable if it causes odd behavior.
 		"Change Double Plant Hitboxes" = true
-		#Makes blockstate conversion sounds (ambrosium, swet ball) better
-		"Better Conversion Sounds" = true
+		#Gives blockstate conversion recipes (ambrosium, swet ball) alternate sounds
+		"Alternate Conversion Sounds" = false
 
 [Worldgen]
 	#Uses an alternative island noise for the Aether. By default, this is disabled with the Ancient Aether mod installed.
@@ -56,8 +56,6 @@
 		"Mossy Holystone Ores" = true
 		#Enables Enchanted/Gilded vines on trees
 		"Enable Enchanted and Gilded Vines" = true
-		#Enables roots made of logs and log walls on the sides of Large Cloudcap mushrooms and Blightwillow trees.
-		"Wall Roots on Blightwillows and Large Cloudcaps" = true
 		#Uses the legacy design for the gilded groves, instead of the new one added in 2.0.17 that is an inbetween of 2.0 and 2.1's designs
 		"Legacy Gilded Groves Design" = false
 

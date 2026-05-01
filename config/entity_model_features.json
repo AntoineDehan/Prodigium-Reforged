@@ -4,8 +4,10 @@
   "renderModeChoice": "NORMAL",
   "vanillaModelHologramRenderMode_2": "OFF",
   "modelExportMode": "NONE",
+  "attemptPhysicsModPatch_2": "CUSTOM",
   "modelUpdateFrequency": "Fast",
   "entityRenderModeOverrides": {},
+  "entityPhysicsModPatchOverrides": {},
   "entityVanillaHologramOverrides": {},
   "modelsNamesDisabled": [],
   "allowEBEModConfigModify": true,
@@ -25,5 +27,6 @@
   "enforceOptiFineAnimSyntaxLimits": true,
   "allowOptifineFallbackProperties": true,
   "enforceOptiFineFloorUVs": true,
-  "showReloadErrorToast": true
+  "showReloadErrorToast": true,
+  "exportRotations": false
 }

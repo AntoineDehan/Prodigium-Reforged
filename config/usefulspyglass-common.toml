@@ -12,4 +12,6 @@
 #The cooldown time is the duration multipled by 1.4.
 #Range: 600 ~ 1200
 "Spotter duration" = 900
+#If enabled and Jade is installed, tooltips will not be shown unless using a spyglass.
+"Jade tooltips require spyglass" = false
 
