@@ -225,6 +225,7 @@
 			]
 			dependency_requirement: "one_started"
 			description: ["Pick your Magic School armor!"]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "6AEDFC7887701A98"
 			min_required_tasks: 1

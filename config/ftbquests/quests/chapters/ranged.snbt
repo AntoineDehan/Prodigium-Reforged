@@ -547,6 +547,7 @@
 			]
 			dependency_requirement: "one_started"
 			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5F83D1C077915E7E"
 			rewards: [
@@ -944,7 +945,7 @@
 			description: ["More information on how to tame every mobs can be found on the official wiki : &nhttps://codderg.com/tb_lore.html&r"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "tameablebeasts:argentavis_saddle"
+			icon: "terra_entity:slimy_saddle"
 			id: "45603626E32E83B4"
 			optional: true
 			tasks: [{

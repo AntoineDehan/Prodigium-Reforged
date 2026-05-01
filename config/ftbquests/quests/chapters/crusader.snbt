@@ -753,6 +753,7 @@
 			]
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "3C039F5FCF441451"
 			subtitle: "&6Post Netherite Monstrosity&r"
 			tasks: [{

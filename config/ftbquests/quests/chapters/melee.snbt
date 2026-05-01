@@ -219,6 +219,7 @@
 			]
 			dependency_requirement: "one_started"
 			description: ["You need to unlock the armor in the &6Skill Tree&r and to progress in the main quest lines."]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "39E4AEC53761A7A1"
 			rewards: [
@@ -1337,5 +1338,5 @@
 			y: 14.5d
 		}
 	]
-	title: "Berseker"
+	title: "Berserker"
 }

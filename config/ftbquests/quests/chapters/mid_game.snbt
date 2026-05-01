@@ -3189,6 +3189,32 @@
 			x: 5.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["7C742369CC5C8B9E"]
+			description: ["Will help you A LOT in the Aether."]
+			id: "47BC95EC78A8047F"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "1607E0E276786BEE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4E543CFDFC776367"
+					item: "ancient_aether:ambrosium_campfire"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "357B9EA36F6A22C7"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			title: "Highly recommended!"
+			x: 10.0d
+			y: -3.0d
+		}
 	]
 	title: "Expert Mode"
 }

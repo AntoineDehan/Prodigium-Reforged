@@ -611,7 +611,7 @@
 				}
 				{
 					entity: "stalwart_dungeons:incomplete_wither"
-					icon: "wstweaks:fragment"
+					icon: "kubejs:wither_skull_fragment"
 					id: "0C88F9AB77699C08"
 					title: "Kill an Incomplete Wither"
 					type: "kill"
@@ -681,7 +681,7 @@
 				}
 				{
 					entity: "bygonenether:wraither"
-					icon: "wstweaks:fragment"
+					icon: "kubejs:wither_skull_fragment"
 					id: "1E0A3DF3C331A858"
 					title: "Kill a Wraither"
 					type: "kill"

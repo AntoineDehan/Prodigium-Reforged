@@ -288,14 +288,15 @@
 					type: "loot"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "4860B7FE91D8AE7D"
 				item: "majruszsdifficulty:undead_army_treasure_bag"
 				type: "item"
 			}]
 			title: "Defeat the Undead Battle Army in Master mode!"
-			x: 17.0d
-			y: 1.5d
+			x: 18.75d
+			y: 0.7232142857142918d
 		}
 		{
 			dependencies: ["20DC0659957F6560"]
