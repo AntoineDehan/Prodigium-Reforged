@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "block_factorys_bosses:sandworm_dart"
+          "name": "block_factorys_bosses:sandworm_gauntlet"
         }
       ]
     },
@@ -67,7 +67,7 @@
         {
           "type": "minecraft:item",
           "name": "bypowderandsteel:cowbones_horn",
-          "weight": 7,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
