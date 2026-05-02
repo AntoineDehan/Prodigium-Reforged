@@ -4,7 +4,7 @@
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
-    "enable_global_spacing_and_separation_modifier": false,
+    "enable_global_spacing_and_separation_modifier": true,
     "global_spacing_and_separation_modifier": 0.75
   },
   "structure_namespaces": [],
