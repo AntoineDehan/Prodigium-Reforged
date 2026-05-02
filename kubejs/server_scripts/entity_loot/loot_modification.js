@@ -40,8 +40,6 @@ LootJS.modifiers((event) => {
       "bygonenether:piglin_hunter",
       "bygonenether:piglin_prisoner",
       "luminous_nether:piglin_cultist",
-      "luminous_nether:piglin_executioner_2",
-      "luminous_nether:piglin_executioner_3",
       "luminous_nether:piglin_executioner",
     )
     .randomChance(0.2)
@@ -104,10 +102,7 @@ LootJS.modifiers((event) => {
 
   // Gunsteel
   event
-    .addEntityLootModifier(
-      "luminous_beasts:mummy",
-      "luminous_beasts:rare_mummy",
-    )
+    .addEntityLootModifier("luminous_beasts:mummy", "luminous_beasts:red_mummy")
     .randomChance(0.8)
     .addWeightedLoot([1], [Item.of("bypowderandsteel:gunsteel_scrap")]);
 
