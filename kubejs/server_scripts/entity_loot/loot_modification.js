@@ -64,7 +64,6 @@ LootJS.modifiers((event) => {
       "luminous_beasts:the_furnace",
       "luminous_nether:mushlin_king",
       "friendsandfoes:wildfire",
-      "luminous_beasts:rare_crimson_spitter",
     )
     .addWeightedLoot([2], [Item.of("bypowderandsteel:heptacle")]);
 
