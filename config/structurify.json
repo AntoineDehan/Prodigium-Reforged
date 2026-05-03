@@ -7,7 +7,12 @@
     "enable_global_spacing_and_separation_modifier": true,
     "global_spacing_and_separation_modifier": 0.75
   },
-  "structure_namespaces": [],
+  "structure_namespaces": [
+    {
+      "name": "undead_revamp2",
+      "is_disabled": true
+    }
+  ],
   "structures": [],
   "structure_sets": []
 }
