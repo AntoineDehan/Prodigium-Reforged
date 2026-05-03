@@ -1,7 +1,9 @@
+// Scaling HP des bosses Terraria — scan overworld uniquement
 ServerEvents.tick((event) => {
   if (event.server.tickCount % 20 !== 0) return;
 
   for (let level of event.server.getAllLevels()) {
+    if (level.dimension.toString() !== "minecraft:overworld") continue;
     let entities = level.getEntities();
 
     for (let entity of entities) {
@@ -16,28 +18,6 @@ ServerEvents.tick((event) => {
             entity.setMaxHealth(1000);
             entity.setHealth(1000);
           }
-        }
-
-        let box = AABB.of(
-          entity.x - 30,
-          entity.y - 30,
-          entity.z - 30,
-          entity.x + 30,
-          entity.y + 30,
-          entity.z + 30,
-        );
-
-        let adds = level
-          .getEntitiesWithin(box)
-          .filter(
-            (e) =>
-              e.isLiving() &&
-              e.isAlive() &&
-              e.type === "terra_entity:demon_eye",
-          );
-
-        for (let add of adds) {
-          add.kill();
         }
       }
 
@@ -87,5 +67,35 @@ ServerEvents.tick((event) => {
         }
       }
     }
+  }
+});
+
+// Cleanup des demon_eye autour du joueur quand EOC est dans la zone
+PlayerEvents.tick((event) => {
+  let player = event.player;
+  if (player.age % 20 !== 0) return;
+  if (player.level.dimension.toString() !== "minecraft:overworld") return;
+
+  let scanBox = AABB.of(
+    player.x - 80,
+    player.y - 80,
+    player.z - 80,
+    player.x + 80,
+    player.y + 80,
+    player.z + 80,
+  );
+
+  let nearby = player.level.getEntitiesWithin(scanBox);
+  let eoc = nearby.find(
+    (e) => e.type === "terra_entity:eye_of_cthulhu" && e.isAlive(),
+  );
+  if (!eoc) return;
+
+  for (let entity of nearby) {
+    if (entity.type !== "terra_entity:demon_eye" || !entity.isAlive()) continue;
+    if (Math.abs(entity.x - eoc.x) > 30) continue;
+    if (Math.abs(entity.y - eoc.y) > 30) continue;
+    if (Math.abs(entity.z - eoc.z) > 30) continue;
+    entity.kill();
   }
 });
