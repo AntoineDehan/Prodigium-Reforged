@@ -14,7 +14,7 @@ hideZeroKillEntities = false
 #List of mob categories to be considered as monsters (all categories: "monster", "creature", "water_creature", "underground_water_creature", "ambient", "water_ambient", "axolotls", "misc")
 monsterCategories = ["monster", "creature", "water_creature", "underground_water_creature", "ambient", "water_ambient", "axolotls"]
 #List of entities that should not be shown in the bestiary (format: "minecraft:sheep")
-entityBlacklist = []
+entityBlacklist = ["paladins:barrier", "paladins:battle_banner"]
 #Enable the keybind to open the bestiary screen
 enableKeybind = true
 #Number of kills required to unlock advanced attributes (knockback resistance, armor, movement speed)
