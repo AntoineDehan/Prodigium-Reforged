@@ -428,6 +428,15 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"By moving one of your tamed mobs &6onto a pet bed&r, you enable it to respawn there the &6next morning&r if it somehow dies."
+				""
+				"The visual indication for this is if you see a bunch of ZZZ particles appear above your pet's head: this means it has set its respawn point."
+				""
+				"&6Mobs can only respawn at dawn.&r"
+				""
+				"To move the tamed mobs into the bed more easily you can use a &6Feather on a Stick&r (it will make mobs move where you send the feather)."
+			]
 			id: "645B26C0DD2FD22F"
 			rewards: [{
 				auto: "no_toast"
