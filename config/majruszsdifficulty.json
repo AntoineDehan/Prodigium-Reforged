@@ -450,9 +450,9 @@
     "preparing_duration": 10.0,
     "highlight_delay": 300.0,
     "extra_size_ratio_per_player": 0.5,
-    "area_radius": 70,
-    "kill_requirement": 400,
-    "kill_requirement_first": 100,
+    "area_radius": 60,
+    "kill_requirement": 600,
+    "kill_requirement_first": 250,
     "kill_requirement_warning": 3,
     "waves": [
       {
