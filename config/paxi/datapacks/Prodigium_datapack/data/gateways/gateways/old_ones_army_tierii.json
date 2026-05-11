@@ -208,14 +208,14 @@
           "entity": "luminous_monsters:hollow"
         },
         {
-          "entity": "luminous_beasts:rare_crimson_spitter"
+          "entity": "luminous_beasts:crimson_mushlin_king"
         }
       ],
       "modifiers": [
         {
           "attribute": "generic.max_health",
           "operation": "MULTIPLY_TOTAL",
-          "value": 0.5
+          "value": 0.3
         },
         {
           "attribute": "generic.armor",
