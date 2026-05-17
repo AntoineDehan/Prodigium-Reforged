@@ -1,0 +1,42 @@
+# === Fall Control ===
+# Mod configuration. Edit this file and restart the game to apply changes.
+# Defaults below match vanilla behaviour; tweak as needed.
+
+[general]
+# Minimum fall height (in blocks) before damage is dealt.
+# Vanilla = 3.5. Set higher (e.g. 5.0) to forgive small falls.
+# Allowed range: 0.0 - 100.0
+fall_threshold_blocks = 5.0
+
+# Multiplier applied to fall damage.
+# 0.0 = no damage, 1.0 = vanilla, 2.0 = double.
+# Allowed range: 0.0 - 10.0
+fall_damage_multiplier = 1.0
+
+# Whether to apply the [[fall_tiers]] potion effects on fall damage.
+# Set to false to keep threshold + multiplier but skip all tier effects entirely.
+apply_tier_effects = true
+
+# Dimensions where the mod does not apply (ResourceLocations).
+# Example: ["minecraft:the_end", "minecraft:the_nether"]
+dimension_blacklist = []
+
+# === Fall damage tiers ===
+# Each [[fall_tiers]] block defines a tier that triggers when the damage TAKEN
+# (post-reductions from feather falling, jump boost, etc.) is >= min_damage.
+# Only the highest matching tier is applied per fall.
+# min_damage is expressed in half-hearts (1.0 = 1 heart of damage).
+#
+# Add as many [[fall_tiers.effects]] entries to a tier as you want — no limit.
+# Add additional [[fall_tiers]] blocks for lighter falls (e.g. min_damage = 1.0)
+# to layer in more effects. The example below is intentionally minimal.
+
+[[fall_tiers]]
+name = "brutal"
+min_damage = 12.0
+
+  [[fall_tiers.effects]]
+  id = "minecraft:slowness"
+  duration_ticks = 20
+  amplifier = 0
+  chance = 10
