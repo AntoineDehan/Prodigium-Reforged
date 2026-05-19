@@ -224,9 +224,6 @@
           {
             "type": "minecraft:piglin",
             "equipment": "majruszsdifficulty:mob_groups/piglin_sidekick"
-          },
-          {
-            "type": "luminous_monsters:cultist_archer"
           }
         ]
       },
