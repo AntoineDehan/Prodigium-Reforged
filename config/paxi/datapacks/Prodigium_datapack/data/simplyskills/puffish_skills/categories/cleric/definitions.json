@@ -11964,7 +11964,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "thitemstages add @s stage_cleric_expert"
+          "command": "thitemstages add @s stage_priest_expert"
         }
       }
     ],

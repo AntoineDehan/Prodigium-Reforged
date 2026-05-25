@@ -13391,12 +13391,6 @@
         "data": {
           "command": "thitemstages add @s stage_priest_expert"
         }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "command": "ftbquests change_progress @s complete 525D3BC989CF49D9"
-        }
       }
     ],
     "cost": 2,
@@ -13418,6 +13412,12 @@
         "type": "puffish_skills:command",
         "data": {
           "command": "thitemstages add @s stage_priest_normal"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "ftbquests change_progress @s complete 525D3BC989CF49D9"
         }
       }
     ],
