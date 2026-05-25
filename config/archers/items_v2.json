@@ -1,7 +1,7 @@
 {
   "ranged_weapons": {
     "archers:netherite_heavy_crossbow": {
-      "pull_time": 1,
+      "pull_time": 30,
       "damage": 0.0,
       "velocity": 0.0
     },
@@ -16,12 +16,12 @@
       "velocity": 0.0
     },
     "archers:netherite_rapid_crossbow": {
-      "pull_time": 1,
+      "pull_time": 12,
       "damage": 0.0,
       "velocity": 0.0
     },
     "archers:heavy_crossbow": {
-      "pull_time": 1,
+      "pull_time": 36,
       "damage": 0.0,
       "velocity": 0.0
     },
@@ -36,7 +36,7 @@
       "velocity": 0.0
     },
     "archers:rapid_crossbow": {
-      "pull_time": 1,
+      "pull_time": 16,
       "damage": 0.0,
       "velocity": 0.0
     },
