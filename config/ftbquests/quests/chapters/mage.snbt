@@ -558,7 +558,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3E4F3F3F0402D036"]
+			dependencies: [
+				"3E4F3F3F0402D036"
+				"745FE062B66D6927"
+			]
 			hide_until_deps_visible: true
 			id: "2244361598A4C203"
 			rewards: [{
