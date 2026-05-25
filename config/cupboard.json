@@ -5,7 +5,7 @@
   },
   "debugChunkloadAttempts": {
     "desc:": "Enables debug logging of chunks being forceloaded on serverthread by directly accessing an unloaded chunk, which stalls the server until the chunk finishes loading, incompatible with lithium and its forks: default:false",
-    "debugChunkloadAttempts": false
+    "debugChunkloadAttempts": true
   },
   "skipErrorOnEntityLoad": {
     "desc:": "Prevent crashes on entity loading: default:false",

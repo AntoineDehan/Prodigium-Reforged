@@ -5,7 +5,7 @@
 	#Range: 1 ~ 3600
 	hud_timeout_seconds = 30
 	#Time in seconds before stored combat data is discarded if the boss never dies
-	#Range: 30 ~ 86400
+	#Range: 60 ~ 86400
 	combat_abandon_timeout_seconds = 2200
 	#Show combat summary message in chat when a boss fight ends
 	show_combat_end_message = true

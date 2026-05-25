@@ -1,0 +1,28 @@
+
+#Worldgen Guard Configuration
+#Defensive mixins that prevent worldgen deadlocks caused by buggy mods
+#that force-load adjacent chunks during chunk generation.
+[guards]
+	#Cancel Block.dropResources() calls when invoked from a WorldGenRegion context.
+	#These calls are bugs in the calling mod (drops should not happen during worldgen)
+	#and they force-load neighbor chunks, causing deadlocks.
+	#Default: true (recommended).
+	cancelDropResourcesDuringWorldgen = true
+	#Cancel BlockEntity.setChanged() calls when invoked during worldgen.
+	#BlockEntity data is persisted at chunk save anyway, so the setChanged()
+	#neighbor-update side effect during worldgen is unnecessary and harmful.
+	#NOTE: this also drops setChanged() on BEs in already-loaded neighbor
+	#chunks touched by buggy worldgen — which is exactly the deadlock
+	#scenario this prevents. Side effect: a BE in a neighbor chunk modified
+	#by a buggy feature won't be re-marked dirty until something else
+	#touches it.
+	#Default: true (recommended).
+	cancelBlockEntitySetChangedDuringWorldgen = true
+
+[debug]
+	#Log a stacktrace when a cross-chunk Level.getBlockState() is detected during worldgen.
+	#Use this to identify mods that may still be causing deadlocks despite the guards above.
+	#These logs are noisy; only enable when investigating freezes.
+	#Default: false.
+	debugLogging = false
+

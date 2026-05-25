@@ -449,8 +449,8 @@
     "extra_size_ratio_per_player": 0.5,
     "area_radius": 60,
     "kill_requirement": 600,
-    "kill_requirement_first": 250,
-    "kill_requirement_warning": 3,
+    "kill_requirement_first": 300,
+    "kill_requirement_warning": 5,
     "waves": [
       {
         "mobs": [
@@ -701,7 +701,7 @@
   },
   "mobs": {
     "cursed_armor": {
-      "item_drop_chance": 0,
+      "item_drop_chance": 0.0,
       "custom_name_chance": 0.025,
       "custom_names": ["Freshah"],
       "locations": [
