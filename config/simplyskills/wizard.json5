@@ -39,8 +39,8 @@
 	"signatureWizardArcaneBoltRange": 140,
 	"signatureWizardLesserArcaneBoltRadius": 12,
 	"signatureWizardArcaneBoltVolleyDuration": 400,
-	"signatureWizardArcaneBoltVolleyStacks": 12,
-	"signatureWizardArcaneBoltVolleyFrequency": 3,
+	"signatureWizardArcaneBoltVolleyStacks": 10,
+	"signatureWizardArcaneBoltVolleyFrequency": 5,
 	"signatureWizardArcaneBoltVolleyRange": 120,
-	"signatureWizardArcaneBoltCooldown": 50
+	"signatureWizardArcaneBoltCooldown": 70
 }
