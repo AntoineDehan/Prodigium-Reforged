@@ -233,7 +233,7 @@
 		#Range: 0 ~ 64
 		trade_how_many = 7
 		#Disable/enable Umvuthi resetting health when a player respawns nearby. (Prevents respawn cheese!)
-		reset_health_when_respawn = true
+		reset_health_when_respawn = false
 		#Umvuthi will summon healers whenever he loses this much total health.
 		#Range: > 0
 		spawn_healers_threshold = 45
@@ -247,7 +247,7 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
-			biome_tags = ["minecraft:is_savanna"]
+			biome_tags = ["minecraft:is_savanna", "minecraft:is_badlands", "forge:is_hot/overworld,!forge:is_desert"]
 			#Allow spawns in these biomes regardless of the biome tag settings
 			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome tag settings
@@ -362,7 +362,7 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
-			biome_tags = ["ancient_aether:is_elevated"]
+			biome_tags = ["ancient_aether:is_elevated", "aether:is_aether"]
 			#Allow spawns in these biomes regardless of the biome tag settings
 			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome tag settings
@@ -382,7 +382,7 @@
 			generation_separation = 8
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
-			height_max = 200.0
+			height_max = 220.0
 			#Minimum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_min = 120.0
