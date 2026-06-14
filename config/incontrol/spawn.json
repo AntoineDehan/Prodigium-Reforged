@@ -297,15 +297,6 @@
     "result": "deny"
   },
   {
-    "mob": ["luminous_beasts:rare_mummy"],
-    "gamestage": "stage_desert",
-    "result": "default"
-  },
-  {
-    "mob": ["luminous_beasts:rare_mummy"],
-    "result": "deny"
-  },
-  {
     "mob": ["enemyexpansion:huntsman"],
     "gamestage": "stage_g",
     "result": "default"

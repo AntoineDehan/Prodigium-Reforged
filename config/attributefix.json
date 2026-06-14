@@ -473,17 +473,6 @@
         "value": 1000000
       }
     },
-    "wizard_terra_cuiros:natural_life_regeneration": {
-      "enabled": false,
-      "min": {
-        "default": -1000000,
-        "value": -1000000
-      },
-      "max": {
-        "default": 1000000,
-        "value": 1000000
-      }
-    },
     "furattributes:duplex": {
       "enabled": false,
       "min": {
@@ -493,6 +482,17 @@
       "max": {
         "default": 400,
         "value": 400
+      }
+    },
+    "wizard_terra_cuiros:natural_life_regeneration": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
       }
     },
     "doggytalents:generic.crit_chance": {
