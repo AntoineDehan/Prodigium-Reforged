@@ -207,15 +207,6 @@
     "result": "deny"
   },
   {
-    "mob": ["undead_revamp2:theskeeper"],
-    "gamestage": "stage_expert",
-    "result": "default"
-  },
-  {
-    "mob": ["undead_revamp2:theskeeper"],
-    "result": "deny"
-  },
-  {
     "mob": ["born_in_chaos_v1:barrel_zombie"],
     "gamestage": "stage_g",
     "result": "default"
@@ -357,51 +348,6 @@
   },
   {
     "mob": ["enemyexpansion:vampire"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thespectre"],
-    "gamestage": "stage_expert",
-    "result": "default"
-  },
-  {
-    "mob": ["undead_revamp2:thespectre"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thesmoker"],
-    "gamestage": "stage_expert",
-    "result": "default"
-  },
-  {
-    "mob": ["undead_revamp2:thesmoker"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thehunter"],
-    "gamestage": "stage_expert",
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thehunter"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:theswarmer"],
-    "gamestage": "stage_expert",
-    "result": "default"
-  },
-  {
-    "mob": ["undead_revamp2:theswarmer"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:theimmortal"],
-    "gamestage": "stage_expert",
-    "result": "default"
-  },
-  {
-    "mob": ["undead_revamp2:theimmortal"],
     "result": "deny"
   },
   {
@@ -521,14 +467,6 @@
     "mob": ["born_in_chaos_v1:zombie_bruiser"],
     "gamestage": "stage_expert",
     "result": "default"
-  },
-  {
-    "mob": ["undead_revamp2:invisiblebidy"],
-    "result": "stage_expert"
-  },
-  {
-    "mob": ["undead_revamp2:invisiblebidy"],
-    "result": "deny"
   },
   {
     "mob": ["born_in_chaos_v1:zombie_bruiser"],
@@ -713,78 +651,6 @@
     "result": "deny"
   },
   {
-    "mob": ["undead_revamp2:bomber"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thepregnant"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thespitter"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:theheavy"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:clogger"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:invisiclogger"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:deadclogger"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:the_moonflower"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thehorrors"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thegliter"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:sucker"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thebidy"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:slaveman"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thewolf"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:therod"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thebeartamer"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thesomnolence"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:theordure"],
-    "result": "deny"
-  },
-  {
     "mob": ["born_in_chaos_v1:maggot"],
     "result": "deny"
   },
@@ -806,18 +672,6 @@
   },
   {
     "mob": ["born_in_chaos_v1:glutton_fish"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:thedungeon"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:bigsucker"],
-    "result": "deny"
-  },
-  {
-    "mob": ["undead_revamp2:neocrorines"],
     "result": "deny"
   },
   {

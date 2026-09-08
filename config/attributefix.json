@@ -275,17 +275,6 @@
         "value": 1024
       }
     },
-    "undead_revamp2:cheroattackspeed": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 20,
-        "value": 20
-      }
-    },
     "celestisynth:celestial_damage": {
       "enabled": false,
       "min": {
@@ -2071,8 +2060,8 @@
     "unionlib:generic.draw_speed": {
       "enabled": false,
       "min": {
-        "default": 0.00010,
-        "value": 0.00010
+        "default": 0.0001,
+        "value": 0.0001
       },
       "max": {
         "default": 1024,

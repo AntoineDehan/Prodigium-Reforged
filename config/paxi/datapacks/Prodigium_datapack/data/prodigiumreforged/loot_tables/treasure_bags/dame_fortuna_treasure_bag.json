@@ -35,11 +35,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "undead_revamp2:luckysack",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "name": "aether:ambrosium_shard",
           "weight": 6,
           "functions": [

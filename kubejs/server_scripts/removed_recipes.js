@@ -4,7 +4,6 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "irons_spellbooks:amethyst_rapier" });
   event.remove({ output: "minecraft:saddle" });
   event.remove({ output: "iguanatweaksreborn:shortbow" });
-  event.remove({ output: "undead_revamp2:luckysack" });
   event.remove({ output: "stalwart_dungeons:tungsten_axe" });
   event.remove({ output: "stalwart_dungeons:tungsten_sword" });
   event.remove({ output: "stalwart_dungeons:tungsten_hoe" });

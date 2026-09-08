@@ -3,7 +3,7 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier(
       "pots_and_mimics:poison_pot_crab",
       "born_in_chaos_v1:mother_spider",
-      "luminous_monsters:swamp_zombie"
+      "luminous_monsters:swamp_zombie",
     )
     .randomChance(0.1)
     .addWeightedLoot(
@@ -11,14 +11,14 @@ LootJS.modifiers((event) => {
       [
         Item.of("confluence:bezoar").withChance(40),
         Item.of("confluence:shoe_spikes").withChance(60),
-      ]
+      ],
     );
 
   event
     .addEntityLootModifier(
       "bygonenether:wither_skeleton_knight",
       "bygonenether:wither_skeleton_horse",
-      "stalwart_dungeons:incomplete_wither"
+      "stalwart_dungeons:incomplete_wither",
     )
     .randomChance(0.1)
     .addWeightedLoot([1], [Item.of("confluence:holy_water")]);
@@ -31,7 +31,7 @@ LootJS.modifiers((event) => {
   event
     .addEntityLootModifier(
       "luminous_monsters:glacial_skeleton",
-      "luminous_monsters:glacial_zombie"
+      "luminous_monsters:glacial_zombie",
     )
     .randomChance(0.1)
     .addWeightedLoot([1], [Item.of("confluence:fast_clock")]);
@@ -40,7 +40,7 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier(
       "bygonenether:wither_skeleton_knight",
       "bygonenether:wither_skeleton_horse",
-      "stalwart_dungeons:incomplete_wither"
+      "stalwart_dungeons:incomplete_wither",
     )
     .randomChance(0.1)
     .addWeightedLoot([1], [Item.of("confluence:black_belt")]);
@@ -53,7 +53,7 @@ LootJS.modifiers((event) => {
       "luminous_monsters:swamp_skeleton",
       "luminous_monsters:savanna_skeleton",
       "luminous_monsters:dark_oak_skeleton",
-      "quark:forgotten"
+      "quark:forgotten",
     )
     .randomChance(0.025)
     .addWeightedLoot([1], [Item.of("confluence:ranger_emblem")]);
@@ -62,7 +62,7 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier(
       "bypowderandsteel:sunken_pirate",
       "luminous_monsters:sunken",
-      "born_in_chaos_v1:barrel_zombie"
+      "born_in_chaos_v1:barrel_zombie",
     )
     .randomChance(0.025)
     .addWeightedLoot([1], [Item.of("confluence:band_of_regneration")]);
@@ -70,7 +70,7 @@ LootJS.modifiers((event) => {
   event
     .addEntityLootModifier(
       "savage_and_ravage:executioner",
-      "savage_and_ravage:trickster"
+      "savage_and_ravage:trickster",
     )
     .randomChance(0.045)
     .addWeightedLoot([1], [Item.of("confluence:warrior_emblem")]);
@@ -83,7 +83,7 @@ LootJS.modifiers((event) => {
       "terra_entity:dark_caster",
       "irons_spellbooks:archevoker",
       "irons_spellbooks:pyromancer",
-      "irons_spellbooks:cryomancer"
+      "irons_spellbooks:cryomancer",
     )
     .randomChance(0.045)
     .addWeightedLoot([1], [Item.of("confluence:sorcerer_emblem")]);
@@ -92,15 +92,10 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier(
       "bygonenether:piglin_hunter",
       "luminous_nether:piglin_cultist",
-      "luminous_nether:piglin_executioner"
+      "luminous_nether:piglin_executioner",
     )
     .randomChance(0.1)
     .addWeightedLoot([1], [Item.of("confluence:flesh_knuckles")]);
-
-  event
-    .addEntityLootModifier("undead_revamp2:thesmoker")
-    .randomChance(0.1)
-    .addWeightedLoot([1], [Item.of("confluence:honey_comb")]);
 
   event
     .addEntityLootModifier("bygonenether:warped_enderman")
@@ -110,7 +105,7 @@ LootJS.modifiers((event) => {
   event
     .addEntityLootModifier(
       "stalwart_dungeons:giddy_blaze",
-      "stalwart_dungeons:reinforced_blaze"
+      "stalwart_dungeons:reinforced_blaze",
     )
     .randomChance(0.1)
     .addWeightedLoot(
@@ -118,7 +113,7 @@ LootJS.modifiers((event) => {
       [
         Item.of("confluence:magma_stone").withChance(50),
         Item.of("confluence:lava_charm").withChance(50),
-      ]
+      ],
     );
 
   event
@@ -130,7 +125,7 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier(
       "luminous_monsters:miner_skeleton",
       "luminous_monsters:miner_zombie",
-      "alexsmobs:underminer"
+      "alexsmobs:underminer",
     )
     .randomChance(0.1)
     .addWeightedLoot(
@@ -142,7 +137,7 @@ LootJS.modifiers((event) => {
         Item.of("confluence:life_form_analyzer").withChance(10),
         Item.of("confluence:tally_counter").withChance(10),
         Item.of("confluence:metal_detector").withChance(10),
-      ]
+      ],
     );
 
   event
@@ -155,7 +150,7 @@ LootJS.modifiers((event) => {
       "pots_and_mimics:poison_pot_crab",
       "pots_and_mimics:pot_crab",
       "born_in_chaos_v1:mother_spider",
-      "earthtojavamobs:bone_spider"
+      "earthtojavamobs:bone_spider",
     )
     .randomChance(0.1)
     .addWeightedLoot([1], [Item.of("confluence:climbing_claws")]);
