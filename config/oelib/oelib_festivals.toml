@@ -1,0 +1,20 @@
+#是否启用节日祝福
+enabled = true
+#仅在中文语言环境显示中文节日
+chineseFestivalsOnlyForChineseLanguage = true
+__cfg_version = 0
+
+[festivals]
+
+	[festivals.new_year]
+		enabled = true
+		lastShownDate = ""
+
+	[festivals.chongyang]
+		enabled = true
+		lastShownDate = ""
+
+	[festivals.valentine]
+		enabled = true
+		lastShownDate = ""
+

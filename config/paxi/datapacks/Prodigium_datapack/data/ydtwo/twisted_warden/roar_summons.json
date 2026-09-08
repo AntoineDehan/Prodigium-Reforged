@@ -1,0 +1,59 @@
+{
+  "replace": true,
+
+  "counts": {
+    "peaceful": 5,
+    "easy": 6,
+    "normal": 8,
+
+    "hard": {
+      "min": 9,
+      "max": 16
+    },
+
+    "additional_player": {
+      "min": 1,
+      "max": 2
+    }
+  },
+
+  "summons": [
+    {
+      "entity": "minecraft:zombie",
+      "weight": 1,
+
+      "equipment": {
+        "mainhand": "simple_weapons:diamond_katana",
+
+        "random_iron_armor": {
+          "min": 3,
+          "max": 4
+        }
+      }
+    },
+
+    {
+      "entity": "minecraft:skeleton",
+      "weight": 1,
+
+      "equipment": {
+        "mainhand": "minecraft:bow",
+
+        "random_iron_armor": {
+          "min": 3,
+          "max": 4
+        }
+      }
+    },
+
+    {
+      "entity": "ydtwo:excavator",
+      "weight": 1
+    },
+
+    {
+      "entity": "ydtwo:flame_construct",
+      "weight": 1
+    }
+  ]
+}

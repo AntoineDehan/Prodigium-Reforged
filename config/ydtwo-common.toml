@@ -1,0 +1,23 @@
+
+[warden]
+	#Maximum health of the vanilla Warden.
+	#Default: 300
+	#
+	#Requires restarting the world after changing.
+	#Range: 1.0 ~ 1024.0
+	maxHealth = 500.0
+
+[twisted_warden]
+	#Maximum health of the Twisted Warden.
+	#Default: 500
+	#
+	#Requires restarting the world after changing.
+	#Range: 1.0 ~ 1024.0
+	maxHealth = 1024.0
+	#If true, a shrieker-bound Twisted Warden heals
+	#50 HP per second after returning to its shrieker
+	#because it had no combat target for 20 seconds.
+	#
+	#Default: true
+	recoveryHealing = true
+
