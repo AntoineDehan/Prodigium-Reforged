@@ -28,6 +28,8 @@ blueprints/
 config/paxi/datapacks/malfu
 .vscode/
 .idea/
+.claude/
+tools/
 aes/
 config/spawnbalanceutility/AllMobEntities.rpt
 config/sound_physics_remastered/
