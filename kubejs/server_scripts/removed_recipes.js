@@ -205,4 +205,71 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "companions:book_magic_ray" });
   event.remove({ output: "companions:book_black_hole" });
   event.remove({ output: "companions:book_naginata" });
+
+  // Waystones
+  event.remove({ id: "waystones:return_scroll" });
+  event.remove({ id: "waystones:bound_scroll" });
+  event.remove({ id: "waystones:warp_scroll" });
+  event.remove({ id: "waystones:waystone" });
+  event.remove({ id: "waystones:mossy_waystone" });
+  event.remove({ id: "waystones:sandy_waystone" });
+  event.remove({ id: "waystones:sharestone" });
+
+  // Sophisticated Storage
+  event.remove({ id: "sophisticatedstorage:backpack_stack_upgrade_tier_4_from_storage_stack_upgrade_tier_5" });
+  event.remove({ id: "sophisticatedstorage:storage_stack_upgrade_tier_4_from_backpack_stack_upgrade_tier_3" });
+  event.remove({ id: "sophisticatedstorage:storage_stack_upgrade_tier_5_from_backpack_stack_upgrade_tier_4" });
+  event.remove({ id: "sophisticatedstorage:stack_upgrade_tier_5" });
+  event.remove({ id: "sophisticatedstorage:stack_upgrade_tier_4" });
+
+  // Born in Chaos
+  event.remove({ id: "born_in_chaos_v1:nightmare_pantsk" });
+  event.remove({ id: "born_in_chaos_v1:nightmare_mask_k" });
+  event.remove({ id: "born_in_chaos_v1:nightmare_robe_k" });
+  event.remove({ id: "born_in_chaos_v1:nightmare_boots_k" });
+  event.remove({ id: "born_in_chaos_v1:spiny_shell_chestplate_k" });
+  event.remove({ id: "born_in_chaos_v1:spiny_shell_helm_k" });
+  event.remove({ id: "born_in_chaos_v1:skull_crusher_k" });
+  event.remove({ id: "born_in_chaos_v1:pileof_dark_metal_d" });
+  event.remove({ id: "born_in_chaos_v1:armor_plate_from_dark_metal_k" });
+  event.remove({ id: "born_in_chaos_v1:transmuting_elixirkraft" });
+
+  // Paladins
+  event.remove({ id: "paladins:diamond_great_hammer" });
+  event.remove({ id: "paladins:golden_great_hammer" });
+  event.remove({ id: "paladins:iron_great_hammer" });
+  event.remove({ id: "paladins:stone_great_hammer" });
+
+  // Wizards
+  event.remove({ id: "wizards:frost_robe_feet" });
+  event.remove({ id: "wizards:frost_robe_legs" });
+  event.remove({ id: "wizards:frost_robe_chest" });
+  event.remove({ id: "wizards:frost_robe_head" });
+  event.remove({ id: "wizards:staff_wizard" });
+  event.remove({ id: "wizards:wand_fire" });
+  event.remove({ id: "wizards:wand_frost" });
+  event.remove({ id: "wizards:wand_arcane" });
+  event.remove({ id: "wizards:wand_novice" });
+  event.remove({ id: "wizards:staff_fire" });
+  event.remove({ id: "wizards:staff_frost" });
+  event.remove({ id: "wizards:staff_arcane" });
+
+  // Guns without Roses
+  event.remove({ id: "gunswithoutroses:bullet_bag" });
+  event.remove({ id: "gunswithoutroses:diamond_gatling" });
+
+  // Simply Skills
+  event.remove({ id: "simplyskills:skill_chronicle" });
+  event.remove({ id: "simplyskills:malevolent_manuscript" });
+
+  // Misc recipes by id
+  event.remove({ id: "naturescompass:natures_compass" });
+  event.remove({ id: "davespotioneering:potion_injector" });
+  event.remove({ id: "dummmmmmy:dummy_crafting" });
+  event.remove({ id: "extractinator:extractinator" });
+  event.remove({ id: "spell_engine:spell_binding_table" });
+  event.remove({ id: "sophisticatedbackpacks:stack_upgrade_tier_4" });
+  event.remove({ id: "numismatic-overhaul:piggy_bank" });
+  event.remove({ id: "confluence:workshop" });
+  event.remove({ id: "cataclysm:meat_shredder" });
 });
