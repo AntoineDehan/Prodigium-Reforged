@@ -43,7 +43,6 @@ JEIEvents.information((event) => {
     [
       "prodigium:eternia_crystal",
       "naturescompass:naturescompass",
-      "explorerscompass:explorerscompass",
       "waystones:waystone",
       "waystones:sandy_waystone",
       "irons_spellbooks:legendary_ink",

@@ -13,7 +13,6 @@ KeyBindEvents.modify((event) => {
   event.modifyKey("key.puffish_skills.open", GLFW.GLFW_KEY_I);
   event.modifyKey("key.swapOffhand", GLFW.GLFW_KEY_L);
 
-  event.remove("desc.seasonhud.keybind.options");
   event.remove("key.simplyskills.ability2");
   event.remove("key.block_factorys_bosses.dodge_roll");
   event.remove("dropoff.key.dump");

@@ -294,16 +294,7 @@
 				"32A453D0E324CFEF"
 			]
 			dependency_requirement: "one_completed"
-			description: [
-				"Craft a &9Slime Crown&r to invoke the boss."
-				""
-				""
-				"As a reward, you will get an &bExplorer Compass&r to help you explore."
-				""
-				"The &bExplorer Compass&r can be used to &7search&r for &6ANY&r structures that spawns in the world."
-				""
-				"If you lose it you will need to trade with the Tavernkeep NPC."
-			]
+			description: ["Craft a &9Slime Crown&r to invoke the boss."]
 			icon: "prodigium_reforged:slime_crown"
 			id: "1A1D4191D9A098E9"
 			min_required_tasks: 1
@@ -330,15 +321,6 @@
 					id: "5EC133EC6D7911E3"
 					item: "majruszsdifficulty:recall_potion"
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "7481FA50F0EDFF93"
-					item: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
 					type: "item"
 				}
 				{

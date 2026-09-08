@@ -15,7 +15,6 @@ craftingTable.removeByName("waystones:waystone");
 craftingTable.removeByName("waystones:mossy_waystone");
 craftingTable.removeByName("waystones:sandy_waystone");
 craftingTable.removeByName("waystones:sharestone");
-craftingTable.removeByName("explorerscompass:explorers_compass");
 craftingTable.removeByName("naturescompass:natures_compass");
 craftingTable.removeByName("davespotioneering:potion_injector");
 craftingTable.removeByName("dummmmmmy:dummy_crafting");
