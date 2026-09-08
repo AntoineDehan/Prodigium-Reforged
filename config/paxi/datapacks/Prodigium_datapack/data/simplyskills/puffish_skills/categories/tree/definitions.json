@@ -4892,7 +4892,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.attack_speed",
-          "value": -0.4,
+          "value": -0.18,
           "operation": "multiply_total"
         }
       },
