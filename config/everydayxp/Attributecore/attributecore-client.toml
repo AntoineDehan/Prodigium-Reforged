@@ -1,0 +1,30 @@
+
+[hud]
+
+	[hud.shield]
+		#Enable the shield HUD.
+		enabled = false
+		#Shield HUD anchor position.
+		#Allowed values: HEALTH, ARMOR, XP, CENTER, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+		#Allowed Values: HEALTH, ARMOR, XP, CENTER, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+		anchor = "HEALTH"
+		#When the shield HUD is displayed.
+		#Allowed values: NEVER, ALWAYS, WHEN_NOT_FULL
+		#Allowed Values: NEVER, ALWAYS, WHEN_NOT_FULL
+		display = "ALWAYS"
+		#Horizontal offset from the anchor.
+		#Negative values move the HUD left.
+		#Positive values move the HUD right.
+		#Range: -500 ~ 500
+		offset_x = -29
+		#Vertical offset from the anchor.
+		#Positive values move the HUD up.
+		#Negative values move the HUD down.
+		#Range: -500 ~ 500
+		offset_y = -4
+		#Shield HUD scale.
+		#Range: 0.5 ~ 3.0
+		scale = 0.65
+		#Show current/max shield text.
+		text_visible = true
+

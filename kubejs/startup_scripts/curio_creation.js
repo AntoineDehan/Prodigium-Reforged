@@ -139,7 +139,7 @@ ItemEvents.modification((event) => {
   event.modify("confluence:ranger_emblem", (item) => {
     item.attachCuriosCapability(
       CuriosJSCapabilityBuilder.create().addAttribute(
-        "furattributes:proj_damage",
+        "attributeslib:arrow_damage",
         UUID,
         0.15,
         "multiply_total",
@@ -150,7 +150,7 @@ ItemEvents.modification((event) => {
   event.modify("confluence:magic_quiver", (item) => {
     item.attachCuriosCapability(
       CuriosJSCapabilityBuilder.create().addAttribute(
-        "furattributes:proj_damage",
+        "attributeslib:arrow_damage",
         UUID,
         0.1,
         "multiply_total",
@@ -161,7 +161,7 @@ ItemEvents.modification((event) => {
   event.modify("confluence:molten_quiver", (item) => {
     item.attachCuriosCapability(
       CuriosJSCapabilityBuilder.create().addAttribute(
-        "furattributes:proj_damage",
+        "attributeslib:arrow_damage",
         UUID,
         0.12,
         "multiply_total",
@@ -172,7 +172,7 @@ ItemEvents.modification((event) => {
   event.modify("confluence:stalkers_quiver", (item) => {
     item.attachCuriosCapability(
       CuriosJSCapabilityBuilder.create().addAttribute(
-        "furattributes:proj_damage",
+        "attributeslib:arrow_damage",
         UUID,
         0.12,
         "multiply_total",
@@ -183,7 +183,7 @@ ItemEvents.modification((event) => {
   event.modify("confluence:sniper_scope", (item) => {
     item.attachCuriosCapability(
       CuriosJSCapabilityBuilder.create().addAttribute(
-        "furattributes:proj_damage",
+        "attributeslib:arrow_damage",
         UUID,
         0.1,
         "multiply_total",
@@ -194,7 +194,12 @@ ItemEvents.modification((event) => {
   event.modify("confluence:avenger_emblem", (item) => {
     item.attachCuriosCapability(
       CuriosJSCapabilityBuilder.create()
-        .addAttribute("furattributes:proj_damage", UUID, 0.12, "multiply_total")
+        .addAttribute(
+          "attributeslib:arrow_damage",
+          UUID,
+          0.12,
+          "multiply_total",
+        )
         .addAttribute(
           "minecraft:generic.attack_damage",
           UUID,
@@ -213,7 +218,7 @@ ItemEvents.modification((event) => {
   event.modify("confluence:destroyer_emblem", (item) => {
     item.attachCuriosCapability(
       CuriosJSCapabilityBuilder.create()
-        .addAttribute("furattributes:proj_damage", UUID, 0.1, "multiply_total")
+        .addAttribute("attributeslib:arrow_damage", UUID, 0.1, "multiply_total")
         .addAttribute(
           "attributeslib:crit_chance",
           UUID,

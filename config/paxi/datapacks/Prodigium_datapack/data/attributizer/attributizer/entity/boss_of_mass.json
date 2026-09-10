@@ -66,11 +66,6 @@
       "operation": "ADDITION"
     },
     {
-      "attribute": "furattributes:debuff_time",
-      "modify": 20,
-      "operation": "ADDITION"
-    },
-    {
       "attribute": "minecraft:generic.knockback_resistance",
       "modify": 0.6,
       "operation": "MULTIPLY_TOTAL"
@@ -125,11 +120,6 @@
     {
       "attribute": "irons_spellbooks:blood_magic_resist",
       "modify": -0.15,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "furattributes:debuff_time",
-      "modify": 20,
       "operation": "ADDITION"
     },
     {
@@ -197,11 +187,6 @@
     {
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "furattributes:debuff_time",
-      "modify": 20,
       "operation": "ADDITION"
     },
     {
@@ -274,11 +259,6 @@
     {
       "attribute": "attributeslib:life_steal",
       "modify": 0.05,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "furattributes:debuff_time",
-      "modify": 20,
       "operation": "ADDITION"
     },
     {

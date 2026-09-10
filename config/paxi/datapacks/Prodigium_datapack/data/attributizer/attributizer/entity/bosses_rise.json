@@ -51,11 +51,6 @@
       "operation": "ADDITION"
     },
     {
-      "attribute": "furattributes:debuff_time",
-      "modify": 20,
-      "operation": "ADDITION"
-    },
-    {
       "attribute": "minecraft:generic.knockback_resistance",
       "modify": 0.6,
       "operation": "MULTIPLY_TOTAL"
@@ -110,11 +105,6 @@
     {
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "furattributes:debuff_time",
-      "modify": 20,
       "operation": "ADDITION"
     },
     {
@@ -177,11 +167,6 @@
     {
       "attribute": "attributeslib:prot_shred",
       "modify": 2,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "furattributes:debuff_time",
-      "modify": 20,
       "operation": "ADDITION"
     },
     {

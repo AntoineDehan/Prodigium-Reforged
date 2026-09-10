@@ -1,0 +1,43 @@
+
+#AttributeCore configuration
+[debug]
+	#Enables debug logging in the console.
+	debugMode = false
+
+[combat]
+	#Allows normal vanilla melee critical hits when AttributeCore does not trigger its own critical hit logic.
+	allowVanillaCriticals = false
+
+[xp]
+	#XP multipliers by source.
+	#1.0 = 100% of vanilla XP.
+	#0.1 = 10% of vanilla XP.
+	#0.0 = disables XP from that source.
+	#Controls XP dropped from mining XP-giving blocks such as ores.
+	#Range: 0.0 ~ 1000000.0
+	miningXpMultiplier = 0.1
+	#Controls XP dropped when mobs die.
+	#Range: 0.0 ~ 1000000.0
+	mobXpMultiplier = 0.1
+	#Controls XP granted by furnaces, blast furnaces, and smokers when taking finished items.
+	#Range: 0.0 ~ 1000000.0
+	smeltingXpMultiplier = 0.1
+	#Controls XP granted from villager and wandering trader trades.
+	#Range: 0.0 ~ 1000000.0
+	tradeXpMultiplier = 0.1
+	#Controls XP dropped when animals breed.
+	#Range: 0.0 ~ 1000000.0
+	breedingXpMultiplier = 0.1
+	#Controls XP granted from fishing catches.
+	#Range: 0.0 ~ 1000000.0
+	fishingXpMultiplier = 0.1
+	#Controls XP released by Bottle o' Enchanting.
+	#Range: 0.0 ~ 1000000.0
+	enchantingBottleXpMultiplier = 0.1
+	#Controls XP rewards granted by advancements.
+	#Range: 0.0 ~ 1000000.0
+	advancementXpMultiplier = 0.1
+	#Controls XP returned by the grindstone when removing enchantments.
+	#Range: 0.0 ~ 1000000.0
+	grindstoneXpMultiplier = 0.1
+
