@@ -36,7 +36,7 @@ EntityEvents.hurt((event) => {
 
   if (player.tags.contains("magic_defense")) {
     player.potionEffects.add("kubejs:magic_defense", 120, 0, true, false);
-    if (Math.random() < 0.07) {
+    if (Math.random() < 0.05) {
       player.potionEffects.add("simplyskills:barrier", 140, 0, true, false);
     }
   }
@@ -86,5 +86,26 @@ EntityEvents.death((event) => {
         player.potionEffects.add("kubejs:fresh_reload", 100, 0, true, false);
       }
     }
+  }
+});
+
+PlayerEvents.changeMana((event) => {
+  const player = event.player;
+  const magicData = event.getMagicData();
+  const spellId = magicData.getCastingSpellId();
+
+  if (!magicData || magicData.getCastSource() !== "SPELLBOOK") return;
+
+  // Wizardery
+  if (player.tags.contains("wizardery")) {
+    const currentMana = event.getNewMana();
+
+    const newSpellPower = Math.floor(currentMana / 100) * 0.02;
+    player.modifyAttribute(
+      "irons_spellbooks:spell_power",
+      "wizardery",
+      newSpellPower,
+      "multiply_total",
+    );
   }
 });
