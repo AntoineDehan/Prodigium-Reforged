@@ -37,10 +37,6 @@ PlayerEvents.changeMana((event) => {
 
   if (!magicData || magicData.getCastSource() !== "SPELLBOOK") return;
 
-  // console.log("ici spellid", spellId)
-  // if (spellId = "irons_spellbooks:acupuncture") {
-  // }
-
   if (
     player.hasEffect("kubejs:skyjade_knowledge") ||
     player.hasEffect("kubejs:ignitium_magic")

@@ -108,4 +108,17 @@ PlayerEvents.changeMana((event) => {
       "multiply_total",
     );
   }
+
+  // Clericery
+  if (player.tags.contains("clericery")) {
+    const currentMana = event.getNewMana();
+
+    const newMaxHealth = Math.floor(currentMana / 100) * 0.05;
+    player.modifyAttribute(
+      "minecraft:generic.max_health",
+      "wizardery",
+      newMaxHealth,
+      "multiply_total",
+    );
+  }
 });
