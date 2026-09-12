@@ -122,3 +122,38 @@ PlayerEvents.changeMana((event) => {
     );
   }
 });
+
+PlayerEvents.tick((event) => {
+  const player = event.player;
+
+  // Ranged Awarness
+  if (player.tags.contains("ranged_awareness")) {
+    let healthRatio = player.health / player.maxHealth;
+
+    if (healthRatio < 0.2) {
+      player.modifyAttribute(
+        "attributecore:stealth",
+        "stealth",
+        0.4,
+        "addition",
+      );
+      player.modifyAttribute("confluence:aggro", "aggro", -200, "addition");
+    } else if (healthRatio < 0.5) {
+      player.modifyAttribute(
+        "attributecore:stealth",
+        "stealth",
+        0.2,
+        "addition",
+      );
+      player.modifyAttribute("confluence:aggro", "aggro", -100, "addition");
+    } else if (healthRatio < 0.8) {
+      player.modifyAttribute(
+        "attributecore:stealth",
+        "stealth",
+        0.1,
+        "addition",
+      );
+      player.modifyAttribute("confluence:aggro", "aggro", -50, "addition");
+    }
+  }
+});

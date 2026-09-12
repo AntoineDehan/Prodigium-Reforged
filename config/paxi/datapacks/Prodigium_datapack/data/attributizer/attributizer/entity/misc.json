@@ -164,37 +164,5 @@
       "modify": 0.6,
       "operation": "MULTIPLY_TOTAL"
     }
-  ],
-  "confluence:bee_projectile": [
-    {
-      "attribute": "minecraft:generic.attack_damage",
-      "modify": -0.85,
-      "operation": "MULTIPLY_TOTAL"
-    },
-    {
-      "attribute": "minecraft:generic.movement_speed",
-      "modify": -0.9,
-      "operation": "MULTIPLY_TOTAL"
-    },
-    {
-      "attribute": "confluence:magic_damage",
-      "modify": -0.85,
-      "operation": "MULTIPLY_TOTAL"
-    },
-    {
-      "attribute": "confluence:ranged_damage",
-      "modify": -0.85,
-      "operation": "MULTIPLY_TOTAL"
-    },
-    {
-      "attribute": "attributeslib:arrow_damage",
-      "modify": -0.85,
-      "operation": "MULTIPLY_TOTAL"
-    },
-    {
-      "attribute": "attributeslib:armor_pierce",
-      "modify": -2,
-      "operation": "ADDITION"
-    }
   ]
 }

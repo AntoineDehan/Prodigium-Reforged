@@ -10697,8 +10697,8 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:arrow_damage",
-          "value": 3,
-          "operation": "addition"
+          "value": 0.04,
+          "operation": "multiply_base"
         }
       },
       {
@@ -10724,8 +10724,8 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:arrow_damage",
-          "value": 6,
-          "operation": "addition"
+          "value": 0.08,
+          "operation": "multiply_base"
         }
       },
       {
@@ -10752,8 +10752,8 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:arrow_damage",
-          "value": 10,
-          "operation": "addition"
+          "value": 0.15,
+          "operation": "multiply_base"
         }
       },
       {

@@ -216,9 +216,15 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "waystones:sharestone" });
 
   // Sophisticated Storage
-  event.remove({ id: "sophisticatedstorage:backpack_stack_upgrade_tier_4_from_storage_stack_upgrade_tier_5" });
-  event.remove({ id: "sophisticatedstorage:storage_stack_upgrade_tier_4_from_backpack_stack_upgrade_tier_3" });
-  event.remove({ id: "sophisticatedstorage:storage_stack_upgrade_tier_5_from_backpack_stack_upgrade_tier_4" });
+  event.remove({
+    id: "sophisticatedstorage:backpack_stack_upgrade_tier_4_from_storage_stack_upgrade_tier_5",
+  });
+  event.remove({
+    id: "sophisticatedstorage:storage_stack_upgrade_tier_4_from_backpack_stack_upgrade_tier_3",
+  });
+  event.remove({
+    id: "sophisticatedstorage:storage_stack_upgrade_tier_5_from_backpack_stack_upgrade_tier_4",
+  });
   event.remove({ id: "sophisticatedstorage:stack_upgrade_tier_5" });
   event.remove({ id: "sophisticatedstorage:stack_upgrade_tier_4" });
 
@@ -239,6 +245,10 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "paladins:golden_great_hammer" });
   event.remove({ id: "paladins:iron_great_hammer" });
   event.remove({ id: "paladins:stone_great_hammer" });
+  event.remove({ id: "paladins:holy_wand" });
+  event.remove({ id: "paladins:acolyte_wand" });
+  event.remove({ id: "paladins:diamond_wand" });
+  event.remove({ id: "paladins:netherite_wand" });
 
   // Wizards
   event.remove({ id: "wizards:frost_robe_feet" });

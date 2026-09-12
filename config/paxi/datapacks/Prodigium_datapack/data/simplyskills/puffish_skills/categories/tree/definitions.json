@@ -11020,7 +11020,7 @@
     }
   },
   "melee_damage+5%": {
-    "title": "+5% Melee Damage",
+    "title": "+4% Melee Damage",
     "icon": {
       "type": "effect",
       "data": {
@@ -11032,7 +11032,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 0.05,
+          "value": 0.04,
           "operation": "multiply_base"
         }
       }
@@ -11199,7 +11199,12 @@
     }
   },
   "root_health+4": {
-    "title": "Chose the Melee class (+4 Hearts)",
+    "title": {
+      "translate": "text.skills.meleeRoot.title"
+    },
+    "description": {
+      "translate": "text.skills.meleeRoot.desc"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11638,7 +11643,12 @@
     }
   },
   "root_ranged_damage+15%": {
-    "title": "Chose the Ranged class (+15% Ranged Damage)",
+    "title": {
+      "translate": "text.skills.rangedRoot.title"
+    },
+    "description": {
+      "translate": "text.skills.rangedRoot.desc"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11651,8 +11661,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.ranged_damage",
-          "value": 0.15,
+          "value": 0.1,
           "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       },
       {
@@ -11757,6 +11775,73 @@
       "icon": "t9txdo492y5npl3v"
     }
   },
+  "arrow_damage+5%": {
+    "title": "+5% Arrow Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "prodigium:palladium_bow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:arrow_damage",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "dg8fbrelwdr9tbyg"
+    }
+  },
+  "arrow_damage+10%": {
+    "title": "+10% Arrow Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "prodigium:shroomite_bow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:arrow_damage",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "ch1ifnz4ae6r9ixi"
+    }
+  },
+  "arrow_damage+20%": {
+    "title": "+20% Arrow Damage",
+    "frame": "challenge",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "gunswithoutroses:gold_gun"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:arrow_damage",
+          "value": 0.2,
+          "operation": "multiply_total"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "t9txdo492y5npl3v"
+    }
+  },
   "gun_dmg+5%": {
     "title": "+5% Gun's Damage",
     "icon": {
@@ -11778,6 +11863,25 @@
     "metadata": {
       "icon": "t4tlm1q0qrm8el1t"
     }
+  },
+  "gun_spread": {
+    "title": "-10% Bullet Spread",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "gunswithoutroses:gun_knockback_up"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "gunswithoutroses:gwr.spread",
+          "value": -0.1,
+          "operation": "addition"
+        }
+      }
+    ]
   },
   "armor_shred+5%": {
     "title": "+5% Armor Shred",
@@ -11912,7 +12016,12 @@
     }
   },
   "root_mana+75": {
-    "title": "Chose the Mage class (+75 Mana)",
+    "title": {
+      "translate": "text.skills.mageRoot.title"
+    },
+    "description": {
+      "translate": "text.skills.mageRoot.desc"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11926,6 +12035,14 @@
         "data": {
           "attribute": "irons_spellbooks:max_mana",
           "value": 75,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.03,
           "operation": "addition"
         }
       },
@@ -13108,6 +13225,102 @@
       "icon": "rl31zqqovahx9143"
     }
   },
+  "wizardery": {
+    "title": {
+      "translate": "text.skills.initiateWizardery.title"
+    },
+    "description": {
+      "translate": "text.skills.initiateWizardery.description"
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "kubejs:spell_boosted"
+      }
+    },
+    "size": 1.4,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "simplyskills:textures/frames/unlocked.png",
+        "available": "simplyskills:textures/frames/available.png",
+        "locked": "simplyskills:textures/frames/locked.png",
+        "excluded": "simplyskills:textures/frames/excluded.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "wizardery"
+        }
+      }
+    ]
+  },
+  "clericery": {
+    "title": {
+      "translate": "text.skills.initiateClericery.title"
+    },
+    "description": {
+      "translate": "text.skills.initiateClericery.description"
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "kubejs:spell_boosted"
+      }
+    },
+    "size": 1.4,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "simplyskills:textures/frames/unlocked.png",
+        "available": "simplyskills:textures/frames/available.png",
+        "locked": "simplyskills:textures/frames/locked.png",
+        "excluded": "simplyskills:textures/frames/excluded.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "clericery"
+        }
+      }
+    ]
+  },
+  "ranged_awereness": {
+    "title": {
+      "translate": "text.skills.wayfarerAwereness.title"
+    },
+    "description": {
+      "translate": "text.skills.wayfarerAwereness.description"
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "alshanex_familiars:invisibility_curio"
+      }
+    },
+    "size": 1.4,
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "simplyskills:textures/frames/unlocked.png",
+        "available": "simplyskills:textures/frames/available.png",
+        "locked": "simplyskills:textures/frames/locked.png",
+        "excluded": "simplyskills:textures/frames/excluded.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "clericery"
+        }
+      }
+    ]
+  },
   "swim_speed+3%": {
     "title": "+10% Swim Speed",
     "frame": "challenge",
@@ -13559,8 +13772,12 @@
     }
   },
   "gunnerpath": {
-    "title": "Path of the Gunner - WIP",
-    "description": "Use powerfull firepower to slay your foes. PLAYABLE BUT HEAVILY WIP",
+    "title": {
+      "translate": "text.skills.gunnerPath.title"
+    },
+    "description": {
+      "translate": "text.skills.gunnerPath.description"
+    },
     "size": 1.4,
     "frame": {
       "type": "texture",
@@ -13587,6 +13804,974 @@
     ],
     "metadata": {
       "icon": "p1zvdljbyc27mbjh"
+    }
+  },
+  "accuracy+5%": {
+    "title": "+5% Accuracy",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:accuracy",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "ou2vdd2gdthzid8m"
+    }
+  },
+  "accuracy+10%": {
+    "title": "+10% Accuracy",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:accuracy",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "005fl99g249urk38"
+    }
+  },
+  "additional_arrows+1": {
+    "title": "+1 Additional Arrow",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:additional_arrows",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "ei5zx9rzx0djkofi"
+    }
+  },
+  "additional_arrows+2": {
+    "title": "+2 Additional Arrows",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:additional_arrows",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "jd5m41ut63hqarfh"
+    }
+  },
+  "additional_arrows_chance+5%": {
+    "title": "+5% Additional Arrow Chance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spectral_arrow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:additional_arrows_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "luubn4ycse2kvhp8"
+    }
+  },
+  "additional_arrows_chance+10%": {
+    "title": "+10% Additional Arrow Chance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spectral_arrow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:additional_arrows_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "a32sl20xdwdawg5v"
+    }
+  },
+  "buff_absorption_chance+5%": {
+    "title": "+5% Buff Absorption Chance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:buff_absorption_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "avcvgy4lvzuouv5o"
+    }
+  },
+  "buff_absorption_chance+10%": {
+    "title": "+10% Buff Absorption Chance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:buff_absorption_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "lek0svb0cqtxzcqk"
+    }
+  },
+  "buff_duration+5%": {
+    "title": "+5% Buff Duration",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:buff_duration",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "bqzop2pjjjdo4u00"
+    }
+  },
+  "buff_duration+10%": {
+    "title": "+10% Buff Duration",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:buff_duration",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "t9qsu2mgtmpom90y"
+    }
+  },
+  "consumable_use_speed+5%": {
+    "title": "+5% Consumable Use Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:consumable_use_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "4u6wrdv2uniebpwi"
+    }
+  },
+  "consumable_use_speed+10%": {
+    "title": "+10% Consumable Use Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:consumable_use_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "pp0d5oxyt47lxzm0"
+    }
+  },
+  "debuff_transfer_chance+5%": {
+    "title": "+5% Debuff Transfer Chance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:debuff_transfer_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "18xlmg2jqfilj9gf"
+    }
+  },
+  "debuff_transfer_chance+10%": {
+    "title": "+10% Debuff Transfer Chance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:debuff_transfer_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "twvg20wa6rev1gf2"
+    }
+  },
+  "experience_bonus+5%": {
+    "title": "+5% Experience Bonus",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:experience_bonus",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "vhx5worqkpunnhxv"
+    }
+  },
+  "experience_bonus+10%": {
+    "title": "+10% Experience Bonus",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:experience_bonus",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "1zz60ji7qzj6u0gy"
+    }
+  },
+  "explosive_damage+1": {
+    "title": "+1 Explosive Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:explosive_damage",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "cfpacujas4vhabga"
+    }
+  },
+  "explosive_damage+2": {
+    "title": "+2 Explosive Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:explosive_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "ild59igc31qacnxw"
+    }
+  },
+  "explosive_percent+5%": {
+    "title": "+5% Explosive Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:explosive_percent",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "w4mnmuos9kmvx43k"
+    }
+  },
+  "explosive_percent+10%": {
+    "title": "+10% Explosive Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:explosive_percent",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "gnqf10wqhm1qbfk4"
+    }
+  },
+  "explosive_resistance+5%": {
+    "title": "+5% Explosive Resistance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:explosive_resistance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "i0kx4jw97osqv17v"
+    }
+  },
+  "explosive_resistance+10%": {
+    "title": "+10% Explosive Resistance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:explosive_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "7wag4pz17i0u9cr5"
+    }
+  },
+  "extra_jumps+1": {
+    "title": "+1 Extra Jump",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:extra_jumps",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "itv5vdoa1c8y584f"
+    }
+  },
+  "extra_jumps+2": {
+    "title": "+2 Extra Jumps",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:extra_jumps",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "4qw87fhi7a21hn03"
+    }
+  },
+  "life_on_hit+5%": {
+    "title": "+5% Life on Hit",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:life_on_hit",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "pg2yn3yfywe6m3ki"
+    }
+  },
+  "life_on_hit+10%": {
+    "title": "+10% Life on Hit",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:life_on_hit",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "ahlkqsiaoxi20i1f"
+    }
+  },
+  "stealth+10%": {
+    "title": "+10% Stealth",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sculk_sensor"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:stealth",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "rj4i6stbfje6cjd6"
+    }
+  },
+  "stealth+20%": {
+    "title": "+20% Stealth",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sculk_sensor"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:stealth",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "pjmvsdd24e86ocod"
+    }
+  },
+  "tamed_damage+5%": {
+    "title": "+5% Tamed Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bone"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:tamed_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "dhdhnfvacf42k1ra"
+    }
+  },
+  "tamed_damage+10%": {
+    "title": "+10% Tamed Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bone"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:tamed_damage",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "z2iduvsxswov6yb0"
+    }
+  },
+  "tamed_resistance+5%": {
+    "title": "+5% Tamed Resistance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lead"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:tamed_resistance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "mb50jz2iaux3g4ue"
+    }
+  },
+  "tamed_resistance+10%": {
+    "title": "+10% Tamed Resistance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lead"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:tamed_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "svddb2kzn766yj20"
+    }
+  },
+  "tamed_speed+5%": {
+    "title": "+5% Tamed Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:saddle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:tamed_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "qko6br18m2mx0act"
+    }
+  },
+  "tamed_speed+10%": {
+    "title": "+10% Tamed Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:saddle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:tamed_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "7rhhhdk4z7i9gz7y"
+    }
+  },
+  "thorns+1": {
+    "title": "+1 Thorns",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cactus"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:thorns",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "elrdi6afl51kh75g"
+    }
+  },
+  "thorns+2": {
+    "title": "+2 Thorns",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cactus"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:thorns",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "k83cnxyzdnfnznes"
+    }
+  },
+  "thorns_resistance+2%": {
+    "title": "+2% Thorns Resistance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:thorns_resistance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "8113dnzle7awpoj4"
+    }
+  },
+  "thorns_resistance+5%": {
+    "title": "+5% Thorns Resistance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:thorns_resistance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "4gk3ipn099sugba8"
+    }
+  },
+  "wither_damage+1": {
+    "title": "+1 Wither Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:wither_damage",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "zfxbhhrlu3tzv9yf"
+    }
+  },
+  "wither_damage+2": {
+    "title": "+2 Wither Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:wither_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "4dkbkaj550q26y7d"
+    }
+  },
+  "wither_percent+5%": {
+    "title": "+5% Wither Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:wither_percent",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "ac3b64fccd76pgz9"
+    }
+  },
+  "wither_percent+10%": {
+    "title": "+10% Wither Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:wither_percent",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "jjc0ax261quj9gr4"
+    }
+  },
+  "wither_resistance+5%": {
+    "title": "+5% Wither Resistance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:wither_resistance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "i8rkig9vl14x5rbi"
+    }
+  },
+  "wither_resistance+10%": {
+    "title": "+10% Wither Resistance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributecore:wither_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "ay3yhdm7kges31mo"
     }
   }
 }
