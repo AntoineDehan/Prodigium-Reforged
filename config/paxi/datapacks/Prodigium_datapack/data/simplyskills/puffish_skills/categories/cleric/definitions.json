@@ -11803,6 +11803,9 @@
   },
   "berserker_expert_gear": {
     "title": "Unlock Expert Mode Crusader's Gear",
+    "description": {
+      "translate": "text.skills.armorUnlocks.description"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11846,6 +11849,9 @@
   },
   "wizard_expert_gear": {
     "title": "Unlock Expert Mode Wizard's Gear",
+    "description": {
+      "translate": "text.skills.armorUnlocks.description"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11888,6 +11894,9 @@
   },
   "archer_expert_gear": {
     "title": "Unlock Expert Mode Archer's Gear",
+    "description": {
+      "translate": "text.skills.armorUnlocks.description"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11931,6 +11940,9 @@
   },
   "crusader_expert_gear": {
     "title": "Unlock Expert Mode Cruasder's Gear",
+    "description": {
+      "translate": "text.skills.armorUnlocks.description"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11953,6 +11965,9 @@
   },
   "priest_expert_gear": {
     "title": "Unlock Expert Mode Priest's Gear",
+    "description": {
+      "translate": "text.skills.armorUnlocks.description"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11996,6 +12011,9 @@
   },
   "gunner_expert_gear": {
     "title": "Unlock Expert Mode Gunner's Gear",
+    "description": {
+      "translate": "text.skills.armorUnlocks.description"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
