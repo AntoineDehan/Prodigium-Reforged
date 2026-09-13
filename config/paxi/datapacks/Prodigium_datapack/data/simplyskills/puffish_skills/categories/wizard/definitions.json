@@ -11841,7 +11841,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "alshanex_familiars:sound_spell_power",
+          "attribute": "familiarslib:sound_spell_power",
           "value": 0.12,
           "operation": "addition"
         }
@@ -11869,7 +11869,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "alshanex_familiars:sound_spell_power",
+          "attribute": "familiarslib:sound_spell_power",
           "value": 0.2,
           "operation": "addition"
         }
@@ -11897,7 +11897,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "alshanex_familiars:sound_spell_power",
+          "attribute": "familiarslib:sound_spell_power",
           "value": 0.25,
           "operation": "addition"
         }

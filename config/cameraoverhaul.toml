@@ -1,6 +1,6 @@
 # Metadata, do not modify.
 # Default: 0
-configVersion = 2
+configVersion = 3
 
 [general]
 
@@ -10,6 +10,9 @@ configVersion = 2
 	# Disable this to make the mod's effects exclusive to first-person view.
 	# Default: true
 	enableInThirdPerson = true
+	# How smooth should transitions between contextual profiles such as walking and swimming be.
+	# Default: 0.1
+	contextTransitionSmoothing = 0.1
 	# Sensitivity of the camera roll rotation caused by turning around horizontally.
 	# Default: 1.0
 	turningRollAccumulation = 0.3
@@ -67,6 +70,30 @@ configVersion = 2
 	# Smoothness of camera pitch rotations caused by moving vertically.
 	# Default: 1.0
 	verticalVelocitySmoothingFactor = 0.8
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 0.0
+	cameraSmoothing = 0.0
+
+[sprinting]
+
+	# Strength of the camera roll rotation caused by strafing, or sideway horizontal velocity.
+	# Default: 12.5
+	strafingRollFactor = 12.5
+	# Strength of camera pitch rotations caused by moving forward or backwards.
+	# Default: 9.5
+	forwardVelocityPitchFactor = 9.5
+	# Strength of camera pitch rotations caused by vertical velocity.
+	# Default: 2.5
+	verticalVelocityPitchFactor = 2.5
+	# Smoothness of camera pitch & roll rotations caused by moving horizontally.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# Smoothness of camera pitch rotations caused by moving vertically.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 0.6
+	cameraSmoothing = 0.1
 
 [swimming]
 
@@ -85,6 +112,9 @@ configVersion = 2
 	# Smoothness of camera pitch rotations caused by moving vertically.
 	# Default: 1.0
 	verticalVelocitySmoothingFactor = 1.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 1.5
+	cameraSmoothing = 1.5
 
 [flying]
 
@@ -103,6 +133,9 @@ configVersion = 2
 	# Smoothness of camera pitch rotations caused by moving vertically.
 	# Default: 1.0
 	verticalVelocitySmoothingFactor = 1.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 1.0
+	cameraSmoothing = 1.0
 
 [mounts]
 
@@ -110,7 +143,7 @@ configVersion = 2
 	# Default: 20.0
 	strafingRollFactor = 15.0
 	# Strength of camera pitch rotations caused by moving forward or backwards.
-	# Default: 7.0
+	# Default: 3.5
 	forwardVelocityPitchFactor = 4.0
 	# Strength of camera pitch rotations caused by vertical velocity.
 	# Default: 2.5
@@ -121,6 +154,9 @@ configVersion = 2
 	# Smoothness of camera pitch rotations caused by moving vertically.
 	# Default: 1.0
 	verticalVelocitySmoothingFactor = 1.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 1.0
+	cameraSmoothing = 1.0
 
 [vehicles]
 
@@ -128,7 +164,7 @@ configVersion = 2
 	# Default: 5.0
 	strafingRollFactor = 4.0
 	# Strength of camera pitch rotations caused by moving forward or backwards.
-	# Default: 1.75
+	# Default: 3.5
 	forwardVelocityPitchFactor = 1.5
 	# Strength of camera pitch rotations caused by vertical velocity.
 	# Default: 5.0
@@ -139,3 +175,6 @@ configVersion = 2
 	# Smoothness of camera pitch rotations caused by moving vertically.
 	# Default: 1.0
 	verticalVelocitySmoothingFactor = 1.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 0.0
+	cameraSmoothing = 0.0
