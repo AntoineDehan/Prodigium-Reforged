@@ -15,4 +15,5 @@ gamerule artifacts.fireGauntlet.fireDuration 0
 gamerule artifacts.vampiricGlove.maxHealingPerHit 4
 gamerule artifacts.vampiricGlove.absorptionChance 40
 gamerule artifacts.vampiricGlove.absorptionRatio 15
-gamerule maxSaturation 60
+gamerule maxSaturation 50
+gamerule alwaysHungry true
