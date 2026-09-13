@@ -1,9 +1,11 @@
 {
+  "allowedCEM": "ALL",
   "logModelCreationData": false,
   "debugOnRightClick": false,
   "renderModeChoice": "NORMAL",
   "vanillaModelHologramRenderMode_2": "OFF",
   "modelExportMode": "NONE",
+  "automaticModelExporting": false,
   "attemptPhysicsModPatch_2": "CUSTOM",
   "modelUpdateFrequency": "Fast",
   "entityRenderModeOverrides": {},
@@ -28,5 +30,7 @@
   "allowOptifineFallbackProperties": true,
   "enforceOptiFineFloorUVs": true,
   "showReloadErrorToast": true,
-  "exportRotations": false
+  "exportRotations": false,
+  "asmMaths": true,
+  "logASM": false
 }

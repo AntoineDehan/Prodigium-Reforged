@@ -1,13 +1,13 @@
 {
-  "configVersion": 1,
+  "configVersion": 2,
   "blockCategories": [
     {
       "key": "ali:plant_loot",
       "type": "BLOCK",
       "icon": "minecraft:diamond_hoe",
       "hide": false,
-      "classes": [
-        "net.minecraft.world.level.block.BushBlock"
+      "blocks": [
+        "#minecraft:crops"
       ]
     },
     {
@@ -15,9 +15,7 @@
       "type": "BLOCK",
       "icon": "minecraft:diamond_pickaxe",
       "hide": false,
-      "classes": [
-        "net.minecraft.world.level.block.Block"
-      ]
+      "blocks": []
     }
   ],
   "entityCategories": [
@@ -26,9 +24,7 @@
       "type": "ENTITY",
       "icon": "minecraft:skeleton_skull",
       "hide": false,
-      "classes": [
-        "net.minecraft.world.entity.Entity"
-      ]
+      "entityTypes": []
     }
   ],
   "gameplayCategories": [
@@ -151,6 +147,26 @@
     }
   ],
   "disabledEntities": [],
+  "defaultBlockLootConditions": [
+    "minecraft:survives_explosion"
+  ],
+  "defaultBlockLootFunctions": [
+    "minecraft:explosion_decay"
+  ],
+  "ignoredPredicateConditions": [
+    "minecraft:random_chance",
+    "minecraft:random_chance_with_looting",
+    "minecraft:table_bonus",
+    "minecraft:survives_explosion"
+  ],
+  "entityLootTables": {},
+  "tooltipColors": {
+    "text": "gold",
+    "value": "aqua",
+    "error": "red",
+    "branch": "dark_gray"
+  },
   "logMoreStatistics": false,
-  "showInGameNames": true
+  "showInGameNames": true,
+  "hideDefaultBlockLoot": true
 }

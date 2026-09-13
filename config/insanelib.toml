@@ -5,9 +5,9 @@
 
 #Various fixes and improvements
 [Fixes]
-	#If true, mobs will have their follow range fixed. https://bugs.mojang.com/browse/MC-145656
+	#If true, mobs will have their follow range fixed. https://bugs.mojang.com/browse/MC-145656. Only affects entities in `insanelib:fix_follow_range` entity type tag (all vanilla mobs by default) and entities that use the NearestAttackableTargetGoal goal.
 	"Fix follow range" = true
-	#Removes the random bonus health given to Leader Zombies. In vanilla it's useless since doesn't work. https://minecraft.fandom.com/wiki/Attribute#Vanilla_modifiers
+	#Removes the random bonus health given to Leader Zombies. In vanilla it's useless since doesn't work. https://minecraft.wiki/Attribute#Vanilla_modifiers
 	"Remove zombies bonus health" = true
 	#When affected by slowness the player can still jump really far away. When true, jumps length will be calculated based off player's movement speed.
 	"Fix jump movement factor" = true
@@ -22,4 +22,11 @@
 	"Time control integration" = true
 	#If true, also prevents seasons from advancing if no players are online with Serene Seasons installed. This needs to be disabled in order to allow to set the gamerule again.
 	"Serene seasons integration" = true
+
+#Changes the behaviour of Falling Blocks to be smarter by preventing them from getting stuck when landing on a block but their center has air below, or try to stack or move them when inside a block.
+["Better falling blocks"]
+	#If true, falling blocks will break blocks that are instabreakable and place instead of dropping. If the falling block ends in a non-insta-break block, it will move to the side instead.
+	"Break instabreak blocks" = false
+	#Fix dupe exploit through dimensions.
+	"Fix dupe exploit" = false
 

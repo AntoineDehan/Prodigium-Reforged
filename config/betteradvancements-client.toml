@@ -21,4 +21,7 @@ defaultHideLines = false
 defaultCompletedLineColor = "#FFFFFF"
 defaultUncompletedLineColor = "#FFFFFF"
 onlyUseAboveAdvancementTabs = false
+colorWholeCriteriaText = false
+#Range: 1 ~ 10
+criteriaRotationSpeed = 3
 

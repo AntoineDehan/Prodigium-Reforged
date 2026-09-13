@@ -6,3 +6,4 @@ food:
   specialEffectTooltip: true
   statusEffectTooltip: true
 beehiveTooltipDisplayBees: true
+renderServerSideHitbox: false

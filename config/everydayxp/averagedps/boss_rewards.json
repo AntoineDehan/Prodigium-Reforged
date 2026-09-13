@@ -1,0 +1,250 @@
+{
+  "enabled": true,
+  "tiers": {
+    "S": {
+      "1": {
+        "averagedps:s_boss_contribution_cache": 6
+      },
+      "2": {
+        "averagedps:s_boss_contribution_cache": 5
+      },
+      "3": {
+        "averagedps:s_boss_contribution_cache": 4
+      },
+      "4": {
+        "averagedps:s_boss_contribution_cache": 3
+      },
+      "5": {
+        "averagedps:s_boss_contribution_cache": 3
+      },
+      "6": {
+        "averagedps:s_boss_contribution_cache": 2
+      },
+      "7": {
+        "averagedps:s_boss_contribution_cache": 2
+      },
+      "8": {
+        "averagedps:s_boss_contribution_cache": 2
+      },
+      "9": {
+        "averagedps:s_boss_contribution_cache": 2
+      },
+      "10": {
+        "averagedps:s_boss_contribution_cache": 2
+      },
+      "11": {
+        "averagedps:s_boss_contribution_cache": 1
+      }
+    },
+    "A": {
+      "1": {
+        "averagedps:a_boss_contribution_cache": 6
+      },
+      "2": {
+        "averagedps:a_boss_contribution_cache": 5
+      },
+      "3": {
+        "averagedps:a_boss_contribution_cache": 4
+      },
+      "4": {
+        "averagedps:a_boss_contribution_cache": 3
+      },
+      "5": {
+        "averagedps:a_boss_contribution_cache": 3
+      },
+      "6": {
+        "averagedps:a_boss_contribution_cache": 2
+      },
+      "7": {
+        "averagedps:a_boss_contribution_cache": 2
+      },
+      "8": {
+        "averagedps:a_boss_contribution_cache": 2
+      },
+      "9": {
+        "averagedps:a_boss_contribution_cache": 2
+      },
+      "10": {
+        "averagedps:a_boss_contribution_cache": 2
+      },
+      "11": {
+        "averagedps:a_boss_contribution_cache": 1
+      }
+    },
+    "B": {
+      "1": {
+        "averagedps:b_boss_contribution_cache": 6
+      },
+      "2": {
+        "averagedps:b_boss_contribution_cache": 5
+      },
+      "3": {
+        "averagedps:b_boss_contribution_cache": 4
+      },
+      "4": {
+        "averagedps:b_boss_contribution_cache": 3
+      },
+      "5": {
+        "averagedps:b_boss_contribution_cache": 3
+      },
+      "6": {
+        "averagedps:b_boss_contribution_cache": 2
+      },
+      "7": {
+        "averagedps:b_boss_contribution_cache": 2
+      },
+      "8": {
+        "averagedps:b_boss_contribution_cache": 2
+      },
+      "9": {
+        "averagedps:b_boss_contribution_cache": 2
+      },
+      "10": {
+        "averagedps:b_boss_contribution_cache": 2
+      },
+      "11": {
+        "averagedps:b_boss_contribution_cache": 1
+      }
+    },
+    "C": {
+      "1": {
+        "averagedps:c_boss_contribution_cache": 6
+      },
+      "2": {
+        "averagedps:c_boss_contribution_cache": 5
+      },
+      "3": {
+        "averagedps:c_boss_contribution_cache": 4
+      },
+      "4": {
+        "averagedps:c_boss_contribution_cache": 3
+      },
+      "5": {
+        "averagedps:c_boss_contribution_cache": 3
+      },
+      "6": {
+        "averagedps:c_boss_contribution_cache": 2
+      },
+      "7": {
+        "averagedps:c_boss_contribution_cache": 2
+      },
+      "8": {
+        "averagedps:c_boss_contribution_cache": 2
+      },
+      "9": {
+        "averagedps:c_boss_contribution_cache": 2
+      },
+      "10": {
+        "averagedps:c_boss_contribution_cache": 2
+      },
+      "11": {
+        "averagedps:c_boss_contribution_cache": 1
+      }
+    },
+    "D": {
+      "1": {
+        "averagedps:d_boss_contribution_cache": 6
+      },
+      "2": {
+        "averagedps:d_boss_contribution_cache": 5
+      },
+      "3": {
+        "averagedps:d_boss_contribution_cache": 4
+      },
+      "4": {
+        "averagedps:d_boss_contribution_cache": 3
+      },
+      "5": {
+        "averagedps:d_boss_contribution_cache": 3
+      },
+      "6": {
+        "averagedps:d_boss_contribution_cache": 2
+      },
+      "7": {
+        "averagedps:d_boss_contribution_cache": 2
+      },
+      "8": {
+        "averagedps:d_boss_contribution_cache": 2
+      },
+      "9": {
+        "averagedps:d_boss_contribution_cache": 2
+      },
+      "10": {
+        "averagedps:d_boss_contribution_cache": 2
+      },
+      "11": {
+        "averagedps:d_boss_contribution_cache": 1
+      }
+    },
+    "E": {
+      "1": {
+        "averagedps:e_boss_contribution_cache": 6
+      },
+      "2": {
+        "averagedps:e_boss_contribution_cache": 5
+      },
+      "3": {
+        "averagedps:e_boss_contribution_cache": 4
+      },
+      "4": {
+        "averagedps:e_boss_contribution_cache": 3
+      },
+      "5": {
+        "averagedps:e_boss_contribution_cache": 3
+      },
+      "6": {
+        "averagedps:e_boss_contribution_cache": 2
+      },
+      "7": {
+        "averagedps:e_boss_contribution_cache": 2
+      },
+      "8": {
+        "averagedps:e_boss_contribution_cache": 2
+      },
+      "9": {
+        "averagedps:e_boss_contribution_cache": 2
+      },
+      "10": {
+        "averagedps:e_boss_contribution_cache": 2
+      },
+      "11": {
+        "averagedps:e_boss_contribution_cache": 1
+      }
+    },
+    "F": {
+      "1": {
+        "averagedps:f_boss_contribution_cache": 6
+      },
+      "2": {
+        "averagedps:f_boss_contribution_cache": 5
+      },
+      "3": {
+        "averagedps:f_boss_contribution_cache": 4
+      },
+      "4": {
+        "averagedps:f_boss_contribution_cache": 3
+      },
+      "5": {
+        "averagedps:f_boss_contribution_cache": 3
+      },
+      "6": {
+        "averagedps:f_boss_contribution_cache": 2
+      },
+      "7": {
+        "averagedps:f_boss_contribution_cache": 2
+      },
+      "8": {
+        "averagedps:f_boss_contribution_cache": 2
+      },
+      "9": {
+        "averagedps:f_boss_contribution_cache": 2
+      },
+      "10": {
+        "averagedps:f_boss_contribution_cache": 2
+      },
+      "11": {
+        "averagedps:f_boss_contribution_cache": 1
+      }
+    }
+  }
+}

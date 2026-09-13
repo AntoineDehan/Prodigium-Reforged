@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:sorcerousnether_withering_harvest"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "sorcerousnether:cascade"
+  ]
+}

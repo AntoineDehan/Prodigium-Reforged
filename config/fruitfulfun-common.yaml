@@ -3,10 +3,12 @@
 modules:
   farmersdelight: true
   bee: true
-  vacuum: true
+  creative_tab: true
+  gadget: true
   ritual: true
   food: true
 treeGrowingSpeed: 5
+allogamousTrees: true
 fruitDropMode:
   singleplayer: Independent
   multiplayer: OneByOne
@@ -19,13 +21,22 @@ hornHarvestingInstrument: minecraft:sing_goat_horn
 wanderingTraderSaplingPrice: 12
 beehiveTrade: true
 beeNaturalHealingInterval: 900
-beeRidingHeightLimit: true
+beeRiding:
+  horizontalSpeedMultiplier: 1.0
+  heightLimit: true
+  verticalSpeedMultiplier: 1.0
+  ultraWarmDimensionLimit: false
+  rainingLimit: true
 mutagenRecipe: true
 redloveFruitUse: true
+inspectorShowOffspringPotential: true
+randomBeeNames: true
+brewerMaxSpeedRequirement: 30
 dragonBreath:
   fixExploit: true
   dispenserCollecting: true
 leavesUsInPeaceIncompatibilityNotified: false
+brainierBeesIncompatibilityNotified: false
 geneticsDifficulty: Normal
 mutationRate:
   RC: 0.1
@@ -45,3 +56,4 @@ haunting:
   cooldownSeconds: 10
 integration:
   hauntedHarvestRottenAppleChance: 0.03
+fixRainingStateInNetherAndEnd: true

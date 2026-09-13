@@ -139,3 +139,4 @@ blockRaycastTimeout = 0
 	"inventory_tabs:item_simple" = true
 	"inventory_tabs:player_inventory" = true
 	"inventory_tabs:vehicle_inventory" = true
+

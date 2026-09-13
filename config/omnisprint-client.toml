@@ -1,0 +1,9 @@
+#Enable forward sprinting (default: true)
+enableForwardSprint = true
+#Enable backward sprinting (default: true)
+enableBackwardSprint = true
+#Enable left sprinting (default: true)
+enableLeftSprint = true
+#Enable right sprinting (default: true)
+enableRightSprint = true
+

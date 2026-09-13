@@ -16,6 +16,8 @@
 	"Witch Doctor Spawning" = true
 	"Yeti Spawning" = true
 	"Mushlin King Spawning" = true
+	#1 is normal, 2 is doubled, 3 is tripled
+	"Luminous Moth Cocoon Rarity" = 1.0
 
 ["Beast Items Configuration"]
 	#Determines the slowness level applied by the root
@@ -48,6 +50,8 @@
 	"Jungle Pendant Timer" = 6.0
 	#Determines how long a spawned phantom stalker will stay alive for (in seconds)
 	"Tamed Stalker Timer" = 300.0
+	#Determines the distance of the cubed area around the player which gives other mobs the glowing effect
+	"Moth Antennae Radius" = 70.0
 
 ["Rare Beasts Configuration"]
 	#true means spawns are on, false means they are not
@@ -66,6 +70,8 @@
 	"Rare Sea Viper Egg Rarity" = 1.0
 	"Rare Witchdoctor Rarity" = true
 	"Rare Mushlin King Spawning" = true
+	#1 is normal, 2 is doubled, 3 is tripled
+	"Rare Luminous Moth Cocoon Rarity" = 1.0
 
 ["Beast Pit Configuration"]
 	#Determines the max number of Beast pits that can be lit at any given time per world

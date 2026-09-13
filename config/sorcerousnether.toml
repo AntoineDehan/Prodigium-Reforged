@@ -24,9 +24,21 @@ infused_lava_lily_effect_radius = 10.0
 mist_flask_affects_thrower = false
 #Whether Sorcerous Vessels activate in the entire inventory instead of just the hotbar
 sorcerous_vessels_work_in_inventory = false
-#Prevents Losts from spawning a Mist Cloud upon death and makes them instead drop mist already in a bottle. Default setting (false) is highly recommended
+#Prevents Losts from spawning a Mist Cloud upon death and makes them instead drop mist already in a bottle
+#Default setting (false) is highly recommended
 disable_lost_death_effects = false
 #The probability of a lost pearl breaking upon use
 #Range: 0.0 ~ 1.0
 lost_pearl_break_chance = 0.1
+#How many ticks the Cursed Wand has to be drawn back before firing
+#Range: 1 ~ 100
+cursed_wand_draw_time = 18
+#The maximum amount of ticks a Cursed Charge can exist in the world before despawning
+#Value of -1 disables despawning
+cursed_charge_lifetime = 80
+#The radius of the splash stun caused by the Cascade enchantment
+cascade_radius = 4.0
+#The amount healed by the Withering Harvest enchantment
+#Range: 0 ~ 1000
+withering_harvest_heal_amount = 8
 

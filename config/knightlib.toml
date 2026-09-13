@@ -1,13 +1,29 @@
 
 ["Essence Drop Probabilities"]
-	#Chance to drop small essence upon defeating an enemy
-	#
-	#Default: 0.125
-	#Range: 0.0 ~ 1.0
-	SMALL_ESSENCE_DROP_RATE = 0.125
-	#Chance to drop great essence upon defeating an enemy
-	#
-	#Default: 0.05
-	#Range: 0.0 ~ 1.0
-	GREAT_ESSENCE_DROP_RATE = 0.05
+	# Chance to drop small essence upon defeating an enemy
+	# 
+	# Default: 0.125
+	# Range: 0.0 ~ 1.0
+	SMALL_ESSENCE_DROP_RATE = 0.05
+	# Chance to drop great essence upon defeating an enemy
+	# 
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	GREAT_ESSENCE_DROP_RATE = 0.03
+	# Comma-separated list of entity IDs that should never drop essence (e.g. "minecraft:silverfish,minecraft:endermite")
+	# 
+	# Default:
+	ESSENCE_ENTITY_BLACKLIST = ""
+	# Comma-separated list of entity IDs that are the only ones allowed to drop essence. Leave empty to allow all monsters
+	# (except blacklisted ones)
+	# 
+	# Default:
+	ESSENCE_ENTITY_WHITELIST = ""
+
+["Great Chalice"]
+	# Spawns the filled grail (or other rewards) as an item on top of the great chalice. If the option is disabled, the item
+	# will be given to the player automatically.
+	# 
+	# Default: true
+	YEET_GRAIL_WHEN_FILLED = true
 

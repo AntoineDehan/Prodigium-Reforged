@@ -1,0 +1,27 @@
+
+["Aggrobait Configs"]
+	#Higher levels of Baiting will also bait lower levels
+	inclusiveTiers = true
+	#The max level of aggrobait Enchantment
+	#Range: 0 ~ 255
+	maxBaitLevel = 3
+	#The amount of aggro that aggrobait will apply
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baitLevel = 5.0
+	#Should the amount of aggro scale with enchantment level
+	scaleBait = true
+	#The amount of Ticks Aggrobait will be on Cooldown
+	#Range: > 0
+	baitCooldown = 60
+	#The distance in blocks that Aggrobait will work
+	#Range: 0.0 ~ 512.0
+	baitRange = 64.0
+
+["White/Blacklist Configs"]
+	#Whitelist means only mobs in the list will use aggro calculations
+	#Blacklist means mobs in the list will not use aggro calculations
+	#false is blacklist and true is whitelist
+	useWhitelist = false
+	#White/Blacklist depending on the setting above
+	entityList = []
+
