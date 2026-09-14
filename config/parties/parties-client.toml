@@ -1,0 +1,35 @@
+
+["-=RENDERING=-"]
+	#If TRUE: Only the first element's tooltip is rendered. If FALSE: Renders tooltips of all elements the mouse is hovering over.
+	topMostTooltip = false
+	#If TRUE: Renders the local player in the party list as well. If FALSE: Skips the local player in the party list.
+	renderLocalInParty = false
+	#If TRUE: Renders the pointer arrow texture that appears on screen pointing to nearby party members.
+	renderScreenArrow = false
+	#If TRUE: Renders the pointer arrow texture shadow that appears behind the pointer arrow.
+	#Only renders if renderScreenArrow is true.
+	renderArrowShadow = false
+	#If TRUE: Renders the pointer arrow texture shadow that appears behind the pointer arrow.
+	#This is for the arrow that renders optionally for the Avatar element, in radar mode.
+	renderPartyArrowShadow = false
+
+["-=COLORIZER=-"]
+	#If TRUE: Slightly tints player names to match their selected UUID color in the party UI.
+	colorizeName = true
+	#If TRUE: Slightly tints player nameplates to match their selected UUID color in the world.
+	colorizeWorldName = true
+	#If TRUE: Makes the name/head icon vibrantly glow in the dark (at night time, in caves, etc)
+	namePlateGlowsInDark = true
+	#If TRUE: Slightly tints the frame backgrounds to match their selected UUID color in the party UI.
+	colorizeBg = true
+	#If TRUE: Adds a colorized border to the player avatar's head on the party UI (if not rendering the player)
+	colorizeAvatar = true
+
+["-=DISPLAY BUTTON=-"]
+	#The X offset from the bottom center of the screen for the Display Menu icon.
+	#Range: > -2147483648
+	menuButtonX = -125
+	#The Y offset from the bottom center of the screen for the Display Menu icon.
+	#Range: > -2147483648
+	menuButtonY = -18
+

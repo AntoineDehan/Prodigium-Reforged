@@ -1,0 +1,19 @@
+
+["-=CORE MODULE=-"]
+	#Determines which party system this mod should anchor to.
+	#PARTIES - Creates and utilizes its own party system
+	#NONE - The entire parties UI module is disabled.
+	#Allowed Values: PARTIES, NONE
+	partiesType = "PARTIES"
+
+["-=PARTY MECHANICS=-"]
+	#The maximum number of players allowed in a single party.
+	#Range: 2 ~ 10
+	maxPartySize = 10
+	#Determines how long until a party leader changes when the leader goes offline.
+	#If -1, Leadership is never automatically transferred.
+	#If 0, Leadership is instantly transferred.
+	#If 1-24, it takes this many real-life hours before leadership is automatically transferred.
+	#Range: -1 ~ 24
+	leaderTransferCooldown = 1
+

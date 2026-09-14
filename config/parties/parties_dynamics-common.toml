@@ -1,0 +1,13 @@
+
+["-=PARTY MECHANICS=-"]
+	#If TRUE: Party members can damage each other. If FALSE: Damage is canceled.
+	friendlyFire = false
+	#Determines if the range that experience sharing should occur.
+	#Determines the range that experience sharing should occur.
+	#GLOBAL        - Shares between all online members.
+	#WORLD         - Shares between players in the same dimension.
+	#TRACKED_AREA  - Shares between players in the same render distance.
+	#VICINITY      - Shares between players in the same vicinity.
+	#NOTE: Vicinity range can be configured in Common settings.
+	xpShareRange = "vicinity"
+
