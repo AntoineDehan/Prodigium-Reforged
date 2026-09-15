@@ -6,7 +6,7 @@ LootJS.modifiers((event) => {
       "luminous_nether:piglin_ghost",
       "luminous_nether:guzzleghast",
     )
-    .randomChanceWithLootingWithLooting(0.6)
+    .randomChanceWithLooting(0.6)
     .addWeightedLoot([1], [Item.of("quark:soul_bead")]);
 
   event
@@ -16,7 +16,7 @@ LootJS.modifiers((event) => {
       "bygonenether:corpor",
       "bygonenether:wraither",
     )
-    .randomChanceWithLootingWithLooting(0.08)
+    .randomChanceWithLooting(0.08)
     .addWeightedLoot([1], [Item.of("kubejs:wither_skull_fragment")]);
 
   // Armor Scrap
@@ -28,7 +28,7 @@ LootJS.modifiers((event) => {
       "friendsandfoes:wildfire",
       "sorcerousnether:lost",
     )
-    .randomChanceWithLootingWithLooting(0.25)
+    .randomChanceWithLooting(0.25)
     .addWeightedLoot([1], [Item.of("stalwart_dungeons:blaze_armor_scrap")]);
 
   event
@@ -42,7 +42,7 @@ LootJS.modifiers((event) => {
       "luminous_nether:piglin_cultist",
       "luminous_nether:piglin_executioner",
     )
-    .randomChanceWithLootingWithLooting(0.2)
+    .randomChanceWithLooting(0.2)
     .addWeightedLoot([1], [Item.of("irons_spellbooks:hogskin")]);
 
   // Blood Sac
@@ -53,7 +53,7 @@ LootJS.modifiers((event) => {
       "terra_entity:hell_bat",
       "terra_entity:drippler",
     )
-    .randomChanceWithLootingWithLooting(0.1)
+    .randomChanceWithLooting(0.1)
     .addWeightedLoot([1], [Item.of("alexsmobs:blood_sac")]);
 
   // Heptacle
@@ -63,12 +63,12 @@ LootJS.modifiers((event) => {
       "luminous_nether:mushlin_king",
       "friendsandfoes:wildfire",
     )
-    .randomChanceWithLootingWithLooting(0.1)
+    .randomChanceWithLooting(0.1)
     .addWeightedLoot([2], [Item.of("bypowderandsteel:heptacle")]);
 
   event
     .addEntityLootModifier("terra_entity:drippler", "terra_entity:blood_zombie")
-    .randomChanceWithLootingWithLooting(0.08)
+    .randomChanceWithLooting(0.08)
     .addWeightedLoot([1], [Item.of("bypowderandsteel:heptacle")]);
 
   // Phantom Powder
@@ -84,7 +84,7 @@ LootJS.modifiers((event) => {
       "luminous_nether:spirit",
       "luminous_nether:guzzleghast",
     )
-    .randomChanceWithLootingWithLooting(0.5)
+    .randomChanceWithLooting(0.5)
     .addWeightedLoot([1, 2], [Item.of("born_in_chaos_v1:phantom_powder")]);
 
   // Nether Bones
