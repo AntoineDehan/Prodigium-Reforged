@@ -1,0 +1,56 @@
+{
+  "config_version": 1,
+  "_comment": [
+    "Biome and structure requirements per dimension (vanilla and modded), guaranteed within the border.",
+    "requiredBiomes: biome ids or #tags, generated as natural-looking zones when missing.",
+    "structures: id -> number (= min instances) or { \"min\": n, \"max\": n }.",
+    "min instances are force-placed if missing (overworld only, checked on first world creation).",
+    "max (0 = disabled, 1 = unique) is accepted but NOT enforced yet - planned for a future version.",
+    "Keys starting with an underscore are ignored. Do not edit config_version.",
+    "Example: \"minecraft:overworld\": { \"requiredBiomes\": [\"minecraft:mushroom_fields\"], \"structures\": { \"minecraft:monument\": { \"min\": 1 } } }"
+  ],
+  "dimensions": {
+    "minecraft:overworld": {
+      "structures": {
+        "mowziesmobs:wrought_chamber": { "min": 3 },
+        "mowziesmobs:umvuthana_grove": { "min": 1 },
+        "prodigium_dungeons:frostmaw_cavern": { "min": 1 },
+        "conjurer_illager:theatre": { "min": 1 },
+        "block_factorys_bosses:sandworm_nest": { "min": 1 },
+        "block_factorys_bosses:dragon_tower": { "min": 1 },
+        "irons_spellbooks:ice_spider_den": { "min": 1 },
+        "irons_spellbooks:catacombs": { "min": 1 },
+        "minecraft:ocean_monument": { "min": 1 },
+        "cataclysm:sunken_city": { "min": 1 },
+        "cataclysm:ancient_factory": { "min": 1 },
+        "cataclysm:cursed_pyramid": { "min": 1 }
+      }
+    },
+    "minecraft:the_nether": {
+      "structures": {
+        "cataclysm:burning_arena": { "min": 1 },
+        "cataclysm:soul_blacksmith": { "min": 1 },
+        "bosses_of_mass_destruction:gauntlet_arena": { "min": 1 },
+        "minecraft:nether_fortress": { "min": 1 },
+        "block_factorys_bosses:underworld_arena": { "min": 1 },
+        "prodigium_dungeons:keeping_castle": { "min": 3 }
+      }
+    },
+    "aether:the_aether": {
+      "structures": {
+        "aether:bronze_dungeon": { "min": 1 },
+        "aether:silver_dungeon": { "min": 1 },
+        "aether:gold_dungeon": { "min": 1 },
+        "lost_aether_content:platinium_dungeon": { "min": 1 },
+        "prodigium_dungeons:void_blossom": { "min": 1 },
+        "mowziesmobs:monastery": { "min": 1 }
+      }
+    },
+    "minecraft:the_end": {
+      "structures": {
+        "bosses_of_mass_destruction:obsidilith_arena": { "min": 1 },
+        "cataclysm:ruined_citadel": { "min": 1 }
+      }
+    }
+  }
+}

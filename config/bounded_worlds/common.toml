@@ -1,0 +1,45 @@
+#Bounded Worlds Configuration
+#Biome and structure requirements (all dimensions) live in requirements.json next to this file.
+#Internal config format version — do not edit.
+#Range: > 1
+configVersion = 2
+
+[world]
+	#Radius in blocks of each world size tier, selectable in the world-creation screen.
+	#The border is set on first world creation, centered on spawn.
+	#Range: 100 ~ 20000
+	smallRadius = 1850
+	#Range: 100 ~ 20000
+	mediumRadius = 3500
+	#Range: 100 ~ 20000
+	largeRadius = 5000
+	#Size used when none was picked in the creation screen (dedicated servers,
+	#or re-init after deleting 'bounded_worlds_initialized.dat' in the world folder).
+	#Allowed Values: SMALL, MEDIUM, LARGE
+	defaultWorldSize = "MEDIUM"
+	#Size of forced biome zones: SMALL 100-200, MEDIUM 250-350, LARGE 400-600 blocks.
+	#Allowed Values: SMALL, MEDIUM, LARGE
+	forcedBiomeSize = "MEDIUM"
+	#Reshape terrain when it doesn't fit a forced biome (raise islands, carve sea basins).
+	#Disable if another mod conflicts with terrain generation.
+	terrainShaping = true
+	#Terraria-style ring of a fixed biome hugging the world border, terrain reshaped to fit.
+	#Don't change these options after exploring the border area — edits create seams.
+	borderBiomeEnabled = false
+	#Biome of the border ring.
+	borderBiome = "minecraft:beach"
+	#Ring width in blocks, measured inward from the world border.
+	#Range: 64 ~ 2048
+	borderBiomeWidth = 64
+
+#Terraria-style directional layout: hot/cold and humid/dry biome axes around spawn.
+[directional]
+	#Place forced biome zones in quadrants matching their temperature and humidity.
+	enabled = true
+	#Direction for hot biomes (cold = opposite). Perpendicular to humidDirection. RANDOM = seed-based.
+	#Allowed Values: NORTH, SOUTH, EAST, WEST, RANDOM
+	hotDirection = "RANDOM"
+	#Direction for humid biomes (dry = opposite). Perpendicular to hotDirection. RANDOM = seed-based.
+	#Allowed Values: NORTH, SOUTH, EAST, WEST, RANDOM
+	humidDirection = "RANDOM"
+
