@@ -6,7 +6,7 @@ LootJS.modifiers((event) => {
       "luminous_nether:piglin_ghost",
       "luminous_nether:guzzleghast",
     )
-    .randomChanceWithLooting(0.6)
+    .randomChanceWithLooting(0.6, 0.06)
     .addWeightedLoot([1], [Item.of("quark:soul_bead")]);
 
   event
@@ -16,7 +16,7 @@ LootJS.modifiers((event) => {
       "bygonenether:corpor",
       "bygonenether:wraither",
     )
-    .randomChanceWithLooting(0.08)
+    .randomChanceWithLooting(0.08, 0.033)
     .addWeightedLoot([1], [Item.of("kubejs:wither_skull_fragment")]);
 
   // Armor Scrap
@@ -28,7 +28,7 @@ LootJS.modifiers((event) => {
       "friendsandfoes:wildfire",
       "sorcerousnether:lost",
     )
-    .randomChanceWithLooting(0.25)
+    .randomChanceWithLooting(0.25, 0.0375)
     .addWeightedLoot([1], [Item.of("stalwart_dungeons:blaze_armor_scrap")]);
 
   event
@@ -42,7 +42,7 @@ LootJS.modifiers((event) => {
       "luminous_nether:piglin_cultist",
       "luminous_nether:piglin_executioner",
     )
-    .randomChanceWithLooting(0.2)
+    .randomChanceWithLooting(0.2, 0.03)
     .addWeightedLoot([1], [Item.of("irons_spellbooks:hogskin")]);
 
   // Blood Sac
@@ -53,7 +53,7 @@ LootJS.modifiers((event) => {
       "terra_entity:hell_bat",
       "terra_entity:drippler",
     )
-    .randomChanceWithLooting(0.1)
+    .randomChanceWithLooting(0.1, 0.03)
     .addWeightedLoot([1], [Item.of("alexsmobs:blood_sac")]);
 
   // Heptacle
@@ -63,12 +63,12 @@ LootJS.modifiers((event) => {
       "luminous_nether:mushlin_king",
       "friendsandfoes:wildfire",
     )
-    .randomChanceWithLooting(0.1)
+    .randomChanceWithLooting(0.1, 0.03)
     .addWeightedLoot([2], [Item.of("bypowderandsteel:heptacle")]);
 
   event
     .addEntityLootModifier("terra_entity:drippler", "terra_entity:blood_zombie")
-    .randomChanceWithLooting(0.08)
+    .randomChanceWithLooting(0.08, 0.024)
     .addWeightedLoot([1], [Item.of("bypowderandsteel:heptacle")]);
 
   // Phantom Powder
@@ -84,7 +84,7 @@ LootJS.modifiers((event) => {
       "luminous_nether:spirit",
       "luminous_nether:guzzleghast",
     )
-    .randomChanceWithLooting(0.5)
+    .randomChanceWithLooting(0.5, 0.0625)
     .addWeightedLoot([1, 2], [Item.of("born_in_chaos_v1:phantom_powder")]);
 
   // Nether Bones
@@ -98,13 +98,13 @@ LootJS.modifiers((event) => {
       "bygonenether:corpor",
       "bygonenether:wraither",
     )
-    .randomChanceWithLooting(0.4)
+    .randomChanceWithLooting(0.4, 0.06)
     .addWeightedLoot([1, 2], [Item.of("prodigium_reforged:nether_bone")]);
 
   // Gunsteel
   event
     .addEntityLootModifier("luminous_beasts:mummy", "luminous_beasts:red_mummy")
-    .randomChanceWithLooting(0.8)
+    .randomChanceWithLooting(0.8, 0.08)
     .addWeightedLoot([1], [Item.of("bypowderandsteel:gunsteel_scrap")]);
 
   event
@@ -116,12 +116,12 @@ LootJS.modifiers((event) => {
       "enemyexpansion:scorpion",
       "enemyexpansion:starved",
     )
-    .randomChanceWithLooting(0.7)
+    .randomChanceWithLooting(0.7, 0.07)
     .addWeightedLoot([1, 3], [Item.of("bypowderandsteel:gunsteel_nugget")]);
 
   // Ender Nacre
   event
     .addEntityLootModifier("terra_entity:demon_eye")
-    .randomChanceWithLooting(0.15)
+    .randomChanceWithLooting(0.15, 0.045)
     .addWeightedLoot([1], [Item.of("wormhole_artifact:ender_nacre")]);
 });
