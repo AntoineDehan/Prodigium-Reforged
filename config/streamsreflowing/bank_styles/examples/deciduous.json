@@ -1,0 +1,20 @@
+{
+  "tags": [
+    "c:is_tree/deciduous"
+  ],
+  "bed": [
+    "minecraft:clay",
+    "minecraft:gravel"
+  ],
+  "waterline": "minecraft:gravel",
+  "bank": "streamsreflowing:chameleon",
+  "waterline_below": 1,
+  "waterline_above": 0,
+  "underwater_noise": 0.12,
+  "above_water_noise": 0.12,
+  "exclude_tags": [
+    "c:is_swamp",
+    "forge:is_swamp"
+  ],
+  "cohesion": 1.0
+}

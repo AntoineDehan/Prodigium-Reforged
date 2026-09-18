@@ -1,0 +1,12 @@
+{
+  "biomes": [
+    "minecraft:desert"
+  ],
+  "bed": "minecraft:sand",
+  "waterline": "minecraft:sand",
+  "bank": "streamsreflowing:chameleon",
+  "underwater_noise": 0.12,
+  "above_water_noise": 0.12,
+  "cohesion": 0.0,
+  "point_bar": "minecraft:sand"
+}

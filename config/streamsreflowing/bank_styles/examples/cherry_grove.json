@@ -1,0 +1,10 @@
+{
+  "biomes": [
+    "minecraft:cherry_grove"
+  ],
+  "bed": "minecraft:gravel",
+  "waterline": "minecraft:cobblestone",
+  "bank": "streamsreflowing:chameleon",
+  "underwater_noise": 0.07,
+  "above_water_noise": 0.07
+}

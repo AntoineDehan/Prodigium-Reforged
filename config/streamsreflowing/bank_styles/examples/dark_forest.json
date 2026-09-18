@@ -1,0 +1,10 @@
+{
+  "biomes": [
+    "minecraft:dark_forest"
+  ],
+  "bed": "minecraft:mossy_cobblestone",
+  "waterline": "minecraft:mud",
+  "bank": "streamsreflowing:chameleon",
+  "underwater_noise": 0.23,
+  "cohesion": 1.0
+}

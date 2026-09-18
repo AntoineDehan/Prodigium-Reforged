@@ -1,0 +1,5 @@
+{
+  "biomes": ["minecraft:frozen_river"],
+  "bed": "minecraft:gravel", "waterline": "minecraft:packed_ice", "bank": "minecraft:air",
+  "underwater_noise": 0.15, "above_water_noise": 0.15
+}

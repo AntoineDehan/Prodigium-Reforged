@@ -1,0 +1,16 @@
+{
+  "tags": [
+    "c:is_snowy"
+  ],
+  "bed": "minecraft:gravel",
+  "waterline": "minecraft:packed_ice",
+  "bank_enabled": false,
+  "waterline_below": 1,
+  "waterline_above": 0,
+  "underwater_noise": 0.2,
+  "above_water_noise": 0.2,
+  "exclude_tags": [
+    "c:is_swamp",
+    "forge:is_swamp"
+  ]
+}

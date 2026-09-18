@@ -1,0 +1,9 @@
+{
+  "biomes": ["minecraft:taiga", "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga"],
+  "bed": ["minecraft:clay", "minecraft:cobblestone", "minecraft:gravel"],
+  "waterline": ["minecraft:cobblestone", "minecraft:gravel"],
+  "bank": "streamsreflowing:chameleon",
+  "waterline_below": 2, "waterline_above": 3,
+  "underwater_noise": 0.35, "above_water_noise": 0.60,
+  "cohesion": 1.0
+}

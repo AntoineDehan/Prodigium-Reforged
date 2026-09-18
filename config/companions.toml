@@ -36,7 +36,7 @@
 	# Whether tamed companions proactively attack nearby hostile mobs without the owner having to attack or be attacked first.
 	# 
 	# Default: true
-	COMPANIONS_ATTACK_HOSTILES_PROACTIVELY = false
+	COMPANIONS_ATTACK_HOSTILES_PROACTIVELY = true
 	# Armor point overrides for companions: [entity ID, armor points; ...]. Unlisted companions keep their default armor.
 	# Example: companions:minion, 6; companions:teddy, 10
 	# 

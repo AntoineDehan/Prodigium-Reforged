@@ -1,0 +1,88 @@
+#
+#How loud running water sounds. Streams murmur when you are beside them, and waterfalls carry --
+#a big fall can be heard from a long way off, growing into its full sound as you approach.
+#Rides the Ambient volume slider in your sound settings.
+#  0 = silent.  1 = normal (default).  Above 1 is louder.
+#Perf: client, light.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+#Range: 0.0 ~ 2.0
+waterAmbience = 1.0
+#
+#Ambient particles on the directional stream fluid: clumps of bubbles riding the current, plus
+#splashes where water spills/cascades. Purely visual and CLIENT-side; particles cost some
+#performance, and higher modes cost more.
+#  0 = off (no stream particles at all).
+#  1 = static: bubbles appear on the surface and fade in place -- cheapest; they don't drift, so
+#      they never strand in mid-air over a drop.
+#  2 = pathed: bubbles flow downstream AND follow the water down drops/waterfalls (default). Most
+#      realistic but the priciest -- it samples the world each tick. Turn down to 1 or 0 if big
+#      rivers hitch.
+#Perf: CLIENT FPS. Turn down first if streams cost you frames.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+#Range: 0 ~ 2
+streamBubbles = 2
+#
+#Hard cap on how many stream particles (bubbles + whitewater foam/spray) may spawn PER TICK,
+#across all stream water near you -- a safety valve so heavy rivers and big waterfalls can't
+#spin up an unbounded number of particles on lower-end machines. Once the cap is hit, further
+#stream blocks skip their particles until the next tick. The default is high enough that normal
+#play never reaches it; lower it if you're chasing frames.
+#  LOWER = stricter cap (fewer particles, smoother).  HIGHER = effectively no limit.
+#Perf: CLIENT FPS -- the main particle cost dial. Lower = cheaper.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+#Range: 0 ~ 100000
+maxStreamParticlesPerTick = 1000
+#
+#How far out (in blocks) a CLIENT-side scanner hunts for waterfalls to spray, BEYOND vanilla's
+#~16-block ambient-particle range. Vanilla only animates blocks right next to you, so distant
+#waterfalls are silent/dry; this scanner finds their feet and throws whitewater there too.
+#It uses distance LOD to stay cheap: the further a waterfall, the FEWER but LARGER particles it
+#fires (particle area scales with distance, count scales inversely). Particles grow and thin in
+#octaves: ~16-64 base, 64-128, 128-256, 256-512.
+#  0 = off (only vanilla's near range sprays).  Higher = waterfalls spray from further (pricier).
+#Perf: CLIENT FPS. A larger radius searches more blocks every tick.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+#Range: 0 ~ 512
+streamParticleScanRadius = 256
+#
+#Apply the mod's waterfall whitewater (the distant LOD scanner's spray + foam) to VANILLA water
+#as well -- rivers, lakes, vanilla waterfalls -- not just this mod's own streams. Purely visual
+#and client-side.
+#  true = on (default).  false = only this mod's streams get the whitewater.
+#Perf: CLIENT FPS. Extends particle work to all water, not just streams.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+particlesOnVanillaWater = true
+#
+#Floating debris on the stream surface: sticks and (on 1.21.4+) leaves drifting downstream with
+#the current. Purely visual and client-side.
+#  true = on (default).  false = no sticks or leaves (bubbles and whitewater are unaffected).
+#Perf: client, light.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+streamDebris = true
+#
+#PARTICLE SIZE -- how big each droplet of spray is, as a multiplier.
+#  1.0 = normal. 2.0 = twice the size. 0.5 = fine mist.
+#Spray DENSITY follows size automatically, in inverse square: bigger droplets means proportionally
+#fewer of them, so a waterfall throws the same total amount of spray whatever you set here -- the
+#same rule the distance detail already uses, so far falls keep matching near ones.
+#Perf: CLIENT FPS, but only mildly -- bigger particles are also rarer, so the count stays about the same.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+#Range: 0.05 ~ 8.0
+particleSize = 1.0
+#
+#PARTICLE DENSITY -- how much spray is thrown, as a multiplier.
+#  1.0 = normal. 2.0 = twice as much water in the air. 0.0 = none.
+#This is the dial to turn DOWN for frames, and it is independent of size: the size setting keeps the
+#total amount of spray constant, this setting is what changes it.
+#Perf: CLIENT FPS -- the most direct particle cost dial there is.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+#Range: 0.0 ~ 8.0
+particleDensity = 1.0
+#
+#Show the Streams Reflowing progress line on the world-loading screen while your waterways are
+#prepared during world creation. Purely visual and client-side.
+#  true = show (default).  false = hide it.
+#Perf: none.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+loadingNotice = true
+

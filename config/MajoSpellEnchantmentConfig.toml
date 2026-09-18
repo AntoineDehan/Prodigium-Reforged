@@ -134,6 +134,9 @@
 	#[Mana Mending] Base Mana Cost to Trigger Mana Mending
 	#Range: -2.147483647E9 ~ 2.147483647E9
 	manaMendingThreshold = 30.0
+	#[Mana Mending] Durability Recovered per 100 Mana
+	#Range: 0.01 ~ 2.147483647E9
+	manaMendingCoefficient = 2.0
 
 [Necrovolt]
 	#[Necrovolt] If Disabled, it will not take effect.

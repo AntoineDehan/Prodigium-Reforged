@@ -1,0 +1,9 @@
+{
+  "tags": ["c:is_beach"],
+  "bed": ["minecraft:mud", "minecraft:sand", "minecraft:sand"],
+  "waterline": "minecraft:sand",
+  "bank": "streamsreflowing:chameleon",
+  "underwater_noise": 0.15, "above_water_noise": 0.1,
+  "cohesion": 0.0,
+  "point_bar": "minecraft:sand"
+}

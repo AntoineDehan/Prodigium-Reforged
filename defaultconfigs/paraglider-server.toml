@@ -24,15 +24,15 @@ paragliderInTowersOfTheWild = "DEFAULT"
 
 [spiritOrbs]
 	#If true, Wither will drop heart container(stamina vessel if heart container is disabled) upon death.
-	enderDragonDropsVessel = true
+	enderDragonDropsVessel = false
 	#If true, Raids will give heart container(stamina vessel if heart container is disabled) upon victory.
-	raidGivesVessel = true
+	raidGivesVessel = false
 	#Amount of Spirit Orbs dropped from spawners.
 	#Range: 0 ~ 64
 	spawnerSpiritOrbDrops = 2
 	#If true, various types of chest will have chances of having Spirit Orbs inside.
 	#Does not change contents of already generated chests.
-	spiritOrbLoots = true
+	spiritOrbLoots = false
 
 [vessels]
 	#Starting health points measured in number of hearts.

@@ -1,0 +1,12 @@
+{
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau"
+  ],
+  "bed": "minecraft:gravel",
+  "waterline": "minecraft:gravel",
+  "bank": "streamsreflowing:chameleon",
+  "underwater_noise": 0.15,
+  "cohesion": 0.1,
+  "point_bar": ["minecraft:gravel", "minecraft:sand", "minecraft:sand"]
+}

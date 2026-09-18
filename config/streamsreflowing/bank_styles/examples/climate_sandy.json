@@ -1,0 +1,9 @@
+{
+  "tags": ["c:is_sandy"],
+  "bed": "minecraft:sand", "waterline": "minecraft:sand",
+  "bank_enabled": false,
+  "waterline_below": 1, "waterline_above": 0,
+  "underwater_noise": 0.15, "above_water_noise": 0.15,
+  "cohesion": 0.0,
+  "point_bar": "minecraft:sand"
+}

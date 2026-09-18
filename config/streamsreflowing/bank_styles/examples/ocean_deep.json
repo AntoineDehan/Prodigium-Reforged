@@ -1,0 +1,8 @@
+{
+  "biomes": ["minecraft:deep_ocean"],
+  "bed_enabled": false,
+  "waterline": "minecraft:gravel", "bank": "minecraft:air",
+  "waterline_below": 8, "waterline_above": 1,
+  "underwater_noise": 0.35, "above_water_noise": 0.15,
+  "cohesion": 0.2
+}

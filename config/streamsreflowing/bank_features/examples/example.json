@@ -1,0 +1,7 @@
+{
+  "features": ["minecraft:patch_pumpkin"],
+  "tags": ["minecraft:is_overworld"],
+  "exclude_tags": ["minecraft:is_frozen_ocean"],
+  "exclude_biomes": ["minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:ice_spikes"],
+  "chance": 8
+}

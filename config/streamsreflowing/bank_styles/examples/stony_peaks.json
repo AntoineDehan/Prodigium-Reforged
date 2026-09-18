@@ -1,0 +1,11 @@
+{
+  "biomes": [
+    "minecraft:stony_peaks"
+  ],
+  "bed": "minecraft:gravel",
+  "waterline": "minecraft:stone",
+  "bank": "streamsreflowing:chameleon",
+  "underwater_noise": 0.12,
+  "above_water_noise": 0.12,
+  "cohesion": 0.8
+}

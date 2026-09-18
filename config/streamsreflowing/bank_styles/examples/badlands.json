@@ -1,0 +1,10 @@
+{
+  "biomes": [
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands"
+  ],
+  "enabled": false,
+  "bank": "streamsreflowing:chameleon",
+  "cohesion": 0.0
+}

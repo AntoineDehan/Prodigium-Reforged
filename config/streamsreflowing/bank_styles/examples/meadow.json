@@ -1,0 +1,12 @@
+{
+  "biomes": [
+    "minecraft:meadow"
+  ],
+  "bed": "minecraft:gravel",
+  "waterline": "minecraft:gravel",
+  "bank": "streamsreflowing:chameleon",
+  "underwater_noise": 0.1,
+  "above_water_noise": 0.1,
+  "cohesion": 0.6,
+  "point_bar": ["minecraft:gravel", "minecraft:gravel", "minecraft:sand"]
+}

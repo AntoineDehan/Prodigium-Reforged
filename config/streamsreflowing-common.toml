@@ -1,0 +1,593 @@
+#GENERATE STREAMS -- carve this mod's streams and rivers into newly generated land.
+#  true  = streams are carved (the normal mod).
+#  false = no streams anywhere; lakes below can still form on their own.
+#With BOTH this and generateLakes off, the mod does no terrain work at all -- no height sampling, no
+#watershed building -- and world generation costs exactly what it would without the mod installed.
+#Perf: THE BIGGEST DIAL, together with generateLakes.
+#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+generateStreams = true
+#
+#GENERATE LAKES -- fill the basins this mod finds with lakes, in newly generated land.
+#  true  = lakes form (the normal mod).
+#  false = no lakes; streams above route to the sea and to rivers instead.
+#With BOTH this and generateStreams off, the mod does no terrain work at all.
+#Perf: THE BIGGEST DIAL, together with generateStreams.
+#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+generateLakes = true
+#
+#Mark carved streams as a river biome after they are placed, so a stream reads as a river for fish and
+#mob spawns, ambience and water colour. Runs AFTER every other feature, so it never changes what the
+#surrounding biome placed.
+#  0 = off: streams keep the biome they run through.
+#  1 = rebiome as river (default): the best matching river biome for your world -- vanilla's river, or a
+#      terrain mod's own river variant where one fits the surrounding land.
+#  2 = chameleon river: this mod's own river biome, which takes its water colour from the land around it,
+#      so a stream through a swamp keeps swamp-coloured water instead of turning river-blue.
+#Perf: light. One extra pass over each new chunk at generation.
+#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+#Range: 0 ~ 2
+rebiomeStreams = 1
+#
+#The same for the LAKES this mod fills, and independent of the stream setting -- either can run on its own.
+#  0 = off: lakes keep the biome they sit in.
+#  1 = rebiome as river (default): the best matching river biome for your world.
+#  2 = chameleon river: this mod's own river biome, tinted from the land around it.
+#Perf: light. One extra pass over each new chunk at generation.
+#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+#Range: 0 ~ 2
+rebiomeLakes = 1
+#
+#Show the one-time Streams Reflowing notice in chat the first time this world is opened.
+#  true = show it once per world (default).  false = never show it.
+#Perf: none.
+#World: safe on an existing world -- applies the moment you save, everywhere.
+welcomeMessage = true
+
+#PERFORMANCE -- how FAST vs. how GOOD generation is. Costs CPU at world-gen time only; each
+#region builds once and is saved to disk forever, so the cost is one-time per area. If live
+#hitches bother you, pre-generate ahead with a mod like Chunky.
+[performance]
+	#The one performance dial. Higher = finer, more accurate rivers but a longer one-time build per
+	#region; lower = coarser rivers, near-instant. Choose by CPU strength and whether you pre-generate.
+	#
+	#  POTATO   ~4s/region   smoothest while flying; coarse rivers
+	#  LOW      ~12s         smooth while flying
+	#  MEDIUM   ~19s         default; brief hitch into never-seen land
+	#  HIGH     ~1min        pre-gen (Chunky) suggested
+	#  EXTREME  ~20min       pre-gen needed
+	#  MAX      ~1hr         pre-gen mandatory; finest
+	#(Rough, one-time per region, on heavy Tectonic terrain; vanilla is far cheaper.)
+	#Allowed: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX.
+	#Perf: THE MAIN SPEED DIAL (see the per-level timings above). One-time per region.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Allowed Values: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX
+	terrainAccuracyLevel = "MEDIUM"
+	#
+	#(Legacy) The former name of the setting above. Kept only so an existing config is not
+	#silently reset when the option was renamed: if this is set to anything other than MEDIUM
+	#while terrainAccuracyLevel is still at its default, this value is used. Set
+	#terrainAccuracyLevel instead -- this one will be removed in a later version.
+	#Allowed Values: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX
+	qualityPreset = "MEDIUM"
+	#
+	#Watershed (region) size in blocks -- how large one continuous stream system is before it hands off
+	#to the next. -1 = auto (follow the quality preset; recommended). Otherwise 256 to 8192.
+	#  RECOMMENDED: leave at auto for live gameplay. Raising it can cause worldgen pauses when you
+	#  cross a watershed border (each build covers more ground at once).
+	#  For PRE-GENERATED worlds, larger watersheds produce stream systems that reach much further
+	#  inland, at overall similar total generation time. New chunks only.
+	#  NOTE: while pre-generating, the generation status can appear FROZEN/paused as a stream region
+	#  builds -- chunk generation waits for that watershed to finish, then resumes. This is normal;
+	#  larger sizes make each pause longer but less frequent.
+	#Perf: major. Larger = longer pauses when crossing a border, but fewer of them.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: -1 ~ 8192
+	plateSize = -1
+
+#APPEARANCE -- how streams look. These shape the network and channels and do NOT meaningfully
+#affect speed. Anything that changes the network (most of these) applies to NEW chunks only.
+[appearance]
+	#
+	#WETNESS -- how much water flows through the land overall, like turning up the rainfall.
+	#It does two things at once, the way real rainfall does:
+	#  HIGHER = more streams AND wider, deeper rivers everywhere.  LOWER = a drier, sparser, thinner land.
+	#This is the master 'how wet is the continent' dial. For branch FINENESS (more tributaries at the
+	#same water) use growDensity; for width alone use widthScale. Default 1.0.
+	#Perf: moderate at generation. More water = more channels to route and carve.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.05 ~ 20.0
+	wetnessMultiplier = 1.0
+	#
+	#DRY-BIOME STREAM FLOOR -- the minimum share of streams (and humidity-scaled lake fill) that still
+	#form in the very driest biomes (deserts, badlands, etc.). 0.0 = fully-dry biomes get NO streams at
+	#all; 0.02 keeps ~2%, so a desert still has the occasional wash or oasis pond. Default 0.02.
+	#Perf: negligible.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.0 ~ 1.0
+	wetnessDryFloor = 0.02
+	#
+	#How finely streams BRANCH -- how much upstream drainage a cell needs before it becomes a stream.
+	#  LOWER = more, finer tributaries (denser, more fractal branching).
+	#  ABOVE 1.0 = sparser than the classic network: only the better-fed channels form,
+	#  so valleys carry a single stream instead of a branching set. 2.0 is the sparsest.
+	#Default 0.75.
+	#Perf: moderate at generation. Lower values mean many more channels to carve.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.1 ~ 2.0
+	growDensity = 0.75
+	#
+	#SHORTEST STREAM -- the shortest stream, in BLOCKS, allowed to run from its own source
+	#into the water it drains to. Anything shorter is dropped, which clears the short nubs
+	#that otherwise dot a shoreline. Streams that join another stream are never affected;
+	#which shorelines this guards is the setting below.
+	#  0 = keep every stream, however short.
+	#Dry biomes are always exempt: a desert wash is short by nature and worth keeping.
+	#Default 50. New chunks only.
+	#Perf: negligible (it only removes streams).
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0 ~ 2000
+	minStreamLength = 50
+	#
+	#WHICH WATER the shortest-stream rule guards. The setting above clears short stubs; this says
+	#which shorelines it clears them from.
+	#  1 = the ocean only.  2 = the ocean and rivers (default).  3 = those and lakes too.
+	#Streams that join another stream are never affected, and dry biomes stay exempt, whatever this says.
+	#Perf: negligible. World: CHANGES THE STREAM NETWORK -- takes effect after a reload, in new chunks only.
+	#Range: 1 ~ 3
+	minLengthScope = 2
+	#
+	#VANILLA-RIVER DRAINAGE AREA -- how large an area each river flow computation covers, as a
+	#factor of the watershed size. Larger areas let long rivers find their real ocean outlet,
+	#so their current runs the right way for their whole length.
+	#  1 = watershed-sized.  2 = twice the watershed.  3 = four times.
+	#Each area is computed once in the background and saved with the world; larger areas take
+	#proportionally longer before distant river water starts moving.
+	#Default 2. New chunks only.
+	#Perf: moderate background work. Each step up covers four times the area.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	#Range: 1 ~ 3
+	riverDrainageSize = 1
+	#
+	#SMALLEST LAKE -- the smallest basin (in blocks of water surface area) that fills as a lake.
+	#  1024 is roughly a 32x32 pond. Lower = more small ponds; higher = only sizable lakes.
+	#Default 1024. New chunks only.
+	#Perf: light. Lower values leave many more small basins to evaluate.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 64.0 ~ 1000000.0
+	lakeMinArea = 1024.0
+	#
+	#LARGEST LAKE -- the largest lake (in blocks of water surface area) allowed to form.
+	#  0 = automatic. New chunks only.
+	#Perf: negligible.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.0 ~ 1.0E8
+	lakeMaxArea = 0.0
+	#
+	#How WIDE rivers get for a given drainage area.
+	#  HIGHER = broader rivers.  LOWER = narrow, creek-like channels.
+	#Grid-independent; maxWidth still caps the main stem. Default 1.0.
+	#Perf: negligible. Shape only.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.0 ~ 50.0
+	widthScale = 1.0
+	#
+	#Headwater thinness -- the minimum half-width a stream starts at (it tapers to a point above this).
+	#  HIGHER = chunkier sources.  LOWER = finer, threadier headwaters.
+	#Default 0.4.
+	#Perf: negligible. Shape only.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.1 ~ 4.0
+	baseWidth = 0.4
+	#
+	#The widest a river can reach -- the half-width cap on the biggest main stem (near the ocean).
+	#  HIGHER = broad rivers.  LOWER = everything stays creek-sized.
+	#Default 16.0.
+	#Perf: negligible. Shape only.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 1.0 ~ 32.0
+	maxWidth = 16.0
+	#
+	#How much streams WIND (steep reaches straighten out automatically).
+	#  HIGHER = lazier, more meandering.  LOWER = straighter, more direct.
+	#Default 1.2.
+	#Perf: negligible. Shape only.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.0 ~ 5.0
+	meanderStrength = 1.2
+	#
+	#How DEEP streams carve in, as a fraction of their width (the bed is a smooth bowl, deepest at
+	#the center).
+	#  HIGHER = deeper, more incised channels.  LOWER = shallow, flatter beds.
+	#Default 0.24 (~1/4 of width). Carve-only: applies to new chunks without rebuilding networks.
+	#Perf: negligible. Shape only.
+	#World: safe on an existing world, but takes effect only after the world is RELOADED (quit to title and reopen, or restart the server) -- and then only in newly generated chunks.
+	#Range: 0.0 ~ 2.0
+	streamDepth = 0.24
+	#
+	#Stream width follows the ground: STEEP reaches run narrower, FLAT reaches spread wider -- and a flat reach over
+	#loose sandy or gravelly ground opens out very wide and shallow, as a river does over fine sediment or in a delta.
+	#  0 = off (width depends on drainage alone).  1 = full effect.
+	#Default 0.5.
+	#Perf: negligible. Shape only.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.0 ~ 1.0
+	widthFollowsSlope = 0.5
+	#
+	#Stream width follows the climate: for the same drainage, streams in WET biomes run wider and in DRY biomes
+	#narrower.
+	#  0 = off.  1 = full effect.
+	#Default 0.5.
+	#Perf: negligible. Shape only.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.0 ~ 1.0
+	widthFollowsClimate = 0.5
+	#
+	#Natural wander in stream width along its course -- a reach pinches and broadens instead of growing evenly.
+	#  0 = off (even growth).  1 = full wander.
+	#Default 0.5.
+	#Perf: negligible. Shape only.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.0 ~ 1.0
+	widthVariation = 0.5
+	#
+	#Stream depth follows the ground and banks: steep reaches and firm, rooted banks cut DEEPER; flat reaches and
+	#loose sandy banks run SHALLOWER.
+	#  0 = off (depth follows width alone).  1 = full effect.
+	#Default 0.5. Carve-only: applies to new chunks without rebuilding networks.
+	#Perf: negligible. Shape only.
+	#World: safe on an existing world, but takes effect only after the world is RELOADED (quit to title and reopen, or restart the server) -- and then only in newly generated chunks.
+	#Range: 0.0 ~ 1.0
+	depthFollowsTerrain = 0.5
+	#
+	#Bends run DEEP against their outer bank and SHALLOW across the inner one, with a coarse gravel/sand shelf on
+	#the inside of each turn -- the deepest water swings from side to side as the stream winds.
+	#  0 = off (symmetric channel).  1 = full effect.
+	#Default 0.5. Carve-only: applies to new chunks without rebuilding networks.
+	#Perf: negligible. Shape only.
+	#World: safe on an existing world, but takes effect only after the world is RELOADED (quit to title and reopen, or restart the server) -- and then only in newly generated chunks.
+	#Range: 0.0 ~ 1.0
+	bendAsymmetry = 0.5
+	#
+	#Flat, long-settled reaches with loose sandy or gravelly banks run SHALLOW and BRAIDED: the bed wavers, so the
+	#water weaves between bars and small islands it builds itself -- more in dry or cold country (beach fans,
+	#gravel valleys). The GROUND ITSELF decides: any bed and banks a shovel digs -- sand, gravel, dirt, mud --
+	#can braid, the quicker-dug the looser, whatever the biome is called; stone and other pick-mined ground
+	#never does. Never on steep reaches, and the water
+	#always keeps open lanes through.
+	#  0 = off.  1 = strongest.
+	#Default 0.5. Carve-only: applies to new chunks without rebuilding networks.
+	#Perf: negligible. Shape only.
+	#World: safe on an existing world, but takes effect only after the world is RELOADED (quit to title and reopen, or restart the server) -- and then only in newly generated chunks.
+	#Range: 0.0 ~ 1.0
+	channelBars = 0.5
+	#
+	#Flat, loose-banked streams FAN OUT as they reach the sea or a lake, broadening toward the mouth with bars
+	#inside the fan (a small delta).
+	#  0 = off.  1 = full effect.
+	#Default 0.5.
+	#Perf: negligible. Shape only.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: 0.0 ~ 1.0
+	deltaMouths = 0.5
+	#
+	#How NOISY/ragged the bank edges are: max +/- blocks of random jitter on the cut edge.
+	#  HIGHER = rougher, more broken-up banks.  0 = perfectly smooth, straight-edged cuts.
+	#Default 0.21. Carve-only: applies to new chunks without rebuilding networks.
+	#World: safe on an existing world, but takes effect only after the world is RELOADED (quit to title and reopen, or restart the server) -- and then only in newly generated chunks.
+	#Range: 0.0 ~ 3.0
+	bankNoise = 0.21
+	#
+	#Keep stream water contained where a stream crosses sloped ground, so it doesn't sheet down the
+	#hillside.
+	#  true = on (default).  false = off (streams may spill over steep side-slopes).
+	#Carve-only: shapes new chunks as they generate; toggling never regenerates terrain.
+	#Perf: negligible.
+	#World: safe on an existing world, but takes effect only after the world is RELOADED (quit to title and reopen, or restart the server) -- and then only in newly generated chunks.
+	containmentBerm = true
+	#
+	#Extra plant life near water (decoration only -- never changes terrain or the network).
+	#  0 = none.
+	#  1 = simple: extra grass, tall grass, ferns and a few flowers near the water, thinning out.
+	#  2 = biome-boost: as 1, plus the BIOME'S OWN plants and rocks (whatever it normally places --
+	#      flowers, cacti, dead bushes, boulders, etc.) at higher density near the water, so banks
+	#      match their biome and any terrain mod. (Trees are never re-placed.)
+	# -1 = auto: simple on every accuracy level except the lowest, which places none.
+	#      Biome-boost is never automatic -- set 2 here to turn it on.
+	#Applies to NEW chunks only.
+	#Perf: light at generation.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	#Range: -1 ~ 2
+	vegetation = -1
+	#
+	#Extra flora around ALL water sources -- vanilla rivers, lakes and oceans -- not just this mod's
+	#streams. Costs a little extra world-gen scanning in every water-adjacent chunk.
+	#  0 = off (only this mod's streams get flora, at the 'vegetation' level above).
+	#  1 = extra grass/ferns/flowers around all water.
+	#  2 = biome-boost (also re-runs the biome's own plants/rocks) + extra grass around all water.
+	# -1 = auto: off on the lowest accuracy level, level 1 above it. Biome-boost is never
+	#      automatic -- set 2 here to turn it on.
+	#Perf: light to moderate. Scans ALL water in a chunk, not just streams.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	#Range: -1 ~ 2
+	allWaterFlora = -1
+	#
+	#Bank materials (bed/waterline/bank) on ALL water bodies -- vanilla rivers, lakes, oceans -- not
+	#just this mod's streams/lakes, using the same per-biome bank styles. Requires customBanks = true.
+	#  0 = off (only this mod's generated streams/lakes get banks).
+	#  1 = also skin vanilla rivers + lakes/ponds (oceans excluded).
+	#  2 = also skin oceans (the shipped styles touch only the shallow shoreline; deep floor stays raw).
+	# -1 = auto (follow preset: level 1 on every preset).
+	#Perf: light to moderate. Scans ALL water in a chunk, not just streams.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	#Range: -1 ~ 2
+	allWaterBanks = -1
+	#
+	#Where this mod's bank features (the pieces in config/streamsreflowing/bank_features/) may appear:
+	#  0 = nowhere.  1 = this mod's streams.  2 = streams and their lakes.
+	#  3 = every water edge -- streams, lakes, rivers and oceans (default).
+	#Along rivers and oceans the pieces keep the same spacing per stretch of shore as on a stream,
+	#and pieces that stand in the water keep to real stream channels.
+	#Perf: light. World: safe on an existing world; applies to newly generated chunks.
+	#Range: 0 ~ 3
+	bankFeatures = 3
+	#
+	#Skin the carved stream channel with the bank styles in config/streamsreflowing/bank_styles/
+	#(bed / waterline / bank blocks per biome) instead of leaving whatever the cut exposed.
+	#  true = on (default).  false = off (raw cut banks).
+	#Carve-only: applies to new chunks.
+	#Perf: light at generation (per-column surface skinning).
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	customBanks = true
+	#
+	#How far (blocks) from the water's edge the extra flora reaches; density fades out to this edge.
+	#  HIGHER = a wider planted band.  LOWER = hugs the shoreline.
+	#Default 5.
+	#Perf: light. A larger radius scans more columns per chunk.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	#Range: 1 ~ 16
+	floraRadius = 5
+	#
+	#Biome-boost density (PERCENT): at the water's edge, the chance a near-water column also re-runs
+	#one of the BIOME'S OWN plant/rock features (only when vegetation/allWaterFlora = 2). Fades to 0
+	#at floraRadius. Runs BEFORE the simple grass, so grass never blocks a biome feature's spot.
+	#  HIGHER = denser biome plants/rocks by the water.  0 = simple grass only.
+	#Default 4.
+	#Perf: negligible.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	#Range: 0 ~ 100
+	biomeBoostPercent = 4
+	#
+	#Biome-boost blacklist: comma-separated placed-feature ids the near-water biome-boost must NOT
+	#re-run -- e.g. "terralith:cave_pumpkin_patch, minecraft:trees_birch". A whole MOD can be
+	#excluded with "modid:*" (or just "modid") -- e.g. "waypoints:*" keeps a waypoint mod's
+	#structures from scattering along every bank. (You can also add ids to the datapack tag
+	##streamsreflowing:biome_boost_excluded; both are honoured.) Default empty.
+	#Perf: none.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	biomeBoostBlacklist = ""
+	#
+	#Stream biome blacklist: biomes where streams and lakes are NOT carved at all. Comma-separated
+	#biome ids ("minecraft:mushroom_fields"), biome tags ("#c:is_dead"), and whole-mod wildcards
+	#("somemod:*" or just "somemod"). (You can also add biomes to the datapack tag
+	##streamsreflowing:no_streams; both are honoured.) Carve-only: applies to NEW chunks; a stream
+	#crossing a blacklisted biome simply is not carved inside it.
+	#Ships with a short list of biomes whose whole point is dry, broken or sculpted ground
+	#that running water would spoil. Clear it to carve everywhere.
+	#Perf: none (it only skips work).
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	streamBiomeBlacklist = "terralith:yellowstone,terrestria:caldera,biomeswevegone:crag_gardens"
+	#
+	#Mobs that must HOLD position in a stream current, whatever the automatic rules decide: a
+	#comma-separated list of entity ids (minecraft:cow, alexsmobs:crocodile). Use it for a modded
+	#swimmer the game does not class as aquatic, or anything you would rather was not washed away.
+	#Perf: none.
+	#World: safe on an existing world -- applies the moment you save.
+	mobsHoldInCurrent = ""
+	#
+	#Mobs that must DRIFT with a stream current, whatever the automatic rules decide -- same format.
+	#Use it for anything exempted by default that you would rather the water carried. A mob named in
+	#both lists drifts.
+	#Perf: none.
+	#World: safe on an existing world -- applies the moment you save.
+	mobsDriftInCurrent = ""
+	#
+	#Bank-grass density (PERCENT): at the water's edge, the chance a near-water column gets a simple
+	#grass / fern / flower; fades to 0 at floraRadius. (Independent of the biome-boost above.)
+	#  HIGHER = lusher, grassier banks.  0 = bare banks (biome-boost only).
+	#Default 20.
+	#Perf: negligible.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	#Range: 0 ~ 100
+	bankGrassPercent = 20
+	#
+	#Underwater flora SCOPE -- entirely separate from vegetation/allWaterFlora/biomeBoostPercent
+	#above: plants the vanilla RIVER biome's own underwater plants (seagrass and the like) onto
+	#submerged floors, regardless of the water body's surrounding biome (a lake dug into a mountain
+	#has no water plants of its own to copy). Only ever plants on a natural, water-plantable floor
+	#(see the datapack tag #streamsreflowing:underwater_vegetation_floor) -- never on stone/ore.
+	#  0 = off.  1 = our LAKES only.  2 = lakes AND our stream channels.
+	#  3 = ALL bodies of water -- vanilla rivers, lakes, ponds and oceans too, not just ours.
+	# -1 = auto (follow preset: POTATO/LOW 2, MEDIUM/HIGH/EXTREME/MAX 3).
+	#Default -1 (auto).
+	#Perf: light at generation.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	#Range: -1 ~ 3
+	underwaterFlora = -1
+	#
+	#Underwater flora density (PERCENT): the chance a valid submerged floor column (within whatever
+	#scope underwaterFlora selects) gets a plant.
+	#  HIGHER = denser underwater growth.  0 = bare floors (same as underwaterFlora=0).
+	#Default 15.
+	#Perf: negligible.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	#Range: 0 ~ 100
+	underwaterFloraPercent = 15
+	#
+	#Underwater-flora biome blacklist: biomes where the underwaterFlora pass plants NO seagrass.
+	#Comma-separated biome ids ("minecraft:desert"), biome tags ("#c:is_snowy"), and whole-mod
+	#wildcards ("somemod:*" or just "somemod"). Merged with the datapack tag
+	##streamsreflowing:no_underwater_flora, which SHIPS with snowy + desert biomes (both are honoured).
+	#New chunks only. Default empty (the shipped tag still applies).
+	#Perf: none.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	underwaterFloraBiomeBlacklist = ""
+
+#WATER & BOATS -- runtime behaviour of water itself. These affect ALL water in the world, not
+#just this mod's streams, and apply LIVE (no regeneration needed).
+[water]
+	#
+	#Let water spread across SOURCE-water surfaces so streams flow continuously over their own pools
+	#instead of stalling at them -- smoother, more natural flow.
+	#  true = on (default).  false = fully vanilla water spreading.
+	#Perf: light while playing. Affects how often water re-spreads.
+	#World: safe on an existing world -- applies the moment you save, everywhere.
+	spillOverWater = true
+	#
+	#Limit 'water spills over water' to water this mod gives a current to.
+	#  true  = only this mod's streams spread across a pool surface; all other water keeps vanilla
+	#          spreading exactly as it is.
+	#  false = every water block in the world spills over water (default, the classic behaviour).
+	#Turn this on if you want the stream look without changing how water behaves anywhere else.
+	#Perf: negligible either way.
+	#World: safe on an existing world -- applies the moment you save, everywhere.
+	spillOnStreamsOnly = true
+	#
+	#Load chunks faster on packs that generate chunks in parallel. Has no effect otherwise.
+	#Turn this OFF if world generation crashes, or if chunks stop loading around you.
+	#  true = faster loading where supported (default).  false = always use the safe path.
+	#Perf: IMPROVES chunk loading. Leave on unless diagnosing a problem.
+	#World: safe on an existing world -- applies the moment you save, everywhere.
+	fastChunkLoading = true
+	#
+	#Let boats float on flowing stream water instead of sinking when spilled water tops them (the current
+	#still carries you downstream; SOURCE water can still submerge a boat).
+	#  true = on (default).  false = vanilla boat behaviour.
+	#Perf: negligible.
+	#World: safe on an existing world -- applies the moment you save, everywhere.
+	boatsFloatOnFlowingWater = true
+	#
+	#Exempt water-dwelling mobs (fish, squid, dolphins, axolotls, glow squid, tadpoles, and
+	#water-breathing mobs that spawn in water like drowned and guardians) from being pushed by stream
+	#currents, so they hold their position in a stream instead of being swept downstream.
+	#  true = water mobs ignore the current (default).  false = the current carries them like anything else.
+	#Perf: negligible.
+	#World: safe on an existing world -- applies the moment you save, everywhere.
+	waterMobsIgnoreFlow = true
+	#
+	#How fast the current may carry dropped items (blocks per second). Streams run deeper than a thin
+	#vanilla spill, so without a cap items pick up much more speed; 3 matches the vanilla-spill pace.
+	#Perf: negligible.
+	#World: safe on an existing world -- applies the moment you save, everywhere.
+	#Range: 0.5 ~ 40.0
+	itemDriftSpeed = 1.5
+	#
+	#Give streams (and, with flowVanillaRivers, vanilla rivers) a downstream current while keeping the
+	#water as plain minecraft:water. Because the block stays real water, shaders, particle mods
+	#(splashes/ripples/wakes), texture packs, water sounds, and gameplay mods (seasons/temperature
+	#freezing, Create wheels, faucets) all just work.
+	#  true = flowing streams (default).  false = streams stay still water.
+	#Perf: light. Builds a small current grid per chunk in the background.
+	#World: safe on an existing world -- applies the moment you save, everywhere.
+	vanillaWaterFlow = true
+	#
+	#Give flat vanilla / terrain-mod rivers a single coherent downstream current toward the sea (a whole
+	#river flows one way, not a patchwork of conflicting currents). Needs vanillaWaterFlow on.
+	#Rivers not connected to an ocean within range are left still. New chunks only.
+	#  true = flow vanilla rivers (default).  false = leave them still.
+	#Perf: moderate background work when new areas load; nothing once built.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	flowVanillaRivers = true
+	#
+	#Keep a river flowing ONE way where it crosses between two areas of the map. Each area works
+	#out its currents on its own, and a long river can be judged differently at each end, which
+	#shows up as the current meeting itself head-on somewhere along it. With this on, an area
+	#being worked out takes the direction from any neighbouring area already done.
+	#  true = rivers agree across the join (default).  false = each area decides alone.
+	#Note: with this on, a river's direction can depend on which part of the map you explored
+	#first, so the same seed may give a long river the opposite current on a fresh playthrough.
+	#Only the current is affected -- the land, the rivers and everything in the world are identical
+	#either way, and once an area has been worked out its currents never change again.
+	#Perf: none. Reads what is already there.
+	#World: safe on an existing world -- applies to areas worked out from now on.
+	riverSeamAgreement = true
+	#
+	#Deep ReTerraForged integration, only when that mod is installed: streams follow its terrain and
+	#connect into its rivers at any elevation, and its rivers gain a flowing current plus spill-over.
+	#  true = integrate with ReTerraForged (default).  false = treat it like any other terrain mod.
+	#Perf: faster stream generation on ReTerraForged worlds. No effect at all without ReTerraForged.
+	#World: safe on an existing world; turning it off fully applies after leaving and re-entering.
+	reterraforgedCompat = true
+	#
+	#STREAM SPRAY ON A SERVER -- whether the splash, spray and foam around this server's streams
+	#reach the players on it. Only applies to a dedicated server; singleplayer always shows them.
+	#  true  = players see stream spray (default). Players who do NOT have this mod installed are
+	#          turned away when they try to join.
+	#  false = nobody sees stream spray, and players without this mod can join freely.
+	#Perf: none.
+	#World: safe on an existing world -- takes effect the next time the server starts.
+	serverStreamParticles = true
+	#
+	#Which biomes a stream is allowed to open its mouth into: a comma-separated list of biome TAGS (written
+	#with a leading #) and plain biome ids. A stream's mouth must END in a listed biome, standing in real
+	#water at least a block below sea level: from where its route reaches sea-level ground it keeps walking,
+	#over ground no higher than the sea, until it does -- then a little further into deeper water so it does
+	#not stop in the shallows. Leave it EMPTY to accept any body of water at all.
+	#This mod's own lakes are never subject to it and end a stream whatever the list says.
+	#A stream that cannot reach water it may join is not generated, so a shorter list means fewer streams.
+	#Perf: none directly; a shorter list means fewer streams to build.
+	#World: RESHAPES THE STREAM NETWORK -- new land will not line up with land already generated.
+	outletBiomes = "#minecraft:is_river,#minecraft:is_ocean,#c:is_swamp,#c:is_wet"
+	#
+	#The Physics Mod draws its own effect over water that is flowing, so on a stream it lays a second,
+	#shimmering animation over this mod's current.
+	#  0 = leave it alone, and see both.
+	#  1 = switch the Physics Mod's water effect off, leaving only the stream current (default). Its ocean
+	#      waves are untouched.
+	#This mod's own animation is never the one turned off: suppressing it would leave the water still, since
+	#a stream is source water with no current of its own to fall back to.
+	#Perf: none.
+	#World: safe on an existing world -- applies the moment you save.
+	#Range: 0 ~ 1
+	physicsModWater = 1
+	#
+	#When the Flowing Fluids mod is installed, fill stream channels with our own dedicated stream
+	#fluid instead of plain water. Flowing Fluids makes vanilla water finite and lets it drain away,
+	#which empties water-based streams; our stream fluid stays put and keeps its downstream current.
+	#Has no effect unless Flowing Fluids is present. New chunks only.
+	#  true = use the stream fluid under Flowing Fluids (default).  false = always plain water.
+	#Perf: negligible.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	bakedFluidWhenFlowingFluids = true
+	#
+	#ALWAYS fill stream channels with the mod's own dedicated stream water instead of plain water,
+	#whatever other mods are present. For setups where something interferes with plain-water
+	#streams -- water physics or finite-water mods draining them, or structures whose own water
+	#spills into a channel: the stream fluid stays put, keeps its downstream current, and cannot
+	#be displaced. While this is on, the 'water spills over water' behaviour applies ONLY to the
+	#stream fluid: plain vanilla water everywhere keeps untouched vanilla spreading.
+	#New chunks only. Players joining a server with this on need the mod installed.
+	#  false = automatic (default): plain water; the stream fluid only under Flowing Fluids.
+	#Perf: negligible.
+	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
+	forceBakedFluid = false
+
+#EXPERIMENTAL -- off by default, rough edges, niche. Most change the network (NEW chunks only).
+[experimental]
+	#
+	#Join a stream that peters out near ANOTHER stream (even one in a neighbouring region) into it, so
+	#cross-region streams that just miss each other link up. Only ever routes downhill and forward.
+	#  MODERATE COST: a region must also build its neighbours to see across the border. Streams reaching
+	#  the sea or a lake already connect without this, so leave it off unless you want stream-to-stream joins.
+	#  true = on.  false = off (default).
+	#Perf: light at generation.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	connectNearbyWater = false
+	#
+	#How far (blocks) a dead-end looks for another stream to join, when connectNearbyWater is on.
+	#  HIGHER = bridges bigger gaps (less natural).  LOWER = only near-touching streams.
+	#-1 = auto (24).
+	#Perf: light at generation. Larger radius searches further for water.
+	#World: CHANGES THE STREAM NETWORK. Takes effect only after the world is RELOADED (quit to title and reopen, or restart the server), and only in NEW chunks -- streams will not line up where new land meets old. Best chosen before starting a world.
+	#Range: -1 ~ 96
+	connectRadius = -1
+

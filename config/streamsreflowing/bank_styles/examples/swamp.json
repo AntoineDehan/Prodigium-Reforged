@@ -1,0 +1,13 @@
+{
+  "biomes": [
+    "minecraft:swamp"
+  ],
+  "bed": "minecraft:mud",
+  "waterline": "minecraft:mud",
+  "bank": "streamsreflowing:chameleon",
+  "waterline_below": 2,
+  "waterline_above": 2,
+  "underwater_noise": 0.25,
+  "above_water_noise": 0.23,
+  "cohesion": 1.0
+}

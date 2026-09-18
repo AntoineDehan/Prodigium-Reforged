@@ -1,0 +1,8 @@
+{
+  "biomes": ["minecraft:forest", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:old_growth_birch_forest"],
+  "bed": ["minecraft:clay", "minecraft:gravel"], "waterline": "minecraft:gravel",
+  "bank": "streamsreflowing:chameleon",
+  "waterline_below": 1, "waterline_above": 0,
+  "underwater_noise": 0.12, "above_water_noise": 0.12,
+  "cohesion": 1.0
+}

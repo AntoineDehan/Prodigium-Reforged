@@ -1,0 +1,9 @@
+{
+  "tags": ["c:is_ocean"],
+  "bed": "minecraft:mud",
+  "waterline": "minecraft:mud",
+  "bank": "minecraft:air",
+  "waterline_below": 1, "waterline_above": 0,
+  "underwater_noise": 0.08, "above_water_noise": 0.05,
+  "cohesion": 0.2
+}

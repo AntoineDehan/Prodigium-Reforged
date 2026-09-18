@@ -1,0 +1,10 @@
+{
+  "biomes": ["minecraft:river"],
+  "bed": ["minecraft:gravel", "minecraft:clay"],
+  "waterline": ["minecraft:gravel", "minecraft:clay"],
+  "bank": "minecraft:air",
+  "waterline_below": 3, "waterline_above": 0,
+  "underwater_noise": 0.25, "above_water_noise": 0.15,
+  "cohesion": 0.3,
+  "point_bar": ["minecraft:gravel", "minecraft:sand"]
+}
