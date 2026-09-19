@@ -23,7 +23,7 @@
     },
     {
       "type": "effect",
-      "name": "alexsmobs:soulsteal",
+      "name": "kubejs:life_stealer",
       "value": 0.0
     }
   ]

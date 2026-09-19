@@ -30,7 +30,7 @@
     },
     {
       "type": "effect",
-      "name": "alexsmobs:poison_resistance",
+      "name": "mowziesmobs:poison_resist",
       "value": 0.0
     }
   ]

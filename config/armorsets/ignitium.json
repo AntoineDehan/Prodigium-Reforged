@@ -20,11 +20,6 @@
       "value": 0.0
     },
     {
-      "type": "effect",
-      "name": "alexsmobs:knockback_resistance",
-      "value": 0.0
-    },
-    {
       "type": "attribute",
       "name": "minecraft:generic.armor",
       "value": 3.0,

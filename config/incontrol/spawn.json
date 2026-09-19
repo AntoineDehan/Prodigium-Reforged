@@ -39,7 +39,7 @@
     "result": "allow",
     "healthmultiply": 1.5,
     "damagemultiply": 1.4,
-    "potion": ["alexsmobs:poison_resistance,4550,0"],
+    "potion": ["mowziesmobs:poison_resist,4550,0"],
     "when": "onjoin"
   },
   {
@@ -124,15 +124,6 @@
     "result": "allow",
     "armoradd": 2,
     "when": "onjoin"
-  },
-  {
-    "mob": ["alexsmobs:skelewag"],
-    "gamestage": "stage_expert",
-    "result": "default"
-  },
-  {
-    "mob": ["alexsmobs:skelewag"],
-    "result": "deny"
   },
   {
     "mob": ["terra_entity:goblin_archer"],

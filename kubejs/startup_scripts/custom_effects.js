@@ -1344,6 +1344,18 @@ StartupEvents.registry("mob_effect", (event) => {
       "multiply_total",
     );
 
+  // Life Stealer
+  event
+    .create("life_stealer")
+    .color(0xffd27f)
+    .beneficial()
+    .modifyAttribute(
+      "attributecore:life_on_hit",
+      "67f04e2d-0e5f-4be9-a586-34648cd7aa53",
+      0.02,
+      "additon",
+    );
+
   ///// Skill Tree \\\\
 
   //Spell Booster
