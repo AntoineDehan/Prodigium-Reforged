@@ -63,12 +63,10 @@ ItemEvents.tooltip((event) => {
       "companions:book_stone_spikes",
       "companions:book_magic_ray",
       "companions:book_black_hole",
-      "companions:book_naginita",
+      "companions:book_naginata",
     ],
     [Text.gray("Only usable by pets!")],
   );
-
-  event.add("kybejs:ancient_cobalt_bow", [Text.gold("Infinite Arrows")]);
 
   // Bows
   event.add("kubejs:arcanethyst_bow", [Text.gold("Shoots two magic arrows")]);

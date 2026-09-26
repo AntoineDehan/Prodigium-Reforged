@@ -57,7 +57,7 @@ JEIEvents.information((event) => {
   // Nurse
   event.addItem(
     [
-      "ennemyexpansion:healing_eye",
+      "enemyexpansion:healing_eye",
       "confluence:band_of_regeneration",
       "confluence:cross_necklace",
     ],

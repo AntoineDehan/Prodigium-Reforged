@@ -5,7 +5,7 @@ rareBlocks = ["stalwart_dungeons:tungsten_ore", "prodigium:orichalcum_ore", "pro
 #In order for the creature to be found by the Life Form Analyzer
 #You need to fill the list with string like 'modid:entity'
 #The order of the entities in the list is the order of their rarity
-rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay", "minecraft:axolotl", "minecraft:evoker", "minecraft:piglin_prute", "minecraft:vindicator", "minecraft:enderman"]
+rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay", "minecraft:axolotl", "minecraft:evoker", "minecraft:piglin_brute", "minecraft:vindicator", "minecraft:enderman"]
 #Range: 6 ~ 100
 "Max Accessory Amount" = 7
 
