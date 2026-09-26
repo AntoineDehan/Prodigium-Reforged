@@ -1,0 +1,7 @@
+{
+  "entity": "luminous_monsters:miner_skeleton",
+  "count": 1,
+  "chance": 1.0,
+  "spawn_effect": "poof",
+  "snbt": "{PersistenceRequired:1b,HandItems:[{id:\"minecraft:bow\",Count:1b,tag:{Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:flame\",lvl:2s}]}},{}],ArmorItems:[{id:\"minecraft:diamond_boots\",Count:1b,tag:{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:wild\"}}},{id:\"minecraft:diamond_leggings\",Count:1b,tag:{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:wild\"}}},{id:\"minecraft:diamond_chestplate\",Count:1b,tag:{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:wild\"}}},{id:\"minecraft:diamond_helmet\",Count:1b,tag:{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:wild\"}}}],HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],DeathLootTable:\"dungeonnowloading:entities/modified/diamond_skeleton\"}"
+}

@@ -1,0 +1,7 @@
+{
+  "entity": "luminous_monsters:miner_zombie",
+  "count": 2,
+  "chance": 1.0,
+  "spawn_effect": "poof",
+  "snbt": "{PersistenceRequired:1b,ArmorItems:[{id:\"minecraft:iron_boots\",Count:1b,tag:{Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:wild\"}}},{id:\"minecraft:iron_leggings\",Count:1b,tag:{Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:wild\"}}},{id:\"minecraft:iron_chestplate\",Count:1b,tag:{Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:wild\"}}},{id:\"minecraft:iron_helmet\",Count:1b,tag:{Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:wild\"}}}],HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],DeathLootTable:\"dungeonnowloading:entities/modified/iron_zombie\"}"
+}

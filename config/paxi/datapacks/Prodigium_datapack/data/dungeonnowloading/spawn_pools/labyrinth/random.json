@@ -1,0 +1,65 @@
+{
+  "entries": [
+    { "weight": 20, "node": "dungeonnowloading:labyrinth/zombie/iron_axe" },
+    { "weight": 20, "node": "dungeonnowloading:labyrinth/zombie/gold_sword" },
+    { "weight": 5, "node": "dungeonnowloading:labyrinth/zombie/gold_axe" },
+    { "weight": 5, "node": "dungeonnowloading:labyrinth/zombie/diamond_axe" },
+    { "weight": 5, "node": "dungeonnowloading:labyrinth/zombie/miner" },
+    { "weight": 10, "node": "dungeonnowloading:labyrinth/zombie/frigid" },
+    {
+      "weight": 20,
+      "node": "dungeonnowloading:labyrinth/skeleton/weak_flame_bow"
+    },
+    {
+      "weight": 20,
+      "node": "dungeonnowloading:labyrinth/skeleton/weak_punch_bow"
+    },
+    {
+      "weight": 5,
+      "node": "dungeonnowloading:labyrinth/skeleton/strong_flame_bow"
+    },
+    {
+      "weight": 5,
+      "node": "dungeonnowloading:labyrinth/skeleton/strong_punch_bow"
+    },
+    {
+      "weight": 3,
+      "node": "dungeonnowloading:labyrinth/spawner_carrier/zombie"
+    },
+    {
+      "weight": 2,
+      "node": "dungeonnowloading:labyrinth/spawner_carrier/skeleton"
+    },
+    {
+      "weight": 2,
+      "node": "dungeonnowloading:labyrinth/spawner_carrier/spider"
+    },
+    {
+      "weight": 2,
+      "node": "dungeonnowloading:labyrinth/spawner_carrier/creeper"
+    },
+    {
+      "weight": 1,
+      "node": "dungeonnowloading:labyrinth/spawner_carrier/silverfish"
+    },
+    {
+      "weight": 1,
+      "node": "dungeonnowloading:labyrinth/spawner_carrier/cave_spider"
+    },
+    {
+      "weight": 1,
+      "node": "dungeonnowloading:labyrinth/spawner_carrier/hollow"
+    },
+    { "weight": 10, "node": "dungeonnowloading:labyrinth/garhold" },
+    {
+      "weight": 10,
+      "node": "dungeonnowloading:labyrinth/jockey/skeleton_spider"
+    },
+    {
+      "weight": 5,
+      "node": "dungeonnowloading:labyrinth/jockey/skeleton_cave_spider"
+    },
+    { "weight": 10, "node": "dungeonnowloading:labyrinth/rare/dreadknight" },
+    { "weight": 10, "node": "dungeonnowloading:labyrinth/rare/corpse_eater" }
+  ]
+}

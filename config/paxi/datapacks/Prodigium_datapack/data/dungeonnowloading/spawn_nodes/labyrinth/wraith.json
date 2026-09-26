@@ -1,0 +1,7 @@
+{
+  "entity": "undead_unleashed:wraith",
+  "count": 3,
+  "chance": 1.0,
+  "spawn_effect": "poof",
+  "snbt": "{PersistenceRequired:1b}"
+}

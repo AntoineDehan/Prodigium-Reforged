@@ -1,0 +1,7 @@
+{
+  "entity": "dungeonnowloading:spawner_carrier",
+  "count": 1,
+  "chance": 1.0,
+  "spawn_effect": "poof",
+  "snbt": "{PersistenceRequired:1b,StoredEntityId:\"minecraft:cave_spider\",StoredEntityNbt:{}}"
+}

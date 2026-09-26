@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "weight": 20,
+      "node": "dungeonnowloading:labyrinth/skeleton/weak_flame_bow"
+    },
+    {
+      "weight": 20,
+      "node": "dungeonnowloading:labyrinth/skeleton/weak_punch_bow"
+    },
+    {
+      "weight": 5,
+      "node": "dungeonnowloading:labyrinth/skeleton/strong_flame_bow"
+    },
+    {
+      "weight": 5,
+      "node": "dungeonnowloading:labyrinth/skeleton/strong_punch_bow"
+    },
+    {
+      "weight": 8,
+      "node": "dungeonnowloading:labyrinth/skeleton/frigid"
+    },
+    {
+      "weight": 8,
+      "node": "dungeonnowloading:labyrinth/skeleton/miner"
+    }
+  ]
+}

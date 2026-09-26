@@ -20,6 +20,17 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("wizards:fire_robe_legs", "Nether Wizard Robe Bottom");
   event.renameItem("wizards:fire_robe_feet", "Nether Wizard Boots");
 
+  event.renameItem("undead_unleashed:plate_helmet", "Valkyrie Plated Helmet");
+  event.renameItem(
+    "undead_unleashed:plate_chestplate",
+    "Valkyrie Plated Chestplate",
+  );
+  event.renameItem(
+    "undead_unleashed:plate_leggings",
+    "Valkyrie Plate Leggings",
+  );
+  event.renameItem("undead_unleashed:plate_boots", "Valkyrie Plated Boots");
+
   //// Simple Weapons
   // Corinthium -> Adamantium
   event.renameItem("simple_weapons:corinthium_scimitar", "Adamantium Scimitar");
@@ -27,7 +38,7 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("simple_weapons:corinthium_dagger", "Adamantium Dagger");
   event.renameItem(
     "simple_weapons:corinthium_greatsword",
-    "Adamantium Greatsword"
+    "Adamantium Greatsword",
   );
   event.renameItem("simple_weapons:corinthium_spear", "Adamantium Spear");
   event.renameItem("simple_weapons:corinthium_fist", "Adamantium Katar");

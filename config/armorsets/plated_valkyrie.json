@@ -2,16 +2,16 @@
   "armorSetName": "crusader",
   "performanceMode": true,
   "head": {
-    "itemKey": "kubejs:plated_valkyrie_helmet"
+    "itemKey": "undead_unleashed:plate_helmet"
   },
   "chest": {
-    "itemKey": "kubejs:plated_valkyrie_chestplate"
+    "itemKey": "undead_unleashed:plate_chestplate"
   },
   "legs": {
-    "itemKey": "kubejs:plated_valkyrie_leggings"
+    "itemKey": "undead_unleashed:plate_leggings"
   },
   "boots": {
-    "itemKey": "kubejs:plated_valkyrie_boots"
+    "itemKey": "undead_unleashed:plate_boots"
   },
   "fullSetBonuses": [
     {
