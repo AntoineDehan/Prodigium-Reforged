@@ -4,7 +4,7 @@
   "pattern": ["A A", "B B"],
   "key": {
     "B": {
-      "tag": "forge:wools"
+      "tag": "minecraft:wool"
     },
     "A": {
       "item": "prodigium_reforged:umvuthi_feather"

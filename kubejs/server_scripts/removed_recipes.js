@@ -195,7 +195,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "simplyswords:runic_halberd" });
 
   // Companions
-  event.remove({ output: "companions:recall_platfrom_block" });
+  event.remove({ output: "companions:recall_platform_block" });
   event.remove({ output: "companions:frog_bonanza_block" });
   event.remove({ output: "companions:book_ice_shard" });
   event.remove({ output: "companions:book_ice_tornado" });
