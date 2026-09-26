@@ -13,7 +13,7 @@ ItemEvents.modification((event) => {
   event.modify("simpleores:copper_boots", (item) => {
     item.armorProtection = 2;
   });
-  event.modify("simpleores:copper_leggins", (item) => {
+  event.modify("simpleores:copper_leggings", (item) => {
     item.armorProtection = 4;
   });
 
@@ -21,7 +21,7 @@ ItemEvents.modification((event) => {
   event.modify("minecraft:iron_helmet", (item) => {
     item.armorProtection = 3;
   });
-  event.modify("minecraft:iron_chesplate", (item) => {
+  event.modify("minecraft:iron_chestplate", (item) => {
     item.armorProtection = 5;
   });
   event.modify("minecraft:iron_leggings", (item) => {
