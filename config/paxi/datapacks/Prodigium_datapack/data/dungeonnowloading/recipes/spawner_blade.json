@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["B##", " A#", "A  "],
+  "key": {
+    "#": {
+      "item": "dungeonnowloading:spawner_frame"
+    },
+    "A": {
+      "item": "prodigium:palladium_ingot"
+    },
+    "B": {
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  },
+  "result": {
+    "item": "dungeonnowloading:spawner_blade"
+  }
+}

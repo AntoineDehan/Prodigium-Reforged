@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AXA", "# #", "   "],
+  "key": {
+    "#": {
+      "item": "dungeonnowloading:spawner_frame"
+    },
+    "X": {
+      "item": "dungeonnowloading:soul_silk"
+    },
+    "A": {
+      "item": "undead_unleashed:heavy_plating"
+    }
+  },
+  "result": {
+    "item": "dungeonnowloading:spawner_helmet"
+  }
+}
