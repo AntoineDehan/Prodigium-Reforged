@@ -101,7 +101,8 @@ LootJS.modifiers((event) => {
 
   event
     .addLootTableModifier(
-      "dungeons_arise:chests/heavenly_challenger/heavenly_challenger",
+      "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal",
+      "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_theater",
     )
     //Onyx
     .removeLoot("simpleores:onyx_gem");
@@ -335,7 +336,7 @@ LootJS.modifiers((event) => {
     .randomChance(0.12)
     .addLoot("kubejs:ancient_cobalt_bow")
     .randomChance(0.15)
-    .addLoot("majruuszsdifficulty:recall_potion");
+    .addLoot("majruszsdifficulty:recall_potion");
 
   event
     .addLootTableModifier("lootintegrations:chests/medium")
@@ -344,7 +345,7 @@ LootJS.modifiers((event) => {
     .randomChance(0.15)
     .addLoot("confluence:hermes_boots")
     .randomChance(0.05)
-    .addLoot("majruuszsdifficulty:recall_potion");
+    .addLoot("majruszsdifficulty:recall_potion");
 
   event
     .addLootTableModifier("lootintegrations:chests/hard")

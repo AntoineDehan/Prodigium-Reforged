@@ -6,7 +6,6 @@ let treasureBags = [
   "prodigium:dead_king_treasure_bag",
   "prodigium:ender_guardian_treasure_bag",
   "prodigium:frostmaw_treasure_bag",
-  "prodigium:gautlet_treasure_bag",
   "prodigium:harbinger_treasure_bag",
   "prodigium:ignis_treasure_bag",
   "prodigium:leviathan_treasure_bag",

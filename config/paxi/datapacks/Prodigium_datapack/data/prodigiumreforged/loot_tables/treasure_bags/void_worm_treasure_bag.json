@@ -20,11 +20,6 @@
           "type": "minecraft:item",
           "name": "alexsmobs:void_worm_mandible",
           "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terrawhips_and_more:morningstar",
-          "weight": 8
         }
       ]
     },
