@@ -15,7 +15,7 @@
   ],
   "type": "corail_woodcutter:woodcutting",
   "ingredient": {
-    "tag": "regions_unexplored:cherry_logs"
+    "tag": "minecraft:cherry_logs"
   },
   "result": "regions_unexplored:cherry_branch",
   "count": 1
