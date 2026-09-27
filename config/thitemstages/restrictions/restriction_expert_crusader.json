@@ -27,7 +27,7 @@
         "item": "aether:valkyrie_boots"
       },
       {
-        "item": "block_factorys_bosses:dragon_helmet"
+        "item": "block_factorys_bosses:dragon_skull"
       },
       {
         "item": "block_factorys_bosses:dragon_bones_chestplate"
@@ -42,13 +42,13 @@
         "item": "kubejs:plated_valkyrie_helmet"
       },
       {
-        "item": "kubejs:plated_valkyrie_bones_chestplate"
+        "item": "kubejs:plated_valkyrie_chestplate"
       },
       {
-        "item": "kubejs:plated_valkyrie_bones_leggings"
+        "item": "kubejs:plated_valkyrie_leggings"
       },
       {
-        "item": "kubejs:plated_valkyrie_bones_boots"
+        "item": "kubejs:plated_valkyrie_boots"
       }
     ],
     "modList": [],

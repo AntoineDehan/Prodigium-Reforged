@@ -65,7 +65,7 @@ LootJS.modifiers((event) => {
       "born_in_chaos_v1:barrel_zombie"
     )
     .randomChance(0.025)
-    .addWeightedLoot([1], [Item.of("confluence:band_of_regneration")]);
+    .addWeightedLoot([1], [Item.of("confluence:band_of_regeneration")]);
 
   event
     .addEntityLootModifier(
@@ -124,7 +124,7 @@ LootJS.modifiers((event) => {
   event
     .addEntityLootModifier("earthtojavamobs:viler_witch")
     .randomChance(0.1)
-    .addWeightedLoot([0, 1], [Item.of("confluence:band_of_regneration")]);
+    .addWeightedLoot([0, 1], [Item.of("confluence:band_of_regeneration")]);
 
   event
     .addEntityLootModifier(

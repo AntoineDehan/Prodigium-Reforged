@@ -87,7 +87,7 @@ ServerEvents.tags("item", (event) => {
     "simplyswords:soulkeeper",
     "cataclysm:infernal_forge",
     "simplyswords:hearthflame",
-    "simplysowrds:hiveheart",
+    "simplyswords:hiveheart",
   );
 
   event.add(

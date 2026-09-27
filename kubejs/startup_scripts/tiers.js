@@ -56,7 +56,7 @@ ItemEvents.armorTierRegistry((event) => {
     tier.slotProtections = [6, 7, 8, 6];
     tier.enchantmentValue = 14;
     tier.equipSound = "minecraft:item.armor.equip_leather";
-    tier.repairIngredient = "prodigium_reforged:nether_bones";
+    tier.repairIngredient = "prodigium_reforged:nether_bone";
     tier.toughness = 0.0;
     tier.knockbackResistance = 0.0;
   });
@@ -106,7 +106,7 @@ ItemEvents.armorTierRegistry((event) => {
     tier.slotProtections = [7, 9, 9, 7];
     tier.enchantmentValue = 15;
     tier.equipSound = "minecraft:item.armor.equip_leather";
-    tier.repairIngredient = "prodigium_reforged:leaviathan_scale";
+    tier.repairIngredient = "prodigium_reforged:leviathan_scale";
     tier.toughness = 0.0;
     tier.knockbackResistance = 0.0;
   });
