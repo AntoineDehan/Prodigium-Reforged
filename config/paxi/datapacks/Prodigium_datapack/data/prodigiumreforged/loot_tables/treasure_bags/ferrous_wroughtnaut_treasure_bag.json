@@ -6,6 +6,15 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "prodigium_reforged:wrought_shoulder_piece"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "mowziesmobs:wrought_axe"
         }
       ]
@@ -38,8 +47,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 3
+                "min": 4,
+                "max": 8
               }
             }
           ]

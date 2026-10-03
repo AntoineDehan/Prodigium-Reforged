@@ -6,8 +6,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "block_factorys_bosses:dragon_skull",
-          "weight": 1
+          "name": "prodigium_reforged:ashlords_roar"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "block_factorys_bosses:dragon_skull"
         }
       ]
     },
@@ -17,13 +25,12 @@
         {
           "type": "minecraft:item",
           "name": "block_factorys_bosses:dragon_bone",
-          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 11,
-                "max": 15
+                "min": 20,
+                "max": 38
               }
             }
           ]
@@ -41,7 +48,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.3
+          "chance": 0.5
         }
       ]
     },

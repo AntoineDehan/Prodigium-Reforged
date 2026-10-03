@@ -15,6 +15,15 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "prodigium_reforged:acid_flask"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "bypowderandsteel:gunsteel_scrap",
           "weight": 1,
           "functions": [
@@ -72,8 +81,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 12,
+                "max": 20
               }
             }
           ]

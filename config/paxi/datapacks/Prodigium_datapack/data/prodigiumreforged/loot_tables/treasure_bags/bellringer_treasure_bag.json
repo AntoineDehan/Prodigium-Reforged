@@ -2,15 +2,11 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "meetyourfight:phantoplasm",
-          "weight": 1
+          "name": "meetyourfight:phantoplasm"
         }
       ]
     },
@@ -42,8 +38,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 10,
+                "max": 15
               }
             }
           ]

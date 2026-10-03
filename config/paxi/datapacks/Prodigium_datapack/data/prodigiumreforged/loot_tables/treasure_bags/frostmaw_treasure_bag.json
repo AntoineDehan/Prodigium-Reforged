@@ -6,8 +6,34 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "endrem:cold_eye",
-          "weight": 1
+          "name": "endrem:cold_eye"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prodigium_reforged:frozen_arrow_head"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prodigium_reforged:frostmaw_hide",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 20,
+                "max": 31
+              }
+            }
+          ]
         }
       ]
     },
@@ -37,7 +63,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.5
+          "chance": 0.6
         }
       ]
     },
@@ -49,20 +75,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "prodigium_reforged:frostmaw_hide",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 8,
-                "max": 20
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "irons_spellbooks:frozen_bone",
           "weight": 4,
           "functions": [
@@ -70,7 +82,21 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:ice_venom_vial",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
               }
             }
           ]

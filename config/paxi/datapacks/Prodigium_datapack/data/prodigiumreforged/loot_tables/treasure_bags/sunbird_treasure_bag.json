@@ -16,14 +16,24 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "prodigium_reforged:sunbird_amulet",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "prodigium_reforged:umvuthi_feather",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 10,
-                "max": 24
+                "min": 6,
+                "max": 10
               }
             }
           ]
@@ -66,40 +76,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "naturescompass:naturescompass",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
           "name": "earthtojavamobs:fancy_feather",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "alexsmobs:roadrunner_feather",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "alexsmobs:emu_feather",
           "weight": 5,
           "functions": [
             {
