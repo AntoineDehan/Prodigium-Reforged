@@ -215,7 +215,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -410,7 +410,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["51F86D6012A589B2"]
@@ -422,7 +422,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["51F86D6012A589B2"]
@@ -434,7 +434,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["51F86D6012A589B2"]
@@ -447,7 +447,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["51F86D6012A589B2"]
@@ -459,7 +459,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["51F86D6012A589B2"]
@@ -471,7 +471,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["51F86D6012A589B2"]
@@ -483,7 +483,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["51F86D6012A589B2"]
@@ -496,7 +496,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["51F86D6012A589B2"]
@@ -999,6 +999,26 @@
 			}]
 			x: 9.5d
 			y: 8.0d
+		}
+		{
+			id: "753A8CF5516D25BD"
+			tasks: [{
+				id: "52BB052288E05139"
+				item: "prodigium_reforged:gunpowder_sack"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "597D9F78103CEF5F"
+			tasks: [{
+				id: "379578371EED4277"
+				item: "prodigium_reforged:acid_flask"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
 		}
 	]
 	title: "Gunner"

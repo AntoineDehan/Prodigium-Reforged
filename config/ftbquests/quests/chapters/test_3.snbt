@@ -11,7 +11,7 @@
 			image: "bettericons:textures/items/tile005.png"
 			rotation: 0.0d
 			width: 3.5d
-			x: 34.5d
+			x: 37.5d
 			y: 2.0d
 		}
 		{
@@ -20,7 +20,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 40.0d
 			width: 1.0d
-			x: 33.5d
+			x: 36.5d
 			y: 1.0d
 		}
 		{
@@ -29,7 +29,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 20.0d
 			width: 0.8d
-			x: 35.5d
+			x: 38.5d
 			y: 1.0d
 		}
 		{
@@ -38,7 +38,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 0.9d
-			x: 33.0d
+			x: 36.0d
 			y: 1.5d
 		}
 		{
@@ -47,7 +47,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 35.0d
+			x: 38.0d
 			y: 0.0d
 		}
 		{
@@ -56,7 +56,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 0.65d
-			x: 34.0d
+			x: 37.0d
 			y: 0.5d
 		}
 		{
@@ -64,7 +64,7 @@
 			image: "prodigium_reforged:textures/gui/normal_mode.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 17.5d
+			x: 18.0d
 			y: -1.0d
 		}
 		{
@@ -109,7 +109,7 @@
 			image: "minecraft:item/diamond"
 			rotation: -30.0d
 			width: 1.5d
-			x: 24.0d
+			x: 28.0d
 			y: 0.0d
 		}
 		{
@@ -118,7 +118,7 @@
 			image: "minecraft:item/diamond"
 			rotation: -5.0d
 			width: 1.0d
-			x: 24.5d
+			x: 28.5d
 			y: -0.5d
 		}
 		{
@@ -181,12 +181,6 @@
 			disable_toast: true
 			id: "3941AFCFA581CDB6"
 			rewards: [
-				{
-					auto: "enabled"
-					id: "584DD4AC83F6EFBE"
-					item: "alexsmobs:animal_dictionary"
-					type: "item"
-				}
 				{
 					auto: "no_toast"
 					id: "1330ACB2FF423A3A"
@@ -285,7 +279,7 @@
 				title: "Unlock the &4Expert Mode&r"
 				type: "dimension"
 			}]
-			x: 34.5d
+			x: 37.5d
 			y: 2.25d
 		}
 		{
@@ -572,6 +566,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "7A5C45B9053E6546"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -582,6 +577,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1256A82A1F509B60"
+					silent: true
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -591,6 +587,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "2B527BD465AA6F35"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -601,6 +598,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "588BB9AF6099341A"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -611,6 +609,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "76D0F8F22387BDFE"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -621,6 +620,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "4AC0E6C52FBE79D8"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -631,6 +631,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "391C25579928E8D4"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -641,6 +642,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "20C8E33968AA9F31"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -685,7 +687,7 @@
 					type: "item"
 				}
 			]
-			x: 24.5d
+			x: 28.5d
 			y: 0.5d
 		}
 		{
@@ -778,7 +780,7 @@
 				type: "item"
 			}]
 			title: "You now have unlocked &3diamonds&r"
-			x: 26.0d
+			x: 30.0d
 			y: -1.5d
 		}
 		{
@@ -806,7 +808,7 @@
 				type: "item"
 			}]
 			title: "Obtain an enchanting table"
-			x: 26.0d
+			x: 30.0d
 			y: -0.5d
 		}
 		{
@@ -1229,7 +1231,7 @@
 					type: "item"
 				}
 			]
-			x: 30.0d
+			x: 34.0d
 			y: 2.0d
 		}
 		{
@@ -1320,10 +1322,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"076CA10541A9CDF3"
-				"059DA9E1AF69D4DC"
-			]
+			dependencies: ["697176B4AB2A84FA"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Found in his village, the &2Umvuthana Grove&r."
@@ -1398,7 +1397,7 @@
 					type: "item"
 				}
 			]
-			x: 22.0d
+			x: 26.0d
 			y: -1.0d
 		}
 		{
@@ -1652,6 +1651,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "10CB393C8C5DE472"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1662,6 +1662,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "35EB4C545E1A5A46"
+					silent: true
 					title: "&6+2 Skill Points&r"
 					type: "command"
 				}
@@ -1671,6 +1672,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "0430F96D31191CE7"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1681,6 +1683,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "288245283910ADE9"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1691,6 +1694,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "1DE0004EEEEAE00D"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1701,6 +1705,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "77F98F04F3658BE7"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1711,6 +1716,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "53BEA2E8DCC2DD18"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1721,6 +1727,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "01B3423F33AA860D"
+					silent: true
 					team_reward: false
 					title: "&6+2 Skill Points&r"
 					type: "command"
@@ -1736,13 +1743,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 27.0d
+			x: 31.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["53EAB8D1FE264583"]
+			dependencies: ["6D61611F129254CB"]
 			description: ["Summon it using a &9Worm Food&r."]
 			id: "059DA9E1AF69D4DC"
+			optional: true
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1768,8 +1776,8 @@
 					type: "command"
 				}
 			]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "octagon"
+			size: 1.25d
 			tasks: [{
 				entity: "terra_entity:eater_of_worlds"
 				icon: "terra_entity:eater_of_world_spawn_egg"
@@ -1778,13 +1786,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 17.5d
-			y: -3.5d
+			x: 16.875d
+			y: 2.5d
 		}
 		{
-			dependencies: ["53EAB8D1FE264583"]
+			dependencies: ["2AA533E3047745A0"]
 			description: ["Summon it using the &9Bloody Spine&r."]
 			id: "076CA10541A9CDF3"
+			optional: true
 			rewards: [
 				{
 					auto: "no_toast"
@@ -1810,8 +1819,8 @@
 					type: "command"
 				}
 			]
-			shape: "hexagon"
-			size: 2.0d
+			shape: "octagon"
+			size: 1.25d
 			tasks: [{
 				entity: "terra_entity:brain_of_cthulhu"
 				icon: "terra_entity:brain_of_cthulhu_spawn_egg"
@@ -1820,8 +1829,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 17.5d
-			y: 1.5d
+			x: 17.125d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A1D4191D9A098E9"]
@@ -1918,7 +1927,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 22.0d
+			x: 26.0d
 			y: -3.0d
 		}
 		{
@@ -2009,6 +2018,65 @@
 			title: "Teleport to your friends!"
 			x: 3.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["281435B11C0F1243"]
+			description: ["Boss secondaire, utile pour une armure?&l"]
+			id: "6F87B289945C75E0"
+			optional: true
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				entity: "irons_spellbooks:ice_spider"
+				id: "0CD6E20E4AFC9FDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 28.375d
+			y: 2.5d
+		}
+		{
+			dependencies: ["53EAB8D1FE264583"]
+			id: "2AA533E3047745A0"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "186856EF2156011B"
+				structure: "dungeonnowloading:labyrinth"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53EAB8D1FE264583"]
+			id: "6D61611F129254CB"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "7D1CE50E2944FD79"
+				title: "NEED A CUSTOM GATE TO BE DONE TO UNLOCK DUNGEON"
+				type: "custom"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2AA533E3047745A0"
+				"6D61611F129254CB"
+			]
+			id: "697176B4AB2A84FA"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "dungeonnowloading:chaos_spawner"
+				id: "258AD7FCBD8EB6F8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 23.0d
+			y: -1.0d
 		}
 	]
 	title: "Normal Mode"

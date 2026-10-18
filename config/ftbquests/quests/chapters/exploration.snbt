@@ -5,7 +5,7 @@
 	group: "04557421BF808B7D"
 	icon: {
 		Count: 1
-		id: "alexsmobs:roadrunner_boots"
+		id: "deep_aether:stormforged_boots"
 		tag: {
 			Damage: 0
 		}
@@ -131,7 +131,7 @@
 			tasks: [{
 				icon: {
 					Count: 1
-					id: "alexsmobs:roadrunner_boots"
+					id: "lost_aether_content:agility_boots"
 					tag: {
 						Damage: 0
 					}
@@ -773,39 +773,6 @@
 			title: "Obtain an Elytra"
 			x: 7.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["400B087189CA14AE"]
-			hide_until_deps_visible: true
-			id: "6F86A910DA0F6330"
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "583236F71194D814"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1F8C7B705BD4888F"
-					table_id: 518173385962404322L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "0995986EBDA14D05"
-				item: {
-					Count: 1
-					id: "alexsmobs:tarantula_hawk_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Upgrade!"
-			x: 7.5d
-			y: -2.0d
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]

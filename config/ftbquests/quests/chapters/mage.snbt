@@ -67,8 +67,8 @@
 			image: "prodigium_reforged:textures/gui/expert_mode.png"
 			rotation: 0.0d
 			width: 2.25d
-			x: 1.5d
-			y: 5.5d
+			x: -1.5d
+			y: 7.5d
 		}
 	]
 	order_index: 6
@@ -412,7 +412,7 @@
 			}]
 			title: "New book, new mage"
 			x: 3.0d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -454,7 +454,7 @@
 			}]
 			title: "Ultimate Wizard weapon"
 			x: 4.0d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -488,8 +488,8 @@
 				type: "item"
 			}]
 			title: "From the depth"
-			x: 3.5d
-			y: 6.5d
+			x: 3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -523,7 +523,7 @@
 			}]
 			title: "From the dragon itself"
 			x: 4.0d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -694,7 +694,7 @@
 			}]
 			title: "Nature book"
 			x: 5.0d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -729,8 +729,8 @@
 				type: "item"
 			}]
 			title: "Fire book"
-			x: 4.5d
-			y: 6.5d
+			x: 4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["624B188BB0FFB9D9"]
@@ -748,7 +748,7 @@
 				type: "item"
 			}]
 			title: "Craft a staff"
-			x: 0.5d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -761,7 +761,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["745FE062B66D6927"]
@@ -773,7 +773,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["745FE062B66D6927"]
@@ -785,7 +785,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["745FE062B66D6927"]
@@ -796,8 +796,8 @@
 				item: "irons_spellbooks:blood_staff"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["745FE062B66D6927"]
@@ -809,7 +809,193 @@
 				type: "item"
 			}]
 			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "403DC4464B2C2D03"
+			tasks: [{
+				id: "3F662EA33598F457"
+				item: "prodigium_reforged:magic_chains"
+				type: "item"
+			}]
+			x: 7.5d
 			y: 4.0d
+		}
+		{
+			id: "121985490A7AE5CF"
+			tasks: [{
+				id: "35C74F1236DDFB78"
+				item: "prodigium_reforged:lucky_card"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			id: "1D633021595BDCA3"
+			tasks: [{
+				id: "50A4E96225B60669"
+				item: "prodigium_reforged:kings_crown"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "468A28CA48018B8D"
+			tasks: [{
+				id: "2E5DEC7CF472590E"
+				item: "irons_spellbooks:pyrium_staff"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "471A7DE7B817196E"
+			tasks: [{
+				id: "129EB4CA9AFA3426"
+				item: {
+					Count: 1
+					id: "kubejs:slime_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "52798E21A08A36B9"
+			tasks: [{
+				id: "468DB3A69EAA80E9"
+				item: {
+					Count: 1
+					id: "kubejs:palladium_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "450DF6BBF3FB822C"
+			tasks: [{
+				id: "17FCB0B31493824C"
+				item: {
+					Count: 1
+					id: "kubejs:myhtril_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "13740CF0B30E0B72"
+			tasks: [{
+				id: "11BDF77AC77561C2"
+				item: {
+					Count: 1
+					id: "kubejs:spawner_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "0F8182CEFBCEAB86"
+			tasks: [{
+				id: "19D01CB8EFCDFEEA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:ice_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "5E1ED337F18D1E07"
+			tasks: [{
+				id: "66FDBAFD6B87996B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "68D377C956FD2C5A"
+			tasks: [{
+				id: "40562A7701F83BF9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
 		}
 	]
 	title: "Wizard"

@@ -895,102 +895,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["78E025D30CD1E607"]
-			hide_until_deps_visible: true
-			id: "27D8F0F385A37554"
-			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "758AE61415F0F8B4"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					id: "22C57E4C3B2A33D3"
-					item: "minecraft:nether_star"
-					type: "item"
-				}
-				{
-					id: "5515296F6AA235E4"
-					table_id: 2616881584767302753L
-					type: "random"
-				}
-				{
-					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berserker 2"
-					icon: "minecraft:experience_bottle"
-					id: "4DA27660174E44DD"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:crusader 2"
-					icon: "minecraft:experience_bottle"
-					id: "6057A1F638DBCCD1"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranger 2"
-					icon: "minecraft:experience_bottle"
-					id: "1E231A6D24C91038"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:wizard 2"
-					icon: "minecraft:experience_bottle"
-					id: "2B7FDC7D0A178A72"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:cleric 2"
-					icon: "minecraft:experience_bottle"
-					id: "4A9E008F17B99F7E"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:necromancer 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "7569AAC4E035FECE"
-					silent: true
-					team_reward: false
-					title: "&6+2 Skill Points&r"
-					type: "command"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				entity: "minecraft:wither"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "2C91F2E4CF182B42"
-				title: "Kill the &5Wither&r 15 times"
-				type: "kill"
-				value: 15L
-			}]
-			x: -0.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["14CA102BAD4F6A38"]
 			hide_until_deps_visible: true
 			id: "28B617BF86C93248"
@@ -3214,6 +3118,23 @@
 			title: "Highly recommended!"
 			x: 10.0d
 			y: -3.0d
+		}
+		{
+			description: [
+				"Avant ou après Aether c'est une bonne question?"
+				""
+				"Il faut surement buff un coup ses HP, les dégats m'ont l'air parfait"
+			]
+			id: "3AF505226BA2AC77"
+			size: 2.0d
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				id: "36EEE16F14ACAB51"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: 3.0d
 		}
 	]
 	title: "Expert Mode"

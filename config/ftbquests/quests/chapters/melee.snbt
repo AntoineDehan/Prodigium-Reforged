@@ -648,7 +648,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["78DE64EE0773BEF4"]
@@ -660,7 +660,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["78DE64EE0773BEF4"]
@@ -672,7 +672,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["78DE64EE0773BEF4"]
@@ -684,7 +684,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["78DE64EE0773BEF4"]
@@ -696,7 +696,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["78DE64EE0773BEF4"]
@@ -708,7 +708,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["78DE64EE0773BEF4"]
@@ -720,7 +720,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["78DE64EE0773BEF4"]
@@ -732,7 +732,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["78DE64EE0773BEF4"]
@@ -744,7 +744,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["78DE64EE0773BEF4"]
@@ -757,7 +757,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1336,6 +1336,26 @@
 			}]
 			x: 4.0d
 			y: 14.5d
+		}
+		{
+			id: "38E251ED0E7E1263"
+			tasks: [{
+				id: "3B94AAAFD0A03DB7"
+				item: "prodigium_reforged:phantasmal_bell"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "6DAEF4CE3F69C343"
+			tasks: [{
+				id: "64E87984CC485002"
+				item: "prodigium_reforged:sunbird_amulet"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
 		}
 	]
 	title: "Berserker"

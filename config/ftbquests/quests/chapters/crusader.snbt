@@ -68,7 +68,7 @@
 			rotation: 0.0d
 			width: 2.25d
 			x: 1.5d
-			y: 8.0d
+			y: 9.0d
 		}
 	]
 	order_index: 2
@@ -190,15 +190,14 @@
 					type: "item"
 				}
 				{
-					id: "720E29DB568570DA"
+					id: "2E0F3618B9B46527"
 					item: {
 						Count: 1
-						id: "kubejs:plated_valkyrie_helmet"
+						id: "undead_unleashed:plate_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
-					title: "Plated Valkyrie Armor"
 					type: "item"
 				}
 			]
@@ -409,7 +408,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -421,7 +420,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -433,7 +432,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -446,7 +445,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -459,7 +458,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -471,7 +470,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -484,7 +483,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -496,7 +495,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -508,7 +507,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -521,7 +520,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -533,7 +532,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -545,7 +544,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -563,7 +562,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -581,7 +580,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -600,7 +599,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -624,7 +623,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -648,7 +647,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -672,7 +671,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -696,7 +695,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -720,7 +719,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -744,7 +743,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -768,7 +767,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -792,7 +791,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -816,7 +815,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -840,7 +839,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -864,7 +863,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -882,7 +881,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -900,7 +899,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["44FCF260737D0785"]
@@ -951,7 +950,47 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 9.5d
+			y: 10.5d
+		}
+		{
+			id: "268D6E6544B95AB6"
+			tasks: [{
+				id: "5E9FC06A620236FF"
+				item: "prodigium_reforged:wrought_shoulder_piece"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "276539DAE331E990"
+			tasks: [{
+				id: "0D4A570AE34051B2"
+				item: "prodigium_reforged:phantasmal_bell"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			id: "638C553B2272D12A"
+			tasks: [{
+				id: "7489375F096036D3"
+				item: "prodigium_reforged:sunbird_amulet"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			id: "48543E1214360255"
+			tasks: [{
+				id: "53F2DB7737BF49A1"
+				item: "prodigium_reforged:ashlords_roar"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
 		}
 	]
 	title: "Crusader"

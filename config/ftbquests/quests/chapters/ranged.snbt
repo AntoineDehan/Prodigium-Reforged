@@ -1580,7 +1580,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
@@ -1592,7 +1592,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
@@ -1604,7 +1604,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
@@ -1616,7 +1616,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
@@ -1628,7 +1628,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
@@ -1640,7 +1640,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
@@ -1881,6 +1881,26 @@
 			}]
 			x: 4.0d
 			y: 9.0d
+		}
+		{
+			id: "6834928952F69F1E"
+			tasks: [{
+				id: "382BA190ACB53C93"
+				item: "prodigium_reforged:archery_glove"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "478391D5AB907A2A"
+			tasks: [{
+				id: "6053A0381E486CF5"
+				item: "prodigium_reforged:frozen_arrow_head"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
 		}
 	]
 	title: "Archer"

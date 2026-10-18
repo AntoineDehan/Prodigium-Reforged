@@ -52,7 +52,7 @@
 			image: "prodigium_reforged:textures/gui/normal_mode.png"
 			rotation: 0.0d
 			width: 2.25d
-			x: 1.0d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -61,7 +61,7 @@
 			image: "prodigium_reforged:textures/gui/expert_mode.png"
 			rotation: 0.0d
 			width: 2.25d
-			x: 1.0d
+			x: -2.0d
 			y: 6.0d
 		}
 	]
@@ -503,8 +503,8 @@
 				type: "item"
 			}]
 			title: "Craft a staff"
-			x: 2.5d
-			y: 3.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["525D3BC989CF49D9"]
@@ -516,7 +516,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["525D3BC989CF49D9"]
@@ -529,7 +529,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["525D3BC989CF49D9"]
@@ -542,7 +542,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["525D3BC989CF49D9"]
@@ -554,7 +554,27 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "739BF019DCB4ED68"
+			tasks: [{
+				id: "1DDE687EF4F1C880"
+				item: "prodigium_reforged:magic_chains"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			id: "37BB1DA31AB11E74"
+			tasks: [{
+				id: "6177822E120E3E06"
+				item: "prodigium_reforged:lucky_card"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
 		}
 	]
 	title: "Cleric"
