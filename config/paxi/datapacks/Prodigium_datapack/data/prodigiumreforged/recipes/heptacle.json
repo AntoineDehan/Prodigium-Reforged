@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "kubejs:heptacle_fragment" },
+    { "item": "kubejs:heptacle_fragment" },
+    { "item": "kubejs:heptacle_fragment" },
+    { "item": "kubejs:heptacle_fragment" },
+    { "item": "kubejs:heptacle_fragment" }
+  ],
+  "result": { "item": "bypowderandsteel:heptacle" }
+}

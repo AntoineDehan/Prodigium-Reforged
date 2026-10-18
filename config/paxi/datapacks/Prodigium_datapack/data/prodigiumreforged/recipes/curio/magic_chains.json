@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", "CAC", " C "],
+  "key": {
+    "A": {
+      "item": "confluence:shackle"
+    },
+    "B": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "C": {
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  },
+  "result": {
+    "item": "prodigium_reforged:magic_chains"
+  }
+}
