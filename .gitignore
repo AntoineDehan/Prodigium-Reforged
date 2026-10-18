@@ -112,3 +112,17 @@ cache/chunksfadein/translations/uk
 cache/chunksfadein/translations/vi
 cache/chunksfadein/translations/zh-CN
 cache/chunksfadein/translations/zh-TW
+
+# Claude artifacts (planning/spec docs)
+TERRARIA_MANA_ACCESSORIES.md
+SPAWN_REWORK.md
+
+# Local trash
+.mixin.out/
+particular_cache/
+hotbar.nbt
+replay_pid*.log
+streamsreflowing-stall-*.txt
+*.bak
+*.backup1
+config/spawnbalanceutility/StructMobWeight.rpt
