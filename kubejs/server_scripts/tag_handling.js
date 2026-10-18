@@ -102,6 +102,10 @@ ServerEvents.tags("item", (event) => {
     "kubejs:aether_wind",
     "kubejs:void_petal",
   );
+
+  event.add("forge:balls/slime", "legendarycreatures:fertile_slimeball");
+  event.add("forge:slimeballs", "legendarycreatures:fertile_slimeball");
+  event.add("cataclysm:sticky_items", "legendarycreatures:fertile_slimeball");
 });
 
 ServerEvents.tags("block", (event) => {

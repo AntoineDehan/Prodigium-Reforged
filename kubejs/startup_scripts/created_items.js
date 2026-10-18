@@ -75,6 +75,7 @@ StartupEvents.registry("item", (event) => {
     .texture("prodigium_reforged:item/necro_bone");
 
   event.create("wither_skull_fragment");
+  event.create("heptacle_fragment");
 
   // Ranged Leather patches
   event

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#legendarycreatures:has_forest_mojo_butterfly",
+  "spawners": [
+    {
+      "type": "legendarycreatures:scarecrow",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 25
+    }
+  ]
+}

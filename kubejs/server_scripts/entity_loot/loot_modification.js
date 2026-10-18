@@ -62,14 +62,22 @@ LootJS.modifiers((event) => {
       "luminous_beasts:the_furnace",
       "luminous_nether:mushlin_king",
       "friendsandfoes:wildfire",
+      "undead_unleashed:flamebreather",
     )
     .randomChanceWithLooting(0.1, 0.03)
     .addWeightedLoot([2], [Item.of("bypowderandsteel:heptacle")]);
 
   event
-    .addEntityLootModifier("terra_entity:drippler", "terra_entity:blood_zombie")
-    .randomChanceWithLooting(0.08, 0.024)
-    .addWeightedLoot([1], [Item.of("bypowderandsteel:heptacle")]);
+    .addEntityLootModifier(
+      "terra_entity:drippler",
+      "terra_entity:blood_zombie",
+      "luminous_beasts:the_furnace",
+      "luminous_nether:mushlin_king",
+      "friendsandfoes:wildfire",
+      "undead_unleashed:flamebreather",
+    )
+    .randomChanceWithLooting(0.2, 0.035)
+    .addWeightedLoot([1, 2], [Item.of("kubejs:heptacle_fragment")]);
 
   // Phantom Powder
   event
@@ -83,9 +91,13 @@ LootJS.modifiers((event) => {
       "luminous_nether:piglin_ghost",
       "luminous_nether:spirit",
       "luminous_nether:guzzleghast",
+      "undead_unleashed:wraith",
+      "dungeonnowloading:hollow",
+      "legendarycreatures:wisp",
+      "legendarycreatures:ender_wisp",
     )
     .randomChanceWithLooting(0.5, 0.0625)
-    .addWeightedLoot([1, 2], [Item.of("born_in_chaos_v1:phantom_powder")]);
+    .addWeightedLoot([2, 3], [Item.of("born_in_chaos_v1:phantom_powder")]);
 
   // Nether Bones
   event
@@ -97,6 +109,7 @@ LootJS.modifiers((event) => {
       "bygonenether:wither_skeleton_knight",
       "bygonenether:corpor",
       "bygonenether:wraither",
+      "undead_unleashed:flamebreather",
     )
     .randomChanceWithLooting(0.4, 0.06)
     .addWeightedLoot([1, 2], [Item.of("prodigium_reforged:nether_bone")]);
@@ -124,4 +137,10 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier("terra_entity:demon_eye")
     .randomChanceWithLooting(0.15, 0.045)
     .addWeightedLoot([1], [Item.of("wormhole_artifact:ender_nacre")]);
+
+  // Spawner Fragment
+  event
+    .addEntityLootModifier("undead_unleashed:dreadknight")
+    .randomChanceWithLooting(0.08, 0.03)
+    .addWeightedLoot([1], [Item.of("dungeonnowloading:spawner_fragment")]);
 });
