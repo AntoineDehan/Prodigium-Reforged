@@ -40,12 +40,22 @@ function shootProjectileCone( player, level, projectileEntity, count, spreadAngl
 }
 
 StartupEvents.registry("item", (event) => {
+  // Arcanethyst
   event
     .create("arcanethyst_bow", "bow")
     .bow((bow) => {
       bow
         .modifyBow((attributes) => {
           attributes.arrowSpeed(5).baseDamage(13).fullChargeTick(40);
+        })
+        .onArrowHit((arrow) => {
+          arrow.hitEntity((event) => {
+            const owner = event.arrow.getOwner();
+            if (!owner || !owner.isPlayer()) return;
+            owner.server.runCommandSilent(
+              `cast ${owner.username} kubejs:arcanethyst_volley`,
+            );
+          });
         })
         .onUse((use) => {
           use.release((event) => {
@@ -57,7 +67,7 @@ StartupEvents.registry("item", (event) => {
               2,
               8,
               6.0,
-              8.0,
+              12.0,
             );
           });
           use.pullTick((event) => {
@@ -75,6 +85,8 @@ StartupEvents.registry("item", (event) => {
     .maxDamage(2850)
     .repairWith(Ingredient.of("prodigium_reforged:leviathan_scale"));
 
+  // Twin Shadows
+  let twinShadowShot = 0;
   event
     .create("twin_shadows", "bow")
     .bow((bow) => {
@@ -82,9 +94,20 @@ StartupEvents.registry("item", (event) => {
         .modifyBow((attributes) => {
           attributes.arrowSpeed(5).baseDamage(7.8).fullChargeTick(40);
         })
+        .onArrowHit((arrow) => {
+          arrow.hitEntity((event) => {
+            const { entity } = event;
+            if (twinShadowShot === 0) {
+              entity.setSecondsOnFire(5);
+            } else {
+              entity.potionEffects.add("minecraft:wither", 80, 1, true, false);
+            }
+          });
+        })
         .onUse((use) => {
           use.release((event) => {
             const { player, level } = event;
+            twinShadowShot = 1 - twinShadowShot;
             shootProjectileCone(
               player,
               level,
@@ -248,6 +271,48 @@ StartupEvents.registry("item", (event) => {
     })
     .maxDamage(2200)
     .repairWith(Ingredient.of("bypowderandsteel:living_herb"));
+
+  // Phantasmal Bow
+  event
+    .create("phantasmal_bow", "bow")
+    .bow((bow) => {
+      bow
+        .modifyBow((attributes) => {
+          attributes.arrowSpeed(5).baseDamage(9).fullChargeTick(55);
+        })
+        .onArrowHit((arrow) => {
+          arrow.hitEntity((event) => {
+            const { entity } = event;
+            entity.potionEffects.add("minecraft:glowing", 200, 0, true, false);
+          });
+        })
+        .onUse((use) => {
+          use.release((event) => {
+            const { player, level } = event;
+            shootProjectileCone(
+              player,
+              level,
+              "archers_paradox:phantasmal_arrow",
+              1,
+              8,
+              6.0,
+              6.0,
+            );
+          });
+          use.pullTick((event) => {
+            const { player } = event;
+            player.potionEffects.add(
+              "kubejs:tunnel_vision",
+              40,
+              0,
+              true,
+              false,
+            );
+          });
+        });
+    })
+    .maxDamage(2000)
+    .repairWith(Ingredient.of("meetyourfight:phantoplasm"));
 });
 
 /// Bow Modification \\\
