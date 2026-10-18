@@ -133,8 +133,258 @@ StartupEvents.registry("item", (event) => {
     )
     .maxStackSize(1)
     .tag("curios:necklace");
+
+  // Archery's Glove
+  event
+    .create("prodigium_reforged:archery_glove")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("attributeslib:arrow_damage", UUID, 0.08, "multiply_base")
+        .addAttribute("attributeslib:draw_speed", UUID, 0.02, "multiply_base"),
+    )
+    .maxStackSize(1)
+    .tag("curios:hands");
+
+  // Frozen's Arrow Tip
+  event
+    .create("prodigium_reforged:frozen_arrow_head")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "attributeslib:arrow_damage",
+        UUID,
+        0.1,
+        "multiply_base",
+      ),
+    )
+    .maxStackSize(1)
+    .tag("curios:belt");
+
+  // Magic's Chains
+  event
+    .create("prodigium_reforged:magic_chains")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute(
+          "irons_spellbooks:spell_power",
+          UUID,
+          0.05,
+          "multiply_base",
+        )
+        .addAttribute("irons_spellbooks:max_mana", UUID, 30, "addition"),
+    )
+    .maxStackSize(1)
+    .tag("curios:charm");
+
+  // Gunpowder's Sack
+  event
+    .create("prodigium_reforged:gunpowder_sack")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute(
+          "gunswithoutroses:gwr.fire_delay",
+          UUID,
+          -0.05,
+          "multiply_base",
+        )
+        .addAttribute(
+          "gunswithoutroses:gwr.damage_total",
+          UUID,
+          0.03,
+          "multiply_base",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:belt");
+
+  // Phantasmal Bell
+  event
+    .create("prodigium_reforged:phantasmal_bell")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "minecraft:generic.max_health",
+        UUID,
+        2,
+        "addition",
+      ),
+    )
+    .maxStackSize(1)
+    .tag("curios:belt");
+
+  // Wrought Shoulder Piece
+  event
+    .create("prodigium_reforged:wrought_shoulder_piece")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("minecraft:generic.armor", UUID, 4, "addition")
+        .addAttribute("confluence:aggro", UUID, 150, "addition"),
+    )
+    .maxStackSize(1)
+    .tag("curios:body");
+
+  // Lucky Card
+  event
+    .create("prodigium_reforged:lucky_card")
+    .attachCuriosCapability(CuriosJSCapabilityBuilder.create())
+    .maxStackSize(1)
+    .tag("curios:pocket_left")
+    .tag("curios:pocket_right");
+
+  // Acid Flask
+  event
+    .create("prodigium_reforged:acid_flask")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute(
+          "sweet_charm_o_mine:bullet_armor_penetration",
+          UUID,
+          0.1,
+          "addition",
+        )
+        .addAttribute(
+          "gunswithoutroses:damage_total",
+          UUID,
+          0.1,
+          "multiply_base",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:charm");
+
+  // Sunbird's Amulet
+  event
+    .create("prodigium_reforged:sunbird_amulet")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("minecraft:generic.max_health", UUID, 6, "addition")
+        .addAttribute(
+          "attributeslib:healing_received",
+          UUID,
+          0.2,
+          "multiply_base",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:charm");
+
+  // Ashlord's Roar
+  event
+    .create("prodigium_reforged:ashlords_roar")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("minecraft:generic.armor_toughness", UUID, 2, "addition")
+        .addAttribute("minecraft:generic.armor", UUID, 2, "addition")
+        .addAttribute("confluence:aggro", UUID, 150, "addition"),
+    )
+    .maxStackSize(1)
+    .tag("curios:necklace");
+
+  // King's Crown
+  event
+    .create("prodigium_reforged:kings_crown")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute(
+          "irons_spellbooks:summon_damage",
+          UUID,
+          0.2,
+          "multiply_base",
+        )
+        .addAttribute(
+          "irons_spellbooks:spell_power",
+          UUID,
+          0.15,
+          "multiply_base",
+        )
+        .addAttribute("irons_spellbooks:max_mana", UUID, 200, "addition"),
+    )
+    .maxStackSize(1)
+    .tag("curios:head");
+
+  // Frosted Amulet
+  event
+    .create("prodigium_reforged:frosted_amulet")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute(
+          "irons_spellbooks:ice_spell_power",
+          UUID,
+          0.08,
+          "multiply_base",
+        )
+        .addAttribute(
+          "irons_spellbooks:spell_power",
+          UUID,
+          0.1,
+          "multiply_base",
+        )
+        .addAttribute("irons_spellbooks:max_mana", UUID, 150, "addition"),
+    )
+    .maxStackSize(1)
+    .tag("curios:head");
+
+  // Band of Starpower
+  event
+    .create("prodigium_reforged:band_of_starpower")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "irons_spellbooks:max_mana",
+        UUID,
+        40,
+        "addition",
+      ),
+    )
+    .maxStackSize(1)
+    .tag("curios:ring");
+
+  // Mana Regeneration Band
+  event
+    .create("prodigium_reforged:mana_regeneration_band")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("irons_spellbooks:max_mana", UUID, 40, "addition")
+        .addAttribute("irons_spellbooks:mana_regen", UUID, 0.08, "addition"),
+    )
+    .maxStackSize(1)
+    .tag("curios:ring");
+
+  // Magic Cuffs
+  event
+    .create("prodigium_reforged:magic_cuffs")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("irons_spellbooks:max_mana", UUID, 40, "addition")
+        .addAttribute("minecraft:generic.armor", UUID, 2, "addition"),
+    )
+    .maxStackSize(1)
+    .tag("curios:hands");
+
+  // Mana Flower
+  event
+    .create("prodigium_reforged:mana_flower")
+    .attachCuriosCapability(CuriosJSCapabilityBuilder.create())
+    .maxStackSize(1)
+    .tag("curios:charm");
+
+  // Restoration Shield
+  event
+    .create("prodigium_reforged:restoration_shield")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("irons_spellbooks:max_mana", UUID, 80, "addition")
+        .addAttribute("irons_spellbooks:mana_regen", UUID, 0.09, "addition")
+        .addAttribute("minecraft:generic.armor", UUID, 3, "addition")
+        .addAttribute(
+          "minecraft:generic.knockback_resistance",
+          UUID,
+          1.0,
+          "addition",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:accessory");
 });
 
+// Modification
 ItemEvents.modification((event) => {
   event.modify("confluence:ranger_emblem", (item) => {
     item.attachCuriosCapability(

@@ -1,0 +1,24 @@
+{
+  "mana_cloak": {
+    "rarity": "PINK",
+    "tooltips": ["item.confluence.mana_cloak.tooltip"],
+    "slot": "body",
+    "attributes": {
+      "irons_spellbooks:max_mana": {
+        "uuid": "a1b2c3d4-5e6f-4890-abcd-ef1234567890",
+        "name": "Mana Cloak Max Mana",
+        "value": 50,
+        "operation": "ADDITION"
+      },
+      "irons_spellbooks:spell_power": {
+        "uuid": "b2c3d4e5-6f78-4012-9456-7890abcdef12",
+        "name": "Mana Cloak Spell Power",
+        "value": 0.05,
+        "operation": "MULTIPLY_BASE"
+      }
+    },
+    "interfaces": {
+      "StarCloak": {}
+    }
+  }
+}
