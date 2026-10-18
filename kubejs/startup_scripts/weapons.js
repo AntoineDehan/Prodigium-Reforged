@@ -129,3 +129,62 @@ ItemEvents.modification((event) => {
     item.attackSpeed = -2.9;
   });
 });
+
+StartupEvents.registry("item", (event) => {
+  // Wizard's Staves \\
+
+  // Slime Staff
+  event
+    .create("slime_staff", "irons_spells_js:staff")
+    .setTier((tier) => {
+      tier
+        .setDamage(3.5)
+        .setSpeed(-3)
+        .addAttribute("irons_spellbooks:spell_power", 0.1, "multiply_total")
+        .addAttribute(
+          "irons_spellbooks:cooldown_reduction",
+          0.03,
+          "multiply_total",
+        )
+        .addAttribute("irons_spellbooks:mana_regen", 0.25, "multiply_total");
+    })
+    .maxDamage(850);
+
+  // Palladium staff
+  event
+    .create("palladium_staff", "irons_spells_js:staff")
+    .setTier((tier) => {
+      tier
+        .setDamage(4)
+        .setSpeed(-3)
+        .addAttribute("irons_spellbooks:spell_power", 0.15, "multiply_total")
+        .addAttribute("irons_spellbooks:mana_regen", 0.25, "multiply_total");
+    })
+    .maxDamage(850);
+
+  // Mythril staff
+  event
+    .create("myhtril_staff", "irons_spells_js:staff")
+    .setTier((tier) => {
+      tier
+        .setDamage(4)
+        .setSpeed(-3)
+        .addAttribute("irons_spellbooks:spell_power", 0.1, "multiply_total")
+        .addAttribute("irons_spellbooks:mana_regen", 0.3, "multiply_total")
+        .addAttribute("irons_spellbooks:max_mana", 50, "addition");
+    })
+    .maxDamage(850);
+
+  // Spawner staff
+  event
+    .create("spawner_staff", "irons_spells_js:staff")
+    .setTier((tier) => {
+      tier
+        .setDamage(4)
+        .setSpeed(-3)
+        .addAttribute("irons_spellbooks:spell_power", 0.1, "multiply_total")
+        .addAttribute("irons_spellbooks:mana_regen", 0.25, "multiply_total")
+        .addAttribute("irons_spellbooks:summon_damage", 0.1, "multiply_total");
+    })
+    .maxDamage(1000);
+});
