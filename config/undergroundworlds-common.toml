@@ -1,0 +1,242 @@
+
+[underground_jungle]
+	#Whether the underground jungle should generate in the world
+	#Default: true
+	generate_biome = true
+	#Whether the jungle temple should generate in the underground jungle
+	#Default: true
+	generate_temple = true
+	#Whether chests should generate around in the underground jungle
+	#Default: true
+	generate_chests = true
+
+	[underground_jungle.temple_tools]
+		#Whether temple tools should be found in the jungle temple
+		#Default: true
+		found_in_temple = true
+		#Whether temple tools are immune to explosion damage
+		#Default: true
+		blast_proof = true
+
+	[underground_jungle.blade_of_the_jungle]
+		#Chance to inflict poison with the Blade of the Jungle
+		#Range: 0.0 ~ 1.0
+		poison_chance = 0.2
+		#Duration of the poison effect inflicted with the Blade of the Jungle in seconds
+		#Range: > 1
+		poison_time = 10
+
+	[underground_jungle.axe_of_regrowth]
+		#Whether the axe of regrowth can plant saplings
+		#Set this to false if it's causing issues with other mods
+		#Default: true
+		plants_saplings = true
+
+	[underground_jungle.jungle_zombie]
+		#Chance for a jungle zombie to spawn instead of a regular zombie in the underground jungle
+		#This option is ignored if Variants&Ventures is installed
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.8
+		#Chance the jungle zombie has to inflict poison
+		#Range: 0.0 ~ 1.0
+		poison_chance = 0.2
+		#Duration of the poison effect inflicted by the jungle zombie in seconds
+		#Range: > 1
+		poison_time = 3
+
+	[underground_jungle.bogged]
+		#Chance for a bogged to spawn instead of a regular skeleton in the underground jungle
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.5
+
+	[underground_jungle.jungle_bee]
+		#Chance the jungle bee has to inflict poison in easy difficulty
+		#Range: 0.0 ~ 1.0
+		poison_chance_easy = 0.0
+		#Chance the jungle bee has to inflict poison in normal difficulty
+		#Range: 0.0 ~ 1.0
+		poison_chance_normal = 1.0
+		#Chance the jungle bee has to inflict poison in hard difficulty
+		#Range: 0.0 ~ 1.0
+		poison_chance_hard = 1.0
+		#Duration of the poison effect inflicted by the jungle bee in seconds on easy difficulty
+		#Range: > 1
+		poison_time_easy = 5
+		#Duration of the poison effect inflicted by the jungle bee in seconds on normal difficulty
+		#Range: > 1
+		poison_time_normal = 10
+		#Duration of the poison effect inflicted by the jungle bee in seconds on hard difficulty
+		#Range: > 1
+		poison_time_hard = 20
+
+	[underground_jungle.antidote_flask]
+		#Whether the antidote flask should be found in chests in the underground jungle
+		#Default: true
+		found_in_chests = true
+		#Whether the antidote flask should be found in chests in the jungle temple
+		#Default: false
+		found_in_temple = false
+		#How much durability to take from the antidote flask every time it blocks the poison effect
+		#Can be set to a number higher than 1 to effectively decrease the durability of the antidote flask
+		#Range: > 1
+		durability_damage = 1
+
+[spider_caves]
+	#Whether the spider cave should generate in the world
+	#Default: true
+	generate_biome = true
+	#Whether chests should generate around in the spider caves
+	#Default: true
+	generate_chests = true
+	#Whether abandoned houses should generate around in the spider caves
+	#Default: true
+	generate_houses = true
+
+	[spider_caves.black_recluse]
+		#Duration of the poison effect inflicted by the black recluse on easy difficulty
+		#Range: > 0
+		poison_time_easy = 5
+		#Duration of the poison effect inflicted by the black recluse on normal difficulty
+		#Range: > 0
+		poison_time_normal = 10
+		#Duration of the poison effect inflicted by the black recluse on hard difficulty
+		#Range: > 0
+		poison_time_hard = 20
+		#Chance for a black recluse to spawn in the spider caves instead of a regular spider
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.05
+
+	[spider_caves.cave_spider]
+		#Chance for a cave spider to spawn in the spider caves instead of a regular spider
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.2
+
+	[spider_caves.spider_armor]
+		#Chance the spider armor has to poison attackers
+		#Range: 0.0 ~ 1.0
+		poison_chance = 0.1
+		#Duration of the poison effect inflicted by the spider armor in seconds
+		#Range: > 1
+		poison_time = 10
+
+[underground_tundra]
+	#Whether the underground tundra should generate in the world
+	#Default: true
+	generate_biome = true
+	#Whether the ice dungeon should generate in the underground tundra
+	#Default: true
+	generate_ice_dungeon = true
+	#Whether abandoned houses should generate around in the underground tundra
+	#Default: true
+	generate_houses = true
+
+	[underground_tundra.frozen_core]
+		#Whether the frozen core should be found in chests in the ice dungeon
+		#Default: true
+		found_in_ice_dungeon = true
+
+	[underground_tundra.freezing_tools]
+		#Duration of the freezing effect inflicted by freezing tools in seconds
+		#Range: > 0
+		freezing_time = 5
+		#Maximum duration of the freezing effect that can be inflicted by freezing tools in seconds
+		#Range: > 1
+		freezing_max_time = 20
+
+	[underground_tundra.frozen_zombie]
+		#Duration of the freezing effect inflicted by the frozen zombie in seconds
+		#Range: > 0
+		freezing_time = 5
+		#Maximum duration of the freezing effect that can be inflicted by the frozen zombie in seconds
+		#Range: > 1
+		freezing_max_time = 20
+		#Chance for a frozen zombie to spawn instead of a regular zombie in the underground tundra
+		#This option is ignored if Variants&Ventures is installed
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.9
+
+	[underground_tundra.icy_creeper]
+		#Whether the icy creeper should be able to freeze entities hit by its explosion
+		#Default: true
+		can_freeze = true
+		#Chance for an icy creeper to spawn instead of a regular creeper in the underground tundra
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.8
+
+	[underground_tundra.stray]
+		#Chance for a stray to spawn instead of a regular skeleton in the underground tundra
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 1.0
+
+	[underground_tundra.winter_armor]
+		#Whether the winter armor should be found in the underground tundra
+		#Default: true
+		found_in_tundra = true
+		#Whether the winter armor should be dropped by frozen zombies
+		#Default: true
+		dropped_by_frozen_zombie = true
+
+[underground_desert]
+	#Whether the underground desert should generate in the world
+	#Default: true
+	generate_biome = true
+	#Whether the pyramid should generate in the underground desert
+	#Default: true
+	generate_pyramid = true
+
+	[underground_desert.desert_charm]
+		#Whether the desert charm should be found in the pyramid
+		#Default: true
+		found_in_pyramid = true
+		#How much durability to take from the desert charm every time it blocks the weakness effect
+		#Can be set to a number higher than 1 to effectively decrease the durability of the desert charm
+		#Range: > 1
+		durability_damage = 1
+
+	[underground_desert.ashan]
+		#Duration of the weakness effect inflicted by the ashan in seconds
+		#Range: > 0
+		weakness_time = 5
+		#Chance for an ashan to spawn instead of a regular skeleton in the underground desert
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.5
+
+	[underground_desert.husk]
+		#Chance for a husk to spawn instead of a regular zombie in the underground desert
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.8
+
+	[underground_desert.wrapped]
+		#Duration of the weakness effect inflicted by the wrapped in seconds
+		#Range: > 0
+		weakness_time = 5
+
+[jungle_treehouse]
+	#Whether the jungle treehouse should generate in jungle biomes
+	#Default: true
+	generate_jungle_treehouse = true
+	#Whether explorer maps should be found in the jungle treehouse
+	#Default: true
+	enable_explorer_maps = true
+
+[chillager_outpost]
+	#Whether the chillager outpost should generate in snowy biomes
+	#Default: true
+	generate_chillager_outpost = true
+	#Whether explorer maps should be found in the chillager outpost
+	#Default: true
+	enable_explorer_maps = true
+
+[swamp_house]
+	#Whether the swamp house should generate in swamps
+	#Default: true
+	generate_swamp_house = true
+
+[archives]
+	#Whether the Archives should generate underground
+	#Default: true
+	generate_archives = true
+	#Whether explorer maps should be found in chests in the Archives
+	#Default: true
+	enable_explorer_maps = true
+

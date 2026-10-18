@@ -1,0 +1,16 @@
+{
+  "block_names": {},
+  "block_tags": {
+    "minecraft:crops": {
+      "chance": 0.01
+    }
+  },
+  "entity_names": {},
+  "entity_type_tags": {},
+  "black_list": {
+    "block_names": [],
+    "block_tags": [],
+    "entity_names": [],
+    "entity_type_tags": []
+  }
+}

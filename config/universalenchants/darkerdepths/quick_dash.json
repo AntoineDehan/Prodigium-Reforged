@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:gauntlet_of_maelstrom",
+    "cataclysm:the_incinerator",
+    "cataclysm:soul_render",
+    "cataclysm:the_annihilator",
+    "cataclysm:the_immolator",
+    "cataclysm:meat_shredder",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "cataclysm:infernal_forge",
+    "cataclysm:ancient_spear",
+    "mowziesmobs:spear",
+    "mowziesmobs:naga_fang_dagger",
+    "aether_redux:spear_of_the_blight",
+    "farmersdelight:skillet",
+    "savage_and_ravage:cleaver_of_beheading"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}
