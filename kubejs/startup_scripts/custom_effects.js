@@ -1429,4 +1429,34 @@ StartupEvents.registry("mob_effect", (event) => {
       0.25,
       "multiply_total",
     );
+
+  // King's Authority
+  event
+    .create("kings_authority")
+    .color(0xf2c14e)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "636bd0ec-4ce6-4e0b-9b7a-d5178e636be5",
+      5,
+      "addition",
+    )
+    .modifyAttribute(
+      "irons_spellbooks:spell_power",
+      "89106368-d574-48ce-915f-a23c863193a4",
+      0.15,
+      "multiply_base",
+    );
+
+  // Frost Augmented
+  event
+    .create("frost_augmented")
+    .color(0xf2c14e)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:spell_power",
+      "f1fed177-d547-43e5-80df-a44217ae338b",
+      0.03,
+      "multiply_base",
+    );
 });

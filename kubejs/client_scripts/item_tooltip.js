@@ -12,6 +12,42 @@ ItemEvents.tooltip((event) => {
     Text.gold("Chance to obtain the Holy Touch effect after casting a spell"),
   ]);
 
+  event.add("prodigium_reforged:frozen_arrow_head", [
+    Text.gold("Your arrows Chill hit entities"),
+  ]);
+
+  event.add("prodigium_reforged:wrought_shoulder_piece", [
+    Text.gold("Redirect 1 point of damage from your nearby ally to you"),
+  ]);
+
+  event.add("prodigium_reforged:phantasmal_bell", [
+    Text.gold("When hit, reveal and debuff hostile mobs within 16 blocks"),
+  ]);
+
+  event.add("prodigium_reforged:lucky_card", [
+    Text.gold("Gain positive effects while casting a spell"),
+  ]);
+
+  event.add("prodigium_reforged:ashlords_roar", [
+    Text.gold(
+      "When hit, force nearby hostile mobs to target you. 45sec Cooldown",
+    ),
+  ]);
+
+  event.add("prodigium_reforged:kings_crown", [
+    Text.gold("While you have active summons, gain spell power and +5 armor"),
+  ]);
+
+  event.add("prodigium_reforged:acid_flask", [
+    Text.gold("Your bullets have a high chance of inflicting poison"),
+  ]);
+
+  event.add("prodigium_reforged:frosted_amulet", [
+    Text.gold(
+      "When hit, gain Frost Resistance and your next spells inflict Chill on enemies",
+    ),
+  ]);
+
   //Misc
   event.add("prodigium_reforged:compass_of_time", [
     Text.darkAqua(
@@ -22,6 +58,17 @@ ItemEvents.tooltip((event) => {
     Text.gold("Can be used to reforge any item"),
   ]);
 
+  // Staves
+  event.add("kubejs:slime_staff", [
+    Text.aqua("+1 mana on hit and slows hit enemies"),
+  ]);
+  event.add("kubejs:spawner_staff", [
+    Text.gray(
+      "High chance of summoning a Whimper if casting a spell while wielding this staff",
+    ),
+  ]);
+
+  //
   event.add(
     [
       "numismatic-overhaul:bronze_coin",

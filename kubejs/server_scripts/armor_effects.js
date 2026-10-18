@@ -1,4 +1,4 @@
-/// Handling of different effects or curios
+/// Handling of armor set effects
 
 // Hit of entities from the Player
 EntityEvents.hurt((event) => {
@@ -412,58 +412,6 @@ PlayerEvents.tick((event) => {
       lastPos[uuid] = { x: ax, y: ay, z: az };
 
       if (stillTicks[uuid] > 0) stillTicks[uuid] = 0;
-    }
-  }
-});
-
-// Meat Charm and Meat Shield
-EntityEvents.hurt((event) => {
-  let entity = event.entity;
-  let source = event.source;
-
-  if (!entity.isPlayer()) return;
-  let player = entity;
-
-  function getCuriosItemList(player, slot) {
-    let curio = player.nbt.ForgeCaps["curios:inventory"]["Curios"].find(
-      (curio) => curio["Identifier"] === slot,
-    );
-    return curio ? curio.StacksHandler.Stacks.Items : [];
-  }
-
-  let curios = getCuriosItemList(player, "necklace");
-  let hasNecklace = curios.some(
-    (i) => i.id === "prodigium_reforged:meat_charm",
-  );
-
-  if (hasNecklace && Math.random() < 0.5) {
-    let attacker = source.actual;
-    if (attacker && attacker.isLiving()) {
-      attacker.potionEffects.add(
-        "majruszsdifficulty:bleeding",
-        160,
-        5,
-        true,
-        true,
-      );
-    }
-  }
-
-  let curiosAccessory = getCuriosItemList(player, "accessory");
-  let hasShield = curiosAccessory.some(
-    (i) => i.id === "prodigium_reforged:meat_shield",
-  );
-
-  if (hasShield && Math.random() < 0.5) {
-    let attacker = source.actual;
-    if (attacker && attacker.isLiving()) {
-      attacker.potionEffects.add(
-        "majruszsdifficulty:bleeding",
-        180,
-        6,
-        true,
-        true,
-      );
     }
   }
 });
