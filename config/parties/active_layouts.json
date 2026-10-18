@@ -1,0 +1,27 @@
+{
+  "info_stack": {
+    "alignment": "BOTTOM_RIGHT",
+    "offsetX": -26,
+    "offsetY": -20
+  },
+  "parties_party": {
+    "alignment": "TOP_LEFT",
+    "offsetX": 8,
+    "offsetY": 96,
+    "customData": {
+      "scale": 0.5,
+      "origin": "DEFAULT",
+      "profile_file": "Default"
+    }
+  },
+  "parties_self": {
+    "alignment": "TOP_LEFT",
+    "offsetX": 106,
+    "offsetY": 13,
+    "customData": {
+      "scale": 1.0,
+      "origin": "DEFAULT",
+      "profile_file": "Default"
+    }
+  }
+}

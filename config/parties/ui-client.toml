@@ -1,0 +1,37 @@
+
+["-=RENDERING=-"]
+	#If TRUE: Only the first element's tooltip is rendered. If FALSE: Renders tooltips of all elements the mouse is hovering over.
+	topMostTooltip = false
+	#If TRUE: Renders the local player in the party list as well. If FALSE: Skips the local player in the party list.
+	renderLocalInParty = false
+	#If TRUE: Renders the pointer arrow texture that appears on screen pointing to nearby party members.
+	renderScreenArrow = true
+	#Determines how the world-space player tracker elements are rendered behind obstructions/walls.
+	#  VANILLA - Standard behavior: tracker dims/becomes translucent when occluded by blocks.
+	#  SHIFT   - Translucent behind blocks by default, but holding Shift forces full opacity and brightness (no culling).
+	#  VISIBLE - Always renders at 100% full brightness and opacity through walls when visible.
+	#Allowed Values: VANILLA, SHIFT, VISIBLE
+	partyTrackingType = "VISIBLE"
+	#If TRUE: Renders party member heads/distance when you lose line of sight, regardless of distance.
+	showOccludedTracker = true
+
+["-=COLORIZER=-"]
+	#If TRUE: Slightly tints player names to match their selected UUID color in the party UI.
+	colorizeName = true
+	#If TRUE: Slightly tints player nameplates to match their selected UUID color in the world.
+	colorizeWorldName = true
+	#If TRUE: Makes the name/head icon vibrantly glow in the dark (at night time, in caves, etc)
+	namePlateGlowsInDark = true
+	#If TRUE: Slightly tints the frame backgrounds to match their selected UUID color in the party UI.
+	colorizeBg = true
+	#If TRUE: Adds a colorized border to the player avatar's head on the party UI (if not rendering the player)
+	colorizeAvatar = true
+
+["-=DISPLAY BUTTON=-"]
+	#The X offset from the bottom center of the screen for the Display Menu icon.
+	#Range: > -2147483648
+	menuButtonX = -135
+	#The Y offset from the bottom center of the screen for the Display Menu icon.
+	#Range: > -2147483648
+	menuButtonY = -15
+

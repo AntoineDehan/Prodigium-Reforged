@@ -1,0 +1,17 @@
+{
+  "minecraft:overworld": {
+    "name": "The Overworld",
+    "color": "#FF93c263",
+    "icon": "minecraft:grass_block"
+  },
+  "minecraft:the_nether": {
+    "name": "The Nether",
+    "color": "#FFCC4422",
+    "icon": "minecraft:netherrack"
+  },
+  "minecraft:the_end": {
+    "name": "The End",
+    "color": "#FFD19FE8",
+    "icon": "minecraft:end_portal_frame"
+  }
+}

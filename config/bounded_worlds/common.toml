@@ -25,9 +25,9 @@ configVersion = 2
 	terrainShaping = true
 	#Terraria-style ring of a fixed biome hugging the world border, terrain reshaped to fit.
 	#Don't change these options after exploring the border area — edits create seams.
-	borderBiomeEnabled = false
+	borderBiomeEnabled = true
 	#Biome of the border ring.
-	borderBiome = "minecraft:beach"
+	borderBiome = "minecraft:ocean"
 	#Ring width in blocks, measured inward from the world border.
 	#Range: 64 ~ 2048
 	borderBiomeWidth = 64

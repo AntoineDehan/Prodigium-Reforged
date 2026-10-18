@@ -1,0 +1,22 @@
+
+["-=PARTY MECHANICS=-"]
+	#The maximum number of players allowed in a single party.
+	#Range: 2 ~ 64
+	maxPartySize = 5
+	#Determines how long until a party leader changes when the leader goes offline.
+	#If -1, Leadership is never automatically transferred.
+	#If 0, Leadership is instantly transferred.
+	#If 1-24, it takes this many real-life hours before leadership is automatically transferred.
+	#Range: -1 ~ 24
+	leaderTransferCooldown = 1
+	#If TRUE: Party members can damage each other. If FALSE: Damage is canceled.
+	friendlyFire = false
+	#Determines if the range that experience sharing should occur.
+	#Determines the range that experience sharing should occur.
+	#GLOBAL        - Shares between all online members.
+	#WORLD         - Shares between players in the same dimension.
+	#TRACKED_AREA  - Shares between players in the same render distance.
+	#VICINITY      - Shares between players in the same vicinity.
+	#NOTE: Vicinity range can be configured in Core settings.
+	xpShareRange = "vicinity"
+

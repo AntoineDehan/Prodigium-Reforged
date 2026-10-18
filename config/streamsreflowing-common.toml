@@ -309,7 +309,7 @@ welcomeMessage = true
 	#Perf: light to moderate. Scans ALL water in a chunk, not just streams.
 	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
 	#Range: -1 ~ 2
-	allWaterFlora = -1
+	allWaterFlora = 0
 	#
 	#Bank materials (bed/waterline/bank) on ALL water bodies -- vanilla rivers, lakes, oceans -- not
 	#just this mod's streams/lakes, using the same per-biome bank styles. Requires customBanks = true.
@@ -320,7 +320,7 @@ welcomeMessage = true
 	#Perf: light to moderate. Scans ALL water in a chunk, not just streams.
 	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
 	#Range: -1 ~ 2
-	allWaterBanks = -1
+	allWaterBanks = 0
 	#
 	#Where this mod's bank features (the pieces in config/streamsreflowing/bank_features/) may appear:
 	#  0 = nowhere.  1 = this mod's streams.  2 = streams and their lakes.
@@ -329,7 +329,7 @@ welcomeMessage = true
 	#and pieces that stand in the water keep to real stream channels.
 	#Perf: light. World: safe on an existing world; applies to newly generated chunks.
 	#Range: 0 ~ 3
-	bankFeatures = 3
+	bankFeatures = 2
 	#
 	#Skin the carved stream channel with the bank styles in config/streamsreflowing/bank_styles/
 	#(bed / waterline / bank blocks per biome) instead of leaving whatever the cut exposed.
@@ -412,7 +412,7 @@ welcomeMessage = true
 	#Perf: light at generation.
 	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
 	#Range: -1 ~ 3
-	underwaterFlora = -1
+	underwaterFlora = 2
 	#
 	#Underwater flora density (PERCENT): the chance a valid submerged floor column (within whatever
 	#scope underwaterFlora selects) gets a plant.
@@ -496,7 +496,7 @@ welcomeMessage = true
 	#  true = flow vanilla rivers (default).  false = leave them still.
 	#Perf: moderate background work when new areas load; nothing once built.
 	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
-	flowVanillaRivers = true
+	flowVanillaRivers = false
 	#
 	#Keep a river flowing ONE way where it crosses between two areas of the map. Each area works
 	#out its currents on its own, and a long river can be judged differently at each end, which

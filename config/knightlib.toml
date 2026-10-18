@@ -2,12 +2,12 @@
 ["Essence Drop Probabilities"]
 	# Chance to drop small essence upon defeating an enemy
 	# 
-	# Default: 0.125
+	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	SMALL_ESSENCE_DROP_RATE = 0.05
 	# Chance to drop great essence upon defeating an enemy
 	# 
-	# Default: 0.05
+	# Default: 0.03
 	# Range: 0.0 ~ 1.0
 	GREAT_ESSENCE_DROP_RATE = 0.03
 	# Comma-separated list of entity IDs that should never drop essence (e.g. "minecraft:silverfish,minecraft:endermite")

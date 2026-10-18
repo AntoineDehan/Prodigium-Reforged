@@ -1,0 +1,34 @@
+
+#Team Alliance Providers...
+[providers]
+	#If TRUE: The selected team provider will be used for alliance checks.
+	#If FALSE: Players in a party are treated as strangers (Disables mod functionality).
+	enablePartyProvider = true
+	#If TRUE: Falls back to Vanilla Scoreboard Teams and native alliance checks.
+	#If FALSE: Ignores vanilla teams entirely (Strict Party-Only mode).
+	enableVanillaProvider = true
+
+#Ownership & Damage Resolvers...
+[resolvers]
+	#If TRUE: Arrows, tridents, and fireballs track to the shooter.
+	resolveProjectiles = true
+	#If TRUE: Tamed animals (Wolves, Cats) share owner's alignment.
+	resolveTamed = true
+	#If TRUE: Magic entities (Evoker Fangs, Vexes) track to caster.
+	resolveTraceable = true
+	#If TRUE: Mounted wild entities share rider's protection.
+	resolveMounts = true
+	#If TRUE: Mobs on a leash share the holder's protection.
+	resolveLeashes = true
+	#If TRUE: Channeling lightning tracks to the thrower.
+	resolveLightning = true
+	#If TRUE: TNT/Respawn Anchors track to the igniter.
+	resolveIndirectDamage = true
+	#[Mod Compat] If TRUE: Iron's Spells summons track to caster.
+	resolveIronsSummons = true
+
+["-=VICINITY MECHANICS=-"]
+	#Determines the set range of the 'Vicinity' distance type.
+	#Range: 1 ~ 128
+	vicinityRange = 32
+
