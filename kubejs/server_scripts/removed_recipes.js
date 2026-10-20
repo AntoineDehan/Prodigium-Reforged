@@ -245,10 +245,10 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "paladins:golden_great_hammer" });
   event.remove({ id: "paladins:iron_great_hammer" });
   event.remove({ id: "paladins:stone_great_hammer" });
-  event.remove({ id: "paladins:holy_wand" });
-  event.remove({ id: "paladins:acolyte_wand" });
-  event.remove({ id: "paladins:diamond_wand" });
-  event.remove({ id: "paladins:netherite_wand" });
+  event.remove({ id: "paladins:holy_staff" });
+  event.remove({ id: "paladins:acolyte_holy_wand" });
+  event.remove({ id: "paladins:diamond_holy_wand" });
+  event.remove({ id: "paladins:netherite_holy_wand" });
 
   // Wizards
   event.remove({ id: "wizards:frost_robe_feet" });
