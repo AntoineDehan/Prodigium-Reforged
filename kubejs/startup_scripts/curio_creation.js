@@ -382,6 +382,197 @@ StartupEvents.registry("item", (event) => {
     )
     .maxStackSize(1)
     .tag("curios:accessory");
+
+  // Aloe Leaf
+  event
+    .create("prodigium_reforged:aloe_leaf")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "irons_spellbooks:holy_spell_power",
+        UUID,
+        0.04,
+        "multiply_base",
+      ),
+    )
+    .maxStackSize(1)
+    .tag("curios:necklace");
+
+  // Ancient Aegis
+  event
+    .create("prodigium_reforged:ancient_aegis")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "minecraft:generic.armor",
+        UUID,
+        3,
+        "addition",
+      ),
+    )
+    .maxStackSize(1)
+    .tag("curios:accessory");
+
+  // Zealot's Belt
+  event
+    .create("prodigium_reforged:zealots_belt")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "irons_spellbooks:mana_regen",
+        UUID,
+        0.06,
+        "addition",
+      ),
+    )
+    .maxStackSize(1)
+    .tag("curios:belt");
+
+  // Crystal Arcanite
+  event
+    .create("prodigium_reforged:crystal_arcanite")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("minecraft:generic.max_health", UUID, 4, "addition")
+        .addAttribute("irons_spellbooks:max_mana", UUID, 40, "addition")
+        .addAttribute(
+          "irons_spellbooks:holy_spell_power",
+          UUID,
+          0.05,
+          "multiply_base",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:charm");
+
+  // Covenant Bond
+  event
+    .create("prodigium_reforged:covenant_bond")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute(
+          "irons_spellbooks:holy_spell_power",
+          UUID,
+          0.08,
+          "multiply_base",
+        )
+        .addAttribute("irons_spellbooks:mana_regen", UUID, 0.05, "addition"),
+    )
+    .maxStackSize(1)
+    .tag("curios:necklace");
+
+  // Fragrant Corsage
+  event
+    .create("prodigium_reforged:fragrant_corsage")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("irons_spellbooks:mana_regen", UUID, 0.1, "addition")
+        .addAttribute(
+          "irons_spellbooks:holy_spell_power",
+          UUID,
+          0.05,
+          "multiply_base",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:necklace");
+
+  // Honey Heart
+  event
+    .create("prodigium_reforged:honey_heart")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("minecraft:generic.max_health", UUID, 2, "addition")
+        .addAttribute(
+          "attributeslib:healing_received",
+          UUID,
+          0.1,
+          "multiply_base",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:charm");
+
+  // Life Gem
+  event
+    .create("prodigium_reforged:life_gem")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("minecraft:generic.max_health", UUID, 4, "addition")
+        .addAttribute(
+          "irons_spellbooks:holy_spell_power",
+          UUID,
+          0.03,
+          "multiply_base",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:charm");
+
+  // Cleric Emblem
+  event
+    .create("prodigium_reforged:cleric_emblem")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute(
+          "irons_spellbooks:holy_spell_power",
+          UUID,
+          0.15,
+          "multiply_total",
+        )
+        .addAttribute(
+          "irons_spellbooks:spell_power",
+          UUID,
+          0.08,
+          "multiply_total",
+        )
+        .addAttribute(
+          "irons_spellbooks:cooldown_reduction",
+          UUID,
+          0.08,
+          "multiply_total",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:necklace");
+
+  // The Lost Cross
+  event
+    .create("prodigium_reforged:lost_cross")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create().addAttribute(
+        "minecraft:generic.armor",
+        UUID,
+        2,
+        "addition",
+      ),
+    )
+    .maxStackSize(1)
+    .tag("curios:necklace");
+
+  // Forgotten Cross Necklace
+  event
+    .create("prodigium_reforged:forgotten_cross_necklace")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("minecraft:generic.armor", UUID, 4, "addition")
+        .addAttribute(
+          "irons_spellbooks:spell_power",
+          UUID,
+          0.05,
+          "multiply_base",
+        ),
+    )
+    .maxStackSize(1)
+    .tag("curios:necklace");
+
+  // Turn Undead
+  event
+    .create("prodigium_reforged:turn_undead")
+    .attachCuriosCapability(
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("minecraft:generic.armor", UUID, 4, "addition")
+        .addAttribute("confluence:aggro", UUID, -100, "addition"),
+    )
+    .maxStackSize(1)
+    .tag("curios:accessory");
 });
 
 // Modification

@@ -1459,4 +1459,69 @@ StartupEvents.registry("mob_effect", (event) => {
       0.03,
       "multiply_base",
     );
+
+  // Mending Grace
+  event
+    .create("mending_grace")
+    .color(0x7fdfff)
+    .beneficial()
+    .effectTick((entity, lvl) => {
+      if (entity.age % 40 !== 0) return;
+      if (entity.health >= entity.maxHealth) return;
+      entity.heal(1.0 * (lvl + 1));
+    });
+
+  // Holy Defense
+  event
+    .create("holy_defense")
+    .color(0xf2c14e)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "d8f9c4a2-1e8b-4f3a-9c7d-5b2e4f1a8c3d",
+      4,
+      "addition",
+    );
+
+  // Protective Energy
+  event
+    .create("protective_energy")
+    .color(0xcdddff)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.armor",
+      "7a5b3f1e-2d4c-4e8a-9b6c-1f3e2d5a7b9c",
+      3,
+      "addition",
+    )
+    .modifyAttribute(
+      "minecraft:generic.armor_toughness",
+      "4e2a1c3b-5d7f-4e8a-9c6b-2d1f3e5a7b9d",
+      1,
+      "addition",
+    );
+
+  // Zealot Fervor
+  event
+    .create("zealot_fervor")
+    .color(0xffcf3f)
+    .beneficial()
+    .modifyAttribute(
+      "irons_spellbooks:cast_time_reduction",
+      "a1b2c3d4-5e6f-4a1b-8c3d-5e7f1a2b3c4d",
+      0.1,
+      "addition",
+    );
+
+  // Sticky
+  event
+    .create("sticky")
+    .color(0xffcf3f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "6ed0228b-c0b4-433e-a1db-5ad0380776c2",
+      -0.15,
+      "multiply_total",
+    );
 });

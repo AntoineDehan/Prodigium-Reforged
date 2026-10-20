@@ -302,3 +302,155 @@ PlayerEvents.changeMana((event) => {
   const manaSpent = oldMana - newMana;
   event.setNewMana(oldMana - manaSpent * (1 - reduction));
 });
+
+// Cleric accessories (Thorium adaptation)
+const HEAL_SPELLS = [
+  "irons_spellbooks:heal",
+  "irons_spellbooks:greater_heal",
+  "irons_spellbooks:healing_circle",
+  "irons_spellbooks:blessing_of_life",
+];
+
+function applyToNearbyPlayers(
+  caster,
+  radius,
+  effectId,
+  duration,
+  amplifier,
+  includeSelf
+) {
+  const box = AABB.of(
+    caster.x - radius,
+    caster.y - radius,
+    caster.z - radius,
+    caster.x + radius,
+    caster.y + radius,
+    caster.z + radius,
+  );
+  const players = caster.level
+    .getEntitiesWithin(box)
+    .filter((e) => e.isPlayer() && e.isAlive() && (includeSelf || e !== caster));
+  for (const p of players) {
+    p.potionEffects.add(effectId, duration, amplifier, true, true);
+  }
+}
+
+PlayerEvents.spellOnCast((event) => {
+  const player = event.entity;
+  if (!player.isPlayer()) return;
+
+  const magicData = $MagicData.getPlayerMagicData(player);
+  if (!magicData) return;
+  const spellId = magicData.getCastingSpellId();
+  if (!HEAL_SPELLS.includes(spellId)) return;
+
+  if (player.isCuriosEquipped("prodigium_reforged:aloe_leaf")) {
+    applyToNearbyPlayers(player, 10, "kubejs:mending_grace", 160, 0, false);
+  }
+
+  if (player.isCuriosEquipped("prodigium_reforged:zealots_belt")) {
+    player.potionEffects.add("minecraft:speed", 60, 0, true, true);
+    player.potionEffects.add("kubejs:zealot_fervor", 60, 0, true, true);
+  }
+
+  if (player.isCuriosEquipped("prodigium_reforged:covenant_bond")) {
+    applyToNearbyPlayers(player, 8, "kubejs:mending_grace", 100, 0, true);
+  }
+
+  if (player.isCuriosEquipped("prodigium_reforged:honey_heart")) {
+    applyToNearbyPlayers(player, 8, "kubejs:mending_grace", 120, 0, false);
+    applyToNearbyPlayers(player, 8, "minecraft:slowness", 60, 0, false);
+  }
+
+  if (player.isCuriosEquipped("prodigium_reforged:lost_cross")) {
+    applyToNearbyPlayers(player, 6, "kubejs:holy_defense", 300, 0, false);
+  }
+
+  if (player.isCuriosEquipped("prodigium_reforged:forgotten_cross_necklace")) {
+    applyToNearbyPlayers(player, 8, "kubejs:holy_defense", 300, 0, false);
+  }
+});
+
+const UNDEAD_TYPES = [
+  "minecraft:zombie",
+  "minecraft:husk",
+  "minecraft:drowned",
+  "minecraft:skeleton",
+  "minecraft:stray",
+  "minecraft:wither_skeleton",
+  "minecraft:phantom",
+  "minecraft:zombified_piglin",
+  "minecraft:zoglin",
+];
+const AURA_RADIUS = 10;
+const TURN_UNDEAD_RADIUS = 12;
+
+PlayerEvents.tick((event) => {
+  const player = event.player;
+
+  if (
+    player.age % 40 === 0 &&
+    player.isCuriosEquipped("prodigium_reforged:ancient_aegis")
+  ) {
+    applyToNearbyPlayers(
+      player,
+      AURA_RADIUS,
+      "kubejs:protective_energy",
+      80,
+      0,
+      false,
+    );
+  }
+
+  if (
+    player.age % 40 === 0 &&
+    player.isCuriosEquipped("prodigium_reforged:turn_undead")
+  ) {
+    applyToNearbyPlayers(
+      player,
+      AURA_RADIUS,
+      "kubejs:protective_energy",
+      80,
+      0,
+      true,
+    );
+
+    const box = AABB.of(
+      player.x - TURN_UNDEAD_RADIUS,
+      player.y - TURN_UNDEAD_RADIUS,
+      player.z - TURN_UNDEAD_RADIUS,
+      player.x + TURN_UNDEAD_RADIUS,
+      player.y + TURN_UNDEAD_RADIUS,
+      player.z + TURN_UNDEAD_RADIUS,
+    );
+    const undead = player.level
+      .getEntitiesWithin(box)
+      .filter(
+        (e) => UNDEAD_TYPES.includes(e.getEncodeId()) && e.isAlive(),
+      );
+    for (const mob of undead) {
+      if (mob.getTarget() === player) {
+        mob.setTarget(null);
+      }
+    }
+  }
+
+  if (
+    player.age % 60 === 0 &&
+    player.isCuriosEquipped("prodigium_reforged:fragrant_corsage") &&
+    player.health < player.maxHealth
+  ) {
+    player.heal(1.0);
+  }
+});
+
+// Forgotten Cross Necklace - extended i-frames
+EntityEvents.hurt((event) => {
+  const player = event.entity;
+  if (!player.isPlayer()) return;
+  if (
+    !player.isCuriosEquipped("prodigium_reforged:forgotten_cross_necklace")
+  )
+    return;
+  player.invulnerableTime = Math.max(player.invulnerableTime, 25);
+});
