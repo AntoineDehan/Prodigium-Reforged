@@ -371,19 +371,10 @@ PlayerEvents.spellOnCast((event) => {
   }
 });
 
-const UNDEAD_TYPES = [
-  "minecraft:zombie",
-  "minecraft:husk",
-  "minecraft:drowned",
-  "minecraft:skeleton",
-  "minecraft:stray",
-  "minecraft:wither_skeleton",
-  "minecraft:phantom",
-  "minecraft:zombified_piglin",
-  "minecraft:zoglin",
-];
 const AURA_RADIUS = 10;
 const TURN_UNDEAD_RADIUS = 12;
+const TURN_UNDEAD_PROC = 0.05;
+const TURN_UNDEAD_CONFUSION_TICKS = 30;
 
 PlayerEvents.tick((event) => {
   const player = event.player;
@@ -425,12 +416,16 @@ PlayerEvents.tick((event) => {
     );
     const undead = player.level
       .getEntitiesWithin(box)
-      .filter(
-        (e) => UNDEAD_TYPES.includes(e.getEncodeId()) && e.isAlive(),
-      );
+      .filter((e) => e.isAlive() && e.type.is("#minecraft:undead"));
     for (const mob of undead) {
-      if (mob.getTarget() === player) {
-        mob.setTarget(null);
+      if (mob.getTarget() === player && Math.random() < TURN_UNDEAD_PROC) {
+        mob.potionEffects.add(
+          "confluence:confusion",
+          TURN_UNDEAD_CONFUSION_TICKS,
+          0,
+          true,
+          true,
+        );
       }
     }
   }
