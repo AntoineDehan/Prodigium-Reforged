@@ -12,12 +12,21 @@ EntityEvents.hurt((event) => {
     entity.potionEffects.add("minecraft:slowness", 60, 0, true, false);
     attacker.server.runCommandSilent(`mana add ${attacker.username} 1`);
   }
+
+  if (entity.hasEffect("kubejs:sticky")) {
+    attacker.potionEffects.add("confluence:honey", 40, 1, true, false);
+  }
+
+  if (weapon.id === "kubejs:honey_staff") {
+    entity.potionEffects.add("kubejs:sticky", 60, 0, true, false);
+  }
 });
 
 PlayerEvents.spellOnCast((event) => {
   const player = event.entity;
   const weapon = player.mainHandItem;
 
+  // Spawner Staff whimper thingy
   if (weapon.id === "kubejs:spawner_staff" && Math.random() < 0.9) {
     const WHIMPER_ID = "dungeonnowloading:whimper";
     const ownerTag = `whimper_pet_of_${player.username}`;

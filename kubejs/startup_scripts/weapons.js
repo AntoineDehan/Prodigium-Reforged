@@ -180,11 +180,47 @@ StartupEvents.registry("item", (event) => {
     .create("spawner_staff", "irons_spells_js:staff")
     .setTier((tier) => {
       tier
-        .setDamage(4)
+        .setDamage(5)
         .setSpeed(-3)
         .addAttribute("irons_spellbooks:spell_power", 0.1, "multiply_total")
         .addAttribute("irons_spellbooks:mana_regen", 0.25, "multiply_total")
         .addAttribute("irons_spellbooks:summon_damage", 0.1, "multiply_total");
+    })
+    .maxDamage(1000);
+
+  // Cleric's staves \\
+
+  // Crow staff
+  event
+    .create("crow_staff", "irons_spells_js:staff")
+    .setTier((tier) => {
+      tier
+        .setDamage(3.5)
+        .setSpeed(-3)
+        .addAttribute("irons_spellbooks:spell_power", 0.5, "multiply_total")
+        .addAttribute("irons_spellbooks:mana_regen", 0.3, "multiply_total")
+        .addAttribute(
+          "irons_spellbooks:holy_spell_power",
+          0.2,
+          "multiply_total",
+        );
+    })
+    .maxDamage(900);
+
+  // Honey staff
+  event
+    .create("honey_staff", "irons_spells_js:staff")
+    .setTier((tier) => {
+      tier
+        .setDamage(4)
+        .setSpeed(-3)
+        .addAttribute("irons_spellbooks:spell_power", 0.5, "multiply_total")
+        .addAttribute("irons_spellbooks:mana_regen", 0.3, "multiply_total")
+        .addAttribute(
+          "irons_spellbooks:holy_spell_power",
+          0.25,
+          "multiply_total",
+        );
     })
     .maxDamage(1000);
 });
