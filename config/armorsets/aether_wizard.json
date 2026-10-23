@@ -25,7 +25,7 @@
       "type": "attribute",
       "name": "irons_spellbooks:max_mana",
       "value": 550,
-      "modifierUUID": "9f25495a-23bd-4caa-a983-bac1e96eb05f",
+      "modifierUUID": "349dec1c-4a15-461d-8b4e-95b1fb4e6448",
       "description": "+550 Max Mana"
     },
     {

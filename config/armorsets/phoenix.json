@@ -18,21 +18,21 @@
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
       "value": 3.0,
-      "modifierUUID": "70027cd2-71f9-4cd0-932f-8c0fa02d8129",
+      "modifierUUID": "b3357536-e40d-46c2-9913-7faf4697e4d4",
       "description": "+3 Attack Damage"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.max_health",
       "value": 8.0,
-      "modifierUUID": "378d6211-00aa-493c-9ac2-fe34e5200914",
+      "modifierUUID": "db7ea378-ec48-441f-95bf-fc28f343f4bd",
       "description": "+4 Max health"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
       "value": 0.1,
-      "modifierUUID": "2aea28ee-9cca-11ed-b47f-0311a1fd8b9f",
+      "modifierUUID": "c774ca28-b613-4dc4-b976-13573c5fc2c5",
       "description": "+0.1 Attack Speed"
     },
     {
