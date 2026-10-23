@@ -1,10 +1,3 @@
 {
-  "type": "forge:add_spawns",
-  "biomes": "#forge:is_snowy",
-  "spawners": {
-    "type": "luminous_beasts:yeti_3",
-    "weight": 5,
-    "minCount": 1,
-    "maxCount": 1
-  }
+  "type": "forge:none"
 }
