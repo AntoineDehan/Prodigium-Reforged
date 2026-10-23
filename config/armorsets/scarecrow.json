@@ -18,14 +18,14 @@
       "type": "attribute",
       "name": "irons_spellbooks:spell_power",
       "value": 0.03,
-      "modifierUUID": "fd83eb39-fa96-4ddb-968a-fb00482eaa69",
+      "modifierUUID": "65a3f378-6116-46a5-a31c-bf5784f1aa16",
       "description": "+3% Spell Power"
     },
     {
       "type": "attribute",
       "name": "irons_spellbooks:max_mana",
       "value": 50,
-      "modifierUUID": "9f25495a-23bd-4caa-a983-bac1e96eb05f",
+      "modifierUUID": "4f644ccb-7962-42df-b61a-2a5363f248a4",
       "description": "+50 Max Mana"
     }
   ]

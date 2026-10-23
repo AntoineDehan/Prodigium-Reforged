@@ -18,14 +18,14 @@
       "type": "attribute",
       "name": "irons_spellbooks:holy_spell_power",
       "value": 0.02,
-      "modifierUUID": "850f2d1c-75fc-4b3f-8ee3-65fc7a979b92",
+      "modifierUUID": "d3af4cda-3fda-46ca-b17b-c162a9c2b767",
       "description": "+2% Holy Spell Power"
     },
     {
       "type": "attribute",
       "name": "irons_spellbooks:max_mana",
       "value": 25,
-      "modifierUUID": "5d17f7f3-147a-48bc-aa66-0842661f87c8",
+      "modifierUUID": "1576a3dc-7f04-4971-ade6-5c46e1786e6b",
       "description": "+25 Max Mana"
     }
   ]

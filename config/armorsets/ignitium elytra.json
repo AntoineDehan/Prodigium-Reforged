@@ -28,14 +28,14 @@
       "type": "attribute",
       "name": "minecraft:generic.armor_toughness",
       "value": 1.5,
-      "modifierUUID": "b7006518-e6ab-4614-bc34-df445b831787",
+      "modifierUUID": "ac4dd4ca-57a2-4ae8-83d9-6e89ae835d87",
       "description": "+1.5 Armor Toughness"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
       "value": 3.0,
-      "modifierUUID": "63544859-9637-426c-b2ef-e2776da4c2de",
+      "modifierUUID": "3b240d40-b7a3-426f-97ab-24c4a7e3a8eb",
       "description": "+3 Armor"
     }
   ]
