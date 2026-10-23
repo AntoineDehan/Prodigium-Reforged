@@ -1,10 +1,3 @@
 {
-  "type": "forge:add_spawns",
-  "biomes": "#minecraft:beach",
-  "spawners": {
-    "type": "luminous_beasts:hermit_king_3",
-    "weight": 5,
-    "minCount": 1,
-    "maxCount": 1
-  }
+  "type": "forge:none"
 }
