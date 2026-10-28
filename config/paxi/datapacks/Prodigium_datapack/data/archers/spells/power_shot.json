@@ -17,7 +17,7 @@
           "apply_mode": "ADD",
           "duration": 5,
           "amplifier": 3,
-          "effect_id": "archers:hunters_mark",
+          "effect_id": "kubejs:hunters_mark",
           "show_particles": false
         }
       },

@@ -1103,6 +1103,8 @@ StartupEvents.registry("mob_effect", (event) => {
       "addition",
     );
 
+  event.create("hunters_mark").color(0xff0000).harmful();
+
   ///Ranger armor set
   //Ranger Mind
   event.create("ranger_mind").color(0xffd27f).beneficial();

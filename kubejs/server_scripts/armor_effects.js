@@ -1,5 +1,12 @@
 /// Handling of armor set effects
 
+EntityEvents.hurt((event) => {
+  const victim = event.entity;
+  if (!victim.hasEffect("kubejs:hunters_mark")) return;
+  const level = victim.getEffect("kubejs:hunters_mark").amplifier + 1;
+  event.setDamage(event.getDamage() * (1 + 0.05 * level));
+});
+
 // Hit of entities from the Player
 EntityEvents.hurt((event) => {
   const entity = event.entity;
@@ -20,10 +27,10 @@ EntityEvents.hurt((event) => {
     // const distance = Math.sqrt(dx * dx + dy * dy + dz * dz);
 
     if (event.source.getType() == "arrow") {
-      if (entity.hasEffect("archers:hunters_mark")) {
+      if (entity.hasEffect("kubejs:hunters_mark")) {
         player.potionEffects.add("kubejs:hunter_readyness", 60, 0, false, true);
       }
-      entity.potionEffects.add("archers:hunters_mark", 120, 0, false, true);
+      entity.potionEffects.add("kubejs:hunters_mark", 120, 0, false, true);
     }
   }
 

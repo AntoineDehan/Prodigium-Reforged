@@ -53,6 +53,8 @@
   "effect.kubejs.ignitium_charge.description": "Enhances multiple magical attributes",
   "effect.kubejs.overcharged.description": "You're Overcharged! All combat and magical attributes are significantly enhanced for a limited time",
   "effect.kubejs.hunter.description": "Hitting an enemy applies Marked. Hitting a Marked enemy grants Hunter’s Readiness",
+  "effect.kubejs.hunters_mark": "Marked",
+  "effect.kubejs.hunters_mark.description": "Increases damage taken from all sources by 5%%",
   "effect.kubejs.hunter_readyness.description": "Enhances archers attributes",
   "effect.kubejs.ranger_mind.description": "Nearby pets gain Pet Cozyness. With 5 or more pets nearby, gain Ranger Cozyness",
   "effect.kubejs.ranger_cozyness.description": "Enhances archers attributes",
