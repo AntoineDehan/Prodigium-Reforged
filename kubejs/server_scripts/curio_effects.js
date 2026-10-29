@@ -23,7 +23,7 @@ EntityEvents.hurt((event) => {
       curio.duration,
       curio.amplifier,
       true,
-      true,
+      true
     );
   }
 
@@ -101,7 +101,7 @@ EntityEvents.hurt((event) => {
     player.z - BELL_RADIUS,
     player.x + BELL_RADIUS,
     player.y + BELL_RADIUS,
-    player.z + BELL_RADIUS,
+    player.z + BELL_RADIUS
   );
 
   const monsters = player.level
@@ -126,7 +126,7 @@ EntityEvents.hurt((event) => {
     "minecraft:block.bell.resonate",
     "players",
     1.0,
-    0.8,
+    0.8
   );
   player.addItemCooldown(BELL_ID, BELL_COOLDOWN);
 });
@@ -147,7 +147,7 @@ PlayerEvents.spellOnCast((event) => {
 
 //Magic Data\
 const $MagicData = Java.loadClass(
-  "io.redspace.ironsspellbooks.api.magic.MagicData",
+  "io.redspace.ironsspellbooks.api.magic.MagicData"
 );
 
 // Lucky Card
@@ -166,14 +166,14 @@ PlayerEvents.tick((event) => {
     30,
     0,
     true,
-    false,
+    false
   );
   player.potionEffects.add(
     "majruszsdifficulty:glass_regeneration",
     30,
     0,
     true,
-    false,
+    false
   );
 });
 
@@ -194,7 +194,7 @@ EntityEvents.hurt((event) => {
     player.z - ROAR_RADIUS,
     player.x + ROAR_RADIUS,
     player.y + ROAR_RADIUS,
-    player.z + ROAR_RADIUS,
+    player.z + ROAR_RADIUS
   );
 
   const monsters = player.level
@@ -218,14 +218,14 @@ EntityEvents.hurt((event) => {
     "block_factorys_bosses:entity.dragon.roar",
     "hostile",
     1.0,
-    2,
+    2
   );
   player.addItemCooldown(ROAR_ID, ROAR_COOLDOWN);
 });
 
 // King's Crown
 const $SummonManager = Java.loadClass(
-  "io.redspace.ironsspellbooks.capabilities.magic.SummonManager",
+  "io.redspace.ironsspellbooks.capabilities.magic.SummonManager"
 );
 
 const CROWN_ID = "prodigium_reforged:ashlords_roar";
@@ -243,7 +243,7 @@ PlayerEvents.tick((event) => {
     CROWN_DURATION,
     0,
     true,
-    false,
+    false
   );
 });
 
@@ -269,11 +269,11 @@ const HP_REGEN_CURIOS = [
 
 PlayerEvents.tick((event) => {
   const player = event.player;
-  if (player.age % 40 !== 0) return;
+  if (player.age % 50 !== 0) return;
   if (player.health >= player.maxHealth) return;
   for (const id of HP_REGEN_CURIOS) {
     if (player.isCuriosEquipped(id)) {
-      player.heal(1.0);
+      player.heal(0.5);
       return;
     }
   }
@@ -281,8 +281,8 @@ PlayerEvents.tick((event) => {
 
 // Mana cost reduction (Mana Flower, Mana Cloak)
 const MANA_COST_CURIOS = [
-  { id: "prodigium_reforged:mana_flower", reduction: 0.08 },
-  { id: "confluence:mana_cloak", reduction: 0.08 },
+  { id: "prodigium_reforged:mana_flower", reduction: 0.2 },
+  { id: "confluence:mana_cloak", reduction: 0.2 },
 ];
 
 PlayerEvents.changeMana((event) => {
@@ -305,69 +305,103 @@ PlayerEvents.changeMana((event) => {
 
 // Cleric accessories (Thorium adaptation)
 const HEAL_SPELLS = [
-  "irons_spellbooks:heal",
+  "irons_spellbooks:blessing_of_life",
+  "irons_spellbooks:fortify",
   "irons_spellbooks:greater_heal",
   "irons_spellbooks:healing_circle",
-  "irons_spellbooks:blessing_of_life",
+  "irons_spellbooks:heal",
+  "irons_spellbooks:haste",
 ];
 
-function applyToNearbyPlayers(
-  caster,
-  radius,
-  effectId,
-  duration,
-  amplifier,
-  includeSelf
-) {
+// TEST_MODE: pass true to let mobs count as allies/targets
+const CLERIC_TEST_MODE = true;
+
+function applyToNearbyPlayers(caster, radius, effectId, duration, amplifier) {
   const box = AABB.of(
     caster.x - radius,
     caster.y - radius,
     caster.z - radius,
     caster.x + radius,
     caster.y + radius,
-    caster.z + radius,
+    caster.z + radius
   );
-  const players = caster.level
-    .getEntitiesWithin(box)
-    .filter((e) => e.isPlayer() && e.isAlive() && (includeSelf || e !== caster));
-  for (const p of players) {
-    p.potionEffects.add(effectId, duration, amplifier, true, true);
+  const allies = caster.level.getEntitiesWithin(box).filter((e) => {
+    if (!e.isAlive() || e === caster) return false;
+    if (e.isPlayer()) return true;
+    return CLERIC_TEST_MODE && e.living;
+  });
+  for (const a of allies) {
+    a.potionEffects.add(effectId, duration, amplifier, true, true);
   }
 }
 
-PlayerEvents.spellOnCast((event) => {
-  const player = event.entity;
-  if (!player.isPlayer()) return;
+function findTestTarget(caster, radius) {
+  const box = AABB.of(
+    caster.x - radius,
+    caster.y - radius,
+    caster.z - radius,
+    caster.x + radius,
+    caster.y + radius,
+    caster.z + radius
+  );
+  const mobs = caster.level
+    .getEntitiesWithin(box)
+    .filter((e) => e.living && e.isAlive() && !e.isPlayer() && e !== caster);
+  if (mobs.length === 0) return null;
+  mobs.sort((a, b) => a.distanceToSqr(caster) - b.distanceToSqr(caster));
+  return mobs[0];
+}
 
-  const magicData = $MagicData.getPlayerMagicData(player);
+PlayerEvents.changeMana((event) => {
+  const player = event.player;
+  const magicData = event.getMagicData();
   if (!magicData) return;
   const spellId = magicData.getCastingSpellId();
   if (!HEAL_SPELLS.includes(spellId)) return;
 
-  if (player.isCuriosEquipped("prodigium_reforged:aloe_leaf")) {
-    applyToNearbyPlayers(player, 10, "kubejs:mending_grace", 160, 0, false);
+  let spellTarget = null;
+  const castData = magicData.additionalCastData;
+  if (castData && castData.getTarget) {
+    spellTarget = castData.getTarget(player.level);
   }
+  if (!spellTarget && CLERIC_TEST_MODE) {
+    spellTarget = findTestTarget(player, 10);
+  }
+  event.server.tell(
+    "spell target: " + (spellTarget ? spellTarget.type : "null")
+  );
+  if (!spellTarget) spellTarget = player;
 
   if (player.isCuriosEquipped("prodigium_reforged:zealots_belt")) {
     player.potionEffects.add("minecraft:speed", 60, 0, true, true);
-    player.potionEffects.add("kubejs:zealot_fervor", 60, 0, true, true);
+    player.potionEffects.add("kubejs:zealot_fervor", 100, 0, true, true);
   }
 
   if (player.isCuriosEquipped("prodigium_reforged:covenant_bond")) {
-    applyToNearbyPlayers(player, 8, "kubejs:mending_grace", 100, 0, true);
+    player.potionEffects.add("kubejs:mending_grace", 100, 0, true, true);
+    if (spellTarget !== player) {
+      spellTarget.potionEffects.add("kubejs:mending_grace", 100, 0, true, true);
+    }
   }
 
-  if (player.isCuriosEquipped("prodigium_reforged:honey_heart")) {
-    applyToNearbyPlayers(player, 8, "kubejs:mending_grace", 120, 0, false);
-    applyToNearbyPlayers(player, 8, "minecraft:slowness", 60, 0, false);
+  if (player.isCuriosEquipped("prodigium_reforged:aloe_leaf")) {
+    spellTarget.potionEffects.add("kubejs:mending_grace", 160, 1, true, true);
+  }
+
+  if (
+    player.isCuriosEquipped("prodigium_reforged:honey_heart") &&
+    spellTarget !== player
+  ) {
+    spellTarget.potionEffects.add("kubejs:mending_grace", 120, 0, true, true);
+    spellTarget.potionEffects.add("confluence:honey", 120, 0, true, true);
   }
 
   if (player.isCuriosEquipped("prodigium_reforged:lost_cross")) {
-    applyToNearbyPlayers(player, 6, "kubejs:holy_defense", 300, 0, false);
+    spellTarget.potionEffects.add("kubejs:holy_defense", 300, 0, true, true);
   }
 
   if (player.isCuriosEquipped("prodigium_reforged:forgotten_cross_necklace")) {
-    applyToNearbyPlayers(player, 8, "kubejs:holy_defense", 300, 0, false);
+    spellTarget.potionEffects.add("kubejs:holy_defense", 300, 0, true, true);
   }
 });
 
@@ -388,8 +422,7 @@ PlayerEvents.tick((event) => {
       AURA_RADIUS,
       "kubejs:protective_energy",
       80,
-      0,
-      false,
+      0
     );
   }
 
@@ -397,13 +430,13 @@ PlayerEvents.tick((event) => {
     player.age % 40 === 0 &&
     player.isCuriosEquipped("prodigium_reforged:turn_undead")
   ) {
+    player.potionEffects.add("kubejs:protective_energy", 80, 0, true, true);
     applyToNearbyPlayers(
       player,
       AURA_RADIUS,
       "kubejs:protective_energy",
       80,
-      0,
-      true,
+      0
     );
 
     const box = AABB.of(
@@ -412,7 +445,7 @@ PlayerEvents.tick((event) => {
       player.z - TURN_UNDEAD_RADIUS,
       player.x + TURN_UNDEAD_RADIUS,
       player.y + TURN_UNDEAD_RADIUS,
-      player.z + TURN_UNDEAD_RADIUS,
+      player.z + TURN_UNDEAD_RADIUS
     );
     const undead = player.level
       .getEntitiesWithin(box)
@@ -424,7 +457,7 @@ PlayerEvents.tick((event) => {
           TURN_UNDEAD_CONFUSION_TICKS,
           0,
           true,
-          true,
+          true
         );
       }
     }
@@ -443,9 +476,7 @@ PlayerEvents.tick((event) => {
 EntityEvents.hurt((event) => {
   const player = event.entity;
   if (!player.isPlayer()) return;
-  if (
-    !player.isCuriosEquipped("prodigium_reforged:forgotten_cross_necklace")
-  )
+  if (!player.isCuriosEquipped("prodigium_reforged:forgotten_cross_necklace"))
     return;
   player.invulnerableTime = Math.max(player.invulnerableTime, 25);
 });

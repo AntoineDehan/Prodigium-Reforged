@@ -7,8 +7,8 @@ StartupEvents.registry("item", (event) => {
         "minecraft:generic.armor",
         UUID,
         4,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:accessory");
@@ -21,8 +21,8 @@ StartupEvents.registry("item", (event) => {
         "irons_spellbooks:mana_regen",
         UUID,
         0.05,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -35,8 +35,8 @@ StartupEvents.registry("item", (event) => {
         "attributeslib:dodge_chance",
         UUID,
         0.05,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:charm");
@@ -49,8 +49,8 @@ StartupEvents.registry("item", (event) => {
         "irons_spellbooks:holy_spell_power",
         UUID,
         0.05,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -63,8 +63,8 @@ StartupEvents.registry("item", (event) => {
         "attributeslib:life_steal",
         UUID,
         0.02,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:ring");
@@ -84,8 +84,8 @@ StartupEvents.registry("item", (event) => {
         "minecraft:generic.armor",
         UUID,
         6,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:accessory");
@@ -98,8 +98,8 @@ StartupEvents.registry("item", (event) => {
         "combatroll:count",
         UUID,
         1,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:feet");
@@ -112,8 +112,8 @@ StartupEvents.registry("item", (event) => {
         "combatroll:recharge",
         UUID,
         0.1,
-        "multiply_base",
-      ),
+        "multiply_base"
+      )
     )
     .maxStackSize(1)
     .tag("curios:ring");
@@ -128,8 +128,8 @@ StartupEvents.registry("item", (event) => {
           "attributeslib:arrow_velocity",
           UUID,
           0.05,
-          "multiply_base",
-        ),
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -140,7 +140,7 @@ StartupEvents.registry("item", (event) => {
     .attachCuriosCapability(
       CuriosJSCapabilityBuilder.create()
         .addAttribute("attributeslib:arrow_damage", UUID, 0.08, "multiply_base")
-        .addAttribute("attributeslib:draw_speed", UUID, 0.02, "multiply_base"),
+        .addAttribute("attributeslib:draw_speed", UUID, 0.02, "multiply_base")
     )
     .maxStackSize(1)
     .tag("curios:hands");
@@ -153,8 +153,8 @@ StartupEvents.registry("item", (event) => {
         "attributeslib:arrow_damage",
         UUID,
         0.1,
-        "multiply_base",
-      ),
+        "multiply_base"
+      )
     )
     .maxStackSize(1)
     .tag("curios:belt");
@@ -168,9 +168,9 @@ StartupEvents.registry("item", (event) => {
           "irons_spellbooks:spell_power",
           UUID,
           0.05,
-          "multiply_base",
+          "multiply_base"
         )
-        .addAttribute("irons_spellbooks:max_mana", UUID, 30, "addition"),
+        .addAttribute("irons_spellbooks:max_mana", UUID, 30, "addition")
     )
     .maxStackSize(1)
     .tag("curios:charm");
@@ -184,14 +184,14 @@ StartupEvents.registry("item", (event) => {
           "gunswithoutroses:gwr.fire_delay",
           UUID,
           -0.05,
-          "multiply_base",
+          "multiply_base"
         )
         .addAttribute(
           "gunswithoutroses:gwr.damage_total",
           UUID,
           0.03,
-          "multiply_base",
-        ),
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:belt");
@@ -204,8 +204,8 @@ StartupEvents.registry("item", (event) => {
         "minecraft:generic.max_health",
         UUID,
         2,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:belt");
@@ -216,7 +216,7 @@ StartupEvents.registry("item", (event) => {
     .attachCuriosCapability(
       CuriosJSCapabilityBuilder.create()
         .addAttribute("minecraft:generic.armor", UUID, 4, "addition")
-        .addAttribute("confluence:aggro", UUID, 150, "addition"),
+        .addAttribute("confluence:aggro", UUID, 150, "addition")
     )
     .maxStackSize(1)
     .tag("curios:body");
@@ -238,14 +238,14 @@ StartupEvents.registry("item", (event) => {
           "sweet_charm_o_mine:bullet_armor_penetration",
           UUID,
           0.1,
-          "addition",
+          "addition"
         )
         .addAttribute(
           "gunswithoutroses:damage_total",
           UUID,
           0.1,
-          "multiply_base",
-        ),
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:charm");
@@ -260,8 +260,8 @@ StartupEvents.registry("item", (event) => {
           "attributeslib:healing_received",
           UUID,
           0.2,
-          "multiply_base",
-        ),
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:charm");
@@ -273,7 +273,7 @@ StartupEvents.registry("item", (event) => {
       CuriosJSCapabilityBuilder.create()
         .addAttribute("minecraft:generic.armor_toughness", UUID, 2, "addition")
         .addAttribute("minecraft:generic.armor", UUID, 2, "addition")
-        .addAttribute("confluence:aggro", UUID, 150, "addition"),
+        .addAttribute("confluence:aggro", UUID, 150, "addition")
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -287,15 +287,15 @@ StartupEvents.registry("item", (event) => {
           "irons_spellbooks:summon_damage",
           UUID,
           0.2,
-          "multiply_base",
+          "multiply_base"
         )
         .addAttribute(
           "irons_spellbooks:spell_power",
           UUID,
           0.15,
-          "multiply_base",
+          "multiply_base"
         )
-        .addAttribute("irons_spellbooks:max_mana", UUID, 200, "addition"),
+        .addAttribute("irons_spellbooks:max_mana", UUID, 200, "addition")
     )
     .maxStackSize(1)
     .tag("curios:head");
@@ -309,15 +309,15 @@ StartupEvents.registry("item", (event) => {
           "irons_spellbooks:ice_spell_power",
           UUID,
           0.08,
-          "multiply_base",
+          "multiply_base"
         )
         .addAttribute(
           "irons_spellbooks:spell_power",
           UUID,
           0.1,
-          "multiply_base",
+          "multiply_base"
         )
-        .addAttribute("irons_spellbooks:max_mana", UUID, 150, "addition"),
+        .addAttribute("irons_spellbooks:max_mana", UUID, 150, "addition")
     )
     .maxStackSize(1)
     .tag("curios:head");
@@ -326,12 +326,14 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:band_of_starpower")
     .attachCuriosCapability(
-      CuriosJSCapabilityBuilder.create().addAttribute(
-        "irons_spellbooks:max_mana",
-        UUID,
-        40,
-        "addition",
-      ),
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("irons_spellbooks:max_mana", UUID, 50, "addition")
+        .addAttribute(
+          "irons_spellbooks:mana_regen",
+          UUID,
+          0.05,
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:ring");
@@ -341,8 +343,8 @@ StartupEvents.registry("item", (event) => {
     .create("prodigium_reforged:mana_regeneration_band")
     .attachCuriosCapability(
       CuriosJSCapabilityBuilder.create()
-        .addAttribute("irons_spellbooks:max_mana", UUID, 40, "addition")
-        .addAttribute("irons_spellbooks:mana_regen", UUID, 0.08, "addition"),
+        .addAttribute("irons_spellbooks:max_mana", UUID, 70, "addition")
+        .addAttribute("irons_spellbooks:mana_regen", UUID, 0.08, "addition")
     )
     .maxStackSize(1)
     .tag("curios:ring");
@@ -353,7 +355,7 @@ StartupEvents.registry("item", (event) => {
     .attachCuriosCapability(
       CuriosJSCapabilityBuilder.create()
         .addAttribute("irons_spellbooks:max_mana", UUID, 40, "addition")
-        .addAttribute("minecraft:generic.armor", UUID, 2, "addition"),
+        .addAttribute("minecraft:generic.armor", UUID, 2, "addition")
     )
     .maxStackSize(1)
     .tag("curios:hands");
@@ -363,7 +365,8 @@ StartupEvents.registry("item", (event) => {
     .create("prodigium_reforged:mana_flower")
     .attachCuriosCapability(CuriosJSCapabilityBuilder.create())
     .maxStackSize(1)
-    .tag("curios:charm");
+    .tag("curios:pocket_left")
+    .tag("curios:pocket_right");
 
   // Restoration Shield
   event
@@ -377,8 +380,8 @@ StartupEvents.registry("item", (event) => {
           "minecraft:generic.knockback_resistance",
           UUID,
           1.0,
-          "addition",
-        ),
+          "addition"
+        )
     )
     .maxStackSize(1)
     .tag("curios:accessory");
@@ -391,8 +394,8 @@ StartupEvents.registry("item", (event) => {
         "irons_spellbooks:holy_spell_power",
         UUID,
         0.04,
-        "multiply_base",
-      ),
+        "multiply_base"
+      )
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -401,12 +404,14 @@ StartupEvents.registry("item", (event) => {
   event
     .create("prodigium_reforged:ancient_aegis")
     .attachCuriosCapability(
-      CuriosJSCapabilityBuilder.create().addAttribute(
-        "minecraft:generic.armor",
-        UUID,
-        3,
-        "addition",
-      ),
+      CuriosJSCapabilityBuilder.create()
+        .addAttribute("minecraft:generic.armor", UUID, 3, "addition")
+        .addAttribute(
+          "irons_spellbooks:holy_spell_power",
+          UUID,
+          0.5,
+          "multiply_total"
+        )
     )
     .maxStackSize(1)
     .tag("curios:accessory");
@@ -419,8 +424,8 @@ StartupEvents.registry("item", (event) => {
         "irons_spellbooks:mana_regen",
         UUID,
         0.06,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:belt");
@@ -436,8 +441,8 @@ StartupEvents.registry("item", (event) => {
           "irons_spellbooks:holy_spell_power",
           UUID,
           0.05,
-          "multiply_base",
-        ),
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:charm");
@@ -451,9 +456,9 @@ StartupEvents.registry("item", (event) => {
           "irons_spellbooks:holy_spell_power",
           UUID,
           0.08,
-          "multiply_base",
+          "multiply_base"
         )
-        .addAttribute("irons_spellbooks:mana_regen", UUID, 0.05, "addition"),
+        .addAttribute("irons_spellbooks:mana_regen", UUID, 0.05, "addition")
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -468,8 +473,8 @@ StartupEvents.registry("item", (event) => {
           "irons_spellbooks:holy_spell_power",
           UUID,
           0.05,
-          "multiply_base",
-        ),
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -484,8 +489,8 @@ StartupEvents.registry("item", (event) => {
           "attributeslib:healing_received",
           UUID,
           0.1,
-          "multiply_base",
-        ),
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:charm");
@@ -500,8 +505,8 @@ StartupEvents.registry("item", (event) => {
           "irons_spellbooks:holy_spell_power",
           UUID,
           0.03,
-          "multiply_base",
-        ),
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:charm");
@@ -515,20 +520,20 @@ StartupEvents.registry("item", (event) => {
           "irons_spellbooks:holy_spell_power",
           UUID,
           0.15,
-          "multiply_total",
+          "multiply_total"
         )
         .addAttribute(
           "irons_spellbooks:spell_power",
           UUID,
           0.08,
-          "multiply_total",
+          "multiply_total"
         )
         .addAttribute(
           "irons_spellbooks:cooldown_reduction",
           UUID,
           0.08,
-          "multiply_total",
-        ),
+          "multiply_total"
+        )
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -541,8 +546,8 @@ StartupEvents.registry("item", (event) => {
         "minecraft:generic.armor",
         UUID,
         2,
-        "addition",
-      ),
+        "addition"
+      )
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -557,8 +562,8 @@ StartupEvents.registry("item", (event) => {
           "irons_spellbooks:spell_power",
           UUID,
           0.05,
-          "multiply_base",
-        ),
+          "multiply_base"
+        )
     )
     .maxStackSize(1)
     .tag("curios:necklace");
@@ -569,7 +574,7 @@ StartupEvents.registry("item", (event) => {
     .attachCuriosCapability(
       CuriosJSCapabilityBuilder.create()
         .addAttribute("minecraft:generic.armor", UUID, 4, "addition")
-        .addAttribute("confluence:aggro", UUID, -100, "addition"),
+        .addAttribute("confluence:aggro", UUID, -100, "addition")
     )
     .maxStackSize(1)
     .tag("curios:accessory");
@@ -583,8 +588,8 @@ ItemEvents.modification((event) => {
         "attributeslib:arrow_damage",
         UUID,
         0.15,
-        "multiply_total",
-      ),
+        "multiply_total"
+      )
     );
   });
 
@@ -594,8 +599,8 @@ ItemEvents.modification((event) => {
         "attributeslib:arrow_damage",
         UUID,
         0.1,
-        "multiply_total",
-      ),
+        "multiply_total"
+      )
     );
   });
 
@@ -605,8 +610,8 @@ ItemEvents.modification((event) => {
         "attributeslib:arrow_damage",
         UUID,
         0.12,
-        "multiply_total",
-      ),
+        "multiply_total"
+      )
     );
   });
 
@@ -616,8 +621,8 @@ ItemEvents.modification((event) => {
         "attributeslib:arrow_damage",
         UUID,
         0.12,
-        "multiply_total",
-      ),
+        "multiply_total"
+      )
     );
   });
 
@@ -627,8 +632,8 @@ ItemEvents.modification((event) => {
         "attributeslib:arrow_damage",
         UUID,
         0.1,
-        "multiply_total",
-      ),
+        "multiply_total"
+      )
     );
   });
 
@@ -639,20 +644,20 @@ ItemEvents.modification((event) => {
           "attributeslib:arrow_damage",
           UUID,
           0.12,
-          "multiply_total",
+          "multiply_total"
         )
         .addAttribute(
           "minecraft:generic.attack_damage",
           UUID,
           0.12,
-          "multiply_total",
+          "multiply_total"
         )
         .addAttribute(
           "irons_spellbooks:spell_power",
           UUID,
           0.12,
-          "multiply_total",
-        ),
+          "multiply_total"
+        )
     );
   });
 
@@ -660,12 +665,7 @@ ItemEvents.modification((event) => {
     item.attachCuriosCapability(
       CuriosJSCapabilityBuilder.create()
         .addAttribute("attributeslib:arrow_damage", UUID, 0.1, "multiply_total")
-        .addAttribute(
-          "attributeslib:crit_chance",
-          UUID,
-          0.15,
-          "multiply_total",
-        ),
+        .addAttribute("attributeslib:crit_chance", UUID, 0.15, "multiply_total")
     );
   });
 });

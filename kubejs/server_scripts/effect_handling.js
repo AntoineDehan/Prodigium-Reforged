@@ -1,7 +1,7 @@
 // Well Fed & Honey Liquid
 PlayerEvents.tick((event) => {
   const player = event.player;
-  if (!player) return;
+  if (!player && !player.isPlayer()) return;
 
   if (event.server.tickCount % 100 === 0) {
     const food = player.foodData.foodLevel;
@@ -16,4 +16,9 @@ PlayerEvents.tick((event) => {
       player.potionEffects.add("confluence:honey", 600, 0, true, false);
     }
   }
+  if (event.server.tickCount % 45 === 0)
+    if (player.hasEffect("kubejs:mending_grace")) {
+      event.server.tell(player.getActiveEffects());
+      player.heal(0.5 * player.getEffect("kubejs:mending_grace").amplifier + 1);
+    }
 });

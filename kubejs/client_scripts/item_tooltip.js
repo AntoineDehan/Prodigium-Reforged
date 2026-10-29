@@ -48,6 +48,67 @@ ItemEvents.tooltip((event) => {
     ),
   ]);
 
+  event.add("prodigium_reforged:mana_regeneration_band", [
+    Text.gold("Slowly regenerates health over time"),
+  ]);
+
+  event.add("prodigium_reforged:magic_cuffs", [
+    Text.gold("Gain mana equal to damage taken"),
+  ]);
+
+  event.add("prodigium_reforged:mana_flower", [
+    Text.gold("Reduces the mana cost of all spells"),
+  ]);
+
+  event.add("confluence:mana_cloak", [
+    Text.gold("Reduces the mana cost of all spells"),
+    Text.gold("Causes stars to fall after taking damage"),
+  ]);
+
+  event.add("prodigium_reforged:restoration_shield", [
+    Text.gold("Immune to knockback. Slowly regenerates health over time"),
+  ]);
+
+  event.add("prodigium_reforged:aloe_leaf", [
+    Text.gold("Healing an ally applies Mending Grace to them"),
+  ]);
+
+  event.add("prodigium_reforged:ancient_aegis", [
+    Text.gold("Nearby allies gain Protective Energy"),
+  ]);
+
+  event.add("prodigium_reforged:zealots_belt", [
+    Text.gold("Healing an ally grants you Speed and Zealot Fervor"),
+  ]);
+
+  event.add("prodigium_reforged:covenant_bond", [
+    Text.gold("Healing an ally applies Mending Grace to you and them"),
+  ]);
+
+  event.add("prodigium_reforged:fragrant_corsage", [
+    Text.gold("Slowly regenerates health over time"),
+  ]);
+
+  event.add("prodigium_reforged:honey_heart", [
+    Text.gold("Healing an ally applies Mending Grace and covers them in honey"),
+  ]);
+
+  event.add("prodigium_reforged:lost_cross", [
+    Text.gold("Healing an ally grants them Holy Defense"),
+  ]);
+
+  event.add("prodigium_reforged:forgotten_cross_necklace", [
+    Text.gold(
+      "Healing an ally grants them Holy Defense. Extended invulnerability after being hit",
+    ),
+  ]);
+
+  event.add("prodigium_reforged:turn_undead", [
+    Text.gold(
+      "You and nearby allies gain Protective Energy. Nearby undead attackers can be Confused",
+    ),
+  ]);
+
   //Misc
   event.add("prodigium_reforged:compass_of_time", [
     Text.darkAqua(
@@ -66,6 +127,9 @@ ItemEvents.tooltip((event) => {
     Text.gray(
       "High chance of summoning a Whimper if casting a spell while wielding this staff",
     ),
+  ]);
+  event.add("kubejs:honey_staff", [
+    Text.aqua("Hits apply Sticky to enemies"),
   ]);
 
   //

@@ -64,6 +64,12 @@
   "effect.kubejs.super_armor_heavy.description": "Activates between 65 and 79 armor points",
   "effect.kubejs.over_armored.description": "Activates from 80 armor points",
 
+  "effect.kubejs.mending_grace.description": "Slowly regenerates your health over time.",
+  "effect.kubejs.holy_defense.description": "Significantly increases your armor.",
+  "effect.kubejs.protective_energy.description": "Increases your armor and armor toughness.",
+  "effect.kubejs.zealot_fervor.description": "Reduces your spell cast time.",
+  "effect.kubejs.sticky.description": "You are slowed. Attackers striking you are drenched in Honey.",
+
   "tooltip.translation.spacecatasb.settitle.berserker": "Berserker",
   "tooltip.translation.spacecatasb.settitle.berseker": "Berserker",
   "tooltip.translation.spacecatasb.settitle.archer": "Archer",
