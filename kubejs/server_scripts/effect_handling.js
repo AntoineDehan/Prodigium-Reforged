@@ -18,7 +18,6 @@ PlayerEvents.tick((event) => {
   }
   if (event.server.tickCount % 45 === 0)
     if (player.hasEffect("kubejs:mending_grace")) {
-      event.server.tell(player.getActiveEffects());
-      player.heal(0.5 * player.getEffect("kubejs:mending_grace").amplifier + 1);
+      player.heal(0.5 * (player.getEffect("kubejs:mending_grace").amplifier + 1));
     }
 });
