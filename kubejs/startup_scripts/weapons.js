@@ -144,7 +144,7 @@ StartupEvents.registry("item", (event) => {
         .addAttribute(
           "irons_spellbooks:cooldown_reduction",
           0.03,
-          "multiply_total",
+          "multiply_total"
         )
         .addAttribute("irons_spellbooks:mana_regen", 0.25, "multiply_total");
     })
@@ -164,7 +164,7 @@ StartupEvents.registry("item", (event) => {
 
   // Mythril staff
   event
-    .create("myhtril_staff", "irons_spells_js:staff")
+    .create("mythril_staff", "irons_spells_js:staff")
     .setTier((tier) => {
       tier
         .setDamage(4)
@@ -197,12 +197,12 @@ StartupEvents.registry("item", (event) => {
       tier
         .setDamage(3.5)
         .setSpeed(-3)
-        .addAttribute("irons_spellbooks:spell_power", 0.5, "multiply_total")
+        .addAttribute("irons_spellbooks:spell_power", 0.05, "multiply_total")
         .addAttribute("irons_spellbooks:mana_regen", 0.3, "multiply_total")
         .addAttribute(
           "irons_spellbooks:holy_spell_power",
           0.2,
-          "multiply_total",
+          "multiply_total"
         );
     })
     .maxDamage(900);
@@ -214,12 +214,12 @@ StartupEvents.registry("item", (event) => {
       tier
         .setDamage(4)
         .setSpeed(-3)
-        .addAttribute("irons_spellbooks:spell_power", 0.5, "multiply_total")
+        .addAttribute("irons_spellbooks:spell_power", 0.05, "multiply_total")
         .addAttribute("irons_spellbooks:mana_regen", 0.3, "multiply_total")
         .addAttribute(
           "irons_spellbooks:holy_spell_power",
           0.25,
-          "multiply_total",
+          "multiply_total"
         );
     })
     .maxDamage(1000);
