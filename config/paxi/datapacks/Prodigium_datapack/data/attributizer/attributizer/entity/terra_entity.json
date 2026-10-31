@@ -397,7 +397,7 @@
     },
     {
       "attribute": "minecraft:generic.max_health",
-      "modify": -0.4,
+      "modify": -0.6,
       "operation": "MULTIPLY_BASE"
     },
     {
@@ -407,12 +407,12 @@
     },
     {
       "attribute": "minecraft:generic.movement_speed",
-      "modify": -0.2,
+      "modify": -0.45,
       "operation": "MULTIPLY_BASE"
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "modify": -0.35,
+      "modify": -0.6,
       "operation": "MULTIPLY_BASE"
     }
   ]
