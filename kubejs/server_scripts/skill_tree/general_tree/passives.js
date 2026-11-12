@@ -129,7 +129,7 @@ PlayerEvents.tick((event) => {
 
   if (event.server.tickCount % 40 !== 0) return;
 
-  if (player.tags.contains("wizard") && mainHand.getItem().attackDamage >= 6) {
+  if (player.tags.contains("wizard") && mainHand.getItem().attackDamage > 6) {
     player.potionEffects.add("kubejs:frail_weakness", 160, 0, true, false);
   }
 
