@@ -1,7 +1,15 @@
-const $LootParams = Java.loadClass("net.minecraft.world.level.storage.loot.LootParams");
-const $LootContextParamSets = Java.loadClass("net.minecraft.world.level.storage.loot.parameters.LootContextParamSets");
-const $ResourceLocation = Java.loadClass("net.minecraft.resources.ResourceLocation");
-const $LootItem = Java.loadClass("net.minecraft.world.level.storage.loot.entries.LootItem");
+const $LootParams = Java.loadClass(
+  "net.minecraft.world.level.storage.loot.LootParams"
+);
+const $LootContextParamSets = Java.loadClass(
+  "net.minecraft.world.level.storage.loot.parameters.LootContextParamSets"
+);
+const $ResourceLocation = Java.loadClass(
+  "net.minecraft.resources.ResourceLocation"
+);
+const $LootItem = Java.loadClass(
+  "net.minecraft.world.level.storage.loot.entries.LootItem"
+);
 const $ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack");
 
 const REQUIRED_FREE_SLOTS = 7;
@@ -42,6 +50,7 @@ let treasureBags = [
   "prodigium:infernal_dragon_treasure_bag",
   "prodigium:sandworm_treasure_bag",
   "prodigium:underworld_knight_treasure_bag",
+  "prodigium:ice_spider_treasure_bag",
 ];
 
 let bagLootInfo = {};
