@@ -5484,6 +5484,12 @@
         "data": {
           "command": "puffish_skills category unlock @s simplyskills:wizard"
         }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "wizard"
+        }
       }
     ],
     "metadata": {
