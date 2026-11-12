@@ -236,7 +236,7 @@
 		reset_health_when_respawn = false
 		#Umvuthi will summon healers whenever he loses this much total health.
 		#Range: > 0
-		spawn_healers_threshold = 45
+		spawn_healers_threshold = 150
 
 		#Generation controls for Umvuthana Groves
 		[mobs.umvuthi.biome_config]
