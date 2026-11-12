@@ -41,8 +41,14 @@ LootJS.modifiers((event) => {
       "bygonenether:piglin_prisoner",
       "luminous_nether:piglin_cultist",
       "luminous_nether:piglin_executioner",
+      "minecraft:piglin_brute",
     )
-    .randomChanceWithLooting(0.2, 0.03)
+    .randomChanceWithLooting(0.33, 0.03)
+    .addWeightedLoot([1, 2], [Item.of("irons_spellbooks:hogskin")]);
+
+  event
+    .addEntityLootModifier("minecraft:piglin")
+    .randomChanceWithLooting(0.1, 0.03)
     .addWeightedLoot([1], [Item.of("irons_spellbooks:hogskin")]);
 
   // Blood Sac
