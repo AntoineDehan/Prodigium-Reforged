@@ -86,20 +86,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "irons_spellbooks:ice_venom_vial",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
         }
       ]
     },
