@@ -105,7 +105,7 @@ PlayerEvents.changeMana((event) => {
       "irons_spellbooks:spell_power",
       "wizardery",
       newSpellPower,
-      "multiply_total",
+      "multiply_total"
     );
   }
 
@@ -118,13 +118,20 @@ PlayerEvents.changeMana((event) => {
       "minecraft:generic.max_health",
       "wizardery",
       newMaxHealth,
-      "multiply_total",
+      "multiply_total"
     );
   }
 });
 
 PlayerEvents.tick((event) => {
   const player = event.player;
+  const mainHand = player.mainHandItem;
+
+  if (event.server.tickCount % 40 !== 0) return;
+
+  if (player.tags.contains("wizard") && mainHand.getItem().attackDamage >= 6) {
+    player.potionEffects.add("kubejs:frail_weakness", 160, 0, true, false);
+  }
 
   // Ranged Awarness
   if (player.tags.contains("ranged_awareness")) {
@@ -135,7 +142,7 @@ PlayerEvents.tick((event) => {
         "attributecore:stealth",
         "stealth",
         0.4,
-        "addition",
+        "addition"
       );
       player.modifyAttribute("confluence:aggro", "aggro", -200, "addition");
     } else if (healthRatio < 0.5) {
@@ -143,7 +150,7 @@ PlayerEvents.tick((event) => {
         "attributecore:stealth",
         "stealth",
         0.2,
-        "addition",
+        "addition"
       );
       player.modifyAttribute("confluence:aggro", "aggro", -100, "addition");
     } else if (healthRatio < 0.8) {
@@ -151,7 +158,7 @@ PlayerEvents.tick((event) => {
         "attributecore:stealth",
         "stealth",
         0.1,
-        "addition",
+        "addition"
       );
       player.modifyAttribute("confluence:aggro", "aggro", -50, "addition");
     }

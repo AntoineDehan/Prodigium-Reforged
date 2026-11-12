@@ -1518,4 +1518,40 @@ StartupEvents.registry("mob_effect", (event) => {
       -0.15,
       "multiply_total"
     );
+
+  // Wizard Frail
+  event
+    .create("frail_weakness")
+    .color(0xffcf3f)
+    .beneficial()
+    .modifyAttribute(
+      "minecraft:generic.movement_speed",
+      "611537be-5c74-42e0-9977-3f9b0bdb346a",
+      -0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.attack_damage",
+      "7f6814ce-7d89-4dd6-95d7-375ac536a2df",
+      -0.2,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "minecraft:generic.attack_speed",
+      "eb90db05-f129-400b-869d-f54ddce49592",
+      -0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "irons_spellbooks:mana_regen",
+      "dc36b04d-cb41-4a14-a517-318305cd7d38",
+      -0.15,
+      "multiply_total"
+    )
+    .modifyAttribute(
+      "combatroll:recharge",
+      "86d93eaf-8923-425c-8be0-d3a30c1e1c6a",
+      -0.2,
+      "multiply_total"
+    );
 });
