@@ -1786,8 +1786,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 16.875d
-			y: 2.5d
+			x: 13.125d
+			y: -4.375d
 		}
 		{
 			dependencies: ["2AA533E3047745A0"]
@@ -1829,8 +1829,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 17.125d
-			y: -5.0d
+			x: 16.875d
+			y: -6.25d
 		}
 		{
 			dependencies: ["1A1D4191D9A098E9"]
@@ -2021,7 +2021,7 @@
 		}
 		{
 			dependencies: ["281435B11C0F1243"]
-			description: ["Boss secondaire, utile pour une armure?&l"]
+			description: ["Located in a &2Ice Spider Den&r, destroy the Ice Spider Egg to summon it."]
 			id: "6F87B289945C75E0"
 			optional: true
 			shape: "octagon"
@@ -2036,7 +2036,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["53EAB8D1FE264583"]
+			dependencies: ["6D61611F129254CB"]
 			id: "2AA533E3047745A0"
 			shape: "octagon"
 			size: 2.0d
@@ -2046,7 +2046,7 @@
 				type: "structure"
 			}]
 			x: 18.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["53EAB8D1FE264583"]
@@ -2058,14 +2058,11 @@
 				title: "NEED A CUSTOM GATE TO BE DONE TO UNLOCK DUNGEON"
 				type: "custom"
 			}]
-			x: 18.0d
-			y: 1.0d
+			x: 15.0d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"2AA533E3047745A0"
-				"6D61611F129254CB"
-			]
+			dependencies: ["2AA533E3047745A0"]
 			id: "697176B4AB2A84FA"
 			shape: "hexagon"
 			size: 2.0d

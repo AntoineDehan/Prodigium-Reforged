@@ -761,7 +761,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["745FE062B66D6927"]
@@ -772,7 +772,7 @@
 				item: "confluence:sorcerer_emblem"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: 5.0d
 		}
 		{
@@ -784,8 +784,8 @@
 				item: "confluence:black_belt"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 5.0d
+			x: 8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["745FE062B66D6927"]
@@ -889,7 +889,7 @@
 				id: "17FCB0B31493824C"
 				item: {
 					Count: 1
-					id: "kubejs:myhtril_staff"
+					id: "kubejs:mythril_staff"
 					tag: {
 						Damage: 0
 					}
@@ -996,6 +996,36 @@
 			}]
 			x: 5.0d
 			y: 8.5d
+		}
+		{
+			id: "6AE735D435D1E514"
+			tasks: [{
+				id: "4B3AED1D5ED840F9"
+				item: "prodigium_reforged:mana_regeneration_band"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			id: "59431F4FC6499676"
+			tasks: [{
+				id: "26C6356E73231F39"
+				item: "prodigium_reforged:mana_flower"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "23B00DFEB75F3E5D"
+			tasks: [{
+				id: "0BD877A20CA1B0FC"
+				item: "prodigium_reforged:band_of_starpower"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
 		}
 	]
 	title: "Wizard"

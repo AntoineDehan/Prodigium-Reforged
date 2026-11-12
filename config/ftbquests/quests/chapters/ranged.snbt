@@ -1288,7 +1288,7 @@
 				xp_levels: 2
 			}]
 			tasks: [{
-				icon: "alexsmobs:bear_fur"
+				icon: "companions:antlion_fur"
 				id: "089F204FE6E17BC1"
 				structure: "companions:companions_teddytower"
 				title: "Discover a Teddy Tower"

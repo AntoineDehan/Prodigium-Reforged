@@ -62,7 +62,7 @@
 			rotation: 0.0d
 			width: 2.25d
 			x: -2.0d
-			y: 6.0d
+			y: 8.5d
 		}
 	]
 	order_index: 5
@@ -338,7 +338,7 @@
 			}]
 			title: "New book, new mage"
 			x: 3.5d
-			y: 6.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -381,7 +381,7 @@
 			}]
 			title: "Ultimate Cleric weapon"
 			x: 4.5d
-			y: 6.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -515,8 +515,8 @@
 				item: "confluence:sorcerer_emblem"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.5d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["525D3BC989CF49D9"]
@@ -528,8 +528,8 @@
 				item: "prodigium_reforged:slimy_scarf"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.5d
+			x: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["525D3BC989CF49D9"]
@@ -542,7 +542,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["525D3BC989CF49D9"]
@@ -554,7 +554,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			id: "739BF019DCB4ED68"
@@ -575,6 +575,160 @@
 			}]
 			x: 8.0d
 			y: 3.5d
+		}
+		{
+			id: "38B0721872FDA8C2"
+			tasks: [{
+				id: "0D848C870D4C4851"
+				item: {
+					Count: 1
+					id: "kubejs:crow_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "3B0DBDD4705A524B"
+			tasks: [{
+				id: "578099EA4BE10FEA"
+				item: {
+					Count: 1
+					id: "kubejs:honey_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "3B72FF3E865FFF42"
+			tasks: [{
+				id: "46AF0D314EC85880"
+				item: "prodigium_reforged:mana_flower"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "6A4028E7EAF21A17"
+			tasks: [{
+				id: "3F0468151A297A8E"
+				item: "prodigium_reforged:aloe_leaf"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "31D0E8DDA85D91AE"
+			tasks: [{
+				id: "51322C724E64D4ED"
+				item: "prodigium_reforged:ancient_aegis"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "12D64D7AAC4C743B"
+			tasks: [{
+				id: "369373BCFC42B262"
+				item: "prodigium_reforged:zealots_belt"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "7B8193068A87A490"
+			tasks: [{
+				id: "7FC1723E0EACDB94"
+				item: "prodigium_reforged:crystal_arcanite"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "65F37B496D809538"
+			tasks: [{
+				id: "246F4B7BFE2EC017"
+				item: "prodigium_reforged:fragrant_corsage"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			id: "311761829EA58643"
+			tasks: [{
+				id: "5AFC5E285A320778"
+				item: "prodigium_reforged:life_gem"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			id: "59C6F656F8440F5D"
+			tasks: [{
+				id: "25B162C03B05C6F3"
+				item: "prodigium_reforged:cleric_emblem"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			id: "03356AB84F274303"
+			tasks: [{
+				id: "53AB7B784FB4FA48"
+				item: "prodigium_reforged:lost_cross"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			id: "5B58BCD466A09D3E"
+			tasks: [{
+				id: "572B7AAA15C02922"
+				item: {
+					Count: 1
+					id: "kubejs:slime_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "281BDA5058976A1D"
+			tasks: [{
+				id: "3918EF252977D5DE"
+				item: {
+					Count: 1
+					id: "kubejs:mythril_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "Cleric"
