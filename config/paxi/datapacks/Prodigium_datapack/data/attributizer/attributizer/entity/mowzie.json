@@ -180,8 +180,13 @@
       "operation": "ADDITION"
     },
     {
+      "attribute": "minecraft:generic.max_health",
+      "modify": -0.6,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
       "attribute": "minecraft:generic.armor",
-      "modify": 14,
+      "modify": 4,
       "operation": "ADDITION"
     },
     {
@@ -191,7 +196,7 @@
     },
     {
       "attribute": "minecraft:generic.knockback_resistance",
-      "modify": 0.6,
+      "modify": 0.85,
       "operation": "MULTIPLY_TOTAL"
     }
   ]
